@@ -1,0 +1,426 @@
+import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
+
+model AllVenues {
+	
+            venue1:Venue {
+            	.name : "SERA"
+            }
+	
+            venue2:Venue {
+            	.name : "SIGCOMM"
+            }
+	
+            venue3:Venue {
+            	.name : "CCS"
+            }
+	
+            venue4:Venue {
+            	.name : "OOPSLA"
+            }
+	
+            venue5:Venue {
+            	.name : "DRM"
+            }
+	
+            venue6:Venue {
+            	.name : "ISCA"
+            }
+	
+            venue7:Venue {
+            	.name : "ACMMM"
+            }
+	
+            venue8:Venue {
+            	.name : "SOSP"
+            }
+	
+            venue9:Venue {
+            	.name : "PEPM"
+            }
+	
+            venue10:Venue {
+            	.name : "TLDI"
+            }
+	
+            venue11:Venue {
+            	.name : "AsiaCCS"
+            }
+	
+            venue12:Venue {
+            	.name : "SSR"
+            }
+	
+            venue13:Venue {
+            	.name : "FMSE"
+            }
+	
+            venue14:Venue {
+            	.name : "HotSWUp"
+            }
+	
+            venue15:Venue {
+            	.name : "STC"
+            }
+	
+            venue16:Venue {
+            	.name : "POPL"
+            }
+	
+            venue17:Venue {
+            	.name : "PLDI"
+            }
+	
+            venue18:Venue {
+            	.name : "ICDSC"
+            }
+	
+            venue19:Venue {
+            	.name : "Middleware"
+            }
+	
+            venue20:Venue {
+            	.name : "AMAST"
+            }
+	
+            venue21:Venue {
+            	.name : "ACSAC"
+            }
+	
+            venue22:Venue {
+            	.name : "TRI-Ada"
+            }
+	
+            venue23:Venue {
+            	.name : "PKI"
+            }
+	
+            venue24:Venue {
+            	.name : "ASPLOS"
+            }
+	
+            venue25:Venue {
+            	.name : "APBC"
+            }
+	
+            venue26:Venue {
+            	.name : "APSEC"
+            }
+	
+            venue27:Venue {
+            	.name : "APLAS"
+            }
+	
+            venue28:Venue {
+            	.name : "AO-Asia"
+            }
+	
+            venue29:Venue {
+            	.name : "AOSD"
+            }
+	
+            venue30:Venue {
+            	.name : "CAADRIA"
+            }
+	
+            venue31:Venue {
+            	.name : "COMPUMOD"
+            }
+	
+            venue32:Venue {
+            	.name : "ACAC"
+            }
+	
+            venue33:Venue {
+            	.name : "ACSAC"
+            }
+	
+            venue34:Venue {
+            	.name : "KoalaPLoP"
+            }
+	
+            venue35:Venue {
+            	.name : "AISW-PET"
+            }
+	
+            venue36:Venue {
+            	.name : "AuRW"
+            }
+	
+            venue37:Venue {
+            	.name : "ACOSM"
+            }
+	
+            venue38:Venue {
+            	.name : "ASWEC"
+            }
+	
+            venue39:Venue {
+            	.name : "AUUG"
+            }
+	
+            venue40:Venue {
+            	.name : "AWRE"
+            }
+	
+            venue41:Venue {
+            	.name : "AWSA"
+            }
+	
+            venue42:Venue {
+            	.name : "ASE"
+            }
+	
+            venue43:Venue {
+            	.name : "CITB"
+            }
+	
+            venue44:Venue {
+            	.name : "CISIS"
+            }
+	
+            venue45:Venue {
+            	.name : "Agile"
+            }
+	
+            venue46:Venue {
+            	.name : "CFP"
+            }
+	
+            venue47:Venue {
+            	.name : "RFIDSec"
+            }
+	
+            venue48:Venue {
+            	.name : "SCN"
+            }
+	
+            venue49:Venue {
+            	.name : "SAR-SSI"
+            }
+	
+            venue50:Venue {
+            	.name : "DeSE"
+            }
+	
+            venue51:Venue {
+            	.name : "DSLSE"
+            }
+	
+            venue52:Venue {
+            	.name : "DSAL"
+            }
+	
+            venue53:Venue {
+            	.name : "DLS"
+            }
+	
+            venue54:Venue {
+            	.name : "EICS"
+            }
+	
+            venue55:Venue {
+            	.name : "SEAA"
+            }
+	
+            venue56:Venue {
+            	.name : "ECCB"
+            }
+	
+            venue57:Venue {
+            	.name : "ECOOP"
+            }
+	
+            venue58:Venue {
+            	.name : "EuroPLop"
+            }
+	
+            venue59:Venue {
+            	.name : "ECSA"
+            }
+	
+            venue60:Venue {
+            	.name : "CSMR"
+            }
+	
+            venue61:Venue {
+            	.name : "ELW"
+            }
+	
+            venue62:Venue {
+            	.name : "EUROPKI"
+            }
+	
+            venue63:Venue {
+            	.name : "ESEC/FSE"
+            }
+	
+            venue64:Venue {
+            	.name : "ESOP"
+            }
+	
+            venue65:Venue {
+            	.name : "ESORICS"
+            }
+	
+            venue66:Venue {
+            	.name : "ESAS"
+            }
+	
+            venue67:Venue {
+            	.name : "EuroSys"
+            }
+	
+            venue68:Venue {
+            	.name : "Extreme"
+            }
+	
+            venue69:Venue {
+            	.name : "FMSEDS"
+            }
+	
+            venue70:Venue {
+            	.name : "FOAL"
+            }
+	
+            venue71:Venue {
+            	.name : "FOSSACS"
+            }
+	
+            venue72:Venue {
+            	.name : "FDPE"
+            }
+	
+            venue73:Venue {
+            	.name : "FASE"
+            }
+	
+            venue74:Venue {
+            	.name : "DIMVA"
+            }
+	
+            venue75:Venue {
+            	.name : "HASKELL"
+            }
+	
+            venue76:Venue {
+            	.name : "CISTI"
+            }
+	
+            venue77:Venue {
+            	.name : "BIBE"
+            }
+	
+            venue78:Venue {
+            	.name : "CSB"
+            }
+	
+            venue79:Venue {
+            	.name : "CSF"
+            }
+	
+            venue80:Venue {
+            	.name : "EuroS&P"
+            }
+	
+            venue81:Venue {
+            	.name : "ICCL"
+            }
+	
+            venue82:Venue {
+            	.name : "ICCBSS"
+            }
+	
+            venue83:Venue {
+            	.name : "ICGSE"
+            }
+	
+            venue84:Venue {
+            	.name : "ISI"
+            }
+	
+            venue85:Venue {
+            	.name : "ICPC"
+            }
+	
+            venue86:Venue {
+            	.name : "ICSME"
+            }
+	
+            venue87:Venue {
+            	.name : "IOLTS"
+            }
+	
+            venue88:Venue {
+            	.name : "RE"
+            }
+	
+            venue89:Venue {
+            	.name : "HASE"
+            }
+	
+            venue90:Venue {
+            	.name : "ISPASS"
+            }
+	
+            venue91:Venue {
+            	.name : "SSNDS"
+            }
+	
+            venue92:Venue {
+            	.name : "SMS"
+            }
+	
+            venue93:Venue {
+            	.name : "MSR"
+            }
+	
+            venue94:Venue {
+            	.name : "SCAM"
+            }
+	
+            venue95:Venue {
+            	.name : "SEW"
+            }
+	
+            venue96:Venue {
+            	.name : "ARITH"
+            }
+	
+            venue97:Venue {
+            	.name : "FCCM"
+            }
+	
+            venue98:Venue {
+            	.name : "RSP"
+            }
+	
+            venue99:Venue {
+            	.name : "S&P"
+            }
+	
+            venue100:Venue {
+            	.name : "WCRE"
+            }
+	
+            venue101:Venue {
+            	.name : "DSN"
+            }
+	
+            venue102:Venue {
+            	.name : "TrustCom"
+            }
+	
+            venue103:Venue {
+            	.name : "SSC"
+            }
+	
+            venue104:Venue {
+            	.name : "PERFORMANCE"
+            }
+	
+            venue105:Venue {
+            	.name : "FORTE"
+            }
+	
+            venue106:Venue {
+   

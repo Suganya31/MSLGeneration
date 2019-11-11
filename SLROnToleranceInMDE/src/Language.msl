@@ -1,0 +1,19 @@
+metamodel Bibliography {
+	Author {
+		.firstName : EString
+		.lastName  : EString
+	}	
+	
+	Paper {
+		.title : EString
+		.year  : EInt
+		
+		-authors(1..*)->Author
+		-cites(0..*)->Paper
+		-venue(0..1)->Venue
+	}
+	
+	Venue {
+		.name : EString
+	}
+}
