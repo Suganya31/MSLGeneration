@@ -38,17 +38,17 @@ public class JsonParse {
 		File filename = new File("C:\\Users\\Suganya\\Downloads\\dblp.v11\\FinalDataset.txt");
 
 		JsonParser jp = f.createParser(filename);
-		PapersPojo paper = new PapersPojo();
 		List<PapersPojo> papers = new ArrayList<PapersPojo>();
 
 		while (jp.nextToken() != null) {
+			PapersPojo paper = new PapersPojo();
 
 			JsonNode node = jp.readValueAsTree();
 			JsonNode authors = node.path("authors");
 
 			String title = node.path("title").asText();
 			String id = node.path("id").asText();
-			String year = node.path("year").asText();
+			Integer year = Integer.parseInt(node.path("year").asText());
 
 			paper.setId(id);
 			paper.setTitle(title);
