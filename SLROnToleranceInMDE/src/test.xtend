@@ -15,8 +15,12 @@ import com.fasterxml.jackson.databind.MappingJsonFactory
 import java.util.Map
 import com.fasterxml.jackson.core.TreeNode
 import PapersPojo
+import java.util.regex.Matcher
+import java.util.regex.Pattern
 
 class test {
+	
+	 
 	public static var List<String> venues = new ArrayList
 
 	def static void main(String[] args) {
@@ -30,15 +34,16 @@ class test {
 	scanner.close();
 	//var writer = new PrintWriter("C:\\Users\\Suganya\\Desktop\\MSL_Generation\\GeneratedVenues.msl", "UTF-8");
 //
-		var writer = new PrintWriter("GeneratedAuthors.msl", "UTF-8");
+		var writer = new PrintWriter("src\\Papers.msl", "UTF-8");
 	
 //	println(instance.generateVenuesMSL)
 		var List<PapersPojo> papers = new ArrayList
 		papers = JsonParse.extractAuthors();
 		
-	//	writer.println(instance.generateVenuesMSL)
-			//writer.println(instance.generatePapersMSL(papers))
-			writer.println(instance.generateAuthorsMSL(papers))
+		//writer.println(instance.generateVenuesMSL)
+			writer.println(instance.generatePapersMSL(papers))
+			//writer.println(instance.generateAuthorsMSL(papers))
+			
 	
 	writer.close();
 		//println(instance.generatePapersMSL(papers));
@@ -78,21 +83,19 @@ model AllPapers -> AllAuthors, AllVenues {
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 
 model AllAuthors {
-		«FOR paper : papers»
+			«var s=PapersPojo.id_to_authors_global»
 	
-	«FOR a : paper.getId_to_authors.entrySet»
-	        «var fname=a.value.split("\\s").get(0)»
-	        «var lname=a.value.split("\\s").get(1)»
+	
+	«FOR a : s.entrySet»
+	        
+	        «var fname=getOnlyStrings(a.value.split("\\s").get(0))»
+	        «var lname=getOnlyStrings(a.value.split("\\s").get(1))»
 	        
             author«a.key»:Author {
             	.firstName : "«fname»"
-            	.lastName : "«lname»"
-            	
-            	
-            	
+            	.lastName : "«lname»"    	
             }
             «ENDFOR»
-        «ENDFOR»
     
 }
     '''
@@ -107,11 +110,18 @@ model AllVenues {
 	«FOR v : venues»
 	
             venue«i++»:Venue {
-            	.name : "«v»"
+            	.Name : "«v»"
             }
             «ENDFOR»
 }
     '''
 	}
+	
+	def static String getOnlyStrings(String s) {
+		    var pattern = Pattern.compile("[^a-z A-Z\\s]");
+		    var matcher = pattern.matcher(s);
+		    var name = matcher.replaceAll("");
+		    return name;
+		 }
 
 }

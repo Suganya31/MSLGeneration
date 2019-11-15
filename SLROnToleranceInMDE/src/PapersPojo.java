@@ -1,15 +1,18 @@
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 public class PapersPojo {
 	
 	
-	public List<String> getAuthors() {
+	public Set<String> getAuthors() {
 		return authors;
 	}
-	public void setAuthors(List<String> authors) {
-		this.authors = authors;
+	public void setAuthors(Set<String> authorId) {
+		this.authors = authorId;
 	}
 	public String getTitle() {
 		return title;
@@ -39,15 +42,21 @@ public class PapersPojo {
 	int year;
 	String id;
 	List<String> references= new ArrayList<String>();
-	List<String> authors= new ArrayList<String>();
-	HashMap<String, String> id_to_authors = new HashMap<String, String>();
+	Set<String> authors= new HashSet<String>();
+	Map<String, String> id_to_authors = new HashMap<String, String>();
 
-	public HashMap<String, String> getId_to_authors() {
+	public Map<String, String> getId_to_authors() {
 		return id_to_authors;
 	}
-	public void setId_to_authors(HashMap<String, String> id_to_authors) {
-		this.id_to_authors = id_to_authors;
+	public void setId_to_authors(Map<String, String> id_to_authors2) {
+		this.id_to_authors = id_to_authors2;
 	}
+	
+	
+	static Map<String, String> id_to_authors_global = new HashMap<String, String>();
+
+
+
 
 
 

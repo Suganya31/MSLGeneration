@@ -5,15 +5,14 @@ metamodel Bibliography {
 	}	
 	
 	Paper {
-		.title : EString
-		.year  : EInt
-		
 		-authors(1..*)->Author
 		-cites(0..*)->Paper
-		-venue(0..1)->Venue
+		.title : EString
+		.year  : EInt
 	}
 	
 	Venue {
-		.name : EString
-	}
+		.Name : EString
+	}	
+	
 }
