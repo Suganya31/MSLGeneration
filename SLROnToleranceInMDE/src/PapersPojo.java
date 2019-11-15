@@ -39,6 +39,13 @@ public class PapersPojo {
 		this.references = references;
 	}
 	String title;
+	String venue;
+	public String getVenue() {
+		return venue;
+	}
+	public void setVenue(String venue) {
+		this.venue = venue;
+	}
 	int year;
 	String id;
 	List<String> references= new ArrayList<String>();

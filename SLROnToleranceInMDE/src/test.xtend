@@ -27,11 +27,11 @@ class test {
 		val instance = new test;
 		var id_to_authors = new HashMap<String, String>();
 
-	var scanner = new Scanner(new File("venuescode.txt"));
-	while (scanner.hasNext()) {
-		venues.add(scanner.next());
-	}
-	scanner.close();
+//	var scanner = new Scanner(new File("venuescode.txt"));
+//	while (scanner.hasNext()) {
+//		venues.add(scanner.next());
+//	}
+//	scanner.close();
 	//var writer = new PrintWriter("C:\\Users\\Suganya\\Desktop\\MSL_Generation\\GeneratedVenues.msl", "UTF-8");
 //
 		var writer = new PrintWriter("src\\Papers.msl", "UTF-8");
@@ -40,7 +40,7 @@ class test {
 		var List<PapersPojo> papers = new ArrayList
 		papers = JsonParse.extractAuthors();
 		
-		//writer.println(instance.generateVenuesMSL)
+		//writer.println(instance.generateVenuesMSL(papers))
 			writer.println(instance.generatePapersMSL(papers))
 			//writer.println(instance.generateAuthorsMSL(papers))
 			
@@ -65,11 +65,12 @@ model AllPapers -> AllAuthors, AllVenues {
 	        paper«paper.getId()»:Paper {
                 .title : "«paper.getTitle()»"
             	.year : «paper.getYear()»
+            	.venue : "«paper.getVenue()»"
             	«FOR reference : paper.getReferences()»
-            		   -cites->$«reference»
+            		   -cites->paper«reference»
             	«ENDFOR»
             	«FOR author : paper.getAuthors()»
-            	        -authors->$«author»
+            	       -authors->author«author»
             	 «ENDFOR»
             }
     «ENDFOR»
@@ -84,14 +85,10 @@ import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 
 model AllAuthors {
 			«var s=PapersPojo.id_to_authors_global»
-	
-	
-	«FOR a : s.entrySet»
-	        
+		«FOR a : s.entrySet»
 	        «var fname=getOnlyStrings(a.value.split("\\s").get(0))»
 	        «var lname=getOnlyStrings(a.value.split("\\s").get(1))»
-	        
-            author«a.key»:Author {
+	             author«a.key»:Author {
             	.firstName : "«fname»"
             	.lastName : "«lname»"    	
             }
@@ -101,16 +98,16 @@ model AllAuthors {
     '''
 	}
 
-	def String generateVenuesMSL() {
+	def String generateVenuesMSL(List<PapersPojo> papers) {
 		var i = 1;
 		'''
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 
 model AllVenues {
-	«FOR v : venues»
+	«FOR paper : papers»
 	
             venue«i++»:Venue {
-            	.Name : "«v»"
+            	.Name : "«paper.getVenue»"
             }
             «ENDFOR»
 }

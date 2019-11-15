@@ -3,1083 +3,691 @@ import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 model AllVenues {
 	
             venue1:Venue {
-            	.Name : "SERA"
+            	.Name : "international conference on computer safety reliability and security"
             }
 	
             venue2:Venue {
-            	.Name : "SIGCOMM"
+            	.Name : "working conference on reverse engineering"
             }
 	
             venue3:Venue {
-            	.Name : "CCS"
+            	.Name : "fundamental approaches to software engineering"
             }
 	
             venue4:Venue {
-            	.Name : "OOPSLA"
+            	.Name : "principles and practice of constraint programming"
             }
 	
             venue5:Venue {
-            	.Name : "DRM"
+            	.Name : "fundamental approaches to software engineering"
             }
 	
             venue6:Venue {
-            	.Name : "ISCA"
+            	.Name : "runtime verification"
             }
 	
             venue7:Venue {
-            	.Name : "ACMMM"
+            	.Name : "european symposium on research in computer security"
             }
 	
             venue8:Venue {
-            	.Name : "SOSP"
+            	.Name : "algebraic methodology and software technology"
             }
 	
             venue9:Venue {
-            	.Name : "PEPM"
+            	.Name : "model driven engineering languages and systems"
             }
 	
             venue10:Venue {
-            	.Name : "TLDI"
+            	.Name : "fundamental approaches to software engineering"
             }
 	
             venue11:Venue {
-            	.Name : "AsiaCCS"
+            	.Name : "dependable systems and networks"
             }
 	
             venue12:Venue {
-            	.Name : "SSR"
+            	.Name : "fundamental approaches to software engineering"
             }
 	
             venue13:Venue {
-            	.Name : "FMSE"
+            	.Name : "international conference on computer safety reliability and security"
             }
 	
             venue14:Venue {
-            	.Name : "HotSWUp"
+            	.Name : "model driven engineering languages and systems"
             }
 	
             venue15:Venue {
-            	.Name : "STC"
+            	.Name : "tools and algorithms for construction and analysis of systems"
             }
 	
             venue16:Venue {
-            	.Name : "POPL"
+            	.Name : "model driven engineering languages and systems"
             }
 	
             venue17:Venue {
-            	.Name : "PLDI"
+            	.Name : "tests and proofs"
             }
 	
             venue18:Venue {
-            	.Name : "ICDSC"
+            	.Name : "international symposium on software reliability engineering"
             }
 	
             venue19:Venue {
-            	.Name : "Middleware"
+            	.Name : "computer software and applications conference"
             }
 	
             venue20:Venue {
-            	.Name : "AMAST"
+            	.Name : "model driven engineering languages and systems"
             }
 	
             venue21:Venue {
-            	.Name : "ACSAC"
+            	.Name : "model driven engineering languages and systems"
             }
 	
             venue22:Venue {
-            	.Name : "TRI-Ada"
+            	.Name : "european conference on software architecture"
             }
 	
             venue23:Venue {
-            	.Name : "PKI"
+            	.Name : "international conference on global software engineering"
             }
 	
             venue24:Venue {
-            	.Name : "ASPLOS"
+            	.Name : "international symposium on microarchitecture"
             }
 	
             venue25:Venue {
-            	.Name : "APBC"
+            	.Name : "automated software engineering"
             }
 	
             venue26:Venue {
-            	.Name : "APSEC"
+            	.Name : "scalable trusted computing"
             }
 	
             venue27:Venue {
-            	.Name : "APLAS"
+            	.Name : "rapid system prototyping"
             }
 	
             venue28:Venue {
-            	.Name : "AO-Asia"
+            	.Name : "model driven engineering languages and systems"
             }
 	
             venue29:Venue {
-            	.Name : "AOSD"
+            	.Name : "computer software and applications conference"
             }
 	
             venue30:Venue {
-            	.Name : "CAADRIA"
+            	.Name : "model driven engineering languages and systems"
             }
 	
             venue31:Venue {
-            	.Name : "COMPUMOD"
+            	.Name : "principles and practice of declarative programming"
             }
 	
             venue32:Venue {
-            	.Name : "ACAC"
+            	.Name : "symposium on operating systems principles"
             }
 	
             venue33:Venue {
-            	.Name : "ACSAC"
+            	.Name : "international conference on software testing verification and validation"
             }
 	
             venue34:Venue {
-            	.Name : "KoalaPLoP"
+            	.Name : "Proceedings of the 5th International Workshop on Modeling in Software Engineering"
             }
 	
             venue35:Venue {
-            	.Name : "AISW-PET"
+            	.Name : "model driven engineering languages and systems"
             }
 	
             venue36:Venue {
-            	.Name : "AuRW"
+            	.Name : "dependable systems and networks"
             }
 	
             venue37:Venue {
-            	.Name : "ACOSM"
+            	.Name : "symposium on operating systems principles"
             }
 	
             venue38:Venue {
-            	.Name : "ASWEC"
+            	.Name : "international conference on software engineering"
             }
 	
             venue39:Venue {
-            	.Name : "AUUG"
+            	.Name : "automated software engineering"
             }
 	
             venue40:Venue {
-            	.Name : "AWRE"
+            	.Name : "international conference on software engineering"
             }
 	
             venue41:Venue {
-            	.Name : "AWSA"
+            	.Name : "security of information and networks"
             }
 	
             venue42:Venue {
-            	.Name : "ASE"
+            	.Name : "computational intelligence and security"
             }
 	
             venue43:Venue {
-            	.Name : "CITB"
+            	.Name : "conference on software maintenance and reengineering"
             }
 	
             venue44:Venue {
-            	.Name : "CISIS"
+            	.Name : "automated software engineering"
             }
 	
             venue45:Venue {
-            	.Name : "Agile"
+            	.Name : "model driven engineering languages and systems"
             }
 	
             venue46:Venue {
-            	.Name : "CFP"
+            	.Name : "international conference on information and communication security"
             }
 	
             venue47:Venue {
-            	.Name : "RFIDSec"
+            	.Name : "model driven engineering languages and systems"
             }
 	
             venue48:Venue {
-            	.Name : "SCN"
+            	.Name : "model driven engineering languages and systems"
             }
 	
             venue49:Venue {
-            	.Name : "SAR-SSI"
+            	.Name : "computer software and applications conference"
             }
 	
             venue50:Venue {
-            	.Name : "DeSE"
+            	.Name : "model driven engineering languages and systems"
             }
 	
             venue51:Venue {
-            	.Name : "DSLSE"
+            	.Name : "bioinformatics and bioengineering"
             }
 	
             venue52:Venue {
-            	.Name : "DSAL"
+            	.Name : "requirements engineering"
             }
 	
             venue53:Venue {
-            	.Name : "DLS"
+            	.Name : "availability, reliability and security"
             }
 	
             venue54:Venue {
-            	.Name : "EICS"
+            	.Name : "ieee international conference on high performance computing data and analytics"
             }
 	
             venue55:Venue {
-            	.Name : "SEAA"
+            	.Name : "model driven engineering languages and systems"
             }
 	
             venue56:Venue {
-            	.Name : "ECCB"
+            	.Name : "computer software and applications conference"
             }
 	
             venue57:Venue {
-            	.Name : "ECOOP"
+            	.Name : "model driven engineering languages and systems"
             }
 	
             venue58:Venue {
-            	.Name : "EuroPLop"
+            	.Name : "symposium on operating systems principles"
             }
 	
             venue59:Venue {
-            	.Name : "ECSA"
+            	.Name : "international symposium on computer architecture"
             }
 	
             venue60:Venue {
-            	.Name : "CSMR"
+            	.Name : "engineering interactive computing system"
             }
 	
             venue61:Venue {
-            	.Name : "ELW"
+            	.Name : "ieee international conference on requirements engineering"
             }
 	
             venue62:Venue {
-            	.Name : "EUROPKI"
+            	.Name : "ieee international conference on requirements engineering"
             }
 	
             venue63:Venue {
-            	.Name : "ESEC/FSE"
+            	.Name : "high-assurance systems engineering"
             }
 	
             venue64:Venue {
-            	.Name : "ESOP"
+            	.Name : "automated software engineering"
             }
 	
             venue65:Venue {
-            	.Name : "ESORICS"
+            	.Name : "computational intelligence and security"
             }
 	
             venue66:Venue {
-            	.Name : "ESAS"
+            	.Name : "high assurance systems engineering"
             }
 	
             venue67:Venue {
-            	.Name : "EuroSys"
+            	.Name : "international conference on software and system process"
             }
 	
             venue68:Venue {
-            	.Name : "Extreme"
+            	.Name : "symposium on principles of programming languages"
             }
 	
             venue69:Venue {
-            	.Name : "FMSEDS"
+            	.Name : "theoretical aspects of software engineering"
             }
 	
             venue70:Venue {
-            	.Name : "FOAL"
+            	.Name : "international conference on software engineering"
             }
 	
             venue71:Venue {
-            	.Name : "FOSSACS"
+            	.Name : "asia-pacific software engineering conference"
             }
 	
             venue72:Venue {
-            	.Name : "FDPE"
+            	.Name : "asia-pacific software engineering conference"
             }
 	
             venue73:Venue {
-            	.Name : "FASE"
+            	.Name : "dependable systems and networks"
             }
 	
             venue74:Venue {
-            	.Name : "DIMVA"
+            	.Name : "computer software and applications conference"
             }
 	
             venue75:Venue {
-            	.Name : "HASKELL"
+            	.Name : "high-assurance systems engineering"
             }
 	
             venue76:Venue {
-            	.Name : "CISTI"
+            	.Name : "international conference on quality software"
             }
 	
             venue77:Venue {
-            	.Name : "BIBE"
+            	.Name : "international conference on software engineering advances"
             }
 	
             venue78:Venue {
-            	.Name : "CSB"
+            	.Name : "international conference on software engineering"
             }
 	
             venue79:Venue {
-            	.Name : "CSF"
+            	.Name : "international conference on software engineering"
             }
 	
             venue80:Venue {
-            	.Name : "EuroS&P"
+            	.Name : "bioinformatics and bioengineering"
             }
 	
             venue81:Venue {
-            	.Name : "ICCL"
+            	.Name : "high-assurance systems engineering"
             }
 	
             venue82:Venue {
-            	.Name : "ICCBSS"
+            	.Name : "computer software and applications conference"
             }
 	
             venue83:Venue {
-            	.Name : "ICGSE"
+            	.Name : "automated software engineering"
             }
 	
             venue84:Venue {
-            	.Name : "ISI"
+            	.Name : "automated software engineering"
             }
 	
             venue85:Venue {
-            	.Name : "ICPC"
+            	.Name : "international conference on quality software"
             }
 	
             venue86:Venue {
-            	.Name : "ICSME"
+            	.Name : "computer software and applications conference"
             }
 	
             venue87:Venue {
-            	.Name : "IOLTS"
+            	.Name : "dependable systems and networks"
             }
 	
             venue88:Venue {
-            	.Name : "RE"
+            	.Name : "annual software engineering workshop"
             }
 	
             venue89:Venue {
-            	.Name : "HASE"
+            	.Name : "international conference on software engineering"
             }
 	
             venue90:Venue {
-            	.Name : "ISPASS"
+            	.Name : "dependable systems and networks"
             }
 	
             venue91:Venue {
-            	.Name : "SSNDS"
+            	.Name : "automated software engineering"
             }
 	
             venue92:Venue {
-            	.Name : "SMS"
+            	.Name : "model driven engineering languages and systems"
             }
 	
             venue93:Venue {
-            	.Name : "MSR"
+            	.Name : "model driven engineering languages and systems"
             }
 	
             venue94:Venue {
-            	.Name : "SCAM"
+            	.Name : "working conference on reverse engineering"
             }
 	
             venue95:Venue {
-            	.Name : "SEW"
+            	.Name : "international conference on software engineering"
             }
 	
             venue96:Venue {
-            	.Name : "ARITH"
+            	.Name : "ABZ'12 Proceedings of the Third international conference on Abstract State Machines, Alloy, B, VDM, and Z"
             }
 	
             venue97:Venue {
-            	.Name : "FCCM"
+            	.Name : "asia-pacific software engineering conference"
             }
 	
             venue98:Venue {
-            	.Name : "RSP"
+            	.Name : "international conference on software testing, verification, and validation"
             }
 	
             venue99:Venue {
-            	.Name : "S&P"
+            	.Name : "computer software and applications conference"
             }
 	
             venue100:Venue {
-            	.Name : "WCRE"
+            	.Name : "asia-pacific software engineering conference"
             }
 	
             venue101:Venue {
-            	.Name : "DSN"
+            	.Name : "programming language design and implementation"
             }
 	
             venue102:Venue {
-            	.Name : "TrustCom"
+            	.Name : "international workshop on security"
             }
 	
             venue103:Venue {
-            	.Name : "SSC"
+            	.Name : "availability, reliability and security"
             }
 	
             venue104:Venue {
-            	.Name : "PERFORMANCE"
+            	.Name : "asia-pacific software engineering conference"
             }
 	
             venue105:Venue {
-            	.Name : "FORTE"
+            	.Name : "computer software and applications conference"
             }
 	
             venue106:Venue {
-            	.Name : "DBSEC"
+            	.Name : "international conference on software engineering"
             }
 	
             venue107:Venue {
-            	.Name : "CD"
+            	.Name : "model driven engineering languages and systems"
             }
 	
             venue108:Venue {
-            	.Name : "ISPEC"
+            	.Name : "software engineering and knowledge engineering"
             }
 	
             venue109:Venue {
-            	.Name : "CERIAS"
+            	.Name : "dependable systems and networks"
             }
 	
             venue110:Venue {
-            	.Name : "ISEAT"
+            	.Name : "international conference on software engineering"
             }
 	
             venue111:Venue {
-            	.Name : "ISMB"
+            	.Name : "international on line testing symposium"
             }
 	
             venue112:Venue {
-            	.Name : "COMPSAC"
+            	.Name : "requirements engineering foundation for software quality"
             }
 	
             venue113:Venue {
-            	.Name : "ABZ"
+            	.Name : "availability, reliability and security"
             }
 	
             venue114:Venue {
-            	.Name : "ICSSP"
+            	.Name : "high-assurance systems engineering"
             }
 	
             venue115:Venue {
-            	.Name : "XP"
+            	.Name : "international conference on model transformation"
             }
 	
             venue116:Venue {
-            	.Name : "ACNS"
+            	.Name : "model driven engineering languages and systems"
             }
 	
             venue117:Venue {
-            	.Name : "ATC"
+            	.Name : "tests and proofs"
             }
 	
             venue118:Venue {
-            	.Name : "ARES"
+            	.Name : "international conference on software reuse"
             }
 	
             venue119:Venue {
-            	.Name : "COMSWARE"
+            	.Name : "international symposium on microarchitecture"
             }
 	
             venue120:Venue {
-            	.Name : "CC"
+            	.Name : "automated technology for verification and analysis"
             }
 	
             venue121:Venue {
-            	.Name : "CIS"
+            	.Name : "high-assurance systems engineering"
             }
 	
             venue122:Venue {
-            	.Name : "SAFECOMP"
+            	.Name : "high-assurance systems engineering"
             }
 	
             venue123:Venue {
-            	.Name : "Coordination"
+            	.Name : "architectural support for programming languages and operating systems"
             }
 	
             venue124:Venue {
-            	.Name : "CANS"
+            	.Name : "international on-line testing symposium"
             }
 	
             venue125:Venue {
-            	.Name : "CFET"
+            	.Name : "european conference on software architecture"
             }
 	
             venue126:Venue {
-            	.Name : "DEPCoS"
+            	.Name : "software engineering research and applications"
             }
 	
             venue127:Venue {
-            	.Name : "DASC"
+            	.Name : "software engineering and knowledge engineering"
             }
 	
             venue128:Venue {
-            	.Name : "EASE"
+            	.Name : "international conference on computer safety, reliability, and security"
             }
 	
             venue129:Venue {
-            	.Name : "ENASE"
+            	.Name : "asian symposium on programming languages and systems"
             }
 	
             venue130:Venue {
-            	.Name : "FEM"
+            	.Name : "fundamental approaches to software engineering"
             }
 	
             venue131:Venue {
-            	.Name : "ICFP"
+            	.Name : "international symposium on memory management"
             }
 	
             venue132:Venue {
-            	.Name : "GPCE"
+            	.Name : "international symposium on computer architecture"
             }
 	
             venue133:Venue {
-            	.Name : "ICICS"
+            	.Name : "availability, reliability and security"
             }
 	
             venue134:Venue {
-            	.Name : "ISA"
+            	.Name : "principles and practice of constraint programming"
             }
 	
             venue135:Venue {
-            	.Name : "ICISS"
+            	.Name : "computer software and applications conference"
             }
 	
             venue136:Venue {
-            	.Name : "ITCC"
+            	.Name : "computer software and applications conference"
             }
 	
             venue137:Venue {
-            	.Name : "ICITS"
+            	.Name : "international symposium on software reliability engineering"
             }
 	
             venue138:Venue {
-            	.Name : "SoMeT"
+            	.Name : "asia-pacific software engineering conference"
             }
 	
             venue139:Venue {
-            	.Name : "ICIMP"
+            	.Name : "international conference on evaluation of novel approaches to software engineering"
             }
 	
             venue140:Venue {
-            	.Name : "MPLR"
+            	.Name : "international conference on software engineering"
             }
 	
             venue141:Venue {
-            	.Name : "MEDES"
+            	.Name : "international conference on software and system process"
             }
 	
             venue142:Venue {
-            	.Name : "MODELS"
+            	.Name : "international conference on software testing verification and validation"
             }
 	
             venue143:Venue {
-            	.Name : "ICMT"
+            	.Name : "computer software and applications conference"
             }
 	
             venue144:Venue {
-            	.Name : "NSS"
+            	.Name : "international conference on software engineering"
             }
 	
             venue145:Venue {
-            	.Name : "PKC"
+            	.Name : "model driven engineering languages and systems"
             }
 	
             venue146:Venue {
-            	.Name : "CP"
+            	.Name : "model driven engineering languages and systems"
             }
 	
             venue147:Venue {
-            	.Name : "PPDP"
+            	.Name : "cryptographic hardware and embedded systems"
             }
 	
             venue148:Venue {
-            	.Name : "POST"
+            	.Name : "international conference on software engineering"
             }
 	
             venue149:Venue {
-            	.Name : "ProvSec"
+            	.Name : "international symposium on computer modeling, measurement and evaluation"
             }
 	
             venue150:Venue {
-            	.Name : "QSIC"
+            	.Name : "software engineering and knowledge engineering"
             }
 	
             venue151:Venue {
-            	.Name : "Ada-Europe"
+            	.Name : "software engineering and knowledge engineering"
             }
 	
             venue152:Venue {
-            	.Name : "CRiSIS"
+            	.Name : "international software process workshop"
             }
 	
             venue153:Venue {
-            	.Name : "RV"
+            	.Name : "software engineering and knowledge engineering"
             }
 	
             venue154:Venue {
-            	.Name : "SecureComm"
+            	.Name : "software engineering and knowledge engineering"
             }
 	
             venue155:Venue {
-            	.Name : "SIN"
+            	.Name : "symposium on principles of programming languages"
             }
 	
             venue156:Venue {
-            	.Name : "ICSoft"
+            	.Name : "symposium on principles of programming languages"
             }
 	
             venue157:Venue {
-            	.Name : "ICSA"
+            	.Name : "MODELS (Satellite Events)"
             }
 	
             venue158:Venue {
-            	.Name : "SC"
+            	.Name : "MODELS (Satellite Events)"
             }
 	
             venue159:Venue {
-            	.Name : "SWDC"
+            	.Name : "MODELS (Satellite Events)"
             }
 	
             venue160:Venue {
-            	.Name : "ICSE"
+            	.Name : "MODELS (Satellite Events)"
             }
 	
             venue161:Venue {
-            	.Name : "ICSEA"
+            	.Name : "MODELS (Satellite Events)"
             }
 	
             venue162:Venue {
-            	.Name : "SEFM"
+            	.Name : "software engineering and knowledge engineering"
             }
 	
             venue163:Venue {
-            	.Name : "SEKE"
+            	.Name : "software engineering and knowledge engineering"
             }
 	
             venue164:Venue {
-            	.Name : "SETP"
+            	.Name : "algebraic methodology and software technology"
             }
 	
             venue165:Venue {
-            	.Name : "SLE"
+            	.Name : "international symposium on memory management"
             }
 	
             venue166:Venue {
-            	.Name : "SQM"
+            	.Name : "Proceedings of the 5th International Workshop on Modeling in Software Engineering"
             }
 	
             venue167:Venue {
-            	.Name : "ICSR"
+            	.Name : "research challenges in information science"
             }
 	
             venue168:Venue {
-            	.Name : "ICST"
+            	.Name : "international conference on quality software"
             }
 	
             venue169:Venue {
-            	.Name : "ISCEng"
+            	.Name : "international symposium on computer architecture"
             }
 	
             venue170:Venue {
-            	.Name : "TAP"
+            	.Name : "8th International Conference on Evaluation of Novel Software Approaches to Software Engineering"
             }
 	
             venue171:Venue {
-            	.Name : "QUATIC"
+            	.Name : "asia-pacific software engineering conference"
             }
 	
             venue172:Venue {
-            	.Name : "iTrust"
-            }
-	
-            venue173:Venue {
-            	.Name : "TrustBus"
-            }
-	
-            venue174:Venue {
-            	.Name : "VEE"
-            }
-	
-            venue175:Venue {
-            	.Name : "ICSSEA"
-            }
-	
-            venue176:Venue {
-            	.Name : "SISW"
-            }
-	
-            venue177:Venue {
-            	.Name : "SE"
-            }
-	
-            venue178:Venue {
-            	.Name : "TAPSOFT"
-            }
-	
-            venue179:Venue {
-            	.Name : "IPythC"
-            }
-	
-            venue180:Venue {
-            	.Name : "ATVA"
-            }
-	
-            venue181:Venue {
-            	.Name : "CGO"
-            }
-	
-            venue182:Venue {
-            	.Name : "ISDPE"
-            }
-	
-            venue183:Venue {
-            	.Name : "ISESE"
-            }
-	
-            venue184:Venue {
-            	.Name : "ESEM"
-            }
-	
-            venue185:Venue {
-            	.Name : "ISFST"
-            }
-	
-            venue186:Venue {
-            	.Name : "HPCA"
-            }
-	
-            venue187:Venue {
-            	.Name : "ISMM"
-            }
-	
-            venue188:Venue {
-            	.Name : "MICRO"
-            }
-	
-            venue189:Venue {
-            	.Name : "ISOTAS"
-            }
-	
-            venue190:Venue {
-            	.Name : "ISSRE"
-            }
-	
-            venue191:Venue {
-            	.Name : "ISSTA"
-            }
-	
-            venue192:Venue {
-            	.Name : "TASE"
-            }
-	
-            venue193:Venue {
-            	.Name : "WIKISYM"
-            }
-	
-            venue194:Venue {
-            	.Name : "PET"
-            }
-	
-            venue195:Venue {
-            	.Name : "INEX"
-            }
-	
-            venue196:Venue {
-            	.Name : "IWACO"
-            }
-	
-            venue197:Venue {
-            	.Name : "C#"
-            }
-	
-            venue198:Venue {
-            	.Name : "CERE"
-            }
-	
-            venue199:Venue {
-            	.Name : "IWCASE"
-            }
-	
-            venue200:Venue {
-            	.Name : "CRITIS"
-            }
-	
-            venue201:Venue {
-            	.Name : "IWDOM"
-            }
-	
-            venue202:Venue {
-            	.Name : "EDSER"
-            }
-	
-            venue203:Venue {
-            	.Name : "FOOL"
-            }
-	
-            venue204:Venue {
-            	.Name : "WISA"
-            }
-	
-            venue205:Venue {
-            	.Name : "WITS"
-            }
-	
-            venue206:Venue {
-            	.Name : "MUSE"
-            }
-	
-            venue207:Venue {
-            	.Name : "MISE"
-            }
-	
-            venue208:Venue {
-            	.Name : "IWPT"
-            }
-	
-            venue209:Venue {
-            	.Name : "REBSE"
-            }
-	
-            venue210:Venue {
-            	.Name : "REFSQ"
-            }
-	
-            venue211:Venue {
-            	.Name : "X-Schemas"
-            }
-	
-            venue212:Venue {
-            	.Name : "IWSEC"
-            }
-	
-            venue213:Venue {
-            	.Name : "WOSIS"
-            }
-	
-            venue214:Venue {
-            	.Name : "IWSP"
-            }
-	
-            venue215:Venue {
-            	.Name : "IWSPM"
-            }
-	
-            venue216:Venue {
-            	.Name : "VizSec"
-            }
-	
-            venue217:Venue {
-            	.Name : "JMLC"
-            }
-	
-            venue218:Venue {
-            	.Name : "CMS"
-            }
-	
-            venue219:Venue {
-            	.Name : "LDTA"
-            }
-	
-            venue220:Venue {
-            	.Name : "Onward"
-            }
-	
-            venue221:Venue {
-            	.Name : "PSB"
-            }
-	
-            venue222:Venue {
-            	.Name : "PLOP"
-            }
-	
-            venue223:Venue {
-            	.Name : "PT"
-            }
-	
-            venue224:Venue {
-            	.Name : "PADL"
-            }
-	
-            venue225:Venue {
-            	.Name : "PLATE"
-            }
-	
-            venue226:Venue {
-            	.Name : "PSC"
-            }
-	
-            venue227:Venue {
-            	.Name : "PDK"
-            }
-	
-            venue228:Venue {
-            	.Name : "PROFES"
-            }
-	
-            venue229:Venue {
-            	.Name : "PLAN-X"
-            }
-	
-            venue230:Venue {
-            	.Name : "RAM-SE"
-            }
-	
-            venue231:Venue {
-            	.Name : "RAOOL"
-            }
-	
-            venue232:Venue {
-            	.Name : "SOCCER"
-            }
-	
-            venue233:Venue {
-            	.Name : "SPICE"
-            }
-	
-            venue234:Venue {
-            	.Name : "SQC"
-            }
-	
-            venue235:Venue {
-            	.Name : "STEP"
-            }
-	
-            venue236:Venue {
-            	.Name : "AQSDT"
-            }
-	
-            venue237:Venue {
-            	.Name : "SOUPS"
-            }
-	
-            venue238:Venue {
-            	.Name : "SETE"
-            }
-	
-            venue239:Venue {
-            	.Name : "TOOLS"
-            }
-	
-            venue240:Venue {
-            	.Name : "VECoS"
-            }
-	
-            venue241:Venue {
-            	.Name : "TACAS"
-            }
-	
-            venue242:Venue {
-            	.Name : "SDSDI"
-            }
-	
-            venue243:Venue {
-            	.Name : "USEC"
-            }
-	
-            venue244:Venue {
-            	.Name : "NDSS"
-            }
-	
-            venue245:Venue {
-            	.Name : "USENIX-Security"
-            }
-	
-            venue246:Venue {
-            	.Name : "OSDI"
-            }
-	
-            venue247:Venue {
-            	.Name : "UWNTS"
-            }
-	
-            venue248:Venue {
-            	.Name : "HotOS"
-            }
-	
-            venue249:Venue {
-            	.Name : "VMCAI"
-            }
-	
-            venue250:Venue {
-            	.Name : "VLFM"
-            }
-	
-            venue251:Venue {
-            	.Name : "WISTP"
-            }
-	
-            venue252:Venue {
-            	.Name : "Early"
-            }
-	
-            venue253:Venue {
-            	.Name : "Aspects"
-            }
-	
-            venue254:Venue {
-            	.Name : "AOM"
-            }
-	
-            venue255:Venue {
-            	.Name : "ACP4IS"
-            }
-	
-            venue256:Venue {
-            	.Name : "DSN"
-            }
-	
-            venue257:Venue {
-            	.Name : "WCOP"
-            }
-	
-            venue258:Venue {
-            	.Name : "CHES"
-            }
-	
-            venue259:Venue {
-            	.Name : "DP-COOL"
-            }
-	
-            venue260:Venue {
-            	.Name : "DSM"
-            }
-	
-            venue261:Venue {
-            	.Name : "WDDD"
-            }
-	
-            venue262:Venue {
-            	.Name : "FTJP"
-            }
-	
-            venue263:Venue {
-            	.Name : "JHPC"
-            }
-	
-            venue264:Venue {
-            	.Name : "MPOOL"
-            }
-	
-            venue265:Venue {
-            	.Name : "OODBS"
-            }
-	
-            venue266:Venue {
-            	.Name : "WOOD"
-            }
-	
-            venue267:Venue {
-            	.Name : "PADD"
-            }
-	
-            venue268:Venue {
-            	.Name : "HotPower"
-            }
-	
-            venue269:Venue {
-            	.Name : "PLOS"
-            }
-	
-            venue270:Venue {
-            	.Name : "WorldCIST"
+            	.Name : "international conference on software testing verification and validation"
             }
 }
 
