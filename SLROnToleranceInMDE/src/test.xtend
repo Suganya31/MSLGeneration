@@ -63,17 +63,27 @@ model AllPapers -> AllAuthors, AllVenues {
 	
 	       
 	        paper«paper.getId()»:Paper {
-                .title : "«paper.getTitle()»"
+                .title : "«getOnlyStrings(paper.getTitle())»"
             	.year : «paper.getYear()»
             	.venue : "«paper.getVenue()»"
             	«FOR reference : paper.getReferences()»
             		   -cites->paper«reference»
             	«ENDFOR»
             	«FOR author : paper.getAuthors()»
-            	       -authors->author«author»
+            	       -authors->$author«author»
             	 «ENDFOR»
             }
     «ENDFOR»
+    			«var s=PapersPojo.dummypaperids»
+    				«FOR a : s»
+    				 paper«a»:Paper {
+    				 	.title : ""
+    				    .year : 0000
+    				    .venue : ""    				           
+    				            }
+    				    «ENDFOR»
+    			
+    
 }
     '''
 	}

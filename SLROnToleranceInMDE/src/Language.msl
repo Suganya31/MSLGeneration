@@ -5,10 +5,11 @@ metamodel Bibliography {
 	}	
 	
 	Paper {
-		-authors(1..*)->Author
+		-authors(0..*)->Author
 		-cites(0..*)->Paper
 		.title : EString
 		.year  : EInt
+		.venue : EString
 	}
 	
 	Venue {

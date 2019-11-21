@@ -61,6 +61,9 @@ public class PapersPojo {
 	
 	
 	static Map<String, String> id_to_authors_global = new HashMap<String, String>();
+	static Set<String> dummypaperids= new HashSet<String>();
+	
+
 
 
 

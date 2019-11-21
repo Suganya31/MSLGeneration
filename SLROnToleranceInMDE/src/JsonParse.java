@@ -43,6 +43,10 @@ public class JsonParse {
 		JsonParser jp = f.createParser(filename);
 		List<PapersPojo> papers = new ArrayList<PapersPojo>();
 		Map<String, String> id_to_authors_global = new HashMap<String, String>();
+		Set<String> dummypaperids = new HashSet<String>();
+		Set<String> paperids = new HashSet<String>();
+
+
 
 		while (jp.nextToken() != null) {
 			PapersPojo paper = new PapersPojo();
@@ -52,11 +56,18 @@ public class JsonParse {
 			JsonNode authors = node.path("authors");
 
 			String title = node.path("title").asText();
+			JsonNode venuenode = node.path("venue");
+			String venue=venuenode.findPath("raw").asText();
+
+
 			String id = node.path("id").asText();
 			Integer year = Integer.parseInt(node.path("year").asText());
+			paperids.add(id);
 
 			paper.setId(id);
 			paper.setTitle(title);
+			paper.setVenue(venue);
+
 			paper.setYear(year);
 
 			ArrayNode arrayNode = (ArrayNode) authors;
@@ -70,6 +81,8 @@ public class JsonParse {
 				paper.setReferences(references);
 
 			}
+			for(String r:paper.getReferences())
+				dummypaperids.add(r);
 			/*
 			 * System.out.println("the refreces inside java"+references);
 			 * System.out.println("checking set refernces"+paper.getReferences());
@@ -116,6 +129,9 @@ public class JsonParse {
 		id_to_authors_global = id_to_authors_global.entrySet().stream().filter(entry -> existing.add(entry.getValue()))
 				.collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
 		PapersPojo.id_to_authors_global = id_to_authors_global;
+		dummypaperids.removeAll(paperids);
+		//System.out.println("size of ummy paper ids"+dummypaperids.size());
+		PapersPojo.dummypaperids=dummypaperids;
 		jp.close();
 
 		return (papers);
