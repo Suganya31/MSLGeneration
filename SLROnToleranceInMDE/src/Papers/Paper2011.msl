@@ -1,0 +1,335 @@
+import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2005.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1996.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2008.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2004.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2009.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2012.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2006.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1997.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2011.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2010.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1999.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2001.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2015.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2013.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2014.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2007.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1989.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2003.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1990.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1992.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2016.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2017.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2018.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1977.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2019.msl"
+ 	
+model AllPapers -> AllAuthors, AllVenues {
+	paper1568545584:Paper {
+                .title : "Modeling with plausibility checking inspecting favorable and critical signs for consistency between control flow and functional behavior"
+            	.year : 2011
+            	-venue->Venue1187615537
+            	-cites->paper1562948410
+            	-cites->paper1585480189
+            	-cites->paper1717272228
+            	-cites->paper1808519102
+            	-cites->paper1982313944
+            	-cites->paper2025383609
+            	-cites->paper2043336932
+            	-cites->paper2079370090
+            	-cites->paper2103608266
+            	-cites->paper2128592334
+            	-cites->paper2131882770
+            	-cites->paper2140631439
+            	-cites->paper2148893609
+            	-cites->paper2170188124
+            	-cites->paper2240891936
+            	-cites->paper2401922716
+            	-authors->author2108639976
+            	-authors->author268076468
+            	-authors->author1978163079
+            	-authors->author1293943865
+            }
+	paper1594825470:Paper {
+                .title : "Sound and complete monitoring of sequential consistency for relaxed memory models"
+            	.year : 2011
+            	-venue->Venue1159071770
+            	-cites->paper1822674892
+            	-cites->paper1823635467
+            	-cites->paper1971332773
+            	-cites->paper2024255419
+            	-cites->paper2039509099
+            	-cites->paper2054739713
+            	-cites->paper2085773946
+            	-cites->paper2096527448
+            	-cites->paper2105980774
+            	-cites->paper2115732097
+            	-cites->paper2116454140
+            	-cites->paper2122602877
+            	-cites->paper2135948849
+            	-cites->paper2137650676
+            	-cites->paper2149911648
+            	-cites->paper2160781056
+            	-cites->paper2169870841
+            	-authors->author2462451698
+            	-authors->author1965806429
+            	-authors->author2157836386
+            }
+	paper2028506288:Paper {
+                .title : "Modeling the Uncertain Data in the Kanonymity Privacy Protection Model"
+            	.year : 2011
+            	-venue->Venue1172683839
+            	-cites->paper1996300823
+            	-cites->paper2004366212
+            	-cites->paper2024400846
+            	-cites->paper2050171146
+            	-cites->paper2098395122
+            	-cites->paper2119047901
+            	-cites->paper2159024459
+            	-authors->author2439907292
+            	-authors->author2639162232
+            }
+	paper2043905074:Paper {
+                .title : "Extended neglect tolerance model  human robot teams"
+            	.year : 2011
+            	-venue->Venue1135668280
+            	-cites->paper1541919721
+            	-cites->paper1957070465
+            	-cites->paper1963659698
+            	-cites->paper1977267063
+            	-cites->paper1983605242
+            	-cites->paper2037898378
+            	-cites->paper2062672029
+            	-cites->paper2108703536
+            	-cites->paper2151062618
+            	-cites->paper2153738822
+            	-cites->paper2156051616
+            	-cites->paper2311543941
+            	-authors->author2151563308
+            	-authors->author2589460922
+            	-authors->author2247268486
+            }
+	paper2081235423:Paper {
+                .title : "Modeling and tolerating heterogeneous failures in large parallel systems"
+            	.year : 2011
+            	-venue->Venue1153382799
+            	-cites->paper1510496002
+            	-cites->paper1533617723
+            	-cites->paper1558516248
+            	-cites->paper2011834550
+            	-cites->paper2023917386
+            	-cites->paper2033656974
+            	-cites->paper2036641664
+            	-cites->paper2095487435
+            	-cites->paper2121122863
+            	-cites->paper2122249806
+            	-cites->paper2131629153
+            	-cites->paper2136159049
+            	-cites->paper2138985109
+            	-cites->paper2139244298
+            	-cites->paper2150981663
+            	-cites->paper2170310381
+            	-cites->paper2171530261
+            	-authors->author2296097470
+            	-authors->author2627630357
+            	-authors->author2013602643
+            	-authors->author329803684
+            	-authors->author1927643586
+            	-authors->author2223735226
+            }
+	paper2088507937:Paper {
+                .title : "Formalizing model consistency based on the abstract syntax"
+            	.year : 2011
+            	-venue->Venue2626686725
+            	-cites->paper1498110179
+            	-cites->paper1561057365
+            	-cites->paper1594758680
+            	-cites->paper2059545693
+            	-cites->paper2099698375
+            	-cites->paper2110795655
+            	-cites->paper2126577688
+            	-cites->paper2149864282
+            	-cites->paper2168690391
+            	-cites->paper2169730398
+            	-authors->author1971915093
+            	-authors->author292061422
+            	-authors->author1904263758
+            	-authors->author1919884716
+            }
+	paper2113100977:Paper {
+                .title : "Efficient model checking of faulttolerant distributed protocols"
+            	.year : 2011
+            	-venue->Venue1187160151
+            	-cites->paper1486307217
+            	-cites->paper1493542872
+            	-cites->paper1549714654
+            	-cites->paper1566086941
+            	-cites->paper1567693394
+            	-cites->paper1567899858
+            	-cites->paper1568729458
+            	-cites->paper1574570499
+            	-cites->paper1591717411
+            	-cites->paper1681015847
+            	-cites->paper1773354560
+            	-cites->paper1858035675
+            	-cites->paper1893845610
+            	-cites->paper1959349287
+            	-cites->paper1992479210
+            	-cites->paper2049913483
+            	-cites->paper2065180040
+            	-cites->paper2075854425
+            	-cites->paper2097253829
+            	-cites->paper2098310557
+            	-cites->paper2098830227
+            	-cites->paper2120510885
+            	-cites->paper2144436720
+            	-cites->paper2156632596
+            	-cites->paper2166752259
+            	-cites->paper2169870841
+            	-cites->paper2172013287
+            	-cites->paper2340735175
+            	-authors->author2237402376
+            	-authors->author2310895133
+            	-authors->author1965367488
+            	-authors->author2037902109
+            }
+	paper2129392981:Paper {
+                .title : "Data Quality Maintenance by IntegrityPreserving Repairs that Tolerate Inconsistency"
+            	.year : 2011
+            	-venue->Venue1182898022
+            	-cites->paper190622319
+            	-cites->paper1491205793
+            	-cites->paper1525401035
+            	-cites->paper1555596326
+            	-cites->paper1564166436
+            	-cites->paper1589487547
+            	-cites->paper1599778614
+            	-cites->paper1957041901
+            	-cites->paper1978460233
+            	-cites->paper1986329319
+            	-cites->paper1992435424
+            	-cites->paper2065513458
+            	-cites->paper2072373191
+            	-cites->paper2075950442
+            	-cites->paper2076126314
+            	-cites->paper2077518845
+            	-cites->paper2084246969
+            	-cites->paper2084827335
+            	-cites->paper2099805467
+            	-cites->paper2108658789
+            	-cites->paper2110762258
+            	-cites->paper2118900391
+            	-cites->paper2122997609
+            	-cites->paper2160729046
+            	-authors->author2558851361
+            }
+	paper2144583697:Paper {
+                .title : "Semantically configurable consistency analysis for class and object diagrams"
+            	.year : 2011
+            	-venue->Venue1191550517
+            	-cites->paper99545732
+            	-cites->paper156767209
+            	-cites->paper180771637
+            	-cites->paper1500250067
+            	-cites->paper1565927860
+            	-cites->paper1834621638
+            	-cites->paper1895387792
+            	-cites->paper1982313944
+            	-cites->paper1985364899
+            	-cites->paper2018568588
+            	-cites->paper2060555016
+            	-cites->paper2061081083
+            	-cites->paper2089381631
+            	-cites->paper2091920469
+            	-cites->paper2101911808
+            	-cites->paper2103364805
+            	-cites->paper2111445678
+            	-cites->paper2113201637
+            	-cites->paper2131878172
+            	-cites->paper2132609582
+            	-cites->paper2139828164
+            	-cites->paper2153690411
+            	-cites->paper2594909701
+            	-authors->author2010852767
+            	-authors->author151827428
+            	-authors->author2307885315
+            }
+	paper2167864680:Paper {
+                .title : "Inconsistency management framework for modelbased development"
+            	.year : 2011
+            	-venue->Venue1174403976
+            	-cites->paper165540832
+            	-cites->paper1486745608
+            	-cites->paper1589643512
+            	-cites->paper1685969755
+            	-cites->paper1976025929
+            	-cites->paper1983160424
+            	-cites->paper1991633729
+            	-cites->paper2012959900
+            	-cites->paper2043336932
+            	-cites->paper2066029222
+            	-cites->paper2094691937
+            	-cites->paper2102626454
+            	-cites->paper2135920852
+            	-cites->paper2143320215
+            	-cites->paper2143614054
+            	-cites->paper2145209235
+            	-cites->paper2149864282
+            	-cites->paper2159090554
+            	-cites->paper2162686404
+            	-authors->author1952746506
+            }
+	paper2170585392:Paper {
+                .title : "Consistency Checks for Duties in Extended UML Activity Models"
+            	.year : 2011
+            	-venue->Venue2623176867
+            	-cites->paper1513395277
+            	-cites->paper1570154167
+            	-cites->paper1583716098
+            	-cites->paper1840655788
+            	-cites->paper2005066079
+            	-cites->paper2021079739
+            	-cites->paper2026913455
+            	-cites->paper2038953226
+            	-cites->paper2081186654
+            	-cites->paper2121071495
+            	-cites->paper2124080036
+            	-cites->paper2145070944
+            	-cites->paper2145857528
+            	-cites->paper2152505375
+            	-cites->paper2158860339
+            	-cites->paper2165065735
+            	-authors->author2016921767
+            }
+	paper2179822829:Paper {
+                .title : "Finetuning model transformation change propagation in context of consistency completeness and human guidance"
+            	.year : 2011
+            	-venue->Venue1171022770
+            	-cites->paper155589868
+            	-cites->paper1503242327
+            	-cites->paper1563049645
+            	-cites->paper1598022760
+            	-cites->paper1598165075
+            	-cites->paper1601006780
+            	-cites->paper1983160424
+            	-cites->paper1991604845
+            	-cites->paper2032342931
+            	-cites->paper2087373162
+            	-cites->paper2103797968
+            	-cites->paper2113990848
+            	-cites->paper2119704911
+            	-cites->paper2127685229
+            	-cites->paper2162686404
+            	-authors->author1949402193
+            	-authors->author2892677075
+            	-authors->author87835543
+            	-authors->author1952746506
+            	-authors->author351163679
+            	-authors->author722927782
+            	-authors->author2268607883
+            }
+}
+

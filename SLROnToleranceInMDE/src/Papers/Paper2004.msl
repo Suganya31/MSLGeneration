@@ -1,0 +1,132 @@
+import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2005.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1996.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2008.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2004.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2009.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2012.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2006.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1997.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2011.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2010.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1999.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2001.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2015.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2013.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2014.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2007.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1989.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2003.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1990.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1992.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2016.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2017.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2018.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1977.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2019.msl"
+ 	
+model AllPapers -> AllAuthors, AllVenues {
+	paper1548019825:Paper {
+                .title : "Consistency and random constraint satisfaction models with a high constraint tightness"
+            	.year : 2004
+            	-venue->Venue1201491352
+            	-cites->paper312445613
+            	-cites->paper1514397520
+            	-cites->paper2004223683
+            	-cites->paper2071706116
+            	-cites->paper2084384424
+            	-cites->paper2088616860
+            	-cites->paper2096307462
+            	-cites->paper2101773938
+            	-cites->paper2109015525
+            	-cites->paper2126420408
+            	-cites->paper2139300273
+            	-cites->paper2143404729
+            	-cites->paper2144512014
+            	-cites->paper2151266168
+            	-cites->paper2176203587
+            	-cites->paper2604369079
+            	-cites->paper2610996456
+            	-authors->author357118968
+            	-authors->author2302863476
+            }
+	paper2116374913:Paper {
+                .title : "Automated consistency and completeness checking of testing models for interactive systems"
+            	.year : 2004
+            	-venue->Venue1143160721
+            	-cites->paper1597428879
+            	-cites->paper2007953420
+            	-cites->paper2074461621
+            	-cites->paper2125708466
+            	-cites->paper2146191617
+            	-cites->paper2147765639
+            	-authors->author2143692816
+            	-authors->author1493336844
+            }
+	paper2157634313:Paper {
+                .title : "Consistency check in modelling multiagent systems"
+            	.year : 2004
+            	-venue->Venue1143160721
+            	-cites->paper1574616745
+            	-cites->paper1592590079
+            	-cites->paper1600780496
+            	-cites->paper1608796453
+            	-cites->paper1964024754
+            	-cites->paper1983421263
+            	-cites->paper2020034474
+            	-cites->paper2050099582
+            	-cites->paper2109420119
+            	-cites->paper2129899354
+            	-cites->paper2131648251
+            	-cites->paper2161799827
+            	-cites->paper2174207570
+            	-authors->author2607615413
+            	-authors->author2109090819
+            }
+	paper2166752259:Paper {
+                .title : "Model checking a faulttolerant startup algorithm from design exploration to exhaustive fault simulation"
+            	.year : 2004
+            	-venue->Venue1187160151
+            	-cites->paper1487606492
+            	-cites->paper1612681298
+            	-cites->paper1989746243
+            	-cites->paper2084608278
+            	-cites->paper2104978174
+            	-cites->paper2113820327
+            	-cites->paper2148762176
+            	-cites->paper2171514411
+            	-cites->paper2538607326
+            	-authors->author2157944775
+            	-authors->author2126004651
+            	-authors->author2804301411
+            	-authors->author2141407385
+            }
+	paper2105945277:Paper {
+                .title : "TSOtool A Program for Verifying Memory Systems Using the Memory Consistency Model"
+            	.year : 2004
+            	-venue->Venue1131341566
+            	-cites->paper1502765706
+            	-cites->paper1545792627
+            	-cites->paper1986463648
+            	-cites->paper1993990180
+            	-cites->paper2029601347
+            	-cites->paper2032755892
+            	-cites->paper2072547867
+            	-cites->paper2076003965
+            	-cites->paper2099706037
+            	-cites->paper2107859560
+            	-cites->paper2111491143
+            	-cites->paper2143246735
+            	-cites->paper2164288303
+            	-cites->paper2170846240
+            	-cites->paper2172293999
+            	-authors->author2036905931
+            	-authors->author2463226577
+            	-authors->author1522521762
+            	-authors->author2535617141
+            	-authors->author2654254672
+            }
+}
+

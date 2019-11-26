@@ -1,0 +1,264 @@
+import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2005.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1996.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2008.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2004.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2009.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2012.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2006.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1997.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2011.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2010.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1999.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2001.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2015.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2013.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2014.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2007.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1989.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2003.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1990.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1992.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2016.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2017.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2018.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1977.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2019.msl"
+ 	
+model AllPapers -> AllAuthors, AllVenues {
+	paper2295452883:Paper {
+                .title : "Runtime Adjustment of Configuration Models for Consistency Preservation"
+            	.year : 2016
+            	-venue->Venue1173836718
+            	-cites->paper53030892
+            	-cites->paper171902969
+            	-cites->paper1420032966
+            	-cites->paper1553503691
+            	-cites->paper1876425992
+            	-cites->paper1964137226
+            	-cites->paper1983160424
+            	-cites->paper1991633729
+            	-cites->paper2107351452
+            	-cites->paper2143614054
+            	-cites->paper2152724006
+            	-cites->paper2164416192
+            	-cites->paper2168028588
+            	-authors->author418903132
+            	-authors->author343646299
+            	-authors->author271655348
+            }
+	paper2296086131:Paper {
+                .title : "Model Checking for the Fault Tolerance of Collaborative AUVs"
+            	.year : 2016
+            	-venue->Venue1173836718
+            	-cites->paper2120450154
+            	-authors->author2771267961
+            	-authors->author2672313748
+            	-authors->author2811401085
+            }
+	paper2332661323:Paper {
+                .title : "Specifying and Checking File System CrashConsistency Models"
+            	.year : 2016
+            	-venue->Venue1174091362
+            	-cites->paper19204414
+            	-cites->paper157238496
+            	-cites->paper195676583
+            	-cites->paper1172733195
+            	-cites->paper1412006679
+            	-cites->paper1423003888
+            	-cites->paper1480909796
+            	-cites->paper1482786207
+            	-cites->paper1519503479
+            	-cites->paper1522250664
+            	-cites->paper1594228127
+            	-cites->paper1808398105
+            	-cites->paper1822674892
+            	-cites->paper1852929912
+            	-cites->paper1916929620
+            	-cites->paper1940267184
+            	-cites->paper1964802076
+            	-cites->paper1984439088
+            	-cites->paper1985227357
+            	-cites->paper1995626000
+            	-cites->paper1998669042
+            	-cites->paper2009404871
+            	-cites->paper2020395879
+            	-cites->paper2025018396
+            	-cites->paper2030689875
+            	-cites->paper2031032746
+            	-cites->paper2054739713
+            	-cites->paper2057156093
+            	-cites->paper2073742357
+            	-cites->paper2091085450
+            	-cites->paper2096343842
+            	-cites->paper2096915479
+            	-cites->paper2098643127
+            	-cites->paper2100100130
+            	-cites->paper2104245532
+            	-cites->paper2104413677
+            	-cites->paper2104670257
+            	-cites->paper2104954161
+            	-cites->paper2106887953
+            	-cites->paper2111262474
+            	-cites->paper2115600841
+            	-cites->paper2122960384
+            	-cites->paper2124877509
+            	-cites->paper2130427425
+            	-cites->paper2130553247
+            	-cites->paper2135652458
+            	-cites->paper2138555106
+            	-cites->paper2141423292
+            	-cites->paper2149236697
+            	-cites->paper2149911648
+            	-cites->paper2154161369
+            	-cites->paper2155061608
+            	-cites->paper2159779511
+            	-cites->paper2159890891
+            	-cites->paper2160963348
+            	-cites->paper2170293694
+            	-cites->paper2171352284
+            	-cites->paper2205436351
+            	-cites->paper2412976325
+            	-cites->paper2620706897
+            	-authors->author2893600216
+            	-authors->author2026265091
+            	-authors->author2149316176
+            	-authors->author2088689873
+            	-authors->author2344136120
+            	-authors->author2105191977
+            }
+	paper2411349706:Paper {
+                .title : "Susceptible workload driven selective fault tolerance using a probabilistic fault model"
+            	.year : 2016
+            	-venue->Venue1197805753
+            	-cites->paper1989874002
+            	-cites->paper1995014858
+            	-cites->paper1998663784
+            	-cites->paper2000379092
+            	-cites->paper2004688003
+            	-cites->paper2007206918
+            	-cites->paper2016172736
+            	-cites->paper2042526156
+            	-cites->paper2074324895
+            	-cites->paper2076752180
+            	-cites->paper2121129715
+            	-cites->paper2125156433
+            	-cites->paper2128248970
+            	-cites->paper2134411298
+            	-cites->paper2142736763
+            	-cites->paper2144432950
+            	-cites->paper2156443301
+            	-cites->paper2158102622
+            	-cites->paper2160137812
+            	-authors->author1229342846
+            	-authors->author2008286234
+            	-authors->author2548608237
+            }
+	paper2491100436:Paper {
+                .title : "Consistent Inconsistency Management A ConcernDriven Approach"
+            	.year : 2016
+            	-venue->Venue1180338098
+            	-cites->paper1600334244
+            	-cites->paper2012959900
+            	-cites->paper2015113729
+            	-cites->paper2025624633
+            	-cites->paper2070493475
+            	-cites->paper2111160357
+            	-cites->paper2111537898
+            	-cites->paper2143909182
+            	-cites->paper2149864282
+            	-cites->paper2160328533
+            	-cites->paper2343556275
+            	-cites->paper2795013533
+            	-authors->author2151217767
+            	-authors->author2224987576
+            	-authors->author2497146004
+            	-authors->author2584504762
+            }
+	paper2503258980:Paper {
+                .title : "EMAAOP From the AADL Error Model Annex to aspect language towards fault tolerant systems"
+            	.year : 2016
+            	-venue->Venue1170525533
+            	-cites->paper1610570299
+            	-cites->paper1973940013
+            	-cites->paper1994433599
+            	-cites->paper2016492784
+            	-cites->paper2032937940
+            	-cites->paper2052185969
+            	-cites->paper2083076268
+            	-cites->paper2096203497
+            	-cites->paper2128727110
+            	-cites->paper2160317751
+            	-cites->paper2165974325
+            	-authors->author22998639
+            	-authors->author2478909505
+            	-authors->author262402182
+            }
+	paper2513581310:Paper {
+                .title : "Modeling and analyzing costaware fault tolerant strategy for cloud application"
+            	.year : 2016
+            	-venue->Venue1173770489
+            	-cites->paper1993628331
+            	-cites->paper1997647383
+            	-cites->paper2007740943
+            	-cites->paper2009524993
+            	-cites->paper2013632153
+            	-cites->paper2045287414
+            	-cites->paper2110618516
+            	-cites->paper2149085204
+            	-cites->paper2166011729
+            	-cites->paper2569378140
+            	-authors->author2799083470
+            	-authors->author2112951611
+            	-authors->author2148710700
+            }
+	paper2514633005:Paper {
+                .title : "Towards Modelling Adaptive Fault Tolerance for Resilient Computing Analysis"
+            	.year : 2016
+            	-venue->Venue1128163780
+            	-cites->paper2040525744
+            	-cites->paper2144646596
+            	-cites->paper2293328939
+            	-cites->paper2533987203
+            	-authors->author2778453213
+            	-authors->author2136516135
+            	-authors->author2293833728
+            }
+	paper2529658871:Paper {
+                .title : "ObservationBased Concurrent Program Logic for Relaxed Memory Consistency Models"
+            	.year : 2016
+            	-venue->Venue1139297330
+            	-cites->paper115884782
+            	-cites->paper199947708
+            	-cites->paper1189894384
+            	-cites->paper1430872261
+            	-cites->paper1509000726
+            	-cites->paper1525350307
+            	-cites->paper1547285994
+            	-cites->paper1822847061
+            	-cites->paper1953680156
+            	-cites->paper1966273654
+            	-cites->paper1972316716
+            	-cites->paper1976695554
+            	-cites->paper1980776145
+            	-cites->paper1995825057
+            	-cites->paper2014708731
+            	-cites->paper2015688007
+            	-cites->paper2085773946
+            	-cites->paper2096490078
+            	-cites->paper2104245532
+            	-cites->paper2111706174
+            	-cites->paper2111858071
+            	-cites->paper2152885346
+            	-cites->paper2157178219
+            	-cites->paper2168397157
+            	-cites->paper2505917360
+            	-cites->paper2516354014
+            	-cites->paper2588871586
+            	-authors->author2560619641
+            	-authors->author2231308658
+            }
+}
+

@@ -1,0 +1,59 @@
+import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2005.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1996.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2008.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2004.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2009.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2012.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2006.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1997.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2011.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2010.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1999.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2001.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2015.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2013.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2014.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2007.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1989.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2003.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1990.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1992.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2016.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2017.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2018.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1977.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2019.msl"
+ 	
+model AllPapers -> AllAuthors, AllVenues {
+	paper1607096807:Paper {
+                .title : "Lowcost flexible software fault tolerance for distributed computing"
+            	.year : 2001
+            	-venue->Venue1157832733
+            	-cites->paper1923741182
+            	-cites->paper2097719961
+            	-cites->paper2098421844
+            	-cites->paper2131268237
+            	-cites->paper2133201251
+            	-cites->paper2133820906
+            	-cites->paper2145965735
+            	-cites->paper2149696120
+            	-cites->paper2165542428
+            	-cites->paper2169840536
+            	-cites->paper2629581585
+            	-authors->author2625658721
+            	-authors->author2085104318
+            	-authors->author2280265749
+            	-authors->author2174616133
+            	-authors->author2311471341
+            }
+	paper2021289047:Paper {
+                .title : "Tolerating Inconsistency revisited"
+            	.year : 2001
+            	-venue->Venue1174403976
+            	-authors->author2627046014
+            }
+}
+

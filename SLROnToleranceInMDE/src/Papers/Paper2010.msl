@@ -1,0 +1,339 @@
+import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2005.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1996.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2008.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2004.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2009.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2012.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2006.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1997.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2011.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2010.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1999.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2001.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2015.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2013.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2014.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2007.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1989.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2003.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1990.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1992.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2016.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2017.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2018.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1977.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2019.msl"
+ 	
+model AllPapers -> AllAuthors, AllVenues {
+	paper1575910569:Paper {
+                .title : "Proving consistency and completeness of model classes using theory interpretation"
+            	.year : 2010
+            	-venue->Venue1187615537
+            	-cites->paper1480285224
+            	-cites->paper1485360759
+            	-cites->paper1487694410
+            	-cites->paper1509562505
+            	-cites->paper1542403019
+            	-cites->paper1555946950
+            	-cites->paper1583095677
+            	-cites->paper1583826417
+            	-cites->paper1594381772
+            	-cites->paper1663964543
+            	-cites->paper1909120645
+            	-cites->paper1970495662
+            	-cites->paper1977978965
+            	-cites->paper1993836075
+            	-cites->paper2035529004
+            	-cites->paper2106192381
+            	-cites->paper2107761426
+            	-cites->paper2116518308
+            	-cites->paper2140001025
+            	-cites->paper2141411037
+            	-cites->paper2152354161
+            	-authors->author2285904575
+            	-authors->author2048134860
+            }
+	paper1985193734:Paper {
+                .title : "Consistent modeling using multiple UML profiles"
+            	.year : 2010
+            	-venue->Venue1191550517
+            	-cites->paper1482031469
+            	-cites->paper1488412441
+            	-cites->paper1537193294
+            	-cites->paper1549550914
+            	-cites->paper1597085899
+            	-cites->paper1940888119
+            	-cites->paper1970348112
+            	-cites->paper2075123415
+            	-cites->paper2122840128
+            	-cites->paper2127187761
+            	-authors->author1630443851
+            	-authors->author2172237526
+            	-authors->author2068168300
+            	-authors->author37404338
+            }
+	paper2009452463:Paper {
+                .title : "Static and dynamic consistency analysis of UML state chart models"
+            	.year : 2010
+            	-venue->Venue1191550517
+            	-cites->paper157156687
+            	-cites->paper1497389410
+            	-cites->paper1556566737
+            	-cites->paper1766479663
+            	-cites->paper1945254896
+            	-cites->paper1976025929
+            	-cites->paper2015826910
+            	-cites->paper2097570011
+            	-cites->paper2131263787
+            	-cites->paper2132622501
+            	-cites->paper2149230051
+            	-cites->paper2155479111
+            	-cites->paper2159181605
+            	-cites->paper2161358742
+            	-authors->author1128499228
+            	-authors->author72475612
+            }
+	paper2021626639:Paper {
+                .title : "Flexible and scalable consistency checking on product line variability models"
+            	.year : 2010
+            	-venue->Venue1166511975
+            	-cites->paper26962075
+            	-cites->paper99545732
+            	-cites->paper149825191
+            	-cites->paper187637139
+            	-cites->paper1576863229
+            	-cites->paper1987770136
+            	-cites->paper1999214372
+            	-cites->paper2012959900
+            	-cites->paper2071797673
+            	-cites->paper2111673347
+            	-cites->paper2113201637
+            	-cites->paper2114201059
+            	-cites->paper2114790775
+            	-cites->paper2117352154
+            	-cites->paper2120515675
+            	-cites->paper2128967738
+            	-cites->paper2143614054
+            	-cites->paper2149864282
+            	-cites->paper2153474105
+            	-cites->paper2153884048
+            	-cites->paper2154771281
+            	-cites->paper2158592871
+            	-cites->paper2159090554
+            	-cites->paper2166568068
+            	-cites->paper2294168344
+            	-authors->author1125827560
+            	-authors->author916343192
+            	-authors->author2196554139
+            	-authors->author722927782
+            	-authors->author2251273329
+            }
+	paper2056661416:Paper {
+                .title : "Selective and consistent undoing of model changes"
+            	.year : 2010
+            	-venue->Venue1191550517
+            	-cites->paper1991604845
+            	-cites->paper2011705879
+            	-cites->paper2032875561
+            	-cites->paper2043924273
+            	-cites->paper2046882143
+            	-cites->paper2135432705
+            	-cites->paper2154771281
+            	-cites->paper2159090554
+            	-cites->paper2162686404
+            	-authors->author187158085
+            	-authors->author722927782
+            }
+	paper2071720065:Paper {
+                .title : "Techne Towards a New Generation of Requirements Modeling Languages with Goals Preferences and Inconsistency Handling"
+            	.year : 2010
+            	-venue->Venue2606605052
+            	-cites->paper1522554322
+            	-cites->paper1968128450
+            	-cites->paper2013492611
+            	-cites->paper2017739343
+            	-cites->paper2034717157
+            	-cites->paper2067126923
+            	-cites->paper2074621565
+            	-cites->paper2079814255
+            	-cites->paper2082204982
+            	-cites->paper2085288146
+            	-cites->paper2095656719
+            	-cites->paper2099944466
+            	-cites->paper2113435553
+            	-cites->paper2115904912
+            	-cites->paper2117818414
+            	-cites->paper2120808515
+            	-cites->paper2127614394
+            	-cites->paper2142065829
+            	-cites->paper2151451947
+            	-cites->paper2157437711
+            	-cites->paper2170486381
+            	-cites->paper2171627300
+            	-cites->paper2177007941
+            	-cites->paper2405753531
+            	-authors->author2161153869
+            	-authors->author729396177
+            	-authors->author2052199646
+            	-authors->author2099123081
+            }
+	paper2073316824:Paper {
+                .title : "A SemiMarkov Survivability Evaluation Model for Intrusion Tolerant Database Systems"
+            	.year : 2010
+            	-venue->Venue2623176867
+            	-cites->paper1558783207
+            	-cites->paper1588175110
+            	-cites->paper1721587744
+            	-cites->paper1874370326
+            	-cites->paper1966282711
+            	-cites->paper1985803695
+            	-cites->paper2014712522
+            	-cites->paper2113114306
+            	-cites->paper2123818497
+            	-cites->paper2124617909
+            	-cites->paper2132704120
+            	-cites->paper2143049370
+            	-cites->paper2153888537
+            	-cites->paper2159443917
+            	-cites->paper2170590256
+            	-cites->paper2487489510
+            	-authors->author2428201908
+            	-authors->author2126917257
+            	-authors->author2781333467
+            }
+	paper2084764985:Paper {
+                .title : "Flexible model element introduction policies for aspectoriented modeling"
+            	.year : 2010
+            	-venue->Venue1191550517
+            	-cites->paper31292625
+            	-cites->paper1532079015
+            	-cites->paper1591471358
+            	-cites->paper1610570299
+            	-cites->paper1676821722
+            	-cites->paper1978613757
+            	-cites->paper1982313944
+            	-cites->paper1987247288
+            	-cites->paper2025383609
+            	-cites->paper2029414465
+            	-cites->paper2089281324
+            	-cites->paper2116502002
+            	-cites->paper2127237677
+            	-cites->paper2137252778
+            	-cites->paper2138363365
+            	-cites->paper2138464849
+            	-cites->paper2139872812
+            	-cites->paper2149474926
+            	-cites->paper2163195480
+            	-cites->paper2169934995
+            	-authors->author2052504364
+            	-authors->author2152184369
+            	-authors->author2807702182
+            	-authors->author2100039332
+            }
+	paper2118279606:Paper {
+                .title : "Open Code Coverage Framework A Consistent and Flexible Framework for Measuring Test Coverage Supporting Multiple Programming Languages"
+            	.year : 2010
+            	-venue->Venue1182898022
+            	-cites->paper2001685807
+            	-cites->paper2103814123
+            	-authors->author38953562
+            	-authors->author2162195898
+            	-authors->author1809897820
+            }
+	paper2121629484:Paper {
+                .title : "A proposal for consistency checking in dynamic software product line models using OCL"
+            	.year : 2010
+            	-venue->Venue1174403976
+            	-cites->paper89852222
+            	-cites->paper1496907652
+            	-cites->paper1983421263
+            	-cites->paper1993668354
+            	-cites->paper2002237220
+            	-cites->paper2020204834
+            	-cites->paper2108425969
+            	-cites->paper2124570027
+            	-cites->paper2155912669
+            	-authors->author2139476954
+            }
+	paper2122105924:Paper {
+                .title : "On Constructing Thermodynamically Consistent Parametrizations of Kinetic Models"
+            	.year : 2010
+            	-venue->Venue1153779279
+            	-cites->paper2065699608
+            	-authors->author2355094572
+            	-authors->author2041832079
+            }
+	paper2132304960:Paper {
+                .title : "A Consistency Model for Identity Information in Distributed Systems"
+            	.year : 2010
+            	-venue->Venue1143160721
+            	-cites->paper13821285
+            	-cites->paper59877344
+            	-cites->paper1968316911
+            	-cites->paper1968884257
+            	-cites->paper2020299987
+            	-cites->paper2026287943
+            	-cites->paper2036705516
+            	-cites->paper2043270755
+            	-cites->paper2067213696
+            	-cites->paper2115806861
+            	-cites->paper2128295264
+            	-cites->paper2139921445
+            	-cites->paper2160632926
+            	-cites->paper2161549461
+            	-cites->paper2341655714
+            	-cites->paper2611824423
+            	-authors->author2058489235
+            	-authors->author2227287657
+            	-authors->author1969861133
+            }
+	paper2163581369:Paper {
+                .title : "A dynamicpriority based approach to fixing inconsistent feature models"
+            	.year : 2010
+            	-venue->Venue1191550517
+            	-cites->paper30803841
+            	-cites->paper113344430
+            	-cites->paper1509367797
+            	-cites->paper1579120539
+            	-cites->paper1586175325
+            	-cites->paper1968830561
+            	-cites->paper1992337747
+            	-cites->paper2067838808
+            	-cites->paper2082677523
+            	-cites->paper2113201637
+            	-cites->paper2115255691
+            	-cites->paper2128967738
+            	-cites->paper2160332621
+            	-cites->paper2160998628
+            	-cites->paper2162686404
+            	-authors->author2103628124
+            	-authors->author2642934658
+            	-authors->author1975030499
+            	-authors->author2649658460
+            	-authors->author2105324944
+            	-authors->author2150281962
+            }
+	paper2168429160:Paper {
+                .title : "A selfconsistent model to estimate NBTI degradation and a comprehensive online system lifetime enhancement technique"
+            	.year : 2010
+            	-venue->Venue1197805753
+            	-cites->paper1719980635
+            	-cites->paper2038840127
+            	-cites->paper2043318181
+            	-cites->paper2083270183
+            	-cites->paper2101686625
+            	-cites->paper2103792078
+            	-cites->paper2129757628
+            	-cites->paper2141565132
+            	-cites->paper2142820718
+            	-cites->paper2148147859
+            	-cites->paper2163789885
+            	-authors->author2275335750
+            	-authors->author2109882579
+            	-authors->author2133141433
+            }
+}
+

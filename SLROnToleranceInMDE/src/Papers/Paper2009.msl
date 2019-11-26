@@ -1,0 +1,308 @@
+import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2005.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1996.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2008.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2004.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2009.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2012.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2006.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1997.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2011.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2010.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1999.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2001.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2015.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2013.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2014.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2007.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1989.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2003.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1990.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1992.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2016.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2017.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2018.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1977.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2019.msl"
+ 	
+model AllPapers -> AllAuthors, AllVenues {
+	paper1551012392:Paper {
+                .title : "Proving Consistency of Pure Methods and Model Fields"
+            	.year : 2009
+            	-venue->Venue1187615537
+            	-cites->paper1480909796
+            	-cites->paper1525290190
+            	-cites->paper1550200770
+            	-cites->paper1556566737
+            	-cites->paper1565805705
+            	-cites->paper1573044584
+            	-cites->paper1653651910
+            	-cites->paper1807498156
+            	-cites->paper2036603632
+            	-cites->paper2055477538
+            	-cites->paper2073407646
+            	-cites->paper2101530705
+            	-cites->paper2103591546
+            	-cites->paper2122291521
+            	-cites->paper2125044336
+            	-cites->paper2127225601
+            	-cites->paper2127505967
+            	-cites->paper2140001025
+            	-cites->paper2151131364
+            	-cites->paper2194223632
+            	-authors->author2160777477
+            	-authors->author710865586
+            }
+	paper1568373463:Paper {
+                .title : "An Incremental Algorithm for HighPerformance Runtime Model Consistency"
+            	.year : 2009
+            	-venue->Venue1191550517
+            	-cites->paper1483584644
+            	-cites->paper1505088841
+            	-cites->paper1510788339
+            	-cites->paper1511832825
+            	-cites->paper1512007370
+            	-cites->paper1568396250
+            	-cites->paper1573535660
+            	-cites->paper1854780612
+            	-cites->paper1982313944
+            	-cites->paper2010518026
+            	-cites->paper2021382227
+            	-cites->paper2048207092
+            	-cites->paper2052552343
+            	-cites->paper2055689050
+            	-cites->paper2064707938
+            	-cites->paper2069866667
+            	-cites->paper2076676096
+            	-cites->paper2102630435
+            	-cites->paper2128239757
+            	-cites->paper2130129450
+            	-cites->paper2141122188
+            	-cites->paper2149960827
+            	-authors->author2156629251
+            	-authors->author2702698118
+            	-authors->author2701576108
+            }
+	paper1606461502:Paper {
+                .title : "Consistency Independence and Consequences in UML and OCL Models"
+            	.year : 2009
+            	-venue->Venue1129775427
+            	-cites->paper1527688737
+            	-cites->paper1541808425
+            	-cites->paper1895387792
+            	-cites->paper1998400029
+            	-cites->paper2026785147
+            	-cites->paper2098831637
+            	-cites->paper2103999647
+            	-cites->paper2111445678
+            	-cites->paper2115105266
+            	-cites->paper2133550868
+            	-authors->author2162885025
+            	-authors->author2138609590
+            	-authors->author2161960421
+            }
+	paper1668140416:Paper {
+                .title : "A GoalBased Modeling Approach to Develop Requirements of an Adaptive System with Environmental Uncertainty"
+            	.year : 2009
+            	-venue->Venue1191550517
+            	-cites->paper72209069
+            	-cites->paper141628001
+            	-cites->paper175636070
+            	-cites->paper1535458435
+            	-cites->paper1854780612
+            	-cites->paper1980079693
+            	-cites->paper1982313944
+            	-cites->paper2033406822
+            	-cites->paper2051028605
+            	-cites->paper2070127479
+            	-cites->paper2071616717
+            	-cites->paper2098895708
+            	-cites->paper2098909078
+            	-cites->paper2100231298
+            	-cites->paper2115774534
+            	-cites->paper2129289644
+            	-cites->paper2138876988
+            	-cites->paper2147289058
+            	-cites->paper2157437711
+            	-cites->paper2162255975
+            	-cites->paper2163784380
+            	-cites->paper2222782578
+            	-authors->author2159829753
+            	-authors->author2133238635
+            	-authors->author2116990958
+            	-authors->author405793769
+            }
+	paper2109414934:Paper {
+                .title : "Modeling Fault Tolerant Services in ServiceOriented Architecture"
+            	.year : 2009
+            	-venue->Venue1182405406
+            	-cites->paper1257099613
+            	-cites->paper1550904090
+            	-cites->paper2001051416
+            	-cites->paper2021696583
+            	-cites->paper2087252615
+            	-cites->paper2110876598
+            	-cites->paper2159460630
+            	-authors->author1201908799
+            	-authors->author2004903323
+            	-authors->author1800830881
+            	-authors->author2150830042
+            }
+	paper2124995074:Paper {
+                .title : "Enhanced Automation for Managing Model and Metamodel Inconsistency"
+            	.year : 2009
+            	-venue->Venue1166511975
+            	-cites->paper1542225267
+            	-cites->paper1559038862
+            	-cites->paper1592640009
+            	-cites->paper2004901564
+            	-cites->paper2099854474
+            	-cites->paper2107344568
+            	-cites->paper2162425337
+            	-cites->paper2169954581
+            	-authors->author2003314108
+            	-authors->author2044930014
+            	-authors->author1996244569
+            	-authors->author2116518350
+            }
+	paper2141147386:Paper {
+                .title : "Towards an Alloy Formal Model for Flexible Advanced Transactional Model Development"
+            	.year : 2009
+            	-venue->Venue1176450031
+            	-cites->paper1570173564
+            	-cites->paper1571250571
+            	-cites->paper1855065956
+            	-cites->paper1895387792
+            	-cites->paper2000527838
+            	-cites->paper2043318789
+            	-cites->paper2074095926
+            	-cites->paper2092311766
+            	-cites->paper2100288563
+            	-cites->paper2106981641
+            	-cites->paper2119887456
+            	-cites->paper2127507904
+            	-cites->paper2142874510
+            	-authors->author1891903742
+            	-authors->author147076140
+            	-authors->author1996878219
+            }
+	paper2154861368:Paper {
+                .title : "A Method for Modeling and Analyzing FaultTolerant Service Composition"
+            	.year : 2009
+            	-venue->Venue1134663949
+            	-cites->paper1592113188
+            	-cites->paper2012428319
+            	-cites->paper2030378866
+            	-cites->paper2036620406
+            	-cites->paper2038280282
+            	-cites->paper2055189624
+            	-cites->paper2070239227
+            	-cites->paper2097164499
+            	-cites->paper2098450845
+            	-cites->paper2107936220
+            	-cites->paper2114599137
+            	-cites->paper2115305047
+            	-cites->paper2115403306
+            	-cites->paper2118620599
+            	-cites->paper2152061958
+            	-cites->paper2152465173
+            	-cites->paper2156210955
+            	-authors->author2138997817
+            	-authors->author2153811906
+            	-authors->author2138109337
+            	-authors->author2112951611
+            }
+	paper2160909485:Paper {
+                .title : "TamperTolerant Software Modeling and Implementation"
+            	.year : 2009
+            	-venue->Venue1184048318
+            	-cites->paper1495266644
+            	-cites->paper1509316335
+            	-cites->paper1580417272
+            	-cites->paper1594550369
+            	-cites->paper1625590791
+            	-cites->paper1718337629
+            	-cites->paper1798077826
+            	-cites->paper1968054699
+            	-cites->paper1985914339
+            	-cites->paper1987377478
+            	-cites->paper2045356279
+            	-cites->paper2047924755
+            	-cites->paper2064435654
+            	-cites->paper2084641398
+            	-cites->paper2097724213
+            	-cites->paper2103380811
+            	-cites->paper2107324157
+            	-cites->paper2113866753
+            	-cites->paper2115862519
+            	-cites->paper2122502383
+            	-cites->paper2126851641
+            	-cites->paper2133201251
+            	-cites->paper2148888468
+            	-cites->paper2159460804
+            	-cites->paper2162796604
+            	-cites->paper2500662076
+            	-cites->paper2896459721
+            	-authors->author2129281761
+            	-authors->author2059916468
+            	-authors->author2126319880
+            }
+	paper2161358742:Paper {
+                .title : "Checking Model Consistency Using DataFlow Testing"
+            	.year : 2009
+            	-venue->Venue1134663949
+            	-cites->paper1486172410
+            	-cites->paper1495557642
+            	-cites->paper1964830323
+            	-cites->paper1975003275
+            	-cites->paper1975169206
+            	-cites->paper1978261680
+            	-cites->paper1982395839
+            	-cites->paper1990467226
+            	-cites->paper2010879541
+            	-cites->paper2024795941
+            	-cites->paper2051374949
+            	-cites->paper2087305559
+            	-cites->paper2096393823
+            	-cites->paper2116838329
+            	-cites->paper2118949216
+            	-cites->paper2122748256
+            	-cites->paper2133853708
+            	-cites->paper2137381974
+            	-cites->paper2163405904
+            	-cites->paper2166985644
+            	-authors->author1606833800
+            	-authors->author2307601345
+            }
+	paper2169730398:Paper {
+                .title : "Composing Models for Detecting Inconsistencies A Requirements Engineering Perspective"
+            	.year : 2009
+            	-venue->Venue1169379829
+            	-cites->paper1979290877
+            	-cites->paper1982313944
+            	-cites->paper1983421263
+            	-cites->paper1992036716
+            	-cites->paper2007167977
+            	-cites->paper2025624633
+            	-cites->paper2046795207
+            	-cites->paper2063268247
+            	-cites->paper2102841898
+            	-cites->paper2105603754
+            	-cites->paper2109105084
+            	-cites->paper2129083927
+            	-cites->paper2135920852
+            	-cites->paper2136291946
+            	-cites->paper2146561295
+            	-cites->paper2153311568
+            	-cites->paper2157198435
+            	-cites->paper2167077144
+            	-cites->paper2171627300
+            	-authors->author2009256795
+            	-authors->author494248588
+            	-authors->author2059819287
+            	-authors->author2798490159
+            }
+}
+

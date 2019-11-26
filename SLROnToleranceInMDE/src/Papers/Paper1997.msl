@@ -1,0 +1,81 @@
+import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2005.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1996.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2008.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2004.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2009.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2012.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2006.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1997.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2011.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2010.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1999.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2001.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2015.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2013.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2014.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2007.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1989.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2003.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1990.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1992.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2016.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2017.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2018.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1977.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2019.msl"
+ 	
+model AllPapers -> AllAuthors, AllVenues {
+	paper1565432667:Paper {
+                .title : "Model Checking and Fault Tolerance"
+            	.year : 1997
+            	-venue->Venue1191172908
+            	-cites->paper199365300
+            	-cites->paper1507985299
+            	-cites->paper1515774215
+            	-cites->paper1529897089
+            	-cites->paper1534067655
+            	-cites->paper1593276140
+            	-cites->paper1966112122
+            	-cites->paper1984478483
+            	-cites->paper1999706742
+            	-cites->paper2015640848
+            	-cites->paper2033579026
+            	-cites->paper2036677122
+            	-cites->paper2152465173
+            	-authors->author2218276577
+            	-authors->author2764259235
+            }
+	paper2001803004:Paper {
+                .title : "Flexible update propagation for weakly consistent replication"
+            	.year : 1997
+            	-venue->Venue1171178643
+            	-cites->paper1525865893
+            	-cites->paper1586701723
+            	-cites->paper1973501242
+            	-cites->paper1980446225
+            	-cites->paper2009312542
+            	-cites->paper2032325066
+            	-cites->paper2038562061
+            	-cites->paper2043671329
+            	-cites->paper2059328141
+            	-cites->paper2087668037
+            	-cites->paper2111586962
+            	-cites->paper2116142433
+            	-cites->paper2117260615
+            	-cites->paper2123737479
+            	-cites->paper2124074197
+            	-cites->paper2125011947
+            	-cites->paper2125930899
+            	-cites->paper2131414602
+            	-cites->paper2156027558
+            	-authors->author2795421043
+            	-authors->author2894459299
+            	-authors->author2778312396
+            	-authors->author702877471
+            	-authors->author2642007365
+            }
+}
+

@@ -17,10 +17,11 @@ import com.fasterxml.jackson.core.TreeNode
 import PapersPojo
 import java.util.regex.Matcher
 import java.util.regex.Pattern
+import java.util.Set
+import java.util.HashSet
 
 class test {
-	
-	 
+
 	public static var List<String> venues = new ArrayList
 
 	def static void main(String[] args) {
@@ -32,58 +33,76 @@ class test {
 //		venues.add(scanner.next());
 //	}
 //	scanner.close();
-	//var writer = new PrintWriter("C:\\Users\\Suganya\\Desktop\\MSL_Generation\\GeneratedVenues.msl", "UTF-8");
+		// var writer = new PrintWriter("C:\\Users\\Suganya\\Desktop\\MSL_Generation\\GeneratedVenues.msl", "UTF-8");
 //
-		var writer = new PrintWriter("src\\Papers.msl", "UTF-8");
-	
+		// var writer = new PrintWriter("src\\Papers.msl", "UTF-8");
 //	println(instance.generateVenuesMSL)
 		var List<PapersPojo> papers = new ArrayList
-		papers = JsonParse.extractAuthors();
-		
-		//writer.println(instance.generateVenuesMSL(papers))
-			writer.println(instance.generatePapersMSL(papers))
-			//writer.println(instance.generateAuthorsMSL(papers))
-			
-	
-	writer.close();
-		//println(instance.generatePapersMSL(papers));
+		var Set<Integer> years = new HashSet;
 
+		papers = JsonParse.extractAuthors();
+
+		// writer.println(instance.generateVenuesMSL(papers))
+		// writer.println(instance.generatePapersMSL(papers))
+		// writer.println(instance.generateAuthorsMSL(papers))
+		var writer = new PrintWriter("src\\Papers\\Paper.msl", "UTF-8");
+
+		for (paper : papers) {
+			years.add(paper.getYear)
+
+		}
+		for (year : years) {
+			writer = new PrintWriter("src\\Papers\\Paper" + year + ".msl", "UTF-8");
+			writer.println(instance.generatePapersMSL(papers, year))
+					writer.close();
+			
+
+		}
+
+	// println(instance.generatePapersMSL(papers));
 //println(instance.generateAuthorsMSL(id_to_authors));
 	}
 
-	def String generatePapersMSL(List<PapersPojo> papers) {
+	def String generatePapersMSL(List<PapersPojo> papers, Integer year) {
 
-var i=0
+		var i = 0
+		var Set<Integer> years = new HashSet;
+		
 		''' 
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
+	«FOR paper : papers»
+	«IF(paper.getYear !== year) && !years.contains(paper.getYear)»	
+			      «{years.add(paper.getYear); "" }»
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper«paper.getYear.toString()».msl"
+          «ENDIF»          
+ 	«ENDFOR»
+ 	
 model AllPapers -> AllAuthors, AllVenues {
 	«FOR paper : papers»
-	
-	       
-	        paper«paper.getId()»:Paper {
+	      	«IF (paper.getYear()==year)»
+	      	    paper«paper.getId()»:Paper {
                 .title : "«getOnlyStrings(paper.getTitle())»"
             	.year : «paper.getYear()»
-            	.venue : "«paper.getVenue()»"
+            	-venue->Venue«paper.getVenue()»
             	«FOR reference : paper.getReferences()»
             		   -cites->paper«reference»
             	«ENDFOR»
             	«FOR author : paper.getAuthors()»
-            	       -authors->$author«author»
+            	       -authors->author«author»
             	 «ENDFOR»
             }
-    «ENDFOR»
-    			«var s=PapersPojo.dummypaperids»
-    				«FOR a : s»
-    				 paper«a»:Paper {
-    				 	.title : ""
-    				    .year : 0000
-    				    .venue : ""    				           
-    				            }
-    				    «ENDFOR»
-    			
-    
+                     «ENDIF»
+                «ENDFOR»
+«««    			«var s=PapersPojo.dummypaperids»
+«««    				«FOR a : s»
+«««    				 paper«a»:Paper {
+«««    				 	.title : ""
+«««    				    .year : 0000
+«««    				    .venue : ""    				           
+«««    				            }
+«««    				    «ENDFOR»   
 }
     '''
 	}
@@ -117,18 +136,18 @@ model AllVenues {
 	«FOR paper : papers»
 	
             venue«i++»:Venue {
-            	.Name : "«paper.getVenue»"
+            	.Name : "«paper.getVenuename»"
             }
             «ENDFOR»
 }
     '''
 	}
-	
+
 	def static String getOnlyStrings(String s) {
-		    var pattern = Pattern.compile("[^a-z A-Z\\s]");
-		    var matcher = pattern.matcher(s);
-		    var name = matcher.replaceAll("");
-		    return name;
-		 }
+		var pattern = Pattern.compile("[^a-z A-Z\\s]");
+		var matcher = pattern.matcher(s);
+		var name = matcher.replaceAll("");
+		return name;
+	}
 
 }

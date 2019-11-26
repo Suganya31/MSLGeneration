@@ -1,0 +1,180 @@
+import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2005.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1996.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2008.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2004.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2009.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2012.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2006.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1997.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2011.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2010.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1999.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2001.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2015.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2013.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2014.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2007.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1989.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2003.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1990.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1992.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2016.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2017.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2018.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1977.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2019.msl"
+ 	
+model AllPapers -> AllAuthors, AllVenues {
+	paper1517788876:Paper {
+                .title : "A formal model for faulttolerance in distributed systems"
+            	.year : 2005
+            	-venue->Venue1128163780
+            	-cites->paper77217802
+            	-cites->paper1495119494
+            	-cites->paper1746810856
+            	-cites->paper1893496051
+            	-cites->paper2035362408
+            	-cites->paper2039065451
+            	-cites->paper2074309809
+            	-cites->paper2095425626
+            	-cites->paper2095464745
+            	-cites->paper2111132249
+            	-cites->paper2120510885
+            	-cites->paper2122230781
+            	-cites->paper2133943294
+            	-cites->paper2152465173
+            	-cites->paper2169624732
+            	-cites->paper2611515161
+            	-authors->author2091218137
+            	-authors->author2303767204
+            }
+	paper1569963871:Paper {
+                .title : "A hybrid and adaptive model for faulttolerant distributed computing"
+            	.year : 2005
+            	-venue->Venue1187160151
+            	-cites->paper59792448
+            	-cites->paper1588792978
+            	-cites->paper1809760075
+            	-cites->paper1932544619
+            	-cites->paper2035362408
+            	-cites->paper2067293385
+            	-cites->paper2077240273
+            	-cites->paper2105604586
+            	-cites->paper2110261316
+            	-cites->paper2133943294
+            	-cites->paper2136586988
+            	-cites->paper2154420584
+            	-cites->paper2163971826
+            	-authors->author2120557863
+            	-authors->author2300628387
+            	-authors->author2398151068
+            }
+	paper2101690701:Paper {
+                .title : "Linear randomized voting algorithm for fault tolerant sensor fusion and the corresponding reliability model"
+            	.year : 2005
+            	-venue->Venue1173836718
+            	-cites->paper1992554067
+            	-cites->paper2030130446
+            	-cites->paper2033813804
+            	-cites->paper2117440776
+            	-cites->paper2125086691
+            	-authors->author214633795
+            	-authors->author2667078940
+            	-authors->author2193052964
+            }
+	paper2101911808:Paper {
+                .title : "A tool for automatic UML model consistency checking"
+            	.year : 2005
+            	-venue->Venue1166511975
+            	-cites->paper57854654
+            	-cites->paper99545732
+            	-cites->paper1601314163
+            	-cites->paper1637478387
+            	-cites->paper1817859439
+            	-cites->paper1972022507
+            	-cites->paper2020034474
+            	-cites->paper2102626454
+            	-authors->author2122043316
+            	-authors->author2229031895
+            }
+	paper2105526656:Paper {
+                .title : "Transactors a programming model for maintaining globally consistent distributed state in unreliable environments"
+            	.year : 2005
+            	-venue->Venue1160032607
+            	-cites->paper1515137670
+            	-cites->paper1515932031
+            	-cites->paper1548817500
+            	-cites->paper1556439447
+            	-cites->paper1625982774
+            	-cites->paper1660992747
+            	-cites->paper1982084274
+            	-cites->paper1991494135
+            	-cites->paper2005216655
+            	-cites->paper2011751031
+            	-cites->paper2050942832
+            	-cites->paper2061229529
+            	-cites->paper2092311766
+            	-cites->paper2098830227
+            	-cites->paper2108101248
+            	-cites->paper2127735978
+            	-cites->paper2128932399
+            	-cites->paper2153370559
+            	-cites->paper2157598146
+            	-cites->paper2169629375
+            	-authors->author2593155335
+            	-authors->author2134843463
+            }
+	paper2118105299:Paper {
+                .title : "Design and analysis of fault tolerant architectures by model weaving"
+            	.year : 2005
+            	-venue->Venue1173836718
+            	-cites->paper2021327849
+            	-cites->paper2054943246
+            	-cites->paper2057334711
+            	-cites->paper2098762187
+            	-cites->paper2116820549
+            	-cites->paper2119239145
+            	-cites->paper2124638887
+            	-cites->paper2138363365
+            	-cites->paper2141537650
+            	-cites->paper2157728090
+            	-authors->author2042152498
+            	-authors->author341399993
+            }
+	paper2135494054:Paper {
+                .title : "HRAFT  heuristic reachability analysis for fault tolerance protocols modelled in SDL"
+            	.year : 2005
+            	-venue->Venue1187160151
+            	-cites->paper171247437
+            	-cites->paper183522754
+            	-cites->paper1889614459
+            	-cites->paper1889775143
+            	-cites->paper1929430795
+            	-cites->paper2084608278
+            	-cites->paper2104978174
+            	-cites->paper2118850174
+            	-cites->paper2126214203
+            	-cites->paper2140945213
+            	-cites->paper2145856899
+            	-cites->paper2166752259
+            	-cites->paper2340735175
+            	-authors->author2692272389
+            }
+	paper2127352149:Paper {
+                .title : "Looselycoupled consistency between agentoriented conceptual models and Z specifications"
+            	.year : 2005
+            	-venue->Venue1173770489
+            	-cites->paper166270827
+            	-cites->paper1574427034
+            	-cites->paper2150900520
+            	-cites->paper2158024480
+            	-cites->paper2168029386
+            	-authors->author2169003538
+            	-authors->author673495245
+            	-authors->author1944874776
+            }
+}
+

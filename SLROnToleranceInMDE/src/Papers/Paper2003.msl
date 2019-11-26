@@ -1,0 +1,102 @@
+import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2005.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1996.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2008.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2004.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2009.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2012.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2006.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1997.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2011.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2010.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1999.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2001.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2015.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2013.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2014.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2007.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1989.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2003.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1990.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1992.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2016.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2017.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2018.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1977.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2019.msl"
+ 	
+model AllPapers -> AllAuthors, AllVenues {
+	paper2124466219:Paper {
+                .title : "Flexible fault tolerance in configurable middleware for embedded systems"
+            	.year : 2003
+            	-venue->Venue1143160721
+            	-cites->paper1516305737
+            	-cites->paper1589122423
+            	-cites->paper1973501242
+            	-cites->paper2118064488
+            	-cites->paper2136077912
+            	-cites->paper2165900899
+            	-authors->author2651393646
+            }
+	paper2143533292:Paper {
+                .title : "Design and implementation of a consistent time service for faulttolerant distributed systems"
+            	.year : 2003
+            	-venue->Venue1187160151
+            	-cites->paper199552658
+            	-cites->paper1537146784
+            	-cites->paper1818998288
+            	-cites->paper2077671984
+            	-cites->paper2081437333
+            	-cites->paper2095343473
+            	-cites->paper2104976511
+            	-cites->paper2118891797
+            	-cites->paper2141903135
+            	-cites->paper2145027286
+            	-cites->paper2145200786
+            	-cites->paper2164357820
+            	-cites->paper2170314424
+            	-cites->paper2170715240
+            	-cites->paper2212688659
+            	-authors->author2100758111
+            	-authors->author2154501644
+            	-authors->author1509630456
+            }
+	paper178588303:Paper {
+                .title : "Using Critiquing Systems for Inconsistency Detection in Software Engineering Models"
+            	.year : 2003
+            	-venue->Venue1173770489
+            	-cites->paper1787802610
+            	-cites->paper1875319849
+            	-cites->paper1983603073
+            	-cites->paper2037497522
+            	-cites->paper2052132556
+            	-cites->paper2061214987
+            	-cites->paper2079550577
+            	-cites->paper2084310469
+            	-cites->paper2099293367
+            	-cites->paper2104955812
+            	-cites->paper2131356112
+            	-cites->paper2132128541
+            	-cites->paper2144067967
+            	-cites->paper2152952812
+            	-cites->paper2153474105
+            	-cites->paper2155988429
+            	-authors->author2634187195
+            	-authors->author311754748
+            	-authors->author2131028410
+            	-authors->author2322134559
+            	-authors->author2666407831
+            }
+	paper71622874:Paper {
+                .title : "Specification and Validation of FaultTolerant Software Architectures Based on Actor Model"
+            	.year : 2003
+            	-venue->Venue1173770489
+            	-authors->author2690163336
+            	-authors->author2161553928
+            	-authors->author2721271501
+            	-authors->author2691558579
+            }
+}
+

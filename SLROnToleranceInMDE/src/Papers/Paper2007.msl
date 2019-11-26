@@ -1,0 +1,318 @@
+import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2005.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1996.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2008.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2004.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2009.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2012.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2006.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1997.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2011.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2010.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1999.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2001.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2015.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2013.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2014.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2007.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1989.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2003.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1990.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1992.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2016.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2017.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2018.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1977.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2019.msl"
+ 	
+model AllPapers -> AllAuthors, AllVenues {
+	paper1979172056:Paper {
+                .title : "Flexible intrusion tolerant voting architecture"
+            	.year : 2007
+            	-venue->Venue2757217015
+            	-cites->paper2073126252
+            	-cites->paper2126789306
+            	-cites->paper2148129140
+            	-cites->paper2152465173
+            	-cites->paper2155844047
+            	-authors->author312574021
+            	-authors->author2110219690
+            }
+	paper2068276472:Paper {
+                .title : "Consistent Modeling Integration and Simulation of Molecular Interaction Networks in SpaceTime Dimension"
+            	.year : 2007
+            	-venue->Venue1153779279
+            	-cites->paper295130582
+            	-cites->paper334583739
+            	-cites->paper1590398161
+            	-cites->paper1996392605
+            	-authors->author2001304548
+            }
+	paper2082842864:Paper {
+                .title : "Improving inconsistency resolution with sideeffect evaluation and costs"
+            	.year : 2007
+            	-venue->Venue1191550517
+            	-cites->paper1498244333
+            	-cites->paper1499843713
+            	-cites->paper1511832825
+            	-cites->paper1983160424
+            	-cites->paper2021382227
+            	-cites->paper2025624633
+            	-cites->paper2043336932
+            	-cites->paper2053633607
+            	-cites->paper2055301497
+            	-cites->paper2060370450
+            	-cites->paper2069865621
+            	-cites->paper2117870171
+            	-cites->paper2134001468
+            	-cites->paper2135490787
+            	-authors->author25924394
+            	-authors->author2032654697
+            }
+	paper2099698375:Paper {
+                .title : "Consistency Checking of Conceptual Models via Model Merging"
+            	.year : 2007
+            	-venue->Venue2606605052
+            	-cites->paper163597783
+            	-cites->paper326424914
+            	-cites->paper1489366126
+            	-cites->paper1494640588
+            	-cites->paper1504594060
+            	-cites->paper1541300602
+            	-cites->paper1624890657
+            	-cites->paper1895387792
+            	-cites->paper1928902483
+            	-cites->paper1983421263
+            	-cites->paper1996832037
+            	-cites->paper2004901564
+            	-cites->paper2025624633
+            	-cites->paper2072082216
+            	-cites->paper2080267935
+            	-cites->paper2098243935
+            	-cites->paper2105603754
+            	-cites->paper2117870171
+            	-cites->paper2118991740
+            	-cites->paper2128353032
+            	-cites->paper2128710701
+            	-cites->paper2135920852
+            	-cites->paper2148159886
+            	-cites->paper2152846401
+            	-cites->paper2157437711
+            	-cites->paper2163494375
+            	-cites->paper2165391259
+            	-cites->paper2168690391
+            	-cites->paper2171627300
+            	-authors->author2138229616
+            	-authors->author329574911
+            	-authors->author2032435099
+            	-authors->author2714462712
+            	-authors->author2700055968
+            }
+	paper2118824234:Paper {
+                .title : "Formal Verification of Consistency between Feature Model and Software Architecture in Software Product Line"
+            	.year : 2007
+            	-venue->Venue1200099006
+            	-cites->paper75489299
+            	-cites->paper1597691197
+            	-cites->paper2038476425
+            	-cites->paper2129238580
+            	-cites->paper2150067302
+            	-cites->paper2176490758
+            	-authors->author2278108851
+            	-authors->author2113802326
+            	-authors->author2151379807
+            }
+	paper2122870030:Paper {
+                .title : "A Safety Analysis Framework for COTS Microprocessors in SafetyCritical Applications"
+            	.year : 2007
+            	-venue->Venue1173836718
+            	-cites->paper1541288632
+            	-cites->paper2133201251
+            	-authors->author2161311230
+            	-authors->author1219652878
+            	-authors->author2717743363
+            }
+	paper2143320215:Paper {
+                .title : "UMLAnalyzer A Tool for the Instant Consistency Checking of UML Models"
+            	.year : 2007
+            	-venue->Venue1174403976
+            	-cites->paper1998017916
+            	-cites->paper2012959900
+            	-cites->paper2021184080
+            	-cites->paper2159090554
+            	-authors->author2600856194
+            }
+	paper2145891223:Paper {
+                .title : "A Study of Consistent and Inconsistent Changes to Code Clones"
+            	.year : 2007
+            	-venue->Venue1131743930
+            	-cites->paper121288867
+            	-cites->paper1593203335
+            	-cites->paper1674221164
+            	-cites->paper1698439592
+            	-cites->paper2018783607
+            	-cites->paper2074529754
+            	-cites->paper2096491586
+            	-cites->paper2101251407
+            	-cites->paper2109943392
+            	-cites->paper2115534035
+            	-cites->paper2120319185
+            	-cites->paper2125478006
+            	-cites->paper2128698639
+            	-cites->paper2138756793
+            	-cites->paper2143151143
+            	-cites->paper2146483864
+            	-cites->paper2149864547
+            	-cites->paper2156778594
+            	-cites->paper2157532207
+            	-cites->paper2161241761
+            	-cites->paper2164030845
+            	-authors->author1334672199
+            }
+	paper2160781056:Paper {
+                .title : "CheckFence checking consistency of concurrent data types on relaxed memory models"
+            	.year : 2007
+            	-venue->Venue1127352206
+            	-cites->paper1495128589
+            	-cites->paper1540179969
+            	-cites->paper1594023774
+            	-cites->paper1601315806
+            	-cites->paper1782479956
+            	-cites->paper1823635467
+            	-cites->paper1972544179
+            	-cites->paper1981393723
+            	-cites->paper1986732422
+            	-cites->paper1989300723
+            	-cites->paper2013021588
+            	-cites->paper2024255419
+            	-cites->paper2029601347
+            	-cites->paper2039509099
+            	-cites->paper2054739713
+            	-cites->paper2054961017
+            	-cites->paper2056366613
+            	-cites->paper2058317042
+            	-cites->paper2088139180
+            	-cites->paper2091085450
+            	-cites->paper2100373446
+            	-cites->paper2101990169
+            	-cites->paper2102580681
+            	-cites->paper2104579430
+            	-cites->paper2107089133
+            	-cites->paper2109875364
+            	-cites->paper2111759889
+            	-cites->paper2129017891
+            	-cites->paper2129538349
+            	-cites->paper2133662847
+            	-cites->paper2134042909
+            	-cites->paper2138927523
+            	-cites->paper2141330646
+            	-cites->paper2142785340
+            	-cites->paper2143989135
+            	-cites->paper2149911648
+            	-cites->paper2151507830
+            	-cites->paper2158449625
+            	-cites->paper2166115541
+            	-cites->paper2166615267
+            	-authors->author689646243
+            	-authors->author2303331168
+            	-authors->author2107284710
+            }
+	paper2161308564:Paper {
+                .title : "FaultTolerant SemiPassive Coordination Protocol for a MultiActuatorMultiSensor MAMS Model"
+            	.year : 2007
+            	-venue->Venue2623176867
+            	-cites->paper1587166076
+            	-cites->paper1985349143
+            	-cites->paper1992390275
+            	-cites->paper2015377793
+            	-cites->paper2053406960
+            	-cites->paper2107951442
+            	-cites->paper2109197610
+            	-cites->paper2112161048
+            	-cites->paper2120510885
+            	-cites->paper2122048894
+            	-cites->paper2143161716
+            	-cites->paper2146746579
+            	-cites->paper2148085206
+            	-cites->paper2168452204
+            	-authors->author2043833901
+            	-authors->author2299825243
+            	-authors->author2042216256
+            	-authors->author2120372136
+            }
+	paper2162686404:Paper {
+                .title : "Fixing Inconsistencies in UML Design Models"
+            	.year : 2007
+            	-venue->Venue1174403976
+            	-cites->paper99545732
+            	-cites->paper1968128450
+            	-cites->paper1983160424
+            	-cites->paper1991435895
+            	-cites->paper1998017916
+            	-cites->paper2012959900
+            	-cites->paper2021184080
+            	-cites->paper2134062730
+            	-cites->paper2143320215
+            	-cites->paper2145209235
+            	-cites->paper2145217511
+            	-cites->paper2159090554
+            	-authors->author2894756025
+            }
+	paper2171445445:Paper {
+                .title : "Measuring Reliability as a Mean Failure Cost"
+            	.year : 2007
+            	-venue->Venue1173836718
+            	-cites->paper1495119494
+            	-cites->paper1575709632
+            	-cites->paper1929752839
+            	-cites->paper1996832037
+            	-cites->paper2007677428
+            	-cites->paper2035362408
+            	-cites->paper2050104152
+            	-cites->paper2074270833
+            	-cites->paper2095425626
+            	-cites->paper2100970777
+            	-cites->paper2111132249
+            	-cites->paper2115309705
+            	-cites->paper2118551527
+            	-cites->paper2133201251
+            	-cites->paper2136671357
+            	-cites->paper2140225592
+            	-cites->paper2145071552
+            	-cites->paper2145777668
+            	-cites->paper2152465173
+            	-authors->author1996934220
+            	-authors->author2262040313
+            }
+	paper2104226397:Paper {
+                .title : "On the Collaborative Development of ParaConsistent Conceptual Models"
+            	.year : 2007
+            	-venue->Venue1182898022
+            	-cites->paper1559179949
+            	-cites->paper1997970215
+            	-cites->paper2105603754
+            	-cites->paper2110689325
+            	-cites->paper2156549226
+            	-authors->author756122464
+            	-authors->author2134659517
+            }
+	paper99999999998:Paper {
+                .title : "Software Reliability Modeling with Test Coverage  Experimentation and Measurement with A FaultTolerant Software Project"
+            	.year : 2007
+            	-venue->Venue
+            	-cites->paper2099859756
+            	-cites->paper2132627437
+            	-cites->paper2141625748
+            	-cites->paper2148815373
+            	-cites->paper2152228029
+            	-cites->paper2153513325
+            	-cites->paper2155445882
+            	-cites->paper2155501769
+            	-cites->paper2156127351
+            	-authors->author25
+            	-authors->author26
+            }
+}
+

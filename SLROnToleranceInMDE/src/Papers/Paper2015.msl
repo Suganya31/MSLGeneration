@@ -1,0 +1,264 @@
+import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2005.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1996.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2008.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2004.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2009.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2012.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2006.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1997.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2011.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2010.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1999.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2001.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2015.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2013.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2014.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2007.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1989.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2003.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1990.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1992.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2016.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2017.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2018.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1977.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2019.msl"
+ 	
+model AllPapers -> AllAuthors, AllVenues {
+	paper1639394823:Paper {
+                .title : "Towards ModelDriven VariabilityBased Flexible Service Compositions"
+            	.year : 2015
+            	-venue->Venue1143160721
+            	-cites->paper119260449
+            	-cites->paper1485856036
+            	-cites->paper1969367632
+            	-cites->paper2026702834
+            	-cites->paper2096916430
+            	-cites->paper2112836383
+            	-cites->paper2116262133
+            	-cites->paper2117321860
+            	-cites->paper2134604665
+            	-cites->paper2139690978
+            	-cites->paper2145130321
+            	-authors->author2222006576
+            	-authors->author2124914855
+            	-authors->author2439385943
+            	-authors->author2154952331
+            	-authors->author2107447959
+            }
+	paper2085422792:Paper {
+                .title : "Building consistent transactions with inconsistent replication"
+            	.year : 2015
+            	-venue->Venue1171178643
+            	-cites->paper192446467
+            	-cites->paper1433235304
+            	-cites->paper1524103123
+            	-cites->paper1545155892
+            	-cites->paper1565495482
+            	-cites->paper1577169013
+            	-cites->paper1601925768
+            	-cites->paper1642392512
+            	-cites->paper1814543774
+            	-cites->paper1845494277
+            	-cites->paper1916848204
+            	-cites->paper1969925795
+            	-cites->paper1976216569
+            	-cites->paper1981420413
+            	-cites->paper1985229168
+            	-cites->paper1992479210
+            	-cites->paper1999610418
+            	-cites->paper2003597767
+            	-cites->paper2013409485
+            	-cites->paper2015688007
+            	-cites->paper2020765652
+            	-cites->paper2034747525
+            	-cites->paper2036245042
+            	-cites->paper2041180570
+            	-cites->paper2067740651
+            	-cites->paper2072552880
+            	-cites->paper2087946700
+            	-cites->paper2091389843
+            	-cites->paper2102459581
+            	-cites->paper2104670257
+            	-cites->paper2108026089
+            	-cites->paper2110026634
+            	-cites->paper2110765100
+            	-cites->paper2112564224
+            	-cites->paper2114407468
+            	-cites->paper2117260615
+            	-cites->paper2127872526
+            	-cites->paper2130923111
+            	-cites->paper2131929623
+            	-cites->paper2133386065
+            	-cites->paper2143339985
+            	-cites->paper2149143581
+            	-cites->paper2149804187
+            	-cites->paper2150013559
+            	-cites->paper2151791866
+            	-cites->paper2153704625
+            	-cites->paper2156027558
+            	-cites->paper2161730338
+            	-cites->paper2168227861
+            	-cites->paper2293633413
+            	-cites->paper2295541535
+            	-cites->paper2624304035
+            	-authors->author2145632935
+            	-authors->author1985104365
+            	-authors->author1513655371
+            	-authors->author2088689873
+            	-authors->author2159186294
+            }
+	paper2086023529:Paper {
+                .title : "ArMOR defending against memory consistency model mismatches in heterogeneous architectures"
+            	.year : 2015
+            	-venue->Venue1131341566
+            	-cites->paper1525350307
+            	-cites->paper1808398105
+            	-cites->paper1847252379
+            	-cites->paper1885534640
+            	-cites->paper1968283843
+            	-cites->paper1969168679
+            	-cites->paper1979717209
+            	-cites->paper1983630549
+            	-cites->paper1987465195
+            	-cites->paper1997576530
+            	-cites->paper2010497096
+            	-cites->paper2022941486
+            	-cites->paper2029601347
+            	-cites->paper2039509099
+            	-cites->paper2064390891
+            	-cites->paper2068361557
+            	-cites->paper2086010014
+            	-cites->paper2088032806
+            	-cites->paper2088943630
+            	-cites->paper2091085450
+            	-cites->paper2092284451
+            	-cites->paper2095894588
+            	-cites->paper2096343842
+            	-cites->paper2097931542
+            	-cites->paper2107699547
+            	-cites->paper2109360947
+            	-cites->paper2109639089
+            	-cites->paper2110653637
+            	-cites->paper2110879934
+            	-cites->paper2111858071
+            	-cites->paper2116454140
+            	-cites->paper2122602877
+            	-cites->paper2132117132
+            	-cites->paper2133156997
+            	-cites->paper2134633067
+            	-cites->paper2147657366
+            	-cites->paper2148947321
+            	-cites->paper2152390090
+            	-cites->paper2152885346
+            	-cites->paper2153636750
+            	-cites->paper2158551169
+            	-cites->paper2160781056
+            	-cites->paper2163490397
+            	-cites->paper2170293694
+            	-cites->paper2610308442
+            	-cites->paper2738891045
+            	-authors->author2893851776
+            	-authors->author2029293479
+            	-authors->author1972692845
+            	-authors->author2229729172
+            }
+	paper2104177825:Paper {
+                .title : "Process model for rapid implementation of features using flexible architecture"
+            	.year : 2015
+            	-venue->Venue2755410616
+            	-cites->paper1496688783
+            	-cites->paper2002170195
+            	-cites->paper2037839248
+            	-cites->paper2082812939
+            	-authors->author2670994458
+            }
+	paper2181002748:Paper {
+                .title : "Consistent coevolution of models and transformations"
+            	.year : 2015
+            	-venue->Venue1191550517
+            	-cites->paper113976528
+            	-cites->paper937233221
+            	-cites->paper1551827801
+            	-cites->paper1558561379
+            	-cites->paper1565559052
+            	-cites->paper1589399509
+            	-cites->paper1598165075
+            	-cites->paper1844824726
+            	-cites->paper1965979806
+            	-cites->paper2047213321
+            	-cites->paper2060959285
+            	-cites->paper2102275784
+            	-cites->paper2153887189
+            	-cites->paper2169123208
+            	-cites->paper2181698801
+            	-cites->paper2215445043
+            	-cites->paper2407050040
+            	-authors->author319937283
+            	-authors->author197003761
+            	-authors->author713062379
+            	-authors->author1237371566
+            	-authors->author2075200806
+            	-authors->author1970678733
+            }
+	paper2206084846:Paper {
+                .title : "Checking UML and OCL Model Consistency An Experience Report on a MiddleSized Case Study"
+            	.year : 2015
+            	-venue->Venue1129775427
+            	-cites->paper88009092
+            	-cites->paper1519503479
+            	-cites->paper1553725484
+            	-cites->paper1960269429
+            	-cites->paper1985137265
+            	-cites->paper2006182874
+            	-cites->paper2025196861
+            	-cites->paper2111445678
+            	-cites->paper2395296997
+            	-cites->paper2397639492
+            	-authors->author2031672983
+            	-authors->author2151765771
+            	-authors->author2162885025
+            	-authors->author2138609590
+            }
+	paper2236227338:Paper {
+                .title : "Efficient GPU synchronization without scopes saying no to complex consistency models"
+            	.year : 2015
+            	-venue->Venue1150919317
+            	-cites->paper1897254069
+            	-cites->paper1978155891
+            	-cites->paper1979527452
+            	-cites->paper1994999558
+            	-cites->paper1997162567
+            	-cites->paper1997352364
+            	-cites->paper1997576530
+            	-cites->paper2021211271
+            	-cites->paper2053776346
+            	-cites->paper2054391605
+            	-cites->paper2078994750
+            	-cites->paper2080592089
+            	-cites->paper2083780331
+            	-cites->paper2086167999
+            	-cites->paper2093043622
+            	-cites->paper2099912705
+            	-cites->paper2122901568
+            	-cites->paper2148032086
+            	-cites->paper2150618958
+            	-cites->paper2152390090
+            	-cites->paper2153636750
+            	-cites->paper2157225945
+            	-cites->paper2158190559
+            	-cites->paper2158551169
+            	-cites->paper2160963348
+            	-cites->paper2164264749
+            	-cites->paper2164391801
+            	-cites->paper2170382128
+            	-cites->paper2171674228
+            	-authors->author2150398445
+            	-authors->author2222635515
+            	-authors->author2346116799
+            }
+}
+

@@ -1,0 +1,210 @@
+import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2005.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1996.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2008.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2004.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2009.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2012.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2006.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1997.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2011.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2010.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1999.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2001.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2015.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2013.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2014.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2007.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1989.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2003.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1990.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1992.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2016.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2017.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2018.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1977.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2019.msl"
+ 	
+model AllPapers -> AllAuthors, AllVenues {
+	paper1968283843:Paper {
+                .title : "Pipe Check Specifying and Verifying Microarchitectural Enforcement of Memory Consistency Models"
+            	.year : 2014
+            	-venue->Venue1150919317
+            	-cites->paper1483960654
+            	-cites->paper1525350307
+            	-cites->paper1545792627
+            	-cites->paper1593091446
+            	-cites->paper1602156367
+            	-cites->paper1808398105
+            	-cites->paper1885534640
+            	-cites->paper1943070836
+            	-cites->paper1969168679
+            	-cites->paper1973501242
+            	-cites->paper1984439088
+            	-cites->paper1986463648
+            	-cites->paper2026161190
+            	-cites->paper2032755892
+            	-cites->paper2039509099
+            	-cites->paper2051789131
+            	-cites->paper2054739713
+            	-cites->paper2091085450
+            	-cites->paper2096343842
+            	-cites->paper2098643127
+            	-cites->paper2105945277
+            	-cites->paper2110879934
+            	-cites->paper2111858071
+            	-cites->paper2116454140
+            	-cites->paper2132117132
+            	-cites->paper2147657366
+            	-cites->paper2152390090
+            	-cites->paper2152885346
+            	-cites->paper2155006989
+            	-cites->paper2163490397
+            	-cites->paper2176864362
+            	-cites->paper2177772636
+            	-cites->paper2738891045
+            	-authors->author2029293479
+            	-authors->author1972692845
+            	-authors->author1998414096
+            }
+	paper2022276169:Paper {
+                .title : "Controlled modeling environment using flexiblyformatted spreadsheets"
+            	.year : 2014
+            	-venue->Venue1174403976
+            	-cites->paper1480582324
+            	-cites->paper1487672899
+            	-cites->paper1558832481
+            	-cites->paper1963978173
+            	-cites->paper1965979806
+            	-cites->paper1969600276
+            	-cites->paper1974084458
+            	-cites->paper1991550997
+            	-cites->paper1997164669
+            	-cites->paper2006210705
+            	-cites->paper2050340005
+            	-cites->paper2066044245
+            	-cites->paper2067163678
+            	-cites->paper2096266868
+            	-cites->paper2098903272
+            	-cites->paper2110143060
+            	-authors->author2099270678
+            	-authors->author2149575715
+            	-authors->author2117112333
+            }
+	paper2061467503:Paper {
+                .title : "Towards ModelandCode Consistency Checking"
+            	.year : 2014
+            	-venue->Venue1143160721
+            	-cites->paper1556944944
+            	-cites->paper1971702813
+            	-cites->paper1983160424
+            	-cites->paper1983421263
+            	-cites->paper1994814240
+            	-cites->paper2012959900
+            	-cites->paper2033222078
+            	-cites->paper2054332523
+            	-cites->paper2066029222
+            	-cites->paper2102841375
+            	-cites->paper2114809327
+            	-cites->paper2133254848
+            	-cites->paper2134062730
+            	-cites->paper2138363365
+            	-cites->paper2139872812
+            	-cites->paper2146082668
+            	-cites->paper2147642262
+            	-cites->paper2158067240
+            	-cites->paper2161527051
+            	-cites->paper2162366870
+            	-cites->paper2163104689
+            	-cites->paper2163819378
+            	-authors->author1949402193
+            	-authors->author245733066
+            	-authors->author722927782
+            }
+	paper2264377422:Paper {
+                .title : "Efficiently and Completely Verifying Synchronized Consistency Models"
+            	.year : 2014
+            	-venue->Venue1130464007
+            	-cites->paper1556566737
+            	-cites->paper1594228127
+            	-cites->paper1694765325
+            	-cites->paper1975840504
+            	-cites->paper1982125317
+            	-cites->paper2024255419
+            	-cites->paper2025301734
+            	-cites->paper2029337124
+            	-cites->paper2029601347
+            	-cites->paper2034531215
+            	-cites->paper2046161500
+            	-cites->paper2069195425
+            	-cites->paper2085773946
+            	-cites->paper2092816328
+            	-cites->paper2093088761
+            	-cites->paper2105945277
+            	-cites->paper2105980774
+            	-cites->paper2110868591
+            	-cites->paper2110879934
+            	-cites->paper2124334559
+            	-cites->paper2135355961
+            	-cites->paper2135741511
+            	-cites->paper2149179427
+            	-cites->paper2149911648
+            	-cites->paper2153229512
+            	-cites->paper2163490397
+            	-cites->paper2166422778
+            	-cites->paper2170293694
+            	-cites->paper2176864362
+            	-cites->paper2520885739
+            	-authors->author2107724744
+            	-authors->author2638855417
+            	-authors->author2107417546
+            	-authors->author2344333999
+            	-authors->author2435179218
+            }
+	paper49939434:Paper {
+                .title : "A Formal Model for ConstraintBased Deployment Calculation and Analysis for FaultTolerant Systems"
+            	.year : 2014
+            	-venue->Venue1174403976
+            	-cites->paper1480909796
+            	-cites->paper1556566737
+            	-cites->paper2118824103
+            	-cites->paper2127099711
+            	-cites->paper2145071552
+            	-cites->paper2153726799
+            	-cites->paper2272918745
+            	-authors->author719012357
+            	-authors->author2119749041
+            	-authors->author2557436135
+            	-authors->author2199825802
+            }
+	paper2395715776:Paper {
+                .title : "Flexible Modeling and Product Derivation in Software Product Lines"
+            	.year : 2014
+            	-venue->Venue1173770489
+            	-authors->author2132358281
+            	-authors->author2224377421
+            }
+	paper2070474270:Paper {
+                .title : "Heterogeneous models matching for consistency management"
+            	.year : 2014
+            	-venue->Venue1130566378
+            	-cites->paper43969157
+            	-cites->paper1579534349
+            	-cites->paper1602228945
+            	-cites->paper2049142911
+            	-cites->paper2063268247
+            	-cites->paper2095628807
+            	-cites->paper2102874028
+            	-cites->paper2107344568
+            	-cites->paper2130234837
+            	-cites->paper2406600029
+            	-authors->author2021330974
+            	-authors->author72241827
+            	-authors->author2131966228
+            	-authors->author2161499562
+            	-authors->author2170370782
+            }
+}
+

@@ -1,0 +1,297 @@
+import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2005.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1996.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2008.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2004.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2009.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2012.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2006.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1997.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2011.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2010.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1999.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2001.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2015.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2013.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2014.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2007.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1989.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2003.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1990.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1992.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2016.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2017.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2018.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1977.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2019.msl"
+ 	
+model AllPapers -> AllAuthors, AllVenues {
+	paper1556323883:Paper {
+                .title : "Maximal Causal Models for Sequentially Consistent Systems"
+            	.year : 2012
+            	-venue->Venue1200543359
+            	-cites->paper1481985818
+            	-cites->paper1522334395
+            	-cites->paper1525350307
+            	-cites->paper1534988187
+            	-cites->paper1560743762
+            	-cites->paper1568729458
+            	-cites->paper1579452275
+            	-cites->paper1972544179
+            	-cites->paper1976848527
+            	-cites->paper2033651910
+            	-cites->paper2054739713
+            	-cites->paper2080570636
+            	-cites->paper2082766667
+            	-cites->paper2101939036
+            	-cites->paper2105900173
+            	-cites->paper2114925953
+            	-cites->paper2127989655
+            	-cites->paper2133662847
+            	-cites->paper2134747058
+            	-cites->paper2136877520
+            	-cites->paper2137422315
+            	-cites->paper2144249474
+            	-cites->paper2160489152
+            	-cites->paper2161466480
+            	-cites->paper2170128278
+            	-cites->paper2171076136
+            	-authors->author2238083521
+            	-authors->author96492545
+            	-authors->author1572221536
+            }
+	paper1971702813:Paper {
+                .title : "Computing repair trees for resolving inconsistencies in design models"
+            	.year : 2012
+            	-venue->Venue1166511975
+            	-cites->paper1685969755
+            	-cites->paper1964566177
+            	-cites->paper1983160424
+            	-cites->paper1991633729
+            	-cites->paper1993997772
+            	-cites->paper2012959900
+            	-cites->paper2041756731
+            	-cites->paper2053633607
+            	-cites->paper2058145265
+            	-cites->paper2061050762
+            	-cites->paper2102626454
+            	-cites->paper2112000202
+            	-cites->paper2112964990
+            	-cites->paper2127685229
+            	-cites->paper2143614054
+            	-cites->paper2149864282
+            	-cites->paper2158209101
+            	-cites->paper2159090554
+            	-cites->paper2160930909
+            	-cites->paper2162686404
+            	-cites->paper2760615478
+            	-authors->author1952746506
+            	-authors->author2600856194
+            }
+	paper1992250631:Paper {
+                .title : "An Approach for Detecting Inconsistencies between Behavioral Models of the Software Architecture and the Code"
+            	.year : 2012
+            	-venue->Venue1143160721
+            	-cites->paper1603839139
+            	-cites->paper1934543060
+            	-cites->paper1984489185
+            	-cites->paper1987089410
+            	-cites->paper2049008406
+            	-cites->paper2072263294
+            	-cites->paper2101623441
+            	-cites->paper2112725596
+            	-cites->paper2133254848
+            	-cites->paper2138363365
+            	-cites->paper2151191515
+            	-cites->paper2156820237
+            	-cites->paper2157103940
+            	-cites->paper2161527051
+            	-cites->paper2543294301
+            	-authors->author145797151
+            	-authors->author2004525280
+            	-authors->author1913405697
+            }
+	paper1996424622:Paper {
+                .title : "Applying a consistency checking framework for heterogeneous models and artifacts in industrial product lines"
+            	.year : 2012
+            	-venue->Venue1191550517
+            	-cites->paper99545732
+            	-cites->paper1481078745
+            	-cites->paper1578096003
+            	-cites->paper1685969755
+            	-cites->paper1983421263
+            	-cites->paper1991349969
+            	-cites->paper1998248930
+            	-cites->paper2021626639
+            	-cites->paper2023213582
+            	-cites->paper2033803742
+            	-cites->paper2066029222
+            	-cites->paper2104257432
+            	-cites->paper2111673347
+            	-cites->paper2112000202
+            	-cites->paper2122899478
+            	-cites->paper2125398918
+            	-cites->paper2149864282
+            	-cites->paper2153474105
+            	-cites->paper2159090554
+            	-cites->paper2166568068
+            	-authors->author2159884275
+            	-authors->author916343192
+            	-authors->author2776092093
+            	-authors->author2196554139
+            	-authors->author1803909670
+            }
+	paper2035069501:Paper {
+                .title : "ConstraintBased Consistency Checking between Design Decisions and Component Models for Supporting Software Architecture Evolution"
+            	.year : 2012
+            	-venue->Venue1145597874
+            	-cites->paper257391
+            	-cites->paper12874984
+            	-cites->paper1966654106
+            	-cites->paper1981396776
+            	-cites->paper2000307931
+            	-cites->paper2038476425
+            	-cites->paper2045581671
+            	-cites->paper2096931889
+            	-cites->paper2103883247
+            	-cites->paper2108970696
+            	-cites->paper2111023964
+            	-cites->paper2134855135
+            	-cites->paper2136317684
+            	-cites->paper2145941600
+            	-cites->paper2155854577
+            	-cites->paper2159090554
+            	-cites->paper2166365253
+            	-cites->paper2167500728
+            	-cites->paper2168235496
+            	-authors->author2245253439
+            	-authors->author1850138121
+            	-authors->author2344120076
+            }
+	paper2054332523:Paper {
+                .title : "Incremental consistency checking for complex design rules and larger model changes"
+            	.year : 2012
+            	-venue->Venue1191550517
+            	-cites->paper1563049645
+            	-cites->paper1982313944
+            	-cites->paper1983160424
+            	-cites->paper2012959900
+            	-cites->paper2043310979
+            	-cites->paper2043336932
+            	-cites->paper2053633607
+            	-cites->paper2094691937
+            	-cites->paper2099698375
+            	-cites->paper2104301421
+            	-cites->paper2116502002
+            	-cites->paper2127237677
+            	-cites->paper2127685229
+            	-cites->paper2143614054
+            	-cites->paper2149864282
+            	-cites->paper2153019760
+            	-cites->paper2157564610
+            	-cites->paper2159090554
+            	-cites->paper2162686404
+            	-cites->paper2170239024
+            	-authors->author1952746506
+            	-authors->author722927782
+            }
+	paper2063122285:Paper {
+                .title : "Model driven configuration of fault tolerance solutions for componentbased software system"
+            	.year : 2012
+            	-venue->Venue1191550517
+            	-cites->paper1494640588
+            	-cites->paper1544281820
+            	-cites->paper1979501712
+            	-cites->paper1979868167
+            	-cites->paper1982313944
+            	-cites->paper1983171510
+            	-cites->paper1987089410
+            	-cites->paper2015699956
+            	-cites->paper2063268247
+            	-cites->paper2099402694
+            	-cites->paper2111519488
+            	-cites->paper2117175291
+            	-cites->paper2122149060
+            	-cites->paper2137544679
+            	-cites->paper2145071552
+            	-cites->paper2161056315
+            	-cites->paper2162386866
+            	-authors->author2146697543
+            	-authors->author2154255022
+            	-authors->author2811476305
+            	-authors->author2438616329
+            }
+	paper2121061989:Paper {
+                .title : "Partial models towards modeling and reasoning with uncertainty"
+            	.year : 2012
+            	-venue->Venue1174403976
+            	-cites->paper99545732
+            	-cites->paper187889024
+            	-cites->paper1488121907
+            	-cites->paper1507387197
+            	-cites->paper1536631555
+            	-cites->paper1555593767
+            	-cites->paper1588557629
+            	-cites->paper1601820116
+            	-cites->paper1983160424
+            	-cites->paper1988506401
+            	-cites->paper2002662905
+            	-cites->paper2058547748
+            	-cites->paper2091968063
+            	-cites->paper2129289644
+            	-cites->paper2130195901
+            	-cites->paper2133724574
+            	-cites->paper2143614054
+            	-cites->paper2148106163
+            	-cites->paper2155028447
+            	-cites->paper2760715935
+            	-authors->author2032435099
+            	-authors->author511866907
+            	-authors->author1274701876
+            }
+	paper2143838413:Paper {
+                .title : "Evaluating the impact of aspects on inconsistency detection effort a controlled experiment"
+            	.year : 2012
+            	-venue->Venue1191550517
+            	-cites->paper1532079015
+            	-cites->paper1965228681
+            	-cites->paper1967389447
+            	-cites->paper1986307186
+            	-cites->paper1997164669
+            	-cites->paper2003549823
+            	-cites->paper2028283353
+            	-cites->paper2044303677
+            	-cites->paper2153523756
+            	-cites->paper2165203881
+            	-cites->paper2167626029
+            	-authors->author2183704515
+            	-authors->author2148604163
+            	-authors->author2182731144
+            }
+	paper2154301801:Paper {
+                .title : "A pattern for modelling fault tolerant systems in eventb"
+            	.year : 2012
+            	-venue->Venue
+            	-cites->paper1607741321
+            	-cites->paper1836432192
+            	-cites->paper2152855573
+            	-cites->paper2279558956
+            	-authors->author69390744
+            	-authors->author2260154275
+            }
+	paper2407548088:Paper {
+                .title : "A Petri Net Model for Secure and FaultTolerant CloudBased Information Storage"
+            	.year : 2012
+            	-venue->Venue1173770489
+            	-cites->paper1502833055
+            	-cites->paper1675329038
+            	-cites->paper1922956467
+            	-cites->paper2142391126
+            	-cites->paper2146935998
+            	-authors->author2100071103
+            	-authors->author2168493545
+            }
+}
+

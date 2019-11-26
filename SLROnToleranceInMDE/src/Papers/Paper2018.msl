@@ -1,0 +1,264 @@
+import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2005.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1996.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2008.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2004.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2009.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2012.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2006.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1997.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2011.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2010.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1999.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2001.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2015.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2013.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2014.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2007.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1989.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2003.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1990.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1992.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2016.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2017.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2018.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1977.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2019.msl"
+ 	
+model AllPapers -> AllAuthors, AllVenues {
+	paper2794849388:Paper {
+                .title : "A MDE Approach for Heterogeneous Models Consistency"
+            	.year : 2018
+            	-venue->Venue1173149485
+            	-authors->author2795271090
+            	-authors->author2021330974
+            	-authors->author72241827
+            	-authors->author2161499562
+            	-authors->author2778900568
+            }
+	paper2795021132:Paper {
+                .title : "A graph solver for the automated generation of consistent domainspecific models"
+            	.year : 2018
+            	-venue->Venue1174403976
+            	-cites->paper5815757
+            	-cites->paper24569603
+            	-cites->paper187743145
+            	-cites->paper844332498
+            	-cites->paper999459616
+            	-cites->paper1035875811
+            	-cites->paper1480909796
+            	-cites->paper1510777893
+            	-cites->paper1519503479
+            	-cites->paper1536631555
+            	-cites->paper1548001884
+            	-cites->paper1567586152
+            	-cites->paper1567888042
+            	-cites->paper1569208917
+            	-cites->paper1575503534
+            	-cites->paper1810787746
+            	-cites->paper1853034543
+            	-cites->paper1878356469
+            	-cites->paper1973559034
+            	-cites->paper1986958631
+            	-cites->paper1997864678
+            	-cites->paper1998400029
+            	-cites->paper2023814507
+            	-cites->paper2028848488
+            	-cites->paper2050736294
+            	-cites->paper2055287943
+            	-cites->paper2057186850
+            	-cites->paper2057361103
+            	-cites->paper2060440626
+            	-cites->paper2074683366
+            	-cites->paper2076645253
+            	-cites->paper2076990838
+            	-cites->paper2089381631
+            	-cites->paper2091920469
+            	-cites->paper2095850105
+            	-cites->paper2103364805
+            	-cites->paper2107061559
+            	-cites->paper2107792798
+            	-cites->paper2121061989
+            	-cites->paper2126443444
+            	-cites->paper2127229029
+            	-cites->paper2134001468
+            	-cites->paper2139553864
+            	-cites->paper2165413178
+            	-cites->paper2352369207
+            	-cites->paper2412353202
+            	-cites->paper2418384203
+            	-cites->paper2474022715
+            	-cites->paper2527408229
+            	-cites->paper2539249059
+            	-cites->paper2603072184
+            	-cites->paper2605347441
+            	-cites->paper2723261621
+            	-cites->paper2745766115
+            	-cites->paper2796271057
+            	-cites->paper2887375731
+            	-authors->author2143442092
+            	-authors->author2477172015
+            	-authors->author10882077
+            }
+	paper2804801307:Paper {
+                .title : "Declarative project planning and controlling a formal model to support the handling of unavoidable inconsistencies"
+            	.year : 2018
+            	-venue->Venue2755410616
+            	-cites->paper189544743
+            	-cites->paper1995859218
+            	-cites->paper2065665276
+            	-cites->paper2101107197
+            	-cites->paper2102899517
+            	-cites->paper2151468014
+            	-cites->paper2163296687
+            	-cites->paper2166158789
+            	-authors->author2141918410
+            }
+	paper2805459498:Paper {
+                .title : "Uncovering Unknown System Behaviors in Uncertain Networks with Model and SearchBased Testing"
+            	.year : 2018
+            	-venue->Venue1175644874
+            	-authors->author2332852696
+            	-authors->author2805167129
+            	-authors->author2105537014
+            	-authors->author2209258679
+            	-authors->author2806435027
+            	-authors->author2653874177
+            	-authors->author2805510219
+            	-authors->author2755349880
+            }
+	paper2809006397:Paper {
+                .title : "Towards Modelling and Reasoning About Uncertain Data of Sensor Measurements for Decision Support in Smart Spaces"
+            	.year : 2018
+            	-venue->Venue1143160721
+            	-authors->author2808873893
+            	-authors->author2809669810
+            	-authors->author2809471007
+            }
+	paper2809221487:Paper {
+                .title : "Poster An Automated and Instant Discovery of Concrete Repairs for Model Inconsistencies"
+            	.year : 2018
+            	-venue->Venue1174403976
+            	-cites->paper94833394
+            	-cites->paper1970178969
+            	-cites->paper1983160424
+            	-cites->paper1991633729
+            	-cites->paper2043336932
+            	-cites->paper2054332523
+            	-cites->paper2058145265
+            	-cites->paper2060440626
+            	-cites->paper2094489875
+            	-cites->paper2103260577
+            	-cites->paper2109420119
+            	-cites->paper2143614054
+            	-cites->paper2167736435
+            	-cites->paper2576187963
+            	-cites->paper2789876140
+            	-authors->author2346573819
+            	-authors->author2789448450
+            	-authors->author722927782
+            }
+	paper2895109285:Paper {
+                .title : "Towards sound optimal and flexible building from megamodels"
+            	.year : 2018
+            	-venue->Venue1191550517
+            	-cites->paper78372980
+            	-cites->paper1864361234
+            	-cites->paper2008442672
+            	-cites->paper2012058332
+            	-cites->paper2025624633
+            	-cites->paper2093927510
+            	-cites->paper2094489875
+            	-cites->paper2144528247
+            	-cites->paper2167195138
+            	-cites->paper2404647912
+            	-cites->paper2517030401
+            	-cites->paper2582408300
+            	-cites->paper2601778681
+            	-cites->paper2753635096
+            	-cites->paper2767655805
+            	-cites->paper2782787947
+            	-authors->author2287432086
+            }
+	paper2895552427:Paper {
+                .title : "On the Quest for Flexible Modelling"
+            	.year : 2018
+            	-venue->Venue1191550517
+            	-cites->paper39340127
+            	-cites->paper200074566
+            	-cites->paper1486745608
+            	-cites->paper1510370703
+            	-cites->paper1537058720
+            	-cites->paper1568983194
+            	-cites->paper1589632492
+            	-cites->paper1596597411
+            	-cites->paper1808818536
+            	-cites->paper1838876590
+            	-cites->paper1965979806
+            	-cites->paper1968128450
+            	-cites->paper1987426969
+            	-cites->paper1994068812
+            	-cites->paper1995086264
+            	-cites->paper2003053377
+            	-cites->paper2025624633
+            	-cites->paper2044463389
+            	-cites->paper2045723688
+            	-cites->paper2057478091
+            	-cites->paper2087486361
+            	-cites->paper2093287224
+            	-cites->paper2100343819
+            	-cites->paper2100448526
+            	-cites->paper2106193618
+            	-cites->paper2116587399
+            	-cites->paper2117892946
+            	-cites->paper2139872812
+            	-cites->paper2156448859
+            	-cites->paper2162425337
+            	-cites->paper2405788487
+            	-cites->paper2475292836
+            	-cites->paper2504786850
+            	-cites->paper2518794401
+            	-cites->paper2524073252
+            	-cites->paper2527788966
+            	-cites->paper2562559257
+            	-cites->paper2564443410
+            	-cites->paper2575918853
+            	-cites->paper2579759952
+            	-cites->paper2612065447
+            	-cites->paper2782845488
+            	-cites->paper2784233265
+            	-authors->author2160674753
+            	-authors->author2108412495
+            }
+	paper99999999996:Paper {
+                .title : "Online ModelBased Testing under Uncertainty"
+            	.year : 2018
+            	-venue->Venue
+            	-cites->paper1498432697
+            	-cites->paper1610570299
+            	-cites->paper1809182522
+            	-cites->paper1862398452
+            	-cites->paper1898469110
+            	-cites->paper1971139410
+            	-cites->paper1971908606
+            	-cites->paper2018800706
+            	-cites->paper2028369901
+            	-cites->paper2028622255
+            	-cites->paper2054104130
+            	-cites->paper2075465263
+            	-cites->paper2102874028
+            	-cites->paper2145250263
+            	-cites->paper2145505903
+            	-cites->paper2525656308
+            	-cites->paper2742532491
+            	-cites->paper2785325333
+            	-cites->paper2792133590
+            	-authors->author22
+            	-authors->author23
+            	-authors->author20
+            	-authors->author21
+            }
+}
+
