@@ -1,37 +1,37 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2005.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1996.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2008.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2004.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2009.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2012.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2006.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1997.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2011.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2010.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1999.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2001.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2015.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2013.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2014.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2007.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1989.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2003.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1990.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1992.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2016.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2017.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2018.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1977.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2019.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2004.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2009.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2012.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2006.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1997.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2011.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2010.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1999.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2001.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2015.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2013.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2014.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2007.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1989.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2003.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1990.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1992.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2016.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2017.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2018.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
  	
 model AllPapers -> AllAuthors, AllVenues {
 	paper2295452883:Paper {
                 .title : "Runtime Adjustment of Configuration Models for Consistency Preservation"
             	.year : 2016
-            	-venue->Venue1173836718
+            	-venue->venue121
             	-cites->paper53030892
             	-cites->paper171902969
             	-cites->paper1420032966
@@ -52,7 +52,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2296086131:Paper {
                 .title : "Model Checking for the Fault Tolerance of Collaborative AUVs"
             	.year : 2016
-            	-venue->Venue1173836718
+            	-venue->venue122
             	-cites->paper2120450154
             	-authors->author2771267961
             	-authors->author2672313748
@@ -61,7 +61,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2332661323:Paper {
                 .title : "Specifying and Checking File System CrashConsistency Models"
             	.year : 2016
-            	-venue->Venue1174091362
+            	-venue->venue123
             	-cites->paper19204414
             	-cites->paper157238496
             	-cites->paper195676583
@@ -132,7 +132,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2411349706:Paper {
                 .title : "Susceptible workload driven selective fault tolerance using a probabilistic fault model"
             	.year : 2016
-            	-venue->Venue1197805753
+            	-venue->venue124
             	-cites->paper1989874002
             	-cites->paper1995014858
             	-cites->paper1998663784
@@ -159,7 +159,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2491100436:Paper {
                 .title : "Consistent Inconsistency Management A ConcernDriven Approach"
             	.year : 2016
-            	-venue->Venue1180338098
+            	-venue->venue125
             	-cites->paper1600334244
             	-cites->paper2012959900
             	-cites->paper2015113729
@@ -180,7 +180,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2503258980:Paper {
                 .title : "EMAAOP From the AADL Error Model Annex to aspect language towards fault tolerant systems"
             	.year : 2016
-            	-venue->Venue1170525533
+            	-venue->venue126
             	-cites->paper1610570299
             	-cites->paper1973940013
             	-cites->paper1994433599
@@ -199,7 +199,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2513581310:Paper {
                 .title : "Modeling and analyzing costaware fault tolerant strategy for cloud application"
             	.year : 2016
-            	-venue->Venue1173770489
+            	-venue->venue127
             	-cites->paper1993628331
             	-cites->paper1997647383
             	-cites->paper2007740943
@@ -217,7 +217,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2514633005:Paper {
                 .title : "Towards Modelling Adaptive Fault Tolerance for Resilient Computing Analysis"
             	.year : 2016
-            	-venue->Venue1128163780
+            	-venue->venue128
             	-cites->paper2040525744
             	-cites->paper2144646596
             	-cites->paper2293328939
@@ -229,7 +229,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2529658871:Paper {
                 .title : "ObservationBased Concurrent Program Logic for Relaxed Memory Consistency Models"
             	.year : 2016
-            	-venue->Venue1139297330
+            	-venue->venue129
             	-cites->paper115884782
             	-cites->paper199947708
             	-cites->paper1189894384

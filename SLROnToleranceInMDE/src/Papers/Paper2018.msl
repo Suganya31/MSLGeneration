@@ -1,37 +1,37 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2005.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1996.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2008.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2004.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2009.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2012.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2006.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1997.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2011.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2010.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1999.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2001.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2015.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2013.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2014.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2007.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1989.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2003.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1990.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1992.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2016.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2017.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2018.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1977.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2019.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2004.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2009.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2012.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2006.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1997.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2011.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2010.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1999.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2001.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2015.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2013.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2014.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2007.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1989.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2003.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1990.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1992.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2016.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2017.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2018.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
  	
 model AllPapers -> AllAuthors, AllVenues {
 	paper2794849388:Paper {
                 .title : "A MDE Approach for Heterogeneous Models Consistency"
             	.year : 2018
-            	-venue->Venue1173149485
+            	-venue->venue139
             	-authors->author2795271090
             	-authors->author2021330974
             	-authors->author72241827
@@ -41,7 +41,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2795021132:Paper {
                 .title : "A graph solver for the automated generation of consistent domainspecific models"
             	.year : 2018
-            	-venue->Venue1174403976
+            	-venue->venue140
             	-cites->paper5815757
             	-cites->paper24569603
             	-cites->paper187743145
@@ -105,7 +105,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2804801307:Paper {
                 .title : "Declarative project planning and controlling a formal model to support the handling of unavoidable inconsistencies"
             	.year : 2018
-            	-venue->Venue2755410616
+            	-venue->venue141
             	-cites->paper189544743
             	-cites->paper1995859218
             	-cites->paper2065665276
@@ -119,7 +119,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2805459498:Paper {
                 .title : "Uncovering Unknown System Behaviors in Uncertain Networks with Model and SearchBased Testing"
             	.year : 2018
-            	-venue->Venue1175644874
+            	-venue->venue142
             	-authors->author2332852696
             	-authors->author2805167129
             	-authors->author2105537014
@@ -132,7 +132,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2809006397:Paper {
                 .title : "Towards Modelling and Reasoning About Uncertain Data of Sensor Measurements for Decision Support in Smart Spaces"
             	.year : 2018
-            	-venue->Venue1143160721
+            	-venue->venue143
             	-authors->author2808873893
             	-authors->author2809669810
             	-authors->author2809471007
@@ -140,7 +140,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2809221487:Paper {
                 .title : "Poster An Automated and Instant Discovery of Concrete Repairs for Model Inconsistencies"
             	.year : 2018
-            	-venue->Venue1174403976
+            	-venue->venue144
             	-cites->paper94833394
             	-cites->paper1970178969
             	-cites->paper1983160424
@@ -163,7 +163,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2895109285:Paper {
                 .title : "Towards sound optimal and flexible building from megamodels"
             	.year : 2018
-            	-venue->Venue1191550517
+            	-venue->venue145
             	-cites->paper78372980
             	-cites->paper1864361234
             	-cites->paper2008442672
@@ -185,7 +185,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2895552427:Paper {
                 .title : "On the Quest for Flexible Modelling"
             	.year : 2018
-            	-venue->Venue1191550517
+            	-venue->venue146
             	-cites->paper39340127
             	-cites->paper200074566
             	-cites->paper1486745608
@@ -235,7 +235,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper99999999996:Paper {
                 .title : "Online ModelBased Testing under Uncertainty"
             	.year : 2018
-            	-venue->Venue
+            	-venue->venue175
             	-cites->paper1498432697
             	-cites->paper1610570299
             	-cites->paper1809182522

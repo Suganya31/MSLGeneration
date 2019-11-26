@@ -1,37 +1,37 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2005.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1996.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2008.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2004.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2009.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2012.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2006.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1997.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2011.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2010.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1999.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2001.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2015.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2013.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2014.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2007.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1989.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2003.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1990.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1992.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2016.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2017.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2018.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1977.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2019.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2004.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2009.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2012.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2006.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1997.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2011.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2010.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1999.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2001.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2015.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2013.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2014.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2007.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1989.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2003.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1990.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1992.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2016.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2017.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2018.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
  	
 model AllPapers -> AllAuthors, AllVenues {
 	paper1639394823:Paper {
                 .title : "Towards ModelDriven VariabilityBased Flexible Service Compositions"
             	.year : 2015
-            	-venue->Venue1143160721
+            	-venue->venue19
             	-cites->paper119260449
             	-cites->paper1485856036
             	-cites->paper1969367632
@@ -52,7 +52,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2085422792:Paper {
                 .title : "Building consistent transactions with inconsistent replication"
             	.year : 2015
-            	-venue->Venue1171178643
+            	-venue->venue58
             	-cites->paper192446467
             	-cites->paper1433235304
             	-cites->paper1524103123
@@ -114,7 +114,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2086023529:Paper {
                 .title : "ArMOR defending against memory consistency model mismatches in heterogeneous architectures"
             	.year : 2015
-            	-venue->Venue1131341566
+            	-venue->venue59
             	-cites->paper1525350307
             	-cites->paper1808398105
             	-cites->paper1847252379
@@ -169,7 +169,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2104177825:Paper {
                 .title : "Process model for rapid implementation of features using flexible architecture"
             	.year : 2015
-            	-venue->Venue2755410616
+            	-venue->venue67
             	-cites->paper1496688783
             	-cites->paper2002170195
             	-cites->paper2037839248
@@ -179,7 +179,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2181002748:Paper {
                 .title : "Consistent coevolution of models and transformations"
             	.year : 2015
-            	-venue->Venue1191550517
+            	-venue->venue116
             	-cites->paper113976528
             	-cites->paper937233221
             	-cites->paper1551827801
@@ -207,7 +207,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2206084846:Paper {
                 .title : "Checking UML and OCL Model Consistency An Experience Report on a MiddleSized Case Study"
             	.year : 2015
-            	-venue->Venue1129775427
+            	-venue->venue117
             	-cites->paper88009092
             	-cites->paper1519503479
             	-cites->paper1553725484
@@ -226,7 +226,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2236227338:Paper {
                 .title : "Efficient GPU synchronization without scopes saying no to complex consistency models"
             	.year : 2015
-            	-venue->Venue1150919317
+            	-venue->venue119
             	-cites->paper1897254069
             	-cites->paper1978155891
             	-cites->paper1979527452

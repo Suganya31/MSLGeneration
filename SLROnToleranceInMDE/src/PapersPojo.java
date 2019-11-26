@@ -39,15 +39,23 @@ public class PapersPojo {
 		this.references = references;
 	}
 	String title;
-	String venue;
-	public String getVenue() {
+	Integer venue;
+	public String getVenuename() {
+		return venuename;
+	}
+	public void setVenuename(String venuename) {
+		this.venuename = venuename;
+	}
+	String venuename;
+	public Integer getVenue() {
 		return venue;
 	}
-	public void setVenue(String venue) {
+	public void setVenue(Integer venue) {
 		this.venue = venue;
 	}
 	int year;
 	String id;
+	
 	List<String> references= new ArrayList<String>();
 	Set<String> authors= new HashSet<String>();
 	Map<String, String> id_to_authors = new HashMap<String, String>();

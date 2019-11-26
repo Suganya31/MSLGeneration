@@ -42,10 +42,11 @@ class test {
 
 		papers = JsonParse.extractAuthors();
 
-		// writer.println(instance.generateVenuesMSL(papers))
 		// writer.println(instance.generatePapersMSL(papers))
 		// writer.println(instance.generateAuthorsMSL(papers))
-		var writer = new PrintWriter("src\\Papers\\Paper.msl", "UTF-8");
+		var writer = new PrintWriter("src\\Papers\\paper.msl", "UTF-8");
+				// writer.println(instance.generateVenuesMSL(papers))
+	//	writer.close();
 
 		for (paper : papers) {
 			years.add(paper.getYear)
@@ -75,7 +76,7 @@ import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
 	«FOR paper : papers»
 	«IF(paper.getYear !== year) && !years.contains(paper.getYear)»	
 			      «{years.add(paper.getYear); "" }»
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper«paper.getYear.toString()».msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper«paper.getYear.toString()».msl"
           «ENDIF»          
  	«ENDFOR»
  	
@@ -85,7 +86,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	      	    paper«paper.getId()»:Paper {
                 .title : "«getOnlyStrings(paper.getTitle())»"
             	.year : «paper.getYear()»
-            	-venue->Venue«paper.getVenue()»
+            	-venue->venue«paper.getVenue()»
             	«FOR reference : paper.getReferences()»
             		   -cites->paper«reference»
             	«ENDFOR»
@@ -135,7 +136,7 @@ import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 model AllVenues {
 	«FOR paper : papers»
 	
-            venue«i++»:Venue {
+            venue«paper.getVenue»:Venue {
             	.Name : "«paper.getVenuename»"
             }
             «ENDFOR»

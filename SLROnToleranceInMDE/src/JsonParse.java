@@ -46,6 +46,7 @@ public class JsonParse {
 		Set<String> dummypaperids = new HashSet<String>();
 		Set<String> paperids = new HashSet<String>();
 
+		int i=1;
 
 
 		while (jp.nextToken() != null) {
@@ -57,7 +58,8 @@ public class JsonParse {
 
 			String title = node.path("title").asText();
 			JsonNode venuenode = node.path("venue");
-			String venue=venuenode.findPath("raw").asText();
+			String venue=venuenode.findPath("id").asText();
+			String venuename=venuenode.findPath("raw").asText();
 
 
 			String id = node.path("id").asText();
@@ -66,9 +68,11 @@ public class JsonParse {
 
 			paper.setId(id);
 			paper.setTitle(title);
-			paper.setVenue(venue);
+			paper.setVenue(i);
+			paper.setVenuename(venuename);
 
 			paper.setYear(year);
+			i++;
 
 			ArrayNode arrayNode = (ArrayNode) authors;
 

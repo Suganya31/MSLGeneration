@@ -1,37 +1,37 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2005.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1996.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2008.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2004.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2009.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2012.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2006.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1997.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2011.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2010.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1999.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2001.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2015.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2013.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2014.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2007.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1989.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2003.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1990.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1992.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2016.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2017.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2018.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1977.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2019.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2004.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2009.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2012.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2006.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1997.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2011.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2010.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1999.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2001.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2015.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2013.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2014.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2007.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1989.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2003.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1990.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1992.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2016.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2017.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2018.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
  	
 model AllPapers -> AllAuthors, AllVenues {
 	paper1968283843:Paper {
                 .title : "Pipe Check Specifying and Verifying Microarchitectural Enforcement of Memory Consistency Models"
             	.year : 2014
-            	-venue->Venue1150919317
+            	-venue->venue24
             	-cites->paper1483960654
             	-cites->paper1525350307
             	-cites->paper1545792627
@@ -72,7 +72,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2022276169:Paper {
                 .title : "Controlled modeling environment using flexiblyformatted spreadsheets"
             	.year : 2014
-            	-venue->Venue1174403976
+            	-venue->venue40
             	-cites->paper1480582324
             	-cites->paper1487672899
             	-cites->paper1558832481
@@ -96,7 +96,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2061467503:Paper {
                 .title : "Towards ModelandCode Consistency Checking"
             	.year : 2014
-            	-venue->Venue1143160721
+            	-venue->venue49
             	-cites->paper1556944944
             	-cites->paper1971702813
             	-cites->paper1983160424
@@ -126,7 +126,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2264377422:Paper {
                 .title : "Efficiently and Completely Verifying Synchronized Consistency Models"
             	.year : 2014
-            	-venue->Venue1130464007
+            	-venue->venue120
             	-cites->paper1556566737
             	-cites->paper1594228127
             	-cites->paper1694765325
@@ -166,7 +166,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper49939434:Paper {
                 .title : "A Formal Model for ConstraintBased Deployment Calculation and Analysis for FaultTolerant Systems"
             	.year : 2014
-            	-venue->Venue1174403976
+            	-venue->venue148
             	-cites->paper1480909796
             	-cites->paper1556566737
             	-cites->paper2118824103
@@ -182,14 +182,14 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2395715776:Paper {
                 .title : "Flexible Modeling and Product Derivation in Software Product Lines"
             	.year : 2014
-            	-venue->Venue1173770489
+            	-venue->venue153
             	-authors->author2132358281
             	-authors->author2224377421
             }
 	paper2070474270:Paper {
                 .title : "Heterogeneous models matching for consistency management"
             	.year : 2014
-            	-venue->Venue1130566378
+            	-venue->venue165
             	-cites->paper43969157
             	-cites->paper1579534349
             	-cites->paper1602228945

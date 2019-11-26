@@ -1,37 +1,37 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2005.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1996.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2008.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2004.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2009.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2012.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2006.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1997.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2011.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2010.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1999.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2001.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2015.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2013.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2014.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2007.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1989.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2003.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1990.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1992.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2016.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2017.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2018.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1977.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2019.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2004.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2009.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2012.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2006.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1997.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2011.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2010.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1999.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2001.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2015.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2013.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2014.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2007.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1989.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2003.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1990.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1992.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2016.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2017.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2018.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
  	
 model AllPapers -> AllAuthors, AllVenues {
 	paper1548019825:Paper {
                 .title : "Consistency and random constraint satisfaction models with a high constraint tightness"
             	.year : 2004
-            	-venue->Venue1201491352
+            	-venue->venue4
             	-cites->paper312445613
             	-cites->paper1514397520
             	-cites->paper2004223683
@@ -55,7 +55,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2116374913:Paper {
                 .title : "Automated consistency and completeness checking of testing models for interactive systems"
             	.year : 2004
-            	-venue->Venue1143160721
+            	-venue->venue74
             	-cites->paper1597428879
             	-cites->paper2007953420
             	-cites->paper2074461621
@@ -68,7 +68,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2157634313:Paper {
                 .title : "Consistency check in modelling multiagent systems"
             	.year : 2004
-            	-venue->Venue1143160721
+            	-venue->venue99
             	-cites->paper1574616745
             	-cites->paper1592590079
             	-cites->paper1600780496
@@ -88,7 +88,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2166752259:Paper {
                 .title : "Model checking a faulttolerant startup algorithm from design exploration to exhaustive fault simulation"
             	.year : 2004
-            	-venue->Venue1187160151
+            	-venue->venue109
             	-cites->paper1487606492
             	-cites->paper1612681298
             	-cites->paper1989746243
@@ -106,7 +106,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2105945277:Paper {
                 .title : "TSOtool A Program for Verifying Memory Systems Using the Memory Consistency Model"
             	.year : 2004
-            	-venue->Venue1131341566
+            	-venue->venue167
             	-cites->paper1502765706
             	-cites->paper1545792627
             	-cites->paper1986463648

@@ -1,37 +1,37 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2005.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1996.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2008.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2004.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2009.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2012.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2006.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1997.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2011.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2010.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1999.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2001.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2015.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2013.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2014.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2007.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1989.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2003.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1990.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1992.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2016.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2017.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2018.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1977.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2019.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2004.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2009.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2012.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2006.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1997.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2011.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2010.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1999.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2001.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2015.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2013.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2014.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2007.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1989.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2003.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1990.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1992.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2016.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2017.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2018.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
  	
 model AllPapers -> AllAuthors, AllVenues {
 	paper1558783207:Paper {
                 .title : "Modeling and evaluating the survivability of an intrusion tolerant database system"
             	.year : 2006
-            	-venue->Venue1183679797
+            	-venue->venue7
             	-cites->paper1498888217
             	-cites->paper1562069597
             	-cites->paper1588175110
@@ -74,7 +74,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2043336932:Paper {
                 .title : "Detecting and resolving model inconsistencies using transformation dependency analysis"
             	.year : 2006
-            	-venue->Venue1191550517
+            	-venue->venue45
             	-cites->paper99545732
             	-cites->paper1498244333
             	-cites->paper1561057365
@@ -91,7 +91,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2099977099:Paper {
                 .title : "Use CaseBased Modeling and Analysis of Failsafe FaultTolerance"
             	.year : 2006
-            	-venue->Venue2606605052
+            	-venue->venue62
             	-cites->paper1994959402
             	-cites->paper2063762250
             	-cites->paper2095425626
@@ -106,7 +106,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2102686130:Paper {
                 .title : "An Ontologybased RFID System Model for Supporting Semantic Consistency in Ubiquitous Environment"
             	.year : 2006
-            	-venue->Venue1172683839
+            	-venue->venue65
             	-cites->paper1994702064
             	-cites->paper2036534296
             	-cites->paper2166233568
@@ -120,7 +120,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2111935706:Paper {
                 .title : "Modeling and Customization of Fault Tolerant Architecture using ObjectZXVCL"
             	.year : 2006
-            	-venue->Venue1134663949
+            	-venue->venue72
             	-cites->paper1515932031
             	-cites->paper2013774163
             	-cites->paper2110425399
@@ -135,7 +135,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2160726288:Paper {
                 .title : "InterModel Consistency in UML Based on CPN Formalism"
             	.year : 2006
-            	-venue->Venue1134663949
+            	-venue->venue100
             	-cites->paper46093711
             	-cites->paper1508163308
             	-cites->paper2109931150
@@ -145,7 +145,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper98021641:Paper {
                 .title : "Specifying Consistency Constraints for Modelling Languages"
             	.year : 2006
-            	-venue->Venue1173770489
+            	-venue->venue163
             	-cites->paper1592590079
             	-cites->paper1864273712
             	-cites->paper1875539103

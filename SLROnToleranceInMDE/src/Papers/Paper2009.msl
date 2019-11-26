@@ -1,37 +1,37 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2005.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1996.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2008.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2004.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2009.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2012.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2006.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1997.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2011.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2010.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1999.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2001.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2015.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2013.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2014.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2007.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1989.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2003.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1990.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1992.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2016.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2017.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2018.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1977.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2019.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2004.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2009.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2012.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2006.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1997.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2011.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2010.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1999.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2001.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2015.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2013.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2014.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2007.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1989.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2003.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1990.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1992.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2016.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2017.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2018.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
  	
 model AllPapers -> AllAuthors, AllVenues {
 	paper1551012392:Paper {
                 .title : "Proving Consistency of Pure Methods and Model Fields"
             	.year : 2009
-            	-venue->Venue1187615537
+            	-venue->venue5
             	-cites->paper1480909796
             	-cites->paper1525290190
             	-cites->paper1550200770
@@ -58,7 +58,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper1568373463:Paper {
                 .title : "An Incremental Algorithm for HighPerformance Runtime Model Consistency"
             	.year : 2009
-            	-venue->Venue1191550517
+            	-venue->venue9
             	-cites->paper1483584644
             	-cites->paper1505088841
             	-cites->paper1510788339
@@ -88,7 +88,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper1606461502:Paper {
                 .title : "Consistency Independence and Consequences in UML and OCL Models"
             	.year : 2009
-            	-venue->Venue1129775427
+            	-venue->venue17
             	-cites->paper1527688737
             	-cites->paper1541808425
             	-cites->paper1895387792
@@ -106,7 +106,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper1668140416:Paper {
                 .title : "A GoalBased Modeling Approach to Develop Requirements of an Adaptive System with Environmental Uncertainty"
             	.year : 2009
-            	-venue->Venue1191550517
+            	-venue->venue20
             	-cites->paper72209069
             	-cites->paper141628001
             	-cites->paper175636070
@@ -137,7 +137,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2109414934:Paper {
                 .title : "Modeling Fault Tolerant Services in ServiceOriented Architecture"
             	.year : 2009
-            	-venue->Venue1182405406
+            	-venue->venue69
             	-cites->paper1257099613
             	-cites->paper1550904090
             	-cites->paper2001051416
@@ -153,7 +153,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2124995074:Paper {
                 .title : "Enhanced Automation for Managing Model and Metamodel Inconsistency"
             	.year : 2009
-            	-venue->Venue1166511975
+            	-venue->venue83
             	-cites->paper1542225267
             	-cites->paper1559038862
             	-cites->paper1592640009
@@ -170,7 +170,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2141147386:Paper {
                 .title : "Towards an Alloy Formal Model for Flexible Advanced Transactional Model Development"
             	.year : 2009
-            	-venue->Venue1176450031
+            	-venue->venue88
             	-cites->paper1570173564
             	-cites->paper1571250571
             	-cites->paper1855065956
@@ -191,7 +191,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2154861368:Paper {
                 .title : "A Method for Modeling and Analyzing FaultTolerant Service Composition"
             	.year : 2009
-            	-venue->Venue1134663949
+            	-venue->venue97
             	-cites->paper1592113188
             	-cites->paper2012428319
             	-cites->paper2030378866
@@ -217,7 +217,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2160909485:Paper {
                 .title : "TamperTolerant Software Modeling and Implementation"
             	.year : 2009
-            	-venue->Venue1184048318
+            	-venue->venue102
             	-cites->paper1495266644
             	-cites->paper1509316335
             	-cites->paper1580417272
@@ -252,7 +252,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2161358742:Paper {
                 .title : "Checking Model Consistency Using DataFlow Testing"
             	.year : 2009
-            	-venue->Venue1134663949
+            	-venue->venue104
             	-cites->paper1486172410
             	-cites->paper1495557642
             	-cites->paper1964830323
@@ -279,7 +279,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2169730398:Paper {
                 .title : "Composing Models for Detecting Inconsistencies A Requirements Engineering Perspective"
             	.year : 2009
-            	-venue->Venue1169379829
+            	-venue->venue112
             	-cites->paper1979290877
             	-cites->paper1982313944
             	-cites->paper1983421263

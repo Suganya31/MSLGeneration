@@ -1,37 +1,37 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2005.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1996.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2008.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2004.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2009.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2012.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2006.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1997.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2011.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2010.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1999.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2001.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2015.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2013.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2014.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2007.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1989.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2003.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1990.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1992.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2016.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2017.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2018.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1977.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2019.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2004.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2009.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2012.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2006.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1997.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2011.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2010.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1999.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2001.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2015.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2013.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2014.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2007.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1989.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2003.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1990.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1992.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2016.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2017.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2018.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
  	
 model AllPapers -> AllAuthors, AllVenues {
 	paper1575910569:Paper {
                 .title : "Proving consistency and completeness of model classes using theory interpretation"
             	.year : 2010
-            	-venue->Venue1187615537
+            	-venue->venue12
             	-cites->paper1480285224
             	-cites->paper1485360759
             	-cites->paper1487694410
@@ -59,7 +59,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper1985193734:Paper {
                 .title : "Consistent modeling using multiple UML profiles"
             	.year : 2010
-            	-venue->Venue1191550517
+            	-venue->venue28
             	-cites->paper1482031469
             	-cites->paper1488412441
             	-cites->paper1537193294
@@ -78,7 +78,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2009452463:Paper {
                 .title : "Static and dynamic consistency analysis of UML state chart models"
             	.year : 2010
-            	-venue->Venue1191550517
+            	-venue->venue35
             	-cites->paper157156687
             	-cites->paper1497389410
             	-cites->paper1556566737
@@ -99,7 +99,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2021626639:Paper {
                 .title : "Flexible and scalable consistency checking on product line variability models"
             	.year : 2010
-            	-venue->Venue1166511975
+            	-venue->venue39
             	-cites->paper26962075
             	-cites->paper99545732
             	-cites->paper149825191
@@ -134,7 +134,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2056661416:Paper {
                 .title : "Selective and consistent undoing of model changes"
             	.year : 2010
-            	-venue->Venue1191550517
+            	-venue->venue48
             	-cites->paper1991604845
             	-cites->paper2011705879
             	-cites->paper2032875561
@@ -150,7 +150,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2071720065:Paper {
                 .title : "Techne Towards a New Generation of Requirements Modeling Languages with Goals Preferences and Inconsistency Handling"
             	.year : 2010
-            	-venue->Venue2606605052
+            	-venue->venue52
             	-cites->paper1522554322
             	-cites->paper1968128450
             	-cites->paper2013492611
@@ -183,7 +183,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2073316824:Paper {
                 .title : "A SemiMarkov Survivability Evaluation Model for Intrusion Tolerant Database Systems"
             	.year : 2010
-            	-venue->Venue2623176867
+            	-venue->venue53
             	-cites->paper1558783207
             	-cites->paper1588175110
             	-cites->paper1721587744
@@ -207,7 +207,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2084764985:Paper {
                 .title : "Flexible model element introduction policies for aspectoriented modeling"
             	.year : 2010
-            	-venue->Venue1191550517
+            	-venue->venue57
             	-cites->paper31292625
             	-cites->paper1532079015
             	-cites->paper1591471358
@@ -236,7 +236,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2118279606:Paper {
                 .title : "Open Code Coverage Framework A Consistent and Flexible Framework for Measuring Test Coverage Supporting Multiple Programming Languages"
             	.year : 2010
-            	-venue->Venue1182898022
+            	-venue->venue76
             	-cites->paper2001685807
             	-cites->paper2103814123
             	-authors->author38953562
@@ -246,7 +246,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2121629484:Paper {
                 .title : "A proposal for consistency checking in dynamic software product line models using OCL"
             	.year : 2010
-            	-venue->Venue1174403976
+            	-venue->venue79
             	-cites->paper89852222
             	-cites->paper1496907652
             	-cites->paper1983421263
@@ -261,7 +261,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2122105924:Paper {
                 .title : "On Constructing Thermodynamically Consistent Parametrizations of Kinetic Models"
             	.year : 2010
-            	-venue->Venue1153779279
+            	-venue->venue80
             	-cites->paper2065699608
             	-authors->author2355094572
             	-authors->author2041832079
@@ -269,7 +269,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2132304960:Paper {
                 .title : "A Consistency Model for Identity Information in Distributed Systems"
             	.year : 2010
-            	-venue->Venue1143160721
+            	-venue->venue86
             	-cites->paper13821285
             	-cites->paper59877344
             	-cites->paper1968316911
@@ -293,7 +293,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2163581369:Paper {
                 .title : "A dynamicpriority based approach to fixing inconsistent feature models"
             	.year : 2010
-            	-venue->Venue1191550517
+            	-venue->venue107
             	-cites->paper30803841
             	-cites->paper113344430
             	-cites->paper1509367797
@@ -319,7 +319,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2168429160:Paper {
                 .title : "A selfconsistent model to estimate NBTI degradation and a comprehensive online system lifetime enhancement technique"
             	.year : 2010
-            	-venue->Venue1197805753
+            	-venue->venue111
             	-cites->paper1719980635
             	-cites->paper2038840127
             	-cites->paper2043318181

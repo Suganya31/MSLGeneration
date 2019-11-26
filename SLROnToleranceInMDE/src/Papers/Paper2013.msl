@@ -1,37 +1,37 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2005.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1996.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2008.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2004.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2009.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2012.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2006.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1997.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2011.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2010.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1999.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2001.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2015.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2013.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2014.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2007.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1989.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2003.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1990.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1992.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2016.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2017.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2018.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1977.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2019.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2004.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2009.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2012.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2006.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1997.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2011.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2010.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1999.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2001.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2015.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2013.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2014.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2007.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1989.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2003.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1990.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1992.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2016.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2017.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2018.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
  	
 model AllPapers -> AllAuthors, AllVenues {
 	paper1853034543:Paper {
                 .title : "Transformation of Models Containing Uncertainty"
             	.year : 2013
-            	-venue->Venue1191550517
+            	-venue->venue21
             	-cites->paper1536631555
             	-cites->paper1560286168
             	-cites->paper1570173564
@@ -60,7 +60,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper194038616:Paper {
                 .title : "Supporting consistency between architectural design decisions and component models through reusable architectural knowledge transformations"
             	.year : 2013
-            	-venue->Venue1180338098
+            	-venue->venue22
             	-cites->paper12874984
             	-cites->paper436813289
             	-cites->paper1530859287
@@ -89,7 +89,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper1963799372:Paper {
                 .title : "Slicing the VModel  Reduced Effort Higher Flexibility"
             	.year : 2013
-            	-venue->Venue1196404761
+            	-venue->venue23
             	-cites->paper1490132578
             	-cites->paper1583707858
             	-cites->paper2050019454
@@ -107,7 +107,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper1983911499:Paper {
                 .title : "A flexible framework for modeling and simulation of multipurpose wireless networks"
             	.year : 2013
-            	-venue->Venue1187733938
+            	-venue->venue27
             	-cites->paper1973995867
             	-cites->paper1999638743
             	-cites->paper2117487844
@@ -123,7 +123,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2003803959:Paper {
                 .title : "VERA A Flexible ModelBased Vulnerability Testing Tool"
             	.year : 2013
-            	-venue->Venue1175644874
+            	-venue->venue33
             	-cites->paper174528657
             	-cites->paper2008535490
             	-authors->author2343689341
@@ -135,7 +135,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2008356116:Paper {
                 .title : "Modes features and statebased modeling for clarity and flexibility"
             	.year : 2013
-            	-venue->Venue
+            	-venue->venue34
             	-cites->paper2107232214
             	-cites->paper2244083715
             	-cites->paper2584436181
@@ -146,7 +146,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2009819179:Paper {
                 .title : "Dependability models for designing disaster tolerant cloud computing systems"
             	.year : 2013
-            	-venue->Venue1187160151
+            	-venue->venue36
             	-cites->paper1993857386
             	-cites->paper1997269120
             	-cites->paper2021204974
@@ -166,7 +166,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2022502297:Paper {
                 .title : "Designing flexible access control models for the cloud"
             	.year : 2013
-            	-venue->Venue1182591887
+            	-venue->venue41
             	-cites->paper9488350
             	-cites->paper14205470
             	-cites->paper1482031028
@@ -190,7 +190,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2036417954:Paper {
                 .title : "Consistencypreserving edit scripts in model versioning"
             	.year : 2013
-            	-venue->Venue1166511975
+            	-venue->venue44
             	-cites->paper50128682
             	-cites->paper1540852499
             	-cites->paper1584818596
@@ -220,7 +220,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2083393585:Paper {
                 .title : "DBPowder A Flexible ObjectRelational Mapping Framework Based on a Conceptual Model"
             	.year : 2013
-            	-venue->Venue1143160721
+            	-venue->venue56
             	-cites->paper1543888717
             	-cites->paper1554311651
             	-cites->paper2002711156
@@ -237,7 +237,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2208797039:Paper {
                 .title : "Validating Consistency between a Feature Model and Its Implementation"
             	.year : 2013
-            	-venue->Venue2756309959
+            	-venue->venue118
             	-cites->paper30803841
             	-cites->paper1635782815
             	-cites->paper1967180522
@@ -265,7 +265,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper34425159:Paper {
                 .title : "A new model for errortolerant sidechannel cube attacks"
             	.year : 2013
-            	-venue->Venue1127098075
+            	-venue->venue147
             	-cites->paper97949831
             	-cites->paper1489792672
             	-cites->paper1509491396
@@ -302,7 +302,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper1979380766:Paper {
                 .title : "Safetyfirst approach to memory consistency models"
             	.year : 2013
-            	-venue->Venue1160224924
+            	-venue->venue164
             	-cites->paper1967564401
             	-cites->paper2036853599
             	-cites->paper2054739713
@@ -317,7 +317,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2406600029:Paper {
                 .title : "Heterogeneous Models Matching for Consistency Management"
             	.year : 2013
-            	-venue->Venue
+            	-venue->venue168
             	-authors->author2021330974
             	-authors->author72241827
             	-authors->author2131966228
@@ -327,7 +327,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper99999999994:Paper {
                 .title : "Model checking for weakly consistent libraries"
             	.year : 2013
-            	-venue->Venue
+            	-venue->venue173
             	-cites->paper1602156367
             	-cites->paper1719093023
             	-cites->paper1887412317
@@ -372,7 +372,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper99999999995:Paper {
                 .title : "AHM  Handling Heterogeneous Models Matching and Consistency via MDE"
             	.year : 2013
-            	-venue->Venue
+            	-venue->venue174
             	-cites->paper1503248228
             	-cites->paper2084624236
             	-cites->paper2095628807
@@ -389,7 +389,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper99999999997:Paper {
                 .title : "Bidirectionally Tolerating Inconsistency  Partial Transformations"
             	.year : 2013
-            	-venue->Venue
+            	-venue->venue176
             	-cites->paper1539047152
             	-cites->paper1557990975
             	-cites->paper1561795599

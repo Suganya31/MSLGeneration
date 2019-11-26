@@ -1,37 +1,37 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2005.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1996.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2008.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2004.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2009.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2012.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2006.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1997.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2011.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2010.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1999.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2001.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2015.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2013.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2014.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2007.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1989.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2003.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1990.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1992.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2016.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2017.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2018.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper1977.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/paper2019.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2004.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2009.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2012.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2006.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1997.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2011.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2010.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1999.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2001.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2015.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2013.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2014.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2007.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1989.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2003.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1990.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1992.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2016.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2017.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2018.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
  	
 model AllPapers -> AllAuthors, AllVenues {
 	paper1537440013:Paper {
                 .title : "Consistent integration of models based on views of visual languages"
             	.year : 2008
-            	-venue->Venue1187615537
+            	-venue->venue3
             	-cites->paper1556566737
             	-cites->paper1573663598
             	-cites->paper1782382739
@@ -51,7 +51,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper1585480189:Paper {
                 .title : "Sufficient Criteria for Consistent Behavior Modeling with Refined Activity Diagrams"
             	.year : 2008
-            	-venue->Venue1191550517
+            	-venue->venue14
             	-cites->paper1482962177
             	-cites->paper1808519102
             	-cites->paper2025383609
@@ -70,7 +70,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper1599490280:Paper {
                 .title : "Automatically Generating Behavioral Models of Adaptive Systems to Address Uncertainty"
             	.year : 2008
-            	-venue->Venue1191550517
+            	-venue->venue16
             	-cites->paper326424914
             	-cites->paper1489800325
             	-cites->paper1512371038
@@ -103,7 +103,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper1999340986:Paper {
                 .title : "Classifying integrity checking methods with regard to inconsistency tolerance"
             	.year : 2008
-            	-venue->Venue1180504816
+            	-venue->venue31
             	-cites->paper132658143
             	-cites->paper181078895
             	-cites->paper190622319
@@ -129,7 +129,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2110795655:Paper {
                 .title : "Global consistency checking of distributed models with TReMer"
             	.year : 2008
-            	-venue->Venue1174403976
+            	-venue->venue70
             	-cites->paper1983421263
             	-cites->paper1995544616
             	-cites->paper2025624633
@@ -148,7 +148,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2111723916:Paper {
                 .title : "A MeasurementDriven Process Model for Managing Inconsistent Software Requirements"
             	.year : 2008
-            	-venue->Venue1134663949
+            	-venue->venue71
             	-cites->paper1556421367
             	-cites->paper1559179949
             	-cites->paper1582116930
@@ -172,7 +172,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2143614054:Paper {
                 .title : "Generating and Evaluating Choices for Fixing Inconsistencies in UML Design Models"
             	.year : 2008
-            	-venue->Venue1166511975
+            	-venue->venue91
             	-cites->paper99545732
             	-cites->paper1975322993
             	-cites->paper1983160424
@@ -199,7 +199,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2149864282:Paper {
                 .title : "Detecting model inconsistency through operationbased model construction"
             	.year : 2008
-            	-venue->Venue1174403976
+            	-venue->venue95
             	-cites->paper99545732
             	-cites->paper2012959900
             	-cites->paper2043336932
@@ -217,7 +217,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2157198435:Paper {
                 .title : "Detecting and Repairing Inconsistencies across Heterogeneous Models"
             	.year : 2008
-            	-venue->Venue1175644874
+            	-venue->venue98
             	-cites->paper126954505
             	-cites->paper1486745608
             	-cites->paper1604272107
