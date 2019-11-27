@@ -1,6 +1,8 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Dummy.msl"
+
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
@@ -31,6 +33,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2164085528:Paper {
                 .title : "Prototyping an inconsistency checking tool for software process models"
             	.year : 1992
+            	.core : true
             	-venue->venue108
             	-cites->paper230336782
             	-cites->paper1491178396

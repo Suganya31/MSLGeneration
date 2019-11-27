@@ -1,6 +1,8 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Dummy.msl"
+
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
@@ -31,6 +33,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper1556323883:Paper {
                 .title : "Maximal Causal Models for Sequentially Consistent Systems"
             	.year : 2012
+            	.core : true
             	-venue->venue6
             	-cites->paper1481985818
             	-cites->paper1522334395
@@ -65,6 +68,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper1971702813:Paper {
                 .title : "Computing repair trees for resolving inconsistencies in design models"
             	.year : 2012
+            	.core : true
             	-venue->venue25
             	-cites->paper1685969755
             	-cites->paper1964566177
@@ -93,6 +97,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper1992250631:Paper {
                 .title : "An Approach for Detecting Inconsistencies between Behavioral Models of the Software Architecture and the Code"
             	.year : 2012
+            	.core : true
             	-venue->venue29
             	-cites->paper1603839139
             	-cites->paper1934543060
@@ -116,6 +121,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper1996424622:Paper {
                 .title : "Applying a consistency checking framework for heterogeneous models and artifacts in industrial product lines"
             	.year : 2012
+            	.core : true
             	-venue->venue30
             	-cites->paper99545732
             	-cites->paper1481078745
@@ -146,6 +152,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2035069501:Paper {
                 .title : "ConstraintBased Consistency Checking between Design Decisions and Component Models for Supporting Software Architecture Evolution"
             	.year : 2012
+            	.core : true
             	-venue->venue43
             	-cites->paper257391
             	-cites->paper12874984
@@ -173,6 +180,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2054332523:Paper {
                 .title : "Incremental consistency checking for complex design rules and larger model changes"
             	.year : 2012
+            	.core : true
             	-venue->venue47
             	-cites->paper1563049645
             	-cites->paper1982313944
@@ -200,6 +208,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2063122285:Paper {
                 .title : "Model driven configuration of fault tolerance solutions for componentbased software system"
             	.year : 2012
+            	.core : true
             	-venue->venue50
             	-cites->paper1494640588
             	-cites->paper1544281820
@@ -226,6 +235,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2121061989:Paper {
                 .title : "Partial models towards modeling and reasoning with uncertainty"
             	.year : 2012
+            	.core : true
             	-venue->venue78
             	-cites->paper99545732
             	-cites->paper187889024
@@ -254,6 +264,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2143838413:Paper {
                 .title : "Evaluating the impact of aspects on inconsistency detection effort a controlled experiment"
             	.year : 2012
+            	.core : true
             	-venue->venue92
             	-cites->paper1532079015
             	-cites->paper1965228681
@@ -273,6 +284,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2154301801:Paper {
                 .title : "A pattern for modelling fault tolerant systems in eventb"
             	.year : 2012
+            	.core : true
             	-venue->venue96
             	-cites->paper1607741321
             	-cites->paper1836432192
@@ -284,6 +296,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2407548088:Paper {
                 .title : "A Petri Net Model for Secure and FaultTolerant CloudBased Information Storage"
             	.year : 2012
+            	.core : true
             	-venue->venue154
             	-cites->paper1502833055
             	-cites->paper1675329038

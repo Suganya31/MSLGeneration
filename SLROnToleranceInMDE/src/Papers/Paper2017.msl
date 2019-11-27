@@ -1,6 +1,8 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Dummy.msl"
+
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
@@ -31,6 +33,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2598750690:Paper {
                 .title : "Intermodel Consistency Checking Using Triple Graph Grammars and Linear Optimization Techniques"
             	.year : 2017
+            	.core : true
             	-venue->venue130
             	-cites->paper1511832825
             	-cites->paper1525686383
@@ -64,6 +67,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2624306950:Paper {
                 .title : "Avoiding consistency exceptions under strong memory models"
             	.year : 2017
+            	.core : true
             	-venue->venue131
             	-cites->paper1048515
             	-cites->paper17332244
@@ -160,6 +164,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2626698596:Paper {
                 .title : "MTraceCheck Validating NonDeterministic Behavior of Memory Consistency Models in PostSilicon Validation"
             	.year : 2017
+            	.core : true
             	-venue->venue132
             	-cites->paper1594228127
             	-cites->paper1694765325
@@ -201,6 +206,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2743065044:Paper {
                 .title : "Victim Communication Stack VCS A flexible model to select the Human Attack Vector"
             	.year : 2017
+            	.core : true
             	-venue->venue133
             	-cites->paper54475548
             	-cites->paper156137932
@@ -225,6 +231,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2750134344:Paper {
                 .title : "An Optimization Model for D Pipe Routing with Flexibility Constraints"
             	.year : 2017
+            	.core : true
             	-venue->venue134
             	-cites->paper1486420508
             	-cites->paper1864619642
@@ -248,6 +255,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2755688097:Paper {
                 .title : "A Modeling Approach for Flexible Workflow Applications of Cloud Services"
             	.year : 2017
+            	.core : true
             	-venue->venue135
             	-cites->paper76806710
             	-cites->paper1503566036
@@ -267,6 +275,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2756473874:Paper {
                 .title : "From Sequence Diagrams to Event B A Specification and Verification Approach of Flexible Workflow Applications of Cloud Services Based on Metamodel Transformation"
             	.year : 2017
+            	.core : true
             	-venue->venue136
             	-authors->author2135449013
             	-authors->author1227410782
@@ -276,6 +285,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2768965175:Paper {
                 .title : "Models of Reliability of FaultTolerant Software Under CyberAttacks"
             	.year : 2017
+            	.core : true
             	-venue->venue137
             	-cites->paper147550463
             	-cites->paper1565331622
@@ -303,6 +313,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2789876140:Paper {
                 .title : "From Abstract to Concrete Repairs of Model Inconsistencies An Automated Approach"
             	.year : 2017
+            	.core : true
             	-venue->venue138
             	-authors->author1949402193
             	-authors->author2346573819
@@ -313,6 +324,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2553522901:Paper {
                 .title : "Automatically comparing memory consistency models"
             	.year : 2017
+            	.core : true
             	-venue->venue155
             	-cites->paper78552530
             	-cites->paper1482397304
@@ -387,6 +399,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2562986368:Paper {
                 .title : "Ogre and Pythia an invariance proof method for weak consistency models"
             	.year : 2017
+            	.core : true
             	-venue->venue156
             	-cites->paper175092372
             	-cites->paper196827001
@@ -446,6 +459,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2782787947:Paper {
                 .title : "Consistency Recovery in Interactive Modeling"
             	.year : 2017
+            	.core : true
             	-venue->venue157
             	-cites->paper1507178256
             	-cites->paper1864361234
@@ -471,6 +485,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2782789073:Paper {
                 .title : "The Conformance Relation Challenge Building Flexible Modelling Frameworks"
             	.year : 2017
+            	.core : true
             	-venue->venue158
             	-cites->paper1542225267
             	-cites->paper1982313944
@@ -493,6 +508,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2783483828:Paper {
                 .title : "Using Models at Run Time to Detect Incomplete and Inconsistent Requirements"
             	.year : 2017
+            	.core : true
             	-venue->venue159
             	-cites->paper2092306402
             	-cites->paper2125614502
@@ -506,6 +522,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2783675675:Paper {
                 .title : "Enhancing Flexibility in User Interaction Modeling by Adding Design Uncertainty to IFML"
             	.year : 2017
+            	.core : true
             	-venue->venue160
             	-cites->paper23963972
             	-cites->paper202080076
@@ -530,6 +547,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2783958742:Paper {
                 .title : "Modeling and Enactment Support for Early Detection of Inconsistencies in Engineering Processes"
             	.year : 2017
+            	.core : true
             	-venue->venue161
             	-cites->paper1994901326
             	-cites->paper2043336932

@@ -1,6 +1,8 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Dummy.msl"
+
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
@@ -31,6 +33,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper1548019825:Paper {
                 .title : "Consistency and random constraint satisfaction models with a high constraint tightness"
             	.year : 2004
+            	.core : true
             	-venue->venue4
             	-cites->paper312445613
             	-cites->paper1514397520
@@ -55,6 +58,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2116374913:Paper {
                 .title : "Automated consistency and completeness checking of testing models for interactive systems"
             	.year : 2004
+            	.core : true
             	-venue->venue74
             	-cites->paper1597428879
             	-cites->paper2007953420
@@ -68,6 +72,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2157634313:Paper {
                 .title : "Consistency check in modelling multiagent systems"
             	.year : 2004
+            	.core : true
             	-venue->venue99
             	-cites->paper1574616745
             	-cites->paper1592590079
@@ -88,6 +93,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2166752259:Paper {
                 .title : "Model checking a faulttolerant startup algorithm from design exploration to exhaustive fault simulation"
             	.year : 2004
+            	.core : true
             	-venue->venue109
             	-cites->paper1487606492
             	-cites->paper1612681298
@@ -106,6 +112,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2105945277:Paper {
                 .title : "TSOtool A Program for Verifying Memory Systems Using the Memory Consistency Model"
             	.year : 2004
+            	.core : true
             	-venue->venue167
             	-cites->paper1502765706
             	-cites->paper1545792627

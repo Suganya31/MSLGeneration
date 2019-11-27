@@ -1,6 +1,8 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Dummy.msl"
+
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
@@ -31,6 +33,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper1575910569:Paper {
                 .title : "Proving consistency and completeness of model classes using theory interpretation"
             	.year : 2010
+            	.core : true
             	-venue->venue12
             	-cites->paper1480285224
             	-cites->paper1485360759
@@ -59,6 +62,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper1985193734:Paper {
                 .title : "Consistent modeling using multiple UML profiles"
             	.year : 2010
+            	.core : true
             	-venue->venue28
             	-cites->paper1482031469
             	-cites->paper1488412441
@@ -78,6 +82,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2009452463:Paper {
                 .title : "Static and dynamic consistency analysis of UML state chart models"
             	.year : 2010
+            	.core : true
             	-venue->venue35
             	-cites->paper157156687
             	-cites->paper1497389410
@@ -99,6 +104,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2021626639:Paper {
                 .title : "Flexible and scalable consistency checking on product line variability models"
             	.year : 2010
+            	.core : true
             	-venue->venue39
             	-cites->paper26962075
             	-cites->paper99545732
@@ -134,6 +140,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2056661416:Paper {
                 .title : "Selective and consistent undoing of model changes"
             	.year : 2010
+            	.core : true
             	-venue->venue48
             	-cites->paper1991604845
             	-cites->paper2011705879
@@ -150,6 +157,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2071720065:Paper {
                 .title : "Techne Towards a New Generation of Requirements Modeling Languages with Goals Preferences and Inconsistency Handling"
             	.year : 2010
+            	.core : true
             	-venue->venue52
             	-cites->paper1522554322
             	-cites->paper1968128450
@@ -183,6 +191,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2073316824:Paper {
                 .title : "A SemiMarkov Survivability Evaluation Model for Intrusion Tolerant Database Systems"
             	.year : 2010
+            	.core : true
             	-venue->venue53
             	-cites->paper1558783207
             	-cites->paper1588175110
@@ -207,6 +216,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2084764985:Paper {
                 .title : "Flexible model element introduction policies for aspectoriented modeling"
             	.year : 2010
+            	.core : true
             	-venue->venue57
             	-cites->paper31292625
             	-cites->paper1532079015
@@ -236,6 +246,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2118279606:Paper {
                 .title : "Open Code Coverage Framework A Consistent and Flexible Framework for Measuring Test Coverage Supporting Multiple Programming Languages"
             	.year : 2010
+            	.core : true
             	-venue->venue76
             	-cites->paper2001685807
             	-cites->paper2103814123
@@ -246,6 +257,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2121629484:Paper {
                 .title : "A proposal for consistency checking in dynamic software product line models using OCL"
             	.year : 2010
+            	.core : true
             	-venue->venue79
             	-cites->paper89852222
             	-cites->paper1496907652
@@ -261,6 +273,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2122105924:Paper {
                 .title : "On Constructing Thermodynamically Consistent Parametrizations of Kinetic Models"
             	.year : 2010
+            	.core : true
             	-venue->venue80
             	-cites->paper2065699608
             	-authors->author2355094572
@@ -269,6 +282,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2132304960:Paper {
                 .title : "A Consistency Model for Identity Information in Distributed Systems"
             	.year : 2010
+            	.core : true
             	-venue->venue86
             	-cites->paper13821285
             	-cites->paper59877344
@@ -293,6 +307,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2163581369:Paper {
                 .title : "A dynamicpriority based approach to fixing inconsistent feature models"
             	.year : 2010
+            	.core : true
             	-venue->venue107
             	-cites->paper30803841
             	-cites->paper113344430
@@ -319,6 +334,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2168429160:Paper {
                 .title : "A selfconsistent model to estimate NBTI degradation and a comprehensive online system lifetime enhancement technique"
             	.year : 2010
+            	.core : true
             	-venue->venue111
             	-cites->paper1719980635
             	-cites->paper2038840127

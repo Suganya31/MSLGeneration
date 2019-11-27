@@ -1,6 +1,8 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Dummy.msl"
+
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
@@ -31,6 +33,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2794849388:Paper {
                 .title : "A MDE Approach for Heterogeneous Models Consistency"
             	.year : 2018
+            	.core : true
             	-venue->venue139
             	-authors->author2795271090
             	-authors->author2021330974
@@ -41,6 +44,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2795021132:Paper {
                 .title : "A graph solver for the automated generation of consistent domainspecific models"
             	.year : 2018
+            	.core : true
             	-venue->venue140
             	-cites->paper5815757
             	-cites->paper24569603
@@ -105,6 +109,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2804801307:Paper {
                 .title : "Declarative project planning and controlling a formal model to support the handling of unavoidable inconsistencies"
             	.year : 2018
+            	.core : true
             	-venue->venue141
             	-cites->paper189544743
             	-cites->paper1995859218
@@ -119,6 +124,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2805459498:Paper {
                 .title : "Uncovering Unknown System Behaviors in Uncertain Networks with Model and SearchBased Testing"
             	.year : 2018
+            	.core : true
             	-venue->venue142
             	-authors->author2332852696
             	-authors->author2805167129
@@ -132,6 +138,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2809006397:Paper {
                 .title : "Towards Modelling and Reasoning About Uncertain Data of Sensor Measurements for Decision Support in Smart Spaces"
             	.year : 2018
+            	.core : true
             	-venue->venue143
             	-authors->author2808873893
             	-authors->author2809669810
@@ -140,6 +147,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2809221487:Paper {
                 .title : "Poster An Automated and Instant Discovery of Concrete Repairs for Model Inconsistencies"
             	.year : 2018
+            	.core : true
             	-venue->venue144
             	-cites->paper94833394
             	-cites->paper1970178969
@@ -163,6 +171,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2895109285:Paper {
                 .title : "Towards sound optimal and flexible building from megamodels"
             	.year : 2018
+            	.core : true
             	-venue->venue145
             	-cites->paper78372980
             	-cites->paper1864361234
@@ -185,6 +194,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2895552427:Paper {
                 .title : "On the Quest for Flexible Modelling"
             	.year : 2018
+            	.core : true
             	-venue->venue146
             	-cites->paper39340127
             	-cites->paper200074566
@@ -235,6 +245,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper99999999996:Paper {
                 .title : "Online ModelBased Testing under Uncertainty"
             	.year : 2018
+            	.core : true
             	-venue->venue175
             	-cites->paper1498432697
             	-cites->paper1610570299

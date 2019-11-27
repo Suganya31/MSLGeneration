@@ -44,9 +44,11 @@ class test {
 
 		// writer.println(instance.generatePapersMSL(papers))
 		// writer.println(instance.generateAuthorsMSL(papers))
-		var writer = new PrintWriter("src\\Papers\\paper.msl", "UTF-8");
+		var writer = new PrintWriter("src\\Papers\\Paperinitial.msl", "UTF-8");
 				// writer.println(instance.generateVenuesMSL(papers))
-	//	writer.close();
+							//writer.println(instance.generatePapersMSL(papers, 0000))
+				
+		//writer.close();
 
 		for (paper : papers) {
 			years.add(paper.getYear)
@@ -67,12 +69,15 @@ class test {
 	def String generatePapersMSL(List<PapersPojo> papers, Integer year) {
 
 		var i = 0
-		var Set<Integer> years = new HashSet;
+		var flag=true
+				var Set<Integer> years = new HashSet;
 		
 		''' 
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Dummy.msl"
+
 	«FOR paper : papers»
 	«IF(paper.getYear !== year) && !years.contains(paper.getYear)»	
 			      «{years.add(paper.getYear); "" }»
@@ -86,6 +91,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	      	    paper«paper.getId()»:Paper {
                 .title : "«getOnlyStrings(paper.getTitle())»"
             	.year : «paper.getYear()»
+            	.core : «flag»
             	-venue->venue«paper.getVenue()»
             	«FOR reference : paper.getReferences()»
             		   -cites->paper«reference»
@@ -101,6 +107,7 @@ model AllPapers -> AllAuthors, AllVenues {
 «««    				 paper«a»:Paper {
 «««    				 	.title : ""
 «««    				    .year : 0000
+«««    				    .core : false
 «««    				    .venue : ""    				           
 «««    				            }
 «««    				    «ENDFOR»   

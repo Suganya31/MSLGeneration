@@ -1,6 +1,8 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Dummy.msl"
+
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
@@ -31,6 +33,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper1565432667:Paper {
                 .title : "Model Checking and Fault Tolerance"
             	.year : 1997
+            	.core : true
             	-venue->venue8
             	-cites->paper199365300
             	-cites->paper1507985299
@@ -51,6 +54,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2001803004:Paper {
                 .title : "Flexible update propagation for weakly consistent replication"
             	.year : 1997
+            	.core : true
             	-venue->venue32
             	-cites->paper1525865893
             	-cites->paper1586701723

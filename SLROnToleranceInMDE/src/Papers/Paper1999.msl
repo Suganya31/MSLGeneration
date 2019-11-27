@@ -1,6 +1,8 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Dummy.msl"
+
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
@@ -31,6 +33,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper1577808945:Paper {
                 .title : "Hierarchical Reliability and Safety Models of Fault Tolerant Distributed Industrial Control Systems"
             	.year : 1999
+            	.core : true
             	-venue->venue13
             	-cites->paper1507623386
             	-cites->paper1838724310
@@ -46,6 +49,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2128235850:Paper {
                 .title : "Combining fault avoidance fault removal and fault tolerance an integrated model"
             	.year : 1999
+            	.core : true
             	-venue->venue84
             	-cites->paper1526272872
             	-cites->paper2074592031

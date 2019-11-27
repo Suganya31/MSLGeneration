@@ -1,6 +1,8 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Dummy.msl"
+
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
@@ -31,6 +33,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper1968283843:Paper {
                 .title : "Pipe Check Specifying and Verifying Microarchitectural Enforcement of Memory Consistency Models"
             	.year : 2014
+            	.core : true
             	-venue->venue24
             	-cites->paper1483960654
             	-cites->paper1525350307
@@ -72,6 +75,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2022276169:Paper {
                 .title : "Controlled modeling environment using flexiblyformatted spreadsheets"
             	.year : 2014
+            	.core : true
             	-venue->venue40
             	-cites->paper1480582324
             	-cites->paper1487672899
@@ -96,6 +100,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2061467503:Paper {
                 .title : "Towards ModelandCode Consistency Checking"
             	.year : 2014
+            	.core : true
             	-venue->venue49
             	-cites->paper1556944944
             	-cites->paper1971702813
@@ -126,6 +131,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2264377422:Paper {
                 .title : "Efficiently and Completely Verifying Synchronized Consistency Models"
             	.year : 2014
+            	.core : true
             	-venue->venue120
             	-cites->paper1556566737
             	-cites->paper1594228127
@@ -166,6 +172,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper49939434:Paper {
                 .title : "A Formal Model for ConstraintBased Deployment Calculation and Analysis for FaultTolerant Systems"
             	.year : 2014
+            	.core : true
             	-venue->venue148
             	-cites->paper1480909796
             	-cites->paper1556566737
@@ -182,6 +189,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2395715776:Paper {
                 .title : "Flexible Modeling and Product Derivation in Software Product Lines"
             	.year : 2014
+            	.core : true
             	-venue->venue153
             	-authors->author2132358281
             	-authors->author2224377421
@@ -189,6 +197,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2070474270:Paper {
                 .title : "Heterogeneous models matching for consistency management"
             	.year : 2014
+            	.core : true
             	-venue->venue165
             	-cites->paper43969157
             	-cites->paper1579534349

@@ -1,6 +1,8 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Dummy.msl"
+
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
@@ -31,6 +33,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper1568545584:Paper {
                 .title : "Modeling with plausibility checking inspecting favorable and critical signs for consistency between control flow and functional behavior"
             	.year : 2011
+            	.core : true
             	-venue->venue10
             	-cites->paper1562948410
             	-cites->paper1585480189
@@ -56,6 +59,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper1594825470:Paper {
                 .title : "Sound and complete monitoring of sequential consistency for relaxed memory models"
             	.year : 2011
+            	.core : true
             	-venue->venue15
             	-cites->paper1822674892
             	-cites->paper1823635467
@@ -81,6 +85,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2028506288:Paper {
                 .title : "Modeling the Uncertain Data in the Kanonymity Privacy Protection Model"
             	.year : 2011
+            	.core : true
             	-venue->venue42
             	-cites->paper1996300823
             	-cites->paper2004366212
@@ -95,6 +100,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2043905074:Paper {
                 .title : "Extended neglect tolerance model  human robot teams"
             	.year : 2011
+            	.core : true
             	-venue->venue46
             	-cites->paper1541919721
             	-cites->paper1957070465
@@ -115,6 +121,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2081235423:Paper {
                 .title : "Modeling and tolerating heterogeneous failures in large parallel systems"
             	.year : 2011
+            	.core : true
             	-venue->venue54
             	-cites->paper1510496002
             	-cites->paper1533617723
@@ -143,6 +150,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2088507937:Paper {
                 .title : "Formalizing model consistency based on the abstract syntax"
             	.year : 2011
+            	.core : true
             	-venue->venue60
             	-cites->paper1498110179
             	-cites->paper1561057365
@@ -162,6 +170,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2113100977:Paper {
                 .title : "Efficient model checking of faulttolerant distributed protocols"
             	.year : 2011
+            	.core : true
             	-venue->venue73
             	-cites->paper1486307217
             	-cites->paper1493542872
@@ -199,6 +208,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2129392981:Paper {
                 .title : "Data Quality Maintenance by IntegrityPreserving Repairs that Tolerate Inconsistency"
             	.year : 2011
+            	.core : true
             	-venue->venue85
             	-cites->paper190622319
             	-cites->paper1491205793
@@ -229,6 +239,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2144583697:Paper {
                 .title : "Semantically configurable consistency analysis for class and object diagrams"
             	.year : 2011
+            	.core : true
             	-venue->venue93
             	-cites->paper99545732
             	-cites->paper156767209
@@ -260,6 +271,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2167864680:Paper {
                 .title : "Inconsistency management framework for modelbased development"
             	.year : 2011
+            	.core : true
             	-venue->venue110
             	-cites->paper165540832
             	-cites->paper1486745608
@@ -285,6 +297,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2170585392:Paper {
                 .title : "Consistency Checks for Duties in Extended UML Activity Models"
             	.year : 2011
+            	.core : true
             	-venue->venue113
             	-cites->paper1513395277
             	-cites->paper1570154167
@@ -307,6 +320,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2179822829:Paper {
                 .title : "Finetuning model transformation change propagation in context of consistency completeness and human guidance"
             	.year : 2011
+            	.core : true
             	-venue->venue115
             	-cites->paper155589868
             	-cites->paper1503242327

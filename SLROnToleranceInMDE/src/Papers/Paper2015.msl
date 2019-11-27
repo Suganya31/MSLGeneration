@@ -1,6 +1,8 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Dummy.msl"
+
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
@@ -31,6 +33,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper1639394823:Paper {
                 .title : "Towards ModelDriven VariabilityBased Flexible Service Compositions"
             	.year : 2015
+            	.core : true
             	-venue->venue19
             	-cites->paper119260449
             	-cites->paper1485856036
@@ -52,6 +55,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2085422792:Paper {
                 .title : "Building consistent transactions with inconsistent replication"
             	.year : 2015
+            	.core : true
             	-venue->venue58
             	-cites->paper192446467
             	-cites->paper1433235304
@@ -114,6 +118,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2086023529:Paper {
                 .title : "ArMOR defending against memory consistency model mismatches in heterogeneous architectures"
             	.year : 2015
+            	.core : true
             	-venue->venue59
             	-cites->paper1525350307
             	-cites->paper1808398105
@@ -169,6 +174,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2104177825:Paper {
                 .title : "Process model for rapid implementation of features using flexible architecture"
             	.year : 2015
+            	.core : true
             	-venue->venue67
             	-cites->paper1496688783
             	-cites->paper2002170195
@@ -179,6 +185,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2181002748:Paper {
                 .title : "Consistent coevolution of models and transformations"
             	.year : 2015
+            	.core : true
             	-venue->venue116
             	-cites->paper113976528
             	-cites->paper937233221
@@ -207,6 +214,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2206084846:Paper {
                 .title : "Checking UML and OCL Model Consistency An Experience Report on a MiddleSized Case Study"
             	.year : 2015
+            	.core : true
             	-venue->venue117
             	-cites->paper88009092
             	-cites->paper1519503479
@@ -226,6 +234,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2236227338:Paper {
                 .title : "Efficient GPU synchronization without scopes saying no to complex consistency models"
             	.year : 2015
+            	.core : true
             	-venue->venue119
             	-cites->paper1897254069
             	-cites->paper1978155891

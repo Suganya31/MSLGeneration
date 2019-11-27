@@ -1,6 +1,8 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Dummy.msl"
+
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
@@ -31,6 +33,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper1979172056:Paper {
                 .title : "Flexible intrusion tolerant voting architecture"
             	.year : 2007
+            	.core : true
             	-venue->venue26
             	-cites->paper2073126252
             	-cites->paper2126789306
@@ -43,6 +46,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2068276472:Paper {
                 .title : "Consistent Modeling Integration and Simulation of Molecular Interaction Networks in SpaceTime Dimension"
             	.year : 2007
+            	.core : true
             	-venue->venue51
             	-cites->paper295130582
             	-cites->paper334583739
@@ -53,6 +57,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2082842864:Paper {
                 .title : "Improving inconsistency resolution with sideeffect evaluation and costs"
             	.year : 2007
+            	.core : true
             	-venue->venue55
             	-cites->paper1498244333
             	-cites->paper1499843713
@@ -74,6 +79,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2099698375:Paper {
                 .title : "Consistency Checking of Conceptual Models via Model Merging"
             	.year : 2007
+            	.core : true
             	-venue->venue61
             	-cites->paper163597783
             	-cites->paper326424914
@@ -113,6 +119,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2118824234:Paper {
                 .title : "Formal Verification of Consistency between Feature Model and Software Architecture in Software Product Line"
             	.year : 2007
+            	.core : true
             	-venue->venue77
             	-cites->paper75489299
             	-cites->paper1597691197
@@ -127,6 +134,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2122870030:Paper {
                 .title : "A Safety Analysis Framework for COTS Microprocessors in SafetyCritical Applications"
             	.year : 2007
+            	.core : true
             	-venue->venue81
             	-cites->paper1541288632
             	-cites->paper2133201251
@@ -137,6 +145,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2143320215:Paper {
                 .title : "UMLAnalyzer A Tool for the Instant Consistency Checking of UML Models"
             	.year : 2007
+            	.core : true
             	-venue->venue89
             	-cites->paper1998017916
             	-cites->paper2012959900
@@ -147,6 +156,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2145891223:Paper {
                 .title : "A Study of Consistent and Inconsistent Changes to Code Clones"
             	.year : 2007
+            	.core : true
             	-venue->venue94
             	-cites->paper121288867
             	-cites->paper1593203335
@@ -174,6 +184,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2160781056:Paper {
                 .title : "CheckFence checking consistency of concurrent data types on relaxed memory models"
             	.year : 2007
+            	.core : true
             	-venue->venue101
             	-cites->paper1495128589
             	-cites->paper1540179969
@@ -222,6 +233,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2161308564:Paper {
                 .title : "FaultTolerant SemiPassive Coordination Protocol for a MultiActuatorMultiSensor MAMS Model"
             	.year : 2007
+            	.core : true
             	-venue->venue103
             	-cites->paper1587166076
             	-cites->paper1985349143
@@ -245,6 +257,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2162686404:Paper {
                 .title : "Fixing Inconsistencies in UML Design Models"
             	.year : 2007
+            	.core : true
             	-venue->venue106
             	-cites->paper99545732
             	-cites->paper1968128450
@@ -263,6 +276,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2171445445:Paper {
                 .title : "Measuring Reliability as a Mean Failure Cost"
             	.year : 2007
+            	.core : true
             	-venue->venue114
             	-cites->paper1495119494
             	-cites->paper1575709632
@@ -289,6 +303,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2104226397:Paper {
                 .title : "On the Collaborative Development of ParaConsistent Conceptual Models"
             	.year : 2007
+            	.core : true
             	-venue->venue166
             	-cites->paper1559179949
             	-cites->paper1997970215
@@ -301,6 +316,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper99999999998:Paper {
                 .title : "Software Reliability Modeling with Test Coverage  Experimentation and Measurement with A FaultTolerant Software Project"
             	.year : 2007
+            	.core : true
             	-venue->venue177
             	-cites->paper2099859756
             	-cites->paper2132627437

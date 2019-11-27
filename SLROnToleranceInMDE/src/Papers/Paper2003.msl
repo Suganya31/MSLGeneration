@@ -1,6 +1,8 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Dummy.msl"
+
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
@@ -31,6 +33,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2124466219:Paper {
                 .title : "Flexible fault tolerance in configurable middleware for embedded systems"
             	.year : 2003
+            	.core : true
             	-venue->venue82
             	-cites->paper1516305737
             	-cites->paper1589122423
@@ -43,6 +46,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2143533292:Paper {
                 .title : "Design and implementation of a consistent time service for faulttolerant distributed systems"
             	.year : 2003
+            	.core : true
             	-venue->venue90
             	-cites->paper199552658
             	-cites->paper1537146784
@@ -66,6 +70,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper178588303:Paper {
                 .title : "Using Critiquing Systems for Inconsistency Detection in Software Engineering Models"
             	.year : 2003
+            	.core : true
             	-venue->venue150
             	-cites->paper1787802610
             	-cites->paper1875319849
@@ -92,6 +97,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper71622874:Paper {
                 .title : "Specification and Validation of FaultTolerant Software Architectures Based on Actor Model"
             	.year : 2003
+            	.core : true
             	-venue->venue162
             	-authors->author2690163336
             	-authors->author2161553928

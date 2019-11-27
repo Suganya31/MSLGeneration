@@ -1,6 +1,8 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Dummy.msl"
+
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
@@ -31,6 +33,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper1551012392:Paper {
                 .title : "Proving Consistency of Pure Methods and Model Fields"
             	.year : 2009
+            	.core : true
             	-venue->venue5
             	-cites->paper1480909796
             	-cites->paper1525290190
@@ -58,6 +61,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper1568373463:Paper {
                 .title : "An Incremental Algorithm for HighPerformance Runtime Model Consistency"
             	.year : 2009
+            	.core : true
             	-venue->venue9
             	-cites->paper1483584644
             	-cites->paper1505088841
@@ -88,6 +92,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper1606461502:Paper {
                 .title : "Consistency Independence and Consequences in UML and OCL Models"
             	.year : 2009
+            	.core : true
             	-venue->venue17
             	-cites->paper1527688737
             	-cites->paper1541808425
@@ -106,6 +111,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper1668140416:Paper {
                 .title : "A GoalBased Modeling Approach to Develop Requirements of an Adaptive System with Environmental Uncertainty"
             	.year : 2009
+            	.core : true
             	-venue->venue20
             	-cites->paper72209069
             	-cites->paper141628001
@@ -137,6 +143,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2109414934:Paper {
                 .title : "Modeling Fault Tolerant Services in ServiceOriented Architecture"
             	.year : 2009
+            	.core : true
             	-venue->venue69
             	-cites->paper1257099613
             	-cites->paper1550904090
@@ -153,6 +160,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2124995074:Paper {
                 .title : "Enhanced Automation for Managing Model and Metamodel Inconsistency"
             	.year : 2009
+            	.core : true
             	-venue->venue83
             	-cites->paper1542225267
             	-cites->paper1559038862
@@ -170,6 +178,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2141147386:Paper {
                 .title : "Towards an Alloy Formal Model for Flexible Advanced Transactional Model Development"
             	.year : 2009
+            	.core : true
             	-venue->venue88
             	-cites->paper1570173564
             	-cites->paper1571250571
@@ -191,6 +200,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2154861368:Paper {
                 .title : "A Method for Modeling and Analyzing FaultTolerant Service Composition"
             	.year : 2009
+            	.core : true
             	-venue->venue97
             	-cites->paper1592113188
             	-cites->paper2012428319
@@ -217,6 +227,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2160909485:Paper {
                 .title : "TamperTolerant Software Modeling and Implementation"
             	.year : 2009
+            	.core : true
             	-venue->venue102
             	-cites->paper1495266644
             	-cites->paper1509316335
@@ -252,6 +263,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2161358742:Paper {
                 .title : "Checking Model Consistency Using DataFlow Testing"
             	.year : 2009
+            	.core : true
             	-venue->venue104
             	-cites->paper1486172410
             	-cites->paper1495557642
@@ -279,6 +291,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2169730398:Paper {
                 .title : "Composing Models for Detecting Inconsistencies A Requirements Engineering Perspective"
             	.year : 2009
+            	.core : true
             	-venue->venue112
             	-cites->paper1979290877
             	-cites->paper1982313944

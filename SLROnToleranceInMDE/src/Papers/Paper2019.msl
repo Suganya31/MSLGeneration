@@ -1,6 +1,8 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Dummy.msl"
+
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
@@ -31,6 +33,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper99999999990:Paper {
                 .title : "Dealing with Uncertainty in Binary Logistic Regression Faultproneness Models"
             	.year : 2019
+            	.core : true
             	-venue->venue169
             	-cites->paper1342665
             	-cites->paper1590957121
@@ -60,6 +63,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper99999999991:Paper {
                 .title : "Viatra solver  a framework for the automated generation of consistent domainspecific models"
             	.year : 2019
+            	.core : true
             	-venue->venue170
             	-cites->paper1035875811
             	-cites->paper1548001884
@@ -87,6 +91,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper99999999992:Paper {
                 .title : "A Formal Analysis of the NVIDIA PTX Memory Consistency Model"
             	.year : 2019
+            	.core : true
             	-venue->venue171
             	-cites->paper150016039
             	-cites->paper1519503479
@@ -128,6 +133,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper99999999993:Paper {
                 .title : "Verifying Safety of Synchronous FaultTolerant Algorithms by Bounded Model Checking"
             	.year : 2019
+            	.core : true
             	-venue->venue172
             	-cites->paper1021521453
             	-cites->paper1554005697
@@ -160,6 +166,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper99999999999:Paper {
                 .title : "Test Model Coverage Analysis Under Uncertainty"
             	.year : 2019
+            	.core : true
             	-venue->venue178
             	-cites->paper1498432697
             	-cites->paper1516256348

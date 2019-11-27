@@ -8,6 +8,7 @@ metamodel Bibliography {
 		-authors(0..*)->Author
 		-cites(0..*)->Paper
 		.title : EString
+		.core : EBoolean
 		.year  : EInt
 		-venue(1..*) ->Venue
 	}

@@ -1,6 +1,8 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Dummy.msl"
+
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
@@ -31,6 +33,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper1607096807:Paper {
                 .title : "Lowcost flexible software fault tolerance for distributed computing"
             	.year : 2001
+            	.core : true
             	-venue->venue18
             	-cites->paper1923741182
             	-cites->paper2097719961
@@ -52,6 +55,7 @@ model AllPapers -> AllAuthors, AllVenues {
 	paper2021289047:Paper {
                 .title : "Tolerating Inconsistency revisited"
             	.year : 2001
+            	.core : true
             	-venue->venue38
             	-authors->author2627046014
             }
