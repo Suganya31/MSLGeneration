@@ -55,9 +55,18 @@ public class PapersPojo {
 	}
 	int year;
 	String id;
+	public Boolean getCore() {
+		return core;
+	}
+	public void setCore(Boolean core) {
+		this.core = core;
+	}
+	Boolean core;
 	
 	List<String> references= new ArrayList<String>();
 	Set<String> authors= new HashSet<String>();
+	static Set<String> poolids= new HashSet<String>();
+
 	Map<String, String> id_to_authors = new HashMap<String, String>();
 
 	public Map<String, String> getId_to_authors() {

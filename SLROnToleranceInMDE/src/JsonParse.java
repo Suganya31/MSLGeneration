@@ -28,20 +28,20 @@ import com.fasterxml.jackson.core.TreeNode;
 import com.fasterxml.jackson.core.type.TypeReference;
 
 public class JsonParse {
+	static List<PapersPojo> papers = new ArrayList<PapersPojo>();
 
 	public static List<PapersPojo> setDetails() {
 		return null;
 
 	}
 
-	public static List<PapersPojo> extractAuthors() throws IOException {
+	public static List<PapersPojo> extractAuthors(Boolean core, String datasetname) throws IOException {
 
 		JsonFactory f = new MappingJsonFactory();
 
-		File filename = new File("C:\\Users\\Suganya\\Downloads\\dblp.v11\\FinalDataset.txt");
+		File filename = new File("C:\\Users\\Suganya\\Downloads\\dblp.v11\\"+datasetname);
 
 		JsonParser jp = f.createParser(filename);
-		List<PapersPojo> papers = new ArrayList<PapersPojo>();
 		Map<String, String> id_to_authors_global = new HashMap<String, String>();
 		Set<String> dummypaperids = new HashSet<String>();
 		Set<String> paperids = new HashSet<String>();
@@ -70,6 +70,7 @@ public class JsonParse {
 			paper.setTitle(title);
 			paper.setVenue(i);
 			paper.setVenuename(venuename);
+			paper.setCore(core);
 
 			paper.setYear(year);
 			i++;
@@ -126,6 +127,7 @@ public class JsonParse {
 
 			paper.setId_to_authors(id_to_authors);
 			papers.add(paper);
+			
 			jp.nextToken();
 
 		}
@@ -133,9 +135,12 @@ public class JsonParse {
 		id_to_authors_global = id_to_authors_global.entrySet().stream().filter(entry -> existing.add(entry.getValue()))
 				.collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
 		PapersPojo.id_to_authors_global = id_to_authors_global;
+		PapersPojo.poolids=paperids;
 		dummypaperids.removeAll(paperids);
+		
 		//System.out.println("size of ummy paper ids"+dummypaperids.size());
 		PapersPojo.dummypaperids=dummypaperids;
+		
 		jp.close();
 
 		return (papers);
