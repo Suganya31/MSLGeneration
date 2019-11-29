@@ -53,43 +53,13 @@ import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
  	
-model Paper1977{
-	paper139399048:Paper {
-                .title : "Analytical Modelling of the Reliability of a FaultTolerant ComputerCopra"
-            	.year : 1977
-            	.core : true
-            	-venue->venue149
-            	-authors->author2712196989
-            	-authors->author353621765
-            }
-	paper1990224665:Paper {
-                .title : "Measurements of sharing in Multics"
-            	.year : 1977
+model Paper1969{
+	paper2111706174:Paper {
+                .title : "An axiomatic basis for computer programming"
+            	.year : 1969
             	.core : false
-            	-venue->venue571
-            	-authors->author1988746949
-            }
-	paper2031032746:Paper {
-                .title : "Physical integrity in a large segmented database"
-            	.year : 1977
-            	.core : false
-            	-venue->venue782
-            	-authors->author2255242933
-            }
-	paper2132334337:Paper {
-                .title : "Proving the Correctness of Multiprocess Programs"
-            	.year : 1977
-            	.core : false
-            	-venue->venue1505
--cites->paper1964727056
-            	-authors->author2096750770
-            }
-	paper2157598146:Paper {
-                .title : "Viewing Control Structures as Patterns of Passing Messages"
-            	.year : 1977
-            	.core : false
-            	-venue->venue1799
-            	-authors->author2102047142
+            	-venue->venue1290
+            	-authors->author2052847585
             }
 }
 

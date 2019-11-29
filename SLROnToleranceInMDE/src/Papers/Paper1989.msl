@@ -1,7 +1,6 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Dummy.msl"
 
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
@@ -28,30 +27,55 @@ import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2017.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2018.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1998.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2002.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1991.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1995.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1986.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2000.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1987.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1988.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1993.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1982.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1983.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1976.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1978.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1980.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1941.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1984.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1974.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1979.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1962.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
  	
-model AllPapers -> AllAuthors, AllVenues {
+model Paper1989{
 	paper2012481411:Paper {
                 .title : "Leases an efficient faulttolerant mechanism for distributed file cache consistency"
             	.year : 1989
             	.core : true
             	-venue->venue37
-            	-cites->paper1547343000
-            	-cites->paper1828150029
-            	-cites->paper1967141605
-            	-cites->paper1990224665
-            	-cites->paper2005373714
-            	-cites->paper2035209053
-            	-cites->paper2057954021
-            	-cites->paper2094642242
-            	-cites->paper2095687239
-            	-cites->paper2107460938
-            	-cites->paper2109978596
-            	-cites->paper2111223826
-            	-cites->paper2115294119
-            	-cites->paper2130493426
-            	-cites->paper2134806330
-            	-cites->paper2155847110
-            	-cites->paper2508325987
+-cites->paper1547343000
+-cites->paper1828150029
+-cites->paper1967141605
+-cites->paper1990224665
+-cites->paper2005373714
+-cites->paper2035209053
+-cites->paper2057954021
+-cites->paper2094642242
+-cites->paper2095687239
+-cites->paper2107460938
+-cites->paper2109978596
+-cites->paper2111223826
+-cites->paper2115294119
+-cites->paper2130493426
+-cites->paper2134806330
+-cites->paper2155847110
+-cites->paper2508325987
             	-authors->author2071592122
             	-authors->author2705038455
             }
@@ -61,6 +85,130 @@ model AllPapers -> AllAuthors, AllVenues {
             	.core : true
             	-venue->venue152
             	-authors->author2627046014
+            }
+	paper1502833055:Paper {
+                .title : "Introduction to redundant arrays of inexpensive disks RAID"
+            	.year : 1989
+            	.core : false
+            	-venue->venue76
+            	-authors->author2098984663
+            	-authors->author2101505567
+            	-authors->author2235094860
+            	-authors->author2246122413
+            }
+	paper1529897089:Paper {
+                .title : "Multivalued possibilities mappings"
+            	.year : 1989
+            	.core : false
+            	-venue->venue121
+-cites->paper1964727056
+-cites->paper2038562061
+-cites->paper2043671329
+            	-authors->author2180706138
+            }
+	paper2037311059:Paper {
+                .title : "An overview of PCTE and PCTE"
+            	.year : 1989
+            	.core : false
+            	-venue->venue815
+            	-authors->author2141000523
+            	-authors->author315563974
+            	-authors->author2047106095
+            	-authors->author2137935218
+            }
+	paper2074461621:Paper {
+                .title : "Automatic generation of test scripts from formal test specifications"
+            	.year : 1989
+            	.core : false
+            	-venue->venue990
+            	-authors->author2131569935
+            	-authors->author2807517443
+            	-authors->author2780985938
+            }
+	paper2080570636:Paper {
+                .title : "Event synchronization analysis for debugging parallel programs"
+            	.year : 1989
+            	.core : false
+            	-venue->venue1020
+-cites->paper1976848527
+-cites->paper2134747058
+            	-authors->author251035819
+            	-authors->author2347457787
+            	-authors->author2123005755
+            }
+	paper2094642242:Paper {
+                .title : "Mirage a coherent distributed shared memory design"
+            	.year : 1989
+            	.core : false
+            	-venue->venue1091
+-cites->paper2107460938
+            	-authors->author2012181057
+            	-authors->author2710975235
+            }
+	paper2109978596:Paper {
+                .title : "Multilevel shared caching techniques for scalability in VMPMC"
+            	.year : 1989
+            	.core : false
+            	-venue->venue1262
+            	-authors->author2071592122
+            	-authors->author2466213108
+            	-authors->author2540579459
+            }
+	paper2119239145:Paper {
+                .title : "SPNP stochastic Petri net package"
+            	.year : 1989
+            	.core : false
+            	-venue->venue1373
+-cites->paper1964607263
+-cites->paper2168755708
+-cites->paper2611598995
+            	-authors->author2108293768
+            	-authors->author2294085548
+            	-authors->author218832441
+            }
+	paper2129262519:Paper {
+                .title : "Conceptual modeling of coincident failures in multiversion software"
+            	.year : 1989
+            	.core : false
+            	-venue->venue1476
+-cites->paper1971991620
+-cites->paper1999823724
+-cites->paper2042609034
+-cites->paper2133201251
+            	-authors->author2025100648
+            	-authors->author2571465574
+            }
+	paper2134747058:Paper {
+                .title : "Onthefly detection of access anomalies"
+            	.year : 1989
+            	.core : false
+            	-venue->venue1533
+-cites->paper1973501242
+-cites->paper1976848527
+            	-authors->author2307273183
+            }
+	paper2140945213:Paper {
+                .title : "Distance agreement protocols"
+            	.year : 1989
+            	.core : false
+            	-venue->venue1590
+-cites->paper171247437
+-cites->paper2035362408
+-cites->paper2120510885
+            	-authors->author2892599479
+            }
+	paper2164357820:Paper {
+                .title : "Distributed faulttolerant realtime systems the Mars approach"
+            	.year : 1989
+            	.core : false
+            	-venue->venue1873
+            	-authors->author2162784426
+            	-authors->author665242119
+            	-authors->author1228604744
+            	-authors->author2306779975
+            	-authors->author2044733064
+            	-authors->author424592677
+            	-authors->author1989680454
             }
 }
 

@@ -1,7 +1,6 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Dummy.msl"
 
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
@@ -28,8 +27,33 @@ import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2017.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2018.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1998.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2002.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1991.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1995.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1986.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2000.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1987.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1988.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1993.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1982.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1983.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1976.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1978.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1980.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1941.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1984.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1974.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1979.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1962.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
  	
-model AllPapers -> AllAuthors, AllVenues {
+model Paper2018{
 	paper2794849388:Paper {
                 .title : "A MDE Approach for Heterogeneous Models Consistency"
             	.year : 2018
@@ -46,62 +70,60 @@ model AllPapers -> AllAuthors, AllVenues {
             	.year : 2018
             	.core : true
             	-venue->venue140
-            	-cites->paper5815757
-            	-cites->paper24569603
-            	-cites->paper187743145
-            	-cites->paper844332498
-            	-cites->paper999459616
-            	-cites->paper1035875811
-            	-cites->paper1480909796
-            	-cites->paper1510777893
-            	-cites->paper1519503479
-            	-cites->paper1536631555
-            	-cites->paper1548001884
-            	-cites->paper1567586152
-            	-cites->paper1567888042
-            	-cites->paper1569208917
-            	-cites->paper1575503534
-            	-cites->paper1810787746
-            	-cites->paper1853034543
-            	-cites->paper1878356469
-            	-cites->paper1973559034
-            	-cites->paper1986958631
-            	-cites->paper1997864678
-            	-cites->paper1998400029
-            	-cites->paper2023814507
-            	-cites->paper2028848488
-            	-cites->paper2050736294
-            	-cites->paper2055287943
-            	-cites->paper2057186850
-            	-cites->paper2057361103
-            	-cites->paper2060440626
-            	-cites->paper2074683366
-            	-cites->paper2076645253
-            	-cites->paper2076990838
-            	-cites->paper2089381631
-            	-cites->paper2091920469
-            	-cites->paper2095850105
-            	-cites->paper2103364805
-            	-cites->paper2107061559
-            	-cites->paper2107792798
-            	-cites->paper2121061989
-            	-cites->paper2126443444
-            	-cites->paper2127229029
-            	-cites->paper2134001468
-            	-cites->paper2139553864
-            	-cites->paper2165413178
-            	-cites->paper2352369207
-            	-cites->paper2412353202
-            	-cites->paper2418384203
-            	-cites->paper2474022715
-            	-cites->paper2527408229
-            	-cites->paper2539249059
-            	-cites->paper2603072184
-            	-cites->paper2605347441
-            	-cites->paper2723261621
-            	-cites->paper2745766115
-            	-cites->paper2796271057
-            	-cites->paper2887375731
+-cites->paper5815757
+-cites->paper24569603
+-cites->paper187743145
+-cites->paper844332498
+-cites->paper999459616
+-cites->paper1035875811
+-cites->paper1480909796
+-cites->paper1510777893
+-cites->paper1519503479
+-cites->paper1536631555
+-cites->paper1548001884
+-cites->paper1567586152
+-cites->paper1567888042
+-cites->paper1569208917
+-cites->paper1575503534
+-cites->paper1810787746
+-cites->paper1878356469
+-cites->paper1973559034
+-cites->paper1986958631
+-cites->paper1997864678
+-cites->paper1998400029
+-cites->paper2023814507
+-cites->paper2028848488
+-cites->paper2050736294
+-cites->paper2055287943
+-cites->paper2057186850
+-cites->paper2057361103
+-cites->paper2060440626
+-cites->paper2074683366
+-cites->paper2076645253
+-cites->paper2076990838
+-cites->paper2089381631
+-cites->paper2091920469
+-cites->paper2095850105
+-cites->paper2103364805
+-cites->paper2107061559
+-cites->paper2107792798
+-cites->paper2126443444
+-cites->paper2127229029
+-cites->paper2134001468
+-cites->paper2139553864
+-cites->paper2165413178
+-cites->paper2352369207
+-cites->paper2412353202
+-cites->paper2418384203
+-cites->paper2474022715
+-cites->paper2527408229
+-cites->paper2539249059
+-cites->paper2603072184
+-cites->paper2605347441
+-cites->paper2723261621
+-cites->paper2745766115
+-cites->paper2796271057
+-cites->paper2887375731
             	-authors->author2143442092
             	-authors->author2477172015
             	-authors->author10882077
@@ -111,14 +133,14 @@ model AllPapers -> AllAuthors, AllVenues {
             	.year : 2018
             	.core : true
             	-venue->venue141
-            	-cites->paper189544743
-            	-cites->paper1995859218
-            	-cites->paper2065665276
-            	-cites->paper2101107197
-            	-cites->paper2102899517
-            	-cites->paper2151468014
-            	-cites->paper2163296687
-            	-cites->paper2166158789
+-cites->paper189544743
+-cites->paper1995859218
+-cites->paper2065665276
+-cites->paper2101107197
+-cites->paper2102899517
+-cites->paper2151468014
+-cites->paper2163296687
+-cites->paper2166158789
             	-authors->author2141918410
             }
 	paper2805459498:Paper {
@@ -149,21 +171,17 @@ model AllPapers -> AllAuthors, AllVenues {
             	.year : 2018
             	.core : true
             	-venue->venue144
-            	-cites->paper94833394
-            	-cites->paper1970178969
-            	-cites->paper1983160424
-            	-cites->paper1991633729
-            	-cites->paper2043336932
-            	-cites->paper2054332523
-            	-cites->paper2058145265
-            	-cites->paper2060440626
-            	-cites->paper2094489875
-            	-cites->paper2103260577
-            	-cites->paper2109420119
-            	-cites->paper2143614054
-            	-cites->paper2167736435
-            	-cites->paper2576187963
-            	-cites->paper2789876140
+-cites->paper94833394
+-cites->paper1970178969
+-cites->paper1983160424
+-cites->paper1991633729
+-cites->paper2058145265
+-cites->paper2060440626
+-cites->paper2094489875
+-cites->paper2103260577
+-cites->paper2109420119
+-cites->paper2167736435
+-cites->paper2576187963
             	-authors->author2346573819
             	-authors->author2789448450
             	-authors->author722927782
@@ -173,22 +191,21 @@ model AllPapers -> AllAuthors, AllVenues {
             	.year : 2018
             	.core : true
             	-venue->venue145
-            	-cites->paper78372980
-            	-cites->paper1864361234
-            	-cites->paper2008442672
-            	-cites->paper2012058332
-            	-cites->paper2025624633
-            	-cites->paper2093927510
-            	-cites->paper2094489875
-            	-cites->paper2144528247
-            	-cites->paper2167195138
-            	-cites->paper2404647912
-            	-cites->paper2517030401
-            	-cites->paper2582408300
-            	-cites->paper2601778681
-            	-cites->paper2753635096
-            	-cites->paper2767655805
-            	-cites->paper2782787947
+-cites->paper78372980
+-cites->paper1864361234
+-cites->paper2008442672
+-cites->paper2012058332
+-cites->paper2025624633
+-cites->paper2093927510
+-cites->paper2094489875
+-cites->paper2144528247
+-cites->paper2167195138
+-cites->paper2404647912
+-cites->paper2517030401
+-cites->paper2582408300
+-cites->paper2601778681
+-cites->paper2753635096
+-cites->paper2767655805
             	-authors->author2287432086
             }
 	paper2895552427:Paper {
@@ -196,49 +213,49 @@ model AllPapers -> AllAuthors, AllVenues {
             	.year : 2018
             	.core : true
             	-venue->venue146
-            	-cites->paper39340127
-            	-cites->paper200074566
-            	-cites->paper1486745608
-            	-cites->paper1510370703
-            	-cites->paper1537058720
-            	-cites->paper1568983194
-            	-cites->paper1589632492
-            	-cites->paper1596597411
-            	-cites->paper1808818536
-            	-cites->paper1838876590
-            	-cites->paper1965979806
-            	-cites->paper1968128450
-            	-cites->paper1987426969
-            	-cites->paper1994068812
-            	-cites->paper1995086264
-            	-cites->paper2003053377
-            	-cites->paper2025624633
-            	-cites->paper2044463389
-            	-cites->paper2045723688
-            	-cites->paper2057478091
-            	-cites->paper2087486361
-            	-cites->paper2093287224
-            	-cites->paper2100343819
-            	-cites->paper2100448526
-            	-cites->paper2106193618
-            	-cites->paper2116587399
-            	-cites->paper2117892946
-            	-cites->paper2139872812
-            	-cites->paper2156448859
-            	-cites->paper2162425337
-            	-cites->paper2405788487
-            	-cites->paper2475292836
-            	-cites->paper2504786850
-            	-cites->paper2518794401
-            	-cites->paper2524073252
-            	-cites->paper2527788966
-            	-cites->paper2562559257
-            	-cites->paper2564443410
-            	-cites->paper2575918853
-            	-cites->paper2579759952
-            	-cites->paper2612065447
-            	-cites->paper2782845488
-            	-cites->paper2784233265
+-cites->paper39340127
+-cites->paper200074566
+-cites->paper1486745608
+-cites->paper1510370703
+-cites->paper1537058720
+-cites->paper1568983194
+-cites->paper1589632492
+-cites->paper1596597411
+-cites->paper1808818536
+-cites->paper1838876590
+-cites->paper1965979806
+-cites->paper1968128450
+-cites->paper1987426969
+-cites->paper1994068812
+-cites->paper1995086264
+-cites->paper2003053377
+-cites->paper2025624633
+-cites->paper2044463389
+-cites->paper2045723688
+-cites->paper2057478091
+-cites->paper2087486361
+-cites->paper2093287224
+-cites->paper2100343819
+-cites->paper2100448526
+-cites->paper2106193618
+-cites->paper2116587399
+-cites->paper2117892946
+-cites->paper2139872812
+-cites->paper2156448859
+-cites->paper2162425337
+-cites->paper2405788487
+-cites->paper2475292836
+-cites->paper2504786850
+-cites->paper2518794401
+-cites->paper2524073252
+-cites->paper2527788966
+-cites->paper2562559257
+-cites->paper2564443410
+-cites->paper2575918853
+-cites->paper2579759952
+-cites->paper2612065447
+-cites->paper2782845488
+-cites->paper2784233265
             	-authors->author2160674753
             	-authors->author2108412495
             }
@@ -247,29 +264,191 @@ model AllPapers -> AllAuthors, AllVenues {
             	.year : 2018
             	.core : true
             	-venue->venue175
-            	-cites->paper1498432697
-            	-cites->paper1610570299
-            	-cites->paper1809182522
-            	-cites->paper1862398452
-            	-cites->paper1898469110
-            	-cites->paper1971139410
-            	-cites->paper1971908606
-            	-cites->paper2018800706
-            	-cites->paper2028369901
-            	-cites->paper2028622255
-            	-cites->paper2054104130
-            	-cites->paper2075465263
-            	-cites->paper2102874028
-            	-cites->paper2145250263
-            	-cites->paper2145505903
-            	-cites->paper2525656308
-            	-cites->paper2742532491
-            	-cites->paper2785325333
-            	-cites->paper2792133590
+-cites->paper1498432697
+-cites->paper1610570299
+-cites->paper1809182522
+-cites->paper1862398452
+-cites->paper1898469110
+-cites->paper1971139410
+-cites->paper1971908606
+-cites->paper2018800706
+-cites->paper2028369901
+-cites->paper2028622255
+-cites->paper2054104130
+-cites->paper2075465263
+-cites->paper2102874028
+-cites->paper2145250263
+-cites->paper2145505903
+-cites->paper2525656308
+-cites->paper2742532491
+-cites->paper2785325333
+-cites->paper2792133590
             	-authors->author22
             	-authors->author23
             	-authors->author20
             	-authors->author21
+            }
+	paper2531616995:Paper {
+                .title : "Verification of treebased hierarchical readcopy update in the Linux kernel"
+            	.year : 2018
+            	.core : false
+            	-venue->venue2066
+-cites->paper1602156367
+-cites->paper2063666348
+-cites->paper2115309705
+-cites->paper2129538349
+            	-authors->author2132595810
+            	-authors->author2225645141
+            	-authors->author1966128261
+            	-authors->author2272895263
+            }
+	paper2778798134:Paper {
+                .title : "Optimal Dynamic Partial Order Reduction with Observers"
+            	.year : 2018
+            	.core : false
+            	-venue->venue2135
+-cites->paper1568729458
+-cites->paper1719093023
+-cites->paper1973501242
+-cites->paper2065675749
+-cites->paper2169870841
+-cites->paper2466104094
+-cites->paper2528919074
+            	-authors->author2042287259
+            	-authors->author2285498729
+            	-authors->author2479865493
+            	-authors->author2064107187
+            }
+	paper2779460099:Paper {
+                .title : "Parameterized Model Checking of Synchronous Distributed Algorithms by Abstraction"
+            	.year : 2018
+            	.core : false
+            	-venue->venue2136
+-cites->paper178138771
+-cites->paper1858035675
+-cites->paper1992479210
+-cites->paper2035362408
+-cites->paper2067740651
+-cites->paper2120510885
+-cites->paper2292447407
+-cites->paper2518474658
+-cites->paper2611515161
+-cites->paper2735459691
+            	-authors->author2780864794
+            	-authors->author1957630520
+            	-authors->author234270454
+            	-authors->author2331520953
+            	-authors->author2301441360
+            }
+	paper2792133590:Paper {
+                .title : "Zonebased formal specification and timing analysis of realtime selfadaptive systems"
+            	.year : 2018
+            	.core : false
+            	-venue->venue2140
+-cites->paper1964137226
+-cites->paper2033406822
+-cites->paper2054104130
+-cites->paper2071616717
+-cites->paper2163195480
+-cites->paper2742532491
+-cites->paper2785325333
+            	-authors->author2024396717
+            	-authors->author42474489
+            	-authors->author2088725692
+            }
+	paper2796271057:Paper {
+                .title : "Iterative Generation of Diverse Models for Testing Specifications of DSL Tools"
+            	.year : 2018
+            	.core : false
+            	-venue->venue2142
+-cites->paper24569603
+-cites->paper1035875811
+-cites->paper1519503479
+-cites->paper1536631555
+-cites->paper1548001884
+-cites->paper1567888042
+-cites->paper1878356469
+-cites->paper2050736294
+-cites->paper2060440626
+-cites->paper2074683366
+-cites->paper2076645253
+-cites->paper2089381631
+-cites->paper2107061559
+-cites->paper2107792798
+-cites->paper2418384203
+-cites->paper2723261621
+            	-authors->author2143442092
+            	-authors->author10882077
+            }
+	paper2887814217:Paper {
+                .title : "Optimal stateless model checking under the releaseacquire semantics"
+            	.year : 2018
+            	.core : false
+            	-venue->venue2145
+-cites->paper837270908
+-cites->paper1568729458
+-cites->paper1602156367
+-cites->paper1719093023
+-cites->paper1877513498
+-cites->paper1971332773
+-cites->paper1990838770
+-cites->paper1996009176
+-cites->paper2001738739
+-cites->paper2008078972
+-cites->paper2024875714
+-cites->paper2036316394
+-cites->paper2039509099
+-cites->paper2065675749
+-cites->paper2098643127
+-cites->paper2105980774
+-cites->paper2111858071
+-cites->paper2169870841
+-cites->paper2293319505
+-cites->paper2353662026
+-cites->paper2466104094
+-cites->paper2528919074
+-cites->paper2534587298
+-cites->paper2734789924
+-cites->paper2738891045
+            	-authors->author2285498729
+            	-authors->author55138088
+            	-authors->author1952177885
+            	-authors->author2510685654
+            }
+	paper2889201126:Paper {
+                .title : "Reachability in Parameterized Systems All Flavors of Threshold Automata"
+            	.year : 2018
+            	.core : false
+            	-venue->venue2146
+            	-authors->author1957630520
+            	-authors->author2801807844
+            	-authors->author692701391
+            }
+	paper2898394028:Paper {
+                .title : "Towards understanding the costs of avoiding outofthinair results"
+            	.year : 2018
+            	.core : false
+            	-venue->venue2148
+-cites->paper1482397304
+-cites->paper1967564401
+-cites->paper1983206712
+-cites->paper2014708731
+-cites->paper2054391605
+-cites->paper2058943117
+-cites->paper2064390891
+-cites->paper2091085450
+-cites->paper2107699547
+-cites->paper2138074470
+-cites->paper2152390090
+-cites->paper2152885346
+-cites->paper2293159724
+-cites->paper2531502343
+-cites->paper2626631502
+-cites->paper2626811727
+-cites->paper2769194423
+-cites->paper2778029444
+            	-authors->author1218819846
+            	-authors->author2226561280
             }
 }
 

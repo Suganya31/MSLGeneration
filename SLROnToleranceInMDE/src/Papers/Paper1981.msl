@@ -53,43 +53,51 @@ import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
  	
-model Paper1977{
-	paper139399048:Paper {
-                .title : "Analytical Modelling of the Reliability of a FaultTolerant ComputerCopra"
-            	.year : 1977
-            	.core : true
-            	-venue->venue149
-            	-authors->author2712196989
-            	-authors->author353621765
-            }
-	paper1990224665:Paper {
-                .title : "Measurements of sharing in Multics"
-            	.year : 1977
+model Paper1981{
+	paper115884782:Paper {
+                .title : "Development methods for computer programs including a notion of interference"
+            	.year : 1981
             	.core : false
-            	-venue->venue571
-            	-authors->author1988746949
+            	-venue->venue6
+            	-authors->author2142468959
             }
-	paper2031032746:Paper {
-                .title : "Physical integrity in a large segmented database"
-            	.year : 1977
+	paper2036267700:Paper {
+                .title : "Myths about the mutual exclusion problem"
+            	.year : 1981
             	.core : false
-            	-venue->venue782
-            	-authors->author2255242933
+            	-venue->venue806
+            	-authors->author2170204233
             }
-	paper2132334337:Paper {
-                .title : "Proving the Correctness of Multiprocess Programs"
-            	.year : 1977
+	paper2049514605:Paper {
+                .title : "Corrigendum Soundness and Completeness of an Axiom System for Program Verification"
+            	.year : 1981
             	.core : false
-            	-venue->venue1505
--cites->paper1964727056
-            	-authors->author2096750770
+            	-venue->venue869
+            	-authors->author2098910421
             }
-	paper2157598146:Paper {
-                .title : "Viewing Control Structures as Patterns of Passing Messages"
-            	.year : 1977
+	paper2133386065:Paper {
+                .title : "On optimistic methods for concurrency control"
+            	.year : 1981
             	.core : false
-            	-venue->venue1799
-            	-authors->author2102047142
+            	-venue->venue1517
+-cites->paper2106887953
+            	-authors->author2573500036
+            	-authors->author2440187956
+            }
+	paper2143049370:Paper {
+                .title : "Formal Models for Computer Security"
+            	.year : 1981
+            	.core : false
+            	-venue->venue1615
+-cites->paper2111706174
+            	-authors->author2079317943
+            }
+	paper2147543351:Paper {
+                .title : "The Science of Programming"
+            	.year : 1981
+            	.core : false
+            	-venue->venue1669
+            	-authors->author1980295760
             }
 }
 

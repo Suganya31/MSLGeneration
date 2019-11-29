@@ -1,0 +1,223 @@
+import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
+
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2004.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2009.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2012.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2006.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1997.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2011.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2010.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1999.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2001.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2015.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2013.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2014.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2007.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1989.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2003.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1990.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1992.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2016.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2017.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2018.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1998.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2002.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1991.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1995.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1986.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2000.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1987.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1988.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1993.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1982.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1983.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1976.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1978.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1980.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1941.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1984.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1974.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1979.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1962.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
+ 	
+model Paper1985{
+	paper1485360759:Paper {
+                .title : "A theory of abstract data types for program development bridging the gap"
+            	.year : 1985
+            	.core : false
+            	-venue->venue38
+-cites->paper2110050316
+            	-authors->author2893703988
+            	-authors->author2892485412
+            	-authors->author2195479640
+            }
+	paper1492836761:Paper {
+                .title : "The Translation of a Cobol Data Structure to an EntityRelationship Type Conceptual Schema"
+            	.year : 1985
+            	.core : false
+            	-venue->venue55
+            	-authors->author2709264529
+            }
+	paper1586441963:Paper {
+                .title : "A Methodology for Translating a Conventional File System into an EntityRelationship Model"
+            	.year : 1985
+            	.core : false
+            	-venue->venue236
+            	-authors->author2706069882
+            	-authors->author2612593125
+            }
+	paper1967141605:Paper {
+                .title : "A tracedriven analysis of the UNIX  BSD file system"
+            	.year : 1985
+            	.core : false
+            	-venue->venue451
+            	-authors->author270493864
+            	-authors->author2157004640
+            	-authors->author2305403355
+            	-authors->author2572279826
+            	-authors->author2314925894
+            	-authors->author2087561759
+            }
+	paper1999552553:Paper {
+                .title : "Optimal clock synchronization"
+            	.year : 1985
+            	.core : false
+            	-venue->venue634
+-cites->paper2095464745
+-cites->paper2118891797
+-cites->paper2122326479
+            	-authors->author38233831
+            	-authors->author2146928066
+            }
+	paper1999823724:Paper {
+                .title : "A Theoretical Basis for the Analysis of Multiversion Software Subject to Coincident Errors"
+            	.year : 1985
+            	.core : false
+            	-venue->venue638
+-cites->paper1971991620
+-cites->paper2133201251
+            	-authors->author2395978466
+            	-authors->author2099736964
+            }
+	paper2035362408:Paper {
+                .title : "Impossibility of distributed consensus with one faulty process"
+            	.year : 1985
+            	.core : false
+            	-venue->venue803
+-cites->paper2103814941
+-cites->paper2120510885
+            	-authors->author2159593723
+            	-authors->author2180706138
+            	-authors->author2085176665
+            }
+	paper2073126252:Paper {
+                .title : "Asynchronous consensus and broadcast protocols"
+            	.year : 1985
+            	.core : false
+            	-venue->venue983
+-cites->paper2035362408
+-cites->paper2120510885
+            	-authors->author2243542401
+            	-authors->author38233831
+            }
+	paper2095464745:Paper {
+                .title : "Easy impossibility proofs for distributed consensus problems"
+            	.year : 1985
+            	.core : false
+            	-venue->venue1097
+-cites->paper2120510885
+            	-authors->author2159593723
+            	-authors->author2180706138
+            	-authors->author2155118037
+            }
+	paper2110425399:Paper {
+                .title : "Communicating Sequential Processes"
+            	.year : 1985
+            	.core : false
+            	-venue->venue1267
+-cites->paper2110050316
+            	-authors->author2052847585
+            }
+	paper2111223826:Paper {
+                .title : "The ITC distributed file system principles and design"
+            	.year : 1985
+            	.core : false
+            	-venue->venue1279
+-cites->paper2043671329
+-cites->paper2115294119
+            	-authors->author416104820
+            	-authors->author236138113
+            	-authors->author2614510746
+            	-authors->author2432921143
+            	-authors->author2709269615
+            	-authors->author2105930983
+            }
+	paper2115294119:Paper {
+                .title : "A caching file system for a programmers workstation"
+            	.year : 1985
+            	.core : false
+            	-venue->venue1324
+-cites->paper2111223826
+            	-authors->author2470914381
+            	-authors->author2643802808
+            	-authors->author2467977717
+            }
+	paper2116820549:Paper {
+                .title : "Replication and faulttolerance in the ISIS system"
+            	.year : 1985
+            	.core : false
+            	-venue->venue1343
+-cites->paper1973501242
+-cites->paper2106887953
+            	-authors->author2094398115
+            }
+	paper2118891797:Paper {
+                .title : "Synchronizing clocks in the presence of faults"
+            	.year : 1985
+            	.core : false
+            	-venue->venue1367
+-cites->paper2120510885
+            	-authors->author2664049581
+            	-authors->author2096750770
+            }
+	paper2134806330:Paper {
+                .title : "Distributed process groups in the V Kernel"
+            	.year : 1985
+            	.core : false
+            	-venue->venue1534
+-cites->paper2120510885
+            	-authors->author2071592122
+            	-authors->author2290999210
+            }
+	paper2155847110:Paper {
+                .title : "Host groups a multicast extension for datagram internetworks"
+            	.year : 1985
+            	.core : false
+            	-venue->venue1769
+-cites->paper2043671329
+-cites->paper2134806330
+            	-authors->author2311538579
+            	-authors->author2071592122
+            }
+	paper2161517294:Paper {
+                .title : "Decrypting a Class of Stream Ciphers Using Ciphertext Only"
+            	.year : 1985
+            	.core : false
+            	-venue->venue1839
+            	-authors->author2498316895
+            }
+}
+

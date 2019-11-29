@@ -1,0 +1,467 @@
+import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
+
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2004.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2009.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2012.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2006.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1997.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2011.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2010.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1999.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2001.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2015.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2013.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2014.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2007.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1989.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2003.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1990.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1992.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2016.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2017.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2018.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1998.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2002.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1991.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1995.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1986.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2000.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1987.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1988.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1993.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1982.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1983.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1976.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1978.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1980.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1941.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1984.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1974.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1979.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1962.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
+ 	
+model Paper1998{
+	paper132658143:Paper {
+                .title : "Applications of abductive logic programming"
+            	.year : 1998
+            	.core : false
+            	-venue->venue14
+            	-authors->author130847482
+            	-authors->author2720942067
+            }
+	paper1482786207:Paper {
+                .title : "Practical File System Design with the Be File System"
+            	.year : 1998
+            	.core : false
+            	-venue->venue34
+-cites->paper2115600841
+-cites->paper2135652458
+-cites->paper2139921445
+-cites->paper2171352284
+            	-authors->author2275856258
+            }
+	paper1502765706:Paper {
+                .title : "The Test ModelChecking Approach to the Verification of Formal Memory Models of Multiprocessors"
+            	.year : 1998
+            	.core : false
+            	-venue->venue75
+-cites->paper1545792627
+-cites->paper1986463648
+-cites->paper2015688007
+-cites->paper2029601347
+-cites->paper2169832991
+            	-authors->author1873403161
+            	-authors->author2129100051
+            	-authors->author801543544
+            	-authors->author2292623375
+            }
+	paper1526272872:Paper {
+                .title : "Invariant Discovery via Failed Proof Attempts"
+            	.year : 1998
+            	.core : false
+            	-venue->venue118
+-cites->paper2103953153
+-cites->paper2111706174
+-cites->paper2147543351
+            	-authors->author2277660068
+            	-authors->author2119770075
+            }
+	paper1562948410:Paper {
+                .title : "Story Diagrams A New Graph Rewrite Language Based on the Unified Modeling Language and Java"
+            	.year : 1998
+            	.core : false
+            	-venue->venue185
+            	-authors->author2110524446
+            	-authors->author2632758368
+            	-authors->author142991879
+            	-authors->author74679627
+            }
+	paper1563464738:Paper {
+                .title : "Executing Suspended Logic Programs"
+            	.year : 1998
+            	.core : false
+            	-venue->venue187
+-cites->paper2006519067
+            	-authors->author2148376583
+            	-authors->author2228449327
+            	-authors->author2114467999
+            }
+	paper1625982774:Paper {
+                .title : "Composable Semantic Models for Actor Theories"
+            	.year : 1998
+            	.core : false
+            	-venue->venue296
+-cites->paper2098830227
+-cites->paper2157598146
+            	-authors->author661662328
+            }
+	paper163597783:Paper {
+                .title : "On the logic of merging"
+            	.year : 1998
+            	.core : false
+            	-venue->venue298
+            	-authors->author2104136422
+            	-authors->author2106474997
+            }
+	paper1664808737:Paper {
+                .title : "Timing attacks on implementations of diffiehellman rsa dss and other systems"
+            	.year : 1998
+            	.core : false
+            	-venue->venue307
+            	-authors->author1984824673
+            }
+	paper1685591268:Paper {
+                .title : "Termination of graph rewriting is undecidable"
+            	.year : 1998
+            	.core : false
+            	-venue->venue312
+            	-authors->author247206718
+            }
+	paper1787802610:Paper {
+                .title : "FODAcom an experience with domain analysis in the Italian telecom industry"
+            	.year : 1998
+            	.core : false
+            	-venue->venue337
+-cites->paper2139907081
+            	-authors->author2345279158
+            	-authors->author2635264278
+            	-authors->author2421025645
+            	-authors->author2633072180
+            	-authors->author2682712103
+            }
+	paper1798077826:Paper {
+                .title : "Breaking abstractions and unstructuring data structures"
+            	.year : 1998
+            	.core : false
+            	-venue->venue339
+-cites->paper2126851641
+            	-authors->author321147201
+            	-authors->author2239754346
+            	-authors->author2170666093
+            }
+	paper1875319849:Paper {
+                .title : "Seeding Evolutionary Growth and Reseeding Constructing Capturing and Evolving Knowledge in DomainOriented Design Environments"
+            	.year : 1998
+            	.core : false
+            	-venue->venue381
+-cites->paper2104955812
+            	-authors->author2176357113
+            }
+	paper1968128450:Paper {
+                .title : "Managing inconsistent specifications reasoning analysis and action"
+            	.year : 1998
+            	.core : false
+            	-venue->venue457
+-cites->paper1979290877
+-cites->paper2034717157
+-cites->paper2105603754
+-cites->paper2117870171
+-cites->paper2135920852
+-cites->paper2147454307
+            	-authors->author2207023792
+            	-authors->author2105909224
+            }
+	paper2001907377:Paper {
+                .title : "Version models for software configuration management"
+            	.year : 1998
+            	.core : false
+            	-venue->venue648
+-cites->paper2161835696
+-cites->paper2611598995
+            	-authors->author2106335481
+            	-authors->author346395239
+            }
+	paper2018568588:Paper {
+                .title : "The UML as a formal modeling notation"
+            	.year : 1998
+            	.core : false
+            	-venue->venue725
+-cites->paper2099293367
+            	-authors->author426991758
+            	-authors->author2111383049
+            	-authors->author151827428
+            }
+	paper2032755892:Paper {
+                .title : "Functional verification of a multipleissue outoforder superscalar Alpha processorthe DEC Alpha  microprocessor"
+            	.year : 1998
+            	.core : false
+            	-venue->venue786
+            	-authors->author2628540832
+            	-authors->author2694107750
+            	-authors->author2662313515
+            	-authors->author2650261492
+            	-authors->author2081152669
+            	-authors->author2111338538
+            	-authors->author2614727040
+            }
+	paper2073407646:Paper {
+                .title : "Ownership types for flexible alias protection"
+            	.year : 1998
+            	.core : false
+            	-venue->venue984
+-cites->paper1491178396
+-cites->paper1555946950
+-cites->paper2099293367
+-cites->paper2128932399
+            	-authors->author2130450070
+            	-authors->author1965051166
+            	-authors->author2103426042
+            }
+	paper2075854425:Paper {
+                .title : "The parttime parliament"
+            	.year : 1998
+            	.core : false
+            	-venue->venue999
+-cites->paper1545155892
+-cites->paper1973501242
+-cites->paper2035362408
+-cites->paper2111132249
+-cites->paper2152465173
+-cites->paper2156027558
+            	-authors->author2096750770
+            }
+	paper2081437333:Paper {
+                .title : "Performance engineering of the Totem group communication system"
+            	.year : 1998
+            	.core : false
+            	-venue->venue1024
+-cites->paper1973501242
+-cites->paper1985349143
+-cites->paper2005216655
+-cites->paper2077671984
+-cites->paper2131929623
+            	-authors->author1995384695
+            	-authors->author2778690319
+            	-authors->author2154501644
+            }
+	paper2085631457:Paper {
+                .title : "What is a file synchronizer"
+            	.year : 1998
+            	.core : false
+            	-venue->venue1049
+-cites->paper2117260615
+            	-authors->author2118893055
+            	-authors->author1988947184
+            }
+	paper2088616860:Paper {
+                .title : "On the complexity of unsatisfiability proofs for random k CNF formulas"
+            	.year : 1998
+            	.core : false
+            	-venue->venue1065
+-cites->paper2057361103
+-cites->paper2126420408
+            	-authors->author672707272
+            	-authors->author171944570
+            	-authors->author1964658237
+            	-authors->author2019007185
+            }
+	paper2102626454:Paper {
+                .title : "Inconsistency management for multipleview software development environments"
+            	.year : 1998
+            	.core : false
+            	-venue->venue1178
+-cites->paper2064707938
+-cites->paper2117870171
+            	-authors->author2311088539
+            	-authors->author106313952
+            	-authors->author2070539660
+            }
+	paper2107859560:Paper {
+                .title : "Multiprocessors should support simple memory consistency models"
+            	.year : 1998
+            	.core : false
+            	-venue->venue1236
+-cites->paper1885534640
+-cites->paper1966151719
+-cites->paper2029601347
+-cites->paper2054739713
+-cites->paper2145021036
+            	-authors->author2112660313
+            }
+	paper2108571087:Paper {
+                .title : "From MSCs to statecharts"
+            	.year : 1998
+            	.core : false
+            	-venue->venue1244
+-cites->paper2134062730
+            	-authors->author2138551599
+            	-authors->author2124292291
+            	-authors->author2212499552
+            	-authors->author2091504235
+            }
+	paper2122048894:Paper {
+                .title : "Semipassive replication"
+            	.year : 1998
+            	.core : false
+            	-venue->venue1395
+-cites->paper2005216655
+-cites->paper2035362408
+-cites->paper2077240273
+-cites->paper2133943294
+            	-authors->author2016580195
+            	-authors->author2336215013
+            	-authors->author30930764
+            }
+	paper2126851641:Paper {
+                .title : "Manufacturing cheap resilient and stealthy opaque constructs"
+            	.year : 1998
+            	.core : false
+            	-venue->venue1445
+-cites->paper1491178396
+            	-authors->author321147201
+            	-authors->author2239754346
+            	-authors->author2170666093
+            }
+	paper2134716336:Paper {
+                .title : "Architecturebased runtime software evolution"
+            	.year : 1998
+            	.core : false
+            	-venue->venue1532
+-cites->paper2146082668
+-cites->paper2152952812
+-cites->paper2153933075
+-cites->paper2167429246
+            	-authors->author2113585066
+            	-authors->author2023055819
+            	-authors->author2138366517
+            }
+	paper2136077912:Paper {
+                .title : "MMLite a highly componentized system architecture"
+            	.year : 1998
+            	.core : false
+            	-venue->venue1546
+-cites->paper2122960384
+            	-authors->author205809023
+            	-authors->author2473382879
+            }
+	paper2137252778:Paper {
+                .title : "A Statically Safe Alternative to Virtual Types"
+            	.year : 1998
+            	.core : false
+            	-venue->venue1556
+            	-authors->author2043604325
+            	-authors->author2060729710
+            	-authors->author248131350
+            }
+	paper2145965735:Paper {
+                .title : "Coordinated exception handling in distributed object systems from model to system implementation"
+            	.year : 1998
+            	.core : false
+            	-venue->venue1653
+-cites->paper2133201251
+            	-authors->author2029293694
+            	-authors->author189665783
+            	-authors->author2718411817
+            }
+	paper2147513755:Paper {
+                .title : "Flexible modeling and execution of workflow activities"
+            	.year : 1998
+            	.core : false
+            	-venue->venue1668
+-cites->paper2062756186
+            	-authors->author2185344053
+            }
+	paper2157532207:Paper {
+                .title : "Clone detection using abstract syntax trees"
+            	.year : 1998
+            	.core : false
+            	-venue->venue1796
+-cites->paper2109943392
+-cites->paper2115534035
+            	-authors->author2572182773
+            	-authors->author2678028807
+            	-authors->author2775860273
+            	-authors->author2144132427
+            	-authors->author2684386371
+            }
+	paper2167500728:Paper {
+                .title : "Component software beyond objectoriented programming"
+            	.year : 1998
+            	.core : false
+            	-venue->venue1900
+            	-authors->author438290777
+            }
+	paper2169934995:Paper {
+                .title : "Implementing Layered Designs with Mixin Layers"
+            	.year : 1998
+            	.core : false
+            	-venue->venue1924
+-cites->paper1591471358
+-cites->paper2138363365
+-cites->paper2611598995
+            	-authors->author197016611
+            	-authors->author2030271208
+            }
+	paper2171627300:Paper {
+                .title : "Managing conflicts in goaldriven requirements engineering"
+            	.year : 1998
+            	.core : false
+            	-venue->venue1942
+-cites->paper1979290877
+-cites->paper2017739343
+-cites->paper2105603754
+-cites->paper2113435553
+-cites->paper2125708466
+-cites->paper2147454307
+-cites->paper2147543351
+-cites->paper2162255975
+            	-authors->author163926993
+            	-authors->author407089328
+            	-authors->author1993417101
+            }
+	paper326424914:Paper {
+                .title : "Patterns in property specifications for finitestate verification"
+            	.year : 1998
+            	.core : false
+            	-venue->venue2153
+            	-authors->author2129313003
+            	-authors->author2156583880
+            	-authors->author11791032
+            }
+	paper59792448:Paper {
+                .title : "An Architecture for Differentiated Services RFC "
+            	.year : 1998
+            	.core : false
+            	-venue->venue2166
+            	-authors->author2134162319
+            	-authors->author2154708509
+            	-authors->author2159047145
+            	-authors->author2307735427
+            	-authors->author2110441751
+            	-authors->author2140715430
+            }
+}
+

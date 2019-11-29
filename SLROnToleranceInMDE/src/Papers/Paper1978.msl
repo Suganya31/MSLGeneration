@@ -53,43 +53,46 @@ import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
  	
-model Paper1977{
-	paper139399048:Paper {
-                .title : "Analytical Modelling of the Reliability of a FaultTolerant ComputerCopra"
-            	.year : 1977
-            	.core : true
-            	-venue->venue149
-            	-authors->author2712196989
-            	-authors->author353621765
-            }
-	paper1990224665:Paper {
-                .title : "Measurements of sharing in Multics"
-            	.year : 1977
+model Paper1978{
+	paper1968054699:Paper {
+                .title : "Reliability Issues in Computing System Design"
+            	.year : 1978
             	.core : false
-            	-venue->venue571
-            	-authors->author1988746949
+            	-venue->venue456
+-cites->paper2047924755
+-cites->paper2133201251
+            	-authors->author2029293694
+            	-authors->author2615262011
+            	-authors->author2606940091
             }
-	paper2031032746:Paper {
-                .title : "Physical integrity in a large segmented database"
-            	.year : 1977
+	paper1973501242:Paper {
+                .title : "Time clocks and the ordering of events in a distributed system"
+            	.year : 1978
             	.core : false
-            	-venue->venue782
-            	-authors->author2255242933
-            }
-	paper2132334337:Paper {
-                .title : "Proving the Correctness of Multiprocess Programs"
-            	.year : 1977
-            	.core : false
-            	-venue->venue1505
--cites->paper1964727056
+            	-venue->venue484
             	-authors->author2096750770
             }
-	paper2157598146:Paper {
-                .title : "Viewing Control Structures as Patterns of Passing Messages"
-            	.year : 1977
+	paper2075350371:Paper {
+                .title : "Soundness and Completeness of an Axiom System for Program Verification"
+            	.year : 1978
             	.core : false
-            	-venue->venue1799
-            	-authors->author2102047142
+            	-venue->venue997
+            	-authors->author2098910421
+            }
+	paper2106887953:Paper {
+                .title : "Notes on Data Base Operating Systems"
+            	.year : 1978
+            	.core : false
+            	-venue->venue1223
+            	-authors->author2131537204
+            }
+	paper2611598995:Paper {
+                .title : "The C Programming Language"
+            	.year : 1978
+            	.core : false
+            	-venue->venue2105
+            	-authors->author2110203303
+            	-authors->author2035864640
             }
 }
 

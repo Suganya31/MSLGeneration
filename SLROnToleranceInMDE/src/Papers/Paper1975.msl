@@ -53,43 +53,42 @@ import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
  	
-model Paper1977{
-	paper139399048:Paper {
-                .title : "Analytical Modelling of the Reliability of a FaultTolerant ComputerCopra"
-            	.year : 1977
-            	.core : true
-            	-venue->venue149
-            	-authors->author2712196989
-            	-authors->author353621765
-            }
-	paper1990224665:Paper {
-                .title : "Measurements of sharing in Multics"
-            	.year : 1977
+model Paper1975{
+	paper2103920867:Paper {
+                .title : "Implementation of integrity constraints and views by query modification"
+            	.year : 1975
             	.core : false
-            	-venue->venue571
-            	-authors->author1988746949
+            	-venue->venue1198
+            	-authors->author1998938290
             }
-	paper2031032746:Paper {
-                .title : "Physical integrity in a large segmented database"
-            	.year : 1977
+	paper2133201251:Paper {
+                .title : "System structure for software fault tolerance"
+            	.year : 1975
             	.core : false
-            	-venue->venue782
-            	-authors->author2255242933
+            	-venue->venue1514
+            	-authors->author2029293694
             }
-	paper2132334337:Paper {
-                .title : "Proving the Correctness of Multiprocess Programs"
-            	.year : 1977
+	paper2135432705:Paper {
+                .title : "Consistency in Networks of Relations"
+            	.year : 1975
             	.core : false
-            	-venue->venue1505
--cites->paper1964727056
-            	-authors->author2096750770
+            	-venue->venue1539
+            	-authors->author1981134756
             }
-	paper2157598146:Paper {
-                .title : "Viewing Control Structures as Patterns of Passing Messages"
-            	.year : 1977
+	paper2158102622:Paper {
+                .title : "Probabilistic Treatment of General Combinational Networks"
+            	.year : 1975
             	.core : false
-            	-venue->venue1799
-            	-authors->author2102047142
+            	-venue->venue1804
+            	-authors->author2126506047
+            	-authors->author644833585
+            }
+	paper2896459721:Paper {
+                .title : "System structure for software fault tolerance"
+            	.year : 1975
+            	.core : false
+            	-venue->venue2147
+            	-authors->author2029293694
             }
 }
 

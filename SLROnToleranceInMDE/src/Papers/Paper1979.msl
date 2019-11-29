@@ -53,43 +53,38 @@ import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
  	
-model Paper1977{
-	paper139399048:Paper {
-                .title : "Analytical Modelling of the Reliability of a FaultTolerant ComputerCopra"
-            	.year : 1977
-            	.core : true
-            	-venue->venue149
-            	-authors->author2712196989
-            	-authors->author353621765
-            }
-	paper1990224665:Paper {
-                .title : "Measurements of sharing in Multics"
-            	.year : 1977
+model Paper1979{
+	paper2054739713:Paper {
+                .title : "How to Make a Multiprocessor Computer That Correctly Executes Multiprocess Programs"
+            	.year : 1979
             	.core : false
-            	-venue->venue571
-            	-authors->author1988746949
+            	-venue->venue895
+-cites->paper2132334337
+            	-authors->author2223936326
             }
-	paper2031032746:Paper {
-                .title : "Physical integrity in a large segmented database"
-            	.year : 1977
+	paper2059109315:Paper {
+                .title : "The recognition of Series Parallel digraphs"
+            	.year : 1979
             	.core : false
-            	-venue->venue782
-            	-authors->author2255242933
+            	-venue->venue918
+            	-authors->author350567680
+            	-authors->author2444474037
+            	-authors->author2161825852
             }
-	paper2132334337:Paper {
-                .title : "Proving the Correctness of Multiprocess Programs"
-            	.year : 1977
+	paper2107232214:Paper {
+                .title : "Designing Software for Ease of Extension and Contraction"
+            	.year : 1979
             	.core : false
-            	-venue->venue1505
--cites->paper1964727056
-            	-authors->author2096750770
+            	-venue->venue1227
+            	-authors->author88694571
             }
-	paper2157598146:Paper {
-                .title : "Viewing Control Structures as Patterns of Passing Messages"
-            	.year : 1977
+	paper2110765100:Paper {
+                .title : "A Majority consensus approach to concurrency control for multiple copy databases"
+            	.year : 1979
             	.core : false
-            	-venue->venue1799
-            	-authors->author2102047142
+            	-venue->venue1272
+-cites->paper1973501242
+            	-authors->author2168273423
             }
 }
 

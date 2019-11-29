@@ -53,43 +53,50 @@ import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
  	
-model Paper1977{
-	paper139399048:Paper {
-                .title : "Analytical Modelling of the Reliability of a FaultTolerant ComputerCopra"
-            	.year : 1977
-            	.core : true
-            	-venue->venue149
-            	-authors->author2712196989
-            	-authors->author353621765
-            }
-	paper1990224665:Paper {
-                .title : "Measurements of sharing in Multics"
-            	.year : 1977
+model Paper1984{
+	paper2013498813:Paper {
+                .title : "Dependability Evaluation of Software Systems in Operation"
+            	.year : 1984
             	.core : false
-            	-venue->venue571
-            	-authors->author1988746949
+            	-venue->venue703
+-cites->paper2133201251
+            	-authors->author2028127229
             }
-	paper2031032746:Paper {
-                .title : "Physical integrity in a large segmented database"
-            	.year : 1977
+	paper2098395122:Paper {
+                .title : "Dependency Satisfaction in Databases with Incomplete Information"
+            	.year : 1984
             	.core : false
-            	-venue->venue782
-            	-authors->author2255242933
+            	-venue->venue1129
+            	-authors->author2798485874
             }
-	paper2132334337:Paper {
-                .title : "Proving the Correctness of Multiprocess Programs"
-            	.year : 1977
+	paper2125011947:Paper {
+                .title : "Efficient solutions to the replicated log and dictionary problems"
+            	.year : 1984
             	.core : false
-            	-venue->venue1505
--cites->paper1964727056
-            	-authors->author2096750770
+            	-venue->venue1425
+-cites->paper1973501242
+-cites->paper2110765100
+-cites->paper2120510885
+            	-authors->author2671824214
+            	-authors->author2209989846
             }
-	paper2157598146:Paper {
-                .title : "Viewing Control Structures as Patterns of Passing Messages"
-            	.year : 1977
+	paper2293624369:Paper {
+                .title : "Program Slicing"
+            	.year : 1984
             	.core : false
-            	-venue->venue1799
-            	-authors->author2102047142
+            	-venue->venue1986
+            	-authors->author2475447149
+            }
+	paper2405753531:Paper {
+                .title : "On the Formal Definition of a PLI Subset Selected parts"
+            	.year : 1984
+            	.core : false
+            	-venue->venue2020
+            	-authors->author2142468959
+            	-authors->author54991345
+            	-authors->author2050333342
+            	-authors->author1250572247
+            	-authors->author2172259534
             }
 }
 
