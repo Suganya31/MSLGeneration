@@ -1,7 +1,6 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
-
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
@@ -58,25 +57,25 @@ model Paper1984{
                 .title : "Dependability Evaluation of Software Systems in Operation"
             	.year : 1984
             	.core : false
-            	-venue->venue703
--cites->paper2133201251
+            	-venue->venue380
+            	-cites->paper2133201251
             	-authors->author2028127229
             }
 	paper2098395122:Paper {
                 .title : "Dependency Satisfaction in Databases with Incomplete Information"
             	.year : 1984
             	.core : false
-            	-venue->venue1129
+            	-venue->venue472
             	-authors->author2798485874
             }
 	paper2125011947:Paper {
                 .title : "Efficient solutions to the replicated log and dictionary problems"
             	.year : 1984
             	.core : false
-            	-venue->venue1425
--cites->paper1973501242
--cites->paper2110765100
--cites->paper2120510885
+            	-venue->venue539
+            	-cites->paper1973501242
+            	-cites->paper2110765100
+            	-cites->paper2120510885
             	-authors->author2671824214
             	-authors->author2209989846
             }
@@ -84,14 +83,14 @@ model Paper1984{
                 .title : "Program Slicing"
             	.year : 1984
             	.core : false
-            	-venue->venue1986
+            	-venue->venue614
             	-authors->author2475447149
             }
 	paper2405753531:Paper {
                 .title : "On the Formal Definition of a PLI Subset Selected parts"
             	.year : 1984
             	.core : false
-            	-venue->venue2020
+            	-venue->venue629
             	-authors->author2142468959
             	-authors->author54991345
             	-authors->author2050333342

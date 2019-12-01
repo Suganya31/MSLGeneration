@@ -1,7 +1,6 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
-
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
@@ -58,7 +57,7 @@ model Paper1962{
                 .title : "A machine program for theoremproving"
             	.year : 1962
             	.core : false
-            	-venue->venue911
+            	-venue->venue429
             	-authors->author290533546
             	-authors->author2612977855
             	-authors->author1993200149

@@ -1,7 +1,6 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
-
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
@@ -58,14 +57,14 @@ model Paper1974{
                 .title : "A first order approximation to the optimum checkpoint interval"
             	.year : 1974
             	.core : false
-            	-venue->venue794
+            	-venue->venue403
             	-authors->author2433626807
             }
 	paper2111132249:Paper {
                 .title : "Selfstabilizing systems in spite of distributed control"
             	.year : 1974
             	.core : false
-            	-venue->venue1277
+            	-venue->venue507
             	-authors->author2137842401
             }
 }

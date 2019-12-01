@@ -1,7 +1,6 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
-
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
@@ -58,15 +57,15 @@ model Paper1979{
                 .title : "How to Make a Multiprocessor Computer That Correctly Executes Multiprocess Programs"
             	.year : 1979
             	.core : false
-            	-venue->venue895
--cites->paper2132334337
+            	-venue->venue427
+            	-cites->paper2132334337
             	-authors->author2223936326
             }
 	paper2059109315:Paper {
                 .title : "The recognition of Series Parallel digraphs"
             	.year : 1979
             	.core : false
-            	-venue->venue918
+            	-venue->venue431
             	-authors->author350567680
             	-authors->author2444474037
             	-authors->author2161825852
@@ -75,15 +74,15 @@ model Paper1979{
                 .title : "Designing Software for Ease of Extension and Contraction"
             	.year : 1979
             	.core : false
-            	-venue->venue1227
+            	-venue->venue494
             	-authors->author88694571
             }
 	paper2110765100:Paper {
                 .title : "A Majority consensus approach to concurrency control for multiple copy databases"
             	.year : 1979
             	.core : false
-            	-venue->venue1272
--cites->paper1973501242
+            	-venue->venue506
+            	-cites->paper1973501242
             	-authors->author2168273423
             }
 }

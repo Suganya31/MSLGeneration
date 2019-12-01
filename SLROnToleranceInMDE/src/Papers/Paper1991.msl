@@ -1,7 +1,6 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
-
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
@@ -58,27 +57,27 @@ model Paper1991{
                 .title : "The expressive power of implicit specifications"
             	.year : 1991
             	.core : false
-            	-venue->venue47
--cites->paper2110425399
--cites->paper2148106163
+            	-venue->venue104
+            	-cites->paper2110425399
+            	-cites->paper2148106163
             	-authors->author2146581609
             }
 	paper1555946950:Paper {
                 .title : "Eiffel The Language"
             	.year : 1991
             	.core : false
-            	-venue->venue166
+            	-venue->venue170
             	-authors->author2161925446
             }
 	paper1885534640:Paper {
                 .title : "Two Techniques to Enhance the Performance of Memory Consistency Models"
             	.year : 1991
             	.core : false
-            	-venue->venue391
--cites->paper2054739713
--cites->paper2152390090
--cites->paper2176864362
--cites->paper2177772636
+            	-venue->venue244
+            	-cites->paper2054739713
+            	-cites->paper2152390090
+            	-cites->paper2176864362
+            	-cites->paper2177772636
             	-authors->author2273179273
             	-authors->author190482092
             	-authors->author1965698830
@@ -87,10 +86,10 @@ model Paper1991{
                 .title : "Lightweight causal and atomic group multicast"
             	.year : 1991
             	.core : false
-            	-venue->venue544
--cites->paper1973501242
--cites->paper2095343473
--cites->paper2131929623
+            	-venue->venue323
+            	-cites->paper1973501242
+            	-cites->paper2095343473
+            	-cites->paper2131929623
             	-authors->author2016580195
             	-authors->author2094398115
             	-authors->author2506527859
@@ -99,10 +98,10 @@ model Paper1991{
                 .title : "Algorithms for scalable synchronization on sharedmemory multiprocessors"
             	.year : 1991
             	.core : false
-            	-venue->venue647
--cites->paper2036267700
--cites->paper2152390090
--cites->paper2176864362
+            	-venue->venue359
+            	-cites->paper2036267700
+            	-cites->paper2152390090
+            	-cites->paper2176864362
             	-authors->author2249219846
             	-authors->author2122926523
             }
@@ -110,27 +109,27 @@ model Paper1991{
                 .title : "Categorical Data Analysis"
             	.year : 1991
             	.core : false
-            	-venue->venue652
+            	-venue->venue361
             	-authors->author2798316651
             }
 	paper2037504708:Paper {
                 .title : "On the efficient computation of the difference between consecutive database states"
             	.year : 1991
             	.core : false
-            	-venue->venue817
--cites->paper181078895
--cites->paper2075950442
--cites->paper2099805467
--cites->paper2118900391
--cites->paper2119295867
+            	-venue->venue408
+            	-cites->paper181078895
+            	-cites->paper2075950442
+            	-cites->paper2099805467
+            	-cites->paper2118900391
+            	-cites->paper2119295867
             	-authors->author2682171733
             }
 	paper2050171146:Paper {
                 .title : "On the representation and querying of sets of possible worlds"
             	.year : 1991
             	.core : false
-            	-venue->venue874
--cites->paper2098395122
+            	-venue->venue423
+            	-cites->paper2098395122
             	-authors->author1605907091
             	-authors->author172400696
             	-authors->author2035018311
@@ -139,10 +138,10 @@ model Paper1991{
                 .title : "Updating knowledge bases II"
             	.year : 1991
             	.core : false
-            	-venue->venue980
--cites->paper1589487547
--cites->paper1986329319
--cites->paper2118900391
+            	-venue->venue445
+            	-cites->paper1589487547
+            	-cites->paper1986329319
+            	-cites->paper2118900391
             	-authors->author2163391027
             	-authors->author2422275600
             }
@@ -150,8 +149,8 @@ model Paper1991{
                 .title : "A modular architecture for constraint logic programming"
             	.year : 1991
             	.core : false
-            	-venue->venue1072
--cites->paper2135432705
+            	-venue->venue462
+            	-cites->paper2135432705
             	-authors->author2110538291
             	-authors->author2633267068
             }
@@ -159,11 +158,11 @@ model Paper1991{
                 .title : "Performance evaluation of memory consistency models for sharedmemory multiprocessors"
             	.year : 1991
             	.core : false
-            	-venue->venue1119
--cites->paper2054739713
--cites->paper2152390090
--cites->paper2176864362
--cites->paper2177772636
+            	-venue->venue469
+            	-cites->paper2054739713
+            	-cites->paper2152390090
+            	-cites->paper2176864362
+            	-cites->paper2177772636
             	-authors->author2273179273
             	-authors->author190482092
             	-authors->author1965698830
@@ -172,8 +171,8 @@ model Paper1991{
                 .title : "SELF the power of simplicity"
             	.year : 1991
             	.core : false
-            	-venue->venue1222
--cites->paper2045723688
+            	-venue->venue494
+            	-cites->paper2045723688
             	-authors->author2041937263
             	-authors->author2342746433
             }
@@ -181,7 +180,7 @@ model Paper1991{
                 .title : "Performability evaluation of CSMACD and CSMADCR protocols under transient fault conditions"
             	.year : 1991
             	.core : false
-            	-venue->venue1394
+            	-venue->venue534
             	-authors->author2280265749
             	-authors->author2630693468
             }
@@ -189,13 +188,13 @@ model Paper1991{
                 .title : "Efficient dissemination of information in computer networks"
             	.year : 1991
             	.core : false
-            	-venue->venue1411
--cites->paper1545155892
--cites->paper1973501242
--cites->paper2038562061
--cites->paper2087668037
--cites->paper2110765100
--cites->paper2125011947
+            	-venue->venue534
+            	-cites->paper1545155892
+            	-cites->paper1973501242
+            	-cites->paper2038562061
+            	-cites->paper2087668037
+            	-cites->paper2110765100
+            	-cites->paper2125011947
             	-authors->author2169544959
             	-authors->author2701276154
             }
@@ -203,7 +202,7 @@ model Paper1991{
                 .title : "Functional characterization of fault tolerant integration in distributed sensor networks"
             	.year : 1991
             	.core : false
-            	-venue->venue1428
+            	-venue->venue539
             	-authors->author2346493798
             	-authors->author2128912965
             	-authors->author2805475450
@@ -213,9 +212,9 @@ model Paper1991{
                 .title : "The existence of refinement mappings"
             	.year : 1991
             	.core : false
-            	-venue->venue1502
--cites->paper1984478483
--cites->paper2132334337
+            	-venue->venue553
+            	-cites->paper1984478483
+            	-cites->paper2132334337
             	-authors->author2162106674
             	-authors->author2096750770
             }
@@ -223,8 +222,8 @@ model Paper1991{
                 .title : "Objectbehavior diagrams"
             	.year : 1991
             	.core : false
-            	-venue->venue1540
--cites->paper2113827629
+            	-venue->venue555
+            	-cites->paper2113827629
             	-authors->author2779581962
             	-authors->author2242930301
             }
@@ -232,9 +231,9 @@ model Paper1991{
                 .title : "Semantic file systems"
             	.year : 1991
             	.core : false
-            	-venue->venue1584
--cites->paper1547343000
--cites->paper1967141605
+            	-venue->venue565
+            	-cites->paper1547343000
+            	-cites->paper1967141605
             	-authors->author2222853225
             	-authors->author731392918
             	-authors->author2344552743
@@ -244,14 +243,14 @@ model Paper1991{
                 .title : "Racefree interconnection networks and multiprocessor consistency"
             	.year : 1991
             	.core : false
-            	-venue->venue1618
--cites->paper2051789131
--cites->paper2054739713
--cites->paper2096956970
--cites->paper2152390090
--cites->paper2176864362
--cites->paper2177772636
--cites->paper2611796265
+            	-venue->venue567
+            	-cites->paper2051789131
+            	-cites->paper2054739713
+            	-cites->paper2096956970
+            	-cites->paper2152390090
+            	-cites->paper2176864362
+            	-cites->paper2177772636
+            	-cites->paper2611796265
             	-authors->author2188604675
             	-authors->author1982114091
             	-authors->author678106963
@@ -260,7 +259,7 @@ model Paper1991{
                 .title : "Pipe routingpath planning with many constraints"
             	.year : 1991
             	.core : false
-            	-venue->venue1666
+            	-venue->venue574
             	-authors->author1545294347
             	-authors->author2164985626
             }
@@ -268,7 +267,7 @@ model Paper1991{
                 .title : "Intrusion tolerance in distributed computing systems"
             	.year : 1991
             	.core : false
-            	-venue->venue1676
+            	-venue->venue574
             	-authors->author2762813159
             	-authors->author2794138650
             	-authors->author2893763370
@@ -277,7 +276,7 @@ model Paper1991{
                 .title : "Reduced base model construction methods for stochastic activity networks"
             	.year : 1991
             	.core : false
-            	-venue->venue1745
+            	-venue->venue582
             	-authors->author2280265749
             	-authors->author2107654984
             }
@@ -285,7 +284,7 @@ model Paper1991{
                 .title : "Using weaves for software construction and analysis"
             	.year : 1991
             	.core : false
-            	-venue->venue1899
+            	-venue->venue599
             	-authors->author2307184432
             	-authors->author2303146558
             }
@@ -293,20 +292,20 @@ model Paper1991{
                 .title : "Internet time synchronization the network time protocol"
             	.year : 1991
             	.core : false
-            	-venue->venue1935
--cites->paper1973501242
--cites->paper2095343473
--cites->paper2118891797
+            	-venue->venue601
+            	-cites->paper1973501242
+            	-cites->paper2095343473
+            	-cites->paper2118891797
             	-authors->author2112308037
             }
 	paper2205436351:Paper {
                 .title : "The design and implementation of a logstructured file system"
             	.year : 1991
             	.core : false
-            	-venue->venue1960
--cites->paper1967141605
--cites->paper2106887953
--cites->paper2115600841
+            	-venue->venue608
+            	-cites->paper1967141605
+            	-cites->paper2106887953
+            	-cites->paper2115600841
             	-authors->author2102969555
             	-authors->author270493864
             }
@@ -314,7 +313,7 @@ model Paper1991{
                 .title : "Performance evaluation of memory consistency models for sharedmemory multiprocessors"
             	.year : 1991
             	.core : false
-            	-venue->venue2106
+            	-venue->venue652
             	-authors->author2273179273
             	-authors->author190482092
             	-authors->author1965698830
@@ -323,7 +322,7 @@ model Paper1991{
                 .title : "Semantic Issues in Multidatabase Systems  Preface by the Special Issue Editor"
             	.year : 1991
             	.core : false
-            	-venue->venue2167
+            	-venue->venue668
             	-authors->author2295682018
             }
 }

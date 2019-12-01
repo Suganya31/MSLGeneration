@@ -19,6 +19,7 @@ import java.util.regex.Matcher
 import java.util.regex.Pattern
 import java.util.Set
 import java.util.HashSet
+import JsonData
 
 class test {
 
@@ -39,13 +40,20 @@ class test {
 //	println(instance.generateVenuesMSL)
 		var List<PapersPojo> papers = new ArrayList
 		var Set<Integer> years = new HashSet;
-
-		papers = JsonParse.extractAuthors();
+        var core=true;
+        var datasetname="FinalDataset.txt";
+        		var writer = new PrintWriter("src\\Papers\\initial.msl", "UTF-8");
+        
+		papers = JsonParse.extractAuthors(core,datasetname);
+		         datasetname="References_dataset.txt";
+		core=false;
+		//JsonData.findReference(PapersPojo.dummypaperids);
+				papers = JsonParse.extractAuthors(false,datasetname);
+		
 
 		// writer.println(instance.generatePapersMSL(papers))
 		// writer.println(instance.generateAuthorsMSL(papers))
-		var writer = new PrintWriter("src\\Papers\\Paperinitial.msl", "UTF-8");
-				// writer.println(instance.generateVenuesMSL(papers))
+				//writer.println(instance.generateVenuesMSL(papers))
 							//writer.println(instance.generatePapersMSL(papers, 0000))
 				
 		//writer.close();
@@ -62,6 +70,10 @@ class test {
 
 		}
 
+		
+		
+		
+
 	// println(instance.generatePapersMSL(papers));
 //println(instance.generateAuthorsMSL(id_to_authors));
 	}
@@ -76,8 +88,6 @@ class test {
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Dummy.msl"
-
 	«FOR paper : papers»
 	«IF(paper.getYear !== year) && !years.contains(paper.getYear)»	
 			      «{years.add(paper.getYear); "" }»
@@ -85,17 +95,20 @@ import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper«paper.getYear.to
           «ENDIF»          
  	«ENDFOR»
  	
-model AllPapers -> AllAuthors, AllVenues {
+model Paper«year.toString()»{
 	«FOR paper : papers»
 	      	«IF (paper.getYear()==year)»
 	      	    paper«paper.getId()»:Paper {
                 .title : "«getOnlyStrings(paper.getTitle())»"
             	.year : «paper.getYear()»
-            	.core : «flag»
+            	.core : «paper.getCore()»
             	-venue->venue«paper.getVenue()»
+            	 «var pool=PapersPojo.poolids»
             	«FOR reference : paper.getReferences()»
-            		   -cites->paper«reference»
-            	«ENDFOR»
+            	     «IF (pool.contains(reference))»
+            	      -cites->paper«reference»
+            	     «ENDIF»
+                «ENDFOR»
             	«FOR author : paper.getAuthors()»
             	       -authors->author«author»
             	 «ENDFOR»
@@ -117,14 +130,20 @@ model AllPapers -> AllAuthors, AllVenues {
 
 	def String generateAuthorsMSL(List<PapersPojo> papers) {
 		var i = 1;
+		var fname="";
+		var lname="";
 		'''
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 
 model AllAuthors {
 			«var s=PapersPojo.id_to_authors_global»
-		«FOR a : s.entrySet»
-	        «var fname=getOnlyStrings(a.value.split("\\s").get(0))»
-	        «var lname=getOnlyStrings(a.value.split("\\s").get(1))»
+		«FOR a : s.entrySet»    
+	        «{fname=getOnlyStrings(a.value.split("\\s").get(0));""}»  
+	        «IF (a.value.split("\\s").size>=2)»
+	        «{lname=getOnlyStrings(a.value.split("\\s").get(1));""}»
+	        «ELSE»	        
+	        «lname=""»  
+	        «ENDIF»
 	             author«a.key»:Author {
             	.firstName : "«fname»"
             	.lastName : "«lname»"    	
@@ -141,10 +160,11 @@ model AllAuthors {
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 
 model AllVenues {
-	«FOR paper : papers»
+	«var s=PapersPojo.venues_global»	
+	«FOR a : s.entrySet»
 	
-            venue«paper.getVenue»:Venue {
-            	.Name : "«paper.getVenuename»"
+            venue«a.key»:Venue {
+            	.Name : "«getOnlyStrings(a.value)»"
             }
             «ENDFOR»
 }

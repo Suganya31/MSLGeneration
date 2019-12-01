@@ -1,7 +1,6 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
-
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
@@ -58,9 +57,9 @@ model Paper1995{
                 .title : "Specifying Distributed Software Architectures"
             	.year : 1995
             	.core : false
-            	-venue->venue51
--cites->paper2110425399
--cites->paper2128932399
+            	-venue->venue107
+            	-cites->paper2110425399
+            	-cites->paper2128932399
             	-authors->author874690412
             	-authors->author2097290386
             	-authors->author2095806276
@@ -70,16 +69,16 @@ model Paper1995{
                 .title : "Testing Can Be Formal Too"
             	.year : 1995
             	.core : false
-            	-venue->venue120
+            	-venue->venue142
             	-authors->author2087114574
             }
 	paper1542403019:Paper {
                 .title : "Specware Formal Support for Composing Software"
             	.year : 1995
             	.core : false
-            	-venue->venue143
--cites->paper1970495662
--cites->paper2110050316
+            	-venue->venue158
+            	-cites->paper1970495662
+            	-cites->paper2110050316
             	-authors->author1225828849
             	-authors->author670633399
             }
@@ -87,7 +86,7 @@ model Paper1995{
                 .title : "Foundations of databases"
             	.year : 1995
             	.core : false
-            	-venue->venue174
+            	-venue->venue172
             	-authors->author152493642
             	-authors->author172400696
             	-authors->author2157269769
@@ -96,15 +95,15 @@ model Paper1995{
                 .title : "A transformational characterization of equivalent Bayesian network structures"
             	.year : 1995
             	.core : false
-            	-venue->venue249
+            	-venue->venue200
             	-authors->author659530374
             }
 	paper1608796453:Paper {
                 .title : "Agent theories architectures and languages a survey"
             	.year : 1995
             	.core : false
-            	-venue->venue290
--cites->paper2157598146
+            	-venue->venue208
+            	-cites->paper2157598146
             	-authors->author2112978975
             	-authors->author2345025092
             }
@@ -112,25 +111,25 @@ model Paper1995{
                 .title : "AugustII a tool for stepbystep data model reverse engineering"
             	.year : 1995
             	.core : false
-            	-venue->venue389
--cites->paper9091155
--cites->paper57965354
--cites->paper166362352
--cites->paper1492836761
--cites->paper1498996471
--cites->paper1521935994
--cites->paper1581093035
--cites->paper1586441963
--cites->paper2048137832
+            	-venue->venue242
+            	-cites->paper9091155
+            	-cites->paper57965354
+            	-cites->paper166362352
+            	-cites->paper1492836761
+            	-cites->paper1498996471
+            	-cites->paper1521935994
+            	-cites->paper1581093035
+            	-cites->paper1586441963
+            	-cites->paper2048137832
             	-authors->author2128368917
             }
 	paper1966112122:Paper {
                 .title : "Bisimulation cant be traced"
             	.year : 1995
             	.core : false
-            	-venue->venue445
--cites->paper2110425399
--cites->paper2128932399
+            	-venue->venue269
+            	-cites->paper2110425399
+            	-cites->paper2128932399
             	-authors->author2158463219
             	-authors->author2250310737
             	-authors->author2054578888
@@ -139,12 +138,12 @@ model Paper1995{
                 .title : "Exploiting weak connectivity for mobile file access"
             	.year : 1995
             	.core : false
-            	-venue->venue516
--cites->paper1967141605
--cites->paper2005373714
--cites->paper2107460938
--cites->paper2116142433
--cites->paper2124074197
+            	-venue->venue308
+            	-cites->paper1967141605
+            	-cites->paper2005373714
+            	-cites->paper2107460938
+            	-cites->paper2116142433
+            	-cites->paper2124074197
             	-authors->author416104820
             	-authors->author155297007
             	-authors->author2681694677
@@ -153,8 +152,8 @@ model Paper1995{
                 .title : "The objectoriented hypermedia design model"
             	.year : 1995
             	.core : false
-            	-venue->venue724
--cites->paper2099293367
+            	-venue->venue387
+            	-cites->paper2099293367
             	-authors->author2119015089
             	-authors->author1885471680
             }
@@ -162,10 +161,10 @@ model Paper1995{
                 .title : "An executable specification analyzer and verifier for RMO relaxed memory order"
             	.year : 1995
             	.core : false
-            	-venue->venue750
--cites->paper2054739713
--cites->paper2176864362
--cites->paper2177772636
+            	-venue->venue394
+            	-cites->paper2054739713
+            	-cites->paper2176864362
+            	-cites->paper2177772636
             	-authors->author2609318763
             	-authors->author2148325455
             }
@@ -173,16 +172,16 @@ model Paper1995{
                 .title : "Causal memory definitions implementation and programming"
             	.year : 1995
             	.core : false
-            	-venue->venue765
--cites->paper1973501242
--cites->paper1985349143
--cites->paper2036267700
--cites->paper2054739713
--cites->paper2079605740
--cites->paper2101939036
--cites->paper2114925953
--cites->paper2152390090
--cites->paper2176864362
+            	-venue->venue397
+            	-cites->paper1973501242
+            	-cites->paper1985349143
+            	-cites->paper2036267700
+            	-cites->paper2054739713
+            	-cites->paper2079605740
+            	-cites->paper2101939036
+            	-cites->paper2114925953
+            	-cites->paper2152390090
+            	-cites->paper2176864362
             	-authors->author1228809804
             	-authors->author2486112858
             	-authors->author2219865830
@@ -193,15 +192,15 @@ model Paper1995{
                 .title : "Structured operational semantics as a specification language"
             	.year : 1995
             	.core : false
-            	-venue->venue812
--cites->paper1966112122
+            	-venue->venue406
+            	-cites->paper1966112122
             	-authors->author2158463219
             }
 	paper2062756186:Paper {
                 .title : "Dynamic change within workflow systems"
             	.year : 1995
             	.core : false
-            	-venue->venue937
+            	-venue->venue438
             	-authors->author2097695784
             	-authors->author271647245
             	-authors->author2163169701
@@ -210,8 +209,8 @@ model Paper1995{
                 .title : "Sharing memory robustly in messagepassing systems"
             	.year : 1995
             	.core : false
-            	-venue->venue946
--cites->paper2035362408
+            	-venue->venue439
+            	-cites->paper2035362408
             	-authors->author1983290808
             	-authors->author2278892267
             	-authors->author685665164
@@ -220,9 +219,9 @@ model Paper1995{
                 .title : "The Totem singlering ordering and membership protocol"
             	.year : 1995
             	.core : false
-            	-venue->venue1012
--cites->paper1973501242
--cites->paper2035362408
+            	-venue->venue450
+            	-cites->paper1973501242
+            	-cites->paper2035362408
             	-authors->author2167289893
             	-authors->author2161113193
             	-authors->author2342730569
@@ -233,7 +232,7 @@ model Paper1995{
                 .title : "Patterns teams and domain engineering"
             	.year : 1995
             	.core : false
-            	-venue->venue1016
+            	-venue->venue451
             	-authors->author2692586900
             	-authors->author2485203012
             	-authors->author2780755208
@@ -242,7 +241,7 @@ model Paper1995{
                 .title : "On the role of abduction"
             	.year : 1995
             	.core : false
-            	-venue->venue1039
+            	-venue->venue457
             	-authors->author2271505588
             	-authors->author435749394
             	-authors->author682889704
@@ -252,16 +251,16 @@ model Paper1995{
                 .title : "On finding duplication and nearduplication in large software systems"
             	.year : 1995
             	.core : false
-            	-venue->venue1260
+            	-venue->venue505
             	-authors->author2425255528
             }
 	paper2110026634:Paper {
                 .title : "Efficient optimistic concurrency control using loosely synchronized clocks"
             	.year : 1995
             	.core : false
-            	-venue->venue1263
--cites->paper2106887953
--cites->paper2133386065
+            	-venue->venue505
+            	-cites->paper2106887953
+            	-cites->paper2133386065
             	-authors->author2022497718
             	-authors->author2434704351
             	-authors->author2084056563
@@ -271,11 +270,11 @@ model Paper1995{
                 .title : "Formal verification for faulttolerant architectures prolegomena to the design of PVS"
             	.year : 1995
             	.core : false
-            	-venue->venue1304
--cites->paper1593276140
--cites->paper2114957237
--cites->paper2118891797
--cites->paper2120510885
+            	-venue->venue511
+            	-cites->paper1593276140
+            	-cites->paper2114957237
+            	-cites->paper2118891797
+            	-cites->paper2120510885
             	-authors->author2157944775
             	-authors->author2630946548
             	-authors->author2091958867
@@ -285,26 +284,26 @@ model Paper1995{
                 .title : "Enterprise Objects Framework a second generation objectrelational enabler"
             	.year : 1995
             	.core : false
-            	-venue->venue1311
--cites->paper2099293367
--cites->paper2139907081
+            	-venue->venue511
+            	-cites->paper2099293367
+            	-cites->paper2139907081
             	-authors->author2628179605
             }
 	paper2117260615:Paper {
                 .title : "Managing update conflicts in Bayou a weakly connected replicated storage system"
             	.year : 1995
             	.core : false
-            	-venue->venue1347
--cites->paper1525865893
--cites->paper1586701723
--cites->paper1973501242
--cites->paper1985349143
--cites->paper2038562061
--cites->paper2043671329
--cites->paper2116142433
--cites->paper2124074197
--cites->paper2125930899
--cites->paper2156027558
+            	-venue->venue520
+            	-cites->paper1525865893
+            	-cites->paper1586701723
+            	-cites->paper1973501242
+            	-cites->paper1985349143
+            	-cites->paper2038562061
+            	-cites->paper2043671329
+            	-cites->paper2116142433
+            	-cites->paper2124074197
+            	-cites->paper2125930899
+            	-cites->paper2156027558
             	-authors->author2795421043
             	-authors->author2894459299
             	-authors->author2778312396
@@ -316,9 +315,9 @@ model Paper1995{
                 .title : "A critique of ANSI SQL isolation levels"
             	.year : 1995
             	.core : false
-            	-venue->venue1357
--cites->paper1515932031
--cites->paper1545155892
+            	-venue->venue522
+            	-cites->paper1515932031
+            	-cites->paper1545155892
             	-authors->author2304774990
             	-authors->author1993489269
             	-authors->author2136822424
@@ -330,7 +329,7 @@ model Paper1995{
                 .title : "Exokernel an operating system architecture for applicationlevel resource management"
             	.year : 1995
             	.core : false
-            	-venue->venue1408
+            	-venue->venue534
             	-authors->author2163716051
             	-authors->author2629805728
             	-authors->author2144886982
@@ -339,20 +338,20 @@ model Paper1995{
                 .title : "Fault tolerance in safety critical automotive applications cost of agreement as a limiting factor"
             	.year : 1995
             	.core : false
-            	-venue->venue1439
--cites->paper1973501242
--cites->paper1992554067
--cites->paper2033579026
--cites->paper2118891797
--cites->paper2152465173
--cites->paper2164357820
+            	-venue->venue542
+            	-cites->paper1973501242
+            	-cites->paper1992554067
+            	-cites->paper2033579026
+            	-cites->paper2118891797
+            	-cites->paper2152465173
+            	-cites->paper2164357820
             	-authors->author2032885274
             }
 	paper2127735978:Paper {
                 .title : "Efficient Support of Location Transparency in Concurrent ObjectOriented Programming Languages"
             	.year : 1995
             	.core : false
-            	-venue->venue1457
+            	-venue->venue544
             	-authors->author2610270400
             	-authors->author2161553928
             }
@@ -360,12 +359,12 @@ model Paper1995{
                 .title : "Rover a toolkit for mobile information access"
             	.year : 1995
             	.core : false
-            	-venue->venue1494
--cites->paper1980446225
--cites->paper2115600841
--cites->paper2117260615
--cites->paper2124074197
--cites->paper2125930899
+            	-venue->venue551
+            	-cites->paper1980446225
+            	-cites->paper2115600841
+            	-cites->paper2117260615
+            	-cites->paper2124074197
+            	-cites->paper2125930899
             	-authors->author2142513814
             	-authors->author2222853225
             	-authors->author2114517990
@@ -376,9 +375,9 @@ model Paper1995{
                 .title : "The UltraSAN modeling environment"
             	.year : 1995
             	.core : false
-            	-venue->venue1521
--cites->paper2119239145
--cites->paper2153851383
+            	-venue->venue553
+            	-cites->paper2119239145
+            	-cites->paper2153851383
             	-authors->author2282728788
             	-authors->author2279045750
             	-authors->author2280265749
@@ -388,9 +387,9 @@ model Paper1995{
                 .title : "Implementing fault tolerant applications using reflective objectoriented programming"
             	.year : 1995
             	.core : false
-            	-venue->venue1597
--cites->paper2116820549
--cites->paper2131929623
+            	-venue->venue566
+            	-cites->paper2116820549
+            	-cites->paper2131929623
             	-authors->author2136516135
             	-authors->author2894352521
             	-authors->author2075278103
@@ -401,7 +400,7 @@ model Paper1995{
                 .title : "The SPLASH programs characterization and methodological considerations"
             	.year : 1995
             	.core : false
-            	-venue->venue1636
+            	-venue->venue568
             	-authors->author2102097078
             	-authors->author2273179273
             	-authors->author2777822043
@@ -412,8 +411,8 @@ model Paper1995{
                 .title : "Abstractions for software architecture and tools to support them"
             	.year : 1995
             	.core : false
-            	-venue->venue1654
--cites->paper2110050316
+            	-venue->venue570
+            	-cites->paper2110050316
             	-authors->author204479775
             	-authors->author2141334907
             	-authors->author2123471266
@@ -425,8 +424,8 @@ model Paper1995{
                 .title : "An eventbased architecture definition language"
             	.year : 1995
             	.core : false
-            	-venue->venue1749
--cites->paper2110425399
+            	-venue->venue584
+            	-cites->paper2110425399
             	-authors->author21098100
             	-authors->author2132602664
             }
@@ -434,15 +433,15 @@ model Paper1995{
                 .title : "An approach to animating Z specifications"
             	.year : 1995
             	.core : false
-            	-venue->venue1802
+            	-venue->venue589
             	-authors->author2106782104
             }
 	paper2162255975:Paper {
                 .title : "Requirements monitoring in dynamic environments"
             	.year : 1995
             	.core : false
-            	-venue->venue1847
--cites->paper2017739343
+            	-venue->venue592
+            	-cites->paper2017739343
             	-authors->author2335794901
             	-authors->author2144541629
             }

@@ -1,7 +1,6 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
-
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
@@ -58,29 +57,29 @@ model Paper1981{
                 .title : "Development methods for computer programs including a notion of interference"
             	.year : 1981
             	.core : false
-            	-venue->venue6
+            	-venue->venue82
             	-authors->author2142468959
             }
 	paper2036267700:Paper {
                 .title : "Myths about the mutual exclusion problem"
             	.year : 1981
             	.core : false
-            	-venue->venue806
+            	-venue->venue405
             	-authors->author2170204233
             }
 	paper2049514605:Paper {
                 .title : "Corrigendum Soundness and Completeness of an Axiom System for Program Verification"
             	.year : 1981
             	.core : false
-            	-venue->venue869
+            	-venue->venue423
             	-authors->author2098910421
             }
 	paper2133386065:Paper {
                 .title : "On optimistic methods for concurrency control"
             	.year : 1981
             	.core : false
-            	-venue->venue1517
--cites->paper2106887953
+            	-venue->venue553
+            	-cites->paper2106887953
             	-authors->author2573500036
             	-authors->author2440187956
             }
@@ -88,15 +87,15 @@ model Paper1981{
                 .title : "Formal Models for Computer Security"
             	.year : 1981
             	.core : false
-            	-venue->venue1615
--cites->paper2111706174
+            	-venue->venue567
+            	-cites->paper2111706174
             	-authors->author2079317943
             }
 	paper2147543351:Paper {
                 .title : "The Science of Programming"
             	.year : 1981
             	.core : false
-            	-venue->venue1669
+            	-venue->venue574
             	-authors->author1980295760
             }
 }

@@ -1,7 +1,6 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
-
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
@@ -58,15 +57,15 @@ model Paper1983{
                 .title : "SmallTalk The Interactive Programming Environment"
             	.year : 1983
             	.core : false
-            	-venue->venue238
+            	-venue->venue198
             	-authors->author2224192923
             }
 	paper2009312542:Paper {
                 .title : "The clearinghouse a decentralized agent for locating named objects in a distributed environment"
             	.year : 1983
             	.core : false
-            	-venue->venue683
--cites->paper2043671329
+            	-venue->venue372
+            	-cites->paper2043671329
             	-authors->author2648415225
             	-authors->author2680107879
             }
@@ -74,22 +73,22 @@ model Paper1983{
                 .title : "Results on the propositional calculus"
             	.year : 1983
             	.core : false
-            	-venue->venue710
+            	-venue->venue382
             	-authors->author2041783100
             }
 	paper2019712414:Paper {
                 .title : "Program developments formal explanations of implementations"
             	.year : 1983
             	.core : false
-            	-venue->venue728
--cites->paper2103953153
+            	-venue->venue388
+            	-cites->paper2103953153
             	-authors->author2777005984
             }
 	paper2050894976:Paper {
                 .title : "Rosolving conflicts in global storage design through replication"
             	.year : 1983
             	.core : false
-            	-venue->venue878
+            	-venue->venue423
             	-authors->author2131916116
             	-authors->author2246122413
             }
@@ -97,7 +96,7 @@ model Paper1983{
                 .title : "A Data Flow Oriented Program Testing Strategy"
             	.year : 1983
             	.core : false
-            	-venue->venue881
+            	-venue->venue423
             	-authors->author2628476136
             	-authors->author18609543
             }
@@ -105,9 +104,9 @@ model Paper1983{
                 .title : "Impossibility of distributed consensus with one faulty process"
             	.year : 1983
             	.core : false
-            	-venue->venue1196
--cites->paper2035362408
--cites->paper2120510885
+            	-venue->venue490
+            	-cites->paper2035362408
+            	-cites->paper2120510885
             	-authors->author2159593723
             	-authors->author2180706138
             	-authors->author2085176665
@@ -116,7 +115,7 @@ model Paper1983{
                 .title : "UPM A Formal Tool for Expressing Database Update Semantics"
             	.year : 1983
             	.core : false
-            	-venue->venue2164
+            	-venue->venue666
             	-authors->author2136435687
             	-authors->author2652035513
             }

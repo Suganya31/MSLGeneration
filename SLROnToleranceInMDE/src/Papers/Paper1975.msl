@@ -1,7 +1,6 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
-
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
@@ -58,28 +57,28 @@ model Paper1975{
                 .title : "Implementation of integrity constraints and views by query modification"
             	.year : 1975
             	.core : false
-            	-venue->venue1198
+            	-venue->venue490
             	-authors->author1998938290
             }
 	paper2133201251:Paper {
                 .title : "System structure for software fault tolerance"
             	.year : 1975
             	.core : false
-            	-venue->venue1514
+            	-venue->venue553
             	-authors->author2029293694
             }
 	paper2135432705:Paper {
                 .title : "Consistency in Networks of Relations"
             	.year : 1975
             	.core : false
-            	-venue->venue1539
+            	-venue->venue555
             	-authors->author1981134756
             }
 	paper2158102622:Paper {
                 .title : "Probabilistic Treatment of General Combinational Networks"
             	.year : 1975
             	.core : false
-            	-venue->venue1804
+            	-venue->venue589
             	-authors->author2126506047
             	-authors->author644833585
             }
@@ -87,7 +86,7 @@ model Paper1975{
                 .title : "System structure for software fault tolerance"
             	.year : 1975
             	.core : false
-            	-venue->venue2147
+            	-venue->venue659
             	-authors->author2029293694
             }
 }

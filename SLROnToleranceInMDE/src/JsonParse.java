@@ -29,6 +29,14 @@ import com.fasterxml.jackson.core.type.TypeReference;
 
 public class JsonParse {
 	static List<PapersPojo> papers = new ArrayList<PapersPojo>();
+	static Map<String, String> id_to_authors_global = new HashMap<String, String>();
+	static Set<String> paperids = new HashSet<String>();
+	static Set<String> venues = new HashSet<String>();
+	static Map<Integer, String> venues_global = new HashMap<Integer, String>();
+
+
+	static int i=1;
+
 
 	public static List<PapersPojo> setDetails() {
 		return null;
@@ -42,11 +50,8 @@ public class JsonParse {
 		File filename = new File("C:\\Users\\Suganya\\Downloads\\dblp.v11\\"+datasetname);
 
 		JsonParser jp = f.createParser(filename);
-		Map<String, String> id_to_authors_global = new HashMap<String, String>();
-		Set<String> dummypaperids = new HashSet<String>();
-		Set<String> paperids = new HashSet<String>();
+		//Set<String> dummypaperids = new HashSet<String>();
 
-		int i=1;
 
 
 		while (jp.nextToken() != null) {
@@ -65,6 +70,13 @@ public class JsonParse {
 			String id = node.path("id").asText();
 			Integer year = Integer.parseInt(node.path("year").asText());
 			paperids.add(id);
+			venues.add(venue);
+			if(!venues_global.containsValue(venuename)) {
+				
+			
+			venues_global.put(i, venuename);
+			i++;
+			}
 
 			paper.setId(id);
 			paper.setTitle(title);
@@ -73,7 +85,7 @@ public class JsonParse {
 			paper.setCore(core);
 
 			paper.setYear(year);
-			i++;
+		//	i++;
 
 			ArrayNode arrayNode = (ArrayNode) authors;
 
@@ -86,8 +98,8 @@ public class JsonParse {
 				paper.setReferences(references);
 
 			}
-			for(String r:paper.getReferences())
-				dummypaperids.add(r);
+			//for(String r:paper.getReferences())
+				//dummypaperids.add(r);
 			/*
 			 * System.out.println("the refreces inside java"+references);
 			 * System.out.println("checking set refernces"+paper.getReferences());
@@ -136,10 +148,12 @@ public class JsonParse {
 				.collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
 		PapersPojo.id_to_authors_global = id_to_authors_global;
 		PapersPojo.poolids=paperids;
-		dummypaperids.removeAll(paperids);
+		PapersPojo.venues_global=venues_global;
+
+		//dummypaperids.removeAll(paperids);
 		
 		//System.out.println("size of ummy paper ids"+dummypaperids.size());
-		PapersPojo.dummypaperids=dummypaperids;
+	//	PapersPojo.dummypaperids=dummypaperids;
 		
 		jp.close();
 

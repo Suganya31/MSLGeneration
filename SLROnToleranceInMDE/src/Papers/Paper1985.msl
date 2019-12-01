@@ -1,7 +1,6 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
-
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
@@ -58,8 +57,8 @@ model Paper1985{
                 .title : "A theory of abstract data types for program development bridging the gap"
             	.year : 1985
             	.core : false
-            	-venue->venue38
--cites->paper2110050316
+            	-venue->venue100
+            	-cites->paper2110050316
             	-authors->author2893703988
             	-authors->author2892485412
             	-authors->author2195479640
@@ -68,14 +67,14 @@ model Paper1985{
                 .title : "The Translation of a Cobol Data Structure to an EntityRelationship Type Conceptual Schema"
             	.year : 1985
             	.core : false
-            	-venue->venue55
+            	-venue->venue110
             	-authors->author2709264529
             }
 	paper1586441963:Paper {
                 .title : "A Methodology for Translating a Conventional File System into an EntityRelationship Model"
             	.year : 1985
             	.core : false
-            	-venue->venue236
+            	-venue->venue197
             	-authors->author2706069882
             	-authors->author2612593125
             }
@@ -83,7 +82,7 @@ model Paper1985{
                 .title : "A tracedriven analysis of the UNIX  BSD file system"
             	.year : 1985
             	.core : false
-            	-venue->venue451
+            	-venue->venue274
             	-authors->author270493864
             	-authors->author2157004640
             	-authors->author2305403355
@@ -95,10 +94,10 @@ model Paper1985{
                 .title : "Optimal clock synchronization"
             	.year : 1985
             	.core : false
-            	-venue->venue634
--cites->paper2095464745
--cites->paper2118891797
--cites->paper2122326479
+            	-venue->venue355
+            	-cites->paper2095464745
+            	-cites->paper2118891797
+            	-cites->paper2122326479
             	-authors->author38233831
             	-authors->author2146928066
             }
@@ -106,9 +105,9 @@ model Paper1985{
                 .title : "A Theoretical Basis for the Analysis of Multiversion Software Subject to Coincident Errors"
             	.year : 1985
             	.core : false
-            	-venue->venue638
--cites->paper1971991620
--cites->paper2133201251
+            	-venue->venue356
+            	-cites->paper1971991620
+            	-cites->paper2133201251
             	-authors->author2395978466
             	-authors->author2099736964
             }
@@ -116,9 +115,9 @@ model Paper1985{
                 .title : "Impossibility of distributed consensus with one faulty process"
             	.year : 1985
             	.core : false
-            	-venue->venue803
--cites->paper2103814941
--cites->paper2120510885
+            	-venue->venue404
+            	-cites->paper2103814941
+            	-cites->paper2120510885
             	-authors->author2159593723
             	-authors->author2180706138
             	-authors->author2085176665
@@ -127,9 +126,9 @@ model Paper1985{
                 .title : "Asynchronous consensus and broadcast protocols"
             	.year : 1985
             	.core : false
-            	-venue->venue983
--cites->paper2035362408
--cites->paper2120510885
+            	-venue->venue446
+            	-cites->paper2035362408
+            	-cites->paper2120510885
             	-authors->author2243542401
             	-authors->author38233831
             }
@@ -137,8 +136,8 @@ model Paper1985{
                 .title : "Easy impossibility proofs for distributed consensus problems"
             	.year : 1985
             	.core : false
-            	-venue->venue1097
--cites->paper2120510885
+            	-venue->venue463
+            	-cites->paper2120510885
             	-authors->author2159593723
             	-authors->author2180706138
             	-authors->author2155118037
@@ -147,17 +146,17 @@ model Paper1985{
                 .title : "Communicating Sequential Processes"
             	.year : 1985
             	.core : false
-            	-venue->venue1267
--cites->paper2110050316
+            	-venue->venue505
+            	-cites->paper2110050316
             	-authors->author2052847585
             }
 	paper2111223826:Paper {
                 .title : "The ITC distributed file system principles and design"
             	.year : 1985
             	.core : false
-            	-venue->venue1279
--cites->paper2043671329
--cites->paper2115294119
+            	-venue->venue507
+            	-cites->paper2043671329
+            	-cites->paper2115294119
             	-authors->author416104820
             	-authors->author236138113
             	-authors->author2614510746
@@ -169,8 +168,8 @@ model Paper1985{
                 .title : "A caching file system for a programmers workstation"
             	.year : 1985
             	.core : false
-            	-venue->venue1324
--cites->paper2111223826
+            	-venue->venue514
+            	-cites->paper2111223826
             	-authors->author2470914381
             	-authors->author2643802808
             	-authors->author2467977717
@@ -179,17 +178,17 @@ model Paper1985{
                 .title : "Replication and faulttolerance in the ISIS system"
             	.year : 1985
             	.core : false
-            	-venue->venue1343
--cites->paper1973501242
--cites->paper2106887953
+            	-venue->venue520
+            	-cites->paper1973501242
+            	-cites->paper2106887953
             	-authors->author2094398115
             }
 	paper2118891797:Paper {
                 .title : "Synchronizing clocks in the presence of faults"
             	.year : 1985
             	.core : false
-            	-venue->venue1367
--cites->paper2120510885
+            	-venue->venue527
+            	-cites->paper2120510885
             	-authors->author2664049581
             	-authors->author2096750770
             }
@@ -197,8 +196,8 @@ model Paper1985{
                 .title : "Distributed process groups in the V Kernel"
             	.year : 1985
             	.core : false
-            	-venue->venue1534
--cites->paper2120510885
+            	-venue->venue555
+            	-cites->paper2120510885
             	-authors->author2071592122
             	-authors->author2290999210
             }
@@ -206,9 +205,9 @@ model Paper1985{
                 .title : "Host groups a multicast extension for datagram internetworks"
             	.year : 1985
             	.core : false
-            	-venue->venue1769
--cites->paper2043671329
--cites->paper2134806330
+            	-venue->venue584
+            	-cites->paper2043671329
+            	-cites->paper2134806330
             	-authors->author2311538579
             	-authors->author2071592122
             }
@@ -216,7 +215,7 @@ model Paper1985{
                 .title : "Decrypting a Class of Stream Ciphers Using Ciphertext Only"
             	.year : 1985
             	.core : false
-            	-venue->venue1839
+            	-venue->venue591
             	-authors->author2498316895
             }
 }

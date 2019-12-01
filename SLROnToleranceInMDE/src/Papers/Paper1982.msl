@@ -1,7 +1,6 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
-
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
@@ -58,14 +57,14 @@ model Paper1982{
                 .title : "Epigrams on Programming"
             	.year : 1982
             	.core : false
-            	-venue->venue197
+            	-venue->venue182
             	-authors->author2659867364
             }
 	paper1985495277:Paper {
                 .title : "The Recognition of Series Parallel Digraphs"
             	.year : 1982
             	.core : false
-            	-venue->venue546
+            	-venue->venue324
             	-authors->author350567680
             	-authors->author2444474037
             	-authors->author2161825852
@@ -74,7 +73,7 @@ model Paper1982{
                 .title : "Grapevine an exercise in distributed computing"
             	.year : 1982
             	.core : false
-            	-venue->venue845
+            	-venue->venue418
             	-authors->author2153103727
             	-authors->author2470914381
             	-authors->author2104187752
@@ -84,22 +83,22 @@ model Paper1982{
                 .title : "Logic for improving integrity checking in relational data bases"
             	.year : 1982
             	.core : false
-            	-venue->venue1149
--cites->paper2103920867
+            	-venue->venue476
+            	-cites->paper2103920867
             	-authors->author2288386885
             }
 	paper2116502002:Paper {
                 .title : "Rete a fast algorithm for the many patternmany object pattern match problem"
             	.year : 1982
             	.core : false
-            	-venue->venue1339
+            	-venue->venue518
             	-authors->author555324291
             }
 	paper2120510885:Paper {
                 .title : "The Byzantine Generals Problem"
             	.year : 1982
             	.core : false
-            	-venue->venue1383
+            	-venue->venue531
             	-authors->author577326872
             	-authors->author2096750770
             	-authors->author2138566478
@@ -108,8 +107,8 @@ model Paper1982{
                 .title : "Capturing more world knowledge in the requirements specification"
             	.year : 1982
             	.core : false
-            	-venue->venue1453
--cites->paper2006210705
+            	-venue->venue543
+            	-cites->paper2006210705
             	-authors->author2100751788
             	-authors->author2161153869
             	-authors->author2052199646

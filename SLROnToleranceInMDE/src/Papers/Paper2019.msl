@@ -1,7 +1,6 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
-
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
@@ -58,28 +57,28 @@ model Paper2019{
                 .title : "Dealing with Uncertainty in Binary Logistic Regression Faultproneness Models"
             	.year : 2019
             	.core : true
-            	-venue->venue169
--cites->paper1342665
--cites->paper1590957121
--cites->paper1919928684
--cites->paper1973112705
--cites->paper1998473023
--cites->paper2002374079
--cites->paper2017629773
--cites->paper2023931799
--cites->paper2028246616
--cites->paper2039444730
--cites->paper2039892910
--cites->paper2076983043
--cites->paper2088117279
--cites->paper2099794800
--cites->paper2122402375
--cites->paper2151666086
--cites->paper2163279690
--cites->paper2399345145
--cites->paper2509913888
--cites->paper2600952128
--cites->paper342220855
+            	-venue->venue69
+            	-cites->paper1342665
+            	-cites->paper1590957121
+            	-cites->paper1919928684
+            	-cites->paper1973112705
+            	-cites->paper1998473023
+            	-cites->paper2002374079
+            	-cites->paper2017629773
+            	-cites->paper2023931799
+            	-cites->paper2028246616
+            	-cites->paper2039444730
+            	-cites->paper2039892910
+            	-cites->paper2076983043
+            	-cites->paper2088117279
+            	-cites->paper2099794800
+            	-cites->paper2122402375
+            	-cites->paper2151666086
+            	-cites->paper2163279690
+            	-cites->paper2399345145
+            	-cites->paper2509913888
+            	-cites->paper2600952128
+            	-cites->paper342220855
             	-authors->author1
             	-authors->author2
             }
@@ -87,22 +86,24 @@ model Paper2019{
                 .title : "Viatra solver  a framework for the automated generation of consistent domainspecific models"
             	.year : 2019
             	.core : true
-            	-venue->venue170
--cites->paper1035875811
--cites->paper1548001884
--cites->paper1575503534
--cites->paper1986958631
--cites->paper2068652506
--cites->paper2074683366
--cites->paper2094489875
--cites->paper2103364805
--cites->paper2126443444
--cites->paper2352369207
--cites->paper2406059451
--cites->paper2412353202
--cites->paper2548921736
--cites->paper2745766115
--cites->paper2796271057
+            	-venue->venue70
+            	-cites->paper1035875811
+            	-cites->paper1548001884
+            	-cites->paper1575503534
+            	-cites->paper1986958631
+            	-cites->paper2068652506
+            	-cites->paper2074683366
+            	-cites->paper2094489875
+            	-cites->paper2103364805
+            	-cites->paper2121061989
+            	-cites->paper2126443444
+            	-cites->paper2352369207
+            	-cites->paper2406059451
+            	-cites->paper2412353202
+            	-cites->paper2548921736
+            	-cites->paper2745766115
+            	-cites->paper2795021132
+            	-cites->paper2796271057
             	-authors->author3
             	-authors->author4
             	-authors->author5
@@ -112,36 +113,39 @@ model Paper2019{
                 .title : "A Formal Analysis of the NVIDIA PTX Memory Consistency Model"
             	.year : 2019
             	.core : true
-            	-venue->venue171
--cites->paper150016039
--cites->paper1519503479
--cites->paper1519576952
--cites->paper1525350307
--cites->paper1595209293
--cites->paper1808398105
--cites->paper1945229733
--cites->paper2000659103
--cites->paper2026161190
--cites->paper2054391605
--cites->paper2111858071
--cites->paper2120339165
--cites->paper2132117132
--cites->paper2138074470
--cites->paper2150618958
--cites->paper2153636750
--cites->paper2170293694
--cites->paper2301631282
--cites->paper2507977852
--cites->paper2549657998
--cites->paper2559594945
--cites->paper2605308338
--cites->paper2626631502
--cites->paper2626811727
--cites->paper2736067960
--cites->paper2738891045
--cites->paper2769194423
--cites->paper2898394028
--cites->paper606696939
+            	-venue->venue71
+            	-cites->paper150016039
+            	-cites->paper1519503479
+            	-cites->paper1519576952
+            	-cites->paper1525350307
+            	-cites->paper1595209293
+            	-cites->paper1808398105
+            	-cites->paper1945229733
+            	-cites->paper1968283843
+            	-cites->paper2000659103
+            	-cites->paper2026161190
+            	-cites->paper2054391605
+            	-cites->paper2111858071
+            	-cites->paper2120339165
+            	-cites->paper2132117132
+            	-cites->paper2138074470
+            	-cites->paper2150618958
+            	-cites->paper2153636750
+            	-cites->paper2170293694
+            	-cites->paper2236227338
+            	-cites->paper2301631282
+            	-cites->paper2507977852
+            	-cites->paper2549657998
+            	-cites->paper2553522901
+            	-cites->paper2559594945
+            	-cites->paper2605308338
+            	-cites->paper2626631502
+            	-cites->paper2626811727
+            	-cites->paper2736067960
+            	-cites->paper2738891045
+            	-cites->paper2769194423
+            	-cites->paper2898394028
+            	-cites->paper606696939
             	-authors->author2029293479
             	-authors->author8
             	-authors->author9
@@ -151,29 +155,29 @@ model Paper2019{
                 .title : "Verifying Safety of Synchronous FaultTolerant Algorithms by Bounded Model Checking"
             	.year : 2019
             	.core : true
-            	-venue->venue172
--cites->paper1021521453
--cites->paper1554005697
--cites->paper1597578789
--cites->paper178138771
--cites->paper1787074469
--cites->paper1999552553
--cites->paper2010075998
--cites->paper2035362408
--cites->paper2056910803
--cites->paper2095343473
--cites->paper2103814941
--cites->paper2122326479
--cites->paper2123910665
--cites->paper2162786453
--cites->paper2292447407
--cites->paper2296248291
--cites->paper2518474658
--cites->paper252968734
--cites->paper2611863566
--cites->paper2735459691
--cites->paper2779460099
--cites->paper2889201126
+            	-venue->venue72
+            	-cites->paper1021521453
+            	-cites->paper1554005697
+            	-cites->paper1597578789
+            	-cites->paper178138771
+            	-cites->paper1787074469
+            	-cites->paper1999552553
+            	-cites->paper2010075998
+            	-cites->paper2035362408
+            	-cites->paper2056910803
+            	-cites->paper2095343473
+            	-cites->paper2103814941
+            	-cites->paper2122326479
+            	-cites->paper2123910665
+            	-cites->paper2162786453
+            	-cites->paper2292447407
+            	-cites->paper2296248291
+            	-cites->paper2518474658
+            	-cites->paper252968734
+            	-cites->paper2611863566
+            	-cites->paper2735459691
+            	-cites->paper2779460099
+            	-cites->paper2889201126
             	-authors->author11
             	-authors->author12
             	-authors->author13
@@ -184,27 +188,27 @@ model Paper2019{
                 .title : "Test Model Coverage Analysis Under Uncertainty"
             	.year : 2019
             	.core : true
-            	-venue->venue178
--cites->paper1498432697
--cites->paper1516256348
--cites->paper1594006286
--cites->paper179875050
--cites->paper1812243426
--cites->paper1969671537
--cites->paper1977607979
--cites->paper1987382793
--cites->paper2029775954
--cites->paper2047124398
--cites->paper2062637899
--cites->paper2108394166
--cites->paper2110425399
--cites->paper2119296494
--cites->paper2139980321
--cites->paper2154897437
--cites->paper2156062584
--cites->paper2610233343
--cites->paper2754597563
--cites->paper2767846364
+            	-venue->venue77
+            	-cites->paper1498432697
+            	-cites->paper1516256348
+            	-cites->paper1594006286
+            	-cites->paper179875050
+            	-cites->paper1812243426
+            	-cites->paper1969671537
+            	-cites->paper1977607979
+            	-cites->paper1987382793
+            	-cites->paper2029775954
+            	-cites->paper2047124398
+            	-cites->paper2062637899
+            	-cites->paper2108394166
+            	-cites->paper2110425399
+            	-cites->paper2119296494
+            	-cites->paper2139980321
+            	-cites->paper2154897437
+            	-cites->paper2156062584
+            	-cites->paper2610233343
+            	-cites->paper2754597563
+            	-cites->paper2767846364
             	-authors->author27
             	-authors->author29
             }

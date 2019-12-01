@@ -1,7 +1,6 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
-
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
@@ -58,9 +57,9 @@ model Paper1978{
                 .title : "Reliability Issues in Computing System Design"
             	.year : 1978
             	.core : false
-            	-venue->venue456
--cites->paper2047924755
--cites->paper2133201251
+            	-venue->venue275
+            	-cites->paper2047924755
+            	-cites->paper2133201251
             	-authors->author2029293694
             	-authors->author2615262011
             	-authors->author2606940091
@@ -69,28 +68,28 @@ model Paper1978{
                 .title : "Time clocks and the ordering of events in a distributed system"
             	.year : 1978
             	.core : false
-            	-venue->venue484
+            	-venue->venue292
             	-authors->author2096750770
             }
 	paper2075350371:Paper {
                 .title : "Soundness and Completeness of an Axiom System for Program Verification"
             	.year : 1978
             	.core : false
-            	-venue->venue997
+            	-venue->venue447
             	-authors->author2098910421
             }
 	paper2106887953:Paper {
                 .title : "Notes on Data Base Operating Systems"
             	.year : 1978
             	.core : false
-            	-venue->venue1223
+            	-venue->venue494
             	-authors->author2131537204
             }
 	paper2611598995:Paper {
                 .title : "The C Programming Language"
             	.year : 1978
             	.core : false
-            	-venue->venue2105
+            	-venue->venue652
             	-authors->author2110203303
             	-authors->author2035864640
             }
