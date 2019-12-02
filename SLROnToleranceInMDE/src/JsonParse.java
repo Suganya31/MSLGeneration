@@ -118,14 +118,16 @@ public class JsonParse {
 			authorId.addAll(authorIdList);
 			Set<String> authorNames = new HashSet<String>();
 			authorNames.addAll(authorNamesList);
+			
 			/*
-			 * System.out.println("te size of authoridlis"+authorIdList.size());
-			 * System.out.println("the size of authoridset"+authorId.size());
+			 * System.out.println("te size of authoridlis"+authorNames);
+			 * System.out.println("the size of authoridset"+authorId);
 			 */
+			 
 			paper.setAuthors(authorId);
 
-			Iterator<String> itr = authorId.iterator();
-			Iterator<String> itr1 = authorNames.iterator();
+			Iterator<String> itr = authorIdList.iterator();
+			Iterator<String> itr1 = authorNamesList.iterator();
 
 			while (itr.hasNext() && itr1.hasNext()) {
 				{
@@ -151,8 +153,11 @@ public class JsonParse {
 		PapersPojo.venues_global=venues_global;
 
 		//dummypaperids.removeAll(paperids);
-		
-		//System.out.println("size of ummy paper ids"+dummypaperids.size());
+		/*
+		 * System.out.println(core); System.out.println(id_to_authors_global);
+		 * System.out.println("size of id_to_authors_global ids"+id_to_authors_global.
+		 * size());
+		 */
 	//	PapersPojo.dummypaperids=dummypaperids;
 		
 		jp.close();
