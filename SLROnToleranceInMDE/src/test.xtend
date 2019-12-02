@@ -86,10 +86,10 @@ class test {
 		
 		''' 
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Authors.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Authors.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Venues.msl"
 	«FOR paper : papers»
-	«IF(paper.getYear !== year) && !years.contains(paper.getYear)»	
+	«IF(paper.getYear < year) && !years.contains(paper.getYear)»	
 			      «{years.add(paper.getYear); "" }»
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper«paper.getYear.toString()».msl"
           «ENDIF»          
