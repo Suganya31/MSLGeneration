@@ -114,17 +114,17 @@ public class JsonParse {
 			List<String> authorIdList = authors.findValuesAsText("id");
 			List<String> authorNamesList = authors.findValuesAsText("name");
 
-			Set<String> authorId = new HashSet<String>();
-			authorId.addAll(authorIdList);
-			Set<String> authorNames = new HashSet<String>();
-			authorNames.addAll(authorNamesList);
-			
+			/*
+			 * Set<String> authorId = new HashSet<String>(); authorId.addAll(authorIdList);
+			 * Set<String> authorNames = new HashSet<String>();
+			 * authorNames.addAll(authorNamesList);
+			 */
 			/*
 			 * System.out.println("te size of authoridlis"+authorNames);
 			 * System.out.println("the size of authoridset"+authorId);
 			 */
 			 
-			paper.setAuthors(authorId);
+		//	paper.setAuthors(authorId);
 
 			Iterator<String> itr = authorIdList.iterator();
 			Iterator<String> itr1 = authorNamesList.iterator();
@@ -133,8 +133,11 @@ public class JsonParse {
 				{
 					String key = itr.next();
 					String value = itr1.next();
+					if(!id_to_authors_global.containsKey(key))
+					{
 					id_to_authors_global.put(key, value);
 					id_to_authors.put(key, value);
+					}
 
 				}
 			}
@@ -146,8 +149,8 @@ public class JsonParse {
 
 		}
 		Set<String> existing = new HashSet<>();
-		id_to_authors_global = id_to_authors_global.entrySet().stream().filter(entry -> existing.add(entry.getValue()))
-				.collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+	//	id_to_authors_global = id_to_authors_global.entrySet().stream().filter(entry -> existing.add(entry.getValue()))
+			//	.collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
 		PapersPojo.id_to_authors_global = id_to_authors_global;
 		PapersPojo.poolids=paperids;
 		PapersPojo.venues_global=venues_global;
