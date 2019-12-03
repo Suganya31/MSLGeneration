@@ -1,17 +1,13 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Venues.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1941.msl"
  	
 model Paper1962{
 	paper2057361103:Paper {
                 .title : "A machine program for theoremproving"
             	.year : 1962
             	.core : false
-            	-venue->venue429
-            	-authors->author290533546
-            	-authors->author2612977855
-            	-authors->author1993200149
+            	-venue->venue291
             }
 }
 

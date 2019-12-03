@@ -1,61 +1,43 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Venues.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1941.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1974.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1962.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
  	
 model Paper1976{
 	paper1964727056:Paper {
                 .title : "An axiomatic proof technique for parallel programs I"
             	.year : 1976
             	.core : false
-            	-venue->venue264
-            	-cites->paper2111706174
-            	-authors->author1980295760
-            	-authors->author2019529423
+            	-venue->venue263
             }
 	paper1987377478:Paper {
                 .title : "Operating System Structures to Support Security and Reliable Software"
             	.year : 1976
             	.core : false
-            	-venue->venue329
-            	-authors->author2134703145
+            	-venue->venue274
             }
 	paper2006210705:Paper {
                 .title : "Software requirements Are they really a problem"
             	.year : 1976
             	.core : false
-            	-venue->venue367
-            	-authors->author2122419160
-            	-authors->author2720701543
+            	-venue->venue24
             }
 	paper2047924755:Paper {
                 .title : "Fault Tolerant Operating Systems"
             	.year : 1976
             	.core : false
-            	-venue->venue420
-            	-cites->paper2033656974
-            	-cites->paper2133201251
-            	-authors->author2069086639
+            	-venue->venue274
             }
 	paper2101465039:Paper {
                 .title : "An authorization mechanism for a relational database system"
             	.year : 1976
             	.core : false
-            	-venue->venue482
-            	-authors->author1996950012
-            	-authors->author2118727759
+            	-venue->venue320
             }
 	paper2103953153:Paper {
                 .title : "A Discipline of Programming"
             	.year : 1976
             	.core : false
-            	-venue->venue490
-            	-authors->author2137842401
+            	-venue->venue81
             }
 }
 

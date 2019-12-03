@@ -1,51 +1,37 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Venues.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1976.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1941.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1974.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1962.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
  	
 model Paper1977{
 	paper139399048:Paper {
                 .title : "Analytical Modelling of the Reliability of a FaultTolerant ComputerCopra"
             	.year : 1977
             	.core : true
-            	-venue->venue64
-            	-authors->author2712196989
-            	-authors->author353621765
+            	-venue->venue63
             }
 	paper1990224665:Paper {
                 .title : "Measurements of sharing in Multics"
             	.year : 1977
             	.core : false
-            	-venue->venue333
-            	-authors->author1988746949
+            	-venue->venue21
             }
 	paper2031032746:Paper {
                 .title : "Physical integrity in a large segmented database"
             	.year : 1977
             	.core : false
-            	-venue->venue402
-            	-authors->author2255242933
+            	-venue->venue320
             }
 	paper2132334337:Paper {
                 .title : "Proving the Correctness of Multiprocess Programs"
             	.year : 1977
             	.core : false
-            	-venue->venue553
-            	-cites->paper1964727056
-            	-authors->author2096750770
+            	-venue->venue281
             }
 	paper2157598146:Paper {
                 .title : "Viewing Control Structures as Patterns of Passing Messages"
             	.year : 1977
             	.core : false
-            	-venue->venue589
-            	-authors->author2102047142
+            	-venue->venue457
             }
 }
 

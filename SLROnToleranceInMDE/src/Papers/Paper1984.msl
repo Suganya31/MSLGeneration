@@ -1,65 +1,37 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Venues.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1982.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1983.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1976.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1978.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1980.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1941.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1974.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1979.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1962.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
  	
 model Paper1984{
 	paper2013498813:Paper {
                 .title : "Dependability Evaluation of Software Systems in Operation"
             	.year : 1984
             	.core : false
-            	-venue->venue380
-            	-cites->paper2133201251
-            	-authors->author2028127229
+            	-venue->venue281
             }
 	paper2098395122:Paper {
                 .title : "Dependency Satisfaction in Databases with Incomplete Information"
             	.year : 1984
             	.core : false
-            	-venue->venue472
-            	-authors->author2798485874
+            	-venue->venue110
             }
 	paper2125011947:Paper {
                 .title : "Efficient solutions to the replicated log and dictionary problems"
             	.year : 1984
             	.core : false
-            	-venue->venue539
-            	-cites->paper1973501242
-            	-cites->paper2110765100
-            	-cites->paper2120510885
-            	-authors->author2671824214
-            	-authors->author2209989846
+            	-venue->venue309
             }
 	paper2293624369:Paper {
                 .title : "Program Slicing"
             	.year : 1984
             	.core : false
-            	-venue->venue614
-            	-authors->author2475447149
+            	-venue->venue281
             }
 	paper2405753531:Paper {
                 .title : "On the Formal Definition of a PLI Subset Selected parts"
             	.year : 1984
             	.core : false
-            	-venue->venue629
-            	-authors->author2142468959
-            	-authors->author54991345
-            	-authors->author2050333342
-            	-authors->author1250572247
-            	-authors->author2172259534
+            	-venue->venue628
             }
 }
 

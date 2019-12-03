@@ -1,48 +1,31 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Venues.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1976.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1978.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1941.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1974.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1962.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
  	
 model Paper1979{
 	paper2054739713:Paper {
                 .title : "How to Make a Multiprocessor Computer That Correctly Executes Multiprocess Programs"
             	.year : 1979
             	.core : false
-            	-venue->venue427
-            	-cites->paper2132334337
-            	-authors->author2223936326
+            	-venue->venue262
             }
 	paper2059109315:Paper {
                 .title : "The recognition of Series Parallel digraphs"
             	.year : 1979
             	.core : false
-            	-venue->venue431
-            	-authors->author350567680
-            	-authors->author2444474037
-            	-authors->author2161825852
+            	-venue->venue389
             }
 	paper2107232214:Paper {
                 .title : "Designing Software for Ease of Extension and Contraction"
             	.year : 1979
             	.core : false
-            	-venue->venue494
-            	-authors->author88694571
+            	-venue->venue281
             }
 	paper2110765100:Paper {
                 .title : "A Majority consensus approach to concurrency control for multiple copy databases"
             	.year : 1979
             	.core : false
-            	-venue->venue506
-            	-cites->paper1973501242
-            	-authors->author2168273423
+            	-venue->venue320
             }
 }
 

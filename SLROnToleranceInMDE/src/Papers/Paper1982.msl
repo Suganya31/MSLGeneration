@@ -1,79 +1,49 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Venues.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1976.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1978.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1980.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1941.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1974.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1979.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1962.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
  	
 model Paper1982{
 	paper156767209:Paper {
                 .title : "Epigrams on Programming"
             	.year : 1982
             	.core : false
-            	-venue->venue182
-            	-authors->author2659867364
+            	-venue->venue181
             }
 	paper1985495277:Paper {
                 .title : "The Recognition of Series Parallel Digraphs"
             	.year : 1982
             	.core : false
-            	-venue->venue324
-            	-authors->author350567680
-            	-authors->author2444474037
-            	-authors->author2161825852
+            	-venue->venue323
             }
 	paper2043671329:Paper {
                 .title : "Grapevine an exercise in distributed computing"
             	.year : 1982
             	.core : false
-            	-venue->venue418
-            	-authors->author2153103727
-            	-authors->author2470914381
-            	-authors->author2104187752
-            	-authors->author2467977717
+            	-venue->venue291
             }
 	paper2099805467:Paper {
                 .title : "Logic for improving integrity checking in relational data bases"
             	.year : 1982
             	.core : false
-            	-venue->venue476
-            	-cites->paper2103920867
-            	-authors->author2288386885
+            	-venue->venue263
             }
 	paper2116502002:Paper {
                 .title : "Rete a fast algorithm for the many patternmany object pattern match problem"
             	.year : 1982
             	.core : false
-            	-venue->venue518
-            	-authors->author555324291
+            	-venue->venue457
             }
 	paper2120510885:Paper {
                 .title : "The Byzantine Generals Problem"
             	.year : 1982
             	.core : false
-            	-venue->venue531
-            	-authors->author577326872
-            	-authors->author2096750770
-            	-authors->author2138566478
+            	-venue->venue379
             }
 	paper2127614394:Paper {
                 .title : "Capturing more world knowledge in the requirements specification"
             	.year : 1982
             	.core : false
-            	-venue->venue543
-            	-cites->paper2006210705
-            	-authors->author2100751788
-            	-authors->author2161153869
-            	-authors->author2052199646
+            	-venue->venue24
             }
 }
 

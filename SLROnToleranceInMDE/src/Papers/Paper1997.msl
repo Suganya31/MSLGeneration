@@ -1,531 +1,247 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Venues.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1989.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1990.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1992.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1991.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1995.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1986.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1987.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1988.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1993.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1982.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1983.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1976.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1978.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1980.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1941.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1984.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1974.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1979.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1962.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
  	
 model Paper1997{
 	paper1565432667:Paper {
                 .title : "Model Checking and Fault Tolerance"
             	.year : 1997
             	.core : true
-            	-venue->venue8
-            	-cites->paper199365300
-            	-cites->paper1507985299
-            	-cites->paper1515774215
-            	-cites->paper1529897089
-            	-cites->paper1534067655
-            	-cites->paper1593276140
-            	-cites->paper1966112122
-            	-cites->paper1984478483
-            	-cites->paper1999706742
-            	-cites->paper2015640848
-            	-cites->paper2033579026
-            	-cites->paper2036677122
-            	-cites->paper2152465173
-            	-authors->author2218276577
-            	-authors->author2764259235
+            	-venue->venue7
             }
 	paper2001803004:Paper {
                 .title : "Flexible update propagation for weakly consistent replication"
             	.year : 1997
             	.core : true
-            	-venue->venue22
-            	-cites->paper1525865893
-            	-cites->paper1586701723
-            	-cites->paper1973501242
-            	-cites->paper1980446225
-            	-cites->paper2009312542
-            	-cites->paper2032325066
-            	-cites->paper2038562061
-            	-cites->paper2043671329
-            	-cites->paper2059328141
-            	-cites->paper2087668037
-            	-cites->paper2111586962
-            	-cites->paper2116142433
-            	-cites->paper2117260615
-            	-cites->paper2123737479
-            	-cites->paper2124074197
-            	-cites->paper2125011947
-            	-cites->paper2125930899
-            	-cites->paper2131414602
-            	-cites->paper2156027558
-            	-authors->author2795421043
-            	-authors->author2894459299
-            	-authors->author2778312396
-            	-authors->author702877471
-            	-authors->author2642007365
+            	-venue->venue21
             }
 	paper1512007370:Paper {
                 .title : "Algebraic approaches to graph transformation Part I basic concepts and double pushout approach"
             	.year : 1997
             	.core : false
-            	-venue->venue132
-            	-authors->author1978340988
-            	-authors->author1970207042
-            	-authors->author692045707
-            	-authors->author2111814098
-            	-authors->author2024647070
-            	-authors->author2804473765
+            	-venue->venue131
             }
 	paper1556421367:Paper {
                 .title : "A Framework for ArgumentationBased Negotiation"
             	.year : 1997
             	.core : false
-            	-venue->venue171
-            	-authors->author2798833447
-            	-authors->author2112978975
-            	-authors->author2090799868
-            	-authors->author2115869250
+            	-venue->venue170
             }
 	paper1559179949:Paper {
                 .title : "Viewpoints principles problems and a practical approach to requirements engineering"
             	.year : 1997
             	.core : false
-            	-venue->venue173
-            	-cites->paper2044301784
-            	-cites->paper2046795207
-            	-cites->paper2099293367
-            	-cites->paper2105603754
-            	-cites->paper2135920852
-            	-authors->author2133238635
-            	-authors->author2575001383
+            	-venue->venue172
             }
 	paper1561929444:Paper {
                 .title : "Reconciling requirements a method for managing interference inconsistency and conflict"
             	.year : 1997
             	.core : false
-            	-venue->venue176
-            	-cites->paper1968128450
-            	-cites->paper1979290877
-            	-cites->paper2044301784
-            	-cites->paper2079814255
-            	-cites->paper2105603754
-            	-cites->paper2117870171
-            	-cites->paper2139907081
-            	-authors->author45285231
-            	-authors->author53224742
+            	-venue->venue172
             }
 	paper1589122423:Paper {
                 .title : "Building Secure and Reliable Network Applications"
             	.year : 1997
             	.core : false
-            	-venue->venue199
-            	-cites->paper1515932031
-            	-cites->paper1537146784
-            	-cites->paper1545155892
-            	-cites->paper1967141605
-            	-cites->paper1973501242
-            	-cites->paper1980446225
-            	-cites->paper1992554067
-            	-cites->paper2005216655
-            	-cites->paper2005373714
-            	-cites->paper2049913483
-            	-cites->paper2059328141
-            	-cites->paper2095343473
-            	-cites->paper2101939036
-            	-cites->paper2110765100
-            	-cites->paper2111223826
-            	-cites->paper2115600841
-            	-cites->paper2117260615
-            	-cites->paper2122960384
-            	-cites->paper2130493426
-            	-cites->paper2131929623
-            	-cites->paper2170314424
-            	-authors->author2094398115
+            	-venue->venue93
             }
 	paper1591471358:Paper {
                 .title : "Featureoriented programming A fresh look at objects"
             	.year : 1997
             	.core : false
-            	-venue->venue200
-            	-cites->paper2045723688
-            	-cites->paper2611598995
-            	-authors->author225899705
+            	-venue->venue182
             }
 	paper1660992747:Paper {
                 .title : "Composable Semantic Models for Actor Theories"
             	.year : 1997
             	.core : false
-            	-venue->venue213
-            	-cites->paper2098830227
-            	-cites->paper2157598146
-            	-authors->author661662328
+            	-venue->venue212
             }
 	paper1966151719:Paper {
                 .title : "Using speculative retirement and larger instruction windows to narrow the performance gap between memory consistency models"
             	.year : 1997
             	.core : false
-            	-venue->venue270
-            	-cites->paper1885534640
-            	-cites->paper2054739713
-            	-cites->paper2096956970
-            	-cites->paper2145021036
-            	-cites->paper2176864362
-            	-cites->paper2611796265
-            	-authors->author2129780294
-            	-authors->author2408455160
-            	-authors->author2346116799
+            	-venue->venue269
             }
 	paper1972316716:Paper {
                 .title : "The relyguarantee method for verifying shared variable concurrent programs"
             	.year : 1997
             	.core : false
-            	-venue->venue288
-            	-cites->paper115884782
-            	-cites->paper199947708
-            	-cites->paper1964727056
-            	-cites->paper2015688007
-            	-cites->paper2075350371
-            	-authors->author2687496029
-            	-authors->author2405698292
-            	-authors->author2615339777
+            	-venue->venue287
             }
 	paper1972544179:Paper {
                 .title : "Eraser a dynamic data race detector for multithreaded programs"
             	.year : 1997
             	.core : false
-            	-venue->venue289
-            	-cites->paper1973501242
-            	-authors->author2302774460
-            	-authors->author2683979819
-            	-authors->author2606658143
-            	-authors->author2148869393
-            	-authors->author2171030022
+            	-venue->venue288
             }
 	paper1986463648:Paper {
                 .title : "Testing Shared Memories"
             	.year : 1997
             	.core : false
-            	-venue->venue328
-            	-cites->paper1545792627
-            	-cites->paper1885534640
-            	-cites->paper1975840504
-            	-cites->paper2039509099
-            	-cites->paper2054739713
-            	-cites->paper2101939036
-            	-cites->paper2114925953
-            	-cites->paper2137650676
-            	-cites->paper2176864362
-            	-authors->author2144092273
-            	-authors->author712891809
+            	-venue->venue323
             }
 	paper2013021588:Paper {
                 .title : "Practical implementations of nonblocking synchronization primitives"
             	.year : 1997
             	.core : false
-            	-venue->venue379
-            	-cites->paper2101939036
-            	-authors->author2648964153
+            	-venue->venue309
             }
 	paper2016323637:Paper {
                 .title : "Eraser a dynamic data race detector for multithreaded programs"
             	.year : 1997
             	.core : false
-            	-venue->venue385
-            	-cites->paper1973501242
-            	-authors->author2302774460
-            	-authors->author2683979819
-            	-authors->author2606658143
-            	-authors->author2148869393
-            	-authors->author2171030022
+            	-venue->venue21
             }
 	paper2020765652:Paper {
                 .title : "Consistent hashing and random trees distributed caching protocols for relieving hot spots on the World Wide Web"
             	.year : 1997
             	.core : false
-            	-venue->venue390
-            	-authors->author1923488504
-            	-authors->author2140517101
-            	-authors->author2149310137
-            	-authors->author2128744112
-            	-authors->author2305153757
-            	-authors->author2425148897
+            	-venue->venue389
             }
 	paper2024400846:Paper {
                 .title : "ProbView a flexible probabilistic database system"
             	.year : 1997
             	.core : false
-            	-venue->venue394
-            	-authors->author2434752702
-            	-authors->author2144311208
-            	-authors->author2261167843
-            	-authors->author2289816208
+            	-venue->venue320
             }
 	paper2065675749:Paper {
                 .title : "Model checking for programming languages using VeriSoft"
             	.year : 1997
             	.core : false
-            	-venue->venue441
-            	-cites->paper1491178396
-            	-cites->paper1568729458
-            	-cites->paper2132334337
-            	-authors->author2634395717
+            	-venue->venue39
             }
 	paper2067293385:Paper {
                 .title : "Building adaptive systems using ensemble"
             	.year : 1997
             	.core : false
-            	-venue->venue442
-            	-authors->author2109217526
-            	-authors->author2094398115
-            	-authors->author2096387634
-            	-authors->author2012157957
-            	-authors->author2142553426
+            	-venue->venue343
             }
 	paper2081518875:Paper {
                 .title : "A Combined Reference Model and ViewBased Approach to System Specification"
             	.year : 1997
             	.core : false
-            	-venue->venue453
-            	-authors->author1978340988
-            	-authors->author692045707
-            	-authors->author2136680303
-            	-authors->author1978163079
+            	-venue->venue260
             }
 	paper2082204982:Paper {
                 .title : "Classification of research efforts in requirements engineering"
             	.year : 1997
             	.core : false
-            	-venue->venue453
-            	-cites->paper1979290877
-            	-cites->paper2017739343
-            	-cites->paper2105603754
-            	-cites->paper2125708466
-            	-cites->paper2146191617
-            	-cites->paper2162255975
-            	-authors->author248253975
+            	-venue->venue274
             }
 	paper2082673250:Paper {
                 .title : "Defining and Parsing Visual Languages with Layered Graph Grammars"
             	.year : 1997
             	.core : false
-            	-venue->venue455
-            	-authors->author675269377
-            	-authors->author2869860792
+            	-venue->venue454
             }
 	paper2098830227:Paper {
                 .title : "A foundation for actor computation"
             	.year : 1997
             	.core : false
-            	-venue->venue474
-            	-cites->paper2110425399
-            	-cites->paper2157598146
-            	-authors->author2113752898
-            	-authors->author2001880323
-            	-authors->author2161553928
-            	-authors->author661662328
+            	-venue->venue473
             }
 	paper2102630435:Paper {
                 .title : "From singleuser architectural design to PAC a generic software architecture model for CSCW"
             	.year : 1997
             	.core : false
-            	-venue->venue485
-            	-cites->paper1587166076
-            	-authors->author2780288993
-            	-authors->author2090293500
-            	-authors->author2117687719
+            	-venue->venue313
             }
 	paper2111817346:Paper {
                 .title : "Building diverse computer systems"
             	.year : 1997
             	.core : false
-            	-venue->venue510
-            	-authors->author1989101323
-            	-authors->author2159603389
-            	-authors->author2072050358
+            	-venue->venue509
             }
 	paper2113435553:Paper {
                 .title : "Four dark corners of requirements engineering"
             	.year : 1997
             	.core : false
-            	-venue->venue511
-            	-cites->paper1970495662
-            	-cites->paper1979290877
-            	-cites->paper1984478483
-            	-cites->paper2017739343
-            	-cites->paper2110425399
-            	-cites->paper2170486381
-            	-authors->author248253975
-            	-authors->author2761218531
+            	-venue->venue275
             }
 	paper2115309705:Paper {
                 .title : "The model checker SPIN"
             	.year : 1997
             	.core : false
-            	-venue->venue515
-            	-cites->paper1568729458
-            	-authors->author2028047182
+            	-venue->venue514
             }
 	paper2115534035:Paper {
                 .title : "Assessing the benefits of incorporating function clone detection in a development process"
             	.year : 1997
             	.core : false
-            	-venue->venue516
-            	-cites->paper1698439592
-            	-cites->paper2109943392
-            	-authors->author2107216203
-            	-authors->author2549072213
-            	-authors->author1250229194
-            	-authors->author1969675090
-            	-authors->author2009696330
+            	-venue->venue217
             }
 	paper2124080036:Paper {
                 .title : "TaskBased Authorization Controls TBAC A Family of Models for Active and EnterpriseOriented Autorization Management"
             	.year : 1997
             	.core : false
-            	-venue->venue537
-            	-authors->author2630285617
-            	-authors->author1996714504
+            	-venue->venue536
             }
 	paper2135764410:Paper {
                 .title : "Good errorcorrecting codes based on very sparse matrices"
             	.year : 1997
             	.core : false
-            	-venue->venue556
-            	-authors->author2401920469
+            	-venue->venue555
             }
 	paper2142391126:Paper {
                 .title : "RAID performance with distributed sparing"
             	.year : 1997
             	.core : false
-            	-venue->venue567
-            	-authors->author1612423762
-            	-authors->author2053935359
+            	-venue->venue396
             }
 	paper2146483864:Paper {
                 .title : "Evaluation experiments on the detection of programming patterns using software metrics"
             	.year : 1997
             	.core : false
-            	-venue->venue570
-            	-cites->paper1698439592
-            	-cites->paper2109943392
-            	-authors->author689229069
+            	-venue->venue2
             }
 	paper2147454307:Paper {
                 .title : "Analysing inconsistent specifications"
             	.year : 1997
             	.core : false
-            	-venue->venue574
-            	-cites->paper1968128450
-            	-cites->paper1979290877
-            	-cites->paper2105603754
-            	-cites->paper2117870171
-            	-cites->paper2135920852
-            	-authors->author2207023792
-            	-authors->author2105909224
+            	-venue->venue251
             }
 	paper2154897437:Paper {
                 .title : "Software unit test coverage and adequacy"
             	.year : 1997
             	.core : false
-            	-venue->venue584
-            	-cites->paper2051374949
-            	-authors->author2607615413
-            	-authors->author2097762839
-            	-authors->author2806086439
+            	-venue->venue274
             }
 	paper2155445882:Paper {
                 .title : "Incorporating code coverage in the reliability estimation for faulttolerant software"
             	.year : 1997
             	.core : false
-            	-venue->venue584
-            	-cites->paper1999823724
-            	-cites->paper2097719961
-            	-cites->paper2133201251
-            	-cites->paper2152228029
-            	-authors->author2893218381
-            	-authors->author2227744130
-            	-authors->author2517004145
+            	-venue->venue218
             }
 	paper2157437711:Paper {
                 .title : "Towards modelling and reasoning support for earlyphase requirements engineering"
             	.year : 1997
             	.core : false
-            	-venue->venue589
-            	-cites->paper2017739343
-            	-cites->paper2079814255
-            	-cites->paper2105603754
-            	-cites->paper2115904912
-            	-cites->paper2120808515
-            	-cites->paper2127614394
-            	-authors->author2159496315
+            	-venue->venue251
             }
 	paper2159890891:Paper {
                 .title : "Application performance and flexibility on exokernel systems"
             	.year : 1997
             	.core : false
-            	-venue->venue590
-            	-cites->paper2122960384
-            	-cites->paper2171352284
-            	-authors->author2284719303
-            	-authors->author1236375804
-            	-authors->author2267528121
-            	-authors->author2164693876
-            	-authors->author2203489810
-            	-authors->author378983930
-            	-authors->author2344198099
-            	-authors->author2163716051
-            	-authors->author292459508
-            	-authors->author2791808
+            	-venue->venue21
             }
 	paper2166158789:Paper {
                 .title : "Enriching Software Process Support by KnowledgeBased Techniques"
             	.year : 1997
             	.core : false
-            	-venue->venue599
-            	-authors->author2095595419
-            	-authors->author2620946481
-            	-authors->author2022293652
-            	-authors->author2122066335
+            	-venue->venue260
             }
 	paper2169832991:Paper {
                 .title : "How to make a correct multiprocess program execute correctly on a multiprocessor"
             	.year : 1997
             	.core : false
-            	-venue->venue600
-            	-cites->paper2054739713
-            	-cites->paper2118891797
-            	-cites->paper2132334337
-            	-cites->paper2176864362
-            	-authors->author2096750770
+            	-venue->venue262
             }
 	paper2604369079:Paper {
                 .title : "Random constraint satisfaction a more accurate picture"
             	.year : 1997
             	.core : false
-            	-venue->venue651
-            	-authors->author180708131
-            	-authors->author1973008803
-            	-authors->author324519408
-            	-authors->author2777907813
-            	-authors->author373819734
-            	-authors->author2205407114
+            	-venue->venue4
             }
 }
 

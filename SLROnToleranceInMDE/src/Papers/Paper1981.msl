@@ -1,63 +1,43 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Venues.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1976.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1978.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1980.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1941.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1974.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1979.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1962.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
  	
 model Paper1981{
 	paper115884782:Paper {
                 .title : "Development methods for computer programs including a notion of interference"
             	.year : 1981
             	.core : false
-            	-venue->venue82
-            	-authors->author2142468959
+            	-venue->venue81
             }
 	paper2036267700:Paper {
                 .title : "Myths about the mutual exclusion problem"
             	.year : 1981
             	.core : false
-            	-venue->venue405
-            	-authors->author2170204233
+            	-venue->venue404
             }
 	paper2049514605:Paper {
                 .title : "Corrigendum Soundness and Completeness of an Axiom System for Program Verification"
             	.year : 1981
             	.core : false
-            	-venue->venue423
-            	-authors->author2098910421
+            	-venue->venue323
             }
 	paper2133386065:Paper {
                 .title : "On optimistic methods for concurrency control"
             	.year : 1981
             	.core : false
-            	-venue->venue553
-            	-cites->paper2106887953
-            	-authors->author2573500036
-            	-authors->author2440187956
+            	-venue->venue320
             }
 	paper2143049370:Paper {
                 .title : "Formal Models for Computer Security"
             	.year : 1981
             	.core : false
-            	-venue->venue567
-            	-cites->paper2111706174
-            	-authors->author2079317943
+            	-venue->venue274
             }
 	paper2147543351:Paper {
                 .title : "The Science of Programming"
             	.year : 1981
             	.core : false
-            	-venue->venue574
-            	-authors->author1980295760
+            	-venue->venue81
             }
 }
 

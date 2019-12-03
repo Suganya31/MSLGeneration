@@ -2,2552 +2,2084 @@ import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 
 model AllVenues {
 	
-            venue1:Venue {
-            	.Name : "international conference on computer safety reliability and security"
-            }
-	
-            venue2:Venue {
-            	.Name : "working conference on reverse engineering"
-            }
-	
-            venue3:Venue {
-            	.Name : "fundamental approaches to software engineering"
-            }
-	
-            venue4:Venue {
-            	.Name : "principles and practice of constraint programming"
-            }
-	
-            venue5:Venue {
-            	.Name : "runtime verification"
-            }
-	
-            venue6:Venue {
-            	.Name : "european symposium on research in computer security"
-            }
-	
-            venue7:Venue {
-            	.Name : "algebraic methodology and software technology"
-            }
-	
-            venue8:Venue {
-            	.Name : "model driven engineering languages and systems"
-            }
-	
-            venue9:Venue {
-            	.Name : "dependable systems and networks"
-            }
-	
-            venue10:Venue {
-            	.Name : "tools and algorithms for construction and analysis of systems"
-            }
-	
-            venue11:Venue {
-            	.Name : "tests and proofs"
-            }
-	
-            venue12:Venue {
-            	.Name : "international symposium on software reliability engineering"
-            }
-	
-            venue13:Venue {
-            	.Name : "computer software and applications conference"
-            }
-	
-            venue14:Venue {
-            	.Name : "european conference on software architecture"
-            }
-	
-            venue15:Venue {
-            	.Name : "international conference on global software engineering"
-            }
-	
-            venue16:Venue {
-            	.Name : "international symposium on microarchitecture"
-            }
-	
-            venue17:Venue {
-            	.Name : "automated software engineering"
-            }
-	
-            venue18:Venue {
-            	.Name : "scalable trusted computing"
-            }
-	
-            venue19:Venue {
-            	.Name : "rapid system prototyping"
-            }
-	
-            venue20:Venue {
-            	.Name : "principles and practice of declarative programming"
-            }
-	
-            venue21:Venue {
-            	.Name : "symposium on operating systems principles"
-            }
-	
-            venue22:Venue {
-            	.Name : "international conference on software testing verification and validation"
-            }
-	
-            venue23:Venue {
-            	.Name : "Proceedings of the th International Workshop on Modeling in Software Engineering"
-            }
-	
-            venue24:Venue {
-            	.Name : "international conference on software engineering"
-            }
-	
-            venue25:Venue {
-            	.Name : "security of information and networks"
-            }
-	
-            venue26:Venue {
-            	.Name : "computational intelligence and security"
-            }
-	
-            venue27:Venue {
-            	.Name : "conference on software maintenance and reengineering"
-            }
-	
-            venue28:Venue {
-            	.Name : "international conference on information and communication security"
-            }
-	
-            venue29:Venue {
-            	.Name : "bioinformatics and bioengineering"
-            }
-	
-            venue30:Venue {
-            	.Name : "requirements engineering"
-            }
-	
-            venue31:Venue {
-            	.Name : "availability reliability and security"
-            }
-	
-            venue32:Venue {
-            	.Name : "ieee international conference on high performance computing data and analytics"
-            }
-	
-            venue33:Venue {
-            	.Name : "international symposium on computer architecture"
-            }
-	
-            venue34:Venue {
-            	.Name : "engineering interactive computing system"
-            }
-	
-            venue35:Venue {
-            	.Name : "ieee international conference on requirements engineering"
-            }
-	
-            venue36:Venue {
-            	.Name : "highassurance systems engineering"
-            }
-	
-            venue37:Venue {
-            	.Name : "high assurance systems engineering"
-            }
-	
-            venue38:Venue {
-            	.Name : "international conference on software and system process"
-            }
-	
-            venue39:Venue {
-            	.Name : "symposium on principles of programming languages"
-            }
-	
-            venue40:Venue {
-            	.Name : "theoretical aspects of software engineering"
-            }
-	
-            venue41:Venue {
-            	.Name : "asiapacific software engineering conference"
-            }
-	
-            venue42:Venue {
-            	.Name : "international conference on quality software"
-            }
-	
-            venue43:Venue {
-            	.Name : "international conference on software engineering advances"
-            }
-	
-            venue44:Venue {
-            	.Name : "annual software engineering workshop"
-            }
-	
-            venue45:Venue {
-            	.Name : "ABZ Proceedings of the Third international conference on Abstract State Machines Alloy B VDM and Z"
-            }
-	
-            venue46:Venue {
-            	.Name : "international conference on software testing verification and validation"
-            }
-	
-            venue47:Venue {
-            	.Name : "programming language design and implementation"
-            }
-	
-            venue48:Venue {
-            	.Name : "international workshop on security"
-            }
-	
-            venue49:Venue {
-            	.Name : "software engineering and knowledge engineering"
-            }
-	
-            venue50:Venue {
-            	.Name : "international on line testing symposium"
-            }
-	
-            venue51:Venue {
-            	.Name : "requirements engineering foundation for software quality"
-            }
-	
-            venue52:Venue {
-            	.Name : "international conference on model transformation"
-            }
-	
-            venue53:Venue {
-            	.Name : "international conference on software reuse"
-            }
-	
-            venue54:Venue {
-            	.Name : "automated technology for verification and analysis"
-            }
-	
-            venue55:Venue {
-            	.Name : "architectural support for programming languages and operating systems"
-            }
-	
-            venue56:Venue {
-            	.Name : "international online testing symposium"
-            }
-	
-            venue57:Venue {
-            	.Name : "software engineering research and applications"
-            }
-	
-            venue58:Venue {
-            	.Name : "international conference on computer safety reliability and security"
-            }
-	
-            venue59:Venue {
-            	.Name : "asian symposium on programming languages and systems"
-            }
-	
-            venue60:Venue {
-            	.Name : "international symposium on memory management"
-            }
-	
-            venue61:Venue {
-            	.Name : "international conference on evaluation of novel approaches to software engineering"
-            }
-	
-            venue62:Venue {
-            	.Name : "cryptographic hardware and embedded systems"
-            }
-	
-            venue63:Venue {
-            	.Name : "international symposium on computer modeling measurement and evaluation"
-            }
-	
-            venue64:Venue {
-            	.Name : "international software process workshop"
-            }
-	
-            venue65:Venue {
-            	.Name : "MODELS Satellite Events"
-            }
-	
-            venue66:Venue {
-            	.Name : "research challenges in information science"
-            }
-	
-            venue67:Venue {
-            	.Name : "th International Conference on Evaluation of Novel Software Approaches to Software Engineering"
-            }
-	
-            venue68:Venue {
-            	.Name : "International Conference on Evaluation and Assessment in Software Engineering"
-            }
-	
-            venue69:Venue {
-            	.Name : "International Conference on Software Engineering"
-            }
-	
-            venue70:Venue {
-            	.Name : "Architectural Support for Programming Languages and Operating Systems"
-            }
-	
-            venue71:Venue {
-            	.Name : "Tools and Algorithms for Construction and Analysis of Systems"
-            }
-	
-            venue72:Venue {
-            	.Name : "ACMSIGPLAN Conference on Programming Language Design and Implementation"
-            }
-	
-            venue73:Venue {
-            	.Name : "International Conference on Evaluation of Novel Approaches to Software Engineering"
-            }
-	
-            venue74:Venue {
-            	.Name : "International Symposium on Software Reliability Engineering"
-            }
-	
-            venue75:Venue {
-            	.Name : "Fundamental Approaches to Software Engineering"
-            }
-	
-            venue76:Venue {
-            	.Name : "International Conference on Software Engineering and Formal Methods"
-            }
-	
-            venue77:Venue {
-            	.Name : "computer aided verification"
-            }
-	
-            venue78:Venue {
-            	.Name : "Software and Systems Modeling"
-            }
-	
-            venue79:Venue {
-            	.Name : "operating systems design and implementation"
-            }
-	
-            venue80:Venue {
-            	.Name : "international conference on graph transformation"
-            }
-	
             venue81:Venue {
             	.Name : ""
-            }
-	
-            venue82:Venue {
-            	.Name : "file and storage technologies"
-            }
-	
-            venue83:Venue {
-            	.Name : "mathematics of program construction"
-            }
-	
-            venue84:Venue {
-            	.Name : "asiapacific web conference"
-            }
-	
-            venue85:Venue {
-            	.Name : "Encyclopedia of Database Systems"
-            }
-	
-            venue86:Venue {
-            	.Name : "quality of software architectures"
-            }
-	
-            venue87:Venue {
-            	.Name : "international conference on logic programming"
-            }
-	
-            venue88:Venue {
-            	.Name : "conference on management of data"
-            }
-	
-            venue89:Venue {
-            	.Name : "european conference on modelling foundations and applications"
-            }
-	
-            venue90:Venue {
-            	.Name : "Working Conference on Integrity and Internal Control in Information Systems"
-            }
-	
-            venue91:Venue {
-            	.Name : "international colloquium on automata languages and programming"
-            }
-	
-            venue92:Venue {
-            	.Name : "Quality of Protection"
-            }
-	
-            venue93:Venue {
-            	.Name : "Lecture Notes in Computer Science"
-            }
-	
-            venue94:Venue {
-            	.Name : "formal methods for open object based distributed systems"
-            }
-	
-            venue95:Venue {
-            	.Name : "international conference on information security and cryptology"
-            }
-	
-            venue96:Venue {
-            	.Name : "international semantic web conference"
-            }
-	
-            venue97:Venue {
-            	.Name : "european conference on object oriented programming"
-            }
-	
-            venue98:Venue {
-            	.Name : "workshop on graphtheoretic concepts in computer science"
-            }
-	
-            venue99:Venue {
-            	.Name : "formal methods"
-            }
-	
-            venue100:Venue {
-            	.Name : "software product lines"
-            }
-	
-            venue101:Venue {
-            	.Name : "Rigorous Methods for Software Construction and Analysis"
-            }
-	
-            venue102:Venue {
-            	.Name : "emerging technologies and factory automation"
-            }
-	
-            venue103:Venue {
-            	.Name : "international colloquium on automata languages and programming"
-            }
-	
-            venue104:Venue {
-            	.Name : "Proceedings of the  conference on Databases and Information Systems IV Selected Papers from the Seventh International Baltic Conference DBIS"
-            }
-	
-            venue105:Venue {
-            	.Name : "international conference on cryptology in india"
-            }
-	
-            venue106:Venue {
-            	.Name : "european software engineering conference"
-            }
-	
-            venue107:Venue {
-            	.Name : "international conference on reliable software technologies"
-            }
-	
-            venue108:Venue {
-            	.Name : "international conference on database theory"
-            }
-	
-            venue109:Venue {
-            	.Name : "international conference on entity relationship approach"
-            }
-	
-            venue110:Venue {
-            	.Name : "very large data bases"
-            }
-	
-            venue111:Venue {
-            	.Name : "FTRTFT  Proceedings of the th International Symposium on Formal Techniques in RealTime and FaultTolerant Systems"
-            }
-	
-            venue112:Venue {
-            	.Name : "international conference on principles of distributed systems"
-            }
-	
-            venue113:Venue {
-            	.Name : "international cryptology conference"
-            }
-	
-            venue114:Venue {
-            	.Name : "conference on current trends in theory and practice of informatics"
-            }
-	
-            venue115:Venue {
-            	.Name : "product focused software process improvement"
-            }
-	
-            venue116:Venue {
-            	.Name : "International Workshop on Applications of Graph Transformations with Industrial Relevance"
-            }
-	
-            venue117:Venue {
-            	.Name : "International Workshop on Software ProductFamily Engineering"
-            }
-	
-            venue118:Venue {
-            	.Name : "Das Proceedings of the fifteenth annual working conference on Database and application security"
-            }
-	
-            venue119:Venue {
-            	.Name : "conceptual modeling approaches for e business"
-            }
-	
-            venue120:Venue {
-            	.Name : "ieee computer society international conference"
-            }
-	
-            venue121:Venue {
-            	.Name : "workshop on recent trends in algebraic development techniques"
-            }
-	
-            venue122:Venue {
-            	.Name : "business process management"
-            }
-	
-            venue123:Venue {
-            	.Name : "technology of object oriented languages and systems"
-            }
-	
-            venue124:Venue {
-            	.Name : "arXiv Software Engineering"
-            }
-	
-            venue125:Venue {
-            	.Name : "international parallel processing symposium"
-            }
-	
-            venue126:Venue {
-            	.Name : "theory and application of cryptographic techniques"
-            }
-	
-            venue127:Venue {
-            	.Name : "fast software encryption"
-            }
-	
-            venue128:Venue {
-            	.Name : "international conference on modeldriven engineering and software development"
-            }
-	
-            venue129:Venue {
-            	.Name : "The Engineering of Mixed Reality Systems"
-            }
-	
-            venue130:Venue {
-            	.Name : "workshop on graph theoretic concepts in computer science"
-            }
-	
-            venue131:Venue {
-            	.Name : "Handbook of graph grammars and computing by graph transformation"
-            }
-	
-            venue132:Venue {
-            	.Name : "software engineering and formal methods"
-            }
-	
-            venue133:Venue {
-            	.Name : "business information systems"
-            }
-	
-            venue134:Venue {
-            	.Name : "international conference on coordination models and languages"
-            }
-	
-            venue135:Venue {
-            	.Name : "world computer congress on algorithms software architecture"
-            }
-	
-            venue136:Venue {
-            	.Name : "usenix annual technical conference"
-            }
-	
-            venue137:Venue {
-            	.Name : "international conference on conceptual modeling"
-            }
-	
-            venue138:Venue {
-            	.Name : "theorem proving in higher order logics"
-            }
-	
-            venue139:Venue {
-            	.Name : "USENIX Summer"
-            }
-	
-            venue140:Venue {
-            	.Name : "logicbased program synthesis and transformation"
-            }
-	
-            venue141:Venue {
-            	.Name : "colloquium on trees in algebra and programming"
-            }
-	
-            venue142:Venue {
-            	.Name : "rex workshop on stepwise refinement of distributed systems models formalisms correctness"
-            }
-	
-            venue143:Venue {
-            	.Name : "european conference on parallel processing"
-            }
-	
-            venue144:Venue {
-            	.Name : "nasa formal methods"
-            }
-	
-            venue145:Venue {
-            	.Name : "international syposium on methodologies for intelligent systems"
-            }
-	
-            venue146:Venue {
-            	.Name : "software language engineering"
-            }
-	
-            venue147:Venue {
-            	.Name : "Realtime Systems"
-            }
-	
-            venue148:Venue {
-            	.Name : "principles of knowledge representation and reasoning"
-            }
-	
-            venue149:Venue {
-            	.Name : "edbticdt workshops"
-            }
-	
-            venue150:Venue {
-            	.Name : "international symposium on distributed computing"
-            }
-	
-            venue151:Venue {
-            	.Name : "Applications of Graph Transformations with Industrial Relevance"
-            }
-	
-            venue152:Venue {
-            	.Name : "microprocessor test and verification"
-            }
-	
-            venue153:Venue {
-            	.Name : "Electronic Communication of The European Association of Software Science and Technology"
-            }
-	
-            venue154:Venue {
-            	.Name : "compiler construction"
-            }
-	
-            venue155:Venue {
-            	.Name : "systems man and cybernetics"
-            }
-	
-            venue156:Venue {
-            	.Name : "international conference on the theory and application of cryptology and information security"
-            }
-	
-            venue157:Venue {
-            	.Name : "european conference on model driven architecture foundations and applications"
-            }
-	
-            venue158:Venue {
-            	.Name : "Conceptual Modeling Foundations and Applications"
-            }
-	
-            venue159:Venue {
-            	.Name : "component based software engineering"
-            }
-	
-            venue160:Venue {
-            	.Name : "verified software theories tools experiments"
-            }
-	
-            venue161:Venue {
-            	.Name : "USENIX Winter"
-            }
-	
-            venue162:Venue {
-            	.Name : "international conference on formal engineering methods"
-            }
-	
-            venue163:Venue {
-            	.Name : "european symposium on programming"
-            }
-	
-            venue164:Venue {
-            	.Name : "ESEC"
-            }
-	
-            venue165:Venue {
-            	.Name : "cryptology and network security"
-            }
-	
-            venue166:Venue {
-            	.Name : "international symposium on objectcomponentserviceoriented realtime distributed computing"
-            }
-	
-            venue167:Venue {
-            	.Name : "conference on advanced information systems engineering"
-            }
-	
-            venue168:Venue {
-            	.Name : "logic based program synthesis and transformation"
-            }
-	
-            venue169:Venue {
-            	.Name : "dagstuhl seminar proceedings"
-            }
-	
-            venue170:Venue {
-            	.Name : "intelligent agents"
-            }
-	
-            venue171:Venue {
-            	.Name : "Coordination of Internet agents"
-            }
-	
-            venue172:Venue {
-            	.Name : "Annals of Software Engineering"
-            }
-	
-            venue173:Venue {
-            	.Name : "international workshop on model checking software"
-            }
-	
-            venue174:Venue {
-            	.Name : "Science  Engineering Faculty"
-            }
-	
-            venue175:Venue {
-            	.Name : "interactive theorem proving"
-            }
-	
-            venue176:Venue {
-            	.Name : "DBSec"
-            }
-	
-            venue177:Venue {
-            	.Name : "TAGT Selected papers from the th International Workshop on Theory and Application of Graph Transformations"
-            }
-	
-            venue178:Venue {
-            	.Name : "Fundamenta Informaticae"
-            }
-	
-            venue179:Venue {
-            	.Name : "Soft Computing"
-            }
-	
-            venue180:Venue {
-            	.Name : "international conference on move to meaningful internet systems"
-            }
-	
-            venue181:Venue {
-            	.Name : "Sigplan Notices"
-            }
-	
-            venue182:Venue {
-            	.Name : "european conference on objectoriented programming"
-            }
-	
-            venue183:Venue {
-            	.Name : "International Conference on Objects Components Models and Patterns"
-            }
-	
-            venue184:Venue {
-            	.Name : "Generative and Transformational Techniques in Software Engineering II"
-            }
-	
-            venue185:Venue {
-            	.Name : "formal techniques for networked and distributed systems"
-            }
-	
-            venue186:Venue {
-            	.Name : "network and distributed system security symposium"
-            }
-	
-            venue187:Venue {
-            	.Name : "ABZ  Proceedings of the th International Conference on Abstract State Machines Alloy B TLA VDM and Z  Volume "
-            }
-	
-            venue188:Venue {
-            	.Name : "humancomputer interaction with mobile devices and services"
-            }
-	
-            venue189:Venue {
-            	.Name : "Proceedings of the Fifth Annual Z User Meeting on Z User Workshop"
-            }
-	
-            venue190:Venue {
-            	.Name : "Advances in Computers"
-            }
-	
-            venue191:Venue {
-            	.Name : "ieee wic acm international conference on intelligent agent technology"
-            }
-	
-            venue192:Venue {
-            	.Name : "IEEE Microwave and Wireless Components Letters"
-            }
-	
-            venue193:Venue {
-            	.Name : "international conference on engineering secure software and systems"
-            }
-	
-            venue194:Venue {
-            	.Name : "information hiding"
-            }
-	
-            venue195:Venue {
-            	.Name : "european conference on artificial intelligence"
-            }
-	
-            venue196:Venue {
-            	.Name : "Behavioral Specifications of Businesses and Systems"
-            }
-	
-            venue197:Venue {
-            	.Name : "Computing Systems"
-            }
-	
-            venue198:Venue {
-            	.Name : "international conference on concurrency theory"
-            }
-	
-            venue199:Venue {
-            	.Name : "uncertainty in artificial intelligence"
-            }
-	
-            venue200:Venue {
-            	.Name : "networked systems design and implementation"
-            }
-	
-            venue201:Venue {
-            	.Name : "static analysis symposium"
-            }
-	
-            venue202:Venue {
-            	.Name : "ModelBased Testing of Reactive Systems"
-            }
-	
-            venue203:Venue {
-            	.Name : "CADUI"
-            }
-	
-            venue204:Venue {
-            	.Name : "btw workshops"
-            }
-	
-            venue205:Venue {
-            	.Name : "verification model checking and abstract interpretation"
-            }
-	
-            venue206:Venue {
-            	.Name : "IFIP World Conference on IT Tools"
-            }
-	
-            venue207:Venue {
-            	.Name : "aspect oriented software development"
-            }
-	
-            venue208:Venue {
-            	.Name : "international symposium on autonomous decentralized systems"
-            }
-	
-            venue209:Venue {
-            	.Name : "arXiv Programming Languages"
-            }
-	
-            venue210:Venue {
-            	.Name : "Higherorder and Symbolic Computation  Lisp and Symbolic Computation"
-            }
-	
-            venue211:Venue {
-            	.Name : "conference on automated deduction"
-            }
-	
-            venue212:Venue {
-            	.Name : "international symposium on theoretical aspects of computer software"
-            }
-	
-            venue213:Venue {
-            	.Name : "international conference on enterprise information systems"
-            }
-	
-            venue214:Venue {
-            	.Name : "ER"
-            }
-	
-            venue215:Venue {
-            	.Name : "Rewriting Computation and Proof Essays Dedicated to JeanPierre Jouannaud on the Occasion of His th Birthday "
-            }
-	
-            venue216:Venue {
-            	.Name : "Journal of Computer Security"
-            }
-	
-            venue217:Venue {
-            	.Name : "international conference on software maintenance"
-            }
-	
-            venue218:Venue {
-            	.Name : "symposium on reliable distributed systems"
-            }
-	
-            venue219:Venue {
-            	.Name : "symposium on vlsi circuits"
-            }
-	
-            venue220:Venue {
-            	.Name : "darpa information survivability conference and exposition"
-            }
-	
-            venue221:Venue {
-            	.Name : "JVM Proceedings of the  Symposium on JavaTM Virtual Machine Research and Technology Symposium  Volume "
-            }
-	
-            venue222:Venue {
-            	.Name : "usenix security symposium"
-            }
-	
-            venue223:Venue {
-            	.Name : "international conference on computational logistics"
-            }
-	
-            venue224:Venue {
-            	.Name : "Bulletin of The European Association for Theoretical Computer Science"
-            }
-	
-            venue225:Venue {
-            	.Name : "In  Encyclopedia of Database Systems Springer "
-            }
-	
-            venue226:Venue {
-            	.Name : "Expert Database Conf"
-            }
-	
-            venue227:Venue {
-            	.Name : "international conference on autonomic computing"
-            }
-	
-            venue228:Venue {
-            	.Name : "RFC"
-            }
-	
-            venue229:Venue {
-            	.Name : "arcs workshops"
-            }
-	
-            venue230:Venue {
-            	.Name : "european dependable computing conference"
-            }
-	
-            venue231:Venue {
-            	.Name : "TOOLS Proceedings of the th international conference on Objects models components patterns"
-            }
-	
-            venue232:Venue {
-            	.Name : "ieee computer security foundations symposium"
-            }
-	
-            venue233:Venue {
-            	.Name : "ABZ  Proceedings of the st international conference on Abstract State Machines B and Z"
-            }
-	
-            venue234:Venue {
-            	.Name : "international workshop on reachability problems"
-            }
-	
-            venue235:Venue {
-            	.Name : "FIDJI Proceedings of the th international conference on Scientific Engineering of Distributed Java Applications"
             }
 	
             venue236:Venue {
             	.Name : "foundations of information and knowledge systems"
             }
 	
-            venue237:Venue {
-            	.Name : "european conference on evolutionary computation in combinatorial optimization"
-            }
-	
-            venue238:Venue {
-            	.Name : "Journal of ComputerMediated Communication"
-            }
-	
-            venue239:Venue {
-            	.Name : "international conference on information security"
-            }
-	
-            venue240:Venue {
-            	.Name : "variability modelling of softwareintensive systems"
-            }
-	
-            venue241:Venue {
-            	.Name : "Software Testing Verification  Reliability"
-            }
-	
-            venue242:Venue {
-            	.Name : "ubiquitous computing"
-            }
-	
-            venue243:Venue {
-            	.Name : "international conference on parallel processing"
-            }
-	
-            venue244:Venue {
-            	.Name : "formal techniques for networked and distributed systems"
-            }
-	
-            venue245:Venue {
-            	.Name : "ieee international symposium on fault tolerant computing"
-            }
-	
-            venue246:Venue {
-            	.Name : "software engineering artificial intelligence networking and parallel distributed computing"
-            }
-	
-            venue247:Venue {
-            	.Name : "arXiv Operating Systems"
-            }
-	
-            venue248:Venue {
-            	.Name : "Foundations of deductive databases and logic programming"
-            }
-	
-            venue249:Venue {
-            	.Name : "ieee international software metrics symposium"
-            }
-	
-            venue250:Venue {
-            	.Name : "ieee international conference on cloud computing technology and science"
-            }
-	
-            venue251:Venue {
-            	.Name : "Requirements Engineering"
-            }
-	
-            venue252:Venue {
-            	.Name : "international conference on distributed computing systems"
-            }
-	
-            venue253:Venue {
-            	.Name : "knowledge acquisition modeling and management"
-            }
-	
-            venue254:Venue {
-            	.Name : "FATES Proceedings of the th international conference on Formal Approaches to Software Testing"
-            }
-	
-            venue255:Venue {
-            	.Name : "international spin conference on model checking software"
-            }
-	
-            venue256:Venue {
-            	.Name : "international conference on humancomputer interaction"
-            }
-	
-            venue257:Venue {
-            	.Name : "systems man and cybernetics"
-            }
-	
-            venue258:Venue {
-            	.Name : "arXiv Distributed Parallel and Cluster Computing"
-            }
-	
-            venue259:Venue {
-            	.Name : "Connection Science"
-            }
-	
-            venue260:Venue {
-            	.Name : "International Journal of Software Engineering and Knowledge Engineering"
-            }
-	
-            venue261:Venue {
-            	.Name : "ACM Transactions on Autonomous and Adaptive Systems"
-            }
-	
-            venue262:Venue {
-            	.Name : "IEEE Transactions on Computers"
-            }
-	
-            venue263:Venue {
-            	.Name : "Acta Informatica"
-            }
-	
-            venue264:Venue {
-            	.Name : "ACM Transactions on Storage"
-            }
-	
-            venue265:Venue {
-            	.Name : "formal methods for industrial critical systems"
-            }
-	
-            venue266:Venue {
-            	.Name : "aspectoriented software development"
-            }
-	
-            venue267:Venue {
-            	.Name : "Science of Computer Programming"
-            }
-	
-            venue268:Venue {
-            	.Name : "Journal of the ACM"
-            }
-	
-            venue269:Venue {
-            	.Name : "acm symposium on parallel algorithms and architectures"
-            }
-	
-            venue270:Venue {
-            	.Name : "EXPRESSSOS"
-            }
-	
-            venue271:Venue {
-            	.Name : "IEEE Internet Computing"
-            }
-	
-            venue272:Venue {
-            	.Name : "Reliability Engineering  System Safety"
-            }
-	
-            venue273:Venue {
-            	.Name : "IEEE Software"
-            }
-	
-            venue274:Venue {
-            	.Name : "ACM Computing Surveys"
-            }
-	
-            venue275:Venue {
-            	.Name : "ACM Transactions on Software Engineering and Methodology"
-            }
-	
-            venue276:Venue {
-            	.Name : "digital identity management"
-            }
-	
-            venue277:Venue {
-            	.Name : "Journal of Systems and Software"
-            }
-	
-            venue278:Venue {
-            	.Name : "IEEE Computer"
-            }
-	
-            venue279:Venue {
-            	.Name : "international symposium on software testing and analysis"
-            }
-	
-            venue280:Venue {
-            	.Name : "Journal of Logic Programming"
-            }
-	
-            venue281:Venue {
-            	.Name : "IEEE Transactions on Software Engineering"
-            }
-	
-            venue282:Venue {
-            	.Name : "International Journal of Humancomputer Studies  International Journal of Manmachine Studies"
-            }
-	
-            venue283:Venue {
-            	.Name : "Knowledge and Information Systems"
-            }
-	
-            venue284:Venue {
-            	.Name : "verified software theories tools experiments"
-            }
-	
-            venue285:Venue {
-            	.Name : "international conference on performance engineering"
-            }
-	
-            venue286:Venue {
-            	.Name : "ACM Sigsoft Software Engineering Notes"
-            }
-	
-            venue287:Venue {
-            	.Name : "Formal Aspects of Computing"
-            }
-	
-            venue288:Venue {
-            	.Name : "ACM Transactions on Computer Systems"
-            }
-	
-            venue289:Venue {
-            	.Name : "Empirical Software Engineering"
-            }
-	
-            venue290:Venue {
-            	.Name : "intelligent information systems"
-            }
-	
-            venue291:Venue {
-            	.Name : "Communications of The ACM"
-            }
-	
-            venue292:Venue {
-            	.Name : "workshops on enabling technologies infrastracture for collaborative enterprises"
-            }
-	
-            venue293:Venue {
-            	.Name : "Simulation Modelling Practice and Theory"
-            }
-	
-            venue294:Venue {
-            	.Name : "Cryptography and Communications"
-            }
-	
-            venue295:Venue {
-            	.Name : "workshop on program analysis for software tools and engineering"
-            }
-	
-            venue296:Venue {
-            	.Name : "IEEE Transactions on Professional Communication"
-            }
-	
-            venue297:Venue {
-            	.Name : "acm symposium on applied computing"
-            }
-	
-            venue298:Venue {
-            	.Name : "international conference on data engineering"
-            }
-	
-            venue299:Venue {
-            	.Name : "ACM Sigarch Computer Architecture News"
-            }
-	
-            venue300:Venue {
-            	.Name : "workshop on parallel  distributed debugging"
-            }
-	
-            venue301:Venue {
-            	.Name : "International Journal of Social Robotics"
-            }
-	
-            venue302:Venue {
-            	.Name : "IEE Proceedings  Software"
-            }
-	
-            venue303:Venue {
-            	.Name : "international symposium on performance analysis of systems and software"
-            }
-	
-            venue304:Venue {
-            	.Name : "highperformance computer architecture"
-            }
-	
-            venue305:Venue {
-            	.Name : "Computers  Security"
-            }
-	
-            venue306:Venue {
-            	.Name : "computer and communications security"
-            }
-	
-            venue307:Venue {
-            	.Name : "computer science and software engineering"
-            }
-	
-            venue308:Venue {
-            	.Name : "certified programs and proofs"
-            }
-	
-            venue309:Venue {
-            	.Name : "principles of distributed computing"
-            }
-	
-            venue310:Venue {
-            	.Name : "working ieeeifip conference on software architecture"
-            }
-	
-            venue311:Venue {
-            	.Name : "IEEE Transactions on ComputerAided Design of Integrated Circuits and Systems"
-            }
-	
-            venue312:Venue {
-            	.Name : "conference on object oriented programming systems languages and applications"
-            }
-	
-            venue313:Venue {
-            	.Name : "human factors in computing systems"
-            }
-	
-            venue314:Venue {
-            	.Name : "Knowledge Engineering Review"
-            }
-	
-            venue315:Venue {
-            	.Name : "IEEE Transactions on Robotics"
-            }
-	
-            venue316:Venue {
-            	.Name : "international conference on supercomputing"
-            }
-	
-            venue317:Venue {
-            	.Name : "Sigact News"
-            }
-	
-            venue318:Venue {
-            	.Name : "Distributed Computing"
-            }
-	
-            venue319:Venue {
-            	.Name : "symposium on software reusability"
-            }
-	
-            venue320:Venue {
-            	.Name : "ACM Transactions on Database Systems"
-            }
-	
-            venue321:Venue {
-            	.Name : "european conference on computer systems"
-            }
-	
-            venue322:Venue {
-            	.Name : "symposium on cloud computing"
-            }
-	
-            venue323:Venue {
-            	.Name : "SIAM Journal on Computing"
-            }
-	
-            venue324:Venue {
-            	.Name : "digital rights management"
-            }
-	
-            venue325:Venue {
-            	.Name : "The Journal of Object Technology"
-            }
-	
-            venue326:Venue {
-            	.Name : "New Generation Computing"
-            }
-	
-            venue327:Venue {
-            	.Name : "Computers  Chemical Engineering"
-            }
-	
-            venue328:Venue {
-            	.Name : "international conference on management of data"
-            }
-	
-            venue329:Venue {
-            	.Name : "MBT"
-            }
-	
-            venue330:Venue {
-            	.Name : "Journal of Network and Computer Applications"
-            }
-	
-            venue331:Venue {
-            	.Name : "Proceedings of the  ACM SIGPLAN Workshop on Memory Systems Performance and Correctness"
-            }
-	
-            venue332:Venue {
-            	.Name : "Electronic Notes in Theoretical Computer Science"
-            }
-	
-            venue333:Venue {
-            	.Name : "International Journal on Software Tools for Technology Transfer"
-            }
-	
-            venue334:Venue {
-            	.Name : "Journal of Database Management"
-            }
-	
-            venue335:Venue {
-            	.Name : "foundations of software engineering"
-            }
-	
-            venue336:Venue {
-            	.Name : "user interface software and technology"
-            }
-	
-            venue337:Venue {
-            	.Name : "Computer Networks"
-            }
-	
-            venue338:Venue {
-            	.Name : "Annals of Mathematics and Artificial Intelligence"
-            }
-	
-            venue339:Venue {
-            	.Name : "Software  Concepts and Tools  Structured Programming"
-            }
-	
-            venue340:Venue {
-            	.Name : "Journal of the Brazilian Computer Society"
-            }
-	
-            venue341:Venue {
-            	.Name : "Journal of Information Science"
-            }
-	
-            venue342:Venue {
-            	.Name : "European Journal of Control"
-            }
-	
-            venue343:Venue {
-            	.Name : "Software  Practice and Experience"
-            }
-	
-            venue344:Venue {
-            	.Name : "asian test symposium"
-            }
-	
-            venue345:Venue {
-            	.Name : "conference on objectoriented programming systems languages and applications"
-            }
-	
-            venue346:Venue {
-            	.Name : "Computer Systems Science  Engineering"
-            }
-	
-            venue347:Venue {
-            	.Name : "eclipse technology exchange"
-            }
-	
-            venue348:Venue {
-            	.Name : "Computer Communications"
-            }
-	
-            venue349:Venue {
-            	.Name : "international symposium on neural networks"
-            }
-	
-            venue350:Venue {
-            	.Name : "international conference on parallel architectures and compilation techniques"
-            }
-	
-            venue351:Venue {
-            	.Name : "ieee international symposium on workload characterization"
-            }
-	
-            venue352:Venue {
-            	.Name : "Proceedings of the th International Workshop on ModelDriven Engineering Verification and Validation"
-            }
-	
-            venue353:Venue {
-            	.Name : "IEEE Transactions on Very Large Scale Integration Systems"
-            }
-	
-            venue354:Venue {
-            	.Name : "programming languages and operating systems"
-            }
-	
-            venue355:Venue {
-            	.Name : "Information  Computation"
-            }
-	
-            venue356:Venue {
-            	.Name : "International Journal of Information Security"
-            }
-	
-            venue357:Venue {
-            	.Name : "Distributed and Parallel Databases"
-            }
-	
-            venue358:Venue {
-            	.Name : "asiapacific conference on conceptual modelling"
-            }
-	
-            venue359:Venue {
-            	.Name : "ACM Queue"
-            }
-	
-            venue360:Venue {
-            	.Name : "Technometrics"
-            }
-	
-            venue361:Venue {
-            	.Name : "Proceedings of the th International Workshop on Modeling in Software Engineering"
-            }
-	
-            venue362:Venue {
-            	.Name : "international conference on functional programming"
-            }
-	
-            venue363:Venue {
-            	.Name : "Theoretical Computer Science"
-            }
-	
-            venue364:Venue {
-            	.Name : "latin american test workshop  latw"
-            }
-	
-            venue365:Venue {
-            	.Name : "International Journal of Intelligent Systems"
-            }
-	
-            venue366:Venue {
-            	.Name : "Journal of Symbolic Logic"
-            }
-	
-            venue367:Venue {
-            	.Name : "Information  Software Technology"
-            }
-	
-            venue368:Venue {
-            	.Name : "symposium on applied computational intelligence and informatics"
-            }
-	
-            venue369:Venue {
-            	.Name : "Operating Systems Review"
-            }
-	
-            venue370:Venue {
-            	.Name : "Future Generation Computer Systems"
-            }
-	
-            venue371:Venue {
-            	.Name : "ACM Transactions on Information Systems"
-            }
-	
-            venue372:Venue {
-            	.Name : "international conference on software and data technologies"
-            }
-	
-            venue373:Venue {
-            	.Name : "acm sigplan symposium on principles and practice of parallel programming"
-            }
-	
-            venue374:Venue {
-            	.Name : "Journal of Software"
-            }
-	
-            venue375:Venue {
-            	.Name : "ModelDriven Requirements Engineering Workshop MoDRE  IEEE th International"
-            }
-	
-            venue376:Venue {
-            	.Name : "measurement and modeling of computer systems"
-            }
-	
-            venue377:Venue {
-            	.Name : "international conference on web engineering"
-            }
-	
-            venue378:Venue {
-            	.Name : "ACM Transactions on Internet Technology"
-            }
-	
-            venue379:Venue {
-            	.Name : "ACM Transactions on Programming Languages and Systems"
-            }
-	
-            venue380:Venue {
-            	.Name : "International Journal of Cloud Applications and Computing archive"
-            }
-	
-            venue381:Venue {
-            	.Name : "International Journal of Distributed Sensor Networks"
-            }
-	
-            venue382:Venue {
-            	.Name : "Performance Evaluation"
-            }
-	
-            venue383:Venue {
-            	.Name : "Proceedings of the First Workshop on the Analysis of Model Transformations"
-            }
-	
-            venue384:Venue {
-            	.Name : "Constraints  An International Journal"
-            }
-	
-            venue385:Venue {
-            	.Name : "Journal of Software Maintenance and Evolution Research and Practice"
-            }
-	
-            venue386:Venue {
-            	.Name : "international workshop on software specification and design"
-            }
-	
-            venue387:Venue {
-            	.Name : "Computer Standards  Interfaces"
-            }
-	
-            venue388:Venue {
-            	.Name : "Proceedings of the st workshop on MOdel Driven Development for Middleware MODDM "
-            }
-	
-            venue389:Venue {
-            	.Name : "symposium on the theory of computing"
-            }
-	
-            venue390:Venue {
-            	.Name : "ACM Transactions on Information and System Security"
-            }
-	
-            venue391:Venue {
-            	.Name : "international conference on cloud computing"
-            }
-	
-            venue392:Venue {
-            	.Name : "software engineering and advanced applications"
-            }
-	
-            venue393:Venue {
-            	.Name : "brazilian symposium on software engineering"
-            }
-	
-            venue394:Venue {
-            	.Name : "design automation conference"
-            }
-	
-            venue395:Venue {
-            	.Name : "Logical Methods in Computer Science"
-            }
-	
-            venue396:Venue {
-            	.Name : "IEEE Transactions on Parallel and Distributed Systems"
-            }
-	
-            venue397:Venue {
-            	.Name : "International Journal of Cooperative Information Systems"
-            }
-	
-            venue398:Venue {
-            	.Name : "workshop on emerging trends in software metrics"
-            }
-	
-            venue399:Venue {
-            	.Name : "software engineering for adaptive and self managing systems"
-            }
-	
-            venue400:Venue {
-            	.Name : "Proceedings of the  workshop on Engineering fault tolerant systems"
-            }
-	
-            venue401:Venue {
-            	.Name : "hot topics in system dependability"
-            }
-	
-            venue402:Venue {
-            	.Name : "Central European Journal of Computer Science"
-            }
-	
-            venue403:Venue {
-            	.Name : "Journal of The Franklin Instituteengineering and Applied Mathematics"
-            }
-	
-            venue404:Venue {
-            	.Name : "Information Processing Letters"
-            }
-	
-            venue405:Venue {
-            	.Name : "symposium on principles of database systems"
-            }
-	
-            venue406:Venue {
-            	.Name : "software engineering symposium on practical software development environments"
-            }
-	
-            venue407:Venue {
-            	.Name : "international conference on deductive and objectoriented databases"
-            }
-	
-            venue408:Venue {
-            	.Name : "Journal of Software Evolution and Process"
-            }
-	
-            venue409:Venue {
-            	.Name : "adaptive agents and multiagents systems"
-            }
-	
-            venue410:Venue {
-            	.Name : "international world wide web conferences"
-            }
-	
-            venue411:Venue {
-            	.Name : "international symposium on low power electronics and design"
-            }
-	
-            venue412:Venue {
-            	.Name : "empirical software engineering and measurement"
-            }
-	
-            venue413:Venue {
-            	.Name : "conference on computer supported cooperative work"
-            }
-	
-            venue414:Venue {
-            	.Name : " International Conference on Computing Networking and Communications ICNC"
-            }
-	
-            venue415:Venue {
-            	.Name : "conference on risks and security of internet and systems"
-            }
-	
-            venue416:Venue {
-            	.Name : "international conference on vlsi design"
-            }
-	
-            venue417:Venue {
-            	.Name : "new security paradigms workshop"
-            }
-	
-            venue418:Venue {
-            	.Name : "Software Engineering Journal"
-            }
-	
-            venue419:Venue {
-            	.Name : "IEEE Transactions on Dependable and Secure Computing"
-            }
-	
-            venue420:Venue {
-            	.Name : "Information  Management"
-            }
-	
-            venue421:Venue {
-            	.Name : "Journal of Logic and Computation"
-            }
-	
-            venue422:Venue {
-            	.Name : "generative programming and component engineering"
-            }
-	
-            venue423:Venue {
-            	.Name : " th Annual International Conference on New Technologies of Distributed Systems NOTERE"
-            }
-	
-            venue424:Venue {
-            	.Name : "Mathematical Methods of Operations Research"
-            }
-	
-            venue425:Venue {
-            	.Name : "Journal of Interconnection Networks"
-            }
-	
-            venue426:Venue {
-            	.Name : "Proceedings of the workshop on Memory Systems Performance and Correctness"
-            }
-	
-            venue427:Venue {
-            	.Name : "ACM Transactions on The Web"
-            }
-	
-            venue428:Venue {
-            	.Name : "data and knowledge engineering"
-            }
-	
-            venue429:Venue {
-            	.Name : "Information Systems"
-            }
-	
-            venue430:Venue {
-            	.Name : "symposium on visual languages and humancentric computing"
-            }
-	
-            venue431:Venue {
-            	.Name : "Journal of Computer Applications in Technology"
-            }
-	
-            venue432:Venue {
-            	.Name : "international conference on electronics circuits and systems"
-            }
-	
-            venue433:Venue {
-            	.Name : "international conference on engineering of complex computer systems"
-            }
-	
-            venue434:Venue {
-            	.Name : "document engineering"
-            }
-	
-            venue435:Venue {
-            	.Name : "symposium on access control models and technologies"
-            }
-	
-            venue436:Venue {
-            	.Name : "International Journal of Humanoid Robotics"
-            }
-	
-            venue437:Venue {
-            	.Name : "conference on organizational computing systems"
-            }
-	
-            venue438:Venue {
-            	.Name : "ACM Transactions on ComputerHuman Interaction"
-            }
-	
-            venue439:Venue {
-            	.Name : "Theory and Practice of Logic Programming"
-            }
-	
-            venue440:Venue {
-            	.Name : "international conference on software and systems process"
-            }
-	
-            venue441:Venue {
-            	.Name : "advanced visual interfaces"
-            }
-	
-            venue442:Venue {
-            	.Name : "Software Process Improvement and Practice"
-            }
-	
-            venue443:Venue {
-            	.Name : "ACM Transactions on Design Automation of Electronic Systems"
-            }
-	
-            venue444:Venue {
-            	.Name : "workshop on fault diagnosis and tolerance in cryptography"
-            }
-	
-            venue445:Venue {
-            	.Name : "Ibm Journal of Research and Development"
-            }
-	
-            venue446:Venue {
-            	.Name : "formal ontology in information systems"
-            }
-	
-            venue447:Venue {
-            	.Name : "Theory of Computing Systems  Mathematical Systems Theory"
-            }
-	
-            venue448:Venue {
-            	.Name : "embedded software"
-            }
-	
-            venue449:Venue {
-            	.Name : "computer and information technology"
-            }
-	
-            venue450:Venue {
-            	.Name : "Mathematical Structures in Computer Science"
-            }
-	
-            venue451:Venue {
-            	.Name : "conference on high performance computing supercomputing"
-            }
-	
-            venue452:Venue {
-            	.Name : "Distributed Systems Engineering"
-            }
-	
-            venue453:Venue {
-            	.Name : "ACM Transactions on Architecture and Code Optimization"
-            }
-	
-            venue454:Venue {
-            	.Name : "Journal of Visual Languages and Computing"
-            }
-	
-            venue455:Venue {
-            	.Name : "information security for south africa"
-            }
-	
-            venue456:Venue {
-            	.Name : "Microelectronics Reliability"
-            }
-	
-            venue457:Venue {
-            	.Name : "Artificial Intelligence"
-            }
-	
-            venue458:Venue {
-            	.Name : "fundamentals of software engineering"
-            }
-	
-            venue459:Venue {
-            	.Name : "acmieee international conference on mobile computing and networking"
-            }
-	
-            venue460:Venue {
-            	.Name : "Simulation"
-            }
-	
-            venue461:Venue {
-            	.Name : "conference on scientific computing"
-            }
-	
-            venue462:Venue {
-            	.Name : "International Journal of Parallel Programming"
-            }
-	
-            venue463:Venue {
-            	.Name : "conference on high performance computing supercomputing"
-            }
-	
-            venue464:Venue {
-            	.Name : "Proceedings of the th International Workshop on Models and Evolution"
-            }
-	
-            venue465:Venue {
-            	.Name : "international conference on computer aided design"
-            }
-	
-            venue466:Venue {
-            	.Name : "formal methods in computeraided design"
-            }
-	
-            venue467:Venue {
-            	.Name : "The Journal of Logic and Algebraic Programming"
-            }
-	
-            venue468:Venue {
-            	.Name : "annual acis international conference on computer and information science"
-            }
-	
-            venue469:Venue {
-            	.Name : "foundations of computer science"
-            }
-	
-            venue470:Venue {
-            	.Name : "international conference on requirements engineering"
-            }
-	
-            venue471:Venue {
-            	.Name : "principles and practice of programming in java"
-            }
-	
-            venue472:Venue {
-            	.Name : "advanced information networking and applications"
-            }
-	
-            venue473:Venue {
-            	.Name : "Journal of Functional Programming"
-            }
-	
-            venue474:Venue {
-            	.Name : "IEEE Transactions on Reliability"
-            }
-	
-            venue475:Venue {
-            	.Name : "automation of software test"
-            }
-	
-            venue476:Venue {
-            	.Name : "Journal on Data Semantics"
-            }
-	
-            venue477:Venue {
-            	.Name : "usenix winter technical conference"
-            }
-	
-            venue478:Venue {
-            	.Name : "selfadaptive and selforganizing systems"
-            }
-	
-            venue479:Venue {
-            	.Name : "foundations of software technology and theoretical computer science"
-            }
-	
-            venue480:Venue {
-            	.Name : "The Computer Journal"
-            }
-	
-            venue481:Venue {
-            	.Name : "Computer Science  Research and Development"
-            }
-	
-            venue482:Venue {
-            	.Name : "international conference on computer design"
-            }
-	
-            venue483:Venue {
-            	.Name : "Proceedings of the First International Workshop on ModelDriven Interoperability"
-            }
-	
-            venue484:Venue {
-            	.Name : "IEEE Journal on Selected Areas in Communications"
-            }
-	
-            venue485:Venue {
-            	.Name : "Ibm Systems Journal"
-            }
-	
-            venue486:Venue {
-            	.Name : "enterprise distributed object computing"
-            }
-	
-            venue487:Venue {
-            	.Name : "international conference on computer communications"
-            }
-	
-            venue488:Venue {
-            	.Name : "design automation and test in europe"
-            }
-	
-            venue489:Venue {
-            	.Name : "acm workshop on multimedia and security"
-            }
-	
-            venue490:Venue {
-            	.Name : "practical aspects of declarative languages"
-            }
-	
-            venue491:Venue {
-            	.Name : "IEEE ACM Transactions on Networking"
-            }
-	
-            venue492:Venue {
-            	.Name : "pacific rim international symposium on dependable computing"
-            }
-	
-            venue493:Venue {
-            	.Name : "acm special interest group on data communication"
-            }
-	
-            venue494:Venue {
-            	.Name : "HOA  Selected Papers from the First International Workshop on HigherOrder Algebra Logic and Term Rewriting"
-            }
-	
-            venue495:Venue {
-            	.Name : "agent and multi agent systems technologies and applications"
-            }
-	
             venue496:Venue {
             	.Name : "european conference on web services"
             }
 	
-            venue497:Venue {
-            	.Name : "ad hoc networks"
+            venue640:Venue {
+            	.Name : "international symposium on haskell"
             }
 	
-            venue498:Venue {
-            	.Name : "ieee symposium on security and privacy"
-            }
-	
-            venue499:Venue {
-            	.Name : "Proceedings of the IFIP TCWG Sixth International Workshop on Protocol Test systems VI"
-            }
-	
-            venue500:Venue {
-            	.Name : "DIPES  Proceedings of the IFIP WGWG international workshop on Distributed and parallel embedded systems"
-            }
-	
-            venue501:Venue {
-            	.Name : "IEEE Transactions on Knowledge and Data Engineering"
-            }
-	
-            venue502:Venue {
-            	.Name : "Foundations and Trends in Humancomputer Interaction"
-            }
-	
-            venue503:Venue {
-            	.Name : "Journal of Artificial Intelligence Research"
-            }
-	
-            venue504:Venue {
-            	.Name : "mobile ad hoc networking and computing"
-            }
-	
-            venue505:Venue {
-            	.Name : "International Journal of Uncertainty Fuzziness and KnowledgeBased Systems"
-            }
-	
-            venue506:Venue {
-            	.Name : "workshop on declarative aspects of multicore programming"
-            }
-	
-            venue507:Venue {
-            	.Name : "database and expert systems applications"
-            }
-	
-            venue508:Venue {
-            	.Name : "high performance computing and communications"
-            }
-	
-            venue509:Venue {
-            	.Name : "workshop on hot topics in operating systems"
-            }
-	
-            venue510:Venue {
-            	.Name : "Autonomous Agents and MultiAgent Systems"
-            }
-	
-            venue511:Venue {
-            	.Name : "Proceedings of the th international workshop on Exception handling"
-            }
-	
-            venue512:Venue {
-            	.Name : "IEEE Transactions on Information Theory"
-            }
-	
-            venue513:Venue {
-            	.Name : "advances in model based software testing"
-            }
-	
-            venue514:Venue {
-            	.Name : "formal methods in software practice"
-            }
-	
-            venue515:Venue {
-            	.Name : "international conference on web services"
-            }
-	
-            venue516:Venue {
-            	.Name : "engineering of computerbased systems"
-            }
-	
-            venue517:Venue {
-            	.Name : "international conference on emerging security information systems and technologies"
-            }
-	
-            venue518:Venue {
-            	.Name : "Rewriting Computation and Proof"
-            }
-	
-            venue519:Venue {
-            	.Name : "IEEE Computer Architecture Letters"
-            }
-	
-            venue520:Venue {
-            	.Name : "service oriented software engineering"
-            }
-	
-            venue521:Venue {
-            	.Name : "international conference on future generation communication and networking"
-            }
-	
-            venue522:Venue {
-            	.Name : "real time technology and applications symposium"
-            }
-	
-            venue523:Venue {
-            	.Name : "virtual execution environments"
-            }
-	
-            venue524:Venue {
-            	.Name : "IEEE Transactions on Automation Science and Engineering"
-            }
-	
-            venue525:Venue {
-            	.Name : "ieee symposium on visual languages"
-            }
-	
-            venue526:Venue {
-            	.Name : "Int CMG Conference"
-            }
-	
-            venue527:Venue {
-            	.Name : "international workshop on petri nets and performance models"
-            }
-	
-            venue528:Venue {
-            	.Name : "extending database technology"
-            }
-	
-            venue529:Venue {
-            	.Name : "workshop on objectoriented realtime dependable systems"
-            }
-	
-            venue530:Venue {
-            	.Name : "source code analysis and manipulation"
-            }
-	
-            venue531:Venue {
-            	.Name : "international conference on tools with artificial intelligence"
-            }
-	
-            venue532:Venue {
-            	.Name : "policies for distributed systems and networks"
-            }
-	
-            venue533:Venue {
-            	.Name : "international conference on cluster computing"
+            venue95:Venue {
+            	.Name : "international conference on information security and cryptology"
             }
 	
             venue534:Venue {
             	.Name : "hawaii international conference on system sciences"
             }
 	
-            venue535:Venue {
-            	.Name : "logic in computer science"
+            venue76:Venue {
+            	.Name : "International Conference on Software Engineering and Formal Methods"
             }
 	
-            venue536:Venue {
-            	.Name : "Proceedings of the IFIP TC WG Eleventh International Conference on Database Securty XI Status and Prospects"
+            venue6:Venue {
+            	.Name : "european symposium on research in computer security"
             }
 	
-            venue537:Venue {
-            	.Name : "formal methods in security engineering"
+            venue482:Venue {
+            	.Name : "international conference on computer design"
             }
 	
-            venue538:Venue {
-            	.Name : "Proceedings th EUROMICRO Conference  A Net Odyssey"
+            venue19:Venue {
+            	.Name : "rapid system prototyping"
             }
 	
-            venue539:Venue {
-            	.Name : "design and diagnostics of electronic circuits and systems"
+            venue452:Venue {
+            	.Name : "Distributed Systems Engineering"
             }
 	
-            venue540:Venue {
-            	.Name : "international conference on parallel and distributed information systems"
+            venue170:Venue {
+            	.Name : "intelligent agents"
             }
 	
-            venue541:Venue {
-            	.Name : " Proceedings of the Second International Conference on the Software ProcessContinuous Software Process Improvement"
+            venue325:Venue {
+            	.Name : "The Journal of Object Technology"
             }
 	
-            venue542:Venue {
-            	.Name : "IEEE Communications Letters"
+            venue273:Venue {
+            	.Name : "IEEE Software"
             }
 	
-            venue543:Venue {
-            	.Name : "international symposium on empirical software engineering"
+            venue375:Venue {
+            	.Name : "ModelDriven Requirements Engineering Workshop MoDRE  IEEE th International"
             }
 	
-            venue544:Venue {
-            	.Name : "european test symposium"
+            venue480:Venue {
+            	.Name : "The Computer Journal"
             }
 	
-            venue545:Venue {
-            	.Name : "embedded and realtime computing systems and applications"
+            venue259:Venue {
+            	.Name : "Connection Science"
             }
 	
-            venue546:Venue {
-            	.Name : "Journal of Parallel and Distributed Computing"
+            venue490:Venue {
+            	.Name : "practical aspects of declarative languages"
             }
 	
-            venue547:Venue {
-            	.Name : "australian software engineering conference"
-            }
-	
-            venue548:Venue {
-            	.Name : "Concurrency and Computation Practice and Experience"
-            }
-	
-            venue549:Venue {
-            	.Name : "international conference on machine learning and cybernetics"
-            }
-	
-            venue550:Venue {
-            	.Name : "conference on innovative data systems research"
-            }
-	
-            venue551:Venue {
-            	.Name : "grid computing"
-            }
-	
-            venue552:Venue {
-            	.Name : "Journal of Internet Services and Applications"
-            }
-	
-            venue553:Venue {
-            	.Name : "vlsi test symposium"
-            }
-	
-            venue554:Venue {
-            	.Name : "international conference on service oriented computing"
-            }
-	
-            venue555:Venue {
-            	.Name : "international symposium on information theory"
-            }
-	
-            venue556:Venue {
-            	.Name : "acm sigops european workshop"
-            }
-	
-            venue557:Venue {
-            	.Name : "international conference on data mining"
-            }
-	
-            venue558:Venue {
-            	.Name : "international conference on communications"
-            }
-	
-            venue559:Venue {
-            	.Name : "international parallel and distributed processing symposium"
-            }
-	
-            venue560:Venue {
-            	.Name : "integrated formal methods"
-            }
-	
-            venue561:Venue {
-            	.Name : "canadian conference on electrical and computer engineering"
-            }
-	
-            venue562:Venue {
-            	.Name : "symposium on usable privacy and security"
-            }
-	
-            venue563:Venue {
-            	.Name : "ieee international conference on services computing"
-            }
-	
-            venue564:Venue {
-            	.Name : "TOOLS "
-            }
-	
-            venue565:Venue {
-            	.Name : "IET Software"
-            }
-	
-            venue566:Venue {
-            	.Name : "international symposium on object component service oriented real time distributed computing"
-            }
-	
-            venue567:Venue {
-            	.Name : "workshop on i o in parallel and distributed systems"
-            }
-	
-            venue568:Venue {
-            	.Name : "soft computing"
-            }
-	
-            venue569:Venue {
-            	.Name : "International Workshop on Formal Approaches to Software Testing"
-            }
-	
-            venue570:Venue {
-            	.Name : "International Journal of Security and Networks"
-            }
-	
-            venue571:Venue {
-            	.Name : "Computational Statistics  Data Analysis"
-            }
-	
-            venue572:Venue {
-            	.Name : "Artificial Life"
-            }
-	
-            venue573:Venue {
-            	.Name : "international conference on robotics and automation"
-            }
-	
-            venue574:Venue {
-            	.Name : "asia and south pacific design automation conference"
-            }
-	
-            venue575:Venue {
-            	.Name : "International Journal of Computational Geometry and Applications"
-            }
-	
-            venue576:Venue {
-            	.Name : "conference on computability in europe"
-            }
-	
-            venue577:Venue {
-            	.Name : "international workshop on principles of software evolution"
-            }
-	
-            venue578:Venue {
-            	.Name : "Journal of Computational Chemistry"
-            }
-	
-            venue579:Venue {
-            	.Name : "international conference on automation robotics and applications"
-            }
-	
-            venue580:Venue {
-            	.Name : "usenix conference on hot topics in parallelism"
-            }
-	
-            venue581:Venue {
-            	.Name : "humanrobot interaction"
-            }
-	
-            venue582:Venue {
-            	.Name : "feature oriented software development"
-            }
-	
-            venue583:Venue {
-            	.Name : "modeling analysis and simulation of wireless and mobile systems"
-            }
-	
-            venue584:Venue {
-            	.Name : "international conference on control automation robotics and vision"
+            venue503:Venue {
+            	.Name : "Journal of Artificial Intelligence Research"
             }
 	
             venue585:Venue {
             	.Name : "IEEE Communications Surveys and Tutorials"
             }
 	
-            venue586:Venue {
-            	.Name : "theory and applications of satisfiability testing"
+            venue83:Venue {
+            	.Name : "mathematics of program construction"
             }
 	
-            venue587:Venue {
-            	.Name : "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+            venue33:Venue {
+            	.Name : "international symposium on computer architecture"
             }
 	
-            venue588:Venue {
-            	.Name : "new technologies mobility and security"
+            venue537:Venue {
+            	.Name : "formal methods in security engineering"
             }
 	
-            venue589:Venue {
-            	.Name : "ieee international workshop on policies for distributed systems and networks"
+            venue294:Venue {
+            	.Name : "Cryptography and Communications"
             }
 	
-            venue590:Venue {
-            	.Name : "autonomic computing workshop"
+            venue423:Venue {
+            	.Name : " th Annual International Conference on New Technologies of Distributed Systems NOTERE"
             }
 	
-            venue591:Venue {
-            	.Name : "Room"
-            }
-	
-            venue592:Venue {
-            	.Name : "International Journal of Foundations of Computer Science"
-            }
-	
-            venue593:Venue {
-            	.Name : "Proceedings of EUROMICRO  nd Euromicro Conference Beyond  Hardware and Software Design Strategies"
-            }
-	
-            venue594:Venue {
-            	.Name : "european conference on symbolic and quantitative approaches to reasoning and uncertainty"
-            }
-	
-            venue595:Venue {
-            	.Name : "sigplan symposium on new ideas new paradigms and reflections on programming and software"
-            }
-	
-            venue596:Venue {
-            	.Name : "Proceedings of the  international workshop on Selfadaptation and selfmanaging systems"
-            }
-	
-            venue597:Venue {
-            	.Name : "Journal of Network and Systems Management"
-            }
-	
-            venue598:Venue {
-            	.Name : "The Journal of Supercomputing"
-            }
-	
-            venue599:Venue {
-            	.Name : "model based methodologies for pervasive and embedded software"
-            }
-	
-            venue600:Venue {
-            	.Name : "IEEE Transactions on Communications"
-            }
-	
-            venue601:Venue {
-            	.Name : "international conference on distributed computing systems workshops"
-            }
-	
-            venue602:Venue {
-            	.Name : "ieeeacm international symposium cluster cloud and grid computing"
-            }
-	
-            venue603:Venue {
-            	.Name : "th Satellite Activities Conference on UML Modeling Languages and Applications"
-            }
-	
-            venue604:Venue {
-            	.Name : "Electronic Notes in Discrete Mathematics"
-            }
-	
-            venue605:Venue {
-            	.Name : "Integrity and internal control information systems"
-            }
-	
-            venue606:Venue {
-            	.Name : "conference of the centre for advanced studies on collaborative research"
-            }
-	
-            venue607:Venue {
-            	.Name : "Lecture notes in computer science  Berlin  currens"
-            }
-	
-            venue608:Venue {
-            	.Name : "international conference on information systems"
-            }
-	
-            venue609:Venue {
-            	.Name : "asia pacific conference on conceptual modelling"
-            }
-	
-            venue610:Venue {
-            	.Name : "partial evaluation and semanticbased program manipulation"
-            }
-	
-            venue611:Venue {
-            	.Name : "The java memory model "
-            }
-	
-            venue612:Venue {
-            	.Name : "arXiv Logic in Computer Science"
-            }
-	
-            venue613:Venue {
-            	.Name : "symposium on code generation and optimization"
-            }
-	
-            venue614:Venue {
-            	.Name : " th International Software Product Line Conference"
-            }
-	
-            venue615:Venue {
-            	.Name : "ISPW"
-            }
-	
-            venue616:Venue {
-            	.Name : "Technique Et Science Informatiques"
-            }
-	
-            venue617:Venue {
-            	.Name : "web science"
-            }
-	
-            venue618:Venue {
-            	.Name : "international conference on information systems security"
-            }
-	
-            venue619:Venue {
-            	.Name : "Software Engineering"
-            }
-	
-            venue620:Venue {
-            	.Name : "VOLTSTAF"
-            }
-	
-            venue621:Venue {
-            	.Name : "Modellierung"
-            }
-	
-            venue622:Venue {
-            	.Name : "IACR Cryptology ePrint Archive"
-            }
-	
-            venue623:Venue {
-            	.Name : "BigMDESTAF"
-            }
-	
-            venue624:Venue {
-            	.Name : "nd International Workshop On the Globalization of Modeling Languages GEMOC  colocated with MODELS "
-            }
-	
-            venue625:Venue {
-            	.Name : "evaluation and assessment in software engineering"
-            }
-	
-            venue626:Venue {
-            	.Name : "BxETAPS"
+            venue185:Venue {
+            	.Name : "formal techniques for networked and distributed systems"
             }
 	
             venue627:Venue {
             	.Name : "CloudMDEMoDELS"
             }
 	
-            venue628:Venue {
-            	.Name : "Programming Languages and Their Definition  Hans Bekic "
+            venue637:Venue {
+            	.Name : "business process modeling development and support"
             }
 	
-            venue629:Venue {
-            	.Name : "XMMoDELS"
+            venue106:Venue {
+            	.Name : "european software engineering conference"
             }
 	
-            venue630:Venue {
-            	.Name : "MBMV"
+            venue432:Venue {
+            	.Name : "international conference on electronics circuits and systems"
             }
 	
-            venue631:Venue {
-            	.Name : "GEMOCMPMMoDELS"
+            venue498:Venue {
+            	.Name : "ieee symposium on security and privacy"
             }
 	
-            venue632:Venue {
-            	.Name : "MEMoDELS"
+            venue619:Venue {
+            	.Name : "Software Engineering"
+            }
+	
+            venue586:Venue {
+            	.Name : "theory and applications of satisfiability testing"
+            }
+	
+            venue18:Venue {
+            	.Name : "scalable trusted computing"
+            }
+	
+            venue85:Venue {
+            	.Name : "Encyclopedia of Database Systems"
+            }
+	
+            venue123:Venue {
+            	.Name : "technology of object oriented languages and systems"
+            }
+	
+            venue494:Venue {
+            	.Name : "HOA  Selected Papers from the First International Workshop on HigherOrder Algebra Logic and Term Rewriting"
+            }
+	
+            venue278:Venue {
+            	.Name : "IEEE Computer"
+            }
+	
+            venue526:Venue {
+            	.Name : "Int CMG Conference"
+            }
+	
+            venue614:Venue {
+            	.Name : " th International Software Product Line Conference"
+            }
+	
+            venue323:Venue {
+            	.Name : "SIAM Journal on Computing"
+            }
+	
+            venue370:Venue {
+            	.Name : "Future Generation Computer Systems"
+            }
+	
+            venue361:Venue {
+            	.Name : "Proceedings of the th International Workshop on Modeling in Software Engineering"
+            }
+	
+            venue65:Venue {
+            	.Name : "MODELS Satellite Events"
+            }
+	
+            venue57:Venue {
+            	.Name : "software engineering research and applications"
+            }
+	
+            venue461:Venue {
+            	.Name : "conference on scientific computing"
+            }
+	
+            venue227:Venue {
+            	.Name : "international conference on autonomic computing"
+            }
+	
+            venue441:Venue {
+            	.Name : "advanced visual interfaces"
+            }
+	
+            venue116:Venue {
+            	.Name : "International Workshop on Applications of Graph Transformations with Industrial Relevance"
+            }
+	
+            venue244:Venue {
+            	.Name : "formal techniques for networked and distributed systems"
+            }
+	
+            venue354:Venue {
+            	.Name : "programming languages and operating systems"
+            }
+	
+            venue213:Venue {
+            	.Name : "international conference on enterprise information systems"
+            }
+	
+            venue125:Venue {
+            	.Name : "international parallel processing symposium"
+            }
+	
+            venue256:Venue {
+            	.Name : "international conference on humancomputer interaction"
+            }
+	
+            venue134:Venue {
+            	.Name : "international conference on coordination models and languages"
+            }
+	
+            venue532:Venue {
+            	.Name : "policies for distributed systems and networks"
+            }
+	
+            venue92:Venue {
+            	.Name : "Quality of Protection"
+            }
+	
+            venue565:Venue {
+            	.Name : "IET Software"
+            }
+	
+            venue145:Venue {
+            	.Name : "international syposium on methodologies for intelligent systems"
+            }
+	
+            venue132:Venue {
+            	.Name : "software engineering and formal methods"
+            }
+	
+            venue261:Venue {
+            	.Name : "ACM Transactions on Autonomous and Adaptive Systems"
+            }
+	
+            venue454:Venue {
+            	.Name : "Journal of Visual Languages and Computing"
+            }
+	
+            venue79:Venue {
+            	.Name : "operating systems design and implementation"
+            }
+	
+            venue457:Venue {
+            	.Name : "Artificial Intelligence"
+            }
+	
+            venue296:Venue {
+            	.Name : "IEEE Transactions on Professional Communication"
+            }
+	
+            venue69:Venue {
+            	.Name : "International Conference on Software Engineering"
+            }
+	
+            venue383:Venue {
+            	.Name : "Proceedings of the First Workshop on the Analysis of Model Transformations"
+            }
+	
+            venue419:Venue {
+            	.Name : "IEEE Transactions on Dependable and Secure Computing"
+            }
+	
+            venue162:Venue {
+            	.Name : "international conference on formal engineering methods"
+            }
+	
+            venue317:Venue {
+            	.Name : "Sigact News"
+            }
+	
+            venue254:Venue {
+            	.Name : "FATES Proceedings of the th international conference on Formal Approaches to Software Testing"
+            }
+	
+            venue215:Venue {
+            	.Name : "Rewriting Computation and Proof Essays Dedicated to JeanPierre Jouannaud on the Occasion of His th Birthday "
+            }
+	
+            venue398:Venue {
+            	.Name : "workshop on emerging trends in software metrics"
+            }
+	
+            venue151:Venue {
+            	.Name : "Applications of Graph Transformations with Industrial Relevance"
+            }
+	
+            venue98:Venue {
+            	.Name : "workshop on graphtheoretic concepts in computer science"
+            }
+	
+            venue297:Venue {
+            	.Name : "acm symposium on applied computing"
+            }
+	
+            venue459:Venue {
+            	.Name : "acmieee international conference on mobile computing and networking"
+            }
+	
+            venue157:Venue {
+            	.Name : "european conference on model driven architecture foundations and applications"
+            }
+	
+            venue492:Venue {
+            	.Name : "pacific rim international symposium on dependable computing"
+            }
+	
+            venue309:Venue {
+            	.Name : "principles of distributed computing"
+            }
+	
+            venue270:Venue {
+            	.Name : "EXPRESSSOS"
+            }
+	
+            venue109:Venue {
+            	.Name : "international conference on entity relationship approach"
+            }
+	
+            venue471:Venue {
+            	.Name : "principles and practice of programming in java"
+            }
+	
+            venue138:Venue {
+            	.Name : "theorem proving in higher order logics"
+            }
+	
+            venue554:Venue {
+            	.Name : "international conference on service oriented computing"
+            }
+	
+            venue228:Venue {
+            	.Name : "RFC"
+            }
+	
+            venue391:Venue {
+            	.Name : "international conference on cloud computing"
+            }
+	
+            venue522:Venue {
+            	.Name : "real time technology and applications symposium"
+            }
+	
+            venue316:Venue {
+            	.Name : "international conference on supercomputing"
+            }
+	
+            venue615:Venue {
+            	.Name : "ISPW"
+            }
+	
+            venue670:Venue {
+            	.Name : "Parallel and distributed computing and networks"
+            }
+	
+            venue546:Venue {
+            	.Name : "Journal of Parallel and Distributed Computing"
+            }
+	
+            venue373:Venue {
+            	.Name : "acm sigplan symposium on principles and practice of parallel programming"
             }
 	
             venue633:Venue {
             	.Name : "MULTIMoDELS"
             }
 	
-            venue634:Venue {
-            	.Name : "TOOLS Proceedings of the th international conference on Objects models components patterns"
+            venue174:Venue {
+            	.Name : "Science  Engineering Faculty"
+            }
+	
+            venue365:Venue {
+            	.Name : "International Journal of Intelligent Systems"
+            }
+	
+            venue381:Venue {
+            	.Name : "International Journal of Distributed Sensor Networks"
+            }
+	
+            venue581:Venue {
+            	.Name : "humanrobot interaction"
+            }
+	
+            venue127:Venue {
+            	.Name : "fast software encryption"
+            }
+	
+            venue194:Venue {
+            	.Name : "information hiding"
+            }
+	
+            venue429:Venue {
+            	.Name : "Information Systems"
+            }
+	
+            venue23:Venue {
+            	.Name : "Proceedings of the th International Workshop on Modeling in Software Engineering"
+            }
+	
+            venue609:Venue {
+            	.Name : "asia pacific conference on conceptual modelling"
+            }
+	
+            venue214:Venue {
+            	.Name : "ER"
+            }
+	
+            venue643:Venue {
+            	.Name : "decision support systems"
+            }
+	
+            venue416:Venue {
+            	.Name : "international conference on vlsi design"
+            }
+	
+            venue542:Venue {
+            	.Name : "IEEE Communications Letters"
+            }
+	
+            venue1:Venue {
+            	.Name : "international conference on computer safety reliability and security"
+            }
+	
+            venue382:Venue {
+            	.Name : "Performance Evaluation"
+            }
+	
+            venue144:Venue {
+            	.Name : "nasa formal methods"
+            }
+	
+            venue200:Venue {
+            	.Name : "networked systems design and implementation"
+            }
+	
+            venue349:Venue {
+            	.Name : "international symposium on neural networks"
+            }
+	
+            venue136:Venue {
+            	.Name : "usenix annual technical conference"
+            }
+	
+            venue624:Venue {
+            	.Name : "nd International Workshop On the Globalization of Modeling Languages GEMOC  colocated with MODELS "
+            }
+	
+            venue652:Venue {
+            	.Name : "Proceedings of the th ACM SIGSOFT International SPIN Symposium on Model Checking of Software"
+            }
+	
+            venue397:Venue {
+            	.Name : "International Journal of Cooperative Information Systems"
+            }
+	
+            venue593:Venue {
+            	.Name : "Proceedings of EUROMICRO  nd Euromicro Conference Beyond  Hardware and Software Design Strategies"
+            }
+	
+            venue288:Venue {
+            	.Name : "ACM Transactions on Computer Systems"
+            }
+	
+            venue36:Venue {
+            	.Name : "highassurance systems engineering"
+            }
+	
+            venue201:Venue {
+            	.Name : "static analysis symposium"
+            }
+	
+            venue435:Venue {
+            	.Name : "symposium on access control models and technologies"
+            }
+	
+            venue584:Venue {
+            	.Name : "international conference on control automation robotics and vision"
+            }
+	
+            venue631:Venue {
+            	.Name : "GEMOCMPMMoDELS"
+            }
+	
+            venue543:Venue {
+            	.Name : "international symposium on empirical software engineering"
+            }
+	
+            venue93:Venue {
+            	.Name : "Lecture Notes in Computer Science"
+            }
+	
+            venue233:Venue {
+            	.Name : "ABZ  Proceedings of the st international conference on Abstract State Machines B and Z"
+            }
+	
+            venue21:Venue {
+            	.Name : "symposium on operating systems principles"
+            }
+	
+            venue394:Venue {
+            	.Name : "design automation conference"
+            }
+	
+            venue575:Venue {
+            	.Name : "International Journal of Computational Geometry and Applications"
+            }
+	
+            venue218:Venue {
+            	.Name : "symposium on reliable distributed systems"
+            }
+	
+            venue250:Venue {
+            	.Name : "ieee international conference on cloud computing technology and science"
+            }
+	
+            venue140:Venue {
+            	.Name : "logicbased program synthesis and transformation"
+            }
+	
+            venue666:Venue {
+            	.Name : "Journal on Satisfiability Boolean Modeling and Computation"
+            }
+	
+            venue591:Venue {
+            	.Name : "Room"
+            }
+	
+            venue100:Venue {
+            	.Name : "software product lines"
+            }
+	
+            venue29:Venue {
+            	.Name : "bioinformatics and bioengineering"
+            }
+	
+            venue579:Venue {
+            	.Name : "international conference on automation robotics and applications"
+            }
+	
+            venue301:Venue {
+            	.Name : "International Journal of Social Robotics"
+            }
+	
+            venue472:Venue {
+            	.Name : "advanced information networking and applications"
+            }
+	
+            venue347:Venue {
+            	.Name : "eclipse technology exchange"
+            }
+	
+            venue184:Venue {
+            	.Name : "Generative and Transformational Techniques in Software Engineering II"
+            }
+	
+            venue550:Venue {
+            	.Name : "conference on innovative data systems research"
+            }
+	
+            venue169:Venue {
+            	.Name : "dagstuhl seminar proceedings"
+            }
+	
+            venue257:Venue {
+            	.Name : "systems man and cybernetics"
+            }
+	
+            venue70:Venue {
+            	.Name : "Architectural Support for Programming Languages and Operating Systems"
+            }
+	
+            venue331:Venue {
+            	.Name : "Proceedings of the  ACM SIGPLAN Workshop on Memory Systems Performance and Correctness"
+            }
+	
+            venue479:Venue {
+            	.Name : "foundations of software technology and theoretical computer science"
+            }
+	
+            venue507:Venue {
+            	.Name : "database and expert systems applications"
+            }
+	
+            venue588:Venue {
+            	.Name : "new technologies mobility and security"
+            }
+	
+            venue146:Venue {
+            	.Name : "software language engineering"
+            }
+	
+            venue187:Venue {
+            	.Name : "ABZ  Proceedings of the th International Conference on Abstract State Machines Alloy B TLA VDM and Z  Volume "
+            }
+	
+            venue557:Venue {
+            	.Name : "international conference on data mining"
+            }
+	
+            venue168:Venue {
+            	.Name : "logic based program synthesis and transformation"
+            }
+	
+            venue399:Venue {
+            	.Name : "software engineering for adaptive and self managing systems"
+            }
+	
+            venue587:Venue {
+            	.Name : "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+            }
+	
+            venue607:Venue {
+            	.Name : "Lecture notes in computer science  Berlin  currens"
+            }
+	
+            venue648:Venue {
+            	.Name : "Flexible Model Driven Engineering Workshop"
+            }
+	
+            venue481:Venue {
+            	.Name : "Computer Science  Research and Development"
+            }
+	
+            venue51:Venue {
+            	.Name : "requirements engineering foundation for software quality"
+            }
+	
+            venue211:Venue {
+            	.Name : "conference on automated deduction"
+            }
+	
+            venue115:Venue {
+            	.Name : "product focused software process improvement"
+            }
+	
+            venue321:Venue {
+            	.Name : "european conference on computer systems"
+            }
+	
+            venue559:Venue {
+            	.Name : "international parallel and distributed processing symposium"
+            }
+	
+            venue311:Venue {
+            	.Name : "IEEE Transactions on ComputerAided Design of Integrated Circuits and Systems"
+            }
+	
+            venue371:Venue {
+            	.Name : "ACM Transactions on Information Systems"
+            }
+	
+            venue280:Venue {
+            	.Name : "Journal of Logic Programming"
+            }
+	
+            venue463:Venue {
+            	.Name : "conference on high performance computing supercomputing"
+            }
+	
+            venue56:Venue {
+            	.Name : "international online testing symposium"
+            }
+	
+            venue583:Venue {
+            	.Name : "modeling analysis and simulation of wireless and mobile systems"
+            }
+	
+            venue642:Venue {
+            	.Name : "Computer Languages Systems  Structures"
+            }
+	
+            venue362:Venue {
+            	.Name : "international conference on functional programming"
+            }
+	
+            venue377:Venue {
+            	.Name : "international conference on web engineering"
+            }
+	
+            venue442:Venue {
+            	.Name : "Software Process Improvement and Practice"
+            }
+	
+            venue289:Venue {
+            	.Name : "Empirical Software Engineering"
+            }
+	
+            venue547:Venue {
+            	.Name : "australian software engineering conference"
+            }
+	
+            venue570:Venue {
+            	.Name : "International Journal of Security and Networks"
+            }
+	
+            venue285:Venue {
+            	.Name : "international conference on performance engineering"
+            }
+	
+            venue451:Venue {
+            	.Name : "conference on high performance computing supercomputing"
+            }
+	
+            venue523:Venue {
+            	.Name : "virtual execution environments"
+            }
+	
+            venue32:Venue {
+            	.Name : "ieee international conference on high performance computing data and analytics"
+            }
+	
+            venue622:Venue {
+            	.Name : "IACR Cryptology ePrint Archive"
+            }
+	
+            venue97:Venue {
+            	.Name : "european conference on object oriented programming"
+            }
+	
+            venue179:Venue {
+            	.Name : "Soft Computing"
+            }
+	
+            venue658:Venue {
+            	.Name : "CEUR Workshop Proceedings"
+            }
+	
+            venue415:Venue {
+            	.Name : "conference on risks and security of internet and systems"
+            }
+	
+            venue90:Venue {
+            	.Name : "Working Conference on Integrity and Internal Control in Information Systems"
+            }
+	
+            venue437:Venue {
+            	.Name : "conference on organizational computing systems"
+            }
+	
+            venue469:Venue {
+            	.Name : "foundations of computer science"
+            }
+	
+            venue238:Venue {
+            	.Name : "Journal of ComputerMediated Communication"
+            }
+	
+            venue491:Venue {
+            	.Name : "IEEE ACM Transactions on Networking"
+            }
+	
+            venue359:Venue {
+            	.Name : "ACM Queue"
+            }
+	
+            venue351:Venue {
+            	.Name : "ieee international symposium on workload characterization"
+            }
+	
+            venue613:Venue {
+            	.Name : "symposium on code generation and optimization"
+            }
+	
+            venue176:Venue {
+            	.Name : "DBSec"
+            }
+	
+            venue430:Venue {
+            	.Name : "symposium on visual languages and humancentric computing"
+            }
+	
+            venue674:Venue {
+            	.Name : "International Conference on the Unified Modeling Language"
+            }
+	
+            venue477:Venue {
+            	.Name : "usenix winter technical conference"
+            }
+	
+            venue269:Venue {
+            	.Name : "acm symposium on parallel algorithms and architectures"
+            }
+	
+            venue358:Venue {
+            	.Name : "asiapacific conference on conceptual modelling"
+            }
+	
+            venue448:Venue {
+            	.Name : "embedded software"
+            }
+	
+            venue55:Venue {
+            	.Name : "architectural support for programming languages and operating systems"
+            }
+	
+            venue357:Venue {
+            	.Name : "Distributed and Parallel Databases"
             }
 	
             venue635:Venue {
             	.Name : "annual computer security applications conference"
             }
 	
+            venue73:Venue {
+            	.Name : "International Conference on Evaluation of Novel Approaches to Software Engineering"
+            }
+	
+            venue198:Venue {
+            	.Name : "international conference on concurrency theory"
+            }
+	
+            venue223:Venue {
+            	.Name : "international conference on computational logistics"
+            }
+	
+            venue340:Venue {
+            	.Name : "Journal of the Brazilian Computer Society"
+            }
+	
+            venue350:Venue {
+            	.Name : "international conference on parallel architectures and compilation techniques"
+            }
+	
+            venue337:Venue {
+            	.Name : "Computer Networks"
+            }
+	
+            venue475:Venue {
+            	.Name : "automation of software test"
+            }
+	
+            venue20:Venue {
+            	.Name : "principles and practice of declarative programming"
+            }
+	
+            venue446:Venue {
+            	.Name : "formal ontology in information systems"
+            }
+	
+            venue632:Venue {
+            	.Name : "MEMoDELS"
+            }
+	
+            venue662:Venue {
+            	.Name : "FMSP"
+            }
+	
+            venue34:Venue {
+            	.Name : "engineering interactive computing system"
+            }
+	
+            venue137:Venue {
+            	.Name : "international conference on conceptual modeling"
+            }
+	
+            venue561:Venue {
+            	.Name : "canadian conference on electrical and computer engineering"
+            }
+	
+            venue606:Venue {
+            	.Name : "conference of the centre for advanced studies on collaborative research"
+            }
+	
+            venue568:Venue {
+            	.Name : "soft computing"
+            }
+	
+            venue651:Venue {
+            	.Name : "Creative Industries Faculty"
+            }
+	
+            venue493:Venue {
+            	.Name : "acm special interest group on data communication"
+            }
+	
+            venue101:Venue {
+            	.Name : "Rigorous Methods for Software Construction and Analysis"
+            }
+	
+            venue209:Venue {
+            	.Name : "arXiv Programming Languages"
+            }
+	
+            venue449:Venue {
+            	.Name : "computer and information technology"
+            }
+	
+            venue284:Venue {
+            	.Name : "verified software theories tools experiments"
+            }
+	
+            venue431:Venue {
+            	.Name : "Journal of Computer Applications in Technology"
+            }
+	
+            venue5:Venue {
+            	.Name : "runtime verification"
+            }
+	
+            venue329:Venue {
+            	.Name : "MBT"
+            }
+	
+            venue372:Venue {
+            	.Name : "international conference on software and data technologies"
+            }
+	
+            venue447:Venue {
+            	.Name : "Theory of Computing Systems  Mathematical Systems Theory"
+            }
+	
+            venue31:Venue {
+            	.Name : "availability reliability and security"
+            }
+	
+            venue48:Venue {
+            	.Name : "international workshop on security"
+            }
+	
+            venue420:Venue {
+            	.Name : "Information  Management"
+            }
+	
+            venue126:Venue {
+            	.Name : "theory and application of cryptographic techniques"
+            }
+	
+            venue618:Venue {
+            	.Name : "international conference on information systems security"
+            }
+	
+            venue443:Venue {
+            	.Name : "ACM Transactions on Design Automation of Electronic Systems"
+            }
+	
+            venue46:Venue {
+            	.Name : "international conference on software testing verification and validation"
+            }
+	
+            venue147:Venue {
+            	.Name : "Realtime Systems"
+            }
+	
+            venue54:Venue {
+            	.Name : "automated technology for verification and analysis"
+            }
+	
+            venue489:Venue {
+            	.Name : "acm workshop on multimedia and security"
+            }
+	
+            venue667:Venue {
+            	.Name : "Sigmod Record"
+            }
+	
+            venue152:Venue {
+            	.Name : "microprocessor test and verification"
+            }
+	
+            venue14:Venue {
+            	.Name : "european conference on software architecture"
+            }
+	
+            venue60:Venue {
+            	.Name : "international symposium on memory management"
+            }
+	
+            venue369:Venue {
+            	.Name : "Operating Systems Review"
+            }
+	
+            venue281:Venue {
+            	.Name : "IEEE Transactions on Software Engineering"
+            }
+	
+            venue305:Venue {
+            	.Name : "Computers  Security"
+            }
+	
+            venue217:Venue {
+            	.Name : "international conference on software maintenance"
+            }
+	
+            venue9:Venue {
+            	.Name : "dependable systems and networks"
+            }
+	
+            venue485:Venue {
+            	.Name : "Ibm Systems Journal"
+            }
+	
+            venue243:Venue {
+            	.Name : "international conference on parallel processing"
+            }
+	
+            venue604:Venue {
+            	.Name : "Electronic Notes in Discrete Mathematics"
+            }
+	
+            venue671:Venue {
+            	.Name : "international joint conference on artificial intelligence"
+            }
+	
+            venue529:Venue {
+            	.Name : "workshop on objectoriented realtime dependable systems"
+            }
+	
+            venue282:Venue {
+            	.Name : "International Journal of Humancomputer Studies  International Journal of Manmachine Studies"
+            }
+	
+            venue13:Venue {
+            	.Name : "computer software and applications conference"
+            }
+	
+            venue580:Venue {
+            	.Name : "usenix conference on hot topics in parallelism"
+            }
+	
+            venue465:Venue {
+            	.Name : "international conference on computer aided design"
+            }
+	
+            venue647:Venue {
+            	.Name : "PampDMoDELS"
+            }
+	
+            venue35:Venue {
+            	.Name : "ieee international conference on requirements engineering"
+            }
+	
+            venue476:Venue {
+            	.Name : "Journal on Data Semantics"
+            }
+	
+            venue150:Venue {
+            	.Name : "international symposium on distributed computing"
+            }
+	
+            venue524:Venue {
+            	.Name : "IEEE Transactions on Automation Science and Engineering"
+            }
+	
+            venue669:Venue {
+            	.Name : "Software Engineering Research and Practice"
+            }
+	
+            venue552:Venue {
+            	.Name : "Journal of Internet Services and Applications"
+            }
+	
+            venue571:Venue {
+            	.Name : "Computational Statistics  Data Analysis"
+            }
+	
+            venue342:Venue {
+            	.Name : "European Journal of Control"
+            }
+	
+            venue120:Venue {
+            	.Name : "ieee computer society international conference"
+            }
+	
+            venue175:Venue {
+            	.Name : "interactive theorem proving"
+            }
+	
+            venue39:Venue {
+            	.Name : "symposium on principles of programming languages"
+            }
+	
+            venue67:Venue {
+            	.Name : "th International Conference on Evaluation of Novel Software Approaches to Software Engineering"
+            }
+	
             venue636:Venue {
             	.Name : "integration of ai and or techniques in constraint programming"
             }
 	
-            venue637:Venue {
-            	.Name : "business process modeling development and support"
+            venue668:Venue {
+            	.Name : "modelling simulation verification and validation of enterprise information systems"
+            }
+	
+            venue514:Venue {
+            	.Name : "formal methods in software practice"
+            }
+	
+            venue113:Venue {
+            	.Name : "international cryptology conference"
+            }
+	
+            venue488:Venue {
+            	.Name : "design automation and test in europe"
+            }
+	
+            venue625:Venue {
+            	.Name : "evaluation and assessment in software engineering"
+            }
+	
+            venue412:Venue {
+            	.Name : "empirical software engineering and measurement"
+            }
+	
+            venue77:Venue {
+            	.Name : "computer aided verification"
+            }
+	
+            venue336:Venue {
+            	.Name : "user interface software and technology"
+            }
+	
+            venue177:Venue {
+            	.Name : "TAGT Selected papers from the th International Workshop on Theory and Application of Graph Transformations"
+            }
+	
+            venue274:Venue {
+            	.Name : "ACM Computing Surveys"
+            }
+	
+            venue456:Venue {
+            	.Name : "Microelectronics Reliability"
+            }
+	
+            venue450:Venue {
+            	.Name : "Mathematical Structures in Computer Science"
+            }
+	
+            venue219:Venue {
+            	.Name : "symposium on vlsi circuits"
+            }
+	
+            venue156:Venue {
+            	.Name : "international conference on the theory and application of cryptology and information security"
+            }
+	
+            venue594:Venue {
+            	.Name : "european conference on symbolic and quantitative approaches to reasoning and uncertainty"
+            }
+	
+            venue78:Venue {
+            	.Name : "Software and Systems Modeling"
+            }
+	
+            venue239:Venue {
+            	.Name : "international conference on information security"
+            }
+	
+            venue501:Venue {
+            	.Name : "IEEE Transactions on Knowledge and Data Engineering"
+            }
+	
+            venue47:Venue {
+            	.Name : "programming language design and implementation"
+            }
+	
+            venue468:Venue {
+            	.Name : "annual acis international conference on computer and information science"
+            }
+	
+            venue650:Venue {
+            	.Name : "The Art Science and Engineering of Programming"
+            }
+	
+            venue520:Venue {
+            	.Name : "service oriented software engineering"
+            }
+	
+            venue511:Venue {
+            	.Name : "Proceedings of the th international workshop on Exception handling"
+            }
+	
+            venue592:Venue {
+            	.Name : "International Journal of Foundations of Computer Science"
+            }
+	
+            venue241:Venue {
+            	.Name : "Software Testing Verification  Reliability"
+            }
+	
+            venue268:Venue {
+            	.Name : "Journal of the ACM"
+            }
+	
+            venue242:Venue {
+            	.Name : "ubiquitous computing"
+            }
+	
+            venue539:Venue {
+            	.Name : "design and diagnostics of electronic circuits and systems"
+            }
+	
+            venue421:Venue {
+            	.Name : "Journal of Logic and Computation"
+            }
+	
+            venue199:Venue {
+            	.Name : "uncertainty in artificial intelligence"
+            }
+	
+            venue182:Venue {
+            	.Name : "european conference on objectoriented programming"
+            }
+	
+            venue292:Venue {
+            	.Name : "workshops on enabling technologies infrastracture for collaborative enterprises"
+            }
+	
+            venue44:Venue {
+            	.Name : "annual software engineering workshop"
+            }
+	
+            venue499:Venue {
+            	.Name : "Proceedings of the IFIP TCWG Sixth International Workshop on Protocol Test systems VI"
+            }
+	
+            venue504:Venue {
+            	.Name : "mobile ad hoc networking and computing"
+            }
+	
+            venue229:Venue {
+            	.Name : "arcs workshops"
+            }
+	
+            venue71:Venue {
+            	.Name : "Tools and Algorithms for Construction and Analysis of Systems"
+            }
+	
+            venue630:Venue {
+            	.Name : "MBMV"
+            }
+	
+            venue286:Venue {
+            	.Name : "ACM Sigsoft Software Engineering Notes"
+            }
+	
+            venue50:Venue {
+            	.Name : "international on line testing symposium"
+            }
+	
+            venue611:Venue {
+            	.Name : "The java memory model "
+            }
+	
+            venue74:Venue {
+            	.Name : "International Symposium on Software Reliability Engineering"
+            }
+	
+            venue303:Venue {
+            	.Name : "international symposium on performance analysis of systems and software"
+            }
+	
+            venue58:Venue {
+            	.Name : "international conference on computer safety reliability and security"
+            }
+	
+            venue505:Venue {
+            	.Name : "International Journal of Uncertainty Fuzziness and KnowledgeBased Systems"
+            }
+	
+            venue653:Venue {
+            	.Name : "Scopus"
+            }
+	
+            venue11:Venue {
+            	.Name : "tests and proofs"
+            }
+	
+            venue322:Venue {
+            	.Name : "symposium on cloud computing"
+            }
+	
+            venue385:Venue {
+            	.Name : "Journal of Software Maintenance and Evolution Research and Practice"
+            }
+	
+            venue164:Venue {
+            	.Name : "ESEC"
+            }
+	
+            venue141:Venue {
+            	.Name : "colloquium on trees in algebra and programming"
+            }
+	
+            venue245:Venue {
+            	.Name : "ieee international symposium on fault tolerant computing"
+            }
+	
+            venue139:Venue {
+            	.Name : "USENIX Summer"
+            }
+	
+            venue402:Venue {
+            	.Name : "Central European Journal of Computer Science"
+            }
+	
+            venue246:Venue {
+            	.Name : "software engineering artificial intelligence networking and parallel distributed computing"
+            }
+	
+            venue368:Venue {
+            	.Name : "symposium on applied computational intelligence and informatics"
+            }
+	
+            venue30:Venue {
+            	.Name : "requirements engineering"
+            }
+	
+            venue620:Venue {
+            	.Name : "VOLTSTAF"
+            }
+	
+            venue135:Venue {
+            	.Name : "world computer congress on algorithms software architecture"
+            }
+	
+            venue128:Venue {
+            	.Name : "international conference on modeldriven engineering and software development"
+            }
+	
+            venue99:Venue {
+            	.Name : "formal methods"
+            }
+	
+            venue61:Venue {
+            	.Name : "international conference on evaluation of novel approaches to software engineering"
+            }
+	
+            venue408:Venue {
+            	.Name : "Journal of Software Evolution and Process"
+            }
+	
+            venue22:Venue {
+            	.Name : "international conference on software testing verification and validation"
+            }
+	
+            venue497:Venue {
+            	.Name : "ad hoc networks"
+            }
+	
+            venue166:Venue {
+            	.Name : "international symposium on objectcomponentserviceoriented realtime distributed computing"
+            }
+	
+            venue512:Venue {
+            	.Name : "IEEE Transactions on Information Theory"
+            }
+	
+            venue10:Venue {
+            	.Name : "tools and algorithms for construction and analysis of systems"
+            }
+	
+            venue262:Venue {
+            	.Name : "IEEE Transactions on Computers"
+            }
+	
+            venue545:Venue {
+            	.Name : "embedded and realtime computing systems and applications"
+            }
+	
+            venue500:Venue {
+            	.Name : "DIPES  Proceedings of the IFIP WGWG international workshop on Distributed and parallel embedded systems"
+            }
+	
+            venue253:Venue {
+            	.Name : "knowledge acquisition modeling and management"
+            }
+	
+            venue171:Venue {
+            	.Name : "Coordination of Internet agents"
+            }
+	
+            venue364:Venue {
+            	.Name : "latin american test workshop  latw"
+            }
+	
+            venue599:Venue {
+            	.Name : "model based methodologies for pervasive and embedded software"
+            }
+	
+            venue59:Venue {
+            	.Name : "asian symposium on programming languages and systems"
+            }
+	
+            venue154:Venue {
+            	.Name : "compiler construction"
+            }
+	
+            venue602:Venue {
+            	.Name : "ieeeacm international symposium cluster cloud and grid computing"
+            }
+	
+            venue572:Venue {
+            	.Name : "Artificial Life"
+            }
+	
+            venue41:Venue {
+            	.Name : "asiapacific software engineering conference"
+            }
+	
+            venue277:Venue {
+            	.Name : "Journal of Systems and Software"
+            }
+	
+            venue12:Venue {
+            	.Name : "international symposium on software reliability engineering"
+            }
+	
+            venue304:Venue {
+            	.Name : "highperformance computer architecture"
+            }
+	
+            venue220:Venue {
+            	.Name : "darpa information survivability conference and exposition"
+            }
+	
+            venue271:Venue {
+            	.Name : "IEEE Internet Computing"
+            }
+	
+            venue598:Venue {
+            	.Name : "The Journal of Supercomputing"
+            }
+	
+            venue163:Venue {
+            	.Name : "european symposium on programming"
+            }
+	
+            venue339:Venue {
+            	.Name : "Software  Concepts and Tools  Structured Programming"
+            }
+	
+            venue444:Venue {
+            	.Name : "workshop on fault diagnosis and tolerance in cryptography"
+            }
+	
+            venue267:Venue {
+            	.Name : "Science of Computer Programming"
+            }
+	
+            venue655:Venue {
+            	.Name : "haifa verification conference"
+            }
+	
+            venue314:Venue {
+            	.Name : "Knowledge Engineering Review"
+            }
+	
+            venue251:Venue {
+            	.Name : "Requirements Engineering"
+            }
+	
+            venue148:Venue {
+            	.Name : "principles of knowledge representation and reasoning"
+            }
+	
+            venue566:Venue {
+            	.Name : "international symposium on object component service oriented real time distributed computing"
+            }
+	
+            venue535:Venue {
+            	.Name : "logic in computer science"
+            }
+	
+            venue483:Venue {
+            	.Name : "Proceedings of the First International Workshop on ModelDriven Interoperability"
+            }
+	
+            venue4:Venue {
+            	.Name : "principles and practice of constraint programming"
+            }
+	
+            venue661:Venue {
+            	.Name : "Electronic Colloquium on Computational Complexity"
+            }
+	
+            venue26:Venue {
+            	.Name : "computational intelligence and security"
+            }
+	
+            venue407:Venue {
+            	.Name : "international conference on deductive and objectoriented databases"
+            }
+	
+            venue231:Venue {
+            	.Name : "TOOLS Proceedings of the th international conference on Objects models components patterns"
+            }
+	
+            venue195:Venue {
+            	.Name : "european conference on artificial intelligence"
+            }
+	
+            venue521:Venue {
+            	.Name : "international conference on future generation communication and networking"
+            }
+	
+            venue338:Venue {
+            	.Name : "Annals of Mathematics and Artificial Intelligence"
+            }
+	
+            venue25:Venue {
+            	.Name : "security of information and networks"
+            }
+	
+            venue232:Venue {
+            	.Name : "ieee computer security foundations symposium"
+            }
+	
+            venue403:Venue {
+            	.Name : "Journal of The Franklin Instituteengineering and Applied Mathematics"
+            }
+	
+            venue96:Venue {
+            	.Name : "international semantic web conference"
+            }
+	
+            venue366:Venue {
+            	.Name : "Journal of Symbolic Logic"
+            }
+	
+            venue24:Venue {
+            	.Name : "international conference on software engineering"
+            }
+	
+            venue528:Venue {
+            	.Name : "extending database technology"
+            }
+	
+            venue470:Venue {
+            	.Name : "international conference on requirements engineering"
+            }
+	
+            venue155:Venue {
+            	.Name : "systems man and cybernetics"
+            }
+	
+            venue646:Venue {
+            	.Name : "COMMitMDEMoDELS"
+            }
+	
+            venue393:Venue {
+            	.Name : "brazilian symposium on software engineering"
+            }
+	
+            venue353:Venue {
+            	.Name : "IEEE Transactions on Very Large Scale Integration Systems"
+            }
+	
+            venue310:Venue {
+            	.Name : "working ieeeifip conference on software architecture"
+            }
+	
+            venue664:Venue {
+            	.Name : "business process and services computing"
+            }
+	
+            venue562:Venue {
+            	.Name : "symposium on usable privacy and security"
+            }
+	
+            venue287:Venue {
+            	.Name : "Formal Aspects of Computing"
+            }
+	
+            venue320:Venue {
+            	.Name : "ACM Transactions on Database Systems"
+            }
+	
+            venue464:Venue {
+            	.Name : "Proceedings of the th International Workshop on Models and Evolution"
+            }
+	
+            venue515:Venue {
+            	.Name : "international conference on web services"
+            }
+	
+            venue672:Venue {
+            	.Name : "Evolving Software Systems"
+            }
+	
+            venue103:Venue {
+            	.Name : "international colloquium on automata languages and programming"
+            }
+	
+            venue302:Venue {
+            	.Name : "IEE Proceedings  Software"
+            }
+	
+            venue617:Venue {
+            	.Name : "web science"
+            }
+	
+            venue553:Venue {
+            	.Name : "vlsi test symposium"
+            }
+	
+            venue248:Venue {
+            	.Name : "Foundations of deductive databases and logic programming"
+            }
+	
+            venue275:Venue {
+            	.Name : "ACM Transactions on Software Engineering and Methodology"
+            }
+	
+            venue119:Venue {
+            	.Name : "conceptual modeling approaches for e business"
+            }
+	
+            venue298:Venue {
+            	.Name : "international conference on data engineering"
+            }
+	
+            venue122:Venue {
+            	.Name : "business process management"
+            }
+	
+            venue484:Venue {
+            	.Name : "IEEE Journal on Selected Areas in Communications"
+            }
+	
+            venue388:Venue {
+            	.Name : "Proceedings of the st workshop on MOdel Driven Development for Middleware MODDM "
+            }
+	
+            venue318:Venue {
+            	.Name : "Distributed Computing"
+            }
+	
+            venue149:Venue {
+            	.Name : "edbticdt workshops"
+            }
+	
+            venue649:Venue {
+            	.Name : "Journal of Information Processing"
+            }
+	
+            venue210:Venue {
+            	.Name : "Higherorder and Symbolic Computation  Lisp and Symbolic Computation"
+            }
+	
+            venue595:Venue {
+            	.Name : "sigplan symposium on new ideas new paradigms and reflections on programming and software"
+            }
+	
+            venue207:Venue {
+            	.Name : "aspect oriented software development"
+            }
+	
+            venue234:Venue {
+            	.Name : "international workshop on reachability problems"
+            }
+	
+            venue473:Venue {
+            	.Name : "Journal of Functional Programming"
+            }
+	
+            venue45:Venue {
+            	.Name : "ABZ Proceedings of the Third international conference on Abstract State Machines Alloy B VDM and Z"
+            }
+	
+            venue458:Venue {
+            	.Name : "fundamentals of software engineering"
+            }
+	
+            venue276:Venue {
+            	.Name : "digital identity management"
+            }
+	
+            venue178:Venue {
+            	.Name : "Fundamenta Informaticae"
+            }
+	
+            venue299:Venue {
+            	.Name : "ACM Sigarch Computer Architecture News"
+            }
+	
+            venue326:Venue {
+            	.Name : "New Generation Computing"
+            }
+	
+            venue413:Venue {
+            	.Name : "conference on computer supported cooperative work"
+            }
+	
+            venue612:Venue {
+            	.Name : "arXiv Logic in Computer Science"
+            }
+	
+            venue230:Venue {
+            	.Name : "european dependable computing conference"
+            }
+	
+            venue436:Venue {
+            	.Name : "International Journal of Humanoid Robotics"
+            }
+	
+            venue84:Venue {
+            	.Name : "asiapacific web conference"
+            }
+	
+            venue265:Venue {
+            	.Name : "formal methods for industrial critical systems"
+            }
+	
+            venue249:Venue {
+            	.Name : "ieee international software metrics symposium"
+            }
+	
+            venue252:Venue {
+            	.Name : "international conference on distributed computing systems"
+            }
+	
+            venue333:Venue {
+            	.Name : "International Journal on Software Tools for Technology Transfer"
+            }
+	
+            venue102:Venue {
+            	.Name : "emerging technologies and factory automation"
+            }
+	
+            venue574:Venue {
+            	.Name : "asia and south pacific design automation conference"
+            }
+	
+            venue376:Venue {
+            	.Name : "measurement and modeling of computer systems"
+            }
+	
+            venue378:Venue {
+            	.Name : "ACM Transactions on Internet Technology"
+            }
+	
+            venue343:Venue {
+            	.Name : "Software  Practice and Experience"
+            }
+	
+            venue7:Venue {
+            	.Name : "algebraic methodology and software technology"
+            }
+	
+            venue510:Venue {
+            	.Name : "Autonomous Agents and MultiAgent Systems"
+            }
+	
+            venue508:Venue {
+            	.Name : "high performance computing and communications"
+            }
+	
+            venue312:Venue {
+            	.Name : "conference on object oriented programming systems languages and applications"
+            }
+	
+            venue63:Venue {
+            	.Name : "international symposium on computer modeling measurement and evaluation"
+            }
+	
+            venue428:Venue {
+            	.Name : "data and knowledge engineering"
+            }
+	
+            venue616:Venue {
+            	.Name : "Technique Et Science Informatiques"
+            }
+	
+            venue52:Venue {
+            	.Name : "international conference on model transformation"
+            }
+	
+            venue334:Venue {
+            	.Name : "Journal of Database Management"
+            }
+	
+            venue540:Venue {
+            	.Name : "international conference on parallel and distributed information systems"
+            }
+	
+            venue105:Venue {
+            	.Name : "international conference on cryptology in india"
+            }
+	
+            venue226:Venue {
+            	.Name : "Expert Database Conf"
+            }
+	
+            venue89:Venue {
+            	.Name : "european conference on modelling foundations and applications"
+            }
+	
+            venue360:Venue {
+            	.Name : "Technometrics"
+            }
+	
+            venue556:Venue {
+            	.Name : "acm sigops european workshop"
+            }
+	
+            venue190:Venue {
+            	.Name : "Advances in Computers"
+            }
+	
+            venue502:Venue {
+            	.Name : "Foundations and Trends in Humancomputer Interaction"
+            }
+	
+            venue172:Venue {
+            	.Name : "Annals of Software Engineering"
+            }
+	
+            venue356:Venue {
+            	.Name : "International Journal of Information Security"
+            }
+	
+            venue438:Venue {
+            	.Name : "ACM Transactions on ComputerHuman Interaction"
+            }
+	
+            venue62:Venue {
+            	.Name : "cryptographic hardware and embedded systems"
+            }
+	
+            venue422:Venue {
+            	.Name : "generative programming and component engineering"
+            }
+	
+            venue42:Venue {
+            	.Name : "international conference on quality software"
+            }
+	
+            venue28:Venue {
+            	.Name : "international conference on information and communication security"
+            }
+	
+            venue328:Venue {
+            	.Name : "international conference on management of data"
+            }
+	
+            venue621:Venue {
+            	.Name : "Modellierung"
+            }
+	
+            venue567:Venue {
+            	.Name : "workshop on i o in parallel and distributed systems"
+            }
+	
+            venue506:Venue {
+            	.Name : "workshop on declarative aspects of multicore programming"
+            }
+	
+            venue608:Venue {
+            	.Name : "international conference on information systems"
+            }
+	
+            venue124:Venue {
+            	.Name : "arXiv Software Engineering"
+            }
+	
+            venue235:Venue {
+            	.Name : "FIDJI Proceedings of the th international conference on Scientific Engineering of Distributed Java Applications"
+            }
+	
+            venue208:Venue {
+            	.Name : "international symposium on autonomous decentralized systems"
+            }
+	
+            venue17:Venue {
+            	.Name : "automated software engineering"
+            }
+	
+            venue173:Venue {
+            	.Name : "international workshop on model checking software"
+            }
+	
+            venue158:Venue {
+            	.Name : "Conceptual Modeling Foundations and Applications"
+            }
+	
+            venue300:Venue {
+            	.Name : "workshop on parallel  distributed debugging"
+            }
+	
+            venue221:Venue {
+            	.Name : "JVM Proceedings of the  Symposium on JavaTM Virtual Machine Research and Technology Symposium  Volume "
+            }
+	
+            venue335:Venue {
+            	.Name : "foundations of software engineering"
+            }
+	
+            venue272:Venue {
+            	.Name : "Reliability Engineering  System Safety"
+            }
+	
+            venue82:Venue {
+            	.Name : "file and storage technologies"
+            }
+	
+            venue15:Venue {
+            	.Name : "international conference on global software engineering"
+            }
+	
+            venue206:Venue {
+            	.Name : "IFIP World Conference on IT Tools"
+            }
+	
+            venue386:Venue {
+            	.Name : "international workshop on software specification and design"
+            }
+	
+            venue8:Venue {
+            	.Name : "model driven engineering languages and systems"
+            }
+	
+            venue159:Venue {
+            	.Name : "component based software engineering"
+            }
+	
+            venue80:Venue {
+            	.Name : "international conference on graph transformation"
+            }
+	
+            venue541:Venue {
+            	.Name : " Proceedings of the Second International Conference on the Software ProcessContinuous Software Process Improvement"
+            }
+	
+            venue143:Venue {
+            	.Name : "european conference on parallel processing"
+            }
+	
+            venue596:Venue {
+            	.Name : "Proceedings of the  international workshop on Selfadaptation and selfmanaging systems"
+            }
+	
+            venue434:Venue {
+            	.Name : "document engineering"
+            }
+	
+            venue538:Venue {
+            	.Name : "Proceedings th EUROMICRO Conference  A Net Odyssey"
+            }
+	
+            venue37:Venue {
+            	.Name : "high assurance systems engineering"
+            }
+	
+            venue467:Venue {
+            	.Name : "The Journal of Logic and Algebraic Programming"
+            }
+	
+            venue665:Venue {
+            	.Name : "Description Logics"
+            }
+	
+            venue517:Venue {
+            	.Name : "international conference on emerging security information systems and technologies"
+            }
+	
+            venue107:Venue {
+            	.Name : "international conference on reliable software technologies"
+            }
+	
+            venue657:Venue {
+            	.Name : "MDWEMoDELS"
+            }
+	
+            venue527:Venue {
+            	.Name : "international workshop on petri nets and performance models"
+            }
+	
+            venue68:Venue {
+            	.Name : "International Conference on Evaluation and Assessment in Software Engineering"
+            }
+	
+            venue345:Venue {
+            	.Name : "conference on objectoriented programming systems languages and applications"
+            }
+	
+            venue478:Venue {
+            	.Name : "selfadaptive and selforganizing systems"
+            }
+	
+            venue260:Venue {
+            	.Name : "International Journal of Software Engineering and Knowledge Engineering"
+            }
+	
+            venue180:Venue {
+            	.Name : "international conference on move to meaningful internet systems"
+            }
+	
+            venue133:Venue {
+            	.Name : "business information systems"
+            }
+	
+            venue549:Venue {
+            	.Name : "international conference on machine learning and cybernetics"
+            }
+	
+            venue237:Venue {
+            	.Name : "european conference on evolutionary computation in combinatorial optimization"
+            }
+	
+            venue167:Venue {
+            	.Name : "conference on advanced information systems engineering"
+            }
+	
+            venue43:Venue {
+            	.Name : "international conference on software engineering advances"
+            }
+	
+            venue634:Venue {
+            	.Name : "TOOLS Proceedings of the th international conference on Objects models components patterns"
+            }
+	
+            venue551:Venue {
+            	.Name : "grid computing"
+            }
+	
+            venue291:Venue {
+            	.Name : "Communications of The ACM"
+            }
+	
+            venue2:Venue {
+            	.Name : "working conference on reverse engineering"
+            }
+	
+            venue88:Venue {
+            	.Name : "conference on management of data"
+            }
+	
+            venue186:Venue {
+            	.Name : "network and distributed system security symposium"
+            }
+	
+            venue53:Venue {
+            	.Name : "international conference on software reuse"
+            }
+	
+            venue519:Venue {
+            	.Name : "IEEE Computer Architecture Letters"
+            }
+	
+            venue663:Venue {
+            	.Name : "Quality Engineering"
+            }
+	
+            venue40:Venue {
+            	.Name : "theoretical aspects of software engineering"
+            }
+	
+            venue644:Venue {
+            	.Name : "FlexMDEMoDELS"
+            }
+	
+            venue392:Venue {
+            	.Name : "software engineering and advanced applications"
+            }
+	
+            venue417:Venue {
+            	.Name : "new security paradigms workshop"
+            }
+	
+            venue424:Venue {
+            	.Name : "Mathematical Methods of Operations Research"
+            }
+	
+            venue513:Venue {
+            	.Name : "advances in model based software testing"
+            }
+	
+            venue659:Venue {
+            	.Name : "Proceedings of the ACM on Programming Languages"
             }
 	
             venue638:Venue {
@@ -2558,144 +2090,612 @@ model AllVenues {
             	.Name : "predictive models in software engineering"
             }
 	
-            venue640:Venue {
-            	.Name : "international symposium on haskell"
-            }
-	
-            venue641:Venue {
-            	.Name : "leveraging applications of formal methods"
-            }
-	
-            venue642:Venue {
-            	.Name : "Computer Languages Systems  Structures"
-            }
-	
-            venue643:Venue {
-            	.Name : "decision support systems"
-            }
-	
-            venue644:Venue {
-            	.Name : "FlexMDEMoDELS"
-            }
-	
-            venue645:Venue {
-            	.Name : "International Workshop on Design Modeling and Evaluation of Cyber Physical Systems"
-            }
-	
-            venue646:Venue {
-            	.Name : "COMMitMDEMoDELS"
-            }
-	
-            venue647:Venue {
-            	.Name : "PampDMoDELS"
-            }
-	
-            venue648:Venue {
-            	.Name : "Flexible Model Driven Engineering Workshop"
-            }
-	
-            venue649:Venue {
-            	.Name : "Journal of Information Processing"
-            }
-	
-            venue650:Venue {
-            	.Name : "The Art Science and Engineering of Programming"
-            }
-	
-            venue651:Venue {
-            	.Name : "Creative Industries Faculty"
-            }
-	
-            venue652:Venue {
-            	.Name : "Proceedings of the th ACM SIGSOFT International SPIN Symposium on Model Checking of Software"
-            }
-	
-            venue653:Venue {
-            	.Name : "Scopus"
-            }
-	
-            venue654:Venue {
-            	.Name : "LWIASE"
-            }
-	
-            venue655:Venue {
-            	.Name : "haifa verification conference"
-            }
-	
-            venue656:Venue {
-            	.Name : "winter simulation conference"
-            }
-	
-            venue657:Venue {
-            	.Name : "MDWEMoDELS"
-            }
-	
-            venue658:Venue {
-            	.Name : "CEUR Workshop Proceedings"
-            }
-	
-            venue659:Venue {
-            	.Name : "Proceedings of the ACM on Programming Languages"
-            }
-	
-            venue660:Venue {
-            	.Name : "BIOCOMP"
-            }
-	
-            venue661:Venue {
-            	.Name : "Electronic Colloquium on Computational Complexity"
-            }
-	
-            venue662:Venue {
-            	.Name : "FMSP"
-            }
-	
-            venue663:Venue {
-            	.Name : "Quality Engineering"
-            }
-	
-            venue664:Venue {
-            	.Name : "business process and services computing"
-            }
-	
-            venue665:Venue {
-            	.Name : "Description Logics"
-            }
-	
-            venue666:Venue {
-            	.Name : "Journal on Satisfiability Boolean Modeling and Computation"
-            }
-	
-            venue667:Venue {
-            	.Name : "Sigmod Record"
-            }
-	
-            venue668:Venue {
-            	.Name : "modelling simulation verification and validation of enterprise information systems"
-            }
-	
-            venue669:Venue {
-            	.Name : "Software Engineering Research and Practice"
-            }
-	
-            venue670:Venue {
-            	.Name : "Parallel and distributed computing and networks"
-            }
-	
-            venue671:Venue {
-            	.Name : "international joint conference on artificial intelligence"
-            }
-	
-            venue672:Venue {
-            	.Name : "Evolving Software Systems"
+            venue605:Venue {
+            	.Name : "Integrity and internal control information systems"
             }
 	
             venue673:Venue {
             	.Name : "Logic Programs Norms and Action"
             }
 	
-            venue674:Venue {
-            	.Name : "International Conference on the Unified Modeling Language"
+            venue525:Venue {
+            	.Name : "ieee symposium on visual languages"
+            }
+	
+            venue49:Venue {
+            	.Name : "software engineering and knowledge engineering"
+            }
+	
+            venue355:Venue {
+            	.Name : "Information  Computation"
+            }
+	
+            venue418:Venue {
+            	.Name : "Software Engineering Journal"
+            }
+	
+            venue440:Venue {
+            	.Name : "international conference on software and systems process"
+            }
+	
+            venue196:Venue {
+            	.Name : "Behavioral Specifications of Businesses and Systems"
+            }
+	
+            venue390:Venue {
+            	.Name : "ACM Transactions on Information and System Security"
+            }
+	
+            venue216:Venue {
+            	.Name : "Journal of Computer Security"
+            }
+	
+            venue474:Venue {
+            	.Name : "IEEE Transactions on Reliability"
+            }
+	
+            venue130:Venue {
+            	.Name : "workshop on graph theoretic concepts in computer science"
+            }
+	
+            venue295:Venue {
+            	.Name : "workshop on program analysis for software tools and engineering"
+            }
+	
+            venue409:Venue {
+            	.Name : "adaptive agents and multiagents systems"
+            }
+	
+            venue202:Venue {
+            	.Name : "ModelBased Testing of Reactive Systems"
+            }
+	
+            venue560:Venue {
+            	.Name : "integrated formal methods"
+            }
+	
+            venue110:Venue {
+            	.Name : "very large data bases"
+            }
+	
+            venue293:Venue {
+            	.Name : "Simulation Modelling Practice and Theory"
+            }
+	
+            venue405:Venue {
+            	.Name : "symposium on principles of database systems"
+            }
+	
+            venue367:Venue {
+            	.Name : "Information  Software Technology"
+            }
+	
+            venue384:Venue {
+            	.Name : "Constraints  An International Journal"
+            }
+	
+            venue462:Venue {
+            	.Name : "International Journal of Parallel Programming"
+            }
+	
+            venue111:Venue {
+            	.Name : "FTRTFT  Proceedings of the th International Symposium on Formal Techniques in RealTime and FaultTolerant Systems"
+            }
+	
+            venue516:Venue {
+            	.Name : "engineering of computerbased systems"
+            }
+	
+            venue411:Venue {
+            	.Name : "international symposium on low power electronics and design"
+            }
+	
+            venue104:Venue {
+            	.Name : "Proceedings of the  conference on Databases and Information Systems IV Selected Papers from the Seventh International Baltic Conference DBIS"
+            }
+	
+            venue118:Venue {
+            	.Name : "Das Proceedings of the fifteenth annual working conference on Database and application security"
+            }
+	
+            venue374:Venue {
+            	.Name : "Journal of Software"
+            }
+	
+            venue401:Venue {
+            	.Name : "hot topics in system dependability"
+            }
+	
+            venue181:Venue {
+            	.Name : "Sigplan Notices"
+            }
+	
+            venue548:Venue {
+            	.Name : "Concurrency and Computation Practice and Experience"
+            }
+	
+            venue433:Venue {
+            	.Name : "international conference on engineering of complex computer systems"
+            }
+	
+            venue114:Venue {
+            	.Name : "conference on current trends in theory and practice of informatics"
+            }
+	
+            venue629:Venue {
+            	.Name : "XMMoDELS"
+            }
+	
+            venue324:Venue {
+            	.Name : "digital rights management"
+            }
+	
+            venue582:Venue {
+            	.Name : "feature oriented software development"
+            }
+	
+            venue16:Venue {
+            	.Name : "international symposium on microarchitecture"
+            }
+	
+            venue266:Venue {
+            	.Name : "aspectoriented software development"
+            }
+	
+            venue160:Venue {
+            	.Name : "verified software theories tools experiments"
+            }
+	
+            venue112:Venue {
+            	.Name : "international conference on principles of distributed systems"
+            }
+	
+            venue414:Venue {
+            	.Name : " International Conference on Computing Networking and Communications ICNC"
+            }
+	
+            venue161:Venue {
+            	.Name : "USENIX Winter"
+            }
+	
+            venue603:Venue {
+            	.Name : "th Satellite Activities Conference on UML Modeling Languages and Applications"
+            }
+	
+            venue66:Venue {
+            	.Name : "research challenges in information science"
+            }
+	
+            venue247:Venue {
+            	.Name : "arXiv Operating Systems"
+            }
+	
+            venue255:Venue {
+            	.Name : "international spin conference on model checking software"
+            }
+	
+            venue258:Venue {
+            	.Name : "arXiv Distributed Parallel and Cluster Computing"
+            }
+	
+            venue558:Venue {
+            	.Name : "international conference on communications"
+            }
+	
+            venue406:Venue {
+            	.Name : "software engineering symposium on practical software development environments"
+            }
+	
+            venue330:Venue {
+            	.Name : "Journal of Network and Computer Applications"
+            }
+	
+            venue363:Venue {
+            	.Name : "Theoretical Computer Science"
+            }
+	
+            venue283:Venue {
+            	.Name : "Knowledge and Information Systems"
+            }
+	
+            venue153:Venue {
+            	.Name : "Electronic Communication of The European Association of Software Science and Technology"
+            }
+	
+            venue86:Venue {
+            	.Name : "quality of software architectures"
+            }
+	
+            venue222:Venue {
+            	.Name : "usenix security symposium"
+            }
+	
+            venue509:Venue {
+            	.Name : "workshop on hot topics in operating systems"
+            }
+	
+            venue389:Venue {
+            	.Name : "symposium on the theory of computing"
+            }
+	
+            venue569:Venue {
+            	.Name : "International Workshop on Formal Approaches to Software Testing"
+            }
+	
+            venue38:Venue {
+            	.Name : "international conference on software and system process"
+            }
+	
+            venue27:Venue {
+            	.Name : "conference on software maintenance and reengineering"
+            }
+	
+            venue656:Venue {
+            	.Name : "winter simulation conference"
+            }
+	
+            venue518:Venue {
+            	.Name : "Rewriting Computation and Proof"
+            }
+	
+            venue589:Venue {
+            	.Name : "ieee international workshop on policies for distributed systems and networks"
+            }
+	
+            venue327:Venue {
+            	.Name : "Computers  Chemical Engineering"
+            }
+	
+            venue623:Venue {
+            	.Name : "BigMDESTAF"
+            }
+	
+            venue203:Venue {
+            	.Name : "CADUI"
+            }
+	
+            venue495:Venue {
+            	.Name : "agent and multi agent systems technologies and applications"
+            }
+	
+            venue563:Venue {
+            	.Name : "ieee international conference on services computing"
+            }
+	
+            venue131:Venue {
+            	.Name : "Handbook of graph grammars and computing by graph transformation"
+            }
+	
+            venue191:Venue {
+            	.Name : "ieee wic acm international conference on intelligent agent technology"
+            }
+	
+            venue308:Venue {
+            	.Name : "certified programs and proofs"
+            }
+	
+            venue426:Venue {
+            	.Name : "Proceedings of the workshop on Memory Systems Performance and Correctness"
+            }
+	
+            venue597:Venue {
+            	.Name : "Journal of Network and Systems Management"
+            }
+	
+            venue346:Venue {
+            	.Name : "Computer Systems Science  Engineering"
+            }
+	
+            venue379:Venue {
+            	.Name : "ACM Transactions on Programming Languages and Systems"
+            }
+	
+            venue108:Venue {
+            	.Name : "international conference on database theory"
+            }
+	
+            venue564:Venue {
+            	.Name : "TOOLS "
+            }
+	
+            venue165:Venue {
+            	.Name : "cryptology and network security"
+            }
+	
+            venue427:Venue {
+            	.Name : "ACM Transactions on The Web"
+            }
+	
+            venue645:Venue {
+            	.Name : "International Workshop on Design Modeling and Evaluation of Cyber Physical Systems"
+            }
+	
+            venue626:Venue {
+            	.Name : "BxETAPS"
+            }
+	
+            venue94:Venue {
+            	.Name : "formal methods for open object based distributed systems"
+            }
+	
+            venue578:Venue {
+            	.Name : "Journal of Computational Chemistry"
+            }
+	
+            venue341:Venue {
+            	.Name : "Journal of Information Science"
+            }
+	
+            venue531:Venue {
+            	.Name : "international conference on tools with artificial intelligence"
+            }
+	
+            venue3:Venue {
+            	.Name : "fundamental approaches to software engineering"
+            }
+	
+            venue87:Venue {
+            	.Name : "international conference on logic programming"
+            }
+	
+            venue387:Venue {
+            	.Name : "Computer Standards  Interfaces"
+            }
+	
+            venue395:Venue {
+            	.Name : "Logical Methods in Computer Science"
+            }
+	
+            venue530:Venue {
+            	.Name : "source code analysis and manipulation"
+            }
+	
+            venue660:Venue {
+            	.Name : "BIOCOMP"
+            }
+	
+            venue577:Venue {
+            	.Name : "international workshop on principles of software evolution"
+            }
+	
+            venue72:Venue {
+            	.Name : "ACMSIGPLAN Conference on Programming Language Design and Implementation"
+            }
+	
+            venue142:Venue {
+            	.Name : "rex workshop on stepwise refinement of distributed systems models formalisms correctness"
+            }
+	
+            venue348:Venue {
+            	.Name : "Computer Communications"
+            }
+	
+            venue486:Venue {
+            	.Name : "enterprise distributed object computing"
+            }
+	
+            venue240:Venue {
+            	.Name : "variability modelling of softwareintensive systems"
+            }
+	
+            venue290:Venue {
+            	.Name : "intelligent information systems"
+            }
+	
+            venue380:Venue {
+            	.Name : "International Journal of Cloud Applications and Computing archive"
+            }
+	
+            venue425:Venue {
+            	.Name : "Journal of Interconnection Networks"
+            }
+	
+            venue189:Venue {
+            	.Name : "Proceedings of the Fifth Annual Z User Meeting on Z User Workshop"
+            }
+	
+            venue404:Venue {
+            	.Name : "Information Processing Letters"
+            }
+	
+            venue536:Venue {
+            	.Name : "Proceedings of the IFIP TC WG Eleventh International Conference on Database Securty XI Status and Prospects"
+            }
+	
+            venue544:Venue {
+            	.Name : "european test symposium"
+            }
+	
+            venue205:Venue {
+            	.Name : "verification model checking and abstract interpretation"
+            }
+	
+            venue487:Venue {
+            	.Name : "international conference on computer communications"
+            }
+	
+            venue306:Venue {
+            	.Name : "computer and communications security"
+            }
+	
+            venue400:Venue {
+            	.Name : "Proceedings of the  workshop on Engineering fault tolerant systems"
+            }
+	
+            venue600:Venue {
+            	.Name : "IEEE Transactions on Communications"
+            }
+	
+            venue121:Venue {
+            	.Name : "workshop on recent trends in algebraic development techniques"
+            }
+	
+            venue455:Venue {
+            	.Name : "information security for south africa"
+            }
+	
+            venue590:Venue {
+            	.Name : "autonomic computing workshop"
+            }
+	
+            venue192:Venue {
+            	.Name : "IEEE Microwave and Wireless Components Letters"
+            }
+	
+            venue264:Venue {
+            	.Name : "ACM Transactions on Storage"
+            }
+	
+            venue75:Venue {
+            	.Name : "Fundamental Approaches to Software Engineering"
+            }
+	
+            venue188:Venue {
+            	.Name : "humancomputer interaction with mobile devices and services"
+            }
+	
+            venue91:Venue {
+            	.Name : "international colloquium on automata languages and programming"
+            }
+	
+            venue344:Venue {
+            	.Name : "asian test symposium"
+            }
+	
+            venue319:Venue {
+            	.Name : "symposium on software reusability"
+            }
+	
+            venue332:Venue {
+            	.Name : "Electronic Notes in Theoretical Computer Science"
+            }
+	
+            venue225:Venue {
+            	.Name : "In  Encyclopedia of Database Systems Springer "
+            }
+	
+            venue315:Venue {
+            	.Name : "IEEE Transactions on Robotics"
+            }
+	
+            venue555:Venue {
+            	.Name : "international symposium on information theory"
+            }
+	
+            venue224:Venue {
+            	.Name : "Bulletin of The European Association for Theoretical Computer Science"
+            }
+	
+            venue576:Venue {
+            	.Name : "conference on computability in europe"
+            }
+	
+            venue654:Venue {
+            	.Name : "LWIASE"
+            }
+	
+            venue410:Venue {
+            	.Name : "international world wide web conferences"
+            }
+	
+            venue445:Venue {
+            	.Name : "Ibm Journal of Research and Development"
+            }
+	
+            venue533:Venue {
+            	.Name : "international conference on cluster computing"
+            }
+	
+            venue197:Venue {
+            	.Name : "Computing Systems"
+            }
+	
+            venue279:Venue {
+            	.Name : "international symposium on software testing and analysis"
+            }
+	
+            venue641:Venue {
+            	.Name : "leveraging applications of formal methods"
+            }
+	
+            venue313:Venue {
+            	.Name : "human factors in computing systems"
+            }
+	
+            venue64:Venue {
+            	.Name : "international software process workshop"
+            }
+	
+            venue212:Venue {
+            	.Name : "international symposium on theoretical aspects of computer software"
+            }
+	
+            venue601:Venue {
+            	.Name : "international conference on distributed computing systems workshops"
+            }
+	
+            venue610:Venue {
+            	.Name : "partial evaluation and semanticbased program manipulation"
+            }
+	
+            venue466:Venue {
+            	.Name : "formal methods in computeraided design"
+            }
+	
+            venue307:Venue {
+            	.Name : "computer science and software engineering"
+            }
+	
+            venue396:Venue {
+            	.Name : "IEEE Transactions on Parallel and Distributed Systems"
+            }
+	
+            venue439:Venue {
+            	.Name : "Theory and Practice of Logic Programming"
+            }
+	
+            venue193:Venue {
+            	.Name : "international conference on engineering secure software and systems"
+            }
+	
+            venue573:Venue {
+            	.Name : "international conference on robotics and automation"
+            }
+	
+            venue263:Venue {
+            	.Name : "Acta Informatica"
+            }
+	
+            venue204:Venue {
+            	.Name : "btw workshops"
+            }
+	
+            venue352:Venue {
+            	.Name : "Proceedings of the th International Workshop on ModelDriven Engineering Verification and Validation"
+            }
+	
+            venue453:Venue {
+            	.Name : "ACM Transactions on Architecture and Code Optimization"
+            }
+	
+            venue628:Venue {
+            	.Name : "Programming Languages and Their Definition  Hans Bekic "
+            }
+	
+            venue117:Venue {
+            	.Name : "International Workshop on Software ProductFamily Engineering"
+            }
+	
+            venue460:Venue {
+            	.Name : "Simulation"
+            }
+	
+            venue183:Venue {
+            	.Name : "International Conference on Objects Components Models and Patterns"
+            }
+	
+            venue129:Venue {
+            	.Name : "The Engineering of Mixed Reality Systems"
             }
 }
 

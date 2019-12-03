@@ -80,7 +80,7 @@ public class PapersPojo {
 	static Map<String, String> id_to_authors_global = new HashMap<String, String>();
 	static Set<String> dummypaperids= new HashSet<String>();
 	public static Set<String> venues;
-	static Map<Integer, String> venues_global = new HashMap<Integer, String>();
+	static Map<String, Integer> venues_global = new HashMap<String, Integer>();
 
 	
 	

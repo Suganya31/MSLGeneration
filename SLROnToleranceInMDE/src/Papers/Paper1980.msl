@@ -1,33 +1,19 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Venues.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1976.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1978.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1941.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1974.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1979.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1962.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
  	
 model Paper1980{
 	paper1992390275:Paper {
                 .title : "A carrier sense multiple access protocol for local networks"
             	.year : 1980
             	.core : false
-            	-venue->venue338
-            	-authors->author2142037325
+            	-venue->venue337
             }
 	paper2057954021:Paper {
                 .title : "Issues in the design and use of a distributed file system"
             	.year : 1980
             	.core : false
-            	-venue->venue430
-            	-authors->author2297054173
-            	-authors->author2575882345
-            	-authors->author2659825858
+            	-venue->venue369
             }
 }
 

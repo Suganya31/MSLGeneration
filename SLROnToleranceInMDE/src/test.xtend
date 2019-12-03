@@ -88,12 +88,12 @@ class test {
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Venues.msl"
-	«FOR paper : papers»
-	«IF(paper.getYear < year) && !years.contains(paper.getYear)»	
-			      «{years.add(paper.getYear); "" }»
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper«paper.getYear.toString()».msl"
-          «ENDIF»          
- 	«ENDFOR»
+«««	«FOR paper : papers»
+«««	«IF(paper.getYear !== year) && !years.contains(paper.getYear)»	
+«««			      «{years.add(paper.getYear); "" }»
+«««import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper«paper.getYear.toString()».msl"
+«««          «ENDIF»          
+««« 	«ENDFOR»
  	
 model Paper«year.toString()»{
 	«FOR paper : papers»
@@ -104,11 +104,11 @@ model Paper«year.toString()»{
             	.core : «paper.getCore()»
             	-venue->venue«paper.getVenue()»
             	 «var pool=PapersPojo.poolids»
-            	«FOR reference : paper.getReferences()»
-            	     «IF (pool.contains(reference))»
-            	      -cites->paper«reference»
-            	     «ENDIF»
-                «ENDFOR»
+«««            	«FOR reference : paper.getReferences()»
+«««            	     «IF (pool.contains(reference))»
+«««            	      -cites->paper«reference»
+«««            	     «ENDIF»
+«««                «ENDFOR»
             	«FOR author : paper.getAuthors()»
             	       -authors->author«author»
             	 «ENDFOR»
@@ -160,11 +160,11 @@ model AllAuthors {
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 
 model AllVenues {
-	«var s=PapersPojo.venues_global»	
-	«FOR a : s.entrySet»
+	«var v=PapersPojo.venues_global»	
+	«FOR s : v.entrySet»
 	
-            venue«a.key»:Venue {
-            	.Name : "«getOnlyStrings(a.value)»"
+            venue«s.getValue»:Venue {
+            	.Name : "«getOnlyStrings(s.getKey)»"
             }
             «ENDFOR»
 }

@@ -1,86 +1,55 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Venues.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1982.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1976.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1978.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1980.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1941.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1974.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1979.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1962.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
  	
 model Paper1983{
 	paper1587166076:Paper {
                 .title : "SmallTalk The Interactive Programming Environment"
             	.year : 1983
             	.core : false
-            	-venue->venue198
-            	-authors->author2224192923
+            	-venue->venue81
             }
 	paper2009312542:Paper {
                 .title : "The clearinghouse a decentralized agent for locating named objects in a distributed environment"
             	.year : 1983
             	.core : false
-            	-venue->venue372
-            	-cites->paper2043671329
-            	-authors->author2648415225
-            	-authors->author2680107879
+            	-venue->venue371
             }
 	paper2015640848:Paper {
                 .title : "Results on the propositional calculus"
             	.year : 1983
             	.core : false
-            	-venue->venue382
-            	-authors->author2041783100
+            	-venue->venue363
             }
 	paper2019712414:Paper {
                 .title : "Program developments formal explanations of implementations"
             	.year : 1983
             	.core : false
-            	-venue->venue388
-            	-cites->paper2103953153
-            	-authors->author2777005984
+            	-venue->venue291
             }
 	paper2050894976:Paper {
                 .title : "Rosolving conflicts in global storage design through replication"
             	.year : 1983
             	.core : false
-            	-venue->venue423
-            	-authors->author2131916116
-            	-authors->author2246122413
+            	-venue->venue320
             }
 	paper2051374949:Paper {
                 .title : "A Data Flow Oriented Program Testing Strategy"
             	.year : 1983
             	.core : false
-            	-venue->venue423
-            	-authors->author2628476136
-            	-authors->author18609543
+            	-venue->venue281
             }
 	paper2103814941:Paper {
                 .title : "Impossibility of distributed consensus with one faulty process"
             	.year : 1983
             	.core : false
-            	-venue->venue490
-            	-cites->paper2035362408
-            	-cites->paper2120510885
-            	-authors->author2159593723
-            	-authors->author2180706138
-            	-authors->author2085176665
+            	-venue->venue405
             }
 	paper57965354:Paper {
                 .title : "UPM A Formal Tool for Expressing Database Update Semantics"
             	.year : 1983
             	.core : false
-            	-venue->venue666
-            	-authors->author2136435687
-            	-authors->author2652035513
+            	-venue->venue214
             }
 }
 

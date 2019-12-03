@@ -1,16 +1,13 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Venues.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1941.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1962.msl"
  	
 model Paper1969{
 	paper2111706174:Paper {
                 .title : "An axiomatic basis for computer programming"
             	.year : 1969
             	.core : false
-            	-venue->venue509
-            	-authors->author2052847585
+            	-venue->venue291
             }
 }
 

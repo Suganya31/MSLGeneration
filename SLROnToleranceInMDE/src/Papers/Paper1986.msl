@@ -1,147 +1,91 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Venues.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1982.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1983.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1976.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1978.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1980.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1941.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1984.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1974.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1979.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1962.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
  	
 model Paper1986{
 	paper1491178396:Paper {
                 .title : "Compilers Principles Techniques and Tools"
             	.year : 1986
             	.core : false
-            	-venue->venue108
-            	-authors->author2289364316
-            	-authors->author2239086285
-            	-authors->author2380581373
+            	-venue->venue81
             }
 	paper181078895:Paper {
                 .title : "Integrity Enforcement on Deductive Databases"
             	.year : 1986
             	.core : false
-            	-venue->venue227
-            	-authors->author2697015277
+            	-venue->venue226
             }
 	paper1970495662:Paper {
                 .title : "Systematic software development using VDM"
             	.year : 1986
             	.core : false
-            	-venue->venue283
-            	-authors->author2142468959
+            	-venue->venue81
             }
 	paper1971991620:Paper {
                 .title : "An experimental evaluation of the assumption of independence in multiversion programming"
             	.year : 1986
             	.core : false
-            	-venue->venue286
-            	-authors->author2178599376
-            	-authors->author2150992688
+            	-venue->venue281
             }
 	paper1984478483:Paper {
                 .title : "Recognizing Safety and Liveness"
             	.year : 1986
             	.core : false
-            	-venue->venue319
-            	-cites->paper2132334337
-            	-authors->author2106636992
-            	-authors->author2397943235
+            	-venue->venue318
             }
 	paper2042609034:Paper {
                 .title : "PODS  A project on diverse software"
             	.year : 1986
             	.core : false
-            	-venue->venue417
-            	-authors->author2683249638
-            	-authors->author2681058398
-            	-authors->author2636227973
-            	-authors->author2708512927
-            	-authors->author2167465717
-            	-authors->author2672428796
+            	-venue->venue281
             }
 	paper2067126923:Paper {
                 .title : "A requirements modeling language and its logic"
             	.year : 1986
             	.core : false
-            	-venue->venue441
-            	-cites->paper2127614394
-            	-authors->author2100751788
-            	-authors->author2161153869
-            	-authors->author2052199646
+            	-venue->venue429
             }
 	paper2080267935:Paper {
                 .title : "GraphBased Algorithms for Boolean Function Manipulation"
             	.year : 1986
             	.core : false
-            	-venue->venue451
-            	-authors->author2719591975
+            	-venue->venue262
             }
 	paper2087668037:Paper {
                 .title : "Efficient solutions to the replicated log and dictionary problems"
             	.year : 1986
             	.core : false
-            	-venue->venue461
-            	-cites->paper2120510885
-            	-cites->paper2125011947
-            	-authors->author2806404409
-            	-authors->author2209989846
+            	-venue->venue369
             }
 	paper2113827629:Paper {
                 .title : "A logical design methodology for relational databases using the extended entityrelationship model"
             	.year : 1986
             	.core : false
-            	-venue->venue511
-            	-authors->author2438560074
-            	-authors->author2296287382
-            	-authors->author2309154312
+            	-venue->venue274
             }
 	paper2130493426:Paper {
                 .title : "Designing a global name service"
             	.year : 1986
             	.core : false
-            	-venue->venue548
-            	-cites->paper2043671329
-            	-authors->author1785551945
+            	-venue->venue309
             }
 	paper2146603391:Paper {
                 .title : "Incremental attribute evaluation in distributed languagebased environments"
             	.year : 1986
             	.core : false
-            	-venue->venue570
-            	-authors->author2100592247
-            	-authors->author2132052502
+            	-venue->venue309
             }
 	paper2177772636:Paper {
                 .title : "Memory access buffering in multiprocessors"
             	.year : 1986
             	.core : false
-            	-venue->venue607
-            	-cites->paper1545792627
-            	-cites->paper1973501242
-            	-cites->paper2051789131
-            	-cites->paper2054739713
-            	-authors->author2067936517
-            	-authors->author2112744756
-            	-authors->author2515119473
+            	-venue->venue33
             }
 	paper230336782:Paper {
                 .title : "Software processes are software too"
             	.year : 1986
             	.core : false
-            	-venue->venue616
-            	-authors->author2248607981
+            	-venue->venue615
             }
 }
 

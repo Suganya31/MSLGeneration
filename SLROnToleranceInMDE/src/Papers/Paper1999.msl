@@ -1,599 +1,295 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Venues.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1997.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1989.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1990.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1992.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1998.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1991.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1995.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1986.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1987.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1988.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1993.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1982.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1983.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1976.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1978.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1980.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1941.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1984.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1974.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1979.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1962.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
  	
 model Paper1999{
 	paper1577808945:Paper {
                 .title : "Hierarchical Reliability and Safety Models of Fault Tolerant Distributed Industrial Control Systems"
             	.year : 1999
             	.core : true
-            	-venue->venue10
-            	-cites->paper1507623386
-            	-cites->paper1838724310
-            	-cites->paper2121741428
-            	-cites->paper2153851383
-            	-cites->paper2168005875
-            	-authors->author2419920440
-            	-authors->author2311864326
-            	-authors->author2037919833
-            	-authors->author2143782958
-            	-authors->author2296767301
+            	-venue->venue1
             }
 	paper2128235850:Paper {
                 .title : "Combining fault avoidance fault removal and fault tolerance an integrated model"
             	.year : 1999
             	.core : true
-            	-venue->venue44
-            	-cites->paper1526272872
-            	-cites->paper2074592031
-            	-cites->paper2081945419
-            	-cites->paper2103953153
-            	-cites->paper2121291277
-            	-cites->paper2147543351
-            	-cites->paper2158535304
-            	-authors->author2641194217
-            	-authors->author2439536709
-            	-authors->author2262040313
-            	-authors->author2193052964
+            	-venue->venue17
             }
 	paper1507623386:Paper {
                 .title : "Dependability Evaluation of Fault Tolerant Distributed Industrial Control Systems"
             	.year : 1999
             	.core : false
-            	-venue->venue126
-            	-cites->paper1838724310
-            	-authors->author2419920440
-            	-authors->author2311864326
-            	-authors->author2037919833
-            	-authors->author2143782958
-            	-authors->author2296767301
+            	-venue->venue125
             }
 	paper1509562505:Paper {
                 .title : "Behavioral Specifications of Businesses and Systems"
             	.year : 1999
             	.core : false
-            	-venue->venue128
-            	-authors->author151827428
-            	-authors->author2027743107
-            	-authors->author2260920364
+            	-venue->venue81
             }
 	paper1515137670:Paper {
                 .title : "A Hierarchical Model for Coordination of Concurrent Activities"
             	.year : 1999
             	.core : false
-            	-venue->venue135
-            	-cites->paper1548817500
-            	-cites->paper2098830227
-            	-cites->paper2108101248
-            	-cites->paper2127735978
-            	-cites->paper2157598146
-            	-authors->author2161553928
-            	-authors->author2134843463
+            	-venue->venue134
             }
 	paper1555593767:Paper {
                 .title : "Model Checking Partial State Spaces with Valued Temporal Logics"
             	.year : 1999
             	.core : false
-            	-venue->venue168
-            	-cites->paper1534067655
-            	-cites->paper2015640848
-            	-authors->author2218276577
-            	-authors->author2634395717
+            	-venue->venue77
             }
 	paper1575709632:Paper {
                 .title : "A Systematic Approach to Safety Case Maintenance"
             	.year : 1999
             	.core : false
-            	-venue->venue193
-            	-authors->author2213027448
-            	-authors->author2252011855
+            	-venue->venue1
             }
 	paper1583826417:Paper {
                 .title : "JML A Notation for Detailed Design"
             	.year : 1999
             	.core : false
-            	-venue->venue197
-            	-cites->paper1555946950
-            	-cites->paper1583095677
-            	-cites->paper1970495662
-            	-cites->paper2013492611
-            	-cites->paper2110050316
-            	-cites->paper2170486381
-            	-authors->author2007791176
-            	-authors->author2308881956
-            	-authors->author2125701193
+            	-venue->venue196
             }
 	paper1588792978:Paper {
                 .title : "Solving Consensus Using ChandraTouegs Unreliable Failure Detectors A General QuorumBased Approach"
             	.year : 1999
             	.core : false
-            	-venue->venue199
-            	-cites->paper2035362408
-            	-cites->paper2077240273
-            	-cites->paper2133943294
-            	-authors->author2230868641
-            	-authors->author2300628387
+            	-venue->venue150
             }
 	paper1746810856:Paper {
                 .title : "Maintenance of a Spanning Tree in Dynamic Networks"
             	.year : 1999
             	.core : false
-            	-venue->venue223
-            	-cites->paper1973501242
-            	-authors->author2297071937
-            	-authors->author2700979113
+            	-venue->venue150
             }
 	paper1787074469:Paper {
                 .title : "Symbolic Model Checking without BDDs"
             	.year : 1999
             	.core : false
-            	-venue->venue223
-            	-cites->paper2080267935
-            	-authors->author1478355294
-            	-authors->author2129477832
-            	-authors->author2130671571
-            	-authors->author2242438494
+            	-venue->venue10
             }
 	paper1818998288:Paper {
                 .title : "Enforcing determinism for the consistent replication of multithreaded CORBA applications"
             	.year : 1999
             	.core : false
-            	-venue->venue227
-            	-authors->author2780623020
-            	-authors->author2231322187
-            	-authors->author2777036999
+            	-venue->venue218
             }
 	paper183522754:Paper {
                 .title : "Testing Safety Techniques by Injection of Systematically Selected Errors"
             	.year : 1999
             	.core : false
-            	-venue->venue230
-            	-authors->author2302229946
-            	-authors->author1966793315
+            	-venue->venue229
             }
 	paper1882088395:Paper {
                 .title : "Towards a Better Understanding of Context and ContextAwareness"
             	.year : 1999
             	.core : false
-            	-venue->venue243
-            	-authors->author2674806336
-            	-authors->author2261153239
-            	-authors->author2111246749
-            	-authors->author620732773
-            	-authors->author2201312605
-            	-authors->author2598795831
+            	-venue->venue242
             }
 	paper1923741182:Paper {
                 .title : "An analysis of communication induced checkpointing"
             	.year : 1999
             	.core : false
-            	-venue->venue251
-            	-cites->paper1973501242
-            	-cites->paper2133201251
-            	-authors->author2292936287
-            	-authors->author2246786563
-            	-authors->author2108028078
-            	-authors->author2699813651
-            	-authors->author2434585571
+            	-venue->venue245
             }
 	paper1928902483:Paper {
                 .title : "ViewPointoriented software development by distributed graph transformation towards a basis for living with inconsistencies"
             	.year : 1999
             	.core : false
-            	-venue->venue252
-            	-cites->paper1889614459
-            	-cites->paper1968128450
-            	-cites->paper2054097655
-            	-cites->paper2135920852
-            	-authors->author2250860430
-            	-authors->author2678887162
-            	-authors->author1978163079
+            	-venue->venue251
             }
 	paper1929752839:Paper {
                 .title : "Automatic dependability analysis for supporting design decisions in UML"
             	.year : 1999
             	.core : false
-            	-venue->venue252
-            	-cites->paper2119239145
-            	-cites->paper2133820906
-            	-authors->author167784832
-            	-authors->author341399993
-            	-authors->author2014237653
+            	-venue->venue36
             }
 	paper1966282711:Paper {
                 .title : "Survivability protecting your critical systems"
             	.year : 1999
             	.core : false
-            	-venue->venue272
-            	-authors->author2810176013
-            	-authors->author700359793
-            	-authors->author2083637360
-            	-authors->author2311255211
-            	-authors->author2280004992
-            	-authors->author696362100
+            	-venue->venue271
             }
 	paper1975169206:Paper {
                 .title : "Interclass defuse analysis with partial class representations"
             	.year : 1999
             	.core : false
-            	-venue->venue296
-            	-cites->paper2024795941
-            	-cites->paper2293624369
-            	-authors->author2099917311
-            	-authors->author1653392395
-            	-authors->author2303422779
+            	-venue->venue295
             }
 	paper1991604845:Paper {
                 .title : "N degrees of separation multidimensional separation of concerns"
             	.year : 1999
             	.core : false
-            	-venue->venue335
-            	-cites->paper1998017916
-            	-cites->paper2105603754
-            	-cites->paper2138363365
-            	-cites->paper2293624369
-            	-authors->author2030408828
-            	-authors->author2154477604
-            	-authors->author2109851473
-            	-authors->author2171085615
+            	-venue->venue24
             }
 	paper1996832037:Paper {
                 .title : "Patterns in property specifications for finitestate verification"
             	.year : 1999
             	.core : false
-            	-venue->venue351
-            	-cites->paper2015688007
-            	-authors->author2129313003
-            	-authors->author2156583880
-            	-authors->author11791032
+            	-venue->venue24
             }
 	paper1998017916:Paper {
                 .title : "The unified modeling language reference manual"
             	.year : 1999
             	.core : false
-            	-venue->venue353
-            	-authors->author2138320137
-            	-authors->author64567716
-            	-authors->author2068841468
+            	-venue->venue81
             }
 	paper2015113729:Paper {
                 .title : "Managing requirements inconsistency with development goal monitors"
             	.year : 1999
             	.core : false
-            	-venue->venue381
-            	-cites->paper2017739343
-            	-cites->paper2079814255
-            	-cites->paper2105603754
-            	-cites->paper2115904912
-            	-cites->paper2135920852
-            	-cites->paper2162255975
-            	-authors->author2139792760
-            	-authors->author2714953270
+            	-venue->venue281
             }
 	paper202080076:Paper {
                 .title : "The Short Araneus Guide to WebSite Development"
             	.year : 1999
             	.core : false
-            	-venue->venue390
-            	-authors->author2311095125
-            	-authors->author2112271222
-            	-authors->author1986707317
-            	-authors->author262536330
+            	-venue->venue328
             }
 	paper2036620406:Paper {
                 .title : "Concurrency control and recovery in transactional process management"
             	.year : 1999
             	.core : false
-            	-venue->venue406
-            	-cites->paper1545155892
-            	-cites->paper1855065956
-            	-authors->author2029357687
-            	-authors->author2122271048
-            	-authors->author2050071469
+            	-venue->venue405
             }
 	paper2038953226:Paper {
                 .title : "The specification and enforcement of authorization constraints in workflow management systems"
             	.year : 1999
             	.core : false
-            	-venue->venue412
-            	-cites->paper2124080036
-            	-cites->paper2152505375
-            	-authors->author2100792061
-            	-authors->author2170777979
-            	-authors->author717547165
+            	-venue->venue390
             }
 	paper2051028605:Paper {
                 .title : "From objectoriented to goaloriented requirements analysis"
             	.year : 1999
             	.core : false
-            	-venue->venue423
-            	-cites->paper2017739343
-            	-cites->paper2067126923
-            	-cites->paper2099293367
-            	-authors->author2159496315
-            	-authors->author2161153869
-            	-authors->author2144041542
+            	-venue->venue291
             }
 	paper2074309809:Paper {
                 .title : "Maintenance of a spanning tree in dynamic networks"
             	.year : 1999
             	.core : false
-            	-venue->venue446
-            	-cites->paper1973501242
-            	-authors->author2281308211
+            	-venue->venue309
             }
 	paper2077518845:Paper {
                 .title : "Consistent query answers in inconsistent databases"
             	.year : 1999
             	.core : false
-            	-venue->venue450
-            	-cites->paper2006519067
-            	-cites->paper2099805467
-            	-authors->author1973119209
-            	-authors->author1985569948
-            	-authors->author2117861229
+            	-venue->venue405
             }
 	paper2081186654:Paper {
                 .title : "A rolebased access control model and reference implementation within a corporate intranet"
             	.year : 1999
             	.core : false
-            	-venue->venue452
-            	-cites->paper2103317919
-            	-authors->author255695516
-            	-authors->author2054027625
-            	-authors->author2149229701
+            	-venue->venue390
             }
 	paper2081706040:Paper {
                 .title : "Testing and evaluating computer intrusion detection systems"
             	.year : 1999
             	.core : false
-            	-venue->venue453
-            	-authors->author2138756233
-            	-authors->author2665879159
-            	-authors->author2154245979
-            	-authors->author2411423443
-            	-authors->author2114868666
+            	-venue->venue291
             }
 	paper2097931542:Paper {
                 .title : "CommitReconcile and Fences CRF a new memory model for architects and compiler writers"
             	.year : 1999
             	.core : false
-            	-venue->venue470
-            	-cites->paper1555915743
-            	-cites->paper1885534640
-            	-cites->paper2029601347
-            	-cites->paper2051789131
-            	-cites->paper2054739713
-            	-cites->paper2107859560
-            	-cites->paper2152390090
-            	-cites->paper2176864362
-            	-authors->author2632345599
-            	-authors->author2807401945
-            	-authors->author2000056369
+            	-venue->venue33
             }
 	paper2099706037:Paper {
                 .title : "Is SC  ILP  RC"
             	.year : 1999
             	.core : false
-            	-venue->venue476
-            	-cites->paper1885534640
-            	-cites->paper1966151719
-            	-cites->paper2029601347
-            	-cites->paper2054739713
-            	-cites->paper2107859560
-            	-cites->paper2145021036
-            	-cites->paper2152390090
-            	-cites->paper2176864362
-            	-cites->paper2177772636
-            	-authors->author2309115880
-            	-authors->author117387042
-            	-authors->author2306393460
+            	-venue->venue33
             }
 	paper2099859756:Paper {
                 .title : "A timestructure based software reliability model"
             	.year : 1999
             	.core : false
-            	-venue->venue476
-            	-cites->paper2152228029
-            	-cites->paper2155445882
-            	-authors->author2108293768
-            	-authors->author2627633012
+            	-venue->venue172
             }
 	paper2110261316:Paper {
                 .title : "Realtime dependable channels customizing QoS attributes for distributed systems"
             	.year : 1999
             	.core : false
-            	-venue->venue505
-            	-cites->paper1537146784
-            	-cites->paper1985349143
-            	-cites->paper2005216655
-            	-cites->paper2164357820
-            	-authors->author2128578275
-            	-authors->author2281023798
-            	-authors->author2606028354
-            	-authors->author1993909932
-            	-authors->author2092670946
+            	-venue->venue396
             }
 	paper2122149060:Paper {
                 .title : "Automated translation of UML models of architectures for verification and simulation using SPIN"
             	.year : 1999
             	.core : false
-            	-venue->venue534
-            	-cites->paper2034717157
-            	-cites->paper2108101248
-            	-cites->paper2110425399
-            	-cites->paper2159765281
-            	-authors->author2569729063
+            	-venue->venue17
             }
 	paper2128698639:Paper {
                 .title : "A language independent approach for detecting duplicated code"
             	.year : 1999
             	.core : false
-            	-venue->venue546
-            	-cites->paper1698439592
-            	-cites->paper2146483864
-            	-cites->paper2157532207
-            	-authors->author2013743603
-            	-authors->author2030505841
-            	-authors->author2018802648
+            	-venue->venue217
             }
 	paper2151791866:Paper {
                 .title : "Providing Persistent Objects in Distributed Systems"
             	.year : 1999
             	.core : false
-            	-venue->venue581
-            	-cites->paper1515932031
-            	-cites->paper2110026634
-            	-authors->author2096975672
-            	-authors->author2022497718
-            	-authors->author2084056563
-            	-authors->author1967149413
+            	-venue->venue97
             }
 	paper2153887189:Paper {
                 .title : "Refactoring Improving the Design of Existing Code"
             	.year : 1999
             	.core : false
-            	-venue->venue583
-            	-authors->author2123870545
+            	-venue->venue81
             }
 	paper2154420584:Paper {
                 .title : "The timed asynchronous distributed system model"
             	.year : 1999
             	.core : false
-            	-venue->venue584
-            	-cites->paper2012481411
-            	-cites->paper2035362408
-            	-cites->paper2170715240
-            	-authors->author2295810027
-            	-authors->author2005970894
+            	-venue->venue396
             }
 	paper2154909745:Paper {
                 .title : "Differential Power Analysis"
             	.year : 1999
             	.core : false
-            	-venue->venue584
-            	-cites->paper1664808737
-            	-authors->author2134672778
-            	-authors->author1984824673
-            	-authors->author2116981137
+            	-venue->venue113
             }
 	paper2159765281:Paper {
                 .title : "The Unified Modeling Language User Guide"
             	.year : 1999
             	.core : false
-            	-venue->venue590
-            	-authors->author2138320137
-            	-authors->author64567716
-            	-authors->author2068841468
+            	-venue->venue81
             }
 	paper2164288303:Paper {
                 .title : "An executable specification and verifier for relaxed memory order"
             	.year : 1999
             	.core : false
-            	-venue->venue596
-            	-cites->paper1545792627
-            	-cites->paper2051789131
-            	-cites->paper2054739713
-            	-cites->paper2113486906
-            	-cites->paper2176864362
-            	-cites->paper2177772636
-            	-authors->author2609318763
-            	-authors->author2148325455
+            	-venue->venue262
             }
 	paper2169624732:Paper {
                 .title : "Fundamentals of faulttolerant distributed computing in asynchronous environments"
             	.year : 1999
             	.core : false
-            	-venue->venue600
-            	-cites->paper1545155892
-            	-cites->paper1973501242
-            	-cites->paper2033579026
-            	-cites->paper2035362408
-            	-cites->paper2073126252
-            	-cites->paper2077240273
-            	-cites->paper2095425626
-            	-cites->paper2095464745
-            	-cites->paper2111132249
-            	-cites->paper2120510885
-            	-cites->paper2132334337
-            	-cites->paper2133943294
-            	-cites->paper2152465173
-            	-cites->paper2611515161
-            	-authors->author2311236413
+            	-venue->venue274
             }
 	paper2170846240:Paper {
                 .title : "Using Lamport clocks to reason about relaxed memory models"
             	.year : 1999
             	.core : false
-            	-venue->venue601
-            	-cites->paper1545792627
-            	-cites->paper1973501242
-            	-cites->paper2024255419
-            	-cites->paper2039509099
-            	-cites->paper2054739713
-            	-cites->paper2152390090
-            	-cites->paper2176864362
-            	-cites->paper2177772636
-            	-authors->author2112660313
-            	-authors->author171190246
-            	-authors->author227075345
-            	-authors->author301610137
+            	-venue->venue304
             }
 	paper2340735175:Paper {
                 .title : "Model Checking"
             	.year : 1999
             	.core : false
-            	-venue->venue618
-            	-cites->paper1787074469
-            	-cites->paper2068361557
-            	-cites->paper2080267935
-            	-authors->author2129477832
-            	-authors->author2038437172
+            	-venue->venue81
             }
 	paper2759822223:Paper {
                 .title : "Consistent query answers in inconsistent databases"
             	.year : 1999
             	.core : false
-            	-venue->venue654
-            	-authors->author1973119209
-            	-authors->author1985569948
-            	-authors->author2117861229
+            	-venue->venue653
             }
 	paper53030892:Paper {
                 .title : "Consistency preserving dynamic reconfiguration of distributed systems"
             	.year : 1999
             	.core : false
-            	-venue->venue665
-            	-authors->author2548785225
+            	-venue->venue81
             }
 }
 

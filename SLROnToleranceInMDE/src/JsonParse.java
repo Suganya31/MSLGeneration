@@ -32,7 +32,7 @@ public class JsonParse {
 	static Map<String, String> id_to_authors_global = new HashMap<String, String>();
 	static Set<String> paperids = new HashSet<String>();
 	static Set<String> venues = new HashSet<String>();
-	static Map<Integer, String> venues_global = new HashMap<Integer, String>();
+	static Map<String, Integer> venues_global = new HashMap<String, Integer>();
 
 
 	static int i=1;
@@ -69,18 +69,22 @@ public class JsonParse {
 
 			String id = node.path("id").asText();
 			Integer year = Integer.parseInt(node.path("year").asText());
+
 			paperids.add(id);
 			venues.add(venue);
-			if(!venues_global.containsValue(venuename)) {
-				
-			
-			venues_global.put(i, venuename);
+		//	paper.setVenue(i);
+		     if(!venues_global.containsKey(venuename))
+		     {
+			venues_global.put(venuename,i);
 			i++;
-			}
+		     }
+		//	System.out.println(venues_global);
+			
 
 			paper.setId(id);
+
 			paper.setTitle(title);
-			paper.setVenue(i);
+			//paper.setVenue(i);
 			paper.setVenuename(venuename);
 			paper.setCore(core);
 
@@ -148,12 +152,14 @@ public class JsonParse {
 			jp.nextToken();
 
 		}
+		
 		Set<String> existing = new HashSet<>();
 	//	id_to_authors_global = id_to_authors_global.entrySet().stream().filter(entry -> existing.add(entry.getValue()))
 			//	.collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
 		PapersPojo.id_to_authors_global = id_to_authors_global;
 		PapersPojo.poolids=paperids;
 		PapersPojo.venues_global=venues_global;
+		System.out.println(venues_global);
 
 		//dummypaperids.removeAll(paperids);
 		/*
@@ -164,6 +170,12 @@ public class JsonParse {
 	//	PapersPojo.dummypaperids=dummypaperids;
 		
 		jp.close();
+		for(PapersPojo paper:papers)
+		{
+			String name=paper.getVenuename();
+			paper.setVenue(venues_global.get(name));
+			
+		}
 
 		return (papers);
 
