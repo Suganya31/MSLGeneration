@@ -1,6 +1,56 @@
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2004.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2009.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2012.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2006.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1997.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2011.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2010.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1999.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2001.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2015.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2013.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2014.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2007.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1989.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2003.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1990.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1992.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2016.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2017.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2018.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1998.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2002.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1991.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1995.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1986.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2000.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1987.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1988.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1993.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1982.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1983.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1976.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1978.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1980.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1941.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1984.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1974.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1979.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1962.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
  	
 model Paper1994{
 	paper1498996471:Paper {
@@ -8,186 +58,349 @@ model Paper1994{
             	.year : 1994
             	.core : false
             	-venue->venue109
+            	-cites->paper9091155
+            	-cites->paper1521935994
+            	-authors->author2638029427
             }
 	paper1511832825:Paper {
                 .title : "Specification of Graph Translators with Triple Graph Grammars"
             	.year : 1994
             	.core : false
             	-venue->venue130
+            	-authors->author675269377
             }
 	paper1537146784:Paper {
                 .title : "Ordering and timeliness requirements of dependable realtime programs"
             	.year : 1994
             	.core : false
             	-venue->venue147
+            	-cites->paper1973501242
+            	-cites->paper1985349143
+            	-cites->paper2164357820
+            	-authors->author2062465576
             }
 	paper1567693394:Paper {
                 .title : "Abstracting Interactions Based on Message Sets"
             	.year : 1994
             	.core : false
             	-venue->venue182
+            	-cites->paper2110425399
+            	-authors->author1843226284
+            	-authors->author2161553928
             }
 	paper1964723977:Paper {
                 .title : "Linear cryptanalysis method for DES cipher"
             	.year : 1994
             	.core : false
             	-venue->venue126
+            	-authors->author2020760526
             }
 	paper1975840504:Paper {
                 .title : "On testing cachecoherent shared memories"
             	.year : 1994
             	.core : false
             	-venue->venue269
+            	-cites->paper1885534640
+            	-cites->paper2039509099
+            	-cites->paper2054739713
+            	-cites->paper2101939036
+            	-cites->paper2114925953
+            	-cites->paper2137650676
+            	-cites->paper2176864362
+            	-authors->author2144092273
+            	-authors->author712891809
             }
 	paper1992337747:Paper {
                 .title : "Skyblue a multiway local propagation constraint solver for user interface construction"
             	.year : 1994
             	.core : false
             	-venue->venue336
+            	-cites->paper1579120539
+            	-cites->paper2064707938
+            	-authors->author2080933598
             }
 	paper2007167977:Paper {
                 .title : "Viewpoint specification and Z"
             	.year : 1994
             	.core : false
             	-venue->venue367
+            	-cites->paper1970495662
+            	-cites->paper2054097655
+            	-authors->author2170923759
+            	-authors->author2013482715
+            	-authors->author2787760513
+            	-authors->author2036218600
             }
 	paper2015688007:Paper {
                 .title : "The temporal logic of actions"
             	.year : 1994
             	.core : false
             	-venue->venue379
+            	-cites->paper2103953153
+            	-cites->paper2111706174
+            	-cites->paper2132107743
+            	-cites->paper2132334337
+            	-authors->author2096750770
             }
 	paper2024795941:Paper {
                 .title : "Performing data flow testing on classes"
             	.year : 1994
             	.core : false
             	-venue->venue335
+            	-cites->paper1491178396
+            	-cites->paper2051374949
+            	-authors->author1949835151
+            	-authors->author421534652
             }
 	paper2032325066:Paper {
                 .title : "Sybase replication server"
             	.year : 1994
             	.core : false
             	-venue->venue328
+            	-authors->author2677594137
+            	-authors->author2638257416
+            	-authors->author2676357771
             }
 	paper2043318789:Paper {
                 .title : "Synthesis of extended transaction models using ACTA"
             	.year : 1994
             	.core : false
             	-venue->venue320
+            	-cites->paper1545155892
+            	-cites->paper1855065956
+            	-cites->paper2104954161
+            	-authors->author2030977514
+            	-authors->author323797451
             }
 	paper2049913483:Paper {
                 .title : "Secure agreement protocols reliable and atomic group multicast in rampart"
             	.year : 1994
             	.core : false
             	-venue->venue306
+            	-cites->paper1985349143
+            	-cites->paper2035362408
+            	-cites->paper2120510885
+            	-cites->paper2152465173
+            	-authors->author2260712038
             }
 	paper2064707938:Paper {
                 .title : "The Rendezvous architecture and language for constructing multiuser applications"
             	.year : 1994
             	.core : false
             	-venue->venue438
+            	-authors->author1892824993
+            	-authors->author2609358441
+            	-authors->author2094851602
+            	-authors->author69785992
+            	-authors->author2147674134
             }
 	paper2076126314:Paper {
                 .title : "Constraint checking with partial information"
             	.year : 1994
             	.core : false
             	-venue->venue405
+            	-cites->paper2099805467
+            	-authors->author2103069312
+            	-authors->author671527850
+            	-authors->author2710603291
+            	-authors->author2289364316
             }
 	paper2092311766:Paper {
                 .title : "Composing firstclass transactions"
             	.year : 1994
             	.core : false
             	-venue->venue379
+            	-authors->author1985120884
+            	-authors->author2617158886
+            	-authors->author1584891692
+            	-authors->author2463506262
+            	-authors->author2696197492
             }
 	paper2100100130:Paper {
                 .title : "File system design for an NFS file server appliance"
             	.year : 1994
             	.core : false
             	-venue->venue477
+            	-authors->author2708273169
+            	-authors->author2164363455
+            	-authors->author2163167116
             }
 	paper2105603754:Paper {
                 .title : "A framework for expressing the relationships between multiple views in requirements specification"
             	.year : 1994
             	.core : false
             	-venue->venue281
+            	-cites->paper1979290877
+            	-cites->paper2007167977
+            	-cites->paper2017739343
+            	-cites->paper2044301784
+            	-cites->paper2054097655
+            	-cites->paper2095958260
+            	-cites->paper2110425399
+            	-cites->paper2117870171
+            	-authors->author2207023792
+            	-authors->author2082763392
+            	-authors->author2095806276
             }
 	paper2105604586:Paper {
                 .title : "A quality of service architecture"
             	.year : 1994
             	.core : false
             	-venue->venue493
+            	-authors->author2106295919
+            	-authors->author2892508805
+            	-authors->author2126914009
             }
 	paper2114925953:Paper {
                 .title : "Sequential consistency versus linearizability"
             	.year : 1994
             	.core : false
             	-venue->venue288
+            	-cites->paper1545155892
+            	-cites->paper1555915743
+            	-cites->paper2051789131
+            	-cites->paper2054739713
+            	-cites->paper2101939036
+            	-cites->paper2152390090
+            	-cites->paper2176864362
+            	-cites->paper2177772636
+            	-authors->author2133412819
+            	-authors->author685665164
             }
 	paper2115904912:Paper {
                 .title : "On formal requirements modeling languages RML revisited"
             	.year : 1994
             	.core : false
             	-venue->venue24
+            	-cites->paper1979290877
+            	-cites->paper2006210705
+            	-cites->paper2017739343
+            	-cites->paper2054097655
+            	-cites->paper2067126923
+            	-cites->paper2079814255
+            	-cites->paper2099293367
+            	-cites->paper2105603754
+            	-cites->paper2117870171
+            	-cites->paper2120808515
+            	-cites->paper2127614394
+            	-cites->paper2139907081
+            	-cites->paper2170486381
+            	-authors->author2100751788
+            	-authors->author2161153869
+            	-authors->author2052199646
             }
 	paper2117870171:Paper {
                 .title : "Inconsistency handling in multiperspective specifications"
             	.year : 1994
             	.core : false
             	-venue->venue106
+            	-cites->paper1979290877
+            	-cites->paper2054097655
+            	-authors->author2082763392
+            	-authors->author2670126696
+            	-authors->author2623494704
+            	-authors->author2095806276
+            	-authors->author2569257819
             }
 	paper2120515675:Paper {
                 .title : "A graphical environment for formally developing objectoriented software"
             	.year : 1994
             	.core : false
             	-venue->venue531
+            	-cites->paper1583095677
+            	-cites->paper1970495662
+            	-cites->paper2099293367
+            	-cites->paper2170486381
+            	-authors->author2116990958
+            	-authors->author2505346479
+            	-authors->author213503041
             }
 	paper2120808515:Paper {
                 .title : "Understanding why in software process modelling analysis and design"
             	.year : 1994
             	.core : false
             	-venue->venue24
+            	-cites->paper2017739343
+            	-cites->paper2079814255
+            	-authors->author2159496315
+            	-authors->author2161153869
             }
 	paper2125930899:Paper {
                 .title : "Session guarantees for weakly consistent replicated data"
             	.year : 1994
             	.core : false
             	-venue->venue540
+            	-cites->paper1515932031
+            	-cites->paper1525865893
+            	-cites->paper1973501242
+            	-cites->paper2009312542
+            	-cites->paper2038562061
+            	-cites->paper2043671329
+            	-cites->paper2116142433
+            	-cites->paper2123737479
+            	-cites->paper2156027558
+            	-authors->author2795421043
+            	-authors->author2894459299
+            	-authors->author2717846476
+            	-authors->author2778312396
+            	-authors->author702877471
+            	-authors->author2642007365
             }
 	paper2143161716:Paper {
                 .title : "Causally ordering broadcast protocol"
             	.year : 1994
             	.core : false
             	-venue->venue252
+            	-cites->paper1973501242
+            	-cites->paper1985349143
+            	-authors->author2140359775
+            	-authors->author2120372136
             }
 	paper2152228029:Paper {
                 .title : "Achieving software quality with testing coverage measures"
             	.year : 1994
             	.core : false
             	-venue->venue278
+            	-authors->author2227744130
+            	-authors->author2100038474
+            	-authors->author2101604183
             }
 	paper2156127351:Paper {
                 .title : "Effect of test set size and block coverage on the fault detection effectiveness"
             	.year : 1994
             	.core : false
             	-venue->venue12
+            	-cites->paper2158535304
+            	-authors->author2150536169
+            	-authors->author2778991715
+            	-authors->author2100038474
+            	-authors->author2101604183
             }
 	paper2163494375:Paper {
                 .title : "View integration a step forward in solving structural conflicts"
             	.year : 1994
             	.core : false
             	-venue->venue501
+            	-authors->author2304584118
+            	-authors->author2571324842
             }
 	paper2165065735:Paper {
                 .title : "POLICY DRIVEN MANAGEMENT FOR DISTRIBUTED SYSTEMS"
             	.year : 1994
             	.core : false
             	-venue->venue597
+            	-cites->paper2152505375
+            	-authors->author1996292137
             }
 	paper2171352284:Paper {
                 .title : "Metadata update performance in file systems"
             	.year : 1994
             	.core : false
             	-venue->venue79
+            	-cites->paper2005373714
+            	-cites->paper2115600841
+            	-authors->author127822908
+            	-authors->author2791808
             }
 }
 

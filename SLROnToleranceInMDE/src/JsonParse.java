@@ -117,7 +117,7 @@ public class JsonParse {
 
 			List<String> authorIdList = authors.findValuesAsText("id");
 			List<String> authorNamesList = authors.findValuesAsText("name");
-
+			Set<String> authorId = new HashSet<String>(); authorId.addAll(authorIdList);
 			/*
 			 * Set<String> authorId = new HashSet<String>(); authorId.addAll(authorIdList);
 			 * Set<String> authorNames = new HashSet<String>();
@@ -128,7 +128,7 @@ public class JsonParse {
 			 * System.out.println("the size of authoridset"+authorId);
 			 */
 			 
-		//	paper.setAuthors(authorId);
+			paper.setAuthors(authorId);
 
 			Iterator<String> itr = authorIdList.iterator();
 			Iterator<String> itr1 = authorNamesList.iterator();
