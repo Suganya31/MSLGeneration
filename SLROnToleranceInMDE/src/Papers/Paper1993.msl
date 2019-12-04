@@ -58,7 +58,7 @@ model Paper1993{
             	.year : 1993
             	.core : false
             	.SE:false
-            	-venue->venue90
+            	-venue->venue107
             	-authors->author1843226284
             	-authors->author2161553928
             }
@@ -66,8 +66,8 @@ model Paper1993{
                 .title : "Decomposing and Recomposing Transactional Concepts"
             	.year : 1993
             	.core : false
-            	.SE:false
-            	-venue->venue175
+            	.SE:true
+            	-venue->venue
             	-cites->paper2116142433
             	-authors->author1584891692
             }
@@ -94,7 +94,7 @@ model Paper1993{
             	.year : 1993
             	.core : false
             	.SE:false
-            	-venue->venue71
+            	-venue->venue88
             	-cites->paper2114957237
             	-cites->paper2120510885
             	-authors->author2157944775
@@ -105,7 +105,7 @@ model Paper1993{
             	.year : 1993
             	.core : false
             	.SE:false
-            	-venue->venue267
+            	-venue->venue293
             	-cites->paper1970495662
             	-cites->paper2013774163
             	-cites->paper2054097655
@@ -118,7 +118,7 @@ model Paper1993{
             	.year : 1993
             	.core : false
             	.SE:false
-            	-venue->venue306
+            	-venue->venue333
             	-cites->paper2037497522
             	-cites->paper2104955812
             	-authors->author674399801
@@ -132,7 +132,7 @@ model Paper1993{
             	.year : 1993
             	.core : false
             	.SE:false
-            	-venue->venue378
+            	-venue->venue415
             	-cites->paper1970495662
             	-cites->paper2067126923
             	-authors->author2110355913
@@ -144,7 +144,7 @@ model Paper1993{
             	.year : 1993
             	.core : false
             	.SE:false
-            	-venue->venue266
+            	-venue->venue292
             	-cites->paper2035362408
             	-cites->paper2073126252
             	-cites->paper2095464745
@@ -160,7 +160,7 @@ model Paper1993{
             	.year : 1993
             	.core : false
             	.SE:false
-            	-venue->venue306
+            	-venue->venue333
             	-cites->paper1983603073
             	-cites->paper2037497522
             	-authors->author2134027885
@@ -170,7 +170,7 @@ model Paper1993{
             	.year : 1993
             	.core : false
             	.SE:false
-            	-venue->venue261
+            	-venue->venue286
             	-cites->paper2036267700
             	-cites->paper2054739713
             	-cites->paper2101939036
@@ -188,7 +188,7 @@ model Paper1993{
             	.year : 1993
             	.core : false
             	.SE:false
-            	-venue->venue289
+            	-venue->venue314
             	-authors->author2096829745
             	-authors->author2310363976
             }
@@ -197,7 +197,7 @@ model Paper1993{
             	.year : 1993
             	.core : false
             	.SE:false
-            	-venue->venue273
+            	-venue->venue299
             	-cites->paper1545155892
             	-cites->paper2035362408
             	-cites->paper2103953153
@@ -213,7 +213,7 @@ model Paper1993{
             	.year : 1993
             	.core : false
             	.SE:false
-            	-venue->venue270
+            	-venue->venue296
             	-authors->author2150992688
             	-authors->author2130975519
             }
@@ -222,7 +222,7 @@ model Paper1993{
             	.year : 1993
             	.core : false
             	.SE:false
-            	-venue->venue476
+            	-venue->venue534
             	-authors->author1996292137
             	-authors->author2152998746
             }
@@ -231,7 +231,7 @@ model Paper1993{
             	.year : 1993
             	.core : false
             	.SE:false
-            	-venue->venue486
+            	-venue->venue
             	-cites->paper1485360759
             	-authors->author2118565774
             }
@@ -239,8 +239,8 @@ model Paper1993{
                 .title : "Measuring and modeling computer virus prevalence"
             	.year : 1993
             	.core : false
-            	.SE:false
-            	-venue->venue490
+            	.SE:true
+            	-venue->venue551
             	-authors->author1922347857
             	-authors->author2243214337
             }
@@ -249,7 +249,7 @@ model Paper1993{
             	.year : 1993
             	.core : false
             	.SE:false
-            	-venue->venue491
+            	-venue->venue
             	-authors->author2104204551
             }
 	paper2114957237:Paper {
@@ -257,7 +257,7 @@ model Paper1993{
             	.year : 1993
             	.core : false
             	.SE:false
-            	-venue->venue273
+            	-venue->venue299
             	-cites->paper2118891797
             	-cites->paper2120510885
             	-cites->paper2164357820
@@ -268,7 +268,7 @@ model Paper1993{
                 .title : "Cleanroom software engineering for zerodefect software"
             	.year : 1993
             	.core : false
-            	.SE:false
+            	.SE:true
             	-venue->venue24
             	-cites->paper2158535304
             	-authors->author696362100
@@ -278,7 +278,7 @@ model Paper1993{
             	.year : 1993
             	.core : false
             	.SE:false
-            	-venue->venue533
+            	-venue->venue
             	-cites->paper2095958260
             	-cites->paper2134062730
             	-authors->author2688526184
@@ -288,7 +288,7 @@ model Paper1993{
             	.year : 1993
             	.core : false
             	.SE:false
-            	-venue->venue211
+            	-venue->venue235
             	-cites->paper2095343473
             	-cites->paper2118891797
             	-cites->paper2170314424
@@ -301,7 +301,7 @@ model Paper1993{
             	.year : 1993
             	.core : false
             	.SE:false
-            	-venue->venue388
+            	-venue->venue428
             	-cites->paper1976848527
             	-cites->paper2080570636
             	-authors->author2235641235

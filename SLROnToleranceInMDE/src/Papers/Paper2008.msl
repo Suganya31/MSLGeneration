@@ -57,7 +57,7 @@ model Paper2008{
                 .title : "Consistent integration of models based on views of visual languages"
             	.year : 2008
             	.core : true
-            	.SE:false
+            	.SE:true
             	-venue->venue3
             	-cites->paper1556566737
             	-cites->paper1573663598
@@ -163,7 +163,7 @@ model Paper2008{
                 .title : "Global consistency checking of distributed models with TReMer"
             	.year : 2008
             	.core : true
-            	.SE:false
+            	.SE:true
             	-venue->venue24
             	-cites->paper1983421263
             	-cites->paper1995544616
@@ -184,8 +184,8 @@ model Paper2008{
                 .title : "A MeasurementDriven Process Model for Managing Inconsistent Software Requirements"
             	.year : 2008
             	.core : true
-            	.SE:false
-            	-venue->venue41
+            	.SE:true
+            	-venue->venue
             	-cites->paper1556421367
             	-cites->paper1559179949
             	-cites->paper1582116930
@@ -239,7 +239,7 @@ model Paper2008{
                 .title : "Detecting model inconsistency through operationbased model construction"
             	.year : 2008
             	.core : true
-            	.SE:false
+            	.SE:true
             	-venue->venue24
             	-cites->paper99545732
             	-cites->paper2012959900
@@ -259,8 +259,8 @@ model Paper2008{
                 .title : "Detecting and Repairing Inconsistencies across Heterogeneous Models"
             	.year : 2008
             	.core : true
-            	.SE:false
-            	-venue->venue46
+            	.SE:true
+            	-venue->venue
             	-cites->paper126954505
             	-cites->paper1486745608
             	-cites->paper1604272107
@@ -279,7 +279,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue81
+            	-venue->venue98
             	-authors->author2695394167
             	-authors->author2500781316
             	-authors->author2675680963
@@ -290,7 +290,7 @@ model Paper2008{
                 .title : "Z an efficient SMT solver"
             	.year : 2008
             	.core : false
-            	.SE:false
+            	.SE:true
             	-venue->venue10
             	-cites->paper2055477538
             	-authors->author1505484182
@@ -301,7 +301,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue90
+            	-venue->venue107
             	-cites->paper1491178396
             	-cites->paper1594381772
             	-cites->paper2029601347
@@ -332,8 +332,8 @@ model Paper2008{
                 .title : "A Tailored VModel Exploiting the Theory of Preemptive Time Petri Nets"
             	.year : 2008
             	.core : false
-            	.SE:false
-            	-venue->venue100
+            	.SE:true
+            	-venue->venue117
             	-cites->paper2136877520
             	-authors->author2142185672
             	-authors->author1976668415
@@ -352,8 +352,8 @@ model Paper2008{
                 .title : "Model Synchronisation Definitions for RoundTrip Engineering"
             	.year : 2008
             	.core : false
-            	.SE:false
-            	-venue->venue52
+            	.SE:true
+            	-venue->venue61
             	-cites->paper2021382227
             	-cites->paper2076676096
             	-authors->author2396512365
@@ -365,7 +365,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue86
+            	-venue->venue103
             	-cites->paper1487694410
             	-cites->paper2169954581
             	-authors->author1991128731
@@ -375,7 +375,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue126
+            	-venue->venue143
             	-cites->paper1840655788
             	-cites->paper2021079739
             	-cites->paper2038953226
@@ -394,7 +394,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue92
+            	-venue->venue109
             	-cites->paper1807498156
             	-cites->paper1970495662
             	-cites->paper2036603632
@@ -423,7 +423,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue138
+            	-venue->venue155
             	-cites->paper1500250067
             	-cites->paper1625345750
             	-cites->paper2017739343
@@ -442,7 +442,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue144
+            	-venue->venue161
             	-cites->paper1963978173
             	-authors->author2136369289
             	-authors->author268076468
@@ -453,7 +453,7 @@ model Paper2008{
                 .title : "A LibraryBased Approach to Translating OCL Constraints to JML Assertions for Runtime Checking"
             	.year : 2008
             	.core : false
-            	.SE:false
+            	.SE:true
             	-venue->venue24
             	-cites->paper1964830323
             	-cites->paper2140001025
@@ -493,7 +493,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue166
+            	-venue->venue184
             	-cites->paper1556566737
             	-cites->paper1568729458
             	-cites->paper1782479956
@@ -515,7 +515,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue172
+            	-venue->venue190
             	-cites->paper149825191
             	-cites->paper1500250067
             	-authors->author2121809198
@@ -527,8 +527,8 @@ model Paper2008{
                 .title : "Verification of equivalentresults methods"
             	.year : 2008
             	.core : false
-            	.SE:false
-            	-venue->venue156
+            	.SE:true
+            	-venue->venue173
             	-cites->paper1509562505
             	-cites->paper1556566737
             	-cites->paper1573044584
@@ -561,7 +561,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue176
+            	-venue->venue
             	-cites->paper1556566737
             	-cites->paper2065675749
             	-cites->paper2136877520
@@ -576,7 +576,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue179
+            	-venue->venue198
             	-cites->paper2135023759
             	-authors->author2153084974
             	-authors->author2001305480
@@ -587,7 +587,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue144
+            	-venue->venue161
             	-cites->paper1562948410
             	-cites->paper1985223393
             	-authors->author314084050
@@ -598,8 +598,8 @@ model Paper2008{
                 .title : "A BDDBased Approach to Verifying CloneEnabled Feature Models Constraints and Customization"
             	.year : 2008
             	.core : false
-            	.SE:false
-            	-venue->venue53
+            	.SE:true
+            	-venue->venue62
             	-cites->paper1500250067
             	-cites->paper1509367797
             	-cites->paper2067838808
@@ -615,8 +615,8 @@ model Paper2008{
                 .title : "Certified Reasoning in Memory Hierarchies"
             	.year : 2008
             	.core : false
-            	.SE:false
-            	-venue->venue59
+            	.SE:true
+            	-venue->venue70
             	-cites->paper1964727056
             	-cites->paper2121405115
             	-cites->paper2132761501
@@ -630,8 +630,8 @@ model Paper2008{
                 .title : "Analysing Graph Transformation Rules through OCL"
             	.year : 2008
             	.core : false
-            	.SE:false
-            	-venue->venue52
+            	.SE:true
+            	-venue->venue61
             	-cites->paper1998400029
             	-cites->paper2089381631
             	-authors->author1842561588
@@ -656,7 +656,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue171
+            	-venue->venue189
             	-cites->paper1573044584
             	-cites->paper1583095677
             	-cites->paper2099293367
@@ -675,7 +675,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue209
+            	-venue->venue233
             	-authors->author2135853928
             	-authors->author2153400249
             	-authors->author237969062
@@ -685,7 +685,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue143
+            	-venue->venue160
             	-cites->paper2035362408
             	-cites->paper2075854425
             	-cites->paper2115309705
@@ -698,7 +698,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue144
+            	-venue->venue161
             	-authors->author165667033
             	-authors->author2062320239
             	-authors->author2136680303
@@ -709,7 +709,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue162
+            	-venue->venue180
             	-authors->author2163867762
             	-authors->author2097290386
             	-authors->author2116990958
@@ -721,7 +721,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue74
+            	-venue->venue91
             	-cites->paper2079370090
             	-authors->author2006550187
             }
@@ -730,7 +730,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue73
+            	-venue->venue90
             	-cites->paper1973501242
             	-cites->paper1992479210
             	-cites->paper2035362408
@@ -750,7 +750,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue226
+            	-venue->venue
             	-cites->paper1519503479
             	-cites->paper1895387792
             	-cites->paper2020395879
@@ -783,7 +783,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue73
+            	-venue->venue90
             	-cites->paper1550904090
             	-cites->paper1568729458
             	-cites->paper1972544179
@@ -808,7 +808,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue166
+            	-venue->venue184
             	-cites->paper1550904090
             	-cites->paper1568729458
             	-cites->paper2065675749
@@ -829,7 +829,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue131
+            	-venue->venue148
             	-cites->paper1556566737
             	-cites->paper1594381772
             	-cites->paper2340735175
@@ -841,7 +841,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue131
+            	-venue->venue148
             	-cites->paper1556566737
             	-cites->paper1594381772
             	-cites->paper1924086464
@@ -852,7 +852,7 @@ model Paper2008{
                 .title : "Juzi a tool for repairing complex data structures"
             	.year : 2008
             	.core : false
-            	.SE:false
+            	.SE:true
             	-venue->venue24
             	-cites->paper2095850105
             	-cites->paper2141656264
@@ -864,7 +864,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue259
+            	-venue->venue284
             	-cites->paper2021327849
             	-cites->paper2169954581
             	-authors->author139471901
@@ -889,7 +889,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue269
+            	-venue->venue295
             	-cites->paper1509367797
             	-cites->paper2052598892
             	-cites->paper2060440626
@@ -906,7 +906,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue72
+            	-venue->venue89
             	-cites->paper2010879541
             	-cites->paper2118949216
             	-cites->paper2137381974
@@ -919,7 +919,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue291
+            	-venue->venue316
             	-cites->paper1972544179
             	-cites->paper1973501242
             	-cites->paper1986732422
@@ -939,7 +939,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue280
+            	-venue->venue305
             	-cites->paper1992479210
             	-cites->paper2075854425
             	-cites->paper2106887953
@@ -960,7 +960,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue320
+            	-venue->venue347
             	-cites->paper1515932031
             	-cites->paper1996952974
             	-cites->paper2117917070
@@ -976,7 +976,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue324
+            	-venue->venue351
             	-cites->paper1550904090
             	-cites->paper1895387792
             	-cites->paper2087252615
@@ -993,7 +993,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue312
+            	-venue->venue339
             	-cites->paper1558832481
             	-cites->paper1985223393
             	-cites->paper2077449561
@@ -1008,7 +1008,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue373
+            	-venue->venue409
             	-cites->paper1515932031
             	-cites->paper1545155892
             	-cites->paper1587166076
@@ -1030,7 +1030,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue283
+            	-venue->venue308
             	-authors->author2128964823
             	-authors->author799116471
             }
@@ -1046,7 +1046,7 @@ model Paper2008{
                 .title : "Genie supporting the model driven development of reflective componentbased adaptive systems"
             	.year : 2008
             	.core : false
-            	.SE:false
+            	.SE:true
             	-venue->venue24
             	-cites->paper2115774534
             	-authors->author2128736411
@@ -1060,7 +1060,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue47
+            	-venue->venue52
             	-cites->paper2102839400
             	-cites->paper2166091242
             	-authors->author2146610949
@@ -1071,7 +1071,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue419
+            	-venue->venue465
             	-cites->paper1982084274
             	-cites->paper2017739343
             	-cites->paper2036705516
@@ -1084,7 +1084,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue270
+            	-venue->venue296
             	-cites->paper2138464849
             	-cites->paper2139872812
             	-cites->paper2140225592
@@ -1100,7 +1100,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue423
+            	-venue->venue469
             	-cites->paper98021641
             	-cites->paper1964024754
             	-cites->paper2050099582
@@ -1116,7 +1116,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue433
+            	-venue->venue481
             	-cites->paper1963978173
             	-authors->author188902387
             	-authors->author2005475479
@@ -1127,7 +1127,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue370
+            	-venue->venue406
             	-authors->author270949118
             	-authors->author2213520885
             	-authors->author2250777962
@@ -1139,7 +1139,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue324
+            	-venue->venue351
             	-cites->paper2118710739
             	-cites->paper2170188124
             	-authors->author1762008226
@@ -1152,7 +1152,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue71
+            	-venue->venue88
             	-authors->author2150132257
             	-authors->author1478355294
             	-authors->author1918427700
@@ -1176,7 +1176,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue103
+            	-venue->venue120
             	-cites->paper2151472800
             	-authors->author2309367016
             	-authors->author2141651534
@@ -1188,7 +1188,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue470
+            	-venue->venue
             	-cites->paper1980079693
             	-cites->paper2115774534
             	-authors->author1777678740
@@ -1199,8 +1199,8 @@ model Paper2008{
                 .title : "Learning from mistakes a comprehensive study on real world concurrency bug characteristics"
             	.year : 2008
             	.core : false
-            	.SE:false
-            	-venue->venue55
+            	.SE:true
+            	-venue->venue66
             	-cites->paper1972544179
             	-cites->paper1986913310
             	-cites->paper2065675749
@@ -1223,7 +1223,7 @@ model Paper2008{
                 .title : "A formal framework for developing adaptable servicebased applications"
             	.year : 2008
             	.core : false
-            	.SE:false
+            	.SE:true
             	-venue->venue3
             	-cites->paper1482962177
             	-cites->paper1526808427
@@ -1240,7 +1240,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue71
+            	-venue->venue88
             	-cites->paper1568729458
             	-cites->paper1823635467
             	-cites->paper2024255419
@@ -1276,7 +1276,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue478
+            	-venue->venue536
             	-cites->paper1967384977
             	-cites->paper2139872812
             	-authors->author2071298843
@@ -1288,8 +1288,8 @@ model Paper2008{
                 .title : "Can We Transform Requirements into Architecture"
             	.year : 2008
             	.core : false
-            	.SE:false
-            	-venue->venue43
+            	.SE:true
+            	-venue->venue45
             	-cites->paper2139907081
             	-cites->paper2169954581
             	-authors->author327216923
@@ -1300,7 +1300,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue144
+            	-venue->venue161
             	-cites->paper1511832825
             	-cites->paper2049008406
             	-authors->author2160674753
@@ -1312,7 +1312,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue146
+            	-venue->venue163
             	-cites->paper1498244333
             	-cites->paper2090354977
             	-cites->paper2109519329
@@ -1335,7 +1335,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue503
+            	-venue->venue
             	-cites->paper2145071552
             	-authors->author2089764178
             	-authors->author345861692
@@ -1362,7 +1362,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue427
+            	-venue->venue475
             	-cites->paper1882088395
             	-cites->paper2021079739
             	-authors->author2165364720
@@ -1373,7 +1373,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue508
+            	-venue->venue
             	-cites->paper2017739343
             	-cites->paper2055689050
             	-cites->paper2138876988
@@ -1391,7 +1391,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue478
+            	-venue->venue536
             	-cites->paper1257099613
             	-authors->author2138824303
             	-authors->author2169929247
@@ -1402,7 +1402,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue460
+            	-venue->venue517
             	-cites->paper1978261680
             	-cites->paper2024795941
             	-cites->paper2129083927
@@ -1427,7 +1427,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue513
+            	-venue->venue579
             	-cites->paper2168452204
             	-authors->author2162122489
             	-authors->author2169592844
@@ -1440,7 +1440,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue72
+            	-venue->venue89
             	-cites->paper1589632492
             	-cites->paper2044463389
             	-cites->paper2079814255
@@ -1452,7 +1452,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue460
+            	-venue->venue517
             	-cites->paper1554311651
             	-cites->paper2077449561
             	-authors->author2632411601
@@ -1462,7 +1462,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue312
+            	-venue->venue339
             	-cites->paper1491205793
             	-cites->paper1558832481
             	-cites->paper2077518845
@@ -1477,7 +1477,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue146
+            	-venue->venue163
             	-authors->author2617007104
             	-authors->author2188988982
             	-authors->author2158595970
@@ -1487,7 +1487,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue324
+            	-venue->venue351
             	-cites->paper1561057365
             	-cites->paper1963978173
             	-cites->paper2185674212
@@ -1499,7 +1499,7 @@ model Paper2008{
                 .title : "Automated Deployment of Distributed Software Components with Fault Tolerance Guarantees"
             	.year : 2008
             	.core : false
-            	.SE:false
+            	.SE:true
             	-venue->venue24
             	-authors->author2050486392
             	-authors->author1990677562
@@ -1510,7 +1510,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue44
+            	-venue->venue47
             	-cites->paper1855065956
             	-cites->paper1895387792
             	-cites->paper2043318789
@@ -1525,7 +1525,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue73
+            	-venue->venue90
             	-cites->paper1972544179
             	-cites->paper1993836075
             	-cites->paper2054961017
@@ -1546,7 +1546,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue536
+            	-venue->venue611
             	-authors->author2106400595
             	-authors->author16736758
             	-authors->author89805724
@@ -1556,8 +1556,8 @@ model Paper2008{
                 .title : "Querying UML Models using OCL and Prolog A Performance Study"
             	.year : 2008
             	.core : false
-            	.SE:false
-            	-venue->venue22
+            	.SE:true
+            	-venue->venue50
             	-cites->paper1487694410
             	-cites->paper2149230051
             	-authors->author2636000826
@@ -1570,7 +1570,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue526
+            	-venue->venue597
             	-cites->paper2099293367
             	-cites->paper2119056988
             	-cites->paper2124920934
@@ -1608,7 +1608,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue302
+            	-venue->venue
             	-cites->paper12874984
             	-cites->paper1600334244
             	-cites->paper1966654106
@@ -1624,7 +1624,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue47
+            	-venue->venue52
             	-cites->paper17332244
             	-cites->paper1972544179
             	-cites->paper2002179840
@@ -1653,7 +1653,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue549
+            	-venue->venue628
             	-cites->paper1558516248
             	-cites->paper2121122863
             	-authors->author2067453598
@@ -1665,7 +1665,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue555
+            	-venue->venue636
             	-authors->author947612571
             	-authors->author2127483189
             }
@@ -1674,7 +1674,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue261
+            	-venue->venue286
             	-cites->paper1515932031
             	-authors->author1569899815
             	-authors->author1565612411
@@ -1685,7 +1685,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue557
+            	-venue->venue640
             	-cites->paper1480285224
             	-cites->paper1807498156
             	-cites->paper1977978965
@@ -1699,7 +1699,7 @@ model Paper2008{
                 .title : "Verification of chip multiprocessor memory systems using a relaxed scoreboard"
             	.year : 2008
             	.core : false
-            	.SE:false
+            	.SE:true
             	-venue->venue16
             	-cites->paper1986463648
             	-cites->paper1986913310
@@ -1721,7 +1721,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue146
+            	-venue->venue163
             	-cites->paper1498244333
             	-cites->paper1583095677
             	-cites->paper1583826417
@@ -1736,7 +1736,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue303
+            	-venue->venue
             	-cites->paper2144432950
             	-cites->paper2156443301
             	-cites->paper2158102622
@@ -1748,7 +1748,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue555
+            	-venue->venue636
             	-cites->paper2067838808
             	-authors->author1960273364
             	-authors->author2067664265
@@ -1760,7 +1760,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue172
+            	-venue->venue190
             	-authors->author2129173792
             	-authors->author2047412352
             	-authors->author2027605797
@@ -1770,7 +1770,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue500
+            	-venue->venue565
             	-authors->author2145289708
             	-authors->author2143742895
             	-authors->author737083156
@@ -1780,7 +1780,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue561
+            	-venue->venue655
             	-authors->author2314273057
             	-authors->author236773611
             	-authors->author2168493545
@@ -1790,7 +1790,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue273
+            	-venue->venue299
             	-cites->paper2001907377
             	-cites->paper2121668868
             	-cites->paper2153887189
@@ -1805,7 +1805,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue567
+            	-venue->venue662
             	-authors->author2170483195
             	-authors->author2306859221
             	-authors->author2250902721
@@ -1815,7 +1815,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue103
+            	-venue->venue120
             	-cites->paper1515932031
             	-cites->paper1545155892
             	-cites->paper2001803004
@@ -1839,7 +1839,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue296
+            	-venue->venue
             	-cites->paper1694765325
             	-cites->paper1973501242
             	-cites->paper2029601347
@@ -1862,7 +1862,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue47
+            	-venue->venue52
             	-cites->paper1885534640
             	-cites->paper1966151719
             	-cites->paper2010497096
@@ -1884,7 +1884,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue281
+            	-venue->venue306
             	-authors->author2129302430
             	-authors->author2159138297
             	-authors->author2344878386
@@ -1901,7 +1901,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue93
+            	-venue->venue110
             	-cites->paper1509367797
             	-cites->paper2052598892
             	-cites->paper2071616717
@@ -1916,7 +1916,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue576
+            	-venue->venue674
             	-authors->author1232121510
             	-authors->author2790392185
             	-authors->author1946690298
@@ -1927,7 +1927,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue474
+            	-venue->venue532
             	-authors->author1988532706
             	-authors->author2083963182
             }
@@ -1936,7 +1936,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue220
+            	-venue->venue245
             	-cites->paper1526808427
             	-cites->paper2041701185
             	-cites->paper2059226812
@@ -1962,7 +1962,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue92
+            	-venue->venue109
             	-cites->paper1482962177
             	-cites->paper2340735175
             	-authors->author1950713449
@@ -1975,7 +1975,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue93
+            	-venue->venue110
             	-cites->paper1509367797
             	-cites->paper1570173564
             	-cites->paper1968830561
@@ -2016,7 +2016,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue93
+            	-venue->venue110
             	-cites->paper1500250067
             	-cites->paper2082677523
             	-cites->paper2113201637
@@ -2030,7 +2030,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue302
+            	-venue->venue
             	-cites->paper1998017916
             	-cites->paper2038476425
             	-cites->paper2100970777
@@ -2044,7 +2044,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue261
+            	-venue->venue286
             	-cites->paper2145021036
             	-cites->paper2340530615
             	-authors->author1569899815
@@ -2059,7 +2059,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue342
+            	-venue->venue373
             	-cites->paper1555915743
             	-cites->paper2145021036
             	-authors->author951368644
@@ -2072,7 +2072,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue605
+            	-venue->venue
             	-cites->paper1968830561
             	-authors->author2617036353
             	-authors->author2124048338
@@ -2085,7 +2085,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue608
+            	-venue->venue726
             	-cites->paper1515932031
             	-authors->author635023701
             	-authors->author713250648
@@ -2095,7 +2095,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue351
+            	-venue->venue384
             	-cites->paper2153704625
             	-authors->author2689226784
             }
@@ -2104,7 +2104,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue648
+            	-venue->venue
             	-authors->author2255147862
             	-authors->author231184312
             	-authors->author2151217767
@@ -2129,7 +2129,7 @@ model Paper2008{
             	.year : 2008
             	.core : false
             	.SE:false
-            	-venue->venue49
+            	-venue->venue56
             	-cites->paper1570173564
             	-cites->paper1993668354
             	-cites->paper2002237220

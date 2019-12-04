@@ -57,7 +57,7 @@ model Paper2011{
                 .title : "Modeling with plausibility checking inspecting favorable and critical signs for consistency between control flow and functional behavior"
             	.year : 2011
             	.core : true
-            	.SE:false
+            	.SE:true
             	-venue->venue3
             	-cites->paper1562948410
             	-cites->paper1585480189
@@ -84,7 +84,7 @@ model Paper2011{
                 .title : "Sound and complete monitoring of sequential consistency for relaxed memory models"
             	.year : 2011
             	.core : true
-            	.SE:false
+            	.SE:true
             	-venue->venue10
             	-cites->paper1822674892
             	-cites->paper1823635467
@@ -239,8 +239,8 @@ model Paper2011{
                 .title : "Data Quality Maintenance by IntegrityPreserving Repairs that Tolerate Inconsistency"
             	.year : 2011
             	.core : true
-            	.SE:false
-            	-venue->venue42
+            	.SE:true
+            	-venue->venue44
             	-cites->paper190622319
             	-cites->paper1491205793
             	-cites->paper1525401035
@@ -304,7 +304,7 @@ model Paper2011{
                 .title : "Inconsistency management framework for modelbased development"
             	.year : 2011
             	.core : true
-            	.SE:false
+            	.SE:true
             	-venue->venue24
             	-cites->paper165540832
             	-cites->paper1486745608
@@ -332,7 +332,7 @@ model Paper2011{
             	.year : 2011
             	.core : true
             	.SE:false
-            	-venue->venue31
+            	-venue->venue
             	-cites->paper1513395277
             	-cites->paper1570154167
             	-cites->paper1583716098
@@ -355,8 +355,8 @@ model Paper2011{
                 .title : "Finetuning model transformation change propagation in context of consistency completeness and human guidance"
             	.year : 2011
             	.core : true
-            	.SE:false
-            	-venue->venue52
+            	.SE:true
+            	-venue->venue61
             	-cites->paper155589868
             	-cites->paper1503242327
             	-cites->paper1563049645
@@ -385,7 +385,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue71
+            	-venue->venue88
             	-cites->paper1509000726
             	-cites->paper1594228127
             	-cites->paper1808398105
@@ -413,7 +413,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue92
+            	-venue->venue109
             	-cites->paper1480909796
             	-cites->paper1519576952
             	-cites->paper1556566737
@@ -427,7 +427,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue137
+            	-venue->venue154
             	-cites->paper1522334395
             	-cites->paper1579452275
             	-cites->paper1972544179
@@ -451,7 +451,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue186
+            	-venue->venue206
             	-cites->paper1965979806
             	-cites->paper2102398950
             	-cites->paper2169954581
@@ -464,7 +464,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue146
+            	-venue->venue163
             	-cites->paper2005066079
             	-cites->paper2021079739
             	-cites->paper2081186654
@@ -480,7 +480,7 @@ model Paper2011{
                 .title : "Litmus running tests against hardware"
             	.year : 2011
             	.core : false
-            	.SE:false
+            	.SE:true
             	-venue->venue10
             	-cites->paper1545792627
             	-cites->paper1808398105
@@ -497,7 +497,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue92
+            	-venue->venue109
             	-cites->paper1498432697
             	-cites->paper1516256348
             	-cites->paper1556566737
@@ -512,7 +512,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue194
+            	-venue->venue218
             	-cites->paper1482397304
             	-cites->paper1525350307
             	-cites->paper1541537810
@@ -537,7 +537,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue71
+            	-venue->venue88
             	-authors->author2123615300
             	-authors->author2193902795
             	-authors->author2156109015
@@ -547,7 +547,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue139
+            	-venue->venue156
             	-cites->paper1487672899
             	-cites->paper1543888717
             	-cites->paper1965979806
@@ -567,7 +567,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue82
+            	-venue->venue99
             	-cites->paper99545732
             	-cites->paper1519503479
             	-cites->paper1556566737
@@ -592,7 +592,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue240
+            	-venue->venue
             	-authors->author2150105899
             	-authors->author2099209958
             }
@@ -601,7 +601,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue47
+            	-venue->venue52
             	-cites->paper1482397304
             	-cites->paper1525350307
             	-cites->paper1541537810
@@ -643,7 +643,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue71
+            	-venue->venue88
             	-cites->paper1556566737
             	-cites->paper1953680156
             	-cites->paper1971332773
@@ -709,7 +709,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue285
+            	-venue->venue310
             	-cites->paper2137137455
             	-authors->author2123312419
             	-authors->author2126556764
@@ -743,7 +743,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue152
+            	-venue->venue169
             	-cites->paper1544281820
             	-cites->paper1987089410
             	-cites->paper2099402694
@@ -760,7 +760,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue47
+            	-venue->venue52
             	-cites->paper1482397304
             	-cites->paper1541537810
             	-cites->paper1973501242
@@ -782,7 +782,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue72
+            	-venue->venue89
             	-cites->paper1482962177
             	-cites->paper2127187761
             	-authors->author89896259
@@ -793,7 +793,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue336
+            	-venue->venue367
             	-cites->paper2121129715
             	-cites->paper2142736763
             	-authors->author1229342846
@@ -803,8 +803,8 @@ model Paper2011{
                 .title : "Testing concurrent programs on relaxed memory models"
             	.year : 2011
             	.core : false
-            	.SE:false
-            	-venue->venue271
+            	.SE:true
+            	-venue->venue297
             	-cites->paper1594825470
             	-cites->paper1822674892
             	-cites->paper1823635467
@@ -831,7 +831,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue340
+            	-venue->venue371
             	-cites->paper2119047901
             	-cites->paper2159024459
             	-authors->author2125876322
@@ -843,7 +843,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue342
+            	-venue->venue373
             	-cites->paper1555915743
             	-cites->paper2107529624
             	-cites->paper2145021036
@@ -866,7 +866,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue345
+            	-venue->venue377
             	-cites->paper2142736763
             	-authors->author1229342846
             	-authors->author136711485
@@ -878,7 +878,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue152
+            	-venue->venue169
             	-cites->paper2136317684
             	-cites->paper2150145237
             	-cites->paper2166365253
@@ -892,7 +892,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue348
+            	-venue->venue380
             	-authors->author1667090203
             	-authors->author1211088434
             	-authors->author105400985
@@ -921,7 +921,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue337
+            	-venue->venue
             	-cites->paper5815757
             	-cites->paper30803841
             	-cites->paper1967180522
@@ -943,7 +943,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue355
+            	-venue->venue389
             	-cites->paper2030130446
             	-cites->paper2106887953
             	-cites->paper2120510885
@@ -958,7 +958,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue372
+            	-venue->venue408
             	-cites->paper2100970777
             	-authors->author128275239
             	-authors->author2025540093
@@ -968,7 +968,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue72
+            	-venue->venue89
             	-cites->paper2145071552
             	-authors->author337129280
             	-authors->author2144941872
@@ -979,7 +979,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue384
+            	-venue->venue424
             	-cites->paper1598022760
             	-cites->paper1983160424
             	-cites->paper1991633729
@@ -1029,7 +1029,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue266
+            	-venue->venue292
             	-cites->paper1532079015
             	-cites->paper1967389447
             	-cites->paper1978613757
@@ -1051,7 +1051,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue384
+            	-venue->venue424
             	-cites->paper1967384977
             	-cites->paper2138464849
             	-authors->author1964794849
@@ -1063,7 +1063,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue279
+            	-venue->venue304
             	-cites->paper1481985818
             	-cites->paper1522334395
             	-cites->paper1534988187
@@ -1118,7 +1118,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue298
+            	-venue->venue324
             	-cites->paper1553426016
             	-cites->paper1803499338
             	-cites->paper1894646615
@@ -1137,8 +1137,8 @@ model Paper2011{
                 .title : "ConstraintBased Program Debugging Using Data Structure Repair"
             	.year : 2011
             	.core : false
-            	.SE:false
-            	-venue->venue22
+            	.SE:true
+            	-venue->venue50
             	-cites->paper1486172410
             	-cites->paper1964566177
             	-cites->paper2141656264
@@ -1152,7 +1152,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue335
+            	-venue->venue
             	-cites->paper2114296561
             	-authors->author2061447099
             	-authors->author2160075590
@@ -1165,7 +1165,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue422
+            	-venue->venue
             	-cites->paper1983160424
             	-cites->paper2043336932
             	-cites->paper2087373162
@@ -1183,7 +1183,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue424
+            	-venue->venue
             	-cites->paper1694765325
             	-cites->paper1986463648
             	-cites->paper1986913310
@@ -1228,7 +1228,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue431
+            	-venue->venue479
             	-cites->paper1491205793
             	-cites->paper2006519067
             	-cites->paper2077518845
@@ -1241,7 +1241,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue432
+            	-venue->venue480
             	-authors->author2641786376
             	-authors->author2141918410
             }
@@ -1250,7 +1250,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue210
+            	-venue->venue234
             	-cites->paper2136317684
             	-cites->paper2150145237
             	-authors->author1075776992
@@ -1261,7 +1261,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue66
+            	-venue->venue83
             	-cites->paper2113435553
             	-authors->author2231911253
             	-authors->author327216923
@@ -1270,7 +1270,7 @@ model Paper2011{
                 .title : "Accelerating microprocessor silicon validation by exposing ISA diversity"
             	.year : 2011
             	.core : false
-            	.SE:false
+            	.SE:true
             	-venue->venue16
             	-cites->paper2024436253
             	-cites->paper2090692734
@@ -1286,7 +1286,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue286
+            	-venue->venue311
             	-authors->author2058402830
             	-authors->author208190765
             	-authors->author2119482068
@@ -1297,7 +1297,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue459
+            	-venue->venue516
             	-cites->paper115884782
             	-cites->paper2110425399
             	-cites->paper2111706174
@@ -1313,7 +1313,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue351
+            	-venue->venue384
             	-cites->paper1482397304
             	-cites->paper2029601347
             	-cites->paper2107529624
@@ -1329,7 +1329,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue383
+            	-venue->venue422
             	-cites->paper2114296561
             	-cites->paper2120510885
             	-authors->author2182916144
@@ -1341,7 +1341,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue47
+            	-venue->venue52
             	-cites->paper1525350307
             	-cites->paper1545792627
             	-cites->paper1593091446
@@ -1366,7 +1366,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue502
+            	-venue->venue
             	-cites->paper99545732
             	-cites->paper1983160424
             	-cites->paper2012959900
@@ -1387,8 +1387,8 @@ model Paper2011{
                 .title : "Efficient processor support for DRFx a memory model with exceptions"
             	.year : 2011
             	.core : false
-            	.SE:false
-            	-venue->venue55
+            	.SE:true
+            	-venue->venue66
             	-cites->paper1482397304
             	-cites->paper1885534640
             	-cites->paper1966151719
@@ -1422,7 +1422,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue512
+            	-venue->venue578
             	-cites->paper2096916430
             	-authors->author2093074657
             	-authors->author2231558807
@@ -1455,7 +1455,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue93
+            	-venue->venue110
             	-cites->paper1481078745
             	-cites->paper1578096003
             	-cites->paper2033803742
@@ -1485,7 +1485,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue531
+            	-venue->venue604
             	-cites->paper2000379092
             	-authors->author2108929676
             	-authors->author2252085086
@@ -1496,7 +1496,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue273
+            	-venue->venue299
             	-cites->paper1983160424
             	-cites->paper1991633729
             	-cites->paper2012959900
@@ -1525,7 +1525,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue541
+            	-venue->venue618
             	-authors->author2658120791
             	-authors->author2307289334
             	-authors->author2307384100
@@ -1545,7 +1545,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue542
+            	-venue->venue619
             	-cites->paper1981420413
             	-cites->paper1985229168
             	-cites->paper1992479210
@@ -1569,7 +1569,7 @@ model Paper2011{
                 .title : "An enhanced architectural knowledge metamodel linking architectural design decisions to other artifacts in the software engineering lifecycle"
             	.year : 2011
             	.core : false
-            	.SE:false
+            	.SE:true
             	-venue->venue14
             	-cites->paper12874984
             	-cites->paper1597691197
@@ -1587,7 +1587,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue546
+            	-venue->venue623
             	-cites->paper1965979806
             	-cites->paper1969367632
             	-cites->paper2026702834
@@ -1604,7 +1604,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue283
+            	-venue->venue308
             	-cites->paper1480909796
             	-cites->paper1993836075
             	-cites->paper2055477538
@@ -1618,7 +1618,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue269
+            	-venue->venue295
             	-cites->paper1598022760
             	-cites->paper1819146036
             	-cites->paper1987089410
@@ -1669,7 +1669,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue283
+            	-venue->venue308
             	-cites->paper2099537990
             	-cites->paper2166266685
             	-authors->author2104034072
@@ -1682,7 +1682,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue386
+            	-venue->venue426
             	-cites->paper1545792627
             	-cites->paper2024436253
             	-cites->paper2150148998
@@ -1700,7 +1700,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue411
+            	-venue->venue453
             	-cites->paper2033579026
             	-cites->paper2120510885
             	-cites->paper2171514411
@@ -1719,7 +1719,7 @@ model Paper2011{
                 .title : "An empirical study of build maintenance effort"
             	.year : 2011
             	.core : false
-            	.SE:false
+            	.SE:true
             	-venue->venue24
             	-authors->author2115051412
             	-authors->author1971521118
@@ -1732,7 +1732,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue359
+            	-venue->venue
             	-cites->paper1513395277
             	-cites->paper1570154167
             	-cites->paper1574570499
@@ -1759,7 +1759,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue291
+            	-venue->venue316
             	-cites->paper1522250664
             	-cites->paper2157225945
             	-cites->paper2164264749
@@ -1786,7 +1786,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue579
+            	-venue->venue
             	-cites->paper14205470
             	-cites->paper1979903077
             	-cites->paper2061161497
@@ -1799,7 +1799,7 @@ model Paper2011{
                 .title : "Reverse engineering feature models"
             	.year : 2011
             	.core : false
-            	.SE:false
+            	.SE:true
             	-venue->venue24
             	-cites->paper30803841
             	-cites->paper2113201637
@@ -1815,7 +1815,7 @@ model Paper2011{
                 .title : "Positive effects of utilizing relationships between inconsistencies for more effective inconsistency resolution NIER track"
             	.year : 2011
             	.core : false
-            	.SE:false
+            	.SE:true
             	-venue->venue24
             	-cites->paper1983160424
             	-cites->paper1991633729
@@ -1835,7 +1835,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue493
+            	-venue->venue554
             	-cites->paper190622319
             	-cites->paper1480514185
             	-cites->paper1491205793
@@ -1863,7 +1863,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue92
+            	-venue->venue109
             	-cites->paper1579452275
             	-cites->paper1972544179
             	-cites->paper1973501242
@@ -1914,7 +1914,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue386
+            	-venue->venue426
             	-cites->paper1808398105
             	-cites->paper1822674892
             	-cites->paper1973501242
@@ -1960,7 +1960,7 @@ model Paper2011{
                 .title : "Leveraging software architectures to guide and verify the development of sensecomputecontrol applications"
             	.year : 2011
             	.core : false
-            	.SE:false
+            	.SE:true
             	-venue->venue24
             	-cites->paper2102841375
             	-cites->paper2133254848
@@ -2000,7 +2000,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue327
+            	-venue->venue355
             	-cites->paper2001907377
             	-cites->paper2121668868
             	-authors->author2108853658
@@ -2012,7 +2012,7 @@ model Paper2011{
                 .title : "Empirical assessment of MDE in industry"
             	.year : 2011
             	.core : false
-            	.SE:false
+            	.SE:true
             	-venue->venue24
             	-cites->paper1997164669
             	-cites->paper2003549823
@@ -2026,7 +2026,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue593
+            	-venue->venue
             	-cites->paper2033656974
             	-cites->paper2138985109
             	-authors->author1997557714
@@ -2046,7 +2046,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue146
+            	-venue->venue163
             	-cites->paper1836432192
             	-cites->paper1971486022
             	-authors->author2501348492
@@ -2057,7 +2057,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue571
+            	-venue->venue668
             	-cites->paper1482397304
             	-cites->paper2054739713
             	-cites->paper2085773946
@@ -2075,7 +2075,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue613
+            	-venue->venue731
             	-cites->paper1664808737
             	-cites->paper1803499338
             	-cites->paper1894646615
@@ -2093,7 +2093,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue625
+            	-venue->venue
             	-cites->paper165540832
             	-cites->paper1519503479
             	-cites->paper1556566737
@@ -2117,7 +2117,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue634
+            	-venue->venue761
             	-cites->paper2146840150
             	-authors->author1999170929
             	-authors->author2153633973
@@ -2130,7 +2130,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue130
+            	-venue->venue147
             	-cites->paper1982313944
             	-cites->paper2063268247
             	-cites->paper2130234837
@@ -2144,7 +2144,7 @@ model Paper2011{
             	.year : 2011
             	.core : false
             	.SE:false
-            	-venue->venue120
+            	-venue->venue137
             	-cites->paper1964723977
             	-cites->paper2153971105
             	-cites->paper2160494425

@@ -57,7 +57,7 @@ model Paper2006{
                 .title : "Modeling and evaluating the survivability of an intrusion tolerant database system"
             	.year : 2006
             	.core : true
-            	.SE:false
+            	.SE:true
             	-venue->venue6
             	-cites->paper1498888217
             	-cites->paper1562069597
@@ -154,8 +154,8 @@ model Paper2006{
                 .title : "Modeling and Customization of Fault Tolerant Architecture using ObjectZXVCL"
             	.year : 2006
             	.core : true
-            	.SE:false
-            	-venue->venue41
+            	.SE:true
+            	-venue->venue
             	-cites->paper1515932031
             	-cites->paper2013774163
             	-cites->paper2110425399
@@ -171,8 +171,8 @@ model Paper2006{
                 .title : "InterModel Consistency in UML Based on CPN Formalism"
             	.year : 2006
             	.core : true
-            	.SE:false
-            	-venue->venue41
+            	.SE:true
+            	-venue->venue
             	-cites->paper46093711
             	-cites->paper1508163308
             	-cites->paper2109931150
@@ -184,7 +184,7 @@ model Paper2006{
             	.year : 2006
             	.core : true
             	.SE:false
-            	-venue->venue49
+            	-venue->venue56
             	-cites->paper1592590079
             	-cites->paper1864273712
             	-cites->paper1875539103
@@ -203,7 +203,7 @@ model Paper2006{
                 .title : "Relation of code clones and change couplings"
             	.year : 2006
             	.core : false
-            	.SE:false
+            	.SE:true
             	-venue->venue3
             	-cites->paper1698439592
             	-cites->paper2074529754
@@ -225,7 +225,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue72
+            	-venue->venue89
             	-cites->paper1489800325
             	-cites->paper2020034474
             	-cites->paper2115309705
@@ -256,7 +256,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue85
+            	-venue->venue102
             	-authors->author2689756500
             }
 	paper1480514185:Paper {
@@ -264,7 +264,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue80
+            	-venue->venue97
             	-cites->paper181078895
             	-cites->paper190622319
             	-cites->paper1558832481
@@ -283,7 +283,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue88
+            	-venue->venue105
             	-authors->author2698209662
             	-authors->author2806741498
             	-authors->author2310304566
@@ -293,7 +293,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue114
+            	-venue->venue131
             	-cites->paper99545732
             	-cites->paper1498244333
             	-cites->paper1561057365
@@ -311,7 +311,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue130
+            	-venue->venue147
             	-cites->paper2017739343
             	-cites->paper2105603754
             	-cites->paper2113435553
@@ -327,7 +327,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue146
+            	-venue->venue163
             	-authors->author2722143492
             	-authors->author742491310
             	-authors->author2132947874
@@ -336,8 +336,8 @@ model Paper2006{
                 .title : "A verification methodology for model fields"
             	.year : 2006
             	.core : false
-            	.SE:false
-            	-venue->venue156
+            	.SE:true
+            	-venue->venue173
             	-cites->paper1573044584
             	-cites->paper1993836075
             	-cites->paper2055477538
@@ -361,7 +361,7 @@ model Paper2006{
                 .title : "Automated systematic testing of open distributed programs"
             	.year : 2006
             	.core : false
-            	.SE:false
+            	.SE:true
             	-venue->venue3
             	-cites->paper1568729458
             	-cites->paper2065675749
@@ -375,7 +375,7 @@ model Paper2006{
                 .title : "Fault tolerant web service orchestration by means of diagnosis"
             	.year : 2006
             	.core : false
-            	.SE:false
+            	.SE:true
             	-venue->venue14
             	-cites->paper2107936220
             	-authors->author383689065
@@ -389,7 +389,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue71
+            	-venue->venue88
             	-cites->paper1495128589
             	-cites->paper1972316716
             	-cites->paper2101939036
@@ -405,8 +405,8 @@ model Paper2006{
                 .title : "Building up and reasoning about architectural knowledge"
             	.year : 2006
             	.core : false
-            	.SE:false
-            	-venue->venue42
+            	.SE:true
+            	-venue->venue44
             	-cites->paper2038476425
             	-cites->paper2166365253
             	-authors->author2032079893
@@ -418,7 +418,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue150
+            	-venue->venue167
             	-authors->author1750256940
             	-authors->author2639747422
             }
@@ -427,7 +427,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue86
+            	-venue->venue103
             	-authors->author43277033
             	-authors->author2098589431
             	-authors->author1941533736
@@ -438,7 +438,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue130
+            	-venue->venue147
             	-authors->author2165584158
             	-authors->author678245920
             }
@@ -447,7 +447,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue71
+            	-venue->venue88
             	-cites->paper1823635467
             	-cites->paper1993990180
             	-cites->paper2029601347
@@ -467,7 +467,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue229
+            	-venue->venue254
             	-cites->paper1998017916
             	-authors->author2017128800
             	-authors->author1266120892
@@ -485,7 +485,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue171
+            	-venue->venue189
             	-cites->paper1558832481
             	-cites->paper1599778614
             	-cites->paper2006519067
@@ -501,8 +501,8 @@ model Paper2006{
                 .title : "Semanticbased weaving of scenarios"
             	.year : 2006
             	.core : false
-            	.SE:false
-            	-venue->venue258
+            	.SE:true
+            	-venue->venue
             	-cites->paper1992036716
             	-authors->author2152184369
             	-authors->author2807702182
@@ -513,7 +513,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue268
+            	-venue->venue294
             	-authors->author2167286091
             	-authors->author2253648543
             	-authors->author2001749418
@@ -524,7 +524,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue282
+            	-venue->venue307
             	-cites->paper163597783
             	-cites->paper1968128450
             	-authors->author2105909224
@@ -535,7 +535,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue289
+            	-venue->venue314
             	-cites->paper2148893609
             	-authors->author374788034
             	-authors->author2401227272
@@ -545,7 +545,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue299
+            	-venue->venue325
             	-cites->paper2017739343
             	-cites->paper2096266868
             	-cites->paper2138876988
@@ -582,7 +582,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue261
+            	-venue->venue286
             	-cites->paper1593091446
             	-cites->paper1982078374
             	-cites->paper2026697016
@@ -597,7 +597,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue322
+            	-venue->venue349
             	-cites->paper1498888217
             	-cites->paper1545155892
             	-cites->paper2101465039
@@ -612,7 +612,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue73
+            	-venue->venue90
             	-cites->paper2005373714
             	-cites->paper2012481411
             	-cites->paper2035362408
@@ -627,7 +627,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue283
+            	-venue->venue308
             	-cites->paper1500250067
             	-cites->paper2113201637
             	-authors->author2894199338
@@ -648,7 +648,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue73
+            	-venue->venue90
             	-cites->paper1993836075
             	-cites->paper2065675749
             	-cites->paper2115309705
@@ -663,7 +663,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue283
+            	-venue->venue308
             	-cites->paper2139907081
             	-cites->paper2159765281
             	-authors->author843533474
@@ -674,7 +674,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue349
+            	-venue->venue381
             	-cites->paper1545155892
             	-cites->paper1855065956
             	-cites->paper2043318789
@@ -685,7 +685,7 @@ model Paper2006{
                 .title : "Effects of defects in UML models an experimental investigation"
             	.year : 2006
             	.core : false
-            	.SE:false
+            	.SE:true
             	-venue->venue24
             	-cites->paper2160328533
             	-authors->author2790951095
@@ -696,7 +696,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue279
+            	-venue->venue304
             	-cites->paper2159765281
             	-cites->paper2167500728
             	-authors->author2018274099
@@ -707,7 +707,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue369
+            	-venue->venue405
             	-cites->paper1855065956
             	-cites->paper2038280282
             	-authors->author2284093308
@@ -719,7 +719,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue380
+            	-venue->venue
             	-cites->paper2029414465
             	-cites->paper2138363365
             	-authors->author2030485397
@@ -752,7 +752,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue324
+            	-venue->venue351
             	-cites->paper1500250067
             	-cites->paper1967384977
             	-cites->paper2153887189
@@ -763,7 +763,7 @@ model Paper2006{
                 .title : "Software evolution analysis and visualization"
             	.year : 2006
             	.core : false
-            	.SE:false
+            	.SE:true
             	-venue->venue24
             	-cites->paper2153887189
             	-authors->author2158171975
@@ -774,7 +774,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue317
+            	-venue->venue344
             	-cites->paper1550200770
             	-cites->paper1555946950
             	-cites->paper1993836075
@@ -790,7 +790,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue291
+            	-venue->venue316
             	-authors->author2145407665
             }
 	paper2041180570:Paper {
@@ -798,7 +798,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue103
+            	-venue->venue120
             	-cites->paper1545155892
             	-cites->paper1996952974
             	-cites->paper2001803004
@@ -816,7 +816,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue414
+            	-venue->venue457
             	-cites->paper2026193949
             	-cites->paper2169954581
             	-authors->author2557835935
@@ -850,7 +850,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue289
+            	-venue->venue314
             	-cites->paper99545732
             	-cites->paper1561929444
             	-cites->paper2093287224
@@ -888,7 +888,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue425
+            	-venue->venue473
             	-cites->paper2132704120
             	-cites->paper2159443917
             	-cites->paper2170590256
@@ -911,7 +911,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue316
+            	-venue->venue343
             	-cites->paper1555915743
             	-cites->paper1580417272
             	-cites->paper1718337629
@@ -929,7 +929,7 @@ model Paper2006{
                 .title : "Modelbased development of dynamically adaptive software"
             	.year : 2006
             	.core : false
-            	.SE:false
+            	.SE:true
             	-venue->venue24
             	-cites->paper1998017916
             	-cites->paper2110425399
@@ -944,7 +944,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue324
+            	-venue->venue351
             	-authors->author2129273002
             	-authors->author1977689941
             }
@@ -953,7 +953,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue283
+            	-venue->venue308
             	-cites->paper2112000202
             	-cites->paper2113201637
             	-authors->author2124048338
@@ -965,7 +965,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue449
+            	-venue->venue504
             	-authors->author2228449327
             	-authors->author2114467999
             	-authors->author2150509713
@@ -975,7 +975,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue455
+            	-venue->venue
             	-cites->paper1923741182
             	-cites->paper2100970777
             	-cites->paper2133201251
@@ -992,7 +992,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue425
+            	-venue->venue473
             	-cites->paper1500250067
             	-cites->paper2010879541
             	-cites->paper2137381974
@@ -1006,7 +1006,7 @@ model Paper2006{
                 .title : "Software component models"
             	.year : 2006
             	.core : false
-            	.SE:false
+            	.SE:true
             	-venue->venue24
             	-cites->paper2133254848
             	-cites->paper2162366870
@@ -1018,7 +1018,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue384
+            	-venue->venue424
             	-cites->paper2152061958
             	-authors->author2126618465
             }
@@ -1027,7 +1027,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue466
+            	-venue->venue523
             	-cites->paper1489800325
             	-cites->paper1515932031
             	-cites->paper2013774163
@@ -1046,7 +1046,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue467
+            	-venue->venue524
             	-cites->paper1574616745
             	-cites->paper1875539103
             	-cites->paper2119434827
@@ -1099,7 +1099,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue474
+            	-venue->venue532
             	-authors->author2898319935
             	-authors->author2109882579
             	-authors->author2120933568
@@ -1110,7 +1110,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue71
+            	-venue->venue88
             	-cites->paper1556566737
             	-cites->paper1593091446
             	-cites->paper1782479956
@@ -1141,7 +1141,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue259
+            	-venue->venue284
             	-cites->paper1509562505
             	-cites->paper1550200770
             	-cites->paper1555946950
@@ -1165,8 +1165,8 @@ model Paper2006{
                 .title : "A precise estimation technique for test coverage of components in objectoriented frameworks"
             	.year : 2006
             	.core : false
-            	.SE:false
-            	-venue->venue41
+            	.SE:true
+            	-venue->venue
             	-authors->author38953562
             	-authors->author2111293218
             	-authors->author2192893558
@@ -1187,7 +1187,7 @@ model Paper2006{
                 .title : "Incremental consistency checking for pervasive context"
             	.year : 2006
             	.core : false
-            	.SE:false
+            	.SE:true
             	-venue->venue24
             	-cites->paper1983160424
             	-cites->paper1983421263
@@ -1200,7 +1200,7 @@ model Paper2006{
                 .title : "Metamodelbased Test Generation for Model Transformations an Algorithm and a Tool"
             	.year : 2006
             	.core : false
-            	.SE:false
+            	.SE:true
             	-venue->venue12
             	-cites->paper1978613757
             	-authors->author2030045634
@@ -1214,7 +1214,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue93
+            	-venue->venue110
             	-cites->paper1489800325
             	-cites->paper1819146036
             	-cites->paper2125614502
@@ -1242,7 +1242,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue269
+            	-venue->venue295
             	-cites->paper2038476425
             	-cites->paper2143909182
             	-authors->author1185439314
@@ -1254,7 +1254,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue458
+            	-venue->venue
             	-cites->paper2041701185
             	-cites->paper2340735175
             	-authors->author171279138
@@ -1265,7 +1265,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue500
+            	-venue->venue565
             	-cites->paper2103317919
             	-authors->author2111060561
             	-authors->author2108416719
@@ -1276,7 +1276,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue414
+            	-venue->venue457
             	-cites->paper2067838808
             	-cites->paper2113201637
             	-authors->author2580909743
@@ -1287,7 +1287,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue187
+            	-venue->venue207
             	-cites->paper1509316335
             	-cites->paper1580417272
             	-cites->paper1718337629
@@ -1305,7 +1305,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue312
+            	-venue->venue339
             	-cites->paper1545155892
             	-cites->paper2035362408
             	-cites->paper2075854425
@@ -1318,7 +1318,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue477
+            	-venue->venue535
             	-cites->paper1487672899
             	-cites->paper2153887189
             	-authors->author1993255528
@@ -1377,7 +1377,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue267
+            	-venue->venue293
             	-cites->paper1556566737
             	-cites->paper2020034474
             	-cites->paper2034717157
@@ -1394,7 +1394,7 @@ model Paper2006{
                 .title : "Relational programming with CrocoPat"
             	.year : 2006
             	.core : false
-            	.SE:false
+            	.SE:true
             	-venue->venue24
             	-cites->paper1624890657
             	-cites->paper1984489185
@@ -1410,7 +1410,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue280
+            	-venue->venue305
             	-cites->paper1993836075
             	-cites->paper1995626000
             	-cites->paper2065675749
@@ -1443,7 +1443,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue397
+            	-venue->venue438
             	-cites->paper1558832481
             	-cites->paper2012959900
             	-authors->author2134973453
@@ -1453,7 +1453,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue273
+            	-venue->venue299
             	-cites->paper2139907081
             	-authors->author2030045634
             	-authors->author2898517351
@@ -1465,7 +1465,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue211
+            	-venue->venue235
             	-cites->paper2073126252
             	-authors->author2280265749
             	-authors->author2019801164
@@ -1477,7 +1477,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue143
+            	-venue->venue160
             	-cites->paper1986732422
             	-cites->paper2132107743
             	-cites->paper2166115541
@@ -1508,7 +1508,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue365
+            	-venue->venue401
             	-cites->paper1495128589
             	-cites->paper1972544179
             	-cites->paper2015688007
@@ -1525,7 +1525,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue543
+            	-venue->venue620
             	-authors->author1996526560
             	-authors->author2054835261
             	-authors->author2199666076
@@ -1537,7 +1537,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue270
+            	-venue->venue296
             	-authors->author2122019980
             }
 	paper2143040687:Paper {
@@ -1545,7 +1545,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue283
+            	-venue->venue308
             	-cites->paper2167514255
             	-authors->author2119646092
             	-authors->author2344901078
@@ -1557,7 +1557,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue559
+            	-venue->venue649
             	-cites->paper1973501242
             	-cites->paper2127989655
             	-authors->author2583758381
@@ -1570,7 +1570,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue480
+            	-venue->venue
             	-cites->paper2156443301
             	-cites->paper2158102622
             	-authors->author2898509548
@@ -1582,7 +1582,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue159
+            	-venue->venue
             	-cites->paper2133943294
             	-cites->paper2152465173
             	-authors->author2037219117
@@ -1595,7 +1595,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue159
+            	-venue->venue
             	-cites->paper1515932031
             	-cites->paper1545155892
             	-cites->paper1587166076
@@ -1643,7 +1643,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue313
+            	-venue->venue340
             	-cites->paper1524103123
             	-cites->paper1545155892
             	-cites->paper1996952974
@@ -1680,7 +1680,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue146
+            	-venue->venue163
             	-authors->author2472461123
             	-authors->author2177270416
             }
@@ -1688,8 +1688,8 @@ model Paper2006{
                 .title : "Combinatorial sketching for finite programs"
             	.year : 2006
             	.core : false
-            	.SE:false
-            	-venue->venue55
+            	.SE:true
+            	-venue->venue66
             	-cites->paper2043924273
             	-authors->author2166621873
             	-authors->author2292980011
@@ -1715,7 +1715,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue551
+            	-venue->venue631
             	-cites->paper1885534640
             	-cites->paper2058317042
             	-cites->paper2091085450
@@ -1742,8 +1742,8 @@ model Paper2006{
                 .title : "AVIO detecting atomicity violations via access interleaving invariants"
             	.year : 2006
             	.core : false
-            	.SE:false
-            	-venue->venue55
+            	.SE:true
+            	-venue->venue66
             	-cites->paper1972544179
             	-cites->paper1973501242
             	-cites->paper1986913310
@@ -1771,7 +1771,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue572
+            	-venue->venue
             	-authors->author697593891
             	-authors->author2298025854
             	-authors->author2183521611
@@ -1785,7 +1785,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue273
+            	-venue->venue299
             	-cites->paper1588557629
             	-cites->paper1983160424
             	-cites->paper1998017916
@@ -1806,7 +1806,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue166
+            	-venue->venue184
             	-cites->paper1556566737
             	-cites->paper2115309705
             	-cites->paper2136877520
@@ -1820,7 +1820,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue273
+            	-venue->venue299
             	-cites->paper2012959900
             	-cites->paper2155988429
             	-cites->paper2611598995
@@ -1831,7 +1831,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue47
+            	-venue->venue52
             	-cites->paper1972544179
             	-cites->paper1993836075
             	-cites->paper2016323637
@@ -1853,7 +1853,7 @@ model Paper2006{
                 .title : "Instant consistency checking for the UML"
             	.year : 2006
             	.core : false
-            	.SE:false
+            	.SE:true
             	-venue->venue24
             	-cites->paper99545732
             	-cites->paper1968128450
@@ -1870,7 +1870,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue377
+            	-venue->venue
             	-cites->paper1500250067
             	-cites->paper1991604845
             	-cites->paper2128698639
@@ -1888,7 +1888,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue150
+            	-venue->venue167
             	-cites->paper1494640588
             	-cites->paper1504594060
             	-cites->paper1983421263
@@ -1902,7 +1902,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue587
+            	-venue->venue
             	-cites->paper1489800325
             	-cites->paper1819146036
             	-cites->paper2103953153
@@ -1917,7 +1917,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue337
+            	-venue->venue
             	-authors->author1149511099
             	-authors->author1710037390
             	-authors->author732573042
@@ -1944,7 +1944,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue296
+            	-venue->venue
             	-cites->paper1975840504
             	-cites->paper1986463648
             	-cites->paper1993990180
@@ -1977,7 +1977,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue371
+            	-venue->venue407
             	-cites->paper1972544179
             	-cites->paper1993836075
             	-cites->paper2002179840
@@ -2003,7 +2003,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue365
+            	-venue->venue401
             	-cites->paper1545155892
             	-cites->paper2002179840
             	-cites->paper2082766667
@@ -2018,7 +2018,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue86
+            	-venue->venue103
             	-authors->author2122458093
             	-authors->author297242139
             	-authors->author2492770651
@@ -2029,7 +2029,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue162
+            	-venue->venue180
             	-authors->author2090879168
             	-authors->author2096889439
             }
@@ -2038,7 +2038,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue73
+            	-venue->venue90
             	-cites->paper1973501242
             	-cites->paper2100100130
             	-cites->paper2100970777
@@ -2053,7 +2053,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue73
+            	-venue->venue90
             	-cites->paper1992479210
             	-cites->paper2075854425
             	-cites->paper2106887953
@@ -2073,7 +2073,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue651
+            	-venue->venue788
             	-authors->author2682265533
             	-authors->author2781135855
             	-authors->author2145471327
@@ -2092,7 +2092,7 @@ model Paper2006{
             	.year : 2006
             	.core : false
             	.SE:false
-            	-venue->venue660
+            	-venue->venue798
             	-cites->paper1597691197
             	-authors->author2161923806
             	-authors->author2632464943

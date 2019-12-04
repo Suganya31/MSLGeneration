@@ -57,7 +57,7 @@ model Paper2014{
                 .title : "Pipe Check Specifying and Verifying Microarchitectural Enforcement of Memory Consistency Models"
             	.year : 2014
             	.core : true
-            	.SE:false
+            	.SE:true
             	-venue->venue16
             	-cites->paper1483960654
             	-cites->paper1525350307
@@ -100,7 +100,7 @@ model Paper2014{
                 .title : "Controlled modeling environment using flexiblyformatted spreadsheets"
             	.year : 2014
             	.core : true
-            	.SE:false
+            	.SE:true
             	-venue->venue24
             	-cites->paper1480582324
             	-cites->paper1487672899
@@ -159,7 +159,7 @@ model Paper2014{
             	.year : 2014
             	.core : true
             	.SE:false
-            	-venue->venue54
+            	-venue->venue63
             	-cites->paper1556566737
             	-cites->paper1594228127
             	-cites->paper1694765325
@@ -200,7 +200,7 @@ model Paper2014{
                 .title : "A Formal Model for ConstraintBased Deployment Calculation and Analysis for FaultTolerant Systems"
             	.year : 2014
             	.core : true
-            	.SE:false
+            	.SE:true
             	-venue->venue24
             	-cites->paper1480909796
             	-cites->paper1556566737
@@ -219,7 +219,7 @@ model Paper2014{
             	.year : 2014
             	.core : true
             	.SE:false
-            	-venue->venue49
+            	-venue->venue56
             	-authors->author2132358281
             	-authors->author2224377421
             }
@@ -228,7 +228,7 @@ model Paper2014{
             	.year : 2014
             	.core : true
             	.SE:false
-            	-venue->venue66
+            	-venue->venue83
             	-cites->paper43969157
             	-cites->paper1579534349
             	-cites->paper1602228945
@@ -250,7 +250,7 @@ model Paper2014{
             	.year : 2014
             	.core : false
             	.SE:false
-            	-venue->venue77
+            	-venue->venue
             	-cites->paper1969367632
             	-cites->paper2026702834
             	-cites->paper2138363365
@@ -264,7 +264,7 @@ model Paper2014{
             	.year : 2014
             	.core : false
             	.SE:false
-            	-venue->venue73
+            	-venue->venue90
             	-cites->paper19204414
             	-cites->paper195676583
             	-cites->paper1423003888
@@ -290,7 +290,7 @@ model Paper2014{
             	.year : 2014
             	.core : false
             	.SE:false
-            	-venue->venue73
+            	-venue->venue90
             	-cites->paper19204414
             	-cites->paper1412006679
             	-cites->paper1591717411
@@ -310,7 +310,7 @@ model Paper2014{
             	.year : 2014
             	.core : false
             	.SE:false
-            	-venue->venue73
+            	-venue->venue90
             	-cites->paper192446467
             	-cites->paper1545155892
             	-cites->paper1577169013
@@ -341,7 +341,7 @@ model Paper2014{
             	.year : 2014
             	.core : false
             	.SE:false
-            	-venue->venue117
+            	-venue->venue
             	-cites->paper1983160424
             	-cites->paper2052552343
             	-cites->paper2112964990
@@ -355,7 +355,7 @@ model Paper2014{
             	.year : 2014
             	.core : false
             	.SE:false
-            	-venue->venue121
+            	-venue->venue
             	-authors->author2227744776
             	-authors->author2224189304
             	-authors->author2150073793
@@ -365,7 +365,7 @@ model Paper2014{
             	.year : 2014
             	.core : false
             	.SE:false
-            	-venue->venue142
+            	-venue->venue
             	-cites->paper1568396250
             	-cites->paper1968796785
             	-authors->author2054495757
@@ -378,7 +378,7 @@ model Paper2014{
             	.year : 2014
             	.core : false
             	.SE:false
-            	-venue->venue121
+            	-venue->venue
             	-authors->author2041213531
             }
 	paper156137932:Paper {
@@ -386,7 +386,7 @@ model Paper2014{
             	.year : 2014
             	.core : false
             	.SE:false
-            	-venue->venue167
+            	-venue->venue
             	-cites->paper2162532690
             	-authors->author2123116766
             	-authors->author2098436618
@@ -398,7 +398,7 @@ model Paper2014{
             	.year : 2014
             	.core : false
             	.SE:false
-            	-venue->venue180
+            	-venue->venue
             	-cites->paper1594381772
             	-cites->paper1852929912
             	-cites->paper2020395879
@@ -413,8 +413,8 @@ model Paper2014{
                 .title : "Relational ThreadModular Static Value Analysis by Abstract Interpretation"
             	.year : 2014
             	.core : false
-            	.SE:false
-            	-venue->venue198
+            	.SE:true
+            	-venue->venue222
             	-cites->paper115884782
             	-cites->paper1964727056
             	-cites->paper1971332773
@@ -428,8 +428,8 @@ model Paper2014{
                 .title : "A LogicBased Framework for Verifying Consensus Algorithms"
             	.year : 2014
             	.core : false
-            	.SE:false
-            	-venue->venue198
+            	.SE:true
+            	-venue->venue222
             	-cites->paper192446467
             	-cites->paper1480909796
             	-cites->paper1556566737
@@ -449,7 +449,7 @@ model Paper2014{
             	.year : 2014
             	.core : false
             	.SE:false
-            	-venue->venue117
+            	-venue->venue
             	-cites->paper2016914525
             	-cites->paper2060440626
             	-cites->paper2111445678
@@ -462,7 +462,7 @@ model Paper2014{
             	.year : 2014
             	.core : false
             	.SE:false
-            	-venue->venue75
+            	-venue->venue92
             	-cites->paper1985227357
             	-cites->paper2009404871
             	-cites->paper2104413677
@@ -475,7 +475,7 @@ model Paper2014{
             	.year : 2014
             	.core : false
             	.SE:false
-            	-venue->venue250
+            	-venue->venue
             	-cites->paper1561412378
             	-cites->paper2054739713
             	-authors->author2289027379
@@ -485,7 +485,7 @@ model Paper2014{
             	.year : 2014
             	.core : false
             	.SE:false
-            	-venue->venue72
+            	-venue->venue89
             	-cites->paper50128682
             	-cites->paper1494640588
             	-cites->paper2001907377
@@ -508,7 +508,7 @@ model Paper2014{
             	.year : 2014
             	.core : false
             	.SE:false
-            	-venue->venue277
+            	-venue->venue302
             	-cites->paper1862398452
             	-cites->paper2028622255
             	-authors->author2806035262
@@ -521,7 +521,7 @@ model Paper2014{
             	.year : 2014
             	.core : false
             	.SE:false
-            	-venue->venue281
+            	-venue->venue306
             	-cites->paper2039444730
             	-authors->author2168829936
             	-authors->author2310896500
@@ -531,7 +531,7 @@ model Paper2014{
             	.year : 2014
             	.core : false
             	.SE:false
-            	-venue->venue290
+            	-venue->venue315
             	-cites->paper1845494277
             	-cites->paper1981420413
             	-cites->paper1985229168
@@ -569,7 +569,7 @@ model Paper2014{
                 .title : "Accelerating Irregular Algorithms on GPGPUs Using FineGrain Hardware Worklists"
             	.year : 2014
             	.core : false
-            	.SE:false
+            	.SE:true
             	-venue->venue16
             	-cites->paper1979527452
             	-cites->paper1997162567
@@ -581,7 +581,7 @@ model Paper2014{
             	.year : 2014
             	.core : false
             	.SE:false
-            	-venue->venue303
+            	-venue->venue
             	-cites->paper2024436253
             	-cites->paper2090692734
             	-cites->paper2110868591
@@ -601,8 +601,8 @@ model Paper2014{
                 .title : "Lem reusable engineering of realworld semantics"
             	.year : 2014
             	.core : false
-            	.SE:false
-            	-venue->venue354
+            	.SE:true
+            	-venue->venue388
             	-cites->paper2064390891
             	-cites->paper2085773946
             	-cites->paper2111858071
@@ -641,7 +641,7 @@ model Paper2014{
             	.year : 2014
             	.core : false
             	.SE:false
-            	-venue->venue367
+            	-venue->venue
             	-cites->paper1987426969
             	-cites->paper1998400029
             	-cites->paper2026785147
@@ -657,7 +657,7 @@ model Paper2014{
             	.year : 2014
             	.core : false
             	.SE:false
-            	-venue->venue47
+            	-venue->venue52
             	-cites->paper196827001
             	-cites->paper1483960654
             	-cites->paper1525350307
@@ -707,8 +707,8 @@ model Paper2014{
                 .title : "SITM reducing transactional memory abort rates through snapshot isolation"
             	.year : 2014
             	.core : false
-            	.SE:false
-            	-venue->venue55
+            	.SE:true
+            	-venue->venue66
             	-cites->paper1986913310
             	-cites->paper2013409485
             	-cites->paper2034747525
@@ -730,7 +730,7 @@ model Paper2014{
             	.year : 2014
             	.core : false
             	.SE:false
-            	-venue->venue296
+            	-venue->venue
             	-cites->paper1997352364
             	-cites->paper2029601347
             	-cites->paper2080592089
@@ -753,7 +753,7 @@ model Paper2014{
             	.year : 2014
             	.core : false
             	.SE:false
-            	-venue->venue277
+            	-venue->venue302
             	-cites->paper2018800706
             	-authors->author166725237
             	-authors->author2117494329
@@ -763,7 +763,7 @@ model Paper2014{
             	.year : 2014
             	.core : false
             	.SE:false
-            	-venue->venue418
+            	-venue->venue464
             	-cites->paper1482397304
             	-cites->paper1967564401
             	-cites->paper1983206712
@@ -785,7 +785,7 @@ model Paper2014{
             	.year : 2014
             	.core : false
             	.SE:false
-            	-venue->venue47
+            	-venue->venue52
             	-cites->paper1480909796
             	-cites->paper2098643127
             	-cites->paper2129538349
@@ -800,7 +800,7 @@ model Paper2014{
             	.year : 2014
             	.core : false
             	.SE:false
-            	-venue->venue211
+            	-venue->venue235
             	-cites->paper1971991620
             	-cites->paper1994449893
             	-cites->paper2137459517
@@ -816,7 +816,7 @@ model Paper2014{
             	.year : 2014
             	.core : false
             	.SE:false
-            	-venue->venue447
+            	-venue->venue501
             	-authors->author2120670826
             	-authors->author2791941302
             	-authors->author2146912683
@@ -827,7 +827,7 @@ model Paper2014{
             	.year : 2014
             	.core : false
             	.SE:false
-            	-venue->venue384
+            	-venue->venue424
             	-cites->paper1862398452
             	-cites->paper2021696583
             	-authors->author2039349267
@@ -838,7 +838,7 @@ model Paper2014{
             	.year : 2014
             	.core : false
             	.SE:false
-            	-venue->venue267
+            	-venue->venue293
             	-cites->paper1537058720
             	-cites->paper1543888717
             	-cites->paper1589632492
@@ -858,8 +858,8 @@ model Paper2014{
                 .title : "Lowlevel detection of languagelevel data races with LARD"
             	.year : 2014
             	.core : false
-            	.SE:false
-            	-venue->venue55
+            	.SE:true
+            	-venue->venue66
             	-cites->paper1972544179
             	-cites->paper1973501242
             	-cites->paper1990191223
@@ -888,7 +888,7 @@ model Paper2014{
             	.year : 2014
             	.core : false
             	.SE:false
-            	-venue->venue317
+            	-venue->venue344
             	-cites->paper1592640009
             	-cites->paper1838876590
             	-cites->paper1844824726
@@ -904,7 +904,7 @@ model Paper2014{
             	.year : 2014
             	.core : false
             	.SE:false
-            	-venue->venue265
+            	-venue->venue290
             	-cites->paper2050340005
             	-cites->paper2167736435
             	-authors->author1983259996
@@ -916,7 +916,7 @@ model Paper2014{
             	.year : 2014
             	.core : false
             	.SE:false
-            	-venue->venue73
+            	-venue->venue90
             	-cites->paper2009404871
             	-cites->paper2111262474
             	-authors->author2145632935
@@ -933,7 +933,7 @@ model Paper2014{
             	.year : 2014
             	.core : false
             	.SE:false
-            	-venue->venue472
+            	-venue->venue530
             	-cites->paper200074566
             	-cites->paper1838876590
             	-cites->paper1967384977
@@ -994,7 +994,7 @@ model Paper2014{
             	.year : 2014
             	.core : false
             	.SE:false
-            	-venue->venue256
+            	-venue->venue281
             	-cites->paper1964802076
             	-cites->paper1995626000
             	-cites->paper2101161997
@@ -1011,8 +1011,8 @@ model Paper2014{
                 .title : "Heterogeneousracefree memory models"
             	.year : 2014
             	.core : false
-            	.SE:false
-            	-venue->venue55
+            	.SE:true
+            	-venue->venue66
             	-cites->paper1525350307
             	-cites->paper2029601347
             	-cites->paper2053776346
@@ -1044,7 +1044,7 @@ model Paper2014{
             	.year : 2014
             	.core : false
             	.SE:false
-            	-venue->venue337
+            	-venue->venue
             	-cites->paper1509000726
             	-cites->paper1525350307
             	-cites->paper1547285994
@@ -1072,7 +1072,7 @@ model Paper2014{
             	.year : 2014
             	.core : false
             	.SE:false
-            	-venue->venue600
+            	-venue->venue713
             	-cites->paper99545732
             	-cites->paper165540832
             	-cites->paper1558561379
@@ -1099,7 +1099,7 @@ model Paper2014{
             	.year : 2014
             	.core : false
             	.SE:false
-            	-venue->venue117
+            	-venue->venue
             	-cites->paper1480909796
             	-cites->paper2118824103
             	-cites->paper2127099711
@@ -1116,7 +1116,7 @@ model Paper2014{
             	.year : 2014
             	.core : false
             	.SE:false
-            	-venue->venue611
+            	-venue->venue
             	-cites->paper1519503479
             	-cites->paper1895387792
             	-cites->paper2025196861
@@ -1129,7 +1129,7 @@ model Paper2014{
             	.year : 2014
             	.core : false
             	.SE:false
-            	-venue->venue369
+            	-venue->venue405
             	-authors->author2303361141
             	-authors->author2138305382
             	-authors->author2201954113
@@ -1139,7 +1139,7 @@ model Paper2014{
             	.year : 2014
             	.core : false
             	.SE:false
-            	-venue->venue612
+            	-venue->venue730
             	-cites->paper1519503479
             	-cites->paper1895387792
             	-cites->paper2025196861
@@ -1158,7 +1158,7 @@ model Paper2014{
             	.year : 2014
             	.core : false
             	.SE:false
-            	-venue->venue615
+            	-venue->venue
             	-cites->paper1597085899
             	-cites->paper2070474270
             	-cites->paper2162366870
@@ -1172,7 +1172,7 @@ model Paper2014{
             	.year : 2014
             	.core : false
             	.SE:false
-            	-venue->venue618
+            	-venue->venue
             	-authors->author2071298843
             	-authors->author406154369
             	-authors->author2003829945
@@ -1185,7 +1185,7 @@ model Paper2014{
             	.year : 2014
             	.core : false
             	.SE:false
-            	-venue->venue623
+            	-venue->venue
             	-cites->paper113976528
             	-cites->paper937233221
             	-cites->paper1965979806
@@ -1206,7 +1206,7 @@ model Paper2014{
             	.year : 2014
             	.core : false
             	.SE:false
-            	-venue->venue624
+            	-venue->venue
             	-cites->paper1589632492
             	-cites->paper1838876590
             	-cites->paper2117892946
@@ -1222,7 +1222,7 @@ model Paper2014{
             	.year : 2014
             	.core : false
             	.SE:false
-            	-venue->venue117
+            	-venue->venue
             	-cites->paper2018568588
             	-cites->paper2099293367
             	-authors->author426991758
@@ -1234,7 +1234,7 @@ model Paper2014{
             	.year : 2014
             	.core : false
             	.SE:false
-            	-venue->venue291
+            	-venue->venue316
             	-cites->paper1885534640
             	-cites->paper1966151719
             	-cites->paper2001738739
@@ -1255,7 +1255,7 @@ model Paper2014{
             	.year : 2014
             	.core : false
             	.SE:false
-            	-venue->venue371
+            	-venue->venue407
             	-cites->paper196827001
             	-cites->paper1483960654
             	-cites->paper1525350307
@@ -1314,7 +1314,7 @@ model Paper2014{
             	.year : 2014
             	.core : false
             	.SE:false
-            	-venue->venue663
+            	-venue->venue801
             	-authors->author1810416833
             	-authors->author1998669143
             }

@@ -84,7 +84,7 @@ model Paper1989{
             	.year : 1989
             	.core : true
             	.SE:false
-            	-venue->venue64
+            	-venue->venue77
             	-authors->author2627046014
             }
 	paper1502833055:Paper {
@@ -92,7 +92,7 @@ model Paper1989{
             	.year : 1989
             	.core : false
             	.SE:false
-            	-venue->venue113
+            	-venue->venue130
             	-authors->author2098984663
             	-authors->author2101505567
             	-authors->author2235094860
@@ -103,7 +103,7 @@ model Paper1989{
             	.year : 1989
             	.core : false
             	.SE:false
-            	-venue->venue135
+            	-venue->venue152
             	-cites->paper1964727056
             	-cites->paper2038562061
             	-cites->paper2043671329
@@ -114,7 +114,7 @@ model Paper1989{
             	.year : 1989
             	.core : false
             	.SE:false
-            	-venue->venue398
+            	-venue->venue439
             	-authors->author2141000523
             	-authors->author315563974
             	-authors->author2047106095
@@ -125,7 +125,7 @@ model Paper1989{
             	.year : 1989
             	.core : false
             	.SE:false
-            	-venue->venue278
+            	-venue->venue303
             	-authors->author2131569935
             	-authors->author2807517443
             	-authors->author2780985938
@@ -135,7 +135,7 @@ model Paper1989{
             	.year : 1989
             	.core : false
             	.SE:false
-            	-venue->venue443
+            	-venue->venue610
             	-cites->paper1976848527
             	-cites->paper2134747058
             	-authors->author251035819
@@ -168,7 +168,7 @@ model Paper1989{
             	.year : 1989
             	.core : false
             	.SE:false
-            	-venue->venue519
+            	-venue->venue586
             	-cites->paper1964607263
             	-cites->paper2168755708
             	-cites->paper2611598995
@@ -181,7 +181,7 @@ model Paper1989{
             	.year : 1989
             	.core : false
             	.SE:false
-            	-venue->venue273
+            	-venue->venue299
             	-cites->paper1971991620
             	-cites->paper1999823724
             	-cites->paper2042609034
@@ -194,7 +194,7 @@ model Paper1989{
             	.year : 1989
             	.core : false
             	.SE:false
-            	-venue->venue47
+            	-venue->venue52
             	-cites->paper1973501242
             	-cites->paper1976848527
             	-authors->author2307273183
@@ -204,7 +204,7 @@ model Paper1989{
             	.year : 1989
             	.core : false
             	.SE:false
-            	-venue->venue238
+            	-venue->venue263
             	-cites->paper171247437
             	-cites->paper2035362408
             	-cites->paper2120510885
@@ -214,7 +214,7 @@ model Paper1989{
                 .title : "Distributed faulttolerant realtime systems the Mars approach"
             	.year : 1989
             	.core : false
-            	.SE:false
+            	.SE:true
             	-venue->venue16
             	-authors->author2162784426
             	-authors->author665242119
