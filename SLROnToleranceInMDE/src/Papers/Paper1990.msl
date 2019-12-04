@@ -57,6 +57,7 @@ model Paper1990{
                 .title : "Modeling execution time of multistage Nversion faulttolerant software"
             	.year : 1990
             	.core : true
+            	.SE:false
             	-venue->venue13
             	-cites->paper1971991620
             	-cites->paper1990661547
@@ -73,7 +74,8 @@ model Paper1990{
                 .title : "Implementation of the Ficus Replicated File System"
             	.year : 1990
             	.core : false
-            	-venue->venue139
+            	.SE:false
+            	-venue->venue132
             	-authors->author2012181057
             	-authors->author2395887948
             	-authors->author2145778587
@@ -85,7 +87,8 @@ model Paper1990{
                 .title : "Computer Architecture A Quantitative Approach"
             	.year : 1990
             	.core : false
-            	-venue->venue81
+            	.SE:false
+            	-venue->venue0
             	-authors->author2098984663
             	-authors->author1965698830
             }
@@ -93,7 +96,8 @@ model Paper1990{
                 .title : "Foundations of canonical update support for closed database views"
             	.year : 1990
             	.core : false
-            	-venue->venue108
+            	.SE:false
+            	-venue->venue101
             	-cites->paper1985223393
             	-authors->author2806089309
             }
@@ -101,7 +105,8 @@ model Paper1990{
                 .title : "CADIZ  Computer Aided Design in Z"
             	.year : 1990
             	.core : false
-            	-venue->venue189
+            	.SE:false
+            	-venue->venue182
             	-authors->author2213027448
             	-authors->author2438444386
             	-authors->author292823293
@@ -110,7 +115,8 @@ model Paper1990{
                 .title : "Database updates through abduction"
             	.year : 1990
             	.core : false
-            	-venue->venue110
+            	.SE:false
+            	-venue->venue103
             	-cites->paper190622319
             	-cites->paper1985223393
             	-cites->paper1986329319
@@ -123,7 +129,8 @@ model Paper1990{
                 .title : "Software Reverse Engineering from a Currently Existing IMS Database to an EntityRelationship Model"
             	.year : 1990
             	.core : false
-            	-venue->venue214
+            	.SE:false
+            	-venue->venue207
             	-authors->author2705243104
             	-authors->author2664783639
             }
@@ -131,6 +138,7 @@ model Paper1990{
                 .title : "Building an evolution transformation library"
             	.year : 1990
             	.core : false
+            	.SE:false
             	-venue->venue24
             	-cites->paper2019712414
             	-authors->author2623986524
@@ -140,7 +148,8 @@ model Paper1990{
                 .title : "Updating knowledge bases"
             	.year : 1990
             	.core : false
-            	-venue->venue326
+            	.SE:false
+            	-venue->venue318
             	-cites->paper2118900391
             	-authors->author2163391027
             	-authors->author2422275600
@@ -149,7 +158,8 @@ model Paper1990{
                 .title : "Modeling of correlated failures and community error recovery in multiversion software"
             	.year : 1990
             	.core : false
-            	-venue->venue281
+            	.SE:false
+            	-venue->venue273
             	-cites->paper1971991620
             	-cites->paper1999823724
             	-cites->paper2133201251
@@ -161,14 +171,16 @@ model Paper1990{
                 .title : "Tolerating failures of continuousvalued sensors"
             	.year : 1990
             	.core : false
-            	-venue->venue288
+            	.SE:false
+            	-venue->venue280
             	-authors->author2781422055
             }
 	paper2006519067:Paper {
                 .title : "Logicbased approach to semantic query optimization"
             	.year : 1990
             	.core : false
-            	-venue->venue320
+            	.SE:false
+            	-venue->venue312
             	-authors->author725050921
             	-authors->author2159299784
             	-authors->author2797175702
@@ -177,7 +189,8 @@ model Paper1990{
                 .title : "Refinement concepts formalised in higher order logic"
             	.year : 1990
             	.core : false
-            	-venue->venue287
+            	.SE:false
+            	-venue->venue279
             	-cites->paper2103953153
             	-cites->paper2147543351
             	-authors->author2108467651
@@ -186,7 +199,8 @@ model Paper1990{
                 .title : "Selftestingcorrecting with applications to numerical problems"
             	.year : 1990
             	.core : false
-            	-venue->venue389
+            	.SE:false
+            	-venue->venue381
             	-authors->author2163096604
             	-authors->author2087233832
             	-authors->author1534604502
@@ -195,7 +209,8 @@ model Paper1990{
                 .title : "Need for flexibility in a conceptual model"
             	.year : 1990
             	.core : false
-            	-venue->venue420
+            	.SE:false
+            	-venue->venue412
             	-cites->paper57965354
             	-cites->paper1492836761
             	-cites->paper1521935994
@@ -207,7 +222,8 @@ model Paper1990{
                 .title : "Telos representing knowledge about information systems"
             	.year : 1990
             	.core : false
-            	-venue->venue371
+            	.SE:false
+            	-venue->venue363
             	-authors->author251194211
             	-authors->author2161153869
             	-authors->author2303459526
@@ -217,7 +233,8 @@ model Paper1990{
                 .title : "A practical theory of programming"
             	.year : 1990
             	.core : false
-            	-venue->venue267
+            	.SE:false
+            	-venue->venue259
             	-cites->paper2110050316
             	-cites->paper2110425399
             	-cites->paper2111706174
@@ -227,7 +244,8 @@ model Paper1990{
                 .title : "Definition and analysis of hardware and softwarefaulttolerant architectures"
             	.year : 1990
             	.core : false
-            	-venue->venue278
+            	.SE:false
+            	-venue->venue270
             	-authors->author687016
             	-authors->author59651681
             	-authors->author752001323
@@ -237,7 +255,8 @@ model Paper1990{
                 .title : "ObjectOriented Modeling and Design"
             	.year : 1990
             	.core : false
-            	-venue->venue81
+            	.SE:false
+            	-venue->venue0
             	-authors->author2063924068
             	-authors->author2517099214
             	-authors->author2171277190
@@ -248,7 +267,8 @@ model Paper1990{
                 .title : "Linearizability a correctness condition for concurrent objects"
             	.year : 1990
             	.core : false
-            	-venue->venue379
+            	.SE:false
+            	-venue->venue371
             	-cites->paper1964727056
             	-cites->paper2054739713
             	-cites->paper2110050316
@@ -262,7 +282,8 @@ model Paper1990{
                 .title : "Coda a highly available file system for a distributed workstation environment"
             	.year : 1990
             	.core : false
-            	-venue->venue262
+            	.SE:false
+            	-venue->venue254
             	-cites->paper2005373714
             	-cites->paper2111223826
             	-authors->author416104820
@@ -276,7 +297,8 @@ model Paper1990{
                 .title : "Drawing updates from derivations"
             	.year : 1990
             	.core : false
-            	-venue->venue108
+            	.SE:false
+            	-venue->venue101
             	-cites->paper181078895
             	-cites->paper1589487547
             	-cites->paper1986329319
@@ -288,6 +310,7 @@ model Paper1990{
                 .title : "Weak orderinga new definition"
             	.year : 1990
             	.core : false
+            	.SE:false
             	-venue->venue33
             	-cites->paper1545792627
             	-cites->paper1973501242
@@ -302,7 +325,8 @@ model Paper1990{
                 .title : "Implementing faulttolerant services using the state machine approach a tutorial"
             	.year : 1990
             	.core : false
-            	-venue->venue274
+            	.SE:false
+            	-venue->venue266
             	-cites->paper1973501242
             	-cites->paper2035362408
             	-cites->paper2075854425
@@ -316,7 +340,8 @@ model Paper1990{
                 .title : "Performability analysis using semiMarkov reward processes"
             	.year : 1990
             	.core : false
-            	-venue->venue262
+            	.SE:false
+            	-venue->venue254
             	-cites->paper1964607263
             	-authors->author2108293768
             	-authors->author133498007
@@ -327,7 +352,8 @@ model Paper1990{
                 .title : "A specifiers introduction to formal methods"
             	.year : 1990
             	.core : false
-            	-venue->venue278
+            	.SE:false
+            	-venue->venue270
             	-cites->paper1970495662
             	-cites->paper2013492611
             	-cites->paper2103953153
@@ -339,6 +365,7 @@ model Paper1990{
                 .title : "Memory consistency and event ordering in scalable sharedmemory multiprocessors"
             	.year : 1990
             	.core : false
+            	.SE:false
             	-venue->venue33
             	-cites->paper2039509099
             	-cites->paper2051789131

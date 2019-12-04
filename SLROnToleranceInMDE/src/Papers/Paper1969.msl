@@ -57,7 +57,8 @@ model Paper1969{
                 .title : "An axiomatic basis for computer programming"
             	.year : 1969
             	.core : false
-            	-venue->venue291
+            	.SE:false
+            	-venue->venue283
             	-authors->author2052847585
             }
 }

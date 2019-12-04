@@ -57,14 +57,16 @@ model Paper1988{
                 .title : "Synchronization and Caching Issues in the Andrew File System"
             	.year : 1988
             	.core : false
-            	-venue->venue161
+            	.SE:false
+            	-venue->venue154
             	-authors->author2659236331
             }
 	paper190622319:Paper {
                 .title : "A theoremproving approach to database integrity"
             	.year : 1988
             	.core : false
-            	-venue->venue248
+            	.SE:false
+            	-venue->venue241
             	-cites->paper181078895
             	-cites->paper2099805467
             	-authors->author2228449327
@@ -74,7 +76,8 @@ model Paper1988{
                 .title : "Performability analysis measures an algorithm and a case study"
             	.year : 1988
             	.core : false
-            	-venue->venue262
+            	.SE:false
+            	-venue->venue254
             	-authors->author2108293768
             	-authors->author2256205553
             	-authors->author2589415339
@@ -83,7 +86,8 @@ model Paper1988{
                 .title : "Automatic detection of nondeterminacy in parallel programs"
             	.year : 1988
             	.core : false
-            	-venue->venue300
+            	.SE:false
+            	-venue->venue292
             	-authors->author251035819
             	-authors->author2123005755
             }
@@ -91,7 +95,8 @@ model Paper1988{
                 .title : "Data diversity an approach to software fault tolerance"
             	.year : 1988
             	.core : false
-            	-venue->venue262
+            	.SE:false
+            	-venue->venue254
             	-cites->paper1971991620
             	-cites->paper2133201251
             	-authors->author2178599376
@@ -101,7 +106,8 @@ model Paper1988{
                 .title : "Properties and update semantics of consistent views"
             	.year : 1988
             	.core : false
-            	-venue->venue320
+            	.SE:false
+            	-venue->venue312
             	-authors->author1873538321
             	-authors->author2192981890
             	-authors->author2679634565
@@ -110,7 +116,8 @@ model Paper1988{
                 .title : "Distributed programming in Argus"
             	.year : 1988
             	.core : false
-            	-venue->venue291
+            	.SE:false
+            	-venue->venue283
             	-cites->paper2106887953
             	-authors->author2084056563
             }
@@ -118,7 +125,8 @@ model Paper1988{
                 .title : "Scale and performance in a distributed file system"
             	.year : 1988
             	.core : false
-            	-venue->venue288
+            	.SE:false
+            	-venue->venue280
             	-cites->paper1547343000
             	-cites->paper1967141605
             	-cites->paper2111223826
@@ -135,6 +143,7 @@ model Paper1988{
                 .title : "Representation formalisms for software process modelling"
             	.year : 1988
             	.core : false
+            	.SE:false
             	-venue->venue64
             	-cites->paper2095958260
             	-authors->author2655344404
@@ -143,7 +152,8 @@ model Paper1988{
                 .title : "Efficient and correct execution of parallel programs that share memory"
             	.year : 1988
             	.core : false
-            	-venue->venue379
+            	.SE:false
+            	-venue->venue371
             	-cites->paper1491178396
             	-cites->paper1973501242
             	-cites->paper2054739713
@@ -154,7 +164,8 @@ model Paper1988{
                 .title : "A theory of reliability in database systems"
             	.year : 1988
             	.core : false
-            	-venue->venue268
+            	.SE:false
+            	-venue->venue260
             	-cites->paper1545155892
             	-cites->paper2031032746
             	-cites->paper2106887953
@@ -165,7 +176,8 @@ model Paper1988{
                 .title : "The V distributed system"
             	.year : 1988
             	.core : false
-            	-venue->venue291
+            	.SE:false
+            	-venue->venue283
             	-cites->paper2130493426
             	-cites->paper2155847110
             	-cites->paper2611598995
@@ -175,7 +187,8 @@ model Paper1988{
                 .title : "Caching in the Sprite network file system"
             	.year : 1988
             	.core : false
-            	-venue->venue288
+            	.SE:false
+            	-venue->venue280
             	-cites->paper1967141605
             	-cites->paper2005373714
             	-cites->paper2111223826
@@ -188,7 +201,8 @@ model Paper1988{
                 .title : "A queueing network model for a distributed database testbed system"
             	.year : 1988
             	.core : false
-            	-venue->venue281
+            	.SE:false
+            	-venue->venue273
             	-cites->paper2106887953
             	-cites->paper2133386065
             	-authors->author227041386
@@ -199,7 +213,8 @@ model Paper1988{
                 .title : "A Uniform Approach to Constraint Satisfaction and Constraint Satisfiability in Deductive Databases"
             	.year : 1988
             	.core : false
-            	-venue->venue528
+            	.SE:false
+            	-venue->venue520
             	-cites->paper181078895
             	-cites->paper2075950442
             	-cites->paper2099805467
@@ -211,7 +226,8 @@ model Paper1988{
                 .title : "Many hard examples for resolution"
             	.year : 1988
             	.core : false
-            	-venue->venue268
+            	.SE:false
+            	-venue->venue260
             	-authors->author2270157296
             	-authors->author2138667172
             }
@@ -219,7 +235,8 @@ model Paper1988{
                 .title : "A spiral model of software development and enhancement"
             	.year : 1988
             	.core : false
-            	-venue->venue278
+            	.SE:false
+            	-venue->venue270
             	-cites->paper2095958260
             	-authors->author2068686281
             }
@@ -227,7 +244,8 @@ model Paper1988{
                 .title : "A modal process logic"
             	.year : 1988
             	.core : false
-            	-venue->venue535
+            	.SE:false
+            	-venue->venue527
             	-authors->author2146581609
             	-authors->author2252015788
             }
@@ -235,7 +253,8 @@ model Paper1988{
                 .title : "A large scale second generation experiment in multiversion software description and early results"
             	.year : 1988
             	.core : false
-            	-venue->venue245
+            	.SE:false
+            	-venue->venue238
             	-cites->paper1971991620
             	-cites->paper1999823724
             	-cites->paper2042609034
@@ -249,7 +268,8 @@ model Paper1988{
                 .title : "A CMOS fault extractor for inductive fault analysis"
             	.year : 1988
             	.core : false
-            	-venue->venue311
+            	.SE:false
+            	-venue->venue303
             	-authors->author2647369450
             	-authors->author2893304033
             }
@@ -257,7 +277,8 @@ model Paper1988{
                 .title : "Measuring consensus effectiveness by a generalized entropy criterion"
             	.year : 1988
             	.core : false
-            	-venue->venue587
+            	.SE:false
+            	-venue->venue578
             	-authors->author2051354008
             	-authors->author2305895682
             }
@@ -265,7 +286,8 @@ model Paper1988{
                 .title : "Programmertransparent coordination of recovering concurrent processes philosophy and rules for efficient implementation"
             	.year : 1988
             	.core : false
-            	-venue->venue281
+            	.SE:false
+            	-venue->venue273
             	-cites->paper2133201251
             	-authors->author2705548157
             }
@@ -273,7 +295,8 @@ model Paper1988{
                 .title : "Camelot a flexible distributed transaction processing system"
             	.year : 1988
             	.core : false
-            	-venue->venue120
+            	.SE:false
+            	-venue->venue113
             	-authors->author2321451709
             	-authors->author2105930983
             	-authors->author2139439197
@@ -282,7 +305,8 @@ model Paper1988{
                 .title : "Efficient data sharing"
             	.year : 1988
             	.core : false
-            	-venue->venue81
+            	.SE:false
+            	-venue->venue0
             	-authors->author2722856806
             }
 }

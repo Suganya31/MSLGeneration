@@ -57,14 +57,16 @@ model Paper1982{
                 .title : "Epigrams on Programming"
             	.year : 1982
             	.core : false
-            	-venue->venue181
+            	.SE:false
+            	-venue->venue174
             	-authors->author2659867364
             }
 	paper1985495277:Paper {
                 .title : "The Recognition of Series Parallel Digraphs"
             	.year : 1982
             	.core : false
-            	-venue->venue323
+            	.SE:false
+            	-venue->venue315
             	-authors->author350567680
             	-authors->author2444474037
             	-authors->author2161825852
@@ -73,7 +75,8 @@ model Paper1982{
                 .title : "Grapevine an exercise in distributed computing"
             	.year : 1982
             	.core : false
-            	-venue->venue291
+            	.SE:false
+            	-venue->venue283
             	-authors->author2153103727
             	-authors->author2470914381
             	-authors->author2104187752
@@ -83,7 +86,8 @@ model Paper1982{
                 .title : "Logic for improving integrity checking in relational data bases"
             	.year : 1982
             	.core : false
-            	-venue->venue263
+            	.SE:false
+            	-venue->venue255
             	-cites->paper2103920867
             	-authors->author2288386885
             }
@@ -91,14 +95,16 @@ model Paper1982{
                 .title : "Rete a fast algorithm for the many patternmany object pattern match problem"
             	.year : 1982
             	.core : false
-            	-venue->venue457
+            	.SE:false
+            	-venue->venue449
             	-authors->author555324291
             }
 	paper2120510885:Paper {
                 .title : "The Byzantine Generals Problem"
             	.year : 1982
             	.core : false
-            	-venue->venue379
+            	.SE:false
+            	-venue->venue371
             	-authors->author577326872
             	-authors->author2096750770
             	-authors->author2138566478
@@ -107,6 +113,7 @@ model Paper1982{
                 .title : "Capturing more world knowledge in the requirements specification"
             	.year : 1982
             	.core : false
+            	.SE:false
             	-venue->venue24
             	-cites->paper2006210705
             	-authors->author2100751788

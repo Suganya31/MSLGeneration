@@ -62,6 +62,13 @@ public class PapersPojo {
 		this.core = core;
 	}
 	Boolean core;
+	public Boolean getSE() {
+		return SE;
+	}
+	public void setSE(Boolean sE) {
+		SE = sE;
+	}
+	Boolean SE;
 	
 	List<String> references= new ArrayList<String>();
 	Set<String> authors= new HashSet<String>();
@@ -81,6 +88,7 @@ public class PapersPojo {
 	static Set<String> dummypaperids= new HashSet<String>();
 	public static Set<String> venues;
 	static Map<String, Integer> venues_global = new HashMap<String, Integer>();
+	
 
 	
 	

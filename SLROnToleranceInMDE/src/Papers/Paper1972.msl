@@ -57,7 +57,8 @@ model Paper1972{
                 .title : "Proof of correctness of data representations"
             	.year : 1972
             	.core : false
-            	-venue->venue263
+            	.SE:false
+            	-venue->venue255
             	-cites->paper2111706174
             	-authors->author2052847585
             }

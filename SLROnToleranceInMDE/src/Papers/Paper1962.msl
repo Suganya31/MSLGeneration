@@ -57,7 +57,8 @@ model Paper1962{
                 .title : "A machine program for theoremproving"
             	.year : 1962
             	.core : false
-            	-venue->venue291
+            	.SE:false
+            	-venue->venue283
             	-authors->author290533546
             	-authors->author2612977855
             	-authors->author1993200149

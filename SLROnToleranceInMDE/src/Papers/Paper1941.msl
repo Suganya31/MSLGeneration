@@ -57,7 +57,8 @@ model Paper1941{
                 .title : "On the Calculus of Relations"
             	.year : 1941
             	.core : false
-            	-venue->venue366
+            	.SE:false
+            	-venue->venue358
             	-authors->author279907095
             }
 }

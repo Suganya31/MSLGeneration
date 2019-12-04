@@ -57,7 +57,8 @@ model Paper1994{
                 .title : "Extracting an Entity Relationship Schema from a Relational Database through Reverse Engineering"
             	.year : 1994
             	.core : false
-            	-venue->venue109
+            	.SE:false
+            	-venue->venue102
             	-cites->paper9091155
             	-cites->paper1521935994
             	-authors->author2638029427
@@ -66,14 +67,16 @@ model Paper1994{
                 .title : "Specification of Graph Translators with Triple Graph Grammars"
             	.year : 1994
             	.core : false
-            	-venue->venue130
+            	.SE:false
+            	-venue->venue123
             	-authors->author675269377
             }
 	paper1537146784:Paper {
                 .title : "Ordering and timeliness requirements of dependable realtime programs"
             	.year : 1994
             	.core : false
-            	-venue->venue147
+            	.SE:false
+            	-venue->venue140
             	-cites->paper1973501242
             	-cites->paper1985349143
             	-cites->paper2164357820
@@ -83,7 +86,8 @@ model Paper1994{
                 .title : "Abstracting Interactions Based on Message Sets"
             	.year : 1994
             	.core : false
-            	-venue->venue182
+            	.SE:false
+            	-venue->venue175
             	-cites->paper2110425399
             	-authors->author1843226284
             	-authors->author2161553928
@@ -92,14 +96,16 @@ model Paper1994{
                 .title : "Linear cryptanalysis method for DES cipher"
             	.year : 1994
             	.core : false
-            	-venue->venue126
+            	.SE:false
+            	-venue->venue119
             	-authors->author2020760526
             }
 	paper1975840504:Paper {
                 .title : "On testing cachecoherent shared memories"
             	.year : 1994
             	.core : false
-            	-venue->venue269
+            	.SE:false
+            	-venue->venue261
             	-cites->paper1885534640
             	-cites->paper2039509099
             	-cites->paper2054739713
@@ -114,7 +120,8 @@ model Paper1994{
                 .title : "Skyblue a multiway local propagation constraint solver for user interface construction"
             	.year : 1994
             	.core : false
-            	-venue->venue336
+            	.SE:false
+            	-venue->venue328
             	-cites->paper1579120539
             	-cites->paper2064707938
             	-authors->author2080933598
@@ -123,7 +130,8 @@ model Paper1994{
                 .title : "Viewpoint specification and Z"
             	.year : 1994
             	.core : false
-            	-venue->venue367
+            	.SE:false
+            	-venue->venue359
             	-cites->paper1970495662
             	-cites->paper2054097655
             	-authors->author2170923759
@@ -135,7 +143,8 @@ model Paper1994{
                 .title : "The temporal logic of actions"
             	.year : 1994
             	.core : false
-            	-venue->venue379
+            	.SE:false
+            	-venue->venue371
             	-cites->paper2103953153
             	-cites->paper2111706174
             	-cites->paper2132107743
@@ -146,7 +155,8 @@ model Paper1994{
                 .title : "Performing data flow testing on classes"
             	.year : 1994
             	.core : false
-            	-venue->venue335
+            	.SE:false
+            	-venue->venue327
             	-cites->paper1491178396
             	-cites->paper2051374949
             	-authors->author1949835151
@@ -156,7 +166,8 @@ model Paper1994{
                 .title : "Sybase replication server"
             	.year : 1994
             	.core : false
-            	-venue->venue328
+            	.SE:false
+            	-venue->venue320
             	-authors->author2677594137
             	-authors->author2638257416
             	-authors->author2676357771
@@ -165,7 +176,8 @@ model Paper1994{
                 .title : "Synthesis of extended transaction models using ACTA"
             	.year : 1994
             	.core : false
-            	-venue->venue320
+            	.SE:false
+            	-venue->venue312
             	-cites->paper1545155892
             	-cites->paper1855065956
             	-cites->paper2104954161
@@ -176,7 +188,8 @@ model Paper1994{
                 .title : "Secure agreement protocols reliable and atomic group multicast in rampart"
             	.year : 1994
             	.core : false
-            	-venue->venue306
+            	.SE:false
+            	-venue->venue298
             	-cites->paper1985349143
             	-cites->paper2035362408
             	-cites->paper2120510885
@@ -187,7 +200,8 @@ model Paper1994{
                 .title : "The Rendezvous architecture and language for constructing multiuser applications"
             	.year : 1994
             	.core : false
-            	-venue->venue438
+            	.SE:false
+            	-venue->venue430
             	-authors->author1892824993
             	-authors->author2609358441
             	-authors->author2094851602
@@ -198,7 +212,8 @@ model Paper1994{
                 .title : "Constraint checking with partial information"
             	.year : 1994
             	.core : false
-            	-venue->venue405
+            	.SE:false
+            	-venue->venue397
             	-cites->paper2099805467
             	-authors->author2103069312
             	-authors->author671527850
@@ -209,7 +224,8 @@ model Paper1994{
                 .title : "Composing firstclass transactions"
             	.year : 1994
             	.core : false
-            	-venue->venue379
+            	.SE:false
+            	-venue->venue371
             	-authors->author1985120884
             	-authors->author2617158886
             	-authors->author1584891692
@@ -220,7 +236,8 @@ model Paper1994{
                 .title : "File system design for an NFS file server appliance"
             	.year : 1994
             	.core : false
-            	-venue->venue477
+            	.SE:false
+            	-venue->venue469
             	-authors->author2708273169
             	-authors->author2164363455
             	-authors->author2163167116
@@ -229,7 +246,8 @@ model Paper1994{
                 .title : "A framework for expressing the relationships between multiple views in requirements specification"
             	.year : 1994
             	.core : false
-            	-venue->venue281
+            	.SE:false
+            	-venue->venue273
             	-cites->paper1979290877
             	-cites->paper2007167977
             	-cites->paper2017739343
@@ -246,7 +264,8 @@ model Paper1994{
                 .title : "A quality of service architecture"
             	.year : 1994
             	.core : false
-            	-venue->venue493
+            	.SE:false
+            	-venue->venue485
             	-authors->author2106295919
             	-authors->author2892508805
             	-authors->author2126914009
@@ -255,7 +274,8 @@ model Paper1994{
                 .title : "Sequential consistency versus linearizability"
             	.year : 1994
             	.core : false
-            	-venue->venue288
+            	.SE:false
+            	-venue->venue280
             	-cites->paper1545155892
             	-cites->paper1555915743
             	-cites->paper2051789131
@@ -271,6 +291,7 @@ model Paper1994{
                 .title : "On formal requirements modeling languages RML revisited"
             	.year : 1994
             	.core : false
+            	.SE:false
             	-venue->venue24
             	-cites->paper1979290877
             	-cites->paper2006210705
@@ -293,7 +314,8 @@ model Paper1994{
                 .title : "Inconsistency handling in multiperspective specifications"
             	.year : 1994
             	.core : false
-            	-venue->venue106
+            	.SE:false
+            	-venue->venue99
             	-cites->paper1979290877
             	-cites->paper2054097655
             	-authors->author2082763392
@@ -306,7 +328,8 @@ model Paper1994{
                 .title : "A graphical environment for formally developing objectoriented software"
             	.year : 1994
             	.core : false
-            	-venue->venue531
+            	.SE:false
+            	-venue->venue523
             	-cites->paper1583095677
             	-cites->paper1970495662
             	-cites->paper2099293367
@@ -319,6 +342,7 @@ model Paper1994{
                 .title : "Understanding why in software process modelling analysis and design"
             	.year : 1994
             	.core : false
+            	.SE:false
             	-venue->venue24
             	-cites->paper2017739343
             	-cites->paper2079814255
@@ -329,7 +353,8 @@ model Paper1994{
                 .title : "Session guarantees for weakly consistent replicated data"
             	.year : 1994
             	.core : false
-            	-venue->venue540
+            	.SE:false
+            	-venue->venue532
             	-cites->paper1515932031
             	-cites->paper1525865893
             	-cites->paper1973501242
@@ -350,7 +375,8 @@ model Paper1994{
                 .title : "Causally ordering broadcast protocol"
             	.year : 1994
             	.core : false
-            	-venue->venue252
+            	.SE:false
+            	-venue->venue244
             	-cites->paper1973501242
             	-cites->paper1985349143
             	-authors->author2140359775
@@ -360,7 +386,8 @@ model Paper1994{
                 .title : "Achieving software quality with testing coverage measures"
             	.year : 1994
             	.core : false
-            	-venue->venue278
+            	.SE:false
+            	-venue->venue270
             	-authors->author2227744130
             	-authors->author2100038474
             	-authors->author2101604183
@@ -369,6 +396,7 @@ model Paper1994{
                 .title : "Effect of test set size and block coverage on the fault detection effectiveness"
             	.year : 1994
             	.core : false
+            	.SE:false
             	-venue->venue12
             	-cites->paper2158535304
             	-authors->author2150536169
@@ -380,7 +408,8 @@ model Paper1994{
                 .title : "View integration a step forward in solving structural conflicts"
             	.year : 1994
             	.core : false
-            	-venue->venue501
+            	.SE:false
+            	-venue->venue493
             	-authors->author2304584118
             	-authors->author2571324842
             }
@@ -388,7 +417,8 @@ model Paper1994{
                 .title : "POLICY DRIVEN MANAGEMENT FOR DISTRIBUTED SYSTEMS"
             	.year : 1994
             	.core : false
-            	-venue->venue597
+            	.SE:false
+            	-venue->venue588
             	-cites->paper2152505375
             	-authors->author1996292137
             }
@@ -396,7 +426,8 @@ model Paper1994{
                 .title : "Metadata update performance in file systems"
             	.year : 1994
             	.core : false
-            	-venue->venue79
+            	.SE:false
+            	-venue->venue73
             	-cites->paper2005373714
             	-cites->paper2115600841
             	-authors->author127822908

@@ -57,6 +57,7 @@ model Paper2011{
                 .title : "Modeling with plausibility checking inspecting favorable and critical signs for consistency between control flow and functional behavior"
             	.year : 2011
             	.core : true
+            	.SE:false
             	-venue->venue3
             	-cites->paper1562948410
             	-cites->paper1585480189
@@ -83,6 +84,7 @@ model Paper2011{
                 .title : "Sound and complete monitoring of sequential consistency for relaxed memory models"
             	.year : 2011
             	.core : true
+            	.SE:false
             	-venue->venue10
             	-cites->paper1822674892
             	-cites->paper1823635467
@@ -109,6 +111,7 @@ model Paper2011{
                 .title : "Modeling the Uncertain Data in the Kanonymity Privacy Protection Model"
             	.year : 2011
             	.core : true
+            	.SE:false
             	-venue->venue26
             	-cites->paper1996300823
             	-cites->paper2004366212
@@ -124,6 +127,7 @@ model Paper2011{
                 .title : "Extended neglect tolerance model  human robot teams"
             	.year : 2011
             	.core : true
+            	.SE:false
             	-venue->venue28
             	-cites->paper1541919721
             	-cites->paper1957070465
@@ -145,6 +149,7 @@ model Paper2011{
                 .title : "Modeling and tolerating heterogeneous failures in large parallel systems"
             	.year : 2011
             	.core : true
+            	.SE:false
             	-venue->venue32
             	-cites->paper1510496002
             	-cites->paper1533617723
@@ -174,6 +179,7 @@ model Paper2011{
                 .title : "Formalizing model consistency based on the abstract syntax"
             	.year : 2011
             	.core : true
+            	.SE:false
             	-venue->venue34
             	-cites->paper1498110179
             	-cites->paper1561057365
@@ -194,6 +200,7 @@ model Paper2011{
                 .title : "Efficient model checking of faulttolerant distributed protocols"
             	.year : 2011
             	.core : true
+            	.SE:false
             	-venue->venue9
             	-cites->paper1486307217
             	-cites->paper1493542872
@@ -232,6 +239,7 @@ model Paper2011{
                 .title : "Data Quality Maintenance by IntegrityPreserving Repairs that Tolerate Inconsistency"
             	.year : 2011
             	.core : true
+            	.SE:false
             	-venue->venue42
             	-cites->paper190622319
             	-cites->paper1491205793
@@ -263,6 +271,7 @@ model Paper2011{
                 .title : "Semantically configurable consistency analysis for class and object diagrams"
             	.year : 2011
             	.core : true
+            	.SE:false
             	-venue->venue8
             	-cites->paper99545732
             	-cites->paper156767209
@@ -295,6 +304,7 @@ model Paper2011{
                 .title : "Inconsistency management framework for modelbased development"
             	.year : 2011
             	.core : true
+            	.SE:false
             	-venue->venue24
             	-cites->paper165540832
             	-cites->paper1486745608
@@ -321,6 +331,7 @@ model Paper2011{
                 .title : "Consistency Checks for Duties in Extended UML Activity Models"
             	.year : 2011
             	.core : true
+            	.SE:false
             	-venue->venue31
             	-cites->paper1513395277
             	-cites->paper1570154167
@@ -344,6 +355,7 @@ model Paper2011{
                 .title : "Finetuning model transformation change propagation in context of consistency completeness and human guidance"
             	.year : 2011
             	.core : true
+            	.SE:false
             	-venue->venue52
             	-cites->paper155589868
             	-cites->paper1503242327
@@ -372,7 +384,8 @@ model Paper2011{
                 .title : "Stability in weak memory models"
             	.year : 2011
             	.core : false
-            	-venue->venue77
+            	.SE:false
+            	-venue->venue71
             	-cites->paper1509000726
             	-cites->paper1594228127
             	-cites->paper1808398105
@@ -399,7 +412,8 @@ model Paper2011{
                 .title : "Relational reasoning via SMT solving"
             	.year : 2011
             	.core : false
-            	-venue->venue99
+            	.SE:false
+            	-venue->venue92
             	-cites->paper1480909796
             	-cites->paper1519576952
             	-cites->paper1556566737
@@ -412,7 +426,8 @@ model Paper2011{
                 .title : "Generating data race witnesses by an SMTbased analysis"
             	.year : 2011
             	.core : false
-            	-venue->venue144
+            	.SE:false
+            	-venue->venue137
             	-cites->paper1522334395
             	-cites->paper1579452275
             	-cites->paper1972544179
@@ -435,7 +450,8 @@ model Paper2011{
                 .title : "Modelbased refinement of security policies in collaborative virtual organisations"
             	.year : 2011
             	.core : false
-            	-venue->venue193
+            	.SE:false
+            	-venue->venue186
             	-cites->paper1965979806
             	-cites->paper2102398950
             	-cites->paper2169954581
@@ -447,7 +463,8 @@ model Paper2011{
                 .title : "Modeling ProcessRelated Duties with Extended UML Activity and Interaction Diagrams"
             	.year : 2011
             	.core : false
-            	-venue->venue153
+            	.SE:false
+            	-venue->venue146
             	-cites->paper2005066079
             	-cites->paper2021079739
             	-cites->paper2081186654
@@ -463,6 +480,7 @@ model Paper2011{
                 .title : "Litmus running tests against hardware"
             	.year : 2011
             	.core : false
+            	.SE:false
             	-venue->venue10
             	-cites->paper1545792627
             	-cites->paper1808398105
@@ -478,7 +496,8 @@ model Paper2011{
                 .title : "Automated verification techniques for probabilistic systems"
             	.year : 2011
             	.core : false
-            	-venue->venue99
+            	.SE:false
+            	-venue->venue92
             	-cites->paper1498432697
             	-cites->paper1516256348
             	-cites->paper1556566737
@@ -492,7 +511,8 @@ model Paper2011{
                 .title : "Verifying fence elimination optimisations"
             	.year : 2011
             	.core : false
-            	-venue->venue201
+            	.SE:false
+            	-venue->venue194
             	-cites->paper1482397304
             	-cites->paper1525350307
             	-cites->paper1541537810
@@ -516,7 +536,8 @@ model Paper2011{
                 .title : "PRISM  verification of probabilistic realtime systems"
             	.year : 2011
             	.core : false
-            	-venue->venue77
+            	.SE:false
+            	-venue->venue71
             	-authors->author2123615300
             	-authors->author2193902795
             	-authors->author2156109015
@@ -525,7 +546,8 @@ model Paper2011{
                 .title : "MoScript a DSL for querying and manipulating model repositories"
             	.year : 2011
             	.core : false
-            	-venue->venue146
+            	.SE:false
+            	-venue->venue139
             	-cites->paper1487672899
             	-cites->paper1543888717
             	-cites->paper1965979806
@@ -544,7 +566,8 @@ model Paper2011{
                 .title : "Assessing the Kodkod model finder for resolving model inconsistencies"
             	.year : 2011
             	.core : false
-            	-venue->venue89
+            	.SE:false
+            	-venue->venue82
             	-cites->paper99545732
             	-cites->paper1519503479
             	-cites->paper1556566737
@@ -568,7 +591,8 @@ model Paper2011{
                 .title : "Efficient Synchronization Primitives for GPUs"
             	.year : 2011
             	.core : false
-            	-venue->venue247
+            	.SE:false
+            	-venue->venue240
             	-authors->author2150105899
             	-authors->author2099209958
             }
@@ -576,6 +600,7 @@ model Paper2011{
                 .title : "A case for an SCpreserving compiler"
             	.year : 2011
             	.core : false
+            	.SE:false
             	-venue->venue47
             	-cites->paper1482397304
             	-cites->paper1525350307
@@ -617,7 +642,8 @@ model Paper2011{
                 .title : "Getting rid of storebuffers in TSO analysis"
             	.year : 2011
             	.core : false
-            	-venue->venue77
+            	.SE:false
+            	-venue->venue71
             	-cites->paper1556566737
             	-cites->paper1953680156
             	-cites->paper1971332773
@@ -632,6 +658,7 @@ model Paper2011{
                 .title : "Transactional storage for georeplicated systems"
             	.year : 2011
             	.core : false
+            	.SE:false
             	-venue->venue21
             	-cites->paper1515932031
             	-cites->paper1545155892
@@ -664,6 +691,7 @@ model Paper2011{
                 .title : "Reasoning about metamodeling with formal specifications and automatic proofs"
             	.year : 2011
             	.core : false
+            	.SE:false
             	-venue->venue8
             	-cites->paper1480909796
             	-cites->paper1519503479
@@ -680,7 +708,8 @@ model Paper2011{
                 .title : "Analysis of source code metrics from ns and ns network simulators"
             	.year : 2011
             	.core : false
-            	-venue->venue293
+            	.SE:false
+            	-venue->venue285
             	-cites->paper2137137455
             	-authors->author2123312419
             	-authors->author2126556764
@@ -692,6 +721,7 @@ model Paper2011{
                 .title : "Instant and incremental QVT transformation for runtime models"
             	.year : 2011
             	.core : false
+            	.SE:false
             	-venue->venue8
             	-cites->paper1563049645
             	-cites->paper1598022760
@@ -712,7 +742,8 @@ model Paper2011{
                 .title : "Towards architecturelevel middlewareenabled exception handling of componentbased systems"
             	.year : 2011
             	.core : false
-            	-venue->venue159
+            	.SE:false
+            	-venue->venue152
             	-cites->paper1544281820
             	-cites->paper1987089410
             	-cites->paper2099402694
@@ -728,6 +759,7 @@ model Paper2011{
                 .title : "Safe optimisations for sharedmemory concurrent programs"
             	.year : 2011
             	.core : false
+            	.SE:false
             	-venue->venue47
             	-cites->paper1482397304
             	-cites->paper1541537810
@@ -749,7 +781,8 @@ model Paper2011{
                 .title : "The many meanings of UML  Sequence Diagrams a survey"
             	.year : 2011
             	.core : false
-            	-venue->venue78
+            	.SE:false
+            	-venue->venue72
             	-cites->paper1482962177
             	-cites->paper2127187761
             	-authors->author89896259
@@ -759,7 +792,8 @@ model Paper2011{
                 .title : "Low Power TestCompression for High TestQuality and Low TestData Volume"
             	.year : 2011
             	.core : false
-            	-venue->venue344
+            	.SE:false
+            	-venue->venue336
             	-cites->paper2121129715
             	-cites->paper2142736763
             	-authors->author1229342846
@@ -769,7 +803,8 @@ model Paper2011{
                 .title : "Testing concurrent programs on relaxed memory models"
             	.year : 2011
             	.core : false
-            	-venue->venue279
+            	.SE:false
+            	-venue->venue271
             	-cites->paper1594825470
             	-cites->paper1822674892
             	-cites->paper1823635467
@@ -795,7 +830,8 @@ model Paper2011{
                 .title : "Extended kanonymity models against sensitive attribute disclosure"
             	.year : 2011
             	.core : false
-            	-venue->venue348
+            	.SE:false
+            	-venue->venue340
             	-cites->paper2119047901
             	-cites->paper2159024459
             	-authors->author2125876322
@@ -806,7 +842,8 @@ model Paper2011{
                 .title : "DeNovo Rethinking the Memory Hierarchy for Disciplined Parallelism"
             	.year : 2011
             	.core : false
-            	-venue->venue350
+            	.SE:false
+            	-venue->venue342
             	-cites->paper1555915743
             	-cites->paper2107529624
             	-cites->paper2145021036
@@ -828,7 +865,8 @@ model Paper2011{
                 .title : "DefectOriented LFSR Reseeding to Target Unmodeled Defects Using Stuckat Test Sets"
             	.year : 2011
             	.core : false
-            	-venue->venue353
+            	.SE:false
+            	-venue->venue345
             	-cites->paper2142736763
             	-authors->author1229342846
             	-authors->author136711485
@@ -839,7 +877,8 @@ model Paper2011{
                 .title : "Componentbased specification of software architecture constraints"
             	.year : 2011
             	.core : false
-            	-venue->venue159
+            	.SE:false
+            	-venue->venue152
             	-cites->paper2136317684
             	-cites->paper2150145237
             	-cites->paper2166365253
@@ -852,7 +891,8 @@ model Paper2011{
                 .title : "Concrete and abstractbased access control"
             	.year : 2011
             	.core : false
-            	-venue->venue356
+            	.SE:false
+            	-venue->venue348
             	-authors->author1667090203
             	-authors->author1211088434
             	-authors->author105400985
@@ -861,6 +901,7 @@ model Paper2011{
                 .title : "Fast crash recovery in RAMCloud"
             	.year : 2011
             	.core : false
+            	.SE:false
             	-venue->venue21
             	-cites->paper192446467
             	-cites->paper1981420413
@@ -879,7 +920,8 @@ model Paper2011{
                 .title : "Variabilityaware parsing in the presence of lexical macros and conditional compilation"
             	.year : 2011
             	.core : false
-            	-venue->venue345
+            	.SE:false
+            	-venue->venue337
             	-cites->paper5815757
             	-cites->paper30803841
             	-cites->paper1967180522
@@ -900,7 +942,8 @@ model Paper2011{
                 .title : "Synchronous consensus under hybrid process and link failures"
             	.year : 2011
             	.core : false
-            	-venue->venue363
+            	.SE:false
+            	-venue->venue355
             	-cites->paper2030130446
             	-cites->paper2106887953
             	-cites->paper2120510885
@@ -914,7 +957,8 @@ model Paper2011{
                 .title : "Fault Tolerant Architecture to Cloud Computing Using Adaptive Checkpoint"
             	.year : 2011
             	.core : false
-            	-venue->venue380
+            	.SE:false
+            	-venue->venue372
             	-cites->paper2100970777
             	-authors->author128275239
             	-authors->author2025540093
@@ -923,7 +967,8 @@ model Paper2011{
                 .title : "A dependability profile within MARTE"
             	.year : 2011
             	.core : false
-            	-venue->venue78
+            	.SE:false
+            	-venue->venue72
             	-cites->paper2145071552
             	-authors->author337129280
             	-authors->author2144941872
@@ -933,7 +978,8 @@ model Paper2011{
                 .title : "Fixing Configuration Inconsistencies across File Type Boundaries"
             	.year : 2011
             	.core : false
-            	-venue->venue392
+            	.SE:false
+            	-venue->venue384
             	-cites->paper1598022760
             	-cites->paper1983160424
             	-cites->paper1991633729
@@ -947,6 +993,7 @@ model Paper2011{
                 .title : "A modeldriven framework for guided design space exploration"
             	.year : 2011
             	.core : false
+            	.SE:false
             	-venue->venue17
             	-cites->paper1257099613
             	-cites->paper1568545584
@@ -963,6 +1010,7 @@ model Paper2011{
                 .title : "A rulebased approach to the semantic lifting of model differences in the context of model versioning"
             	.year : 2011
             	.core : false
+            	.SE:false
             	-venue->venue17
             	-cites->paper1540852499
             	-cites->paper1605273124
@@ -980,7 +1028,8 @@ model Paper2011{
                 .title : "A survey on UMLbased aspectoriented design modeling"
             	.year : 2011
             	.core : false
-            	-venue->venue274
+            	.SE:false
+            	-venue->venue266
             	-cites->paper1532079015
             	-cites->paper1967389447
             	-cites->paper1978613757
@@ -1001,7 +1050,8 @@ model Paper2011{
                 .title : "Towards a RoundTrip Support for ModelDriven Engineering of Embedded Systems"
             	.year : 2011
             	.core : false
-            	-venue->venue392
+            	.SE:false
+            	-venue->venue384
             	-cites->paper1967384977
             	-cites->paper2138464849
             	-authors->author1964794849
@@ -1012,7 +1062,8 @@ model Paper2011{
                 .title : "Symbolic predictive analysis for concurrent programs"
             	.year : 2011
             	.core : false
-            	-venue->venue287
+            	.SE:false
+            	-venue->venue279
             	-cites->paper1481985818
             	-cites->paper1522334395
             	-cites->paper1534988187
@@ -1041,6 +1092,7 @@ model Paper2011{
                 .title : "The DOPLER metatool for decisionoriented variability modeling a multiple case study"
             	.year : 2011
             	.core : false
+            	.SE:false
             	-venue->venue17
             	-cites->paper26962075
             	-cites->paper1481078745
@@ -1065,7 +1117,8 @@ model Paper2011{
                 .title : "Extended cubes enhancing the cube attack by extracting lowdegree nonlinear equations"
             	.year : 2011
             	.core : false
-            	-venue->venue306
+            	.SE:false
+            	-venue->venue298
             	-cites->paper1553426016
             	-cites->paper1803499338
             	-cites->paper1894646615
@@ -1084,6 +1137,7 @@ model Paper2011{
                 .title : "ConstraintBased Program Debugging Using Data Structure Repair"
             	.year : 2011
             	.core : false
+            	.SE:false
             	-venue->venue22
             	-cites->paper1486172410
             	-cites->paper1964566177
@@ -1097,7 +1151,8 @@ model Paper2011{
                 .title : "CloudSim a toolkit for modeling and simulation of cloud computing environments and evaluation of resource provisioning algorithms"
             	.year : 2011
             	.core : false
-            	-venue->venue343
+            	.SE:false
+            	-venue->venue335
             	-cites->paper2114296561
             	-authors->author2061447099
             	-authors->author2160075590
@@ -1109,7 +1164,8 @@ model Paper2011{
                 .title : "Quick fix generation for DSMLs"
             	.year : 2011
             	.core : false
-            	-venue->venue430
+            	.SE:false
+            	-venue->venue422
             	-cites->paper1983160424
             	-cites->paper2043336932
             	-cites->paper2087373162
@@ -1126,7 +1182,8 @@ model Paper2011{
                 .title : "Automatic generation of memory consistency tests for chip multiprocessing"
             	.year : 2011
             	.core : false
-            	-venue->venue432
+            	.SE:false
+            	-venue->venue424
             	-cites->paper1694765325
             	-cites->paper1986463648
             	-cites->paper1986913310
@@ -1147,6 +1204,7 @@ model Paper2011{
                 .title : "CDAlloy class diagrams analysis using alloy revisited"
             	.year : 2011
             	.core : false
+            	.SE:false
             	-venue->venue8
             	-cites->paper180771637
             	-cites->paper1569208917
@@ -1169,7 +1227,8 @@ model Paper2011{
                 .title : "Active integrity constraints and revision programming"
             	.year : 2011
             	.core : false
-            	-venue->venue439
+            	.SE:false
+            	-venue->venue431
             	-cites->paper1491205793
             	-cites->paper2006519067
             	-cites->paper2077518845
@@ -1181,7 +1240,8 @@ model Paper2011{
                 .title : "Formally founded planbased enactment of software development processes"
             	.year : 2011
             	.core : false
-            	-venue->venue440
+            	.SE:false
+            	-venue->venue432
             	-authors->author2641786376
             	-authors->author2141918410
             }
@@ -1189,7 +1249,8 @@ model Paper2011{
                 .title : "Using tactic traceability information models to reduce the risk of architectural degradation during system maintenance"
             	.year : 2011
             	.core : false
-            	-venue->venue217
+            	.SE:false
+            	-venue->venue210
             	-cites->paper2136317684
             	-cites->paper2150145237
             	-authors->author1075776992
@@ -1199,6 +1260,7 @@ model Paper2011{
                 .title : "A knowledge management perspective of requirements engineering"
             	.year : 2011
             	.core : false
+            	.SE:false
             	-venue->venue66
             	-cites->paper2113435553
             	-authors->author2231911253
@@ -1208,6 +1270,7 @@ model Paper2011{
                 .title : "Accelerating microprocessor silicon validation by exposing ISA diversity"
             	.year : 2011
             	.core : false
+            	.SE:false
             	-venue->venue16
             	-cites->paper2024436253
             	-cites->paper2090692734
@@ -1222,7 +1285,8 @@ model Paper2011{
                 .title : "Guest editorial for the special issue for Jacques Wolfmann"
             	.year : 2011
             	.core : false
-            	-venue->venue294
+            	.SE:false
+            	-venue->venue286
             	-authors->author2058402830
             	-authors->author208190765
             	-authors->author2119482068
@@ -1232,7 +1296,8 @@ model Paper2011{
                 .title : "Concurrent Kleene Algebra and its Foundations"
             	.year : 2011
             	.core : false
-            	-venue->venue467
+            	.SE:false
+            	-venue->venue459
             	-cites->paper115884782
             	-cites->paper2110425399
             	-cites->paper2111706174
@@ -1247,7 +1312,8 @@ model Paper2011{
                 .title : "You dont know jack about shared variables or memory models"
             	.year : 2011
             	.core : false
-            	-venue->venue359
+            	.SE:false
+            	-venue->venue351
             	-cites->paper1482397304
             	-cites->paper2029601347
             	-cites->paper2107529624
@@ -1262,7 +1328,8 @@ model Paper2011{
                 .title : "BFTCloud A Byzantine Fault Tolerance Framework for VoluntaryResource Cloud Computing"
             	.year : 2011
             	.core : false
-            	-venue->venue391
+            	.SE:false
+            	-venue->venue383
             	-cites->paper2114296561
             	-cites->paper2120510885
             	-authors->author2182916144
@@ -1273,6 +1340,7 @@ model Paper2011{
                 .title : "Understanding POWER multiprocessors"
             	.year : 2011
             	.core : false
+            	.SE:false
             	-venue->venue47
             	-cites->paper1525350307
             	-cites->paper1545792627
@@ -1297,7 +1365,8 @@ model Paper2011{
                 .title : "An agentoriented approach to change propagation in software maintenance"
             	.year : 2011
             	.core : false
-            	-venue->venue510
+            	.SE:false
+            	-venue->venue502
             	-cites->paper99545732
             	-cites->paper1983160424
             	-cites->paper2012959900
@@ -1318,6 +1387,7 @@ model Paper2011{
                 .title : "Efficient processor support for DRFx a memory model with exceptions"
             	.year : 2011
             	.core : false
+            	.SE:false
             	-venue->venue55
             	-cites->paper1482397304
             	-cites->paper1885534640
@@ -1351,7 +1421,8 @@ model Paper2011{
                 .title : "Transforming dynamic behavior specifications from activity diagrams to BPEL"
             	.year : 2011
             	.core : false
-            	-venue->venue520
+            	.SE:false
+            	-venue->venue512
             	-cites->paper2096916430
             	-authors->author2093074657
             	-authors->author2231558807
@@ -1360,6 +1431,7 @@ model Paper2011{
                 .title : "Nitpicking c concurrency"
             	.year : 2011
             	.core : false
+            	.SE:false
             	-venue->venue20
             	-cites->paper1482397304
             	-cites->paper1519503479
@@ -1382,7 +1454,8 @@ model Paper2011{
                 .title : "A Deployment Infrastructure for Product Line Models and Tools"
             	.year : 2011
             	.core : false
-            	-venue->venue100
+            	.SE:false
+            	-venue->venue93
             	-cites->paper1481078745
             	-cites->paper1578096003
             	-cites->paper2033803742
@@ -1399,6 +1472,7 @@ model Paper2011{
                 .title : "Dthreads efficient deterministic multithreading"
             	.year : 2011
             	.core : false
+            	.SE:false
             	-venue->venue21
             	-cites->paper1995288535
             	-cites->paper2158794422
@@ -1410,7 +1484,8 @@ model Paper2011{
                 .title : "Implementation of Selective Fault Tolerance with conventional synthesis tools"
             	.year : 2011
             	.core : false
-            	-venue->venue539
+            	.SE:false
+            	-venue->venue531
             	-cites->paper2000379092
             	-authors->author2108929676
             	-authors->author2252085086
@@ -1420,7 +1495,8 @@ model Paper2011{
                 .title : "Automatically Detecting and Tracking Inconsistencies in Software Design Models"
             	.year : 2011
             	.core : false
-            	-venue->venue281
+            	.SE:false
+            	-venue->venue273
             	-cites->paper1983160424
             	-cites->paper1991633729
             	-cites->paper2012959900
@@ -1448,7 +1524,8 @@ model Paper2011{
                 .title : "A hierarchy attributebased access control model for cloud storage"
             	.year : 2011
             	.core : false
-            	-venue->venue549
+            	.SE:false
+            	-venue->venue541
             	-authors->author2658120791
             	-authors->author2307289334
             	-authors->author2307384100
@@ -1457,6 +1534,7 @@ model Paper2011{
                 .title : "Scrumbased Methodology for Distributed Software Development"
             	.year : 2011
             	.core : false
+            	.SE:false
             	-venue->venue15
             	-authors->author2226744015
             	-authors->author2059436065
@@ -1466,7 +1544,8 @@ model Paper2011{
                 .title : "Megastore Providing Scalable Highly Available Storage for Interactive Services"
             	.year : 2011
             	.core : false
-            	-venue->venue550
+            	.SE:false
+            	-venue->venue542
             	-cites->paper1981420413
             	-cites->paper1985229168
             	-cites->paper1992479210
@@ -1490,6 +1569,7 @@ model Paper2011{
                 .title : "An enhanced architectural knowledge metamodel linking architectural design decisions to other artifacts in the software engineering lifecycle"
             	.year : 2011
             	.core : false
+            	.SE:false
             	-venue->venue14
             	-cites->paper12874984
             	-cites->paper1597691197
@@ -1506,7 +1586,8 @@ model Paper2011{
                 .title : "Modeling and managing variability in processbased service compositions"
             	.year : 2011
             	.core : false
-            	-venue->venue554
+            	.SE:false
+            	-venue->venue546
             	-cites->paper1965979806
             	-cites->paper1969367632
             	-cites->paper2026702834
@@ -1522,7 +1603,8 @@ model Paper2011{
                 .title : "Satisfiability modulo theories introduction and applications"
             	.year : 2011
             	.core : false
-            	-venue->venue291
+            	.SE:false
+            	-venue->venue283
             	-cites->paper1480909796
             	-cites->paper1993836075
             	-cites->paper2055477538
@@ -1535,7 +1617,8 @@ model Paper2011{
                 .title : "Supporting runtime software architecture A bidirectionaltransformationbased approach"
             	.year : 2011
             	.core : false
-            	-venue->venue277
+            	.SE:false
+            	-venue->venue269
             	-cites->paper1598022760
             	-cites->paper1819146036
             	-cites->paper1987089410
@@ -1557,6 +1640,7 @@ model Paper2011{
                 .title : "Mathematizing C concurrency"
             	.year : 2011
             	.core : false
+            	.SE:false
             	-venue->venue39
             	-cites->paper1482397304
             	-cites->paper1509000726
@@ -1584,7 +1668,8 @@ model Paper2011{
                 .title : "Why STM can be more than a research toy"
             	.year : 2011
             	.core : false
-            	-venue->venue291
+            	.SE:false
+            	-venue->venue283
             	-cites->paper2099537990
             	-cites->paper2166266685
             	-authors->author2104034072
@@ -1596,7 +1681,8 @@ model Paper2011{
                 .title : "Threadmill a postsilicon exerciser for multithreaded processors"
             	.year : 2011
             	.core : false
-            	-venue->venue394
+            	.SE:false
+            	-venue->venue386
             	-cites->paper1545792627
             	-cites->paper2024436253
             	-cites->paper2150148998
@@ -1613,7 +1699,8 @@ model Paper2011{
                 .title : "ApplicationLevel Diagnostic and Membership Protocols for Generic TimeTriggered Systems"
             	.year : 2011
             	.core : false
-            	-venue->venue419
+            	.SE:false
+            	-venue->venue411
             	-cites->paper2033579026
             	-cites->paper2120510885
             	-cites->paper2171514411
@@ -1632,6 +1719,7 @@ model Paper2011{
                 .title : "An empirical study of build maintenance effort"
             	.year : 2011
             	.core : false
+            	.SE:false
             	-venue->venue24
             	-authors->author2115051412
             	-authors->author1971521118
@@ -1643,7 +1731,8 @@ model Paper2011{
                 .title : "Modeling processrelated RBAC models with extended UML activity models"
             	.year : 2011
             	.core : false
-            	-venue->venue367
+            	.SE:false
+            	-venue->venue359
             	-cites->paper1513395277
             	-cites->paper1570154167
             	-cites->paper1574570499
@@ -1669,7 +1758,8 @@ model Paper2011{
                 .title : "The gem simulator"
             	.year : 2011
             	.core : false
-            	-venue->venue299
+            	.SE:false
+            	-venue->venue291
             	-cites->paper1522250664
             	-cites->paper2157225945
             	-cites->paper2164264749
@@ -1695,7 +1785,8 @@ model Paper2011{
                 .title : "UACML Unified Access Control Modeling Language"
             	.year : 2011
             	.core : false
-            	-venue->venue588
+            	.SE:false
+            	-venue->venue579
             	-cites->paper14205470
             	-cites->paper1979903077
             	-cites->paper2061161497
@@ -1708,6 +1799,7 @@ model Paper2011{
                 .title : "Reverse engineering feature models"
             	.year : 2011
             	.core : false
+            	.SE:false
             	-venue->venue24
             	-cites->paper30803841
             	-cites->paper2113201637
@@ -1723,6 +1815,7 @@ model Paper2011{
                 .title : "Positive effects of utilizing relationships between inconsistencies for more effective inconsistency resolution NIER track"
             	.year : 2011
             	.core : false
+            	.SE:false
             	-venue->venue24
             	-cites->paper1983160424
             	-cites->paper1991633729
@@ -1741,7 +1834,8 @@ model Paper2011{
                 .title : "InconsistencyTolerant Integrity Checking"
             	.year : 2011
             	.core : false
-            	-venue->venue501
+            	.SE:false
+            	-venue->venue493
             	-cites->paper190622319
             	-cites->paper1480514185
             	-cites->paper1491205793
@@ -1768,7 +1862,8 @@ model Paper2011{
                 .title : "Predictive analysis for detecting serializability violations through Trace Segmentation"
             	.year : 2011
             	.core : false
-            	-venue->venue99
+            	.SE:false
+            	-venue->venue92
             	-cites->paper1579452275
             	-cites->paper1972544179
             	-cites->paper1973501242
@@ -1786,6 +1881,7 @@ model Paper2011{
                 .title : "Dont settle for eventual scalable causal consistency for widearea storage with COPS"
             	.year : 2011
             	.core : false
+            	.SE:false
             	-venue->venue21
             	-cites->paper1524103123
             	-cites->paper1969925795
@@ -1817,7 +1913,8 @@ model Paper2011{
                 .title : "Litmus tests for comparing memory consistency models how long do they need to be"
             	.year : 2011
             	.core : false
-            	-venue->venue394
+            	.SE:false
+            	-venue->venue386
             	-cites->paper1808398105
             	-cites->paper1822674892
             	-cites->paper1973501242
@@ -1838,6 +1935,7 @@ model Paper2011{
                 .title : "Relaxedmemory concurrency and verified compilation"
             	.year : 2011
             	.core : false
+            	.SE:false
             	-venue->venue39
             	-cites->paper1482397304
             	-cites->paper1509000726
@@ -1862,6 +1960,7 @@ model Paper2011{
                 .title : "Leveraging software architectures to guide and verify the development of sensecomputecontrol applications"
             	.year : 2011
             	.core : false
+            	.SE:false
             	-venue->venue24
             	-cites->paper2102841375
             	-cites->paper2133254848
@@ -1877,6 +1976,7 @@ model Paper2011{
                 .title : "A scalable availability model for InfrastructureasaService cloud"
             	.year : 2011
             	.core : false
+            	.SE:false
             	-venue->venue9
             	-cites->paper2125709281
             	-authors->author2108293768
@@ -1888,6 +1988,7 @@ model Paper2011{
                 .title : "Fault injectionbased assessment of aspectoriented implementation of fault tolerance"
             	.year : 2011
             	.core : false
+            	.SE:false
             	-venue->venue9
             	-cites->paper2054943246
             	-cites->paper2128727110
@@ -1898,7 +1999,8 @@ model Paper2011{
                 .title : "Proactive detection of collaboration conflicts"
             	.year : 2011
             	.core : false
-            	-venue->venue335
+            	.SE:false
+            	-venue->venue327
             	-cites->paper2001907377
             	-cites->paper2121668868
             	-authors->author2108853658
@@ -1910,6 +2012,7 @@ model Paper2011{
                 .title : "Empirical assessment of MDE in industry"
             	.year : 2011
             	.core : false
+            	.SE:false
             	-venue->venue24
             	-cites->paper1997164669
             	-cites->paper2003549823
@@ -1922,7 +2025,8 @@ model Paper2011{
                 .title : "On the Scheduling of Checkpoints in Desktop Grids"
             	.year : 2011
             	.core : false
-            	-venue->venue602
+            	.SE:false
+            	-venue->venue593
             	-cites->paper2033656974
             	-cites->paper2138985109
             	-authors->author1997557714
@@ -1933,14 +2037,16 @@ model Paper2011{
                 .title : "Improving combinatorial optimization"
             	.year : 2011
             	.core : false
-            	-venue->venue81
+            	.SE:false
+            	-venue->venue0
             	-authors->author2781050205
             }
 	paper2279558956:Paper {
                 .title : "Specification and refinement of discrete timing properties in EventB"
             	.year : 2011
             	.core : false
-            	-venue->venue153
+            	.SE:false
+            	-venue->venue146
             	-cites->paper1836432192
             	-cites->paper1971486022
             	-authors->author2501348492
@@ -1950,7 +2056,8 @@ model Paper2011{
                 .title : "How to miscompile programs with benign data races"
             	.year : 2011
             	.core : false
-            	-venue->venue580
+            	.SE:false
+            	-venue->venue571
             	-cites->paper1482397304
             	-cites->paper2054739713
             	-cites->paper2085773946
@@ -1967,7 +2074,8 @@ model Paper2011{
                 .title : "Improved Side Channel Cube Attacks on PRESENT"
             	.year : 2011
             	.core : false
-            	-venue->venue622
+            	.SE:false
+            	-venue->venue613
             	-cites->paper1664808737
             	-cites->paper1803499338
             	-cites->paper1894646615
@@ -1984,7 +2092,8 @@ model Paper2011{
                 .title : "Extensive validation of OCL models by integrating SAT solving into USE"
             	.year : 2011
             	.core : false
-            	-venue->venue634
+            	.SE:false
+            	-venue->venue625
             	-cites->paper165540832
             	-cites->paper1519503479
             	-cites->paper1556566737
@@ -2007,7 +2116,8 @@ model Paper2011{
                 .title : "Cloud computing  The business perspective"
             	.year : 2011
             	.core : false
-            	-venue->venue643
+            	.SE:false
+            	-venue->venue634
             	-cites->paper2146840150
             	-authors->author1999170929
             	-authors->author2153633973
@@ -2019,7 +2129,8 @@ model Paper2011{
                 .title : "VirtualEMF a model virtualization tool"
             	.year : 2011
             	.core : false
-            	-venue->venue137
+            	.SE:false
+            	-venue->venue130
             	-cites->paper1982313944
             	-cites->paper2063268247
             	-cites->paper2130234837
@@ -2032,7 +2143,8 @@ model Paper2011{
                 .title : "Breaking Grain with dynamic cube attacks"
             	.year : 2011
             	.core : false
-            	-venue->venue127
+            	.SE:false
+            	-venue->venue120
             	-cites->paper1964723977
             	-cites->paper2153971105
             	-cites->paper2160494425

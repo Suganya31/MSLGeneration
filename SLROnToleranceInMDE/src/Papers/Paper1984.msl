@@ -57,7 +57,8 @@ model Paper1984{
                 .title : "Dependability Evaluation of Software Systems in Operation"
             	.year : 1984
             	.core : false
-            	-venue->venue281
+            	.SE:false
+            	-venue->venue273
             	-cites->paper2133201251
             	-authors->author2028127229
             }
@@ -65,14 +66,16 @@ model Paper1984{
                 .title : "Dependency Satisfaction in Databases with Incomplete Information"
             	.year : 1984
             	.core : false
-            	-venue->venue110
+            	.SE:false
+            	-venue->venue103
             	-authors->author2798485874
             }
 	paper2125011947:Paper {
                 .title : "Efficient solutions to the replicated log and dictionary problems"
             	.year : 1984
             	.core : false
-            	-venue->venue309
+            	.SE:false
+            	-venue->venue301
             	-cites->paper1973501242
             	-cites->paper2110765100
             	-cites->paper2120510885
@@ -83,14 +86,16 @@ model Paper1984{
                 .title : "Program Slicing"
             	.year : 1984
             	.core : false
-            	-venue->venue281
+            	.SE:false
+            	-venue->venue273
             	-authors->author2475447149
             }
 	paper2405753531:Paper {
                 .title : "On the Formal Definition of a PLI Subset Selected parts"
             	.year : 1984
             	.core : false
-            	-venue->venue628
+            	.SE:false
+            	-venue->venue619
             	-authors->author2142468959
             	-authors->author54991345
             	-authors->author2050333342

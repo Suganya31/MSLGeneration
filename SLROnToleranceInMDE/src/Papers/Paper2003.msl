@@ -57,6 +57,7 @@ model Paper2003{
                 .title : "Flexible fault tolerance in configurable middleware for embedded systems"
             	.year : 2003
             	.core : true
+            	.SE:false
             	-venue->venue13
             	-cites->paper1516305737
             	-cites->paper1589122423
@@ -70,6 +71,7 @@ model Paper2003{
                 .title : "Design and implementation of a consistent time service for faulttolerant distributed systems"
             	.year : 2003
             	.core : true
+            	.SE:false
             	-venue->venue9
             	-cites->paper199552658
             	-cites->paper1537146784
@@ -94,6 +96,7 @@ model Paper2003{
                 .title : "Using Critiquing Systems for Inconsistency Detection in Software Engineering Models"
             	.year : 2003
             	.core : true
+            	.SE:false
             	-venue->venue49
             	-cites->paper1787802610
             	-cites->paper1875319849
@@ -121,6 +124,7 @@ model Paper2003{
                 .title : "Specification and Validation of FaultTolerant Software Architectures Based on Actor Model"
             	.year : 2003
             	.core : true
+            	.SE:false
             	-venue->venue49
             	-authors->author2690163336
             	-authors->author2161553928
@@ -131,7 +135,8 @@ model Paper2003{
                 .title : "Using Parameterized UML to Specify and Compose Access Control Models"
             	.year : 2003
             	.core : false
-            	-venue->venue90
+            	.SE:false
+            	-venue->venue83
             	-authors->author2195163398
             	-authors->author2142115809
             	-authors->author1966110232
@@ -140,7 +145,8 @@ model Paper2003{
                 .title : "Come Lets Play ScenarioBased Programming Using LSCs and the PlayEngine"
             	.year : 2003
             	.core : false
-            	-venue->venue81
+            	.SE:false
+            	-venue->venue0
             	-authors->author427806604
             	-authors->author2305587437
             }
@@ -148,7 +154,8 @@ model Paper2003{
                 .title : "Incremental Integration Tools for Chemical Engineering An Industrial Application of Triple Graph Grammars"
             	.year : 2003
             	.core : false
-            	-venue->venue98
+            	.SE:false
+            	-venue->venue91
             	-cites->paper2054097655
             	-cites->paper2159765281
             	-authors->author2155604352
@@ -158,7 +165,8 @@ model Paper2003{
                 .title : "Merging models based on given correspondences"
             	.year : 2003
             	.core : false
-            	-venue->venue110
+            	.SE:false
+            	-venue->venue103
             	-cites->paper2085631457
             	-cites->paper2163494375
             	-authors->author2304774990
@@ -168,7 +176,8 @@ model Paper2003{
                 .title : "Towards a UML profile for software product lines"
             	.year : 2003
             	.core : false
-            	-venue->venue93
+            	.SE:false
+            	-venue->venue86
             	-authors->author1995269616
             	-authors->author2723120952
             	-authors->author724053813
@@ -177,7 +186,8 @@ model Paper2003{
                 .title : "AGG A Graph Transformation Environment for Modeling and Validation of Software"
             	.year : 2003
             	.core : false
-            	-venue->venue116
+            	.SE:false
+            	-venue->venue109
             	-cites->paper1512007370
             	-cites->paper2118710739
             	-authors->author1978163079
@@ -186,7 +196,8 @@ model Paper2003{
                 .title : "A Metamodel for Representing Variability in Product Family Development"
             	.year : 2003
             	.core : false
-            	-venue->venue117
+            	.SE:false
+            	-venue->venue110
             	-cites->paper1635782815
             	-cites->paper2142874510
             	-authors->author2250860430
@@ -201,7 +212,8 @@ model Paper2003{
                 .title : "Block Ciphers and Systems of Quadratic Equations"
             	.year : 2003
             	.core : false
-            	-venue->venue127
+            	.SE:false
+            	-venue->venue120
             	-cites->paper1542020576
             	-cites->paper1588952639
             	-authors->author2038466276
@@ -211,7 +223,8 @@ model Paper2003{
                 .title : "Integrating model checking and theorem proving for relational reasoning"
             	.year : 2003
             	.core : false
-            	-venue->venue93
+            	.SE:false
+            	-venue->venue86
             	-cites->paper1556566737
             	-cites->paper2165413178
             	-authors->author1702668839
@@ -223,7 +236,8 @@ model Paper2003{
                 .title : "Towards predicting robot team performance"
             	.year : 2003
             	.core : false
-            	-venue->venue155
+            	.SE:false
+            	-venue->venue148
             	-authors->author2145541273
             	-authors->author2111278495
             	-authors->author2166828809
@@ -232,7 +246,8 @@ model Paper2003{
                 .title : "Bogor an extensible and highlymodular software model checking framework"
             	.year : 2003
             	.core : false
-            	-venue->venue164
+            	.SE:false
+            	-venue->venue157
             	-cites->paper2065675749
             	-cites->paper2115309705
             	-cites->paper2340735175
@@ -243,7 +258,8 @@ model Paper2003{
                 .title : "Simplification of Database Integrity Constraints Revisited A Transformational Approach"
             	.year : 2003
             	.core : false
-            	-venue->venue168
+            	.SE:false
+            	-venue->venue161
             	-cites->paper190622319
             	-cites->paper1599778614
             	-cites->paper2006519067
@@ -258,7 +274,8 @@ model Paper2003{
                 .title : "MINING MALICIOUS CORRUPTION OF DATA WITH HIDDEN MARKOV MODELS"
             	.year : 2003
             	.core : false
-            	-venue->venue176
+            	.SE:true
+            	-venue->venue169
             	-authors->author2213633022
             	-authors->author2144418927
             	-authors->author2056441798
@@ -267,7 +284,8 @@ model Paper2003{
                 .title : "Lower bounds for asynchronous consensus"
             	.year : 2003
             	.core : false
-            	-venue->venue93
+            	.SE:false
+            	-venue->venue86
             	-cites->paper1973501242
             	-cites->paper2035362408
             	-cites->paper2065180040
@@ -278,7 +296,8 @@ model Paper2003{
                 .title : "Aligning Work Practices and Mobile Technologies Groupware Design for Loosely Coupled Mobile Groups"
             	.year : 2003
             	.core : false
-            	-venue->venue188
+            	.SE:false
+            	-venue->venue181
             	-cites->paper2116142433
             	-authors->author1607658853
             	-authors->author2131324221
@@ -288,7 +307,8 @@ model Paper2003{
                 .title : "Modelling and specifying scenarios and agent behaviour"
             	.year : 2003
             	.core : false
-            	-venue->venue191
+            	.SE:false
+            	-venue->venue184
             	-cites->paper1608796453
             	-cites->paper1875539103
             	-cites->paper1964024754
@@ -299,7 +319,8 @@ model Paper2003{
                 .title : "Analyzing the Intel Itanium Memory Ordering Rules Using Logic Programming and SAT"
             	.year : 2003
             	.core : false
-            	-venue->venue93
+            	.SE:false
+            	-venue->venue86
             	-cites->paper2026697016
             	-cites->paper2054739713
             	-cites->paper2079605740
@@ -313,7 +334,8 @@ model Paper2003{
                 .title : "The central guardian approach to enforce fault isolation in the timetriggered architecture"
             	.year : 2003
             	.core : false
-            	-venue->venue208
+            	.SE:false
+            	-venue->venue201
             	-cites->paper1487606492
             	-cites->paper2120510885
             	-authors->author665242119
@@ -324,7 +346,8 @@ model Paper2003{
                 .title : "From system goals to software architecture"
             	.year : 2003
             	.core : false
-            	-venue->venue99
+            	.SE:false
+            	-venue->venue92
             	-cites->paper1489800325
             	-cites->paper1998017916
             	-cites->paper2017739343
@@ -342,7 +365,8 @@ model Paper2003{
                 .title : "Towards a rigorous definition of information system survivability"
             	.year : 2003
             	.core : false
-            	-venue->venue220
+            	.SE:false
+            	-venue->venue213
             	-authors->author2178599376
             	-authors->author2126702569
             	-authors->author1999734335
@@ -351,7 +375,8 @@ model Paper2003{
                 .title : "The relyguarantee method in IsabelleHOL"
             	.year : 2003
             	.core : false
-            	-venue->venue163
+            	.SE:false
+            	-venue->venue156
             	-cites->paper1972316716
             	-cites->paper2106192381
             	-authors->author2140043143
@@ -360,6 +385,7 @@ model Paper2003{
                 .title : "ViewPoints meaningful relationships are difficult"
             	.year : 2003
             	.core : false
+            	.SE:false
             	-venue->venue24
             	-cites->paper1489800325
             	-cites->paper1968128450
@@ -382,7 +408,8 @@ model Paper2003{
                 .title : "The PROMPT suite interactive tools for ontology merging and mapping"
             	.year : 2003
             	.core : false
-            	-venue->venue282
+            	.SE:false
+            	-venue->venue274
             	-authors->author2021138233
             	-authors->author2169034151
             }
@@ -390,7 +417,8 @@ model Paper2003{
                 .title : "Using refactoring and unification rules to assist framework evolution"
             	.year : 2003
             	.core : false
-            	-venue->venue286
+            	.SE:false
+            	-venue->venue278
             	-cites->paper1998017916
             	-cites->paper2153887189
             	-authors->author2251883451
@@ -401,6 +429,7 @@ model Paper2003{
                 .title : "Consistency management with repair actions"
             	.year : 2003
             	.core : false
+            	.SE:false
             	-venue->venue24
             	-cites->paper1983421263
             	-cites->paper2012959900
@@ -413,7 +442,8 @@ model Paper2003{
                 .title : "Flexible consistency checking"
             	.year : 2003
             	.core : false
-            	-venue->venue275
+            	.SE:false
+            	-venue->venue267
             	-cites->paper2012959900
             	-cites->paper2037311059
             	-cites->paper2054097655
@@ -430,7 +460,8 @@ model Paper2003{
                 .title : "Bounded Model Checking for Timed Automata"
             	.year : 2003
             	.core : false
-            	-venue->venue332
+            	.SE:false
+            	-venue->venue324
             	-cites->paper2080267935
             	-authors->author263216496
             }
@@ -438,7 +469,8 @@ model Paper2003{
                 .title : "Generating test data from statebased specifications"
             	.year : 2003
             	.core : false
-            	-venue->venue241
+            	.SE:false
+            	-venue->venue234
             	-cites->paper2074461621
             	-authors->author2137703230
             	-authors->author2307659872
@@ -449,7 +481,8 @@ model Paper2003{
                 .title : "Modularisation and composition of aspectual requirements"
             	.year : 2003
             	.core : false
-            	-venue->venue266
+            	.SE:false
+            	-venue->venue258
             	-cites->paper1991604845
             	-cites->paper2017739343
             	-cites->paper2054943246
@@ -463,7 +496,8 @@ model Paper2003{
                 .title : "The complexity of verifying memory coherence"
             	.year : 2003
             	.core : false
-            	-venue->venue269
+            	.SE:false
+            	-venue->venue261
             	-cites->paper1545792627
             	-cites->paper1555915743
             	-cites->paper1975840504
@@ -480,7 +514,8 @@ model Paper2003{
                 .title : "Monitoring and early warning for internet worms"
             	.year : 2003
             	.core : false
-            	-venue->venue306
+            	.SE:false
+            	-venue->venue298
             	-cites->paper1980065740
             	-cites->paper2103315222
             	-cites->paper2108050790
@@ -493,14 +528,16 @@ model Paper2003{
                 .title : "Is remote host availability governed by a universal law"
             	.year : 2003
             	.core : false
-            	-venue->venue376
+            	.SE:false
+            	-venue->venue368
             	-authors->author135218249
             }
 	paper2026913455:Paper {
                 .title : "WRBAC  A Workflow Security Model Incorporating Controlled Overriding of Constraints"
             	.year : 2003
             	.core : false
-            	-venue->venue397
+            	.SE:false
+            	-venue->venue389
             	-cites->paper2038953226
             	-authors->author1691279138
             	-authors->author2101253922
@@ -510,7 +547,8 @@ model Paper2003{
                 .title : "The blocker tag selective blocking of RFID tags for consumer privacy"
             	.year : 2003
             	.core : false
-            	-venue->venue306
+            	.SE:false
+            	-venue->venue298
             	-authors->author46726047
             	-authors->author794659302
             	-authors->author695545146
@@ -519,14 +557,16 @@ model Paper2003{
                 .title : "Generalized Estimating Equations"
             	.year : 2003
             	.core : false
-            	-venue->venue360
+            	.SE:false
+            	-venue->venue352
             	-authors->author2128241014
             }
 	paper2044463389:Paper {
                 .title : "Modeldriven development a metamodeling foundation"
             	.year : 2003
             	.core : false
-            	-venue->venue273
+            	.SE:false
+            	-venue->venue265
             	-cites->paper1487672899
             	-authors->author2277990351
             	-authors->author2110818429
@@ -535,7 +575,8 @@ model Paper2003{
                 .title : "A formal specification language for agentoriented software engineering"
             	.year : 2003
             	.core : false
-            	-venue->venue409
+            	.SE:false
+            	-venue->venue401
             	-cites->paper1608796453
             	-cites->paper1875539103
             	-cites->paper1964024754
@@ -545,7 +586,8 @@ model Paper2003{
                 .title : "Automatic fence insertion for shared memory multiprocessing"
             	.year : 2003
             	.core : false
-            	-venue->venue316
+            	.SE:false
+            	-venue->venue308
             	-cites->paper1491178396
             	-cites->paper2039509099
             	-cites->paper2054739713
@@ -561,7 +603,8 @@ model Paper2003{
                 .title : "Behaviour model elaboration using partial labelled transition systems"
             	.year : 2003
             	.core : false
-            	-venue->venue335
+            	.SE:false
+            	-venue->venue327
             	-cites->paper1998017916
             	-cites->paper2034717157
             	-cites->paper2110425399
@@ -573,7 +616,8 @@ model Paper2003{
                 .title : "Automatable Verification of Sequential Consistency"
             	.year : 2003
             	.core : false
-            	-venue->venue447
+            	.SE:false
+            	-venue->venue439
             	-cites->paper1502765706
             	-cites->paper1986463648
             	-cites->paper2029601347
@@ -587,7 +631,8 @@ model Paper2003{
                 .title : "Requirements interaction management"
             	.year : 2003
             	.core : false
-            	-venue->venue274
+            	.SE:false
+            	-venue->venue266
             	-cites->paper1559179949
             	-cites->paper1561929444
             	-cites->paper1968128450
@@ -621,7 +666,8 @@ model Paper2003{
                 .title : "Bogor an extensible and highlymodular software model checking framework"
             	.year : 2003
             	.core : false
-            	-venue->venue335
+            	.SE:false
+            	-venue->venue327
             	-cites->paper2065675749
             	-cites->paper2115309705
             	-cites->paper2340735175
@@ -633,6 +679,7 @@ model Paper2003{
                 .title : "Rigorous EBNFbased definition for a graphic modeling language"
             	.year : 2003
             	.core : false
+            	.SE:false
             	-venue->venue41
             	-cites->paper2099293367
             	-cites->paper2127614394
@@ -643,7 +690,8 @@ model Paper2003{
                 .title : "Formal Reasoning Techniques for Goal Models"
             	.year : 2003
             	.core : false
-            	-venue->venue476
+            	.SE:false
+            	-venue->venue468
             	-cites->paper2017739343
             	-cites->paper2171627300
             	-authors->author2150132257
@@ -655,7 +703,8 @@ model Paper2003{
                 .title : "An Equational Theory for Transactions"
             	.year : 2003
             	.core : false
-            	-venue->venue479
+            	.SE:false
+            	-venue->venue471
             	-cites->paper1545155892
             	-cites->paper1571250571
             	-cites->paper2103953153
@@ -668,7 +717,8 @@ model Paper2003{
                 .title : "The resolution complexity of random constraint satisfaction problems"
             	.year : 2003
             	.core : false
-            	-venue->venue469
+            	.SE:false
+            	-venue->venue461
             	-cites->paper1514397520
             	-cites->paper2071706116
             	-cites->paper2084384424
@@ -685,7 +735,8 @@ model Paper2003{
                 .title : "Modeling the spread of active worms"
             	.year : 2003
             	.core : false
-            	-venue->venue487
+            	.SE:false
+            	-venue->venue479
             	-cites->paper1980065740
             	-cites->paper2108050790
             	-authors->author2251223525
@@ -696,7 +747,8 @@ model Paper2003{
                 .title : "Rolebased access control"
             	.year : 2003
             	.core : false
-            	-venue->venue81
+            	.SE:false
+            	-venue->venue0
             	-authors->author255695516
             	-authors->author2287455155
             	-authors->author2149229701
@@ -705,7 +757,8 @@ model Paper2003{
                 .title : "A logical framework for querying and repairing inconsistent databases"
             	.year : 2003
             	.core : false
-            	-venue->venue501
+            	.SE:false
+            	-venue->venue493
             	-cites->paper1558832481
             	-cites->paper2077518845
             	-cites->paper2099805467
@@ -717,7 +770,8 @@ model Paper2003{
                 .title : "Constraint graph analysis of multithreaded programs"
             	.year : 2003
             	.core : false
-            	-venue->venue350
+            	.SE:false
+            	-venue->venue342
             	-cites->paper1545792627
             	-cites->paper1885534640
             	-cites->paper1973501242
@@ -741,7 +795,8 @@ model Paper2003{
                 .title : "Giotto a timetriggered language for embedded programming"
             	.year : 2003
             	.core : false
-            	-venue->venue448
+            	.SE:false
+            	-venue->venue440
             	-authors->author2707196735
             	-authors->author2567965816
             	-authors->author2031569690
@@ -750,7 +805,8 @@ model Paper2003{
                 .title : "A survey of manufacturing flexibility Implications for ebusiness flexibility"
             	.year : 2003
             	.core : false
-            	-venue->venue485
+            	.SE:false
+            	-venue->venue477
             	-authors->author2721580364
             	-authors->author2416760679
             }
@@ -758,7 +814,8 @@ model Paper2003{
                 .title : "Declaring and checking nonnull types in an objectoriented language"
             	.year : 2003
             	.core : false
-            	-venue->venue312
+            	.SE:false
+            	-venue->venue304
             	-cites->paper1993836075
             	-authors->author1974059945
             	-authors->author710865586
@@ -767,13 +824,15 @@ model Paper2003{
                 .title : "The pragmatics of modeldriven development"
             	.year : 2003
             	.core : false
-            	-venue->venue273
+            	.SE:false
+            	-venue->venue265
             	-authors->author2068168300
             }
 	paper2126789306:Paper {
                 .title : "Separating agreement from execution for byzantine fault tolerant services"
             	.year : 2003
             	.core : false
+            	.SE:false
             	-venue->venue21
             	-cites->paper1971991620
             	-cites->paper1973501242
@@ -795,14 +854,16 @@ model Paper2003{
                 .title : "Analogy based prediction of work item flow in software projects a case study"
             	.year : 2003
             	.core : false
-            	-venue->venue543
+            	.SE:false
+            	-venue->venue535
             	-authors->author702655443
             }
 	paper2127989655:Paper {
                 .title : "Hybrid dynamic data race detection"
             	.year : 2003
             	.core : false
-            	-venue->venue373
+            	.SE:false
+            	-venue->venue365
             	-cites->paper17332244
             	-cites->paper1972544179
             	-cites->paper1973501242
@@ -816,7 +877,8 @@ model Paper2003{
                 .title : "Developing multiagent systems The Gaia methodology"
             	.year : 2003
             	.core : false
-            	-venue->venue275
+            	.SE:false
+            	-venue->venue267
             	-cites->paper1998017916
             	-cites->paper2051028605
             	-cites->paper2146082668
@@ -829,7 +891,8 @@ model Paper2003{
                 .title : "Template semantics for modelbased notations"
             	.year : 2003
             	.core : false
-            	-venue->venue281
+            	.SE:false
+            	-venue->venue273
             	-cites->paper1979290877
             	-cites->paper2110425399
             	-cites->paper2125708466
@@ -841,6 +904,7 @@ model Paper2003{
                 .title : "Data flow testing as model checking"
             	.year : 2003
             	.core : false
+            	.SE:false
             	-venue->venue24
             	-cites->paper2015640848
             	-cites->paper2024795941
@@ -856,7 +920,8 @@ model Paper2003{
                 .title : "Enhancing the faulttolerance of nonmasking programs"
             	.year : 2003
             	.core : false
-            	-venue->venue252
+            	.SE:false
+            	-venue->venue244
             	-cites->paper1495119494
             	-cites->paper2095425626
             	-cites->paper2120510885
@@ -867,7 +932,8 @@ model Paper2003{
                 .title : "Automatically Verifying Concurrent Queue Algorithms"
             	.year : 2003
             	.core : false
-            	-venue->venue332
+            	.SE:false
+            	-venue->venue324
             	-cites->paper1981393723
             	-authors->author1345056057
             	-authors->author2194672974
@@ -876,7 +942,8 @@ model Paper2003{
                 .title : "Inference of message sequence charts"
             	.year : 2003
             	.core : false
-            	-venue->venue281
+            	.SE:false
+            	-venue->venue273
             	-cites->paper1998017916
             	-cites->paper2108571087
             	-authors->author689646243
@@ -887,7 +954,8 @@ model Paper2003{
                 .title : "Impact analysis and change management of UML models"
             	.year : 2003
             	.core : false
-            	-venue->venue217
+            	.SE:false
+            	-venue->venue210
             	-authors->author294141752
             	-authors->author2144557644
             	-authors->author2718089896
@@ -896,7 +964,8 @@ model Paper2003{
                 .title : "Compositional Testing with ioco"
             	.year : 2003
             	.core : false
-            	-venue->venue569
+            	.SE:false
+            	-venue->venue560
             	-authors->author2104204551
             	-authors->author2168517746
             	-authors->author2129273002
@@ -905,7 +974,8 @@ model Paper2003{
                 .title : "Model transformation the heart and soul of modeldriven software development"
             	.year : 2003
             	.core : false
-            	-venue->venue273
+            	.SE:false
+            	-venue->venue265
             	-authors->author2489444682
             	-authors->author2613576280
             }
@@ -913,7 +983,8 @@ model Paper2003{
                 .title : "Fault containment and error detection in the timetriggered architecture"
             	.year : 2003
             	.core : false
-            	-venue->venue208
+            	.SE:false
+            	-venue->venue201
             	-cites->paper2120510885
             	-authors->author665242119
             }
@@ -921,6 +992,7 @@ model Paper2003{
                 .title : "IA execution layer a twophase dynamic translator designed to support IA applications on Itaniumspl regbased systems"
             	.year : 2003
             	.core : false
+            	.SE:false
             	-venue->venue16
             	-authors->author2679362590
             	-authors->author2578071978
@@ -934,7 +1006,8 @@ model Paper2003{
                 .title : "Consistency by Construction The Case of MERODE"
             	.year : 2003
             	.core : false
-            	-venue->venue137
+            	.SE:false
+            	-venue->venue130
             	-authors->author1966312229
             	-authors->author2159560185
             	-authors->author2273753629
@@ -943,6 +1016,7 @@ model Paper2003{
                 .title : "RacerX effective static detection of race conditions and deadlocks"
             	.year : 2003
             	.core : false
+            	.SE:false
             	-venue->venue21
             	-cites->paper1972544179
             	-cites->paper1973501242
@@ -956,7 +1030,8 @@ model Paper2003{
                 .title : "Determining the specification of a control system from that of its environment"
             	.year : 2003
             	.core : false
-            	-venue->venue99
+            	.SE:false
+            	-venue->venue92
             	-cites->paper115884782
             	-cites->paper1970495662
             	-authors->author2761218531
@@ -967,7 +1042,8 @@ model Paper2003{
                 .title : "Toward a Programming Model for Building Reliable Systems with Distributed State"
             	.year : 2003
             	.core : false
-            	-venue->venue332
+            	.SE:false
+            	-venue->venue324
             	-cites->paper1515137670
             	-cites->paper1548817500
             	-cites->paper1556439447
@@ -989,7 +1065,8 @@ model Paper2003{
                 .title : "A framework for scalable analysis and design of systemwide graceful degradation in distributed embedded systems"
             	.year : 2003
             	.core : false
-            	-venue->venue529
+            	.SE:false
+            	-venue->venue521
             	-authors->author2548584884
             	-authors->author2139171318
             	-authors->author1674798888
@@ -998,7 +1075,8 @@ model Paper2003{
                 .title : "Informationflow models for shared memory with an application to the PowerPC architecture"
             	.year : 2003
             	.core : false
-            	-venue->venue396
+            	.SE:false
+            	-venue->venue388
             	-cites->paper1545792627
             	-cites->paper2054739713
             	-cites->paper2097931542
@@ -1013,6 +1091,7 @@ model Paper2003{
                 .title : "An empirical study on testing and fault tolerance for software reliability engineering"
             	.year : 2003
             	.core : false
+            	.SE:false
             	-venue->venue12
             	-cites->paper1999823724
             	-cites->paper2129262519
@@ -1028,7 +1107,8 @@ model Paper2003{
                 .title : "An approach for supporting aspectoriented domain modeling"
             	.year : 2003
             	.core : false
-            	-venue->venue422
+            	.SE:false
+            	-venue->venue414
             	-cites->paper1500250067
             	-cites->paper1991604845
             	-cites->paper1992036716
@@ -1045,7 +1125,8 @@ model Paper2003{
                 .title : "JAGR an autonomous selfrecovering application server"
             	.year : 2003
             	.core : false
-            	-venue->venue590
+            	.SE:false
+            	-venue->venue581
             	-authors->author1994052019
             	-authors->author2533651259
             	-authors->author2013579417
@@ -1056,7 +1137,8 @@ model Paper2003{
                 .title : "On the interplay between consistency completeness and correctness in requirements evolution"
             	.year : 2003
             	.core : false
-            	-venue->venue367
+            	.SE:false
+            	-venue->venue359
             	-cites->paper1968128450
             	-cites->paper2051028605
             	-cites->paper2105603754
@@ -1073,7 +1155,8 @@ model Paper2003{
                 .title : "On Reasoning About Rings"
             	.year : 2003
             	.core : false
-            	-venue->venue592
+            	.SE:false
+            	-venue->venue583
             	-authors->author2307609564
             	-authors->author2115834734
             }
@@ -1081,7 +1164,8 @@ model Paper2003{
                 .title : "The construction of contextual defuse associations for objectoriented systems"
             	.year : 2003
             	.core : false
-            	-venue->venue281
+            	.SE:false
+            	-venue->venue273
             	-cites->paper1975169206
             	-cites->paper2024795941
             	-authors->author2099917311
@@ -1091,7 +1175,8 @@ model Paper2003{
                 .title : "An overview of JML tools and applications"
             	.year : 2003
             	.core : false
-            	-venue->venue332
+            	.SE:false
+            	-venue->venue324
             	-cites->paper1573044584
             	-cites->paper1583095677
             	-cites->paper1583826417
@@ -1115,7 +1200,8 @@ model Paper2003{
                 .title : "An empirical study of speed and communication in globally distributed software development"
             	.year : 2003
             	.core : false
-            	-venue->venue281
+            	.SE:false
+            	-venue->venue273
             	-cites->paper2151191515
             	-authors->author702655443
             	-authors->author202682525
@@ -1124,7 +1210,8 @@ model Paper2003{
                 .title : "Composing architectural styles from architectural primitives"
             	.year : 2003
             	.core : false
-            	-venue->venue335
+            	.SE:false
+            	-venue->venue327
             	-cites->paper2139842876
             	-cites->paper2162366870
             	-authors->author2155476585
@@ -1134,6 +1221,7 @@ model Paper2003{
                 .title : "Probabilistic validation of an intrusiontolerant replication system"
             	.year : 2003
             	.core : false
+            	.SE:false
             	-venue->venue9
             	-cites->paper2120510885
             	-cites->paper2143049370
@@ -1146,6 +1234,7 @@ model Paper2003{
                 .title : "Evaluation of fault handling of the timetriggered architecture with bus and star topology"
             	.year : 2003
             	.core : false
+            	.SE:false
             	-venue->venue9
             	-cites->paper1487606492
             	-cites->paper1612681298
@@ -1159,7 +1248,8 @@ model Paper2003{
                 .title : "Resolution Complexity of Random Constraint Satisfaction Problems Another Half of the Story"
             	.year : 2003
             	.core : false
-            	-venue->venue604
+            	.SE:false
+            	-venue->venue595
             	-cites->paper2071706116
             	-cites->paper2151266168
             	-cites->paper2610996456
@@ -1170,7 +1260,8 @@ model Paper2003{
                 .title : "An Adaptive FaultTolerant Component Model"
             	.year : 2003
             	.core : false
-            	-venue->venue529
+            	.SE:false
+            	-venue->venue521
             	-cites->paper2167500728
             	-authors->author2498941698
             	-authors->author2719646014
@@ -1180,7 +1271,8 @@ model Paper2003{
                 .title : "Multiple Failure Correction in the TimeTriggered Architecture"
             	.year : 2003
             	.core : false
-            	-venue->venue529
+            	.SE:false
+            	-venue->venue521
             	-cites->paper2111132249
             	-cites->paper2113820327
             	-cites->paper2148762176
@@ -1192,6 +1284,7 @@ model Paper2003{
                 .title : "Mapping Requirements to Software Architecture by FeatureOrientation"
             	.year : 2003
             	.core : false
+            	.SE:false
             	-venue->venue24
             	-authors->author2408481652
             	-authors->author2105324944
@@ -1200,7 +1293,8 @@ model Paper2003{
                 .title : "Efficient computation of recurrence diameters"
             	.year : 2003
             	.core : false
-            	-venue->venue93
+            	.SE:false
+            	-venue->venue86
             	-authors->author2132595810
             	-authors->author104420321
             }
@@ -1208,7 +1302,8 @@ model Paper2003{
                 .title : "Reasoning on UML Class Diagrams is EXPTIMEhard"
             	.year : 2003
             	.core : false
-            	-venue->venue665
+            	.SE:false
+            	-venue->venue656
             	-authors->author2113802512
             	-authors->author2112041907
             	-authors->author1987600604
@@ -1217,7 +1312,8 @@ model Paper2003{
                 .title : "Using Description Logic to Maintain Consistency between UML Models"
             	.year : 2003
             	.core : false
-            	-venue->venue674
+            	.SE:false
+            	-venue->venue665
             	-cites->paper1601314163
             	-cites->paper2102626454
             	-cites->paper2117870171

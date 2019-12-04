@@ -57,6 +57,7 @@ model Paper2018{
                 .title : "A MDE Approach for Heterogeneous Models Consistency"
             	.year : 2018
             	.core : true
+            	.SE:false
             	-venue->venue61
             	-authors->author2795271090
             	-authors->author2021330974
@@ -68,6 +69,7 @@ model Paper2018{
                 .title : "A graph solver for the automated generation of consistent domainspecific models"
             	.year : 2018
             	.core : true
+            	.SE:false
             	-venue->venue24
             	-cites->paper5815757
             	-cites->paper24569603
@@ -133,6 +135,7 @@ model Paper2018{
                 .title : "Declarative project planning and controlling a formal model to support the handling of unavoidable inconsistencies"
             	.year : 2018
             	.core : true
+            	.SE:false
             	-venue->venue38
             	-cites->paper189544743
             	-cites->paper1995859218
@@ -148,6 +151,7 @@ model Paper2018{
                 .title : "Uncovering Unknown System Behaviors in Uncertain Networks with Model and SearchBased Testing"
             	.year : 2018
             	.core : true
+            	.SE:false
             	-venue->venue22
             	-authors->author2332852696
             	-authors->author2805167129
@@ -162,6 +166,7 @@ model Paper2018{
                 .title : "Towards Modelling and Reasoning About Uncertain Data of Sensor Measurements for Decision Support in Smart Spaces"
             	.year : 2018
             	.core : true
+            	.SE:false
             	-venue->venue13
             	-authors->author2808873893
             	-authors->author2809669810
@@ -171,6 +176,7 @@ model Paper2018{
                 .title : "Poster An Automated and Instant Discovery of Concrete Repairs for Model Inconsistencies"
             	.year : 2018
             	.core : true
+            	.SE:false
             	-venue->venue24
             	-cites->paper94833394
             	-cites->paper1970178969
@@ -195,6 +201,7 @@ model Paper2018{
                 .title : "Towards sound optimal and flexible building from megamodels"
             	.year : 2018
             	.core : true
+            	.SE:false
             	-venue->venue8
             	-cites->paper78372980
             	-cites->paper1864361234
@@ -218,6 +225,7 @@ model Paper2018{
                 .title : "On the Quest for Flexible Modelling"
             	.year : 2018
             	.core : true
+            	.SE:false
             	-venue->venue8
             	-cites->paper39340127
             	-cites->paper200074566
@@ -269,7 +277,8 @@ model Paper2018{
                 .title : "Online ModelBased Testing under Uncertainty"
             	.year : 2018
             	.core : true
-            	-venue->venue74
+            	.SE:false
+            	-venue->venue12
             	-cites->paper1498432697
             	-cites->paper1610570299
             	-cites->paper1809182522
@@ -298,7 +307,8 @@ model Paper2018{
                 .title : "Verification of treebased hierarchical readcopy update in the Linux kernel"
             	.year : 2018
             	.core : false
-            	-venue->venue488
+            	.SE:false
+            	-venue->venue480
             	-cites->paper1602156367
             	-cites->paper2063666348
             	-cites->paper2115309705
@@ -312,6 +322,7 @@ model Paper2018{
                 .title : "Optimal Dynamic Partial Order Reduction with Observers"
             	.year : 2018
             	.core : false
+            	.SE:false
             	-venue->venue10
             	-cites->paper1568729458
             	-cites->paper1719093023
@@ -329,7 +340,8 @@ model Paper2018{
                 .title : "Parameterized Model Checking of Synchronous Distributed Algorithms by Abstraction"
             	.year : 2018
             	.core : false
-            	-venue->venue205
+            	.SE:false
+            	-venue->venue198
             	-cites->paper178138771
             	-cites->paper1858035675
             	-cites->paper1992479210
@@ -351,7 +363,8 @@ model Paper2018{
                 .title : "Zonebased formal specification and timing analysis of realtime selfadaptive systems"
             	.year : 2018
             	.core : false
-            	-venue->venue267
+            	.SE:false
+            	-venue->venue259
             	-cites->paper1964137226
             	-cites->paper2033406822
             	-cites->paper2054104130
@@ -367,6 +380,7 @@ model Paper2018{
                 .title : "Iterative Generation of Diverse Models for Testing Specifications of DSL Tools"
             	.year : 2018
             	.core : false
+            	.SE:false
             	-venue->venue3
             	-cites->paper24569603
             	-cites->paper1035875811
@@ -392,7 +406,8 @@ model Paper2018{
                 .title : "Optimal stateless model checking under the releaseacquire semantics"
             	.year : 2018
             	.core : false
-            	-venue->venue209
+            	.SE:false
+            	-venue->venue202
             	-cites->paper837270908
             	-cites->paper1568729458
             	-cites->paper1602156367
@@ -428,7 +443,8 @@ model Paper2018{
                 .title : "Reachability in Parameterized Systems All Flavors of Threshold Automata"
             	.year : 2018
             	.core : false
-            	-venue->venue198
+            	.SE:false
+            	-venue->venue191
             	-authors->author1957630520
             	-authors->author2801807844
             	-authors->author692701391
@@ -437,7 +453,8 @@ model Paper2018{
                 .title : "Towards understanding the costs of avoiding outofthinair results"
             	.year : 2018
             	.core : false
-            	-venue->venue659
+            	.SE:false
+            	-venue->venue650
             	-cites->paper1482397304
             	-cites->paper1967564401
             	-cites->paper1983206712

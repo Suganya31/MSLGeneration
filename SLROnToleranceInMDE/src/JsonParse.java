@@ -43,7 +43,7 @@ public class JsonParse {
 
 	}
 
-	public static List<PapersPojo> extractAuthors(Boolean core, String datasetname) throws IOException {
+	public static List<PapersPojo> extractAuthors(Boolean core, String datasetname, Set<String> filtervenues) throws IOException {
 
 		JsonFactory f = new MappingJsonFactory();
 
@@ -60,28 +60,32 @@ public class JsonParse {
 
 			JsonNode node = jp.readValueAsTree();
 			JsonNode authors = node.path("authors");
-
+Boolean SE=false;
 			String title = node.path("title").asText();
 			JsonNode venuenode = node.path("venue");
 			String venue=venuenode.findPath("id").asText();
 			String venuename=venuenode.findPath("raw").asText();
+			if(filtervenues.contains(venuename.toLowerCase()))
+				SE=true;
+				
 
 
 			String id = node.path("id").asText();
 			Integer year = Integer.parseInt(node.path("year").asText());
 
 			paperids.add(id);
-			venues.add(venue);
+			venues.add(venuename);
 		//	paper.setVenue(i);
-		     if(!venues_global.containsKey(venuename))
+		     if(!venues_global.containsKey(venuename.toLowerCase()))
 		     {
-			venues_global.put(venuename,i);
+			venues_global.put(venuename.toLowerCase(),i);
 			i++;
 		     }
 		//	System.out.println(venues_global);
 			
 
 			paper.setId(id);
+			paper.setSE(SE);
 
 			paper.setTitle(title);
 			//paper.setVenue(i);
@@ -159,7 +163,10 @@ public class JsonParse {
 		PapersPojo.id_to_authors_global = id_to_authors_global;
 		PapersPojo.poolids=paperids;
 		PapersPojo.venues_global=venues_global;
+		PapersPojo.venues=venues;
+
 		System.out.println(venues_global);
+		venues_global.put("", 0);
 
 		//dummypaperids.removeAll(paperids);
 		/*
@@ -173,7 +180,18 @@ public class JsonParse {
 		for(PapersPojo paper:papers)
 		{
 			String name=paper.getVenuename();
-			paper.setVenue(venues_global.get(name));
+		//	System.out.println(paper.getId()+"ghfghf"+name.length());
+			if(name.length()==1)
+			{
+				paper.setVenue(0);
+				
+			}
+			else
+			{
+			
+				paper.setVenue(venues_global.get(name.toLowerCase()));
+			}
+
 			
 		}
 

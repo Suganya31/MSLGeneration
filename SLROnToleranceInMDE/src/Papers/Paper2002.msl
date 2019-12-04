@@ -57,7 +57,8 @@ model Paper2002{
                 .title : "ModelDriven Architecture"
             	.year : 2002
             	.core : false
-            	-venue->venue93
+            	.SE:false
+            	-venue->venue86
             	-authors->author2658661057
             	-authors->author2306259429
             	-authors->author2894484405
@@ -67,13 +68,15 @@ model Paper2002{
                 .title : "Using FirstOrder Logic for Product Line Model Validation"
             	.year : 2002
             	.core : false
-            	-venue->venue100
+            	.SE:false
+            	-venue->venue93
             	-authors->author2006246121
             }
 	paper1514397520:Paper {
                 .title : "Resolution Complexity of Random Constraints"
             	.year : 2002
             	.core : false
+            	.SE:false
             	-venue->venue4
             	-cites->paper2071706116
             	-cites->paper2088616860
@@ -86,7 +89,8 @@ model Paper2002{
                 .title : "A Practical Multiword CompareandSwap Operation"
             	.year : 2002
             	.core : false
-            	-venue->venue150
+            	.SE:false
+            	-venue->venue143
             	-cites->paper2001738739
             	-cites->paper2013021588
             	-cites->paper2029601347
@@ -100,7 +104,8 @@ model Paper2002{
                 .title : "Cryptanalysis of Block Ciphers with Overdefined Systems of Equations"
             	.year : 2002
             	.core : false
-            	-venue->venue156
+            	.SE:false
+            	-venue->venue149
             	-authors->author2081631084
             	-authors->author342533692
             }
@@ -108,7 +113,8 @@ model Paper2002{
                 .title : "Cryptanalysis of block ciphers with overdefined systems of equations"
             	.year : 2002
             	.core : false
-            	-venue->venue174
+            	.SE:false
+            	-venue->venue167
             	-authors->author2081631084
             	-authors->author342533692
             }
@@ -116,7 +122,8 @@ model Paper2002{
                 .title : "An attempt at analysing the consistency problems in the UML from a classical algebraic viewpoint"
             	.year : 2002
             	.core : false
-            	-venue->venue121
+            	.SE:false
+            	-venue->venue114
             	-cites->paper1998017916
             	-cites->paper2069865621
             	-authors->author699984054
@@ -126,6 +133,7 @@ model Paper2002{
                 .title : "Concepts and Guidelines of Feature Modeling for Product Line Software Engineering"
             	.year : 2002
             	.core : false
+            	.SE:false
             	-venue->venue53
             	-cites->paper1500250067
             	-cites->paper1787802610
@@ -138,7 +146,8 @@ model Paper2002{
                 .title : "Oblivious Hashing A Stealthy Software Integrity Verification Primitive"
             	.year : 2002
             	.core : false
-            	-venue->venue194
+            	.SE:false
+            	-venue->venue187
             	-cites->paper1580417272
             	-cites->paper1798077826
             	-cites->paper2084641398
@@ -155,6 +164,7 @@ model Paper2002{
                 .title : "STG A Symbolic Test Generation Tool"
             	.year : 2002
             	.core : false
+            	.SE:false
             	-venue->venue10
             	-cites->paper2108394166
             	-authors->author1998327350
@@ -166,7 +176,8 @@ model Paper2002{
                 .title : "An Introduction to Probabilistic Automata"
             	.year : 2002
             	.core : false
-            	-venue->venue224
+            	.SE:false
+            	-venue->venue217
             	-cites->paper2110425399
             	-authors->author2037992947
             }
@@ -174,7 +185,8 @@ model Paper2002{
                 .title : "A Formal Framework for Reasoning on UML Class Diagrams"
             	.year : 2002
             	.core : false
-            	-venue->venue145
+            	.SE:false
+            	-venue->venue138
             	-cites->paper2018568588
             	-authors->author1976298713
             	-authors->author2781243587
@@ -185,7 +197,8 @@ model Paper2002{
                 .title : "Formal Specification of Evolutionary Software Agents"
             	.year : 2002
             	.core : false
-            	-venue->venue162
+            	.SE:false
+            	-venue->venue155
             	-cites->paper1608796453
             	-cites->paper1964024754
             	-authors->author2607615413
@@ -194,7 +207,8 @@ model Paper2002{
                 .title : "Sweetening Ontologies with DOLCE"
             	.year : 2002
             	.core : false
-            	-venue->venue253
+            	.SE:false
+            	-venue->venue245
             	-cites->paper2166233568
             	-authors->author2087659870
             	-authors->author2051028845
@@ -206,7 +220,8 @@ model Paper2002{
                 .title : "A model of absolute autonomy and power Toward group effects"
             	.year : 2002
             	.core : false
-            	-venue->venue259
+            	.SE:false
+            	-venue->venue251
             	-cites->paper1957070465
             	-authors->author2206489551
             }
@@ -214,7 +229,8 @@ model Paper2002{
                 .title : "Code red worm propagation modeling and analysis"
             	.year : 2002
             	.core : false
-            	-venue->venue306
+            	.SE:false
+            	-venue->venue298
             	-cites->paper2108050790
             	-authors->author1993035910
             	-authors->author2118959496
@@ -224,6 +240,7 @@ model Paper2002{
                 .title : "Extended static checking for Java"
             	.year : 2002
             	.core : false
+            	.SE:false
             	-venue->venue47
             	-cites->paper2103953153
             	-cites->paper2110050316
@@ -238,7 +255,8 @@ model Paper2002{
                 .title : "Strongly consistent replication and recovery of faulttolerant CORBA applications"
             	.year : 2002
             	.core : false
-            	-venue->venue346
+            	.SE:false
+            	-venue->venue338
             	-cites->paper1818998288
             	-authors->author2246752162
             	-authors->author2154501644
@@ -248,7 +266,8 @@ model Paper2002{
                 .title : "Abstractions for FaultTolerant Global Computing"
             	.year : 2002
             	.core : false
-            	-venue->venue332
+            	.SE:false
+            	-venue->venue324
             	-cites->paper1545155892
             	-cites->paper1855065956
             	-cites->paper1973501242
@@ -261,7 +280,8 @@ model Paper2002{
                 .title : "xlinkit a consistency checking and smart link generation service"
             	.year : 2002
             	.core : false
-            	-venue->venue378
+            	.SE:false
+            	-venue->venue370
             	-cites->paper2054097655
             	-cites->paper2093287224
             	-cites->paper2111537898
@@ -275,14 +295,16 @@ model Paper2002{
                 .title : "Applied Logistic Regression"
             	.year : 2002
             	.core : false
-            	-venue->venue360
+            	.SE:false
+            	-venue->venue352
             	-authors->author2096502100
             }
 	paper2018783607:Paper {
                 .title : "Analyzing cloning evolution in the Linux kernel"
             	.year : 2002
             	.core : false
-            	-venue->venue367
+            	.SE:false
+            	-venue->venue359
             	-cites->paper1698439592
             	-cites->paper2109943392
             	-cites->paper2115534035
@@ -297,7 +319,8 @@ model Paper2002{
                 .title : "Designing the automatic transformation of visual languages"
             	.year : 2002
             	.core : false
-            	-venue->venue267
+            	.SE:false
+            	-venue->venue259
             	-cites->paper1929752839
             	-authors->author2110491657
             	-authors->author2143442092
@@ -307,7 +330,8 @@ model Paper2002{
                 .title : "Why the elf acted autonomously towards a theory of adjustable autonomy"
             	.year : 2002
             	.core : false
-            	-venue->venue409
+            	.SE:false
+            	-venue->venue401
             	-cites->paper1957070465
             	-authors->author2237142500
             	-authors->author6271492
@@ -317,7 +341,8 @@ model Paper2002{
                 .title : "Documenting Software Architectures Views and Beyond"
             	.year : 2002
             	.core : false
-            	-venue->venue81
+            	.SE:false
+            	-venue->venue0
             	-authors->author2295743400
             	-authors->author693687178
             	-authors->author2111701211
@@ -328,7 +353,8 @@ model Paper2002{
                 .title : "Alloy a lightweight object modelling notation"
             	.year : 2002
             	.core : false
-            	-venue->venue275
+            	.SE:false
+            	-venue->venue267
             	-cites->paper1970495662
             	-cites->paper1998017916
             	-cites->paper2099293367
@@ -338,7 +364,8 @@ model Paper2002{
                 .title : "Functional verification of the POWER microprocessor and POWER multiprocessor systems"
             	.year : 2002
             	.core : false
-            	-venue->venue445
+            	.SE:false
+            	-venue->venue437
             	-authors->author2762583076
             	-authors->author2441058024
             	-authors->author2288789171
@@ -369,7 +396,8 @@ model Paper2002{
                 .title : "Model checking fault tolerant systems"
             	.year : 2002
             	.core : false
-            	-venue->venue241
+            	.SE:false
+            	-venue->venue234
             	-cites->paper1515774215
             	-cites->paper1565432667
             	-cites->paper2015640848
@@ -385,7 +413,8 @@ model Paper2002{
                 .title : "Lowcost error containment and recovery for onboard guarded software upgrading and beyond"
             	.year : 2002
             	.core : false
-            	-venue->venue262
+            	.SE:false
+            	-venue->venue254
             	-cites->paper2097719961
             	-cites->paper2100970777
             	-cites->paper2133201251
@@ -404,7 +433,8 @@ model Paper2002{
                 .title : "A survey of rollbackrecovery protocols in messagepassing systems"
             	.year : 2002
             	.core : false
-            	-venue->venue274
+            	.SE:false
+            	-venue->venue266
             	-cites->paper1515932031
             	-cites->paper1923741182
             	-cites->paper1973501242
@@ -421,7 +451,8 @@ model Paper2002{
                 .title : "IsabelleHol A Proof Assistant for HigherOrder Logic"
             	.year : 2002
             	.core : false
-            	-venue->venue81
+            	.SE:false
+            	-venue->venue0
             	-authors->author42605653
             	-authors->author2169917450
             	-authors->author2016735973
@@ -430,7 +461,8 @@ model Paper2002{
                 .title : "CIL Intermediate Language and Tools for Analysis and Transformation of C Programs"
             	.year : 2002
             	.core : false
-            	-venue->venue154
+            	.SE:false
+            	-venue->venue147
             	-cites->paper2611598995
             	-authors->author2064638470
             	-authors->author281330718
@@ -441,7 +473,8 @@ model Paper2002{
                 .title : "Automatically Detecting and Visualising Errors in UML Diagrams"
             	.year : 2002
             	.core : false
-            	-venue->venue251
+            	.SE:false
+            	-venue->venue30
             	-cites->paper1996832037
             	-cites->paper2060440626
             	-cites->paper2099293367
@@ -459,7 +492,8 @@ model Paper2002{
                 .title : "The transition from asynchronous to synchronous system operation an approach for distributed faulttolerant systems"
             	.year : 2002
             	.core : false
-            	-venue->venue252
+            	.SE:false
+            	-venue->venue244
             	-cites->paper1487606492
             	-cites->paper2035362408
             	-authors->author2810964061
@@ -469,7 +503,8 @@ model Paper2002{
                 .title : "Design and evaluation of a conitbased continuous consistency model for replicated services"
             	.year : 2002
             	.core : false
-            	-venue->venue288
+            	.SE:false
+            	-venue->venue280
             	-cites->paper1525865893
             	-cites->paper1545155892
             	-cites->paper1555915743
@@ -493,7 +528,8 @@ model Paper2002{
                 .title : "Evaluating realtime Java features and performance for realtime embedded systems"
             	.year : 2002
             	.core : false
-            	-venue->venue522
+            	.SE:false
+            	-venue->venue514
             	-cites->paper2138363365
             	-authors->author2107812705
             	-authors->author2122019980
@@ -502,7 +538,8 @@ model Paper2002{
                 .title : "Achieving k anonymity privacy protection using generalization and suppression"
             	.year : 2002
             	.core : false
-            	-venue->venue505
+            	.SE:false
+            	-venue->venue497
             	-cites->paper2159024459
             	-authors->author2250362998
             }
@@ -510,7 +547,8 @@ model Paper2002{
                 .title : "Evaluating clone detection tools for use during preventative maintenance"
             	.year : 2002
             	.core : false
-            	-venue->venue530
+            	.SE:false
+            	-venue->venue522
             	-cites->paper1593203335
             	-cites->paper1698439592
             	-cites->paper2109943392
@@ -524,7 +562,8 @@ model Paper2002{
                 .title : "A stateoftheart survey on software merging"
             	.year : 2002
             	.core : false
-            	-venue->venue281
+            	.SE:false
+            	-venue->venue273
             	-cites->paper2001907377
             	-cites->paper2153887189
             	-cites->paper2161835696
@@ -535,14 +574,16 @@ model Paper2002{
                 .title : "Modular specification and verification of objectoriented programs"
             	.year : 2002
             	.core : false
-            	-venue->venue93
+            	.SE:false
+            	-venue->venue86
             	-authors->author2285904575
             }
 	paper2124617909:Paper {
                 .title : "On the quality of service of failure detectors"
             	.year : 2002
             	.core : false
-            	-venue->venue262
+            	.SE:false
+            	-venue->venue254
             	-cites->paper2005216655
             	-cites->paper2077240273
             	-cites->paper2133943294
@@ -554,7 +595,8 @@ model Paper2002{
                 .title : "Clover architecture for groupware"
             	.year : 2002
             	.core : false
-            	-venue->venue413
+            	.SE:false
+            	-venue->venue405
             	-cites->paper2102630435
             	-authors->author2780288993
             	-authors->author194569316
@@ -563,6 +605,7 @@ model Paper2002{
                 .title : "ArchJava connecting software architecture to implementation"
             	.year : 2002
             	.core : false
+            	.SE:false
             	-venue->venue24
             	-cites->paper2146082668
             	-cites->paper2153887189
@@ -577,6 +620,7 @@ model Paper2002{
                 .title : "A toolset for supporting UML static and dynamic model checking"
             	.year : 2002
             	.core : false
+            	.SE:false
             	-venue->venue13
             	-cites->paper2060440626
             	-authors->author2167571421
@@ -587,7 +631,8 @@ model Paper2002{
                 .title : "Model Driven Engineering"
             	.year : 2002
             	.core : false
-            	-venue->venue560
+            	.SE:false
+            	-venue->venue552
             	-cites->paper1991604845
             	-cites->paper2105603754
             	-authors->author2700825362
@@ -596,7 +641,8 @@ model Paper2002{
                 .title : "CCFinder a multilinguistic tokenbased code clone detection system for large scale source code"
             	.year : 2002
             	.core : false
-            	-venue->venue281
+            	.SE:false
+            	-venue->venue273
             	-cites->paper1698439592
             	-cites->paper2109943392
             	-cites->paper2115534035
@@ -611,6 +657,7 @@ model Paper2002{
                 .title : "A vector Markov model for structural coverage growth and the number of failure occurrences"
             	.year : 2002
             	.core : false
+            	.SE:false
             	-venue->venue12
             	-authors->author1252892641
             }
@@ -618,7 +665,8 @@ model Paper2002{
                 .title : "Endtoend latency of a faulttolerant CORBA infrastructure"
             	.year : 2002
             	.core : false
-            	-venue->venue566
+            	.SE:false
+            	-venue->venue558
             	-cites->paper199552658
             	-cites->paper2077671984
             	-cites->paper2081437333
@@ -631,7 +679,8 @@ model Paper2002{
                 .title : "Recovery from malicious transactions"
             	.year : 2002
             	.core : false
-            	-venue->venue501
+            	.SE:false
+            	-venue->venue493
             	-cites->paper1515932031
             	-cites->paper1545155892
             	-cites->paper2101465039
@@ -643,7 +692,8 @@ model Paper2002{
                 .title : "Loose synchronization of multithreaded replicas"
             	.year : 2002
             	.core : false
-            	-venue->venue218
+            	.SE:false
+            	-venue->venue211
             	-cites->paper2049913483
             	-cites->paper2152465173
             	-authors->author2115084254
@@ -655,7 +705,8 @@ model Paper2002{
                 .title : "Software reliability growth with test coverage"
             	.year : 2002
             	.core : false
-            	-venue->venue474
+            	.SE:false
+            	-venue->venue466
             	-authors->author2477579929
             	-authors->author1998923582
             	-authors->author2198938702
@@ -665,7 +716,8 @@ model Paper2002{
                 .title : "Network survivability performance evaluation a quantitative approach with applications in wireless adhoc networks"
             	.year : 2002
             	.core : false
-            	-venue->venue583
+            	.SE:false
+            	-venue->venue574
             	-cites->paper2119239145
             	-authors->author2108293768
             	-authors->author2173368456
@@ -675,7 +727,8 @@ model Paper2002{
                 .title : "Ownership types for safe programming preventing data races and deadlocks"
             	.year : 2002
             	.core : false
-            	-venue->venue345
+            	.SE:false
+            	-venue->venue337
             	-cites->paper1972544179
             	-cites->paper2002179840
             	-cites->paper2016323637
@@ -689,7 +742,8 @@ model Paper2002{
                 .title : "Does the code match the design A process for architecture evaluation"
             	.year : 2002
             	.core : false
-            	-venue->venue217
+            	.SE:false
+            	-venue->venue210
             	-cites->paper1984489185
             	-cites->paper2151191515
             	-authors->author2137946362
@@ -700,7 +754,8 @@ model Paper2002{
                 .title : "Architectural Reasoning in ArchJava"
             	.year : 2002
             	.core : false
-            	-venue->venue97
+            	.SE:false
+            	-venue->venue90
             	-cites->paper2133254848
             	-cites->paper2146082668
             	-cites->paper2153887189
@@ -715,14 +770,16 @@ model Paper2002{
                 .title : "k anonymity a model for protecting privacy"
             	.year : 2002
             	.core : false
-            	-venue->venue505
+            	.SE:false
+            	-venue->venue497
             	-authors->author2250362998
             }
 	paper2163971826:Paper {
                 .title : "The timely computing base model and architecture"
             	.year : 2002
             	.core : false
-            	-venue->venue262
+            	.SE:false
+            	-venue->venue254
             	-cites->paper1537146784
             	-cites->paper1809760075
             	-cites->paper2124617909
@@ -734,7 +791,8 @@ model Paper2002{
                 .title : "Software quality analysis by code clones in industrial legacy software"
             	.year : 2002
             	.core : false
-            	-venue->venue249
+            	.SE:false
+            	-venue->venue242
             	-cites->paper1698439592
             	-cites->paper2109943392
             	-cites->paper2115534035
@@ -752,6 +810,7 @@ model Paper2002{
                 .title : "RFID Systems and Security and Privacy Implications"
             	.year : 2002
             	.core : false
+            	.SE:false
             	-venue->venue62
             	-authors->author2152771694
             	-authors->author2110463499
@@ -761,7 +820,8 @@ model Paper2002{
                 .title : "Wireless sensor networks a survey"
             	.year : 2002
             	.core : false
-            	-venue->venue337
+            	.SE:false
+            	-venue->venue329
             	-authors->author2811278292
             	-authors->author104377568
             	-authors->author2144315049
@@ -771,6 +831,7 @@ model Paper2002{
                 .title : "Detection of conflicting functional requirements in a use casedriven approach a static analysis technique based on graph transformation"
             	.year : 2002
             	.core : false
+            	.SE:false
             	-venue->venue24
             	-cites->paper2081518875
             	-cites->paper2096266868
@@ -784,7 +845,8 @@ model Paper2002{
                 .title : "Towards requirementsdriven information systems engineering the Tropos project"
             	.year : 2002
             	.core : false
-            	-venue->venue167
+            	.SE:false
+            	-venue->venue160
             	-cites->paper2017739343
             	-cites->paper2120808515
             	-cites->paper2159765281
@@ -797,7 +859,8 @@ model Paper2002{
                 .title : "Design and implementation of a pluggable fault tolerant CORBA infrastructure"
             	.year : 2002
             	.core : false
-            	-venue->venue559
+            	.SE:false
+            	-venue->venue551
             	-cites->paper2141903135
             	-cites->paper2164357820
             	-authors->author2100758111
@@ -808,7 +871,8 @@ model Paper2002{
                 .title : "Architectures for intrusion tolerant database systems"
             	.year : 2002
             	.core : false
-            	-venue->venue635
+            	.SE:false
+            	-venue->venue626
             	-cites->paper1498888217
             	-cites->paper2101465039
             	-cites->paper2144801589
@@ -820,7 +884,8 @@ model Paper2002{
                 .title : "Dynamic selfchecking techniques for improved tamper resistance"
             	.year : 2002
             	.core : false
-            	-venue->venue93
+            	.SE:false
+            	-venue->venue86
             	-authors->author2567960899
             	-authors->author350567680
             	-authors->author2122613018
@@ -830,7 +895,8 @@ model Paper2002{
                 .title : "A rigorous view of mode confusion"
             	.year : 2002
             	.core : false
-            	-venue->venue93
+            	.SE:false
+            	-venue->venue86
             	-authors->author73504914
             	-authors->author2063463125
             }
@@ -838,7 +904,8 @@ model Paper2002{
                 .title : "Resolution complexity of random constraints"
             	.year : 2002
             	.core : false
-            	-venue->venue93
+            	.SE:false
+            	-venue->venue86
             	-authors->author2122913543
             }
 }
