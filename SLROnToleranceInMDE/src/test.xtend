@@ -20,43 +20,46 @@ import java.util.regex.Pattern
 import java.util.Set
 import java.util.HashSet
 import JsonData
+import java.io.BufferedReader
+import java.io.FileReader
 
 class test {
 
-	public static var List<String> venues = new ArrayList
+	public static var Set<String> filtervenues = new HashSet
 
 	def static void main(String[] args) {
 		val instance = new test;
-		var id_to_authors = new HashMap<String, String>();
 
-//	var scanner = new Scanner(new File("venuescode.txt"));
-//	while (scanner.hasNext()) {
-//		venues.add(scanner.next());
-//	}
-//	scanner.close();
+		var br = new BufferedReader(new FileReader("C:\\Users\\Suganya\\Downloads\\dblp.v11\\venuesexpansion.txt"));
+		var sCurrentLine = "";
+		var filtered = "";
+
+		while ((sCurrentLine = br.readLine()) != null) {
+			filtered = getOnlyStrings(sCurrentLine);
+
+			filtervenues.add(filtered.toLowerCase());
+		}
 		// var writer = new PrintWriter("C:\\Users\\Suganya\\Desktop\\MSL_Generation\\GeneratedVenues.msl", "UTF-8");
 //
 		// var writer = new PrintWriter("src\\Papers.msl", "UTF-8");
 //	println(instance.generateVenuesMSL)
 		var List<PapersPojo> papers = new ArrayList
 		var Set<Integer> years = new HashSet;
-        var core=true;
-        var datasetname="FinalDataset.txt";
-        		var writer = new PrintWriter("src\\Papers\\initial.msl", "UTF-8");
-        
-		papers = JsonParse.extractAuthors(core,datasetname);
-		         datasetname="References_dataset.txt";
-		core=false;
-		//JsonData.findReference(PapersPojo.dummypaperids);
-				papers = JsonParse.extractAuthors(false,datasetname);
-		
+
+		var core = true;
+		var datasetname = "FinalDataset.txt";
+		var writer = new PrintWriter("src\\Papers\\initial.msl", "UTF-8");
+		papers = JsonParse.extractAuthors(core, datasetname, filtervenues);
+		datasetname = "References_dataset.txt";
+		core = false;
+		// JsonData.findReference(PapersPojo.dummypaperids);
+		papers = JsonParse.extractAuthors(false, datasetname, filtervenues);
 
 		// writer.println(instance.generatePapersMSL(papers))
 		// writer.println(instance.generateAuthorsMSL(papers))
-				//writer.println(instance.generateVenuesMSL(papers))
-							//writer.println(instance.generatePapersMSL(papers, 0000))
-				
-		//writer.close();
+		//writer.println(instance.generateVenuesMSL(papers))
+		// writer.println(instance.generatePapersMSL(papers, 0000))
+	//	writer.close();
 
 		for (paper : papers) {
 			years.add(paper.getYear)
@@ -69,11 +72,6 @@ class test {
 			
 
 		}
-
-		
-		
-		
-
 	// println(instance.generatePapersMSL(papers));
 //println(instance.generateAuthorsMSL(id_to_authors));
 	}
@@ -81,9 +79,9 @@ class test {
 	def String generatePapersMSL(List<PapersPojo> papers, Integer year) {
 
 		var i = 0
-		var flag=true
-				var Set<Integer> years = new HashSet;
-		
+		var flag = true
+		var Set<Integer> years = new HashSet;
+
 		''' 
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Authors.msl"
@@ -130,8 +128,8 @@ model Paper«year.toString()»{
 
 	def String generateAuthorsMSL(List<PapersPojo> papers) {
 		var i = 1;
-		var fname="";
-		var lname="";
+		var fname = "";
+		var lname = "";
 		'''
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 
@@ -161,11 +159,15 @@ import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 
 model AllVenues {
 	«var v=PapersPojo.venues_global»	
-	«FOR s : v.entrySet»
-	
-            venue«s.getValue»:Venue {
-            	.Name : "«getOnlyStrings(s.getKey)»"
-            }
+	«var Set<String> venues = new HashSet»
+	«FOR paper : papers»
+	 «IF (!venues.contains(paper.getVenuename().toLowerCase))»
+	       venue«paper.getVenue»:Venue {
+	             	.Name : "«paper.getVenuename»"
+	             	.SE: «paper.getSE»
+	             }
+	              «{venues.add(paper.getVenuename().toLowerCase); "" }»
+	  				        «ENDIF»
             «ENDFOR»
 }
     '''

@@ -57,8 +57,7 @@ model Paper1977{
                 .title : "Analytical Modelling of the Reliability of a FaultTolerant ComputerCopra"
             	.year : 1977
             	.core : true
-            	.SE:false
-            	-venue->venue
+            	-venue->venue209
             	-authors->author2712196989
             	-authors->author353621765
             }
@@ -66,24 +65,21 @@ model Paper1977{
                 .title : "Measurements of sharing in Multics"
             	.year : 1977
             	.core : false
-            	.SE:false
-            	-venue->venue21
+            	-venue->venue52
             	-authors->author1988746949
             }
 	paper2031032746:Paper {
                 .title : "Physical integrity in a large segmented database"
             	.year : 1977
             	.core : false
-            	.SE:false
-            	-venue->venue339
+            	-venue->venue1024
             	-authors->author2255242933
             }
 	paper2132334337:Paper {
                 .title : "Proving the Correctness of Multiprocess Programs"
             	.year : 1977
             	.core : false
-            	.SE:false
-            	-venue->venue299
+            	-venue->venue914
             	-cites->paper1964727056
             	-authors->author2096750770
             }
@@ -91,8 +87,7 @@ model Paper1977{
                 .title : "Viewing Control Structures as Patterns of Passing Messages"
             	.year : 1977
             	.core : false
-            	.SE:false
-            	-venue->venue504
+            	-venue->venue1665
             	-authors->author2102047142
             }
 }

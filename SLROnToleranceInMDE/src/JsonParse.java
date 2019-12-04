@@ -2,6 +2,8 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
 import java.util.Set;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 import java.util.ArrayList;
 import java.util.List;
@@ -31,12 +33,17 @@ public class JsonParse {
 	static List<PapersPojo> papers = new ArrayList<PapersPojo>();
 	static Map<String, String> id_to_authors_global = new HashMap<String, String>();
 	static Set<String> paperids = new HashSet<String>();
-	static Set<String> venues = new HashSet<String>();
+//	static Set<String> venues = new HashSet<String>();
 	static Map<String, Integer> venues_global = new HashMap<String, Integer>();
 
 
 	static int i=1;
-
+	public static String getOnlyStrings(String s) {
+		Pattern pattern = Pattern.compile("[^a-z A-Z\\s]");
+		Matcher matcher = pattern.matcher(s);
+		String name = matcher.replaceAll("");
+		return name;
+	}
 
 	public static List<PapersPojo> setDetails() {
 		return null;
@@ -65,7 +72,8 @@ Boolean SE=false;
 			JsonNode venuenode = node.path("venue");
 			String venue=venuenode.findPath("id").asText();
 			String venuename=venuenode.findPath("raw").asText();
-			if(filtervenues.contains(venuename.toLowerCase()))
+			//System.out.println(getOnlyStrings(venuename.toLowerCase()));
+			if(filtervenues.contains(getOnlyStrings(venuename.toLowerCase())))
 				SE=true;
 				
 
@@ -74,13 +82,12 @@ Boolean SE=false;
 			Integer year = Integer.parseInt(node.path("year").asText());
 
 			paperids.add(id);
-			venues.add(venuename);
+		//	venues.add(venuename);
 		//	paper.setVenue(i);
-		     if(!venues_global.containsKey(venuename.toLowerCase()))
-		     {
-			venues_global.put(venuename.toLowerCase(),i);
-			i++;
-		     }
+			
+			  if(venuename!=""&&!venues_global.containsKey(getOnlyStrings(venuename.toLowerCase()))) {
+			  venues_global.put(getOnlyStrings(venuename.toLowerCase()),i); i++; }
+			 
 		//	System.out.println(venues_global);
 			
 
@@ -88,12 +95,19 @@ Boolean SE=false;
 			paper.setSE(SE);
 
 			paper.setTitle(title);
-			//paper.setVenue(i);
-			paper.setVenuename(venuename);
+			paper.setVenuename(getOnlyStrings(venuename));
+			/*
+			 * if(venuename!="") { paper.setVenue(i);
+			 * paper.setVenuename(getOnlyStrings(venuename));
+			 * 
+			 * 
+			 * }
+			 */
 			paper.setCore(core);
 
 			paper.setYear(year);
-		//	i++;
+			i++;
+		//	System.out.println("id:"+paper.getId()+"venueid:"+paper.getVenue()+"venuename:"+paper.getVenuename());
 
 			ArrayNode arrayNode = (ArrayNode) authors;
 
@@ -156,17 +170,19 @@ Boolean SE=false;
 			jp.nextToken();
 
 		}
-		
+		venues_global.put("", 0);
+			System.out.println(venues_global);
+
 		Set<String> existing = new HashSet<>();
 	//	id_to_authors_global = id_to_authors_global.entrySet().stream().filter(entry -> existing.add(entry.getValue()))
 			//	.collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
 		PapersPojo.id_to_authors_global = id_to_authors_global;
 		PapersPojo.poolids=paperids;
-		PapersPojo.venues_global=venues_global;
-		PapersPojo.venues=venues;
+	//	PapersPojo.venues_global=venues_global;
+	//	PapersPojo.venues=venues;
 
-		System.out.println(venues_global);
-		venues_global.put("", 0);
+	//	System.out.println(venues_global);
+	//	venues_global.put("", 0);
 
 		//dummypaperids.removeAll(paperids);
 		/*
@@ -177,23 +193,16 @@ Boolean SE=false;
 	//	PapersPojo.dummypaperids=dummypaperids;
 		
 		jp.close();
-		for(PapersPojo paper:papers)
-		{
-			String name=paper.getVenuename();
-		//	System.out.println(paper.getId()+"ghfghf"+name.length());
-			if(name.length()==1)
-			{
-				paper.setVenue(0);
-				
-			}
-			else
-			{
-			
-				paper.setVenue(venues_global.get(name.toLowerCase()));
-			}
-
-			
-		}
+		
+		  for(PapersPojo paper:papers) { 
+			  String name=paper.getVenuename(); //
+		 
+		  
+		  paper.setVenue(venues_global.get(getOnlyStrings(name).toLowerCase())); 
+		  
+		  
+		  }
+		 
 
 		return (papers);
 

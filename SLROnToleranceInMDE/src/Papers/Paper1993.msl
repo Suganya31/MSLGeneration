@@ -57,8 +57,7 @@ model Paper1993{
                 .title : "A Language Framework for MultiObject Coordination"
             	.year : 1993
             	.core : false
-            	.SE:false
-            	-venue->venue107
+            	-venue->venue298
             	-authors->author1843226284
             	-authors->author2161553928
             }
@@ -66,8 +65,7 @@ model Paper1993{
                 .title : "Decomposing and Recomposing Transactional Concepts"
             	.year : 1993
             	.core : false
-            	.SE:true
-            	-venue->venue
+            	-venue->venue547
             	-cites->paper2116142433
             	-authors->author1584891692
             }
@@ -75,15 +73,13 @@ model Paper1993{
                 .title : "The SkyBlue Constraint Solver and Its Applications"
             	.year : 1993
             	.core : false
-            	.SE:false
-            	-venue->venue4
+            	-venue->venue7
             	-authors->author2080933598
             }
 	paper1583095677:Paper {
                 .title : "Larch Languages and Tools for Formal Specification"
             	.year : 1993
             	.core : false
-            	.SE:false
             	-venue->venue0
             	-cites->paper2013492611
             	-authors->author120651226
@@ -93,8 +89,7 @@ model Paper1993{
                 .title : "The Formal Verification of an Algorithm for Interactive Consistency under a Hybrid Fault Model"
             	.year : 1993
             	.core : false
-            	.SE:false
-            	-venue->venue88
+            	-venue->venue247
             	-cites->paper2114957237
             	-cites->paper2120510885
             	-authors->author2157944775
@@ -104,8 +99,7 @@ model Paper1993{
                 .title : "Conjunction as composition"
             	.year : 1993
             	.core : false
-            	.SE:false
-            	-venue->venue293
+            	-venue->venue896
             	-cites->paper1970495662
             	-cites->paper2013774163
             	-cites->paper2054097655
@@ -117,8 +111,7 @@ model Paper1993{
                 .title : "Embedding critics in design environments"
             	.year : 1993
             	.core : false
-            	.SE:false
-            	-venue->venue333
+            	-venue->venue1010
             	-cites->paper2037497522
             	-cites->paper2104955812
             	-authors->author674399801
@@ -131,8 +124,7 @@ model Paper1993{
                 .title : "Goaldirected requirements acquisition"
             	.year : 1993
             	.core : false
-            	.SE:false
-            	-venue->venue415
+            	-venue->venue1271
             	-cites->paper1970495662
             	-cites->paper2067126923
             	-authors->author2110355913
@@ -143,8 +135,7 @@ model Paper1993{
                 .title : "The consensus problem in faulttolerant computing"
             	.year : 1993
             	.core : false
-            	.SE:false
-            	-venue->venue292
+            	-venue->venue894
             	-cites->paper2035362408
             	-cites->paper2073126252
             	-cites->paper2095464745
@@ -159,8 +150,7 @@ model Paper1993{
                 .title : "Introducing expert critiquing systems"
             	.year : 1993
             	.core : false
-            	.SE:false
-            	-venue->venue333
+            	-venue->venue1010
             	-cites->paper1983603073
             	-cites->paper2037497522
             	-authors->author2134027885
@@ -169,8 +159,7 @@ model Paper1993{
                 .title : "The power of processor consistency"
             	.year : 1993
             	.core : false
-            	.SE:false
-            	-venue->venue286
+            	-venue->venue879
             	-cites->paper2036267700
             	-cites->paper2054739713
             	-cites->paper2101939036
@@ -187,8 +176,7 @@ model Paper1993{
                 .title : "Integration of domain analysis and analogical approach for software reuse"
             	.year : 1993
             	.core : false
-            	.SE:false
-            	-venue->venue314
+            	-venue->venue955
             	-authors->author2096829745
             	-authors->author2310363976
             }
@@ -196,8 +184,7 @@ model Paper1993{
                 .title : "Closure and convergence a foundation of faulttolerant computing"
             	.year : 1993
             	.core : false
-            	.SE:false
-            	-venue->venue299
+            	-venue->venue914
             	-cites->paper1545155892
             	-cites->paper2035362408
             	-cites->paper2103953153
@@ -212,8 +199,7 @@ model Paper1993{
                 .title : "An investigation of the Therac accidents"
             	.year : 1993
             	.core : false
-            	.SE:false
-            	-venue->venue296
+            	-venue->venue904
             	-authors->author2150992688
             	-authors->author2130975519
             }
@@ -221,8 +207,7 @@ model Paper1993{
                 .title : "Policy hierarchies for distributed systems management"
             	.year : 1993
             	.core : false
-            	.SE:false
-            	-venue->venue534
+            	-venue->venue1820
             	-authors->author1996292137
             	-authors->author2152998746
             }
@@ -230,8 +215,7 @@ model Paper1993{
                 .title : "Theory Interpretation in Simple Type Theory"
             	.year : 1993
             	.core : false
-            	.SE:false
-            	-venue->venue
+            	-venue->venue1889
             	-cites->paper1485360759
             	-authors->author2118565774
             }
@@ -239,8 +223,7 @@ model Paper1993{
                 .title : "Measuring and modeling computer virus prevalence"
             	.year : 1993
             	.core : false
-            	.SE:true
-            	-venue->venue551
+            	-venue->venue1899
             	-authors->author1922347857
             	-authors->author2243214337
             }
@@ -248,16 +231,14 @@ model Paper1993{
                 .title : "A Formal Approach to Conformance Testing"
             	.year : 1993
             	.core : false
-            	.SE:false
-            	-venue->venue
+            	-venue->venue1902
             	-authors->author2104204551
             }
 	paper2114957237:Paper {
                 .title : "Formal verification of algorithms for critical systems"
             	.year : 1993
             	.core : false
-            	.SE:false
-            	-venue->venue299
+            	-venue->venue914
             	-cites->paper2118891797
             	-cites->paper2120510885
             	-cites->paper2164357820
@@ -268,8 +249,7 @@ model Paper1993{
                 .title : "Cleanroom software engineering for zerodefect software"
             	.year : 1993
             	.core : false
-            	.SE:true
-            	-venue->venue24
+            	-venue->venue61
             	-cites->paper2158535304
             	-authors->author696362100
             }
@@ -277,8 +257,7 @@ model Paper1993{
                 .title : "Software process themes and issues"
             	.year : 1993
             	.core : false
-            	.SE:false
-            	-venue->venue
+            	-venue->venue2140
             	-cites->paper2095958260
             	-cites->paper2134062730
             	-authors->author2688526184
@@ -287,8 +266,7 @@ model Paper1993{
                 .title : "Using atomic broadcast to implement a posteriori agreement for clock synchronization"
             	.year : 1993
             	.core : false
-            	.SE:false
-            	-venue->venue235
+            	-venue->venue702
             	-cites->paper2095343473
             	-cites->paper2118891797
             	-cites->paper2170314424
@@ -300,8 +278,7 @@ model Paper1993{
                 .title : "Determining possible event orders by analyzing sequential traces"
             	.year : 1993
             	.core : false
-            	.SE:false
-            	-venue->venue428
+            	-venue->venue1319
             	-cites->paper1976848527
             	-cites->paper2080570636
             	-authors->author2235641235
