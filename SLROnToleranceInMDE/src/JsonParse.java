@@ -73,9 +73,26 @@ Boolean SE=false;
 			String venue=venuenode.findPath("id").asText();
 			String venuename=venuenode.findPath("raw").asText();
 			//System.out.println(getOnlyStrings(venuename.toLowerCase()));
-			if(filtervenues.contains(getOnlyStrings(venuename.toLowerCase())))
-				SE=true;
-				
+			/*
+			 * if(filtervenues.contains(getOnlyStrings(venuename.toLowerCase()))) SE=true;
+			 */
+			
+		   	for(String c:filtervenues)
+	    	{
+	    		if(venuename.toLowerCase().contains(c.toLowerCase())||(c.toLowerCase().contains(venuename.toLowerCase())))
+	    		{
+	    			//System.out.println("venueexpansion"+v+"dataset"+c);
+					SE=true;
+	    		}
+	    		
+	    	
+	    }
+	    	
+			
+			
+			
+			
+			
 
 
 			String id = node.path("id").asText();
@@ -171,7 +188,7 @@ Boolean SE=false;
 
 		}
 		venues_global.put("", 0);
-			System.out.println(venues_global);
+		//	System.out.println(venues_global);
 
 		Set<String> existing = new HashSet<>();
 	//	id_to_authors_global = id_to_authors_global.entrySet().stream().filter(entry -> existing.add(entry.getValue()))
@@ -197,7 +214,7 @@ Boolean SE=false;
 		  for(PapersPojo paper:papers) { 
 			  String name=paper.getVenuename(); //
 		 
-		  
+		  System.out.println(paper.getVenuename());
 		  paper.setVenue(venues_global.get(getOnlyStrings(name).toLowerCase())); 
 		  
 		  

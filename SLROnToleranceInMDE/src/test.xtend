@@ -57,10 +57,10 @@ class test {
 
 		// writer.println(instance.generatePapersMSL(papers))
 		// writer.println(instance.generateAuthorsMSL(papers))
-		//writer.println(instance.generateVenuesMSL(papers))
+	//	writer.println(instance.generateVenuesMSL(papers))
 		// writer.println(instance.generatePapersMSL(papers, 0000))
 	//	writer.close();
-
+//
 		for (paper : papers) {
 			years.add(paper.getYear)
 
