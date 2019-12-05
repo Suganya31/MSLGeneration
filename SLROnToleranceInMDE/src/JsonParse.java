@@ -71,7 +71,7 @@ Boolean SE=false;
 			String title = node.path("title").asText();
 			JsonNode venuenode = node.path("venue");
 			String venue=venuenode.findPath("id").asText();
-			String venuename=venuenode.findPath("raw").asText();
+			String venuename=getOnlyStrings(venuenode.findPath("raw").asText());
 			//System.out.println(getOnlyStrings(venuename.toLowerCase()));
 			/*
 			 * if(filtervenues.contains(getOnlyStrings(venuename.toLowerCase()))) SE=true;
