@@ -57,6 +57,7 @@ model Paper2007{
                 .title : "Flexible intrusion tolerant voting architecture"
             	.year : 2007
             	.core : true
+            	.relevance:false
             	-venue->venue43
             	-cites->paper2073126252
             	-cites->paper2126789306
@@ -70,6 +71,7 @@ model Paper2007{
                 .title : "Consistent Modeling Integration and Simulation of Molecular Interaction Networks in SpaceTime Dimension"
             	.year : 2007
             	.core : true
+            	.relevance:false
             	-venue->venue79
             	-cites->paper295130582
             	-cites->paper334583739
@@ -81,6 +83,7 @@ model Paper2007{
                 .title : "Improving inconsistency resolution with sideeffect evaluation and costs"
             	.year : 2007
             	.core : true
+            	.relevance:true
             	-venue->venue16
             	-cites->paper1498244333
             	-cites->paper1499843713
@@ -103,6 +106,7 @@ model Paper2007{
                 .title : "Consistency Checking of Conceptual Models via Model Merging"
             	.year : 2007
             	.core : true
+            	.relevance:true
             	-venue->venue95
             	-cites->paper163597783
             	-cites->paper326424914
@@ -143,6 +147,7 @@ model Paper2007{
                 .title : "Formal Verification of Consistency between Feature Model and Software Architecture in Software Product Line"
             	.year : 2007
             	.core : true
+            	.relevance:true
             	-venue->venue119
             	-cites->paper75489299
             	-cites->paper1597691197
@@ -154,21 +159,11 @@ model Paper2007{
             	-authors->author2113802326
             	-authors->author2151379807
             }
-	paper2122870030:Paper {
-                .title : "A Safety Analysis Framework for COTS Microprocessors in SafetyCritical Applications"
-            	.year : 2007
-            	.core : true
-            	-venue->venue98
-            	-cites->paper1541288632
-            	-cites->paper2133201251
-            	-authors->author2161311230
-            	-authors->author1219652878
-            	-authors->author2717743363
-            }
 	paper2143320215:Paper {
                 .title : "UMLAnalyzer A Tool for the Instant Consistency Checking of UML Models"
             	.year : 2007
             	.core : true
+            	.relevance:false
             	-venue->venue61
             	-cites->paper1998017916
             	-cites->paper2012959900
@@ -180,6 +175,7 @@ model Paper2007{
                 .title : "A Study of Consistent and Inconsistent Changes to Code Clones"
             	.year : 2007
             	.core : true
+            	.relevance:false
             	-venue->venue3
             	-cites->paper121288867
             	-cites->paper1593203335
@@ -208,7 +204,8 @@ model Paper2007{
                 .title : "CheckFence checking consistency of concurrent data types on relaxed memory models"
             	.year : 2007
             	.core : true
-            	-venue->venue146
+            	.relevance:false
+            	-venue->venue145
             	-cites->paper1495128589
             	-cites->paper1540179969
             	-cites->paper1594023774
@@ -257,6 +254,7 @@ model Paper2007{
                 .title : "FaultTolerant SemiPassive Coordination Protocol for a MultiActuatorMultiSensor MAMS Model"
             	.year : 2007
             	.core : true
+            	.relevance:false
             	-venue->venue83
             	-cites->paper1587166076
             	-cites->paper1985349143
@@ -281,6 +279,7 @@ model Paper2007{
                 .title : "Fixing Inconsistencies in UML Design Models"
             	.year : 2007
             	.core : true
+            	.relevance:true
             	-venue->venue61
             	-cites->paper99545732
             	-cites->paper1968128450
@@ -296,18 +295,36 @@ model Paper2007{
             	-cites->paper2159090554
             	-authors->author2894756025
             }
-	paper2171445445:Paper {
-                .title : "Measuring Reliability as a Mean Failure Cost"
+	paper2104226397:Paper {
+                .title : "On the Collaborative Development of ParaConsistent Conceptual Models"
             	.year : 2007
             	.core : true
+            	.relevance:true
+            	-venue->venue117
+            	-cites->paper1559179949
+            	-cites->paper1997970215
+            	-cites->paper2105603754
+            	-cites->paper2110689325
+            	-cites->paper2156549226
+            	-authors->author756122464
+            	-authors->author2134659517
+            }
+	paper2111313582:Paper {
+                .title : "PatternBased Modeling and Analysis of Failsafe FaultTolerance in UML"
+            	.year : 2007
+            	.core : true
+            	.relevance:true
             	-venue->venue98
+            	-cites->paper326424914
             	-cites->paper1495119494
             	-cites->paper1575709632
+            	-cites->paper1729888041
             	-cites->paper1929752839
+            	-cites->paper1994959402
             	-cites->paper1996832037
+            	-cites->paper2001233105
             	-cites->paper2007677428
             	-cites->paper2035362408
-            	-cites->paper2050104152
             	-cites->paper2074270833
             	-cites->paper2095425626
             	-cites->paper2100970777
@@ -320,26 +337,33 @@ model Paper2007{
             	-cites->paper2145071552
             	-cites->paper2145777668
             	-cites->paper2152465173
-            	-authors->author1996934220
-            	-authors->author2262040313
+            	-cites->paper2159765281
+            	-cites->paper2294415147
+            	-cites->paper2399733500
+            	-authors->author2116990958
+            	-authors->author283123783
             }
-	paper2104226397:Paper {
-                .title : "On the Collaborative Development of ParaConsistent Conceptual Models"
+	paper2166530362:Paper {
+                .title : "Preliminary Models of the Cost of Fault Tolerance"
             	.year : 2007
             	.core : true
-            	-venue->venue117
-            	-cites->paper1559179949
-            	-cites->paper1997970215
-            	-cites->paper2105603754
-            	-cites->paper2110689325
-            	-cites->paper2156549226
-            	-authors->author756122464
-            	-authors->author2134659517
+            	.relevance:false
+            	-venue->venue98
+            	-cites->paper1541288632
+            	-cites->paper1597313369
+            	-cites->paper1938966230
+            	-cites->paper2015010963
+            	-cites->paper2113425613
+            	-cites->paper2133201251
+            	-cites->paper2136414928
+            	-cites->paper2144956041
+            	-authors->author2761850444
             }
 	paper99999999998:Paper {
                 .title : "Software Reliability Modeling with Test Coverage  Experimentation and Measurement with A FaultTolerant Software Project"
             	.year : 2007
             	.core : true
+            	.relevance:false
             	-venue->venue29
             	-cites->paper2099859756
             	-cites->paper2132627437
@@ -357,6 +381,7 @@ model Paper2007{
                 .title : "Reusable architectural decision models for enterprise application development"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue267
             	-cites->paper1600334244
             	-cites->paper2136317684
@@ -371,6 +396,7 @@ model Paper2007{
                 .title : "Systems Engineering with SysMLUML Modeling Analysis Design"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue0
             	-authors->author2798701552
             }
@@ -378,6 +404,7 @@ model Paper2007{
                 .title : "Software Product Lines in Action The Best Industrial Practice in Product Line Engineering"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue0
             	-authors->author2058976730
             	-authors->author2298524033
@@ -387,6 +414,7 @@ model Paper2007{
                 .title : "On Ontology ontologies Conceptualizations Modeling Languages and MetaModels"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue319
             	-cites->paper1537193294
             	-authors->author1971991369
@@ -395,6 +423,7 @@ model Paper2007{
                 .title : "Consistent query answering five easy pieces"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue329
             	-cites->paper1558832481
             	-cites->paper2006519067
@@ -406,6 +435,7 @@ model Paper2007{
                 .title : "Automatic Testing of ObjectOriented Software"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue342
             	-cites->paper1555946950
             	-cites->paper2055477538
@@ -418,6 +448,7 @@ model Paper2007{
                 .title : "Stochastic model checking"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue305
             	-authors->author2123615300
             	-authors->author2193902795
@@ -427,6 +458,7 @@ model Paper2007{
                 .title : "Kodkod a relational model finder"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue24
             	-cites->paper1556566737
             	-cites->paper1567586152
@@ -437,6 +469,7 @@ model Paper2007{
                 .title : "Characterizing result errors in internet desktop grids"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue434
             	-authors->author2115800692
             	-authors->author266336272
@@ -450,6 +483,7 @@ model Paper2007{
                 .title : "A Landscape of Bidirectional Model Transformations"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue553
             	-cites->paper1968796785
             	-cites->paper2117870171
@@ -462,6 +496,7 @@ model Paper2007{
                 .title : "Gradual typing for objects"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue298
             	-cites->paper2106192381
             	-authors->author2663121153
@@ -471,6 +506,7 @@ model Paper2007{
                 .title : "The end of an architectural era its time for a complete rewrite"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue334
             	-cites->paper2104954161
             	-cites->paper2133386065
@@ -485,6 +521,7 @@ model Paper2007{
                 .title : "Parametric and sliced causality"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue247
             	-cites->paper1481985818
             	-cites->paper1973501242
@@ -498,6 +535,7 @@ model Paper2007{
                 .title : "Formalising javas data race free guarantee"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue419
             	-cites->paper1973501242
             	-cites->paper2029601347
@@ -516,6 +554,7 @@ model Paper2007{
                 .title : "A graph game model for software tamper protection"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue588
             	-cites->paper1495266644
             	-cites->paper1509316335
@@ -537,6 +576,7 @@ model Paper2007{
                 .title : "Matching Metamodels with Semantic Systems  An Experience Report"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue638
             	-cites->paper2044463389
             	-cites->paper2122840128
@@ -552,6 +592,7 @@ model Paper2007{
                 .title : "Software integrity checking expressions ICEs for robust tamper detection"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue588
             	-cites->paper1495266644
             	-cites->paper1509316335
@@ -569,6 +610,7 @@ model Paper2007{
                 .title : "Rewriting Computation and Proof essays dedicated to JeanPierre Jouannaud on the occasion of his th birthday"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue688
             	-authors->author324484722
             	-authors->author2168512137
@@ -578,6 +620,7 @@ model Paper2007{
                 .title : "Practical reasoning about invocations and implementations of pure methods"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue5
             	-cites->paper1550200770
             	-cites->paper1555946950
@@ -595,6 +638,7 @@ model Paper2007{
                 .title : "Time constraint patterns for event b development"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue286
             	-authors->author2156813763
             	-authors->author2151533436
@@ -604,7 +648,8 @@ model Paper2007{
                 .title : "PRESENT An UltraLightweight Block Cipher"
             	.year : 2007
             	.core : false
-            	-venue->venue206
+            	.relevance:false
+            	-venue->venue204
             	-cites->paper1542020576
             	-cites->paper1588952639
             	-cites->paper1964723977
@@ -621,6 +666,7 @@ model Paper2007{
                 .title : "Hoare logic for realistically modelled machine code"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue24
             	-cites->paper2085253283
             	-authors->author2138087194
@@ -630,6 +676,7 @@ model Paper2007{
                 .title : "Using Patterns to Capture Architectural Decisions"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue887
             	-cites->paper1600334244
             	-cites->paper2038476425
@@ -643,6 +690,7 @@ model Paper2007{
                 .title : "Specification and verification challenges for sequential objectoriented programs"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue475
             	-cites->paper1509562505
             	-cites->paper1550200770
@@ -676,6 +724,7 @@ model Paper2007{
                 .title : "Specifying memory consistency of write buffer multiprocessors"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue931
             	-cites->paper1973501242
             	-cites->paper2026697016
@@ -695,6 +744,7 @@ model Paper2007{
                 .title : "AVIO Detecting Atomicity Violations via AccessInterleaving Invariants"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue39
             	-cites->paper1972544179
             	-cites->paper2082766667
@@ -711,6 +761,7 @@ model Paper2007{
                 .title : "Protecting people from phishing the design and evaluation of an embedded training email system"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue1008
             	-authors->author2141131632
             	-authors->author2105541426
@@ -723,6 +774,7 @@ model Paper2007{
                 .title : "Identifying Predictive Metrics for Supervisory Control of Multiple Robots"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue1012
             	-cites->paper1957070465
             	-cites->paper2153738822
@@ -734,6 +786,7 @@ model Paper2007{
                 .title : "Integrated tool support for software product line engineering"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue41
             	-cites->paper2104257432
             	-authors->author2059764927
@@ -745,6 +798,7 @@ model Paper2007{
                 .title : "A threevalued semantics for querying and repairing inconsistent databases"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue1086
             	-cites->paper1491205793
             	-cites->paper1558832481
@@ -759,6 +813,7 @@ model Paper2007{
                 .title : "An Eclipsebased tool framework for software model management"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue1118
             	-cites->paper31292625
             	-cites->paper2098243935
@@ -777,6 +832,7 @@ model Paper2007{
                 .title : "Quantitative Bayesian Inference by Qualitative Knowledge Modeling"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue1126
             	-authors->author2001304548
             	-authors->author1928888336
@@ -785,6 +841,7 @@ model Paper2007{
                 .title : "A proposal for taming uncertainty in the collaborative conceptual model development process"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue1005
             	-cites->paper2101375451
             	-cites->paper2110689325
@@ -795,6 +852,7 @@ model Paper2007{
                 .title : "Metamodelbased model conformance and multiview consistency checking"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue896
             	-cites->paper1555946950
             	-cites->paper2045581671
@@ -807,6 +865,7 @@ model Paper2007{
                 .title : "A Case Study in Matching Test and Proof Coverage"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue1063
             	-cites->paper1509562505
             	-cites->paper1583826417
@@ -819,6 +878,7 @@ model Paper2007{
                 .title : "INCONSISTENCYTOLERANT KNOWLEDGE ASSIMILATION"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue1220
             	-authors->author2600423479
             }
@@ -826,6 +886,7 @@ model Paper2007{
                 .title : "A Mini Challenge Build a Verifiable Filesystem"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue475
             	-cites->paper2124877509
             	-authors->author2158494961
@@ -835,6 +896,7 @@ model Paper2007{
                 .title : "Integrating ProductLine Fault Tree Analysis into AADL Models"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue98
             	-authors->author2173450484
             	-authors->author1981865651
@@ -844,6 +906,7 @@ model Paper2007{
                 .title : "Understanding disk failure rates What does an MTTF of  hours mean to you"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue868
             	-cites->paper1558516248
             	-authors->author2099243581
@@ -853,6 +916,7 @@ model Paper2007{
                 .title : "Model composition in product lines and feature interaction detection using critical pair analysis"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue16
             	-cites->paper1498244333
             	-cites->paper1532079015
@@ -869,6 +933,7 @@ model Paper2007{
                 .title : "Towards fault tolerance in web services compositions"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue1342
             	-authors->author18547954
             	-authors->author2166430406
@@ -877,6 +942,7 @@ model Paper2007{
                 .title : "Lowpower processvariation tolerant arithmetic units using inputbased elastic clocking"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue1397
             	-authors->author2688597807
             	-authors->author2275335750
@@ -886,6 +952,7 @@ model Paper2007{
                 .title : "Process Variations and ProcessTolerant Design"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue1416
             	-authors->author2652558427
             	-authors->author2093524222
@@ -895,6 +962,7 @@ model Paper2007{
                 .title : "Data structures for limited oblivious execution of programs while preserving locality of reference"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue1035
             	-cites->paper1594550369
             	-cites->paper2064435654
@@ -908,6 +976,7 @@ model Paper2007{
                 .title : "Global Constraint Catalogue Past Present and Future"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue1262
             	-authors->author193964858
             	-authors->author2406231994
@@ -918,6 +987,7 @@ model Paper2007{
                 .title : "A Changebased Approach to Software Evolution"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue1063
             	-cites->paper2121668868
             	-cites->paper2153887189
@@ -929,6 +999,7 @@ model Paper2007{
                 .title : "A Structural Proof of the Soundness of Relyguarantee Rules"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue1449
             	-cites->paper115884782
             	-cites->paper1822847061
@@ -946,6 +1017,7 @@ model Paper2007{
                 .title : "Generic semantics of feature diagrams"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue1084
             	-cites->paper1500250067
             	-cites->paper1570173564
@@ -963,6 +1035,7 @@ model Paper2007{
                 .title : "Constructive techniques for meta and modellevel reasoning"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue16
             	-cites->paper1561057365
             	-authors->author247113986
@@ -972,6 +1045,7 @@ model Paper2007{
                 .title : "A graphbased algorithm for consistency maintenance in incremental and interactive integration tools"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue249
             	-authors->author2008612387
             	-authors->author2116014933
@@ -982,6 +1056,7 @@ model Paper2007{
                 .title : "Tashkent memoryaware load balancing and update filtering in replicated databases"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue1026
             	-cites->paper1524103123
             	-cites->paper1545155892
@@ -1004,6 +1079,7 @@ model Paper2007{
                 .title : "Towards automatic model synchronization from model transformations"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue41
             	-cites->paper2011705879
             	-cites->paper2021382227
@@ -1021,6 +1097,7 @@ model Paper2007{
                 .title : "Compiling mappings to bridge applications and databases"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue1049
             	-cites->paper1985223393
             	-cites->paper2080267935
@@ -1033,6 +1110,7 @@ model Paper2007{
                 .title : "Hoare logic for ARM machine code"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue1667
             	-cites->paper1594381772
             	-cites->paper1924086464
@@ -1044,6 +1122,7 @@ model Paper2007{
                 .title : "Cell broadband engine architecture and its first implementation a performance view"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue1588
             	-authors->author2586158119
             	-authors->author2209797467
@@ -1054,6 +1133,7 @@ model Paper2007{
                 .title : "UMLtoCSP a tool for the formal verification of UMLOCL models using constraint programming"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue41
             	-cites->paper1998400029
             	-authors->author2109776720
@@ -1064,6 +1144,7 @@ model Paper2007{
                 .title : "Korat A Tool for Generating Structurally Complex Test Inputs"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue61
             	-cites->paper1895387792
             	-authors->author1702668839
@@ -1075,6 +1156,7 @@ model Paper2007{
                 .title : "Conditional must not aliasing for static race detection"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue106
             	-cites->paper17332244
             	-cites->paper1972544179
@@ -1099,6 +1181,7 @@ model Paper2007{
                 .title : "Cartesian partialorder reduction"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue843
             	-cites->paper1556566737
             	-cites->paper1568729458
@@ -1115,6 +1198,7 @@ model Paper2007{
                 .title : "Usability testing what have we overlooked"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue1008
             	-authors->author2778618671
             	-authors->author2781131303
@@ -1123,6 +1207,7 @@ model Paper2007{
                 .title : "An automated approach to monitoring and diagnosing requirements"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue41
             	-cites->paper2017739343
             	-cites->paper2057361103
@@ -1138,6 +1223,7 @@ model Paper2007{
                 .title : "Observational purity and encapsulation"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue1184
             	-cites->paper1583095677
             	-cites->paper1993836075
@@ -1153,6 +1239,7 @@ model Paper2007{
                 .title : "Producing a Global Requirement Model from Multiple Requirement Specifications"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue1829
             	-cites->paper326424914
             	-cites->paper1978613757
@@ -1173,6 +1260,7 @@ model Paper2007{
                 .title : "Towards integral binary execution implementing oblivious hashing using overlapped instruction encodings"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue1840
             	-cites->paper1509316335
             	-cites->paper1580417272
@@ -1194,6 +1282,7 @@ model Paper2007{
                 .title : "The impact of NBTI on the performance of combinational and sequential circuits"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue1308
             	-authors->author2170767107
             	-authors->author2721498111
@@ -1207,6 +1296,7 @@ model Paper2007{
                 .title : "Software Component Models"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue914
             	-cites->paper2096931889
             	-cites->paper2133254848
@@ -1219,6 +1309,7 @@ model Paper2007{
                 .title : "QuickCheck testing for fun and profit"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue1851
             	-cites->paper1993836075
             	-authors->author2101652549
@@ -1227,6 +1318,7 @@ model Paper2007{
                 .title : "Supporting Product Derivation by Adapting and Augmenting Variability Models"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue307
             	-cites->paper1570173564
             	-authors->author2196554139
@@ -1237,6 +1329,7 @@ model Paper2007{
                 .title : "DECLARE Full Support for LooselyStructured Processes"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue1829
             	-cites->paper2340735175
             	-authors->author2073348590
@@ -1247,6 +1340,7 @@ model Paper2007{
                 .title : "BulkSC bulk enforcement of sequential consistency"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue91
             	-cites->paper1885534640
             	-cites->paper1966151719
@@ -1267,7 +1361,8 @@ model Paper2007{
                 .title : "Runtime randomization to mitigate tampering"
             	.year : 2007
             	.core : false
-            	-venue->venue148
+            	.relevance:false
+            	-venue->venue147
             	-cites->paper1718337629
             	-cites->paper2064435654
             	-cites->paper2084641398
@@ -1287,6 +1382,7 @@ model Paper2007{
                 .title : "Sinfonia a new paradigm for building scalable distributed systems"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue52
             	-cites->paper1991494135
             	-cites->paper1992479210
@@ -1308,6 +1404,7 @@ model Paper2007{
                 .title : "Humanrobot interaction a survey"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue1909
             	-cites->paper1541919721
             	-cites->paper1957070465
@@ -1320,6 +1417,7 @@ model Paper2007{
                 .title : "Consistency and random constraint satisfaction models"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue1912
             	-cites->paper312445613
             	-cites->paper1548019825
@@ -1344,6 +1442,7 @@ model Paper2007{
                 .title : "Research Directions in Requirements Engineering"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue61
             	-cites->paper326424914
             	-cites->paper1689834700
@@ -1384,6 +1483,7 @@ model Paper2007{
                 .title : "Behaviour Model Synthesis from Properties and Scenarios"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue61
             	-cites->paper1482962177
             	-cites->paper1512371038
@@ -1402,6 +1502,7 @@ model Paper2007{
                 .title : "USE A UMLbased specification environment for validating UML and OCL"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue875
             	-cites->paper1998400029
             	-authors->author1736775477
@@ -1412,6 +1513,7 @@ model Paper2007{
                 .title : "Towards A ProcessOriented Software Architecture Reconstruction Taxonomy"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue69
             	-cites->paper1489800325
             	-cites->paper1987089410
@@ -1429,6 +1531,7 @@ model Paper2007{
                 .title : "A subset of precise UML for modelbased testing"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue1996
             	-cites->paper2098831637
             	-authors->author2790105807
@@ -1442,6 +1545,7 @@ model Paper2007{
                 .title : "Fault Tolerance Connectors for Unreliable Web Services"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue19
             	-authors->author2709700896
             	-authors->author2136516135
@@ -1450,6 +1554,7 @@ model Paper2007{
                 .title : "ReliableWeb Services Methodology Experiment and Modeling"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue2003
             	-authors->author2104207244
             	-authors->author2227744130
@@ -1459,6 +1564,7 @@ model Paper2007{
                 .title : "Towards modular algebraic specifications for pointer programs a case study"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue2019
             	-cites->paper1594381772
             	-cites->paper1964830323
@@ -1475,6 +1581,7 @@ model Paper2007{
                 .title : "A Middlewarebased Approach to Model Refactoring at Runtime"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue111
             	-cites->paper1987089410
             	-authors->author2215898306
@@ -1486,6 +1593,7 @@ model Paper2007{
                 .title : "Live widearea migration of virtual machines including local persistent state"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue2043
             	-cites->paper1997269120
             	-cites->paper2124074197
@@ -1498,6 +1606,7 @@ model Paper2007{
                 .title : "Rx Treating bugs as allergiesa safe method to survive software failures"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue931
             	-cites->paper1589122423
             	-cites->paper1968054699
@@ -1514,6 +1623,7 @@ model Paper2007{
                 .title : "Memory model sensitive bytecode verification"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue305
             	-cites->paper1545792627
             	-cites->paper1593091446
@@ -1531,6 +1641,7 @@ model Paper2007{
                 .title : "ContractBased Testing for Web Services"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue31
             	-cites->paper2087305559
             	-authors->author2016172628
@@ -1542,6 +1653,7 @@ model Paper2007{
                 .title : "CMP A UML Context Modeling Profile for Mobile Distributed Systems"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue2107
             	-cites->paper1882088395
             	-authors->author2717260261
@@ -1550,6 +1662,7 @@ model Paper2007{
                 .title : "Reasoning about Feature Models in HigherOrder Logic"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue307
             	-cites->paper1500250067
             	-cites->paper1509367797
@@ -1563,6 +1676,7 @@ model Paper2007{
                 .title : "Are the Logical Foundations of Verifying Compiler Prototypes Matching user Expectations"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue475
             	-cites->paper1583095677
             	-cites->paper1964830323
@@ -1577,6 +1691,7 @@ model Paper2007{
                 .title : "A RealTime Database Testbed and Performance Evaluation"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue2171
             	-authors->author2320247275
             	-authors->author2401676173
@@ -1587,7 +1702,8 @@ model Paper2007{
                 .title : "Tolerance to Small Delay Defects by Adaptive Clock Stretching"
             	.year : 2007
             	.core : false
-            	-venue->venue178
+            	.relevance:false
+            	-venue->venue176
             	-cites->paper1555915743
             	-authors->author2168881548
             	-authors->author2093524222
@@ -1598,6 +1714,7 @@ model Paper2007{
                 .title : "Agility and Experimentation Practical Techniques for Resolving Architectural Tradeoffs"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue61
             	-authors->author1185439314
             	-authors->author2627321251
@@ -1607,6 +1724,7 @@ model Paper2007{
                 .title : "Resources concurrency and local reasoning"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue1184
             	-cites->paper1964727056
             	-cites->paper2110425399
@@ -1617,7 +1735,8 @@ model Paper2007{
                 .title : "Automatically classifying benign and harmful data races using replay analysis"
             	.year : 2007
             	.core : false
-            	-venue->venue146
+            	.relevance:false
+            	-venue->venue145
             	-cites->paper1972544179
             	-cites->paper1973501242
             	-cites->paper2002179840
@@ -1642,7 +1761,8 @@ model Paper2007{
                 .title : "Iterative context bounding for systematic testing of multithreaded programs"
             	.year : 2007
             	.core : false
-            	-venue->venue146
+            	.relevance:false
+            	-venue->venue145
             	-cites->paper1568729458
             	-cites->paper1972544179
             	-cites->paper2065675749
@@ -1656,6 +1776,7 @@ model Paper2007{
                 .title : "ACSAR software model checking with transfinite refinement"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue843
             	-cites->paper1556566737
             	-cites->paper2055477538
@@ -1666,6 +1787,7 @@ model Paper2007{
                 .title : "From Predicates to Programs The Semantics of a Method Language"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue1063
             	-cites->paper2010879541
             	-cites->paper2118949216
@@ -1677,6 +1799,7 @@ model Paper2007{
                 .title : "Reducing shouldersurfing by using gazebased password entry"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue2296
             	-authors->author1590983864
             	-authors->author2091637845
@@ -1687,6 +1810,7 @@ model Paper2007{
                 .title : "Reconciling TGGs with QVT"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue16
             	-cites->paper2021382227
             	-authors->author2142152332
@@ -1696,6 +1820,7 @@ model Paper2007{
                 .title : "Extending ACID semantics to the file system"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue868
             	-cites->paper2115600841
             	-cites->paper2122960384
@@ -1709,6 +1834,7 @@ model Paper2007{
                 .title : "Circuit Failure Prediction and Its Application to Transistor Aging"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue2242
             	-cites->paper2083270183
             	-authors->author2191554623
@@ -1720,6 +1846,7 @@ model Paper2007{
                 .title : "Assertionbased repair of complex data structures"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue41
             	-cites->paper1895387792
             	-cites->paper2115309705
@@ -1734,6 +1861,7 @@ model Paper2007{
                 .title : "MultiRace efficient onthefly data race detection in multithreaded C programs"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue2195
             	-cites->paper1972544179
             	-cites->paper1973501242
@@ -1745,6 +1873,7 @@ model Paper2007{
                 .title : "SelfConsistent Approach to Leakage Power and Temperature Estimation to Predict Thermal Runaway in FinFET Circuits"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue995
             	-authors->author232160998
             	-authors->author2173251795
@@ -1756,6 +1885,7 @@ model Paper2007{
                 .title : "Secure Resilient Computing Clusters SelfCleansing Intrusion Tolerance with Hardware Enforced Security SCITHES"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue83
             	-cites->paper2148129140
             	-authors->author2168892776
@@ -1766,6 +1896,7 @@ model Paper2007{
                 .title : "HARD HardwareAssisted Locksetbased Race Detection"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue978
             	-cites->paper1972544179
             	-cites->paper1973501242
@@ -1785,6 +1916,7 @@ model Paper2007{
                 .title : "A Simple Sequential Reasoning Approach for Sound Modular Verification of Mainstream Multithreaded Programs"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue1063
             	-cites->paper1972544179
             	-cites->paper1993836075
@@ -1800,6 +1932,7 @@ model Paper2007{
                 .title : "Fuzzy XML data modeling with the UML and relational data models"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue1492
             	-cites->paper2159765281
             	-authors->author2646554712
@@ -1809,6 +1942,7 @@ model Paper2007{
                 .title : "Matching and Merging of Statecharts Specifications"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue61
             	-cites->paper1561929444
             	-cites->paper2011705879
@@ -1828,6 +1962,7 @@ model Paper2007{
                 .title : "The model transformation language of the VIATRA framework"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue875
             	-cites->paper1511832825
             	-cites->paper1589632492
@@ -1839,7 +1974,8 @@ model Paper2007{
                 .title : "Goldilocks a race and transactionaware java runtime"
             	.year : 2007
             	.core : false
-            	-venue->venue146
+            	.relevance:false
+            	-venue->venue145
             	-cites->paper1972544179
             	-cites->paper2002179840
             	-cites->paper2105391037
@@ -1855,6 +1991,7 @@ model Paper2007{
                 .title : "ModelDriven Engineering for Requirements Analysis"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue1829
             	-cites->paper326424914
             	-cites->paper1978613757
@@ -1869,6 +2006,7 @@ model Paper2007{
                 .title : "Anatomy of the ADONET entity framework"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue1049
             	-cites->paper2077449561
             	-authors->author2022497718
@@ -1880,6 +2018,7 @@ model Paper2007{
                 .title : "Dynamo amazons highly available keyvalue store"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue52
             	-cites->paper1973501242
             	-cites->paper2020765652
@@ -1901,6 +2040,7 @@ model Paper2007{
                 .title : "RELAY static race detection on millions of lines of code"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue1079
             	-cites->paper1972544179
             	-cites->paper1973501242
@@ -1924,6 +2064,7 @@ model Paper2007{
                 .title : "How Clones are Maintained An Empirical Study"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue69
             	-cites->paper121288867
             	-cites->paper1698439592
@@ -1941,6 +2082,7 @@ model Paper2007{
                 .title : "A Fault Taxonomy for ServiceOriented Architecture"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue98
             	-cites->paper2021696583
             	-cites->paper2103953153
@@ -1953,6 +2095,7 @@ model Paper2007{
                 .title : "Generalized file system dependencies"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue52
             	-cites->paper1995626000
             	-cites->paper2100100130
@@ -1971,6 +2114,7 @@ model Paper2007{
                 .title : "MiniZinc towards a standard CP modelling language"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue7
             	-authors->author1544991446
             	-authors->author1971830754
@@ -1983,6 +2127,7 @@ model Paper2007{
                 .title : "Feature Diagrams and Logics There and Back Again"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue307
             	-cites->paper2067838808
             	-cites->paper2080267935
@@ -1994,6 +2139,7 @@ model Paper2007{
                 .title : "SelfManaged Systems an Architectural Challenge"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue61
             	-cites->paper1489800325
             	-cites->paper1895387792
@@ -2007,6 +2153,7 @@ model Paper2007{
                 .title : "Modeldriven Development of Complex Software A Research Roadmap"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue61
             	-cites->paper1978613757
             	-cites->paper1992036716
@@ -2023,6 +2170,7 @@ model Paper2007{
                 .title : "Providing Support for Model Composition in Metamodels"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue1829
             	-cites->paper1978613757
             	-cites->paper1992036716
@@ -2036,6 +2184,7 @@ model Paper2007{
                 .title : "ModelDriven Consistency Checking of Behavioural Specifications"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue2669
             	-cites->paper2020034474
             	-cites->paper2139907081
@@ -2047,6 +2196,7 @@ model Paper2007{
                 .title : "Automated Merging of Feature Models Using Graph Transformations"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue553
             	-cites->paper1498244333
             	-cites->paper2082677523
@@ -2062,6 +2212,7 @@ model Paper2007{
                 .title : "Multicoordinated Paxos"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue990
             	-cites->paper1565495482
             	-cites->paper1973501242
@@ -2077,6 +2228,7 @@ model Paper2007{
                 .title : "A Knowledgebased Dynamic Bayesian Framework Towards Molecular Network Modeling and Quantitative Prediction"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue2968
             	-authors->author2001304548
             	-authors->author1928888336
@@ -2085,6 +2237,7 @@ model Paper2007{
                 .title : "Viewbased and Modeldriven Approach for Reducing the Development Complexity in ProcessDriven SOA"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue2980
             	-authors->author2245253439
             	-authors->author2035273997
@@ -2094,6 +2247,7 @@ model Paper2007{
                 .title : "Checking Complex Compositions of Web Services Against Policy Constraints"
             	.year : 2007
             	.core : false
+            	.relevance:false
             	-venue->venue2996
             	-cites->paper1983160424
             	-cites->paper1983421263

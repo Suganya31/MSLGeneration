@@ -57,6 +57,7 @@ model Paper2008{
                 .title : "Consistent integration of models based on views of visual languages"
             	.year : 2008
             	.core : true
+            	.relevance:true
             	-venue->venue5
             	-cites->paper1556566737
             	-cites->paper1573663598
@@ -78,6 +79,7 @@ model Paper2008{
                 .title : "Sufficient Criteria for Consistent Behavior Modeling with Refined Activity Diagrams"
             	.year : 2008
             	.core : true
+            	.relevance:true
             	-venue->venue16
             	-cites->paper1482962177
             	-cites->paper1808519102
@@ -98,6 +100,7 @@ model Paper2008{
                 .title : "Automatically Generating Behavioral Models of Adaptive Systems to Address Uncertainty"
             	.year : 2008
             	.core : true
+            	.relevance:true
             	-venue->venue16
             	-cites->paper326424914
             	-cites->paper1489800325
@@ -132,6 +135,7 @@ model Paper2008{
                 .title : "Classifying integrity checking methods with regard to inconsistency tolerance"
             	.year : 2008
             	.core : true
+            	.relevance:true
             	-venue->venue50
             	-cites->paper132658143
             	-cites->paper181078895
@@ -159,6 +163,7 @@ model Paper2008{
                 .title : "Global consistency checking of distributed models with TReMer"
             	.year : 2008
             	.core : true
+            	.relevance:true
             	-venue->venue61
             	-cites->paper1983421263
             	-cites->paper1995544616
@@ -179,6 +184,7 @@ model Paper2008{
                 .title : "A MeasurementDriven Process Model for Managing Inconsistent Software Requirements"
             	.year : 2008
             	.core : true
+            	.relevance:false
             	-venue->venue111
             	-cites->paper1556421367
             	-cites->paper1559179949
@@ -204,6 +210,7 @@ model Paper2008{
                 .title : "Generating and Evaluating Choices for Fixing Inconsistencies in UML Design Models"
             	.year : 2008
             	.core : true
+            	.relevance:true
             	-venue->venue41
             	-cites->paper99545732
             	-cites->paper1975322993
@@ -232,6 +239,7 @@ model Paper2008{
                 .title : "Detecting model inconsistency through operationbased model construction"
             	.year : 2008
             	.core : true
+            	.relevance:true
             	-venue->venue61
             	-cites->paper99545732
             	-cites->paper2012959900
@@ -251,6 +259,7 @@ model Paper2008{
                 .title : "Detecting and Repairing Inconsistencies across Heterogeneous Models"
             	.year : 2008
             	.core : true
+            	.relevance:true
             	-venue->venue54
             	-cites->paper126954505
             	-cites->paper1486745608
@@ -269,6 +278,7 @@ model Paper2008{
                 .title : "Modeling Uncertain and Imprecise Information in Process Modeling with UML"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue274
             	-authors->author2695394167
             	-authors->author2500781316
@@ -280,6 +290,7 @@ model Paper2008{
                 .title : "Z an efficient SMT solver"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue24
             	-cites->paper2055477538
             	-authors->author1505484182
@@ -289,6 +300,7 @@ model Paper2008{
                 .title : "On Validity of Program Transformations in the Java Memory Model"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue298
             	-cites->paper1491178396
             	-cites->paper1594381772
@@ -302,6 +314,7 @@ model Paper2008{
                 .title : "Introduction to Software Testing"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue0
             	-authors->author2307659872
             	-authors->author1963645155
@@ -310,6 +323,7 @@ model Paper2008{
                 .title : "Search Strategies for Rectangle Packing"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue7
             	-authors->author2117866204
             	-authors->author2056506989
@@ -318,6 +332,7 @@ model Paper2008{
                 .title : "A Tailored VModel Exploiting the Theory of Preemptive Time Petri Nets"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue326
             	-cites->paper2136877520
             	-authors->author2142185672
@@ -328,6 +343,7 @@ model Paper2008{
                 .title : "Principles of Model Checking"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue0
             	-authors->author2163680003
             	-authors->author2036890539
@@ -336,7 +352,8 @@ model Paper2008{
                 .title : "Model Synchronisation Definitions for RoundTrip Engineering"
             	.year : 2008
             	.core : false
-            	-venue->venue165
+            	.relevance:false
+            	-venue->venue163
             	-cites->paper2021382227
             	-cites->paper2076676096
             	-authors->author2396512365
@@ -347,6 +364,7 @@ model Paper2008{
                 .title : "State of the Art of QVT A Model Transformation Language Standard"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue286
             	-cites->paper1487694410
             	-cites->paper2169954581
@@ -356,6 +374,7 @@ model Paper2008{
                 .title : "Specifying Separation of Duty Constraints in BPELPeople Processes"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue399
             	-cites->paper1840655788
             	-cites->paper2021079739
@@ -374,6 +393,7 @@ model Paper2008{
                 .title : "Checking WellFormedness of PureMethod Specifications"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue305
             	-cites->paper1807498156
             	-cites->paper1970495662
@@ -390,6 +410,7 @@ model Paper2008{
                 .title : "Model Transformation as an Optimization Problem"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue16
             	-cites->paper2165203881
             	-cites->paper2169954581
@@ -401,6 +422,7 @@ model Paper2008{
                 .title : "From goals to highvariability software design"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue440
             	-cites->paper1500250067
             	-cites->paper1625345750
@@ -419,6 +441,7 @@ model Paper2008{
                 .title : "Generating DomainSpecific Model Editors with Complex Editing Commands"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue453
             	-cites->paper1963978173
             	-authors->author2136369289
@@ -430,6 +453,7 @@ model Paper2008{
                 .title : "A LibraryBased Approach to Translating OCL Constraints to JML Assertions for Runtime Checking"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue61
             	-cites->paper1964830323
             	-cites->paper2140001025
@@ -442,6 +466,7 @@ model Paper2008{
                 .title : "Algebraic Models for Bidirectional Model Synchronization"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue16
             	-cites->paper1985223393
             	-cites->paper2194223632
@@ -451,6 +476,7 @@ model Paper2008{
                 .title : "Constructing Models with the HumanUsable Textual Notation"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue16
             	-cites->paper1486745608
             	-cites->paper2049008406
@@ -466,6 +492,7 @@ model Paper2008{
                 .title : "Efficient Modeling of Concurrent Systems in BMC"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue518
             	-cites->paper1556566737
             	-cites->paper1568729458
@@ -487,6 +514,7 @@ model Paper2008{
                 .title : "Language support for managing variability in architectural models"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue534
             	-cites->paper149825191
             	-cites->paper1500250067
@@ -499,6 +527,7 @@ model Paper2008{
                 .title : "Verification of equivalentresults methods"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue484
             	-cites->paper1509562505
             	-cites->paper1556566737
@@ -516,6 +545,7 @@ model Paper2008{
                 .title : "Semantically Configurable Code Generation"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue16
             	-cites->paper1500250067
             	-cites->paper1985364899
@@ -530,6 +560,7 @@ model Paper2008{
                 .title : "Efficient Model Checking of Networked Applications"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue551
             	-cites->paper1556566737
             	-cites->paper2065675749
@@ -544,6 +575,7 @@ model Paper2008{
                 .title : "Automated Whitebox Fuzz Testing"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue562
             	-cites->paper2135023759
             	-authors->author2153084974
@@ -554,6 +586,7 @@ model Paper2008{
                 .title : "Defining Abstract Graph Views as Module Interfaces"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue453
             	-cites->paper1562948410
             	-cites->paper1985223393
@@ -565,7 +598,8 @@ model Paper2008{
                 .title : "A BDDBased Approach to Verifying CloneEnabled Feature Models Constraints and Customization"
             	.year : 2008
             	.core : false
-            	-venue->venue169
+            	.relevance:false
+            	-venue->venue167
             	-cites->paper1500250067
             	-cites->paper1509367797
             	-cites->paper2067838808
@@ -581,7 +615,8 @@ model Paper2008{
                 .title : "Certified Reasoning in Memory Hierarchies"
             	.year : 2008
             	.core : false
-            	-venue->venue185
+            	.relevance:false
+            	-venue->venue183
             	-cites->paper1964727056
             	-cites->paper2121405115
             	-cites->paper2132761501
@@ -595,7 +630,8 @@ model Paper2008{
                 .title : "Analysing Graph Transformation Rules through OCL"
             	.year : 2008
             	.core : false
-            	-venue->venue165
+            	.relevance:false
+            	-venue->venue163
             	-cites->paper1998400029
             	-cites->paper2089381631
             	-authors->author1842561588
@@ -607,6 +643,7 @@ model Paper2008{
                 .title : "Behavioral Modelling and Composition of Object Slices Using Event Observation"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue16
             	-cites->paper1610570299
             	-cites->paper2029414465
@@ -618,6 +655,7 @@ model Paper2008{
                 .title : "Specification and Verification of Invariants by Exploiting Layers in OO Designs"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue532
             	-cites->paper1573044584
             	-cites->paper1583095677
@@ -636,6 +674,7 @@ model Paper2008{
                 .title : "Notarized federated ID management and authentication"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue692
             	-authors->author2135853928
             	-authors->author2153400249
@@ -645,6 +684,7 @@ model Paper2008{
                 .title : "Using Bounded Model Checking to Verify Consensus Algorithms"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue451
             	-cites->paper2035362408
             	-cites->paper2075854425
@@ -657,6 +697,7 @@ model Paper2008{
                 .title : "Assuring Consistency of Business Process Models and Web Services Using Visual Contracts"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue453
             	-authors->author165667033
             	-authors->author2062320239
@@ -667,6 +708,7 @@ model Paper2008{
                 .title : "  Software Engineering for SelfAdaptive Systems A Research Road Map"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue500
             	-authors->author2163867762
             	-authors->author2097290386
@@ -678,6 +720,7 @@ model Paper2008{
                 .title : "ResolutionLike Theorem Proving for HighLevel Conditions"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue254
             	-cites->paper2079370090
             	-authors->author2006550187
@@ -686,6 +729,7 @@ model Paper2008{
                 .title : "Mencius building efficient replicated state machines for WANs"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue251
             	-cites->paper1973501242
             	-cites->paper1992479210
@@ -705,6 +749,7 @@ model Paper2008{
                 .title : "Formal Modeling and Analysis of a Flash Filesystem in Alloy"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue769
             	-cites->paper1519503479
             	-cites->paper1895387792
@@ -717,6 +762,7 @@ model Paper2008{
                 .title : "An AspectOriented and ModelDriven Approach for Managing Dynamic Variability"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue16
             	-cites->paper1978613757
             	-cites->paper2025383609
@@ -736,6 +782,7 @@ model Paper2008{
                 .title : "Finding and reproducing Heisenbugs in concurrent programs"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue251
             	-cites->paper1550904090
             	-cites->paper1568729458
@@ -760,6 +807,7 @@ model Paper2008{
                 .title : "Efficient Stateful Dynamic Partial Order Reduction"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue518
             	-cites->paper1550904090
             	-cites->paper1568729458
@@ -780,6 +828,7 @@ model Paper2008{
                 .title : "A Brief Overview of PVS"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue419
             	-cites->paper1556566737
             	-cites->paper1594381772
@@ -791,6 +840,7 @@ model Paper2008{
                 .title : "A Brief Overview of HOL"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue419
             	-cites->paper1556566737
             	-cites->paper1594381772
@@ -802,6 +852,7 @@ model Paper2008{
                 .title : "Juzi a tool for repairing complex data structures"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue61
             	-cites->paper2095850105
             	-cites->paper2141656264
@@ -812,6 +863,7 @@ model Paper2008{
                 .title : "ATL A model transformation tool"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue875
             	-cites->paper2021327849
             	-cites->paper2169954581
@@ -824,6 +876,7 @@ model Paper2008{
                 .title : "Boomerang resourceful lenses for string data"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue106
             	-authors->author143817722
             	-authors->author2093200457
@@ -835,6 +888,7 @@ model Paper2008{
                 .title : "Automated error analysis for the agilization of feature modeling"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue902
             	-cites->paper1509367797
             	-cites->paper2052598892
@@ -851,6 +905,7 @@ model Paper2008{
                 .title : "Automatic Maintenance of Association Invariants"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue249
             	-cites->paper2010879541
             	-cites->paper2118949216
@@ -863,6 +918,7 @@ model Paper2008{
                 .title : "Statespace exploration for concurrent algorithms under weak memory orderings preliminary version"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue959
             	-cites->paper1972544179
             	-cites->paper1973501242
@@ -882,6 +938,7 @@ model Paper2008{
                 .title : "Bigtable A Distributed Storage System for Structured Data"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue931
             	-cites->paper1992479210
             	-cites->paper2075854425
@@ -902,6 +959,7 @@ model Paper2008{
                 .title : "Serializable isolation for snapshot databases"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue1049
             	-cites->paper1515932031
             	-cites->paper1996952974
@@ -917,6 +975,7 @@ model Paper2008{
                 .title : "An Efficient Solution for Model Checking Graph Transformation Systems"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue1063
             	-cites->paper1550904090
             	-cites->paper1895387792
@@ -933,6 +992,7 @@ model Paper2008{
                 .title : "Compiling mappings to bridge applications and databases"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue1024
             	-cites->paper1558832481
             	-cites->paper1985223393
@@ -947,6 +1007,7 @@ model Paper2008{
                 .title : "A FaultTolerant Model of Wireless SensorActuator Network"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue1252
             	-cites->paper1515932031
             	-cites->paper1545155892
@@ -968,6 +1029,7 @@ model Paper2008{
                 .title : "Locationbased services"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue938
             	-authors->author2128964823
             	-authors->author799116471
@@ -976,6 +1038,7 @@ model Paper2008{
                 .title : "Of Changes and their History Some Ideas for Future IDEs"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue3
             	-authors->author2158171975
             }
@@ -983,6 +1046,7 @@ model Paper2008{
                 .title : "Genie supporting the model driven development of reflective componentbased adaptive systems"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue61
             	-cites->paper2115774534
             	-authors->author2128736411
@@ -995,7 +1059,8 @@ model Paper2008{
                 .title : "Immix a markregion garbage collector with space efficiency fast collection and mutator performance"
             	.year : 2008
             	.core : false
-            	-venue->venue146
+            	.relevance:false
+            	-venue->venue145
             	-cites->paper2102839400
             	-cites->paper2166091242
             	-authors->author2146610949
@@ -1005,6 +1070,7 @@ model Paper2008{
                 .title : "Correctnessaware highlevel functional matching approaches for semantic Web services"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue1490
             	-cites->paper1982084274
             	-cites->paper2017739343
@@ -1017,6 +1083,7 @@ model Paper2008{
                 .title : "Harnessing Digital Evolution"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue904
             	-cites->paper2138464849
             	-cites->paper2139872812
@@ -1032,6 +1099,7 @@ model Paper2008{
                 .title : "An adaptive casteship mechanism for developing multiagent systems"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue1514
             	-cites->paper98021641
             	-cites->paper1964024754
@@ -1047,6 +1115,7 @@ model Paper2008{
                 .title : "A flexible declarative presentation framework for domainspecific modeling"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue1559
             	-cites->paper1963978173
             	-authors->author188902387
@@ -1057,6 +1126,7 @@ model Paper2008{
                 .title : "Conformance checking of service behavior"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue1239
             	-authors->author270949118
             	-authors->author2213520885
@@ -1068,6 +1138,7 @@ model Paper2008{
                 .title : "Parallelism and Concurrency in Adhesive HighLevel Replacement Systems with Negative Application Conditions"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue1063
             	-cites->paper2118710739
             	-cites->paper2170188124
@@ -1080,6 +1151,7 @@ model Paper2008{
                 .title : "The MathSAT  SMT Solver"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue247
             	-authors->author2150132257
             	-authors->author1478355294
@@ -1091,6 +1163,7 @@ model Paper2008{
                 .title : "Revisiting the Core Ontology and Problem in Requirements Engineering"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue81
             	-cites->paper2113435553
             	-cites->paper2177007941
@@ -1102,6 +1175,7 @@ model Paper2008{
                 .title : "Deploying and managing Web services issues solutions and directions"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue334
             	-cites->paper2151472800
             	-authors->author2309367016
@@ -1113,6 +1187,7 @@ model Paper2008{
                 .title : "Modelling SelfAdaptivity A GoalOriented Approach"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue1794
             	-cites->paper1980079693
             	-cites->paper2115774534
@@ -1124,7 +1199,8 @@ model Paper2008{
                 .title : "Learning from mistakes a comprehensive study on real world concurrency bug characteristics"
             	.year : 2008
             	.core : false
-            	-venue->venue176
+            	.relevance:false
+            	-venue->venue174
             	-cites->paper1972544179
             	-cites->paper1986913310
             	-cites->paper2065675749
@@ -1147,6 +1223,7 @@ model Paper2008{
                 .title : "A formal framework for developing adaptable servicebased applications"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue5
             	-cites->paper1482962177
             	-cites->paper1526808427
@@ -1162,6 +1239,7 @@ model Paper2008{
                 .title : "Effective Program Verification for Relaxed Memory Models"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue247
             	-cites->paper1568729458
             	-cites->paper1823635467
@@ -1186,6 +1264,7 @@ model Paper2008{
                 .title : "A Product Line Perspective for Quality Reuse of Development Frameworks for Distributed Transactional Applications"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue31
             	-cites->paper1855065956
             	-cites->paper2043318789
@@ -1196,6 +1275,7 @@ model Paper2008{
                 .title : "Automating Coevolution in ModelDriven Engineering"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue1829
             	-cites->paper1967384977
             	-cites->paper2139872812
@@ -1208,6 +1288,7 @@ model Paper2008{
                 .title : "Can We Transform Requirements into Architecture"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue119
             	-cites->paper2139907081
             	-cites->paper2169954581
@@ -1218,6 +1299,7 @@ model Paper2008{
                 .title : "Domain Specific Languages with Graphical and Textual Views"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue453
             	-cites->paper1511832825
             	-cites->paper2049008406
@@ -1229,6 +1311,7 @@ model Paper2008{
                 .title : "Sufficient Criteria for Applicability and NonApplicability of Rule Sequences"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue457
             	-cites->paper1498244333
             	-cites->paper2090354977
@@ -1241,6 +1324,7 @@ model Paper2008{
                 .title : "TwoLevel Variability Analysis for Business Process with Reusability and Extensibility"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue31
             	-authors->author2171557813
             	-authors->author2012787789
@@ -1250,6 +1334,7 @@ model Paper2008{
                 .title : "Experimenting with exception propagation mechanisms in serviceoriented architecture"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue1987
             	-cites->paper2145071552
             	-authors->author2089764178
@@ -1261,6 +1346,7 @@ model Paper2008{
                 .title : "Supporting the GrowandPrune Model in Software Product Lines Evolution Using Clone Detection"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue69
             	-cites->paper1698439592
             	-cites->paper2109943392
@@ -1275,6 +1361,7 @@ model Paper2008{
                 .title : "Contextaware rolebased access control in pervasive computing systems"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue1529
             	-cites->paper1882088395
             	-cites->paper2021079739
@@ -1285,6 +1372,7 @@ model Paper2008{
                 .title : "GoalBased Modeling of Dynamically Adaptive System Requirements"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue2009
             	-cites->paper2017739343
             	-cites->paper2055689050
@@ -1302,6 +1390,7 @@ model Paper2008{
                 .title : "MDDSOA ModelDriven Service Orchestration"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue1829
             	-cites->paper1257099613
             	-authors->author2138824303
@@ -1312,6 +1401,7 @@ model Paper2008{
                 .title : "Enhancing Data Flow Testing of Classes through Design by Contract"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue1746
             	-cites->paper1978261680
             	-cites->paper2024795941
@@ -1323,6 +1413,7 @@ model Paper2008{
                 .title : "TypeChecking Software Product Lines  A Formal Approach"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue41
             	-cites->paper1500250067
             	-cites->paper2112000202
@@ -1335,6 +1426,7 @@ model Paper2008{
                 .title : "The Development of a Realistic Simulation Framework with OMNeT"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue2033
             	-cites->paper2168452204
             	-authors->author2162122489
@@ -1347,6 +1439,7 @@ model Paper2008{
                 .title : "Reducing accidental complexity in domain models"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue249
             	-cites->paper1589632492
             	-cites->paper2044463389
@@ -1358,6 +1451,7 @@ model Paper2008{
                 .title : "DBPowdermdl Mapping Description Language between Applications and Databases"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue1746
             	-cites->paper1554311651
             	-cites->paper2077449561
@@ -1367,6 +1461,7 @@ model Paper2008{
                 .title : "Repair localization for query answering from inconsistent databases"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue1024
             	-cites->paper1491205793
             	-cites->paper1558832481
@@ -1381,6 +1476,7 @@ model Paper2008{
                 .title : "From Model Transformation to Model Integration based on the Algebraic Approach to Triple Graph Grammars"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue457
             	-authors->author2617007104
             	-authors->author2188988982
@@ -1390,6 +1486,7 @@ model Paper2008{
                 .title : "A Typed Attributed Graph Grammar with Inheritance for the Abstract Syntax of UML Class and Sequence Diagrams"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue1063
             	-cites->paper1561057365
             	-cites->paper1963978173
@@ -1402,6 +1499,7 @@ model Paper2008{
                 .title : "Automated Deployment of Distributed Software Components with Fault Tolerance Guarantees"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue61
             	-authors->author2050486392
             	-authors->author1990677562
@@ -1411,7 +1509,8 @@ model Paper2008{
                 .title : "SPLACID An SPLOriented ACTABased Language for Reusing Varying ACID Properties"
             	.year : 2008
             	.core : false
-            	-venue->venue131
+            	.relevance:false
+            	-venue->venue130
             	-cites->paper1855065956
             	-cites->paper1895387792
             	-cites->paper2043318789
@@ -1425,6 +1524,7 @@ model Paper2008{
                 .title : "Gadara dynamic deadlock avoidance for multithreaded programs"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue251
             	-cites->paper1972544179
             	-cites->paper1993836075
@@ -1445,6 +1545,7 @@ model Paper2008{
                 .title : "Selective Hardening in Early Design Steps"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue2167
             	-authors->author2106400595
             	-authors->author16736758
@@ -1455,6 +1556,7 @@ model Paper2008{
                 .title : "Querying UML Models using OCL and Prolog A Performance Study"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue54
             	-cites->paper1487694410
             	-cites->paper2149230051
@@ -1467,6 +1569,7 @@ model Paper2008{
                 .title : "A Survey on the Flexibility Requirements Related to Business Processes and Modeling Artifacts"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue2107
             	-cites->paper2099293367
             	-cites->paper2119056988
@@ -1477,6 +1580,7 @@ model Paper2008{
                 .title : "Effective static race detection for Java"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue0
             	-cites->paper17332244
             	-cites->paper1972544179
@@ -1503,6 +1607,7 @@ model Paper2008{
                 .title : "Combining Pattern Languages and Reusable Architectural Decision Models into a Comprehensive and Comprehensible Design Method"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue992
             	-cites->paper12874984
             	-cites->paper1600334244
@@ -1518,7 +1623,8 @@ model Paper2008{
                 .title : "Race directed random testing of concurrent programs"
             	.year : 2008
             	.core : false
-            	-venue->venue146
+            	.relevance:false
+            	-venue->venue145
             	-cites->paper17332244
             	-cites->paper1972544179
             	-cites->paper2002179840
@@ -1546,6 +1652,7 @@ model Paper2008{
                 .title : "Alert Detection in System Logs"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue2265
             	-cites->paper1558516248
             	-cites->paper2121122863
@@ -1557,6 +1664,7 @@ model Paper2008{
                 .title : "Generation of BPEL Customization Processes for SaaS Applications from Variability Descriptors"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue2302
             	-authors->author947612571
             	-authors->author2127483189
@@ -1565,6 +1673,7 @@ model Paper2008{
                 .title : "Irrevocable transactions and their applications"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue879
             	-cites->paper1515932031
             	-authors->author1569899815
@@ -1575,6 +1684,7 @@ model Paper2008{
                 .title : "Faithful mapping of model classes to mathematical structures"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue2321
             	-cites->paper1480285224
             	-cites->paper1807498156
@@ -1589,6 +1699,7 @@ model Paper2008{
                 .title : "Verification of chip multiprocessor memory systems using a relaxed scoreboard"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue39
             	-cites->paper1986463648
             	-cites->paper1986913310
@@ -1609,6 +1720,7 @@ model Paper2008{
                 .title : "Using Graph Transformation Systems to Specify and Verify Data Abstractions"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue457
             	-cites->paper1498244333
             	-cites->paper1583095677
@@ -1623,6 +1735,7 @@ model Paper2008{
                 .title : "TestQualityCost Optimization Using OutputDeviationBased Reordering of Test Patterns"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue995
             	-cites->paper2144432950
             	-cites->paper2156443301
@@ -1634,6 +1747,7 @@ model Paper2008{
                 .title : "VariationOriented Engineering VOE Enhancing Reusability of SOAbased Solutions"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue2302
             	-cites->paper2067838808
             	-authors->author1960273364
@@ -1645,6 +1759,7 @@ model Paper2008{
                 .title : "Software development with imperfect information"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue534
             	-authors->author2129173792
             	-authors->author2047412352
@@ -1654,6 +1769,7 @@ model Paper2008{
                 .title : "MarketOriented Cloud Computing Vision Hype and Reality for Delivering IT Services as Computing Utilities"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue1958
             	-authors->author2145289708
             	-authors->author2143742895
@@ -1663,6 +1779,7 @@ model Paper2008{
                 .title : "Formal modelling and analysis of XML firewall for serviceoriented systems"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue2392
             	-authors->author2314273057
             	-authors->author236773611
@@ -1672,6 +1789,7 @@ model Paper2008{
                 .title : "Effective Software Merging in the Presence of ObjectOriented Refactorings"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue914
             	-cites->paper2001907377
             	-cites->paper2121668868
@@ -1686,6 +1804,7 @@ model Paper2008{
                 .title : "Massively multiplayer online roleplaying games the past present and future"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue2433
             	-authors->author2170483195
             	-authors->author2306859221
@@ -1695,6 +1814,7 @@ model Paper2008{
                 .title : "PNUTS Yahoos hosted data serving platform"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue334
             	-cites->paper1515932031
             	-cites->paper1545155892
@@ -1718,6 +1838,7 @@ model Paper2008{
                 .title : "Runtime validation of memory ordering using constraint graph checking"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue978
             	-cites->paper1694765325
             	-cites->paper1973501242
@@ -1740,7 +1861,8 @@ model Paper2008{
                 .title : "Foundations of the C concurrency memory model"
             	.year : 2008
             	.core : false
-            	-venue->venue146
+            	.relevance:false
+            	-venue->venue145
             	-cites->paper1885534640
             	-cites->paper1966151719
             	-cites->paper2010497096
@@ -1761,6 +1883,7 @@ model Paper2008{
                 .title : "Evaluating guidelines for reporting empirical software engineering studies"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue934
             	-authors->author2129302430
             	-authors->author2159138297
@@ -1777,6 +1900,7 @@ model Paper2008{
                 .title : "Applying Software Product Lines to Build Autonomic Pervasive Systems"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue307
             	-cites->paper1509367797
             	-cites->paper2052598892
@@ -1791,6 +1915,7 @@ model Paper2008{
                 .title : "Fault tolerance for highly available internet services concepts approaches and issues"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue2522
             	-authors->author1232121510
             	-authors->author2790392185
@@ -1801,6 +1926,7 @@ model Paper2008{
                 .title : "Reversi Postsilicon validation system for modern microprocessors"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue1813
             	-authors->author1988532706
             	-authors->author2083963182
@@ -1809,6 +1935,7 @@ model Paper2008{
                 .title : "Digital Evolution of Behavioral Models for Autonomic Systems"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue749
             	-cites->paper1526808427
             	-cites->paper2041701185
@@ -1834,6 +1961,7 @@ model Paper2008{
                 .title : "Requirements Coverage as an Adequacy Measure for Conformance Testing"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue305
             	-cites->paper1482962177
             	-cites->paper2340735175
@@ -1846,6 +1974,7 @@ model Paper2008{
                 .title : "Automated Diagnosis of ProductLine Configuration Errors in Feature Models"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue307
             	-cites->paper1509367797
             	-cites->paper1570173564
@@ -1862,6 +1991,7 @@ model Paper2008{
                 .title : "AtomAid Detecting and Surviving Atomicity Violations"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue91
             	-cites->paper1972544179
             	-cites->paper1982125317
@@ -1885,6 +2015,7 @@ model Paper2008{
                 .title : "Sample Spaces and Feature Models There and Back Again"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue307
             	-cites->paper1500250067
             	-cites->paper2082677523
@@ -1898,6 +2029,7 @@ model Paper2008{
                 .title : "Introducing Recovery Style for Modeling and Analyzing System Recovery"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue992
             	-cites->paper1998017916
             	-cites->paper2038476425
@@ -1911,6 +2043,7 @@ model Paper2008{
                 .title : "Kicking the tires of software transactional memory why the going gets tough"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue879
             	-cites->paper2145021036
             	-cites->paper2340530615
@@ -1925,6 +2058,7 @@ model Paper2008{
                 .title : "The PARSEC benchmark suite characterization and architectural implications"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue1128
             	-cites->paper1555915743
             	-cites->paper2145021036
@@ -1937,6 +2071,7 @@ model Paper2008{
                 .title : "FAMA Framework"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue2764
             	-cites->paper1968830561
             	-authors->author2617036353
@@ -1949,6 +2084,7 @@ model Paper2008{
                 .title : "Transactional memory"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue2777
             	-cites->paper1515932031
             	-authors->author635023701
@@ -1958,6 +2094,7 @@ model Paper2008{
                 .title : "Eventually consistent"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue1171
             	-cites->paper2153704625
             	-authors->author2689226784
@@ -1966,6 +2103,7 @@ model Paper2008{
                 .title : "Designing Web Content Management Systems Using the Method Association Approach"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue2957
             	-authors->author2255147862
             	-authors->author231184312
@@ -1977,6 +2115,7 @@ model Paper2008{
                 .title : "A Generic Approach for Automatic Model Composition"
             	.year : 2008
             	.core : false
+            	.relevance:false
             	-venue->venue16
             	-cites->paper1967389447
             	-cites->paper1978613757
@@ -1989,7 +2128,8 @@ model Paper2008{
                 .title : "Feature Modeling for ContextAware Software Product Lines"
             	.year : 2008
             	.core : false
-            	-venue->venue155
+            	.relevance:false
+            	-venue->venue154
             	-cites->paper1570173564
             	-cites->paper1993668354
             	-cites->paper2002237220
@@ -1997,6 +2137,25 @@ model Paper2008{
             	-authors->author2150835398
             	-authors->author2115094878
             	-authors->author2169120257
+            }
+	paper2001233105:Paper {
+                .title : "FTSyn a framework for automatic synthesis of faulttolerance"
+            	.year : 2008
+            	.core : false
+            	.relevance:false
+            	-venue->venue1072
+            	-cites->paper1495119494
+            	-cites->paper2039065451
+            	-cites->paper2095425626
+            	-cites->paper2103953153
+            	-cites->paper2111132249
+            	-cites->paper2120510885
+            	-cites->paper2136671357
+            	-cites->paper2154920174
+            	-cites->paper2294415147
+            	-authors->author2126513744
+            	-authors->author2146138432
+            	-authors->author283123783
             }
 }
 

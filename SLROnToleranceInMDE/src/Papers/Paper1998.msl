@@ -57,6 +57,7 @@ model Paper1998{
                 .title : "Applications of abductive logic programming"
             	.year : 1998
             	.core : false
+            	.relevance:false
             	-venue->venue269
             	-authors->author130847482
             	-authors->author2720942067
@@ -65,6 +66,7 @@ model Paper1998{
                 .title : "Practical File System Design with the Be File System"
             	.year : 1998
             	.core : false
+            	.relevance:false
             	-venue->venue0
             	-cites->paper2115600841
             	-cites->paper2135652458
@@ -76,6 +78,7 @@ model Paper1998{
                 .title : "The Test ModelChecking Approach to the Verification of Formal Memory Models of Multiprocessors"
             	.year : 1998
             	.core : false
+            	.relevance:false
             	-venue->venue247
             	-cites->paper1545792627
             	-cites->paper1986463648
@@ -91,6 +94,7 @@ model Paper1998{
                 .title : "Invariant Discovery via Failed Proof Attempts"
             	.year : 1998
             	.core : false
+            	.relevance:false
             	-venue->venue425
             	-cites->paper2103953153
             	-cites->paper2111706174
@@ -102,6 +106,7 @@ model Paper1998{
                 .title : "Story Diagrams A New Graph Rewrite Language Based on the Unified Modeling Language and Java"
             	.year : 1998
             	.core : false
+            	.relevance:false
             	-venue->venue529
             	-authors->author2110524446
             	-authors->author2632758368
@@ -112,6 +117,7 @@ model Paper1998{
                 .title : "Executing Suspended Logic Programs"
             	.year : 1998
             	.core : false
+            	.relevance:false
             	-venue->venue532
             	-cites->paper2006519067
             	-authors->author2148376583
@@ -122,6 +128,7 @@ model Paper1998{
                 .title : "Composable Semantic Models for Actor Theories"
             	.year : 1998
             	.core : false
+            	.relevance:false
             	-venue->venue673
             	-cites->paper2098830227
             	-cites->paper2157598146
@@ -131,6 +138,7 @@ model Paper1998{
                 .title : "On the logic of merging"
             	.year : 1998
             	.core : false
+            	.relevance:false
             	-venue->venue447
             	-authors->author2104136422
             	-authors->author2106474997
@@ -139,6 +147,7 @@ model Paper1998{
                 .title : "Timing attacks on implementations of diffiehellman rsa dss and other systems"
             	.year : 1998
             	.core : false
+            	.relevance:false
             	-venue->venue286
             	-authors->author1984824673
             }
@@ -146,6 +155,7 @@ model Paper1998{
                 .title : "Termination of graph rewriting is undecidable"
             	.year : 1998
             	.core : false
+            	.relevance:false
             	-venue->venue532
             	-authors->author247206718
             }
@@ -153,7 +163,8 @@ model Paper1998{
                 .title : "FODAcom an experience with domain analysis in the Italian telecom industry"
             	.year : 1998
             	.core : false
-            	-venue->venue169
+            	.relevance:false
+            	-venue->venue167
             	-cites->paper2139907081
             	-authors->author2345279158
             	-authors->author2635264278
@@ -165,6 +176,7 @@ model Paper1998{
                 .title : "Breaking abstractions and unstructuring data structures"
             	.year : 1998
             	.core : false
+            	.relevance:false
             	-venue->venue729
             	-cites->paper2126851641
             	-authors->author321147201
@@ -175,6 +187,7 @@ model Paper1998{
                 .title : "Seeding Evolutionary Growth and Reseeding Constructing Capturing and Evolving Knowledge in DomainOriented Design Environments"
             	.year : 1998
             	.core : false
+            	.relevance:false
             	-venue->venue41
             	-cites->paper2104955812
             	-authors->author2176357113
@@ -183,6 +196,7 @@ model Paper1998{
                 .title : "Managing inconsistent specifications reasoning analysis and action"
             	.year : 1998
             	.core : false
+            	.relevance:false
             	-venue->venue896
             	-cites->paper1979290877
             	-cites->paper2034717157
@@ -197,6 +211,7 @@ model Paper1998{
                 .title : "Version models for software configuration management"
             	.year : 1998
             	.core : false
+            	.relevance:false
             	-venue->venue894
             	-cites->paper2161835696
             	-cites->paper2611598995
@@ -207,6 +222,7 @@ model Paper1998{
                 .title : "The UML as a formal modeling notation"
             	.year : 1998
             	.core : false
+            	.relevance:false
             	-venue->venue1274
             	-cites->paper2099293367
             	-authors->author426991758
@@ -217,6 +233,7 @@ model Paper1998{
                 .title : "Functional verification of a multipleissue outoforder superscalar Alpha processorthe DEC Alpha  microprocessor"
             	.year : 1998
             	.core : false
+            	.relevance:false
             	-venue->venue1308
             	-authors->author2628540832
             	-authors->author2694107750
@@ -230,6 +247,7 @@ model Paper1998{
                 .title : "Ownership types for flexible alias protection"
             	.year : 1998
             	.core : false
+            	.relevance:false
             	-venue->venue1114
             	-cites->paper1491178396
             	-cites->paper1555946950
@@ -243,6 +261,7 @@ model Paper1998{
                 .title : "The parttime parliament"
             	.year : 1998
             	.core : false
+            	.relevance:false
             	-venue->venue931
             	-cites->paper1545155892
             	-cites->paper1973501242
@@ -257,6 +276,7 @@ model Paper1998{
                 .title : "Performance engineering of the Totem group communication system"
             	.year : 1998
             	.core : false
+            	.relevance:false
             	-venue->venue1638
             	-cites->paper1973501242
             	-cites->paper1985349143
@@ -271,6 +291,7 @@ model Paper1998{
                 .title : "What is a file synchronizer"
             	.year : 1998
             	.core : false
+            	.relevance:false
             	-venue->venue1670
             	-cites->paper2001803004
             	-cites->paper2117260615
@@ -281,6 +302,7 @@ model Paper1998{
                 .title : "On the complexity of unsatisfiability proofs for random k CNF formulas"
             	.year : 1998
             	.core : false
+            	.relevance:false
             	-venue->venue1285
             	-cites->paper2057361103
             	-cites->paper2126420408
@@ -293,6 +315,7 @@ model Paper1998{
                 .title : "Inconsistency management for multipleview software development environments"
             	.year : 1998
             	.core : false
+            	.relevance:false
             	-venue->venue914
             	-cites->paper2064707938
             	-cites->paper2117870171
@@ -304,6 +327,7 @@ model Paper1998{
                 .title : "Multiprocessors should support simple memory consistency models"
             	.year : 1998
             	.core : false
+            	.relevance:false
             	-venue->venue904
             	-cites->paper1885534640
             	-cites->paper1966151719
@@ -316,6 +340,7 @@ model Paper1998{
                 .title : "From MSCs to statecharts"
             	.year : 1998
             	.core : false
+            	.relevance:false
             	-venue->venue1905
             	-cites->paper2134062730
             	-authors->author2138551599
@@ -327,6 +352,7 @@ model Paper1998{
                 .title : "Semipassive replication"
             	.year : 1998
             	.core : false
+            	.relevance:false
             	-venue->venue702
             	-cites->paper2005216655
             	-cites->paper2035362408
@@ -340,6 +366,7 @@ model Paper1998{
                 .title : "Manufacturing cheap resilient and stealthy opaque constructs"
             	.year : 1998
             	.core : false
+            	.relevance:false
             	-venue->venue106
             	-cites->paper1491178396
             	-authors->author321147201
@@ -350,6 +377,7 @@ model Paper1998{
                 .title : "Architecturebased runtime software evolution"
             	.year : 1998
             	.core : false
+            	.relevance:false
             	-venue->venue61
             	-cites->paper2146082668
             	-cites->paper2152952812
@@ -363,6 +391,7 @@ model Paper1998{
                 .title : "MMLite a highly componentized system architecture"
             	.year : 1998
             	.core : false
+            	.relevance:false
             	-venue->venue2263
             	-cites->paper2122960384
             	-authors->author205809023
@@ -372,6 +401,7 @@ model Paper1998{
                 .title : "A Statically Safe Alternative to Virtual Types"
             	.year : 1998
             	.core : false
+            	.relevance:false
             	-venue->venue298
             	-authors->author2043604325
             	-authors->author2060729710
@@ -381,6 +411,7 @@ model Paper1998{
                 .title : "Coordinated exception handling in distributed object systems from model to system implementation"
             	.year : 1998
             	.core : false
+            	.relevance:false
             	-venue->venue832
             	-cites->paper2133201251
             	-authors->author2029293694
@@ -391,6 +422,7 @@ model Paper1998{
                 .title : "Flexible modeling and execution of workflow activities"
             	.year : 1998
             	.core : false
+            	.relevance:false
             	-venue->venue2107
             	-cites->paper2062756186
             	-authors->author2185344053
@@ -399,6 +431,7 @@ model Paper1998{
                 .title : "Clone detection using abstract syntax trees"
             	.year : 1998
             	.core : false
+            	.relevance:false
             	-venue->venue700
             	-cites->paper2109943392
             	-cites->paper2115534035
@@ -412,6 +445,7 @@ model Paper1998{
                 .title : "Component software beyond objectoriented programming"
             	.year : 1998
             	.core : false
+            	.relevance:false
             	-venue->venue0
             	-authors->author438290777
             }
@@ -419,6 +453,7 @@ model Paper1998{
                 .title : "Implementing Layered Designs with Mixin Layers"
             	.year : 1998
             	.core : false
+            	.relevance:false
             	-venue->venue298
             	-cites->paper1591471358
             	-cites->paper2138363365
@@ -430,6 +465,7 @@ model Paper1998{
                 .title : "Managing conflicts in goaldriven requirements engineering"
             	.year : 1998
             	.core : false
+            	.relevance:false
             	-venue->venue914
             	-cites->paper1979290877
             	-cites->paper2017739343
@@ -447,6 +483,7 @@ model Paper1998{
                 .title : "Patterns in property specifications for finitestate verification"
             	.year : 1998
             	.core : false
+            	.relevance:false
             	-venue->venue2974
             	-authors->author2129313003
             	-authors->author2156583880
@@ -456,6 +493,7 @@ model Paper1998{
                 .title : "An Architecture for Differentiated Services RFC "
             	.year : 1998
             	.core : false
+            	.relevance:false
             	-venue->venue0
             	-authors->author2134162319
             	-authors->author2154708509
@@ -463,6 +501,29 @@ model Paper1998{
             	-authors->author2307735427
             	-authors->author2110441751
             	-authors->author2140715430
+            }
+	paper1729888041:Paper {
+                .title : "Detectors and correctors a theory of faulttolerance components"
+            	.year : 1998
+            	.core : false
+            	.relevance:false
+            	-venue->venue832
+            	-cites->paper2095425626
+            	-cites->paper2133201251
+            	-cites->paper2133943294
+            	-cites->paper2152465173
+            	-authors->author2126513744
+            	-authors->author2146138432
+            }
+	paper326424914:Paper {
+                .title : "Patterns in property specifications for finitestate verification"
+            	.year : 1998
+            	.core : false
+            	.relevance:false
+            	-venue->venue2974
+            	-authors->author2129313003
+            	-authors->author2156583880
+            	-authors->author11791032
             }
 }
 

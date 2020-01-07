@@ -57,6 +57,7 @@ model Paper1975{
                 .title : "Implementation of integrity constraints and views by query modification"
             	.year : 1975
             	.core : false
+            	.relevance:false
             	-venue->venue1049
             	-authors->author1998938290
             }
@@ -64,6 +65,7 @@ model Paper1975{
                 .title : "System structure for software fault tolerance"
             	.year : 1975
             	.core : false
+            	.relevance:false
             	-venue->venue914
             	-authors->author2029293694
             }
@@ -71,6 +73,7 @@ model Paper1975{
                 .title : "Consistency in Networks of Relations"
             	.year : 1975
             	.core : false
+            	.relevance:false
             	-venue->venue1665
             	-authors->author1981134756
             }
@@ -78,6 +81,7 @@ model Paper1975{
                 .title : "Probabilistic Treatment of General Combinational Networks"
             	.year : 1975
             	.core : false
+            	.relevance:false
             	-venue->venue863
             	-authors->author2126506047
             	-authors->author644833585
@@ -86,7 +90,16 @@ model Paper1975{
                 .title : "System structure for software fault tolerance"
             	.year : 1975
             	.core : false
+            	.relevance:false
             	-venue->venue545
+            	-authors->author2029293694
+            }
+	paper2133201251:Paper {
+                .title : "System structure for software fault tolerance"
+            	.year : 1975
+            	.core : false
+            	.relevance:false
+            	-venue->venue914
             	-authors->author2029293694
             }
 }

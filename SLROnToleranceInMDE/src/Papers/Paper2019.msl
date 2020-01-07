@@ -57,6 +57,7 @@ model Paper2019{
                 .title : "Dealing with Uncertainty in Binary Logistic Regression Faultproneness Models"
             	.year : 2019
             	.core : true
+            	.relevance:false
             	-venue->venue234
             	-cites->paper1342665
             	-cites->paper1590957121
@@ -86,6 +87,7 @@ model Paper2019{
                 .title : "Viatra solver  a framework for the automated generation of consistent domainspecific models"
             	.year : 2019
             	.core : true
+            	.relevance:false
             	-venue->venue61
             	-cites->paper1035875811
             	-cites->paper1548001884
@@ -113,7 +115,8 @@ model Paper2019{
                 .title : "A Formal Analysis of the NVIDIA PTX Memory Consistency Model"
             	.year : 2019
             	.core : true
-            	-venue->venue176
+            	.relevance:false
+            	-venue->venue174
             	-cites->paper150016039
             	-cites->paper1519503479
             	-cites->paper1519576952
@@ -155,6 +158,7 @@ model Paper2019{
                 .title : "Verifying Safety of Synchronous FaultTolerant Algorithms by Bounded Model Checking"
             	.year : 2019
             	.core : true
+            	.relevance:false
             	-venue->venue24
             	-cites->paper1021521453
             	-cites->paper1554005697
@@ -188,6 +192,7 @@ model Paper2019{
                 .title : "Test Model Coverage Analysis Under Uncertainty"
             	.year : 2019
             	.core : true
+            	.relevance:true
             	-venue->venue245
             	-cites->paper1498432697
             	-cites->paper1516256348

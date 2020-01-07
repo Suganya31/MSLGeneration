@@ -57,6 +57,7 @@ model Paper2001{
                 .title : "Lowcost flexible software fault tolerance for distributed computing"
             	.year : 2001
             	.core : true
+            	.relevance:false
             	-venue->venue29
             	-cites->paper1923741182
             	-cites->paper2097719961
@@ -79,6 +80,7 @@ model Paper2001{
                 .title : "Tolerating Inconsistency revisited"
             	.year : 2001
             	.core : true
+            	.relevance:false
             	-venue->venue61
             	-authors->author2627046014
             }
@@ -86,6 +88,7 @@ model Paper2001{
                 .title : "Assumption coverage under different failure modes in the timetriggered architecture"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue314
             	-authors->author665242119
             	-authors->author2565684332
@@ -95,6 +98,7 @@ model Paper2001{
                 .title : "Self Protecting Pirates and BlackBox Traitor Tracing"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue340
             	-authors->author2097786798
             	-authors->author81359666
@@ -103,6 +107,7 @@ model Paper2001{
                 .title : "ODAR an onthefly damage assessment and repair system for commercial database applications"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue354
             	-cites->paper2101465039
             	-cites->paper2144801589
@@ -113,6 +118,7 @@ model Paper2001{
                 .title : "Agent naming and coordination actor based models and infrastructures"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue506
             	-authors->author2161553928
             	-authors->author2792133808
@@ -122,6 +128,7 @@ model Paper2001{
                 .title : "The Essence of Multilevel Metamodeling"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue286
             	-authors->author2277990351
             	-authors->author2110818429
@@ -130,6 +137,7 @@ model Paper2001{
                 .title : "Using Slicing to Identify Duplication in Source Code"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue625
             	-cites->paper1698439592
             	-cites->paper2109943392
@@ -143,6 +151,7 @@ model Paper2001{
                 .title : "RuleBased Specification of Behavioral Consistency Based on the UML Metamodel"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue286
             	-cites->paper2069865621
             	-authors->author1978340988
@@ -153,6 +162,7 @@ model Paper2001{
                 .title : "Implementing a Multivalued Symbolic Model Checker"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue24
             	-cites->paper2168690391
             	-cites->paper2340735175
@@ -164,6 +174,7 @@ model Paper2001{
                 .title : "An Overview of AspectJ"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue298
             	-cites->paper1587166076
             	-cites->paper1991604845
@@ -180,6 +191,7 @@ model Paper2001{
                 .title : "TRaDe a topological approach to onthefly race detection in java programs"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue713
             	-cites->paper2016323637
             	-authors->author2018048180
@@ -189,6 +201,7 @@ model Paper2001{
                 .title : "Using the timely computing base for dependable QoS adaptation"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue702
             	-cites->paper1932544619
             	-cites->paper2035362408
@@ -201,6 +214,7 @@ model Paper2001{
                 .title : "Specification and development of interactive systems focus on streams interfaces and refinement"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue0
             	-authors->author2150988912
             	-authors->author2794330440
@@ -209,6 +223,7 @@ model Paper2001{
                 .title : "Experiments in adjustable autonomy"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue462
             	-authors->author2111278495
             	-authors->author2166828809
@@ -217,6 +232,7 @@ model Paper2001{
                 .title : "SLABS A FORMAL SPECIFICATION LANGUAGE FOR AGENTBASED SYSTEMS"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue858
             	-cites->paper1608796453
             	-cites->paper2139907081
@@ -226,6 +242,7 @@ model Paper2001{
                 .title : "Employing data flow testing on objectoriented classes"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue969
             	-cites->paper1491178396
             	-cites->paper2024795941
@@ -238,6 +255,7 @@ model Paper2001{
                 .title : "Implementing product line variabilities"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue1021
             	-cites->paper1500250067
             	-cites->paper2138363365
@@ -248,6 +266,7 @@ model Paper2001{
                 .title : "Unified Modeling Language A Complexity Analysis"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue1076
             	-authors->author2798902023
             	-authors->author2637476574
@@ -256,6 +275,7 @@ model Paper2001{
                 .title : "Object race detection"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue1114
             	-cites->paper1972544179
             	-cites->paper1976848527
@@ -268,6 +288,7 @@ model Paper2001{
                 .title : "Constructing an asymptotic phase transition in random binary constraint satisfaction problems"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue1184
             	-cites->paper2071706116
             	-cites->paper2139300273
@@ -278,6 +299,7 @@ model Paper2001{
                 .title : "Architecturebased approach to reliability assessment of software systems"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue1256
             	-cites->paper2013498813
             	-authors->author2061499909
@@ -287,6 +309,7 @@ model Paper2001{
                 .title : "Model Checking UML State Machines and Collaborations"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue1063
             	-cites->paper2115309705
             	-authors->author2302931449
@@ -297,6 +320,7 @@ model Paper2001{
                 .title : "Making inconsistency respectable in software development"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue902
             	-cites->paper1968128450
             	-cites->paper2093287224
@@ -312,6 +336,7 @@ model Paper2001{
                 .title : "How to reconcile faulttolerant interval intersection with the Lipschitz condition"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue1018
             	-cites->paper1992554067
             	-authors->author2779108726
@@ -321,6 +346,7 @@ model Paper2001{
                 .title : "Distributed sensor networksa review of recent research"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue1361
             	-cites->paper1992554067
             	-cites->paper2030130446
@@ -334,6 +360,7 @@ model Paper2001{
                 .title : "Aspectoriented programming Introduction"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue938
             	-cites->paper1500250067
             	-cites->paper2103953153
@@ -345,6 +372,7 @@ model Paper2001{
                 .title : "Getting started with ASPECTJ"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue938
             	-cites->paper1610570299
             	-authors->author2420602340
@@ -358,6 +386,7 @@ model Paper2001{
                 .title : "A methodology for specifying and analyzing consistency of objectoriented behavioral models"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue1079
             	-cites->paper1601314163
             	-cites->paper2099293367
@@ -371,6 +400,7 @@ model Paper2001{
                 .title : "Random Constraint Satisfaction Flaws and Structure"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue1262
             	-cites->paper2004223683
             	-cites->paper2139300273
@@ -385,6 +415,7 @@ model Paper2001{
                 .title : "Towards a standard upper ontology"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue1604
             	-authors->author1999842585
             	-authors->author2601233120
@@ -393,6 +424,7 @@ model Paper2001{
                 .title : "Short proofs are narrowresolution made simple"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue877
             	-cites->paper2057361103
             	-cites->paper2088616860
@@ -404,6 +436,7 @@ model Paper2001{
                 .title : "Efficient conflict driven learning in a boolean satisfiability solver"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue1735
             	-cites->paper1787074469
             	-cites->paper2043924273
@@ -420,6 +453,7 @@ model Paper2001{
                 .title : "Identifying similar code with program dependence graphs"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue3
             	-cites->paper1593203335
             	-cites->paper1698439592
@@ -433,6 +467,7 @@ model Paper2001{
                 .title : "Correctly implementing value prediction in microprocessors that support multithreading or multiprocessing"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue39
             	-cites->paper1885534640
             	-cites->paper2029601347
@@ -447,6 +482,7 @@ model Paper2001{
                 .title : "Latency analysis of the totem singlering protocol"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue1865
             	-cites->paper2077671984
             	-authors->author2004479661
@@ -457,6 +493,7 @@ model Paper2001{
                 .title : "Automatic verification of fault tolerance using model checking"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue1867
             	-cites->paper1545155892
             	-cites->paper2080267935
@@ -470,6 +507,7 @@ model Paper2001{
                 .title : "Static consistency checking for distributed specifications"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue41
             	-cites->paper2012959900
             	-cites->paper2054097655
@@ -485,6 +523,7 @@ model Paper2001{
                 .title : "A logic for uncertain probabilities"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue1936
             	-authors->author329072426
             }
@@ -492,6 +531,7 @@ model Paper2001{
                 .title : "Efficient erasure correcting codes"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue1994
             	-cites->paper2135764410
             	-authors->author2337605511
@@ -503,6 +543,7 @@ model Paper2001{
                 .title : "Multiresolution data integration using mobile agents in distributed sensor networks"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue462
             	-cites->paper2125086691
             	-authors->author2892766803
@@ -513,6 +554,7 @@ model Paper2001{
                 .title : "Author Obliged to Submit Paper before  July Policies in an Enterprise Specification"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue2079
             	-authors->author2322147873
             	-authors->author2126147314
@@ -523,6 +565,7 @@ model Paper2001{
                 .title : "A Parallel Java Grande Benchmark Suite"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue1633
             	-authors->author2605533770
             	-authors->author2113782129
@@ -532,6 +575,7 @@ model Paper2001{
                 .title : "Modeling and analysis of redundancy management in distributed objectoriented systems by using UML statecharts"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue2121
             	-cites->paper1929752839
             	-cites->paper2119239145
@@ -542,6 +586,7 @@ model Paper2001{
                 .title : "How to handle dynamic change and capture management information An approach based on generic workflow models"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue1116
             	-cites->paper2062756186
             	-authors->author2061938730
@@ -550,6 +595,7 @@ model Paper2001{
                 .title : "Modeling clones evolution through time series"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue700
             	-cites->paper1698439592
             	-cites->paper2109943392
@@ -564,6 +610,7 @@ model Paper2001{
                 .title : "On the design of lowdensity paritycheck codes within  dB of the Shannon limit"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue2143
             	-cites->paper2135764410
             	-authors->author2302839145
@@ -575,6 +622,7 @@ model Paper2001{
                 .title : "A layered architecture for uniform version management"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue914
             	-cites->paper2001907377
             	-cites->paper2159765281
@@ -586,6 +634,7 @@ model Paper2001{
                 .title : "Synergistic coordination between software and hardware fault tolerance techniques"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue19
             	-cites->paper2097719961
             	-cites->paper2098421844
@@ -601,6 +650,7 @@ model Paper2001{
                 .title : "Automated check of architectural models consistency using SPIN"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue41
             	-cites->paper2020034474
             	-cites->paper2117870171
@@ -612,6 +662,7 @@ model Paper2001{
                 .title : "A UML validation toolset based on abstract state machines"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue41
             	-authors->author2167571421
             	-authors->author1979262351
@@ -621,6 +672,7 @@ model Paper2001{
                 .title : "Describing evolving dependable systems using cooperative software architectures"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue700
             	-cites->paper2159765281
             	-cites->paper2162366870
@@ -631,6 +683,7 @@ model Paper2001{
                 .title : "An adaptive algorithm for tolerating value faults and crash failures"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue1319
             	-cites->paper1589122423
             	-authors->author1982296994
@@ -641,6 +694,7 @@ model Paper2001{
                 .title : "A general framework for formalizing UML with formal languages"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue61
             	-cites->paper1998017916
             	-cites->paper2099293367
@@ -653,6 +707,7 @@ model Paper2001{
                 .title : "The reliability of diverse systems a contribution using modelling of the fault creation process"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue19
             	-cites->paper1565331622
             	-cites->paper1971991620
@@ -666,6 +721,7 @@ model Paper2001{
                 .title : "Chaff engineering an efficient SAT solver"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue1308
             	-cites->paper1787074469
             	-cites->paper2043924273
@@ -682,6 +738,7 @@ model Paper2001{
                 .title : "On the notion of variability in software product lines"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue992
             	-cites->paper2113435553
             	-cites->paper2138363365
@@ -693,6 +750,7 @@ model Paper2001{
                 .title : "A sharp threshold in proof complexity"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue1285
             	-cites->paper1787074469
             	-cites->paper2057361103
@@ -706,6 +764,7 @@ model Paper2001{
                 .title : "On detecting global predicates in distributed computations"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue832
             	-cites->paper1973501242
             	-authors->author2110218440
@@ -715,6 +774,7 @@ model Paper2001{
                 .title : "Separation of duties for access control enforcement in workflow environments"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue1826
             	-cites->paper2038953226
             	-cites->paper2124080036
@@ -726,6 +786,7 @@ model Paper2001{
                 .title : "Automated validation of software models"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue41
             	-cites->paper1507985299
             	-cites->paper1597428879
@@ -742,6 +803,7 @@ model Paper2001{
                 .title : "Uniform leader election protocols for radio networks"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue801
             	-cites->paper2611515161
             	-authors->author2063170645
@@ -751,6 +813,7 @@ model Paper2001{
                 .title : "Effect of code coverage on software reliability measurement"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue1777
             	-cites->paper2156127351
             	-authors->author2893218381
@@ -761,6 +824,7 @@ model Paper2001{
                 .title : "On the Impossibility of Obfuscating Programs"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue340
             	-cites->paper2084641398
             	-authors->author65538393
@@ -775,6 +839,7 @@ model Paper2001{
                 .title : "Does code decay Assessing the evidence from change management data"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue914
             	-authors->author2230662789
             	-authors->author2068808004
@@ -786,6 +851,7 @@ model Paper2001{
                 .title : "Random Constraint Satisfaction A More Accurate Picture"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue1262
             	-authors->author180708131
             	-authors->author1973008803
@@ -798,6 +864,7 @@ model Paper2001{
                 .title : "Goaloriented requirements engineering a guided tour"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue81
             	-cites->paper326424914
             	-cites->paper1968128450
@@ -817,6 +884,7 @@ model Paper2001{
                 .title : "Knowledge base approach to consistency management of UML specifications"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue41
             	-cites->paper1968128450
             	-cites->paper2117818414
@@ -829,6 +897,7 @@ model Paper2001{
                 .title : "Middleware support for voting and data fusion"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue19
             	-cites->paper2118891797
             	-cites->paper2140945213
@@ -842,6 +911,7 @@ model Paper2001{
                 .title : "Scalable consistency checking between diagrams  the VIEWINTEGRA approach"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue41
             	-authors->author2600856194
             }
@@ -849,6 +919,7 @@ model Paper2001{
                 .title : "Software reflexion models bridging the gap between design and implementation"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue914
             	-cites->paper1555946950
             	-cites->paper1984489185
@@ -861,6 +932,7 @@ model Paper2001{
                 .title : "Investigation of logistic regression as a discriminant of software quality"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue821
             	-authors->author30741502
             }
@@ -868,6 +940,7 @@ model Paper2001{
                 .title : "TestEra a novel framework for automated testing of Java programs"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue41
             	-cites->paper1998017916
             	-cites->paper2060440626
@@ -879,6 +952,7 @@ model Paper2001{
                 .title : "Group communication specifications a comprehensive study"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue894
             	-cites->paper1583095677
             	-cites->paper1589122423
@@ -899,6 +973,7 @@ model Paper2001{
                 .title : "Conceptual analysis of lexical taxonomies the case of WordNet toplevel"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue1604
             	-authors->author2087659870
             	-authors->author2051028845
@@ -908,6 +983,7 @@ model Paper2001{
                 .title : "Model checking early requirements specifications in Tropos"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue81
             	-cites->paper2017739343
             	-cites->paper2060440626
@@ -923,6 +999,7 @@ model Paper2001{
                 .title : "A framework for multivalued reasoning over inconsistent viewpoints"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue61
             	-cites->paper326424914
             	-cites->paper1968128450
@@ -939,6 +1016,7 @@ model Paper2001{
                 .title : "Automatable verification of sequential consistency"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue879
             	-cites->paper1502765706
             	-cites->paper1986463648
@@ -952,6 +1030,7 @@ model Paper2001{
                 .title : "Feature Interaction in Composed Systems"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue547
             	-cites->paper1500250067
             	-cites->paper1591471358
@@ -971,6 +1050,7 @@ model Paper2001{
                 .title : "On the effectiveness of a messagedriven confidencedriven protocol for guarded software upgrading"
             	.year : 2001
             	.core : false
+            	.relevance:false
             	-venue->venue1256
             	-cites->paper2100970777
             	-cites->paper2133820906
@@ -980,6 +1060,29 @@ model Paper2001{
             	-authors->author2174616133
             	-authors->author2280265749
             	-authors->author2311471341
+            }
+	paper2140225592:Paper {
+                .title : "A general framework for formalizing UML with formal languages"
+            	.year : 2001
+            	.core : false
+            	.relevance:false
+            	-venue->venue61
+            	-cites->paper1998017916
+            	-cites->paper2099293367
+            	-cites->paper2110425399
+            	-cites->paper2115309705
+            	-authors->author124449960
+            	-authors->author2116990958
+            }
+	paper2145777668:Paper {
+                .title : "On detecting global predicates in distributed computations"
+            	.year : 2001
+            	.core : false
+            	.relevance:false
+            	-venue->venue832
+            	-cites->paper1973501242
+            	-authors->author2110218440
+            	-authors->author1975526600
             }
 }
 

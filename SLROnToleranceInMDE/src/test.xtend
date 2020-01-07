@@ -48,7 +48,7 @@ class test {
 
 		var core = true;
 		var datasetname = "FinalDataset.txt";
-		var writer = new PrintWriter("src\\Papers\\initial.msl", "UTF-8");
+		var writer = new PrintWriter("src\\Papers\\Papers.msl", "UTF-8");
 		papers = JsonParse.extractAuthors(core, datasetname, filtervenues);
 		datasetname = "References_dataset.txt";
 		core = false;
@@ -57,10 +57,11 @@ class test {
 
 		// writer.println(instance.generatePapersMSL(papers))
 		// writer.println(instance.generateAuthorsMSL(papers))
-	//	writer.println(instance.generateVenuesMSL(papers))
+		
+		//writer.println(instance.generateVenuesMSL(papers))
 		// writer.println(instance.generatePapersMSL(papers, 0000))
-	//	writer.close();
-//
+		//writer.close();
+
 		for (paper : papers) {
 			years.add(paper.getYear)
 
@@ -100,6 +101,7 @@ model Paper«year.toString()»{
                 .title : "«getOnlyStrings(paper.getTitle())»"
             	.year : «paper.getYear()»
             	.core : «paper.getCore()»
+            	.relevance:«paper.getRelevance()»
             	-venue->venue«paper.getVenue()»
             	 «var pool=PapersPojo.poolids»
             	«FOR reference : paper.getReferences()»

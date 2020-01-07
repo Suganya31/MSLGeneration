@@ -57,6 +57,7 @@ model Paper1989{
                 .title : "Leases an efficient faulttolerant mechanism for distributed file cache consistency"
             	.year : 1989
             	.core : true
+            	.relevance:false
             	-venue->venue52
             	-cites->paper1547343000
             	-cites->paper1828150029
@@ -82,13 +83,15 @@ model Paper1989{
                 .title : "Tolerating inconsistency"
             	.year : 1989
             	.core : true
-            	-venue->venue213
+            	.relevance:true
+            	-venue->venue211
             	-authors->author2627046014
             }
 	paper1502833055:Paper {
                 .title : "Introduction to redundant arrays of inexpensive disks RAID"
             	.year : 1989
             	.core : false
+            	.relevance:false
             	-venue->venue363
             	-authors->author2098984663
             	-authors->author2101505567
@@ -99,6 +102,7 @@ model Paper1989{
                 .title : "Multivalued possibilities mappings"
             	.year : 1989
             	.core : false
+            	.relevance:false
             	-venue->venue430
             	-cites->paper1964727056
             	-cites->paper2038562061
@@ -109,6 +113,7 @@ model Paper1989{
                 .title : "An overview of PCTE and PCTE"
             	.year : 1989
             	.core : false
+            	.relevance:false
             	-venue->venue1383
             	-authors->author2141000523
             	-authors->author315563974
@@ -119,6 +124,7 @@ model Paper1989{
                 .title : "Automatic generation of test scripts from formal test specifications"
             	.year : 1989
             	.core : false
+            	.relevance:false
             	-venue->venue927
             	-authors->author2131569935
             	-authors->author2807517443
@@ -128,6 +134,7 @@ model Paper1989{
                 .title : "Event synchronization analysis for debugging parallel programs"
             	.year : 1989
             	.core : false
+            	.relevance:false
             	-venue->venue1633
             	-cites->paper1976848527
             	-cites->paper2134747058
@@ -139,6 +146,7 @@ model Paper1989{
                 .title : "Mirage a coherent distributed shared memory design"
             	.year : 1989
             	.core : false
+            	.relevance:false
             	-venue->venue52
             	-cites->paper2012481411
             	-cites->paper2107460938
@@ -149,6 +157,7 @@ model Paper1989{
                 .title : "Multilevel shared caching techniques for scalability in VMPMC"
             	.year : 1989
             	.core : false
+            	.relevance:false
             	-venue->venue91
             	-authors->author2071592122
             	-authors->author2466213108
@@ -158,6 +167,7 @@ model Paper1989{
                 .title : "SPNP stochastic Petri net package"
             	.year : 1989
             	.core : false
+            	.relevance:false
             	-venue->venue2061
             	-cites->paper1964607263
             	-cites->paper2168755708
@@ -170,6 +180,7 @@ model Paper1989{
                 .title : "Conceptual modeling of coincident failures in multiversion software"
             	.year : 1989
             	.core : false
+            	.relevance:false
             	-venue->venue914
             	-cites->paper1971991620
             	-cites->paper1999823724
@@ -182,7 +193,8 @@ model Paper1989{
                 .title : "Onthefly detection of access anomalies"
             	.year : 1989
             	.core : false
-            	-venue->venue146
+            	.relevance:false
+            	-venue->venue145
             	-cites->paper1973501242
             	-cites->paper1976848527
             	-authors->author2307273183
@@ -191,6 +203,7 @@ model Paper1989{
                 .title : "Distance agreement protocols"
             	.year : 1989
             	.core : false
+            	.relevance:false
             	-venue->venue805
             	-cites->paper171247437
             	-cites->paper2035362408
@@ -201,6 +214,7 @@ model Paper1989{
                 .title : "Distributed faulttolerant realtime systems the Mars approach"
             	.year : 1989
             	.core : false
+            	.relevance:false
             	-venue->venue39
             	-authors->author2162784426
             	-authors->author665242119

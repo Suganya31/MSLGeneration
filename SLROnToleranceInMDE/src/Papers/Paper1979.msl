@@ -57,6 +57,7 @@ model Paper1979{
                 .title : "How to Make a Multiprocessor Computer That Correctly Executes Multiprocess Programs"
             	.year : 1979
             	.core : false
+            	.relevance:false
             	-venue->venue863
             	-cites->paper2132334337
             	-authors->author2223936326
@@ -65,6 +66,7 @@ model Paper1979{
                 .title : "The recognition of Series Parallel digraphs"
             	.year : 1979
             	.core : false
+            	.relevance:false
             	-venue->venue1285
             	-authors->author350567680
             	-authors->author2444474037
@@ -74,6 +76,7 @@ model Paper1979{
                 .title : "Designing Software for Ease of Extension and Contraction"
             	.year : 1979
             	.core : false
+            	.relevance:false
             	-venue->venue914
             	-authors->author88694571
             }
@@ -81,6 +84,7 @@ model Paper1979{
                 .title : "A Majority consensus approach to concurrency control for multiple copy databases"
             	.year : 1979
             	.core : false
+            	.relevance:false
             	-venue->venue1024
             	-cites->paper1973501242
             	-authors->author2168273423

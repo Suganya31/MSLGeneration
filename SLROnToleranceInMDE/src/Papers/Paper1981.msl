@@ -57,6 +57,7 @@ model Paper1981{
                 .title : "Development methods for computer programs including a notion of interference"
             	.year : 1981
             	.core : false
+            	.relevance:false
             	-venue->venue0
             	-authors->author2142468959
             }
@@ -64,6 +65,7 @@ model Paper1981{
                 .title : "Myths about the mutual exclusion problem"
             	.year : 1981
             	.core : false
+            	.relevance:false
             	-venue->venue1372
             	-authors->author2170204233
             }
@@ -71,6 +73,7 @@ model Paper1981{
                 .title : "Corrigendum Soundness and Completeness of an Axiom System for Program Verification"
             	.year : 1981
             	.core : false
+            	.relevance:false
             	-venue->venue1032
             	-authors->author2098910421
             }
@@ -78,6 +81,7 @@ model Paper1981{
                 .title : "On optimistic methods for concurrency control"
             	.year : 1981
             	.core : false
+            	.relevance:false
             	-venue->venue1024
             	-cites->paper2106887953
             	-authors->author2573500036
@@ -87,6 +91,7 @@ model Paper1981{
                 .title : "Formal Models for Computer Security"
             	.year : 1981
             	.core : false
+            	.relevance:false
             	-venue->venue894
             	-cites->paper2111706174
             	-authors->author2079317943
@@ -95,6 +100,7 @@ model Paper1981{
                 .title : "The Science of Programming"
             	.year : 1981
             	.core : false
+            	.relevance:false
             	-venue->venue0
             	-authors->author1980295760
             }

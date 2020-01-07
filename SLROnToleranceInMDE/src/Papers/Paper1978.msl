@@ -57,6 +57,7 @@ model Paper1978{
                 .title : "Reliability Issues in Computing System Design"
             	.year : 1978
             	.core : false
+            	.relevance:false
             	-venue->venue894
             	-cites->paper2047924755
             	-cites->paper2133201251
@@ -68,6 +69,7 @@ model Paper1978{
                 .title : "Time clocks and the ordering of events in a distributed system"
             	.year : 1978
             	.core : false
+            	.relevance:false
             	-venue->venue938
             	-authors->author2096750770
             }
@@ -75,6 +77,7 @@ model Paper1978{
                 .title : "Soundness and Completeness of an Axiom System for Program Verification"
             	.year : 1978
             	.core : false
+            	.relevance:false
             	-venue->venue1032
             	-authors->author2098910421
             }
@@ -82,6 +85,7 @@ model Paper1978{
                 .title : "Notes on Data Base Operating Systems"
             	.year : 1978
             	.core : false
+            	.relevance:false
             	-venue->venue573
             	-authors->author2131537204
             }
@@ -89,6 +93,7 @@ model Paper1978{
                 .title : "The C Programming Language"
             	.year : 1978
             	.core : false
+            	.relevance:false
             	-venue->venue0
             	-authors->author2110203303
             	-authors->author2035864640

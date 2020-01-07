@@ -57,6 +57,7 @@ model Paper2013{
                 .title : "Transformation of Models Containing Uncertainty"
             	.year : 2013
             	.core : true
+            	.relevance:true
             	-venue->venue16
             	-cites->paper1536631555
             	-cites->paper1560286168
@@ -87,6 +88,7 @@ model Paper2013{
                 .title : "Supporting consistency between architectural design decisions and component models through reusable architectural knowledge transformations"
             	.year : 2013
             	.core : true
+            	.relevance:true
             	-venue->venue35
             	-cites->paper12874984
             	-cites->paper436813289
@@ -117,6 +119,7 @@ model Paper2013{
                 .title : "Slicing the VModel  Reduced Effort Higher Flexibility"
             	.year : 2013
             	.core : true
+            	.relevance:false
             	-venue->venue37
             	-cites->paper1490132578
             	-cites->paper1583707858
@@ -136,6 +139,7 @@ model Paper2013{
                 .title : "A flexible framework for modeling and simulation of multipurpose wireless networks"
             	.year : 2013
             	.core : true
+            	.relevance:false
             	-venue->venue45
             	-cites->paper1973995867
             	-cites->paper1999638743
@@ -153,6 +157,7 @@ model Paper2013{
                 .title : "VERA A Flexible ModelBased Vulnerability Testing Tool"
             	.year : 2013
             	.core : true
+            	.relevance:false
             	-venue->venue54
             	-cites->paper174528657
             	-cites->paper2008535490
@@ -166,6 +171,7 @@ model Paper2013{
                 .title : "Modes features and statebased modeling for clarity and flexibility"
             	.year : 2013
             	.core : true
+            	.relevance:false
             	-venue->venue56
             	-cites->paper2107232214
             	-cites->paper2244083715
@@ -178,6 +184,7 @@ model Paper2013{
                 .title : "Dependability models for designing disaster tolerant cloud computing systems"
             	.year : 2013
             	.core : true
+            	.relevance:false
             	-venue->venue19
             	-cites->paper1993857386
             	-cites->paper1997269120
@@ -199,6 +206,7 @@ model Paper2013{
                 .title : "Designing flexible access control models for the cloud"
             	.year : 2013
             	.core : true
+            	.relevance:false
             	-venue->venue65
             	-cites->paper9488350
             	-cites->paper14205470
@@ -224,6 +232,7 @@ model Paper2013{
                 .title : "Consistencypreserving edit scripts in model versioning"
             	.year : 2013
             	.core : true
+            	.relevance:true
             	-venue->venue41
             	-cites->paper50128682
             	-cites->paper1540852499
@@ -255,6 +264,7 @@ model Paper2013{
                 .title : "DBPowder A Flexible ObjectRelational Mapping Framework Based on a Conceptual Model"
             	.year : 2013
             	.core : true
+            	.relevance:false
             	-venue->venue31
             	-cites->paper1543888717
             	-cites->paper1554311651
@@ -273,7 +283,8 @@ model Paper2013{
                 .title : "Validating Consistency between a Feature Model and Its Implementation"
             	.year : 2013
             	.core : true
-            	-venue->venue169
+            	.relevance:false
+            	-venue->venue167
             	-cites->paper30803841
             	-cites->paper1635782815
             	-cites->paper1967180522
@@ -302,7 +313,8 @@ model Paper2013{
                 .title : "A new model for errortolerant sidechannel cube attacks"
             	.year : 2013
             	.core : true
-            	-venue->venue206
+            	.relevance:false
+            	-venue->venue204
             	-cites->paper97949831
             	-cites->paper1489792672
             	-cites->paper1509491396
@@ -340,7 +352,8 @@ model Paper2013{
                 .title : "Safetyfirst approach to memory consistency models"
             	.year : 2013
             	.core : true
-            	-venue->venue188
+            	.relevance:false
+            	-venue->venue186
             	-cites->paper1967564401
             	-cites->paper2036853599
             	-cites->paper2054739713
@@ -356,6 +369,7 @@ model Paper2013{
                 .title : "Heterogeneous Models Matching for Consistency Management"
             	.year : 2013
             	.core : true
+            	.relevance:true
             	-venue->venue232
             	-authors->author2021330974
             	-authors->author72241827
@@ -367,6 +381,7 @@ model Paper2013{
                 .title : "Model checking for weakly consistent libraries"
             	.year : 2013
             	.core : true
+            	.relevance:false
             	-venue->venue239
             	-cites->paper1602156367
             	-cites->paper1719093023
@@ -413,7 +428,8 @@ model Paper2013{
                 .title : "AHM  Handling Heterogeneous Models Matching and Consistency via MDE"
             	.year : 2013
             	.core : true
-            	-venue->venue197
+            	.relevance:true
+            	-venue->venue195
             	-cites->paper1503248228
             	-cites->paper2084624236
             	-cites->paper2095628807
@@ -431,6 +447,7 @@ model Paper2013{
                 .title : "Bidirectionally Tolerating Inconsistency  Partial Transformations"
             	.year : 2013
             	.core : true
+            	.relevance:true
             	-venue->venue5
             	-cites->paper1539047152
             	-cites->paper1557990975
@@ -453,6 +470,7 @@ model Paper2013{
                 .title : "Improving Requirements Engineering by Artefact Orientation"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue344
             	-cites->paper1982313944
             	-authors->author2738710481
@@ -462,6 +480,7 @@ model Paper2013{
                 .title : "Implementing QVTR bidirectional model transformations using alloy"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue5
             	-cites->paper1895387792
             	-cites->paper1937692454
@@ -476,6 +495,7 @@ model Paper2013{
                 .title : "Enforcing QVTR with mucalculus and games"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue5
             	-cites->paper1557990975
             	-cites->paper1982313944
@@ -490,6 +510,7 @@ model Paper2013{
                 .title : "Wellformed Model Coevolution with Customizable Model Migration"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue457
             	-authors->author82986800
             	-authors->author2061349279
@@ -499,6 +520,7 @@ model Paper2013{
                 .title : "Towards a Novel Model Versioning Approach Based on the Separation Between Linguistic and Ontological Aspects"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue16
             	-cites->paper1838876590
             	-cites->paper1967384977
@@ -512,6 +534,7 @@ model Paper2013{
                 .title : "Highly available transactions virtues and limitations"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue334
             	-cites->paper1545155892
             	-cites->paper1969925795
@@ -540,6 +563,7 @@ model Paper2013{
                 .title : "Partial orders for efficient bounded model checking of concurrent software"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue247
             	-cites->paper196827001
             	-cites->paper1525350307
@@ -568,6 +592,7 @@ model Paper2013{
                 .title : "Selfadaptation with EndUser Preferences Using RunTime Models and Constraint Solving"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue16
             	-cites->paper1668140416
             	-cites->paper1819146036
@@ -592,7 +617,8 @@ model Paper2013{
                 .title : "A Rete Network Construction Algorithm for Incremental Pattern Matching"
             	.year : 2013
             	.core : false
-            	-venue->venue165
+            	.relevance:false
+            	-venue->venue163
             	-cites->paper1982313944
             	-cites->paper2043310979
             	-cites->paper2116502002
@@ -605,6 +631,7 @@ model Paper2013{
                 .title : "Software verification for weak memory via program transformation"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue484
             	-cites->paper196827001
             	-cites->paper1483960654
@@ -635,6 +662,7 @@ model Paper2013{
                 .title : "Test Program Generation for a Microprocessor A CaseStudy"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue27
             	-cites->paper1480909796
             	-cites->paper1555915743
@@ -650,6 +678,7 @@ model Paper2013{
                 .title : "BTRFS The Linux BTree Filesystem"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue868
             	-cites->paper2100100130
             	-cites->paper2135652458
@@ -662,6 +691,7 @@ model Paper2013{
                 .title : "Bayesian reliability assessment of legacy safetycritical systems upgraded with faulttolerant offtheshelf software"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue885
             	-cites->paper1565331622
             	-authors->author2111509819
@@ -670,6 +700,7 @@ model Paper2013{
                 .title : "WeeFence toward making fences free in TSO"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue91
             	-cites->paper1594825470
             	-cites->paper1885534640
@@ -695,6 +726,7 @@ model Paper2013{
                 .title : "Determining the Cause of a Design Model Inconsistency"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue914
             	-cites->paper187637139
             	-cites->paper1685969755
@@ -720,6 +752,7 @@ model Paper2013{
                 .title : "Fault Tolerance for Distributed Real Time Dynamically Reconfigurable Systems from Modeling to Implementation"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue941
             	-cites->paper2128727110
             	-cites->paper2138363365
@@ -732,6 +765,7 @@ model Paper2013{
                 .title : "MAVVis a notation for model uncertainty"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue56
             	-cites->paper1536631555
             	-cites->paper2110143060
@@ -745,6 +779,7 @@ model Paper2013{
                 .title : "Reducing GPU offload latency via finegrained CPUGPU synchronization"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue978
             	-cites->paper1897254069
             	-cites->paper1979527452
@@ -756,6 +791,7 @@ model Paper2013{
                 .title : "CDSchecker checking concurrent data structures written with CC atomics"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue1005
             	-cites->paper1568729458
             	-cites->paper1887412317
@@ -788,6 +824,7 @@ model Paper2013{
                 .title : "Combining testing and proof to gain high assurance in software A case study"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue29
             	-authors->author1499834557
             	-authors->author1273886664
@@ -797,6 +834,7 @@ model Paper2013{
                 .title : "Failureatomic msync a simple and efficient mechanism for preserving the integrity of durable data"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue1026
             	-cites->paper1981420413
             	-cites->paper2100100130
@@ -812,6 +850,7 @@ model Paper2013{
                 .title : "A collection operator for graph transformation"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue249
             	-cites->paper1498244333
             	-cites->paper1561057365
@@ -826,6 +865,7 @@ model Paper2013{
                 .title : "IndustrialStrength ModelBased Testing  State of the Art and Current Challenges"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue1052
             	-cites->paper1787074469
             	-cites->paper2340735175
@@ -835,6 +875,7 @@ model Paper2013{
                 .title : "Towards an Aspect Oriented Language Compliant with Real Time Constraints"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue941
             	-authors->author22998639
             	-authors->author2715032256
@@ -844,6 +885,7 @@ model Paper2013{
                 .title : "Heterogeneous system coherence for integrated CPUGPU systems"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue39
             	-cites->paper1997352364
             	-cites->paper2080592089
@@ -863,6 +905,7 @@ model Paper2013{
                 .title : "Cache coherence for GPU architectures"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue978
             	-cites->paper1979527452
             	-cites->paper1997576530
@@ -887,6 +930,7 @@ model Paper2013{
                 .title : "Emc A formal framework for energy modelling in cloud computing"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue943
             	-cites->paper2164264749
             	-authors->author2107921881
@@ -898,6 +942,7 @@ model Paper2013{
                 .title : "File systems deserve verification too"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue1148
             	-cites->paper2124877509
             	-cites->paper2138555106
@@ -914,6 +959,7 @@ model Paper2013{
                 .title : "MDCC multidata center consistency"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue1026
             	-cites->paper1515932031
             	-cites->paper1814543774
@@ -938,6 +984,7 @@ model Paper2013{
                 .title : "Modeling and performance analysis of large scale IaaS Clouds"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue1207
             	-cites->paper2021204974
             	-cites->paper2119239145
@@ -951,6 +998,7 @@ model Paper2013{
                 .title : "Optimistic crash consistency"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue52
             	-cites->paper19204414
             	-cites->paper2020299987
@@ -969,6 +1017,7 @@ model Paper2013{
                 .title : "Petri net based techniques for constructing reliable service composition"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue902
             	-cites->paper2036620406
             	-cites->paper2038280282
@@ -984,6 +1033,7 @@ model Paper2013{
                 .title : "Design and Implementation of a Flexible Workflow Management System"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue1227
             	-cites->paper1503566036
             	-cites->paper2101107197
@@ -998,6 +1048,7 @@ model Paper2013{
                 .title : "Spanner Googles Globally Distributed Database"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue931
             	-cites->paper1577169013
             	-cites->paper1845494277
@@ -1043,6 +1094,7 @@ model Paper2013{
                 .title : "Relaxed separation logic a program logic for C concurrency"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue1005
             	-cites->paper1547285994
             	-cites->paper2058943117
@@ -1060,6 +1112,7 @@ model Paper2013{
                 .title : "HighQuality Statistical Test Compression With Narrow ATE Interface"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue995
             	-cites->paper1998663784
             	-cites->paper2121129715
@@ -1071,6 +1124,7 @@ model Paper2013{
                 .title : "A posteriori operation detection in evolving software models"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue902
             	-cites->paper50128682
             	-cites->paper1584818596
@@ -1094,6 +1148,7 @@ model Paper2013{
                 .title : "Pannotia Understanding irregular GPGPU graph applications"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue1132
             	-cites->paper1997162567
             	-cites->paper2078994750
@@ -1107,6 +1162,7 @@ model Paper2013{
                 .title : "An access control framework for hybrid policies"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue65
             	-cites->paper1979903077
             	-cites->paper2000323983
@@ -1122,6 +1178,7 @@ model Paper2013{
                 .title : "Mining behavior models from enterprise web applications"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue1079
             	-authors->author2311160295
             	-authors->author2106620385
@@ -1131,6 +1188,7 @@ model Paper2013{
                 .title : "Towards efficient portable applicationlevel consistency"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue1344
             	-cites->paper19204414
             	-cites->paper1995626000
@@ -1148,6 +1206,7 @@ model Paper2013{
                 .title : "AOAADL Aspect oriented extension for AADL"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue1352
             	-authors->author22998639
             	-authors->author2023662043
@@ -1158,6 +1217,7 @@ model Paper2013{
                 .title : "Inductive data flow graphs"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue106
             	-authors->author2284941451
             	-authors->author2102908900
@@ -1167,6 +1227,7 @@ model Paper2013{
                 .title : "Adaptive faulttolerance faulttolerance for cyberphysical systems"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue1409
             	-authors->author2671401106
             	-authors->author2647930187
@@ -1175,6 +1236,7 @@ model Paper2013{
                 .title : "Automated verification of model transformations based on visual contracts"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue41
             	-cites->paper1560286168
             	-cites->paper1895387792
@@ -1198,6 +1260,7 @@ model Paper2013{
                 .title : "A simple gametheoretic approach to checkonly QVT Relations"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue249
             	-cites->paper1568396250
             	-cites->paper1598022760
@@ -1210,6 +1273,7 @@ model Paper2013{
                 .title : "UML in practice"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue61
             	-cites->paper1997164669
             	-cites->paper2099293367
@@ -1220,6 +1284,7 @@ model Paper2013{
                 .title : "A Satisficing BiDirectional Model Transformation Engine using Mixed Integer Linear Programming"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue1037
             	-cites->paper1511832825
             	-cites->paper1598022760
@@ -1232,6 +1297,7 @@ model Paper2013{
                 .title : "Library abstraction for CC concurrency"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue106
             	-cites->paper1525350307
             	-cites->paper1547285994
@@ -1251,6 +1317,7 @@ model Paper2013{
                 .title : "CompCertTSO A Verified Compiler for RelaxedMemory Concurrency"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue877
             	-cites->paper1482397304
             	-cites->paper1509000726
@@ -1292,6 +1359,7 @@ model Paper2013{
                 .title : "There is more consensus in Egalitarian parliaments"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue52
             	-cites->paper192446467
             	-cites->paper1814543774
@@ -1313,6 +1381,7 @@ model Paper2013{
                 .title : "Low Cost NBTI Degradation Detection and Masking Approaches"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue863
             	-cites->paper2141565132
             	-authors->author2239044815
@@ -1324,6 +1393,7 @@ model Paper2013{
                 .title : "Diversely enumerating systemlevel architectures"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue1613
             	-cites->paper1480909796
             	-cites->paper1519503479
@@ -1335,6 +1405,7 @@ model Paper2013{
                 .title : "Towards shared memory consistency models for GPUs"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue1014
             	-cites->paper1808398105
             	-cites->paper2096956970
@@ -1353,6 +1424,7 @@ model Paper2013{
                 .title : "Tango distributed data structures over a shared log"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue52
             	-cites->paper192446467
             	-cites->paper1524103123
@@ -1378,7 +1450,8 @@ model Paper2013{
                 .title : "Runtime goal models Keynote"
             	.year : 2013
             	.core : false
-            	-venue->venue228
+            	.relevance:false
+            	-venue->venue226
             	-cites->paper1535458435
             	-cites->paper1668140416
             	-cites->paper2017739343
@@ -1398,6 +1471,7 @@ model Paper2013{
                 .title : "GPUWattch enabling energy optimizations in GPGPUs"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue91
             	-cites->paper1979527452
             	-cites->paper2080592089
@@ -1414,6 +1488,7 @@ model Paper2013{
                 .title : "RaceMob crowdsourced data race detection"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue52
             	-cites->paper1048515
             	-cites->paper1873898332
@@ -1441,6 +1516,7 @@ model Paper2013{
                 .title : "Scalable transactions across heterogeneous NoSQL keyvalue data stores"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue334
             	-cites->paper1515932031
             	-cites->paper1845494277
@@ -1464,6 +1540,7 @@ model Paper2013{
                 .title : "The scalable commutativity rule designing scalable software for multicore processors"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue52
             	-cites->paper1480909796
             	-cites->paper2001738739
@@ -1478,6 +1555,7 @@ model Paper2013{
                 .title : "Correct and efficient workstealing for weak memory models"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue1223
             	-cites->paper2054983537
             	-cites->paper2085773946
@@ -1493,6 +1571,7 @@ model Paper2013{
                 .title : "Scalability Analysis of Memory Consistency Models in NoCBased Distributed Shared Memory SoCs"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue995
             	-cites->paper2054739713
             	-cites->paper2085773946
@@ -1511,6 +1590,7 @@ model Paper2013{
                 .title : "Generating Test Data from OCL Constraints with Search Techniques"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue914
             	-cites->paper2098831637
             	-cites->paper2111445678
@@ -1523,6 +1603,7 @@ model Paper2013{
                 .title : "Deconfigurable microprocessor architectures for silicon debug acceleration"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue91
             	-cites->paper2024436253
             	-cites->paper2086311869
@@ -1536,6 +1617,7 @@ model Paper2013{
                 .title : "Transaction chains achieving serializability with low latency in geodistributed storage systems"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue52
             	-cites->paper1515932031
             	-cites->paper1916848204
@@ -1560,6 +1642,7 @@ model Paper2013{
                 .title : "and region serializability for all"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue2451
             	-cites->paper1482397304
             	-cites->paper1887412317
@@ -1593,7 +1676,8 @@ model Paper2013{
                 .title : "DeNovoND efficient hardware support for disciplined nondeterminism"
             	.year : 2013
             	.core : false
-            	-venue->venue176
+            	.relevance:false
+            	-venue->venue174
             	-cites->paper1997576530
             	-cites->paper2088032806
             	-cites->paper2092816328
@@ -1611,6 +1695,7 @@ model Paper2013{
                 .title : "Growing solveraided languages with rosette"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue2619
             	-cites->paper2098643127
             	-cites->paper2129538349
@@ -1623,7 +1708,8 @@ model Paper2013{
                 .title : "Compiler testing via a theory of sound optimisations in the CC memory model"
             	.year : 2013
             	.core : false
-            	-venue->venue146
+            	.relevance:false
+            	-venue->venue145
             	-cites->paper1594228127
             	-cites->paper1990191223
             	-cites->paper2039509099
@@ -1640,6 +1726,7 @@ model Paper2013{
                 .title : "Exploring memory consistency for massivelythreaded throughputoriented processors"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue91
             	-cites->paper1525350307
             	-cites->paper1966151719
@@ -1666,6 +1753,7 @@ model Paper2013{
                 .title : "Performance evaluation of cloud service considering fault recovery"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue2644
             	-cites->paper2114296561
             	-cites->paper2145071552
@@ -1678,6 +1766,7 @@ model Paper2013{
                 .title : "Evaluating cache coherent shared virtual memory for heterogeneous multicore chips"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue976
             	-cites->paper1525350307
             	-cites->paper1997352364
@@ -1693,6 +1782,7 @@ model Paper2013{
                 .title : "FTGPM An Integrated Framework for Investigating Model Transformation Chains"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue2725
             	-cites->paper1982313944
             	-cites->paper2147642262
@@ -1706,6 +1796,7 @@ model Paper2013{
                 .title : "Patchen von Modellen"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue2786
             	-authors->author2702095084
             	-authors->author671159880
@@ -1715,6 +1806,7 @@ model Paper2013{
                 .title : "Programmatic Muddle Management"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue2810
             	-cites->paper2116587399
             	-authors->author1246263134
@@ -1726,6 +1818,7 @@ model Paper2013{
                 .title : "Supporting Agility in MDE Through Modeling Language Relaxation"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue2810
             	-cites->paper1853034543
             	-cites->paper1971702813
@@ -1738,6 +1831,7 @@ model Paper2013{
                 .title : "Generating edit operations for profiled UML models"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue2960
             	-cites->paper2036417954
             	-cites->paper2114990295
@@ -1750,6 +1844,7 @@ model Paper2013{
                 .title : "Thresholds for error probability measures of business process models"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue2977
             	-authors->author2136272530
             	-authors->author2125552387
@@ -1760,6 +1855,7 @@ model Paper2013{
                 .title : "A pilot study of cyber security and privacy related behavior and personality traits"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue1392
             	-cites->paper2162532690
             	-authors->author849646790
@@ -1770,6 +1866,7 @@ model Paper2013{
                 .title : "Certified Programming with Dependent Types A Pragmatic Introduction to the Coq Proof Assistant"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue0
             	-authors->author2617561200
             }
@@ -1777,6 +1874,7 @@ model Paper2013{
                 .title : "MappingAware Megamodeling Design Patterns and Laws"
             	.year : 2013
             	.core : false
+            	.relevance:false
             	-venue->venue443
             	-cites->paper1487672899
             	-cites->paper1503248228

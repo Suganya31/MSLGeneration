@@ -57,6 +57,7 @@ model Paper1976{
                 .title : "An axiomatic proof technique for parallel programs I"
             	.year : 1976
             	.core : false
+            	.relevance:false
             	-venue->venue866
             	-cites->paper2111706174
             	-authors->author1980295760
@@ -66,6 +67,7 @@ model Paper1976{
                 .title : "Operating System Structures to Support Security and Reliable Software"
             	.year : 1976
             	.core : false
+            	.relevance:false
             	-venue->venue894
             	-authors->author2134703145
             }
@@ -73,6 +75,7 @@ model Paper1976{
                 .title : "Software requirements Are they really a problem"
             	.year : 1976
             	.core : false
+            	.relevance:false
             	-venue->venue61
             	-authors->author2122419160
             	-authors->author2720701543
@@ -81,6 +84,7 @@ model Paper1976{
                 .title : "Fault Tolerant Operating Systems"
             	.year : 1976
             	.core : false
+            	.relevance:false
             	-venue->venue894
             	-cites->paper2033656974
             	-cites->paper2133201251
@@ -90,6 +94,7 @@ model Paper1976{
                 .title : "An authorization mechanism for a relational database system"
             	.year : 1976
             	.core : false
+            	.relevance:false
             	-venue->venue1024
             	-authors->author1996950012
             	-authors->author2118727759
@@ -98,6 +103,7 @@ model Paper1976{
                 .title : "A Discipline of Programming"
             	.year : 1976
             	.core : false
+            	.relevance:false
             	-venue->venue0
             	-authors->author2137842401
             }

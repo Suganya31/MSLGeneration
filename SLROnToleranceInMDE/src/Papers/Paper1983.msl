@@ -57,6 +57,7 @@ model Paper1983{
                 .title : "SmallTalk The Interactive Programming Environment"
             	.year : 1983
             	.core : false
+            	.relevance:false
             	-venue->venue0
             	-authors->author2224192923
             }
@@ -64,6 +65,7 @@ model Paper1983{
                 .title : "The clearinghouse a decentralized agent for locating named objects in a distributed environment"
             	.year : 1983
             	.core : false
+            	.relevance:false
             	-venue->venue1216
             	-cites->paper2043671329
             	-authors->author2648415225
@@ -73,6 +75,7 @@ model Paper1983{
                 .title : "Results on the propositional calculus"
             	.year : 1983
             	.core : false
+            	.relevance:false
             	-venue->venue1184
             	-authors->author2041783100
             }
@@ -80,6 +83,7 @@ model Paper1983{
                 .title : "Program developments formal explanations of implementations"
             	.year : 1983
             	.core : false
+            	.relevance:false
             	-venue->venue938
             	-cites->paper2103953153
             	-authors->author2777005984
@@ -88,6 +92,7 @@ model Paper1983{
                 .title : "Rosolving conflicts in global storage design through replication"
             	.year : 1983
             	.core : false
+            	.relevance:false
             	-venue->venue1024
             	-authors->author2131916116
             	-authors->author2246122413
@@ -96,6 +101,7 @@ model Paper1983{
                 .title : "A Data Flow Oriented Program Testing Strategy"
             	.year : 1983
             	.core : false
+            	.relevance:false
             	-venue->venue914
             	-authors->author2628476136
             	-authors->author18609543
@@ -104,6 +110,7 @@ model Paper1983{
                 .title : "Impossibility of distributed consensus with one faulty process"
             	.year : 1983
             	.core : false
+            	.relevance:false
             	-venue->venue1377
             	-cites->paper2035362408
             	-cites->paper2120510885
@@ -115,6 +122,7 @@ model Paper1983{
                 .title : "UPM A Formal Tool for Expressing Database Update Semantics"
             	.year : 1983
             	.core : false
+            	.relevance:false
             	-venue->venue686
             	-authors->author2136435687
             	-authors->author2652035513

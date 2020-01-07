@@ -57,6 +57,7 @@ model Paper2015{
                 .title : "Towards ModelDriven VariabilityBased Flexible Service Compositions"
             	.year : 2015
             	.core : true
+            	.relevance:true
             	-venue->venue31
             	-cites->paper119260449
             	-cites->paper1485856036
@@ -79,6 +80,7 @@ model Paper2015{
                 .title : "Building consistent transactions with inconsistent replication"
             	.year : 2015
             	.core : true
+            	.relevance:false
             	-venue->venue52
             	-cites->paper192446467
             	-cites->paper1433235304
@@ -142,6 +144,7 @@ model Paper2015{
                 .title : "ArMOR defending against memory consistency model mismatches in heterogeneous architectures"
             	.year : 2015
             	.core : true
+            	.relevance:false
             	-venue->venue91
             	-cites->paper1525350307
             	-cites->paper1808398105
@@ -198,6 +201,7 @@ model Paper2015{
                 .title : "Process model for rapid implementation of features using flexible architecture"
             	.year : 2015
             	.core : true
+            	.relevance:false
             	-venue->venue104
             	-cites->paper1496688783
             	-cites->paper2002170195
@@ -209,6 +213,7 @@ model Paper2015{
                 .title : "Consistent coevolution of models and transformations"
             	.year : 2015
             	.core : true
+            	.relevance:true
             	-venue->venue16
             	-cites->paper113976528
             	-cites->paper937233221
@@ -238,6 +243,7 @@ model Paper2015{
                 .title : "Checking UML and OCL Model Consistency An Experience Report on a MiddleSized Case Study"
             	.year : 2015
             	.core : true
+            	.relevance:false
             	-venue->venue27
             	-cites->paper88009092
             	-cites->paper1519503479
@@ -258,6 +264,7 @@ model Paper2015{
                 .title : "Efficient GPU synchronization without scopes saying no to complex consistency models"
             	.year : 2015
             	.core : true
+            	.relevance:false
             	-venue->venue39
             	-cites->paper1897254069
             	-cites->paper1978155891
@@ -296,6 +303,7 @@ model Paper2015{
                 .title : "SMT and POR Beat Counter Abstraction Parameterized Model Checking of ThresholdBased Distributed Algorithms"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue247
             	-cites->paper1480909796
             	-cites->paper1554005697
@@ -317,6 +325,7 @@ model Paper2015{
                 .title : "FFS a new file system for flash storage"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue257
             	-cites->paper1964802076
             	-cites->paper2111262474
@@ -329,6 +338,7 @@ model Paper2015{
                 .title : "On RelyGuarantee Reasoning"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue259
             	-cites->paper115884782
             	-cites->paper1822847061
@@ -340,6 +350,7 @@ model Paper2015{
                 .title : "A ModelBased Approach for the Integration of Configuration Fragments"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue276
             	-cites->paper1551827801
             	-cites->paper1965979806
@@ -352,6 +363,7 @@ model Paper2015{
                 .title : "OwickiGries Reasoning for Weak Memory Models"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue281
             	-cites->paper1525350307
             	-cites->paper1547285994
@@ -372,6 +384,7 @@ model Paper2015{
                 .title : "Partial Validation of Configurations at Runtime"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue491
             	-cites->paper53030892
             	-cites->paper1685969755
@@ -388,6 +401,7 @@ model Paper2015{
                 .title : "Designing distributed systems using approximate synchrony in data center networks"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue619
             	-cites->paper192446467
             	-cites->paper1565495482
@@ -415,6 +429,7 @@ model Paper2015{
                 .title : "Stateless Model Checking for TSO and PSO"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue24
             	-cites->paper1483960654
             	-cites->paper1493542872
@@ -449,6 +464,7 @@ model Paper2015{
                 .title : "Stochastic Modeling of Safety and Security of the eMotor an ASILD Device"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue1
             	-cites->paper1979868167
             	-cites->paper2041938856
@@ -458,6 +474,7 @@ model Paper2015{
                 .title : "Examining the Distinct Antecedents of EMail Habits and its Influence on the Outcomes of a Phishing Attack"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue783
             	-cites->paper2162532690
             	-authors->author2029546100
@@ -466,6 +483,7 @@ model Paper2015{
                 .title : "Towards an automation of the mutation analysis dedicated to model transformation"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue795
             	-cites->paper1486172410
             	-cites->paper1510777893
@@ -483,6 +501,7 @@ model Paper2015{
                 .title : "Lightweight applicationlevel crash consistency on transactional flash storage"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue412
             	-cites->paper19204414
             	-cites->paper195676583
@@ -504,6 +523,7 @@ model Paper2015{
                 .title : "Principles of Persuasion in Social Engineering and Their Use in Phishing"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue845
             	-authors->author2139576279
             	-authors->author2106555730
@@ -513,6 +533,7 @@ model Paper2015{
                 .title : "Collaborative Repositories in ModelDriven Engineering"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue887
             	-cites->paper2094489875
             	-cites->paper2404647912
@@ -525,6 +546,7 @@ model Paper2015{
                 .title : "Formal Reasoning about the C Weak Memory Model"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue988
             	-cites->paper1525350307
             	-cites->paper1990191223
@@ -545,6 +567,7 @@ model Paper2015{
                 .title : "Exampledriven metamodel development"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue249
             	-cites->paper1838876590
             	-cites->paper1967384977
@@ -562,6 +585,7 @@ model Paper2015{
                 .title : "Managing uncertainty in bidirectional model transformations"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue443
             	-cites->paper1525686383
             	-cites->paper1598022760
@@ -582,6 +606,7 @@ model Paper2015{
                 .title : "Modeldriven engineering with domainspecific metamodelling languages"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue249
             	-cites->paper1589632492
             	-cites->paper1838876590
@@ -600,6 +625,7 @@ model Paper2015{
                 .title : "Common Compiler Optimisations are Invalid in the C Memory Model and what we can do about it"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue106
             	-cites->paper1482397304
             	-cites->paper1983206712
@@ -627,6 +653,7 @@ model Paper2015{
                 .title : "F lexi S ketch T eam  collaborative sketching and notation creation on the fly"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue61
             	-authors->author2252739716
             	-authors->author2165064325
@@ -636,6 +663,7 @@ model Paper2015{
                 .title : "A Scalable Correct TimeStamped Stack"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue106
             	-cites->paper1973501242
             	-cites->paper1981393723
@@ -650,6 +678,7 @@ model Paper2015{
                 .title : "A Method to Derive Metric Thresholds for Software Product Lines"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue1304
             	-cites->paper1919928684
             	-cites->paper2088117279
@@ -661,7 +690,8 @@ model Paper2015{
                 .title : "Dynamic partial order reduction for relaxed memory models"
             	.year : 2015
             	.core : false
-            	-venue->venue146
+            	.relevance:false
+            	-venue->venue145
             	-cites->paper1525350307
             	-cites->paper1549714654
             	-cites->paper1568729458
@@ -696,6 +726,7 @@ model Paper2015{
                 .title : "SibylFS formal specification and oraclebased testing for POSIX and realworld file systems"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue52
             	-cites->paper157238496
             	-cites->paper1852929912
@@ -716,6 +747,7 @@ model Paper2015{
                 .title : "Automatic metric thresholds derivation for code smell detection"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue1330
             	-cites->paper1919928684
             	-cites->paper2088117279
@@ -729,6 +761,7 @@ model Paper2015{
                 .title : "SATCheck SATdirected stateless model checking for SC and TSO"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue1005
             	-cites->paper1568729458
             	-cites->paper1719093023
@@ -759,6 +792,7 @@ model Paper2015{
                 .title : "C lean  a race detector with cleaner semantics"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue91
             	-cites->paper1973501242
             	-cites->paper2091085450
@@ -786,6 +820,7 @@ model Paper2015{
                 .title : "Model synchronization based on triple graph grammars correctness completeness and invertibility"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue249
             	-cites->paper1557990975
             	-cites->paper1598022760
@@ -804,6 +839,7 @@ model Paper2015{
                 .title : "Practical Combinatorial Interaction Testing Empirical Findings on Efficiency and Early Fault Detection"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue914
             	-authors->author2101662259
             	-authors->author2150723893
@@ -814,6 +850,7 @@ model Paper2015{
                 .title : "EMFIncQuery"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue875
             	-cites->paper1563049645
             	-cites->paper2043310979
@@ -833,6 +870,7 @@ model Paper2015{
                 .title : "A multilevel approach to modeling language extension in the Enterprise Systems Domain"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue1503
             	-cites->paper1610570299
             	-cites->paper1838876590
@@ -847,7 +885,8 @@ model Paper2015{
                 .title : "Verifying readcopyupdate in a logic for weak memory"
             	.year : 2015
             	.core : false
-            	-venue->venue146
+            	.relevance:false
+            	-venue->venue145
             	-cites->paper1602156367
             	-cites->paper2000659103
             	-cites->paper2014708731
@@ -866,6 +905,7 @@ model Paper2015{
                 .title : "Unfolding based automated testing of multithreaded programs"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue41
             	-cites->paper1480909796
             	-cites->paper1493542872
@@ -882,6 +922,7 @@ model Paper2015{
                 .title : "Valor efficient softwareonly region conflict exceptions"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue1005
             	-cites->paper1048515
             	-cites->paper1482397304
@@ -936,6 +977,7 @@ model Paper2015{
                 .title : "Automatically reasoning about metamodeling"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue249
             	-cites->paper1480909796
             	-cites->paper1519503479
@@ -954,6 +996,7 @@ model Paper2015{
                 .title : "Using Crash Hoare logic for certifying the FSCQ file system"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue52
             	-cites->paper157238496
             	-cites->paper1412006679
@@ -982,6 +1025,7 @@ model Paper2015{
                 .title : "Lightweight adaptive filtering for efficient learning and updating of probabilistic models"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue61
             	-cites->paper1498432697
             	-cites->paper1971908606
@@ -995,6 +1039,7 @@ model Paper2015{
                 .title : "Revisiting Vulnerability Analysis in Modern Microprocessors"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue863
             	-cites->paper2128248970
             	-cites->paper2134411298
@@ -1007,6 +1052,7 @@ model Paper2015{
                 .title : "Efficient Correction of Anomalies in Snapshot Isolation Transactions"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue1644
             	-cites->paper1986913310
             	-cites->paper1987358714
@@ -1025,6 +1071,7 @@ model Paper2015{
                 .title : "Towards a ViewBased Process for Designing and Documenting RESTful Service Architectures"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue35
             	-cites->paper1966654106
             	-cites->paper2038476425
@@ -1037,6 +1084,7 @@ model Paper2015{
                 .title : "HRFRelaxed Adapting HRF to the Complexities of Industrial Heterogeneous Memory Models"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue1644
             	-cites->paper2053776346
             	-cites->paper2054391605
@@ -1053,6 +1101,7 @@ model Paper2015{
                 .title : "A Calculus for Relaxed Memory"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue106
             	-cites->paper1808398105
             	-cites->paper2029601347
@@ -1071,6 +1120,7 @@ model Paper2015{
                 .title : "PostSilicon Validation of Multiprocessor Memory Consistency"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue995
             	-cites->paper1594228127
             	-cites->paper1822674892
@@ -1099,6 +1149,7 @@ model Paper2015{
                 .title : "A sound and optimal incremental build system with dynamic dependencies"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue1005
             	-cites->paper2012058332
             	-authors->author1576900243
@@ -1109,6 +1160,7 @@ model Paper2015{
                 .title : "Remotescope promotion clarified rectified and verified"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue1005
             	-cites->paper1808398105
             	-cites->paper1945229733
@@ -1136,6 +1188,7 @@ model Paper2015{
                 .title : "Revisiting the Complexity of Hardware Cache Coherence and Some Implications"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue1644
             	-cites->paper1997576530
             	-cites->paper2024255419
@@ -1152,6 +1205,7 @@ model Paper2015{
                 .title : "Stash have your scratchpad and cache it too"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue91
             	-cites->paper1979527452
             	-cites->paper1994999558
@@ -1177,6 +1231,7 @@ model Paper2015{
                 .title : "Deriving metrics thresholds using log transformation"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue1388
             	-cites->paper1919928684
             	-cites->paper1998473023
@@ -1188,7 +1243,8 @@ model Paper2015{
                 .title : "Synchronization Using RemoteScope Promotion"
             	.year : 2015
             	.core : false
-            	-venue->venue176
+            	.relevance:false
+            	-venue->venue174
             	-cites->paper1525350307
             	-cites->paper1997352364
             	-cites->paper2021211271
@@ -1209,6 +1265,7 @@ model Paper2015{
                 .title : "Alloy a generalpurpose higherorder relational constraint solver"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue61
             	-cites->paper1480909796
             	-cites->paper1519503479
@@ -1226,7 +1283,8 @@ model Paper2015{
                 .title : "DeNovoSync Efficient Support for Arbitrary Synchronization without WriterInitiated Invalidations"
             	.year : 2015
             	.core : false
-            	-venue->venue176
+            	.relevance:false
+            	-venue->venue174
             	-cites->paper1981393723
             	-cites->paper1997576530
             	-cites->paper2029601347
@@ -1245,6 +1303,7 @@ model Paper2015{
                 .title : "Fastpass a centralized zeroqueue datacenter network"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue1871
             	-authors->author2224166971
             	-authors->author90800944
@@ -1256,7 +1315,8 @@ model Paper2015{
                 .title : "GPU Concurrency Weak Behaviours and Programming Assumptions"
             	.year : 2015
             	.core : false
-            	-venue->venue176
+            	.relevance:false
+            	-venue->venue174
             	-cites->paper1525350307
             	-cites->paper1545792627
             	-cites->paper1594228127
@@ -1282,6 +1342,7 @@ model Paper2015{
                 .title : "Fusion design tradeoffs in coherent cache hierarchies for accelerators"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue91
             	-cites->paper1997352364
             	-cites->paper2164264749
@@ -1293,7 +1354,8 @@ model Paper2015{
                 .title : "Hybrid StaticDynamic Analysis for Statically Bounded Region Serializability"
             	.year : 2015
             	.core : false
-            	-venue->venue176
+            	.relevance:false
+            	-venue->venue174
             	-cites->paper1482397304
             	-cites->paper1966151719
             	-cites->paper1967564401
@@ -1339,6 +1401,7 @@ model Paper2015{
                 .title : "Aposteriori typing for ModelDriven Engineering"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue16
             	-cites->paper1838876590
             	-cites->paper2025196861
@@ -1351,6 +1414,7 @@ model Paper2015{
                 .title : "Systematic CoEvolution of OCL Expressions"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue1165
             	-cites->paper113976528
             	-cites->paper1965979806
@@ -1371,6 +1435,7 @@ model Paper2015{
                 .title : "Network Effects and Data Breaches Investigating the Impact of Information Sharing and the Cyber Black Market"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue2729
             	-authors->author2170150157
             	-authors->author2026179057
@@ -1379,6 +1444,7 @@ model Paper2015{
                 .title : "CCICheck using hb graphs to verify the coherenceconsistency interface"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue39
             	-cites->paper1525350307
             	-cites->paper1593091446
@@ -1411,6 +1477,7 @@ model Paper2015{
                 .title : "New Lace and Arsenic adventures in weak memory with a program logic"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue2743
             	-cites->paper196827001
             	-cites->paper1430872261
@@ -1460,6 +1527,7 @@ model Paper2015{
                 .title : "Effective Abstractions for Verification under Relaxed Memory Models"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue641
             	-cites->paper196827001
             	-cites->paper1480909796
@@ -1482,6 +1550,7 @@ model Paper2015{
                 .title : "ModelDriven Development Based on OMGs IFML with WebRatio Web and Mobile Platform"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue1237
             	-cites->paper1543888717
             	-authors->author2089757171
@@ -1493,6 +1562,7 @@ model Paper2015{
                 .title : "Graph and Model Transformation General Framework and Applications"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue0
             	-authors->author692045707
             	-authors->author268076468
@@ -1503,6 +1573,7 @@ model Paper2015{
                 .title : "Liveness of Parameterized Timed Networks"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue281
             	-authors->author101249219
             	-authors->author2717933515
@@ -1513,6 +1584,7 @@ model Paper2015{
                 .title : "Maintien de la cohrence de modles de conception htrognes"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue2775
             	-authors->author2021330974
             	-authors->author72241827
@@ -1524,6 +1596,7 @@ model Paper2015{
                 .title : "Approach to Define Highly Scalable Metamodels Based on JSON"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue2795
             	-authors->author2635073528
             	-authors->author2406795422
@@ -1534,6 +1607,7 @@ model Paper2015{
                 .title : "A Separation Logic for Fictional Sequential Consistency"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue484
             	-cites->paper1509000726
             	-cites->paper1547285994
@@ -1551,6 +1625,7 @@ model Paper2015{
                 .title : "Towards Inconsistency Management by ProcessOriented Dependency Modeling"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue2815
             	-cites->paper2043310979
             	-cites->paper2127685229
@@ -1563,6 +1638,7 @@ model Paper2015{
                 .title : "Operating systems Three easy pieces"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue0
             	-authors->author1979388515
             	-authors->author74145742
@@ -1571,6 +1647,7 @@ model Paper2015{
                 .title : "Model Repositories Will They Become Reality"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue2805
             	-cites->paper1596597411
             	-cites->paper1977200413
@@ -1586,6 +1663,7 @@ model Paper2015{
                 .title : "MMINT A Graphical Tool for Interactive Model Management"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue2892
             	-cites->paper1995544616
             	-authors->author2032435099
@@ -1598,6 +1676,7 @@ model Paper2015{
                 .title : "A Methodology for Verifying Refinements of Partial Models"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue1037
             	-cites->paper1488412441
             	-cites->paper1510777893
@@ -1628,6 +1707,7 @@ model Paper2015{
                 .title : "Unfoldingbased Partial Order Reduction"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue605
             	-cites->paper1549714654
             	-cites->paper1568729458
@@ -1646,6 +1726,7 @@ model Paper2015{
                 .title : "A Generalized Formal Framework for Partial Modeling"
             	.year : 2015
             	.core : false
+            	.relevance:false
             	-venue->venue5
             	-cites->paper1488121907
             	-cites->paper1536631555

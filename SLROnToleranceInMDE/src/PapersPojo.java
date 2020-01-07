@@ -69,6 +69,14 @@ public class PapersPojo {
 		SE = sE;
 	}
 	Boolean SE;
+	public Boolean getRelevance() {
+		return relevance;
+	}
+	public void setRelevance(Boolean relevance) {
+		this.relevance = relevance;
+	}
+	Boolean relevance;
+
 	
 	List<String> references= new ArrayList<String>();
 	Set<String> authors= new HashSet<String>();

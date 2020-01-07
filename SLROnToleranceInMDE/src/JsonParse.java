@@ -1,4 +1,6 @@
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileReader;
 import java.io.IOException;
 import java.util.Scanner;
 import java.util.Set;
@@ -53,7 +55,17 @@ public class JsonParse {
 	public static List<PapersPojo> extractAuthors(Boolean core, String datasetname, Set<String> filtervenues) throws IOException {
 
 		JsonFactory f = new MappingJsonFactory();
+		 String doifilepath = "C:\\Users\\Suganya\\Downloads\\dblp.v11\\Relevant_Titles";
+		   	BufferedReader br = new BufferedReader(new FileReader(doifilepath));
+		   	String sCurrentLine;
+		   	String filtered;
+			String charsToRemove = "{}[],();:+/-_. ";
+			Set<String> relevanttitle = new HashSet<String>();
 
+		    while ((sCurrentLine = br.readLine()) != null) {
+		    	relevanttitle.add(getOnlyStrings(sCurrentLine).toLowerCase());
+		    	
+		    }
 		File filename = new File("C:\\Users\\Suganya\\Downloads\\dblp.v11\\"+datasetname);
 
 		JsonParser jp = f.createParser(filename);
@@ -69,6 +81,11 @@ public class JsonParse {
 			JsonNode authors = node.path("authors");
 Boolean SE=false;
 			String title = node.path("title").asText();
+			Boolean relevance=false;
+			
+			  if(relevanttitle.contains(getOnlyStrings(title).toLowerCase())) 
+				  relevance=true;
+			 
 			JsonNode venuenode = node.path("venue");
 			String venue=venuenode.findPath("id").asText();
 			String venuename=getOnlyStrings(venuenode.findPath("raw").asText());
@@ -110,6 +127,7 @@ Boolean SE=false;
 
 			paper.setId(id);
 			paper.setSE(SE);
+			paper.setRelevance(relevance);
 
 			paper.setTitle(title);
 			paper.setVenuename(getOnlyStrings(venuename));
@@ -214,7 +232,7 @@ Boolean SE=false;
 		  for(PapersPojo paper:papers) { 
 			  String name=paper.getVenuename(); //
 		 
-		  System.out.println(paper.getVenuename());
+		 // System.out.println(paper.getVenuename());
 		  paper.setVenue(venues_global.get(getOnlyStrings(name).toLowerCase())); 
 		  
 		  

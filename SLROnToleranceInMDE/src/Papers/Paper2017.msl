@@ -57,6 +57,7 @@ model Paper2017{
                 .title : "Intermodel Consistency Checking Using Triple Graph Grammars and Linear Optimization Techniques"
             	.year : 2017
             	.core : true
+            	.relevance:true
             	-venue->venue5
             	-cites->paper1511832825
             	-cites->paper1525686383
@@ -91,7 +92,8 @@ model Paper2017{
                 .title : "Avoiding consistency exceptions under strong memory models"
             	.year : 2017
             	.core : true
-            	-venue->venue188
+            	.relevance:false
+            	-venue->venue186
             	-cites->paper1048515
             	-cites->paper17332244
             	-cites->paper1482397304
@@ -188,6 +190,7 @@ model Paper2017{
                 .title : "MTraceCheck Validating NonDeterministic Behavior of Memory Consistency Models in PostSilicon Validation"
             	.year : 2017
             	.core : true
+            	.relevance:false
             	-venue->venue91
             	-cites->paper1594228127
             	-cites->paper1694765325
@@ -230,6 +233,7 @@ model Paper2017{
                 .title : "Victim Communication Stack VCS A flexible model to select the Human Attack Vector"
             	.year : 2017
             	.core : true
+            	.relevance:false
             	-venue->venue83
             	-cites->paper54475548
             	-cites->paper156137932
@@ -255,6 +259,7 @@ model Paper2017{
                 .title : "An Optimization Model for D Pipe Routing with Flexibility Constraints"
             	.year : 2017
             	.core : true
+            	.relevance:false
             	-venue->venue7
             	-cites->paper1486420508
             	-cites->paper1864619642
@@ -279,6 +284,7 @@ model Paper2017{
                 .title : "A Modeling Approach for Flexible Workflow Applications of Cloud Services"
             	.year : 2017
             	.core : true
+            	.relevance:true
             	-venue->venue31
             	-cites->paper76806710
             	-cites->paper1503566036
@@ -299,6 +305,7 @@ model Paper2017{
                 .title : "From Sequence Diagrams to Event B A Specification and Verification Approach of Flexible Workflow Applications of Cloud Services Based on Metamodel Transformation"
             	.year : 2017
             	.core : true
+            	.relevance:false
             	-venue->venue31
             	-authors->author2135449013
             	-authors->author1227410782
@@ -309,6 +316,7 @@ model Paper2017{
                 .title : "Models of Reliability of FaultTolerant Software Under CyberAttacks"
             	.year : 2017
             	.core : true
+            	.relevance:false
             	-venue->venue29
             	-cites->paper147550463
             	-cites->paper1565331622
@@ -337,6 +345,7 @@ model Paper2017{
                 .title : "From Abstract to Concrete Repairs of Model Inconsistencies An Automated Approach"
             	.year : 2017
             	.core : true
+            	.relevance:false
             	-venue->venue111
             	-authors->author1949402193
             	-authors->author2346573819
@@ -348,6 +357,7 @@ model Paper2017{
                 .title : "Automatically comparing memory consistency models"
             	.year : 2017
             	.core : true
+            	.relevance:false
             	-venue->venue106
             	-cites->paper78552530
             	-cites->paper1482397304
@@ -423,6 +433,7 @@ model Paper2017{
                 .title : "Ogre and Pythia an invariance proof method for weak consistency models"
             	.year : 2017
             	.core : true
+            	.relevance:false
             	-venue->venue106
             	-cites->paper175092372
             	-cites->paper196827001
@@ -483,7 +494,8 @@ model Paper2017{
                 .title : "Consistency Recovery in Interactive Modeling"
             	.year : 2017
             	.core : true
-            	-venue->venue219
+            	.relevance:true
+            	-venue->venue217
             	-cites->paper1507178256
             	-cites->paper1864361234
             	-cites->paper1977200413
@@ -509,7 +521,8 @@ model Paper2017{
                 .title : "The Conformance Relation Challenge Building Flexible Modelling Frameworks"
             	.year : 2017
             	.core : true
-            	-venue->venue219
+            	.relevance:false
+            	-venue->venue217
             	-cites->paper1542225267
             	-cites->paper1982313944
             	-cites->paper2003053377
@@ -532,7 +545,8 @@ model Paper2017{
                 .title : "Using Models at Run Time to Detect Incomplete and Inconsistent Requirements"
             	.year : 2017
             	.core : true
-            	-venue->venue219
+            	.relevance:true
+            	-venue->venue217
             	-cites->paper2092306402
             	-cites->paper2125614502
             	-cites->paper2146191617
@@ -546,7 +560,8 @@ model Paper2017{
                 .title : "Enhancing Flexibility in User Interaction Modeling by Adding Design Uncertainty to IFML"
             	.year : 2017
             	.core : true
-            	-venue->venue219
+            	.relevance:true
+            	-venue->venue217
             	-cites->paper23963972
             	-cites->paper202080076
             	-cites->paper1499512708
@@ -571,7 +586,8 @@ model Paper2017{
                 .title : "Modeling and Enactment Support for Early Detection of Inconsistencies in Engineering Processes"
             	.year : 2017
             	.core : true
-            	-venue->venue219
+            	.relevance:true
+            	-venue->venue217
             	-cites->paper1994901326
             	-cites->paper2043336932
             	-cites->paper2127685229
@@ -591,6 +607,7 @@ model Paper2017{
                 .title : "Formal validation of domainspecific languages with derived features and wellformedness constraints"
             	.year : 2017
             	.core : false
+            	.relevance:false
             	-venue->venue249
             	-cites->paper187743145
             	-cites->paper1480909796
@@ -623,6 +640,7 @@ model Paper2017{
                 .title : "On the completeness of bounded model checking for thresholdbased distributed algorithms"
             	.year : 2017
             	.core : false
+            	.relevance:false
             	-venue->venue1155
             	-cites->paper1021521453
             	-cites->paper1554005697
@@ -643,6 +661,7 @@ model Paper2017{
                 .title : "Stateless model checking for TSO and PSO"
             	.year : 2017
             	.core : false
+            	.relevance:false
             	-venue->venue866
             	-cites->paper1483960654
             	-cites->paper1493542872
@@ -676,6 +695,7 @@ model Paper2017{
                 .title : "gMark SchemaDriven Generation of Graphs and Queries"
             	.year : 2017
             	.core : false
+            	.relevance:false
             	-venue->venue1907
             	-authors->author2141835797
             	-authors->author140057078
@@ -688,6 +708,7 @@ model Paper2017{
                 .title : "A general model checking framework for various memory consistency models"
             	.year : 2017
             	.core : false
+            	.relevance:false
             	-venue->venue1072
             	-cites->paper1602156367
             	-cites->paper1787074469
@@ -715,7 +736,8 @@ model Paper2017{
                 .title : "TriCheck Memory Model Verification at the Trisection of Software Hardware and ISA"
             	.year : 2017
             	.core : false
-            	-venue->venue176
+            	.relevance:false
+            	-venue->venue174
             	-cites->paper1525350307
             	-cites->paper1545792627
             	-cites->paper1895387792
@@ -756,6 +778,7 @@ model Paper2017{
                 .title : "A short counterexample property for safety and liveness verification of faulttolerant distributed algorithms"
             	.year : 2017
             	.core : false
+            	.relevance:false
             	-venue->venue106
             	-cites->paper178138771
             	-cites->paper1021521453
@@ -777,6 +800,7 @@ model Paper2017{
                 .title : "Approaches to CoEvolution of Metamodels and Models A Survey"
             	.year : 2017
             	.core : false
+            	.relevance:false
             	-venue->venue914
             	-cites->paper94833394
             	-cites->paper113976528
@@ -808,6 +832,7 @@ model Paper2017{
                 .title : "UncertaintyDriven BlackBox Test Data Generation"
             	.year : 2017
             	.core : false
+            	.relevance:false
             	-venue->venue54
             	-authors->author1276411778
             	-authors->author2129587872
@@ -816,6 +841,7 @@ model Paper2017{
                 .title : "Datacentric dynamic partial order reduction"
             	.year : 2017
             	.core : false
+            	.relevance:false
             	-venue->venue106
             	-cites->paper837270908
             	-cites->paper1493542872
@@ -845,6 +871,7 @@ model Paper2017{
                 .title : "Mixedsize concurrency ARM POWER CC and SC"
             	.year : 2017
             	.core : false
+            	.relevance:false
             	-venue->venue106
             	-cites->paper1482397304
             	-cites->paper1525350307
@@ -889,6 +916,7 @@ model Paper2017{
                 .title : "Special issue on Flexible Model Driven Engineering"
             	.year : 2017
             	.core : false
+            	.relevance:false
             	-venue->venue2877
             	-authors->author2071298843
             	-authors->author406154369
@@ -898,6 +926,7 @@ model Paper2017{
                 .title : "Constraint programming for type inference in flexible modeldriven engineering"
             	.year : 2017
             	.core : false
+            	.relevance:false
             	-venue->venue2877
             	-cites->paper1514397520
             	-cites->paper1986958631
@@ -915,6 +944,7 @@ model Paper2017{
                 .title : "A promising semantics for relaxedmemory concurrency"
             	.year : 2017
             	.core : false
+            	.relevance:false
             	-venue->venue106
             	-cites->paper1482397304
             	-cites->paper1525350307
@@ -941,6 +971,7 @@ model Paper2017{
                 .title : "Relationship Maintenance in Software Language Repositories"
             	.year : 2017
             	.core : false
+            	.relevance:false
             	-venue->venue669
             	-authors->author1921302331
             }
@@ -948,6 +979,7 @@ model Paper2017{
                 .title : "Concurrent Program Logic for Relaxed Memory Consistency Models with Dependencies across Loop Iterations"
             	.year : 2017
             	.core : false
+            	.relevance:false
             	-venue->venue2898
             	-cites->paper115884782
             	-cites->paper199947708
@@ -979,6 +1011,7 @@ model Paper2017{
                 .title : "Use of Architecture Description to Maintain Consistency in Agile Processes"
             	.year : 2017
             	.core : false
+            	.relevance:false
             	-venue->venue387
             	-authors->author1630443851
             	-authors->author2703851154
@@ -989,6 +1022,7 @@ model Paper2017{
                 .title : "Axioms of Linguistic Architecture"
             	.year : 2017
             	.core : false
+            	.relevance:false
             	-venue->venue387
             	-authors->author235647753
             	-authors->author2163115350
@@ -998,6 +1032,7 @@ model Paper2017{
                 .title : "Riskaverse slopebased thresholds Definition and empirical evaluation"
             	.year : 2017
             	.core : false
+            	.relevance:false
             	-venue->venue1201
             	-cites->paper1342665
             	-cites->paper1919928684
@@ -1018,6 +1053,7 @@ model Paper2017{
                 .title : "A ModuleSystem Discipline for ModelDriven Software Development"
             	.year : 2017
             	.core : false
+            	.relevance:false
             	-venue->venue2905
             	-authors->author1576900243
             	-authors->author1803786443
@@ -1026,6 +1062,7 @@ model Paper2017{
                 .title : "Symbolic Model Generation for Graph Properties"
             	.year : 2017
             	.core : false
+            	.relevance:false
             	-venue->venue5
             	-cites->paper844332498
             	-cites->paper1810787746
@@ -1043,7 +1080,8 @@ model Paper2017{
                 .title : "Automated Synthesis of Comprehensive Memory Model Litmus Test Suites"
             	.year : 2017
             	.core : false
-            	-venue->venue176
+            	.relevance:false
+            	-venue->venue174
             	-cites->paper1482397304
             	-cites->paper1519503479
             	-cites->paper1525350307
@@ -1072,6 +1110,7 @@ model Paper2017{
                 .title : "Stability notions in synthetic graph generation a preliminary study"
             	.year : 2017
             	.core : false
+            	.relevance:false
             	-venue->venue2063
             	-cites->paper2474022715
             	-authors->author140057078
@@ -1083,6 +1122,7 @@ model Paper2017{
                 .title : "A Posteriori Typing for ModelDriven Engineering Concepts Analysis and Applications"
             	.year : 2017
             	.core : false
+            	.relevance:false
             	-venue->venue896
             	-cites->paper1838876590
             	-cites->paper1895387792
@@ -1101,6 +1141,7 @@ model Paper2017{
                 .title : "Integrating Modeling Languages and Web Logs for Enhanced User Behavior Analytics"
             	.year : 2017
             	.core : false
+            	.relevance:false
             	-venue->venue1392
             	-authors->author2089757171
             	-authors->author1991778634
@@ -1112,6 +1153,7 @@ model Paper2017{
                 .title : "A Big Data Analysis Framework for ModelBased Web User Behavior Analytics"
             	.year : 2017
             	.core : false
+            	.relevance:false
             	-venue->venue1237
             	-cites->paper202080076
             	-cites->paper1499512708
@@ -1126,6 +1168,7 @@ model Paper2017{
                 .title : "Envisioning the future of collaborative modeldriven software engineering"
             	.year : 2017
             	.core : false
+            	.relevance:false
             	-venue->venue61
             	-cites->paper1967384977
             	-cites->paper1977200413
@@ -1140,7 +1183,8 @@ model Paper2017{
                 .title : "Repairing sequential consistency in CC"
             	.year : 2017
             	.core : false
-            	-venue->venue146
+            	.relevance:false
+            	-venue->venue145
             	-cites->paper1430872261
             	-cites->paper1525350307
             	-cites->paper1945229733
@@ -1174,6 +1218,7 @@ model Paper2017{
                 .title : "Chasing Away RAts Semantics and Evaluation for Relaxed Atomics on Heterogeneous Systems"
             	.year : 2017
             	.core : false
+            	.relevance:false
             	-venue->venue91
             	-cites->paper1897254069
             	-cites->paper1945229733
@@ -1217,7 +1262,8 @@ model Paper2017{
                 .title : "Graph Constraint Evaluation over Partial Models by Constraint Rewriting"
             	.year : 2017
             	.core : false
-            	-venue->venue165
+            	.relevance:false
+            	-venue->venue163
             	-cites->paper1035875811
             	-cites->paper1480909796
             	-cites->paper1486745608
@@ -1248,6 +1294,7 @@ model Paper2017{
                 .title : "Stateless model checking of the Linux kernels hierarchical readcopyupdate tree RCU"
             	.year : 2017
             	.core : false
+            	.relevance:false
             	-venue->venue2931
             	-cites->paper1568729458
             	-cites->paper1602156367
@@ -1268,6 +1315,7 @@ model Paper2017{
                 .title : "Cutoff Bounds for Consensus Algorithms"
             	.year : 2017
             	.core : false
+            	.relevance:false
             	-venue->venue247
             	-cites->paper178138771
             	-cites->paper1021521453
@@ -1286,6 +1334,7 @@ model Paper2017{
                 .title : "Relational Constraint Solving in SMT"
             	.year : 2017
             	.core : false
+            	.relevance:false
             	-venue->venue677
             	-cites->paper150016039
             	-cites->paper1519503479
@@ -1300,6 +1349,7 @@ model Paper2017{
                 .title : "Towards Inverse Uncertainty Quantification in Software Development Short Paper"
             	.year : 2017
             	.core : false
+            	.relevance:false
             	-venue->venue61
             	-cites->paper1862398452
             	-cites->paper2018800706
@@ -1315,6 +1365,7 @@ model Paper2017{
                 .title : "Synthetic data generation for statistical testing"
             	.year : 2017
             	.core : false
+            	.relevance:false
             	-venue->venue41
             	-cites->paper999459616
             	-cites->paper1895387792
@@ -1328,6 +1379,7 @@ model Paper2017{
                 .title : "The importance of flow in software development"
             	.year : 2017
             	.core : false
+            	.relevance:false
             	-venue->venue249
             	-authors->author151827428
             	-authors->author2155833130
@@ -1336,6 +1388,7 @@ model Paper2017{
                 .title : "Bidirectional Transformations in the Large"
             	.year : 2017
             	.core : false
+            	.relevance:false
             	-venue->venue16
             	-cites->paper1991633729
             	-cites->paper2025624633
@@ -1347,6 +1400,7 @@ model Paper2017{
                 .title : "APSL A Light Weight Testing Tool for Protocols with Complex Messages"
             	.year : 2017
             	.core : false
+            	.relevance:false
             	-venue->venue2946
             	-authors->author2767406042
             	-authors->author2767321794
@@ -1355,6 +1409,7 @@ model Paper2017{
                 .title : "Simplifying ARM concurrency multicopyatomic axiomatic and operational models for ARMv"
             	.year : 2017
             	.core : false
+            	.relevance:false
             	-venue->venue106
             	-cites->paper1525350307
             	-cites->paper1545792627
@@ -1390,6 +1445,7 @@ model Paper2017{
                 .title : "Effective stateless model checking for CC concurrency"
             	.year : 2017
             	.core : false
+            	.relevance:false
             	-venue->venue106
             	-cites->paper837270908
             	-cites->paper1430872261
@@ -1426,7 +1482,8 @@ model Paper2017{
                 .title : "ProcessAware Modeldriven Development Environments"
             	.year : 2017
             	.core : false
-            	-venue->venue219
+            	.relevance:false
+            	-venue->venue217
             	-cites->paper2187340853
             	-authors->author2111120067
             	-authors->author2686474786
@@ -1439,6 +1496,7 @@ model Paper2017{
                 .title : "The modelverse a tool for multiparadigm modelling and simulation"
             	.year : 2017
             	.core : false
+            	.relevance:false
             	-venue->venue2953
             	-authors->author150610930
             	-authors->author2045058881
@@ -1447,6 +1505,7 @@ model Paper2017{
                 .title : "A Formal Framework for Specifying and Verifying Microservices Based Process Flows"
             	.year : 2017
             	.core : false
+            	.relevance:false
             	-venue->venue61
             	-authors->author2024396717
             	-authors->author2156588810

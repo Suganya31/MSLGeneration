@@ -9,6 +9,7 @@ metamodel Bibliography {
 		-cites(0..*)->Paper
 		.title : EString
 		.core : EBoolean
+		.relevant : EBoolean		
 		.year  : EInt
 		-venue(1..*) ->Venue
 	}

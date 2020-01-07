@@ -57,6 +57,7 @@ model Paper1980{
                 .title : "A carrier sense multiple access protocol for local networks"
             	.year : 1980
             	.core : false
+            	.relevance:false
             	-venue->venue1084
             	-authors->author2142037325
             }
@@ -64,6 +65,7 @@ model Paper1980{
                 .title : "Issues in the design and use of a distributed file system"
             	.year : 1980
             	.core : false
+            	.relevance:false
             	-venue->venue1205
             	-authors->author2297054173
             	-authors->author2575882345

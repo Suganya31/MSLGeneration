@@ -35,7 +35,7 @@ model AllVenues {
 	      }
 	venue19:Venue {
 	      	.Name : "dependable systems and networks"
-	      	.SE: true
+	      	.SE: false
 	      }
 	venue24:Venue {
 	      	.Name : "tools and algorithms for construction and analysis of systems"
@@ -75,7 +75,7 @@ model AllVenues {
 	      }
 	venue45:Venue {
 	      	.Name : "rapid system prototyping"
-	      	.SE: true
+	      	.SE: false
 	      }
 	venue50:Venue {
 	      	.Name : "principles and practice of declarative programming"
@@ -91,7 +91,7 @@ model AllVenues {
 	      }
 	venue56:Venue {
 	      	.Name : "Proceedings of the th International Workshop on Modeling in Software Engineering"
-	      	.SE: true
+	      	.SE: false
 	      }
 	venue61:Venue {
 	      	.Name : "international conference on software engineering"
@@ -111,7 +111,7 @@ model AllVenues {
 	      }
 	venue73:Venue {
 	      	.Name : "international conference on information and communication security"
-	      	.SE: true
+	      	.SE: false
 	      }
 	venue79:Venue {
 	      	.Name : "bioinformatics and bioengineering"
@@ -127,7 +127,7 @@ model AllVenues {
 	      }
 	venue85:Venue {
 	      	.Name : "ieee international conference on high performance computing data and analytics"
-	      	.SE: true
+	      	.SE: false
 	      }
 	venue91:Venue {
 	      	.Name : "international symposium on computer architecture"
@@ -139,11 +139,11 @@ model AllVenues {
 	      }
 	venue95:Venue {
 	      	.Name : "ieee international conference on requirements engineering"
-	      	.SE: true
+	      	.SE: false
 	      }
 	venue98:Venue {
 	      	.Name : "highassurance systems engineering"
-	      	.SE: true
+	      	.SE: false
 	      }
 	venue102:Venue {
 	      	.Name : "high assurance systems engineering"
@@ -173,93 +173,93 @@ model AllVenues {
 	      	.Name : "international conference on software engineering advances"
 	      	.SE: true
 	      }
-	venue131:Venue {
+	venue130:Venue {
 	      	.Name : "annual software engineering workshop"
-	      	.SE: true
+	      	.SE: false
 	      }
-	venue140:Venue {
+	venue139:Venue {
 	      	.Name : "ABZ Proceedings of the Third international conference on Abstract State Machines Alloy B VDM and Z"
-	      	.SE: true
+	      	.SE: false
 	      }
-	venue146:Venue {
+	venue145:Venue {
 	      	.Name : "programming language design and implementation"
 	      	.SE: true
 	      }
-	venue148:Venue {
+	venue147:Venue {
 	      	.Name : "international workshop on security"
 	      	.SE: true
 	      }
-	venue155:Venue {
+	venue154:Venue {
 	      	.Name : "software engineering and knowledge engineering"
 	      	.SE: true
 	      }
-	venue159:Venue {
+	venue158:Venue {
 	      	.Name : "international on line testing symposium"
-	      	.SE: true
+	      	.SE: false
 	      }
-	venue161:Venue {
+	venue160:Venue {
 	      	.Name : "requirements engineering foundation for software quality"
 	      	.SE: true
 	      }
-	venue165:Venue {
+	venue163:Venue {
 	      	.Name : "international conference on model transformation"
 	      	.SE: true
 	      }
-	venue169:Venue {
+	venue167:Venue {
 	      	.Name : "international conference on software reuse"
 	      	.SE: true
 	      }
-	venue172:Venue {
+	venue170:Venue {
 	      	.Name : "automated technology for verification and analysis"
 	      	.SE: true
 	      }
-	venue176:Venue {
+	venue174:Venue {
 	      	.Name : "architectural support for programming languages and operating systems"
 	      	.SE: true
 	      }
-	venue178:Venue {
+	venue176:Venue {
 	      	.Name : "international online testing symposium"
 	      	.SE: true
 	      }
-	venue181:Venue {
+	venue179:Venue {
 	      	.Name : "software engineering research and applications"
-	      	.SE: true
+	      	.SE: false
 	      }
-	venue185:Venue {
+	venue183:Venue {
 	      	.Name : "asian symposium on programming languages and systems"
 	      	.SE: true
 	      }
-	venue188:Venue {
+	venue186:Venue {
 	      	.Name : "international symposium on memory management"
 	      	.SE: true
 	      }
-	venue197:Venue {
+	venue195:Venue {
 	      	.Name : "international conference on evaluation of novel approaches to software engineering"
 	      	.SE: true
 	      }
-	venue206:Venue {
+	venue204:Venue {
 	      	.Name : "cryptographic hardware and embedded systems"
 	      	.SE: true
 	      }
-	venue209:Venue {
+	venue207:Venue {
 	      	.Name : "international symposium on computer modeling measurement and evaluation"
-	      	.SE: true
+	      	.SE: false
 	      }
-	venue213:Venue {
+	venue211:Venue {
 	      	.Name : "international software process workshop"
-	      	.SE: true
+	      	.SE: false
 	      }
-	venue219:Venue {
+	venue217:Venue {
 	      	.Name : "MODELS Satellite Events"
-	      	.SE: true
+	      	.SE: false
 	      }
-	venue228:Venue {
+	venue226:Venue {
 	      	.Name : "research challenges in information science"
-	      	.SE: true
+	      	.SE: false
 	      }
 	venue232:Venue {
 	      	.Name : "th International Conference on Evaluation of Novel Software Approaches to Software Engineering"
-	      	.SE: true
+	      	.SE: false
 	      }
 	venue234:Venue {
 	      	.Name : "International Conference on Evaluation and Assessment in Software Engineering"
@@ -1703,7 +1703,7 @@ model AllVenues {
 	      }
 	venue1550:Venue {
 	      	.Name : "international conference on software and systems process"
-	      	.SE: true
+	      	.SE: false
 	      }
 	venue1559:Venue {
 	      	.Name : "advanced visual interfaces"
@@ -2628,6 +2628,10 @@ model AllVenues {
 	venue3017:Venue {
 	      	.Name : "International Conference on the Unified Modeling Language"
 	      	.SE: false
+	      }
+	venue3050:Venue {
+	      	.Name : "european conference on pattern languages of programs"
+	      	.SE: true
 	      }
 }
 

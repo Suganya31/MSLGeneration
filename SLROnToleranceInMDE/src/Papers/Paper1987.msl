@@ -57,6 +57,7 @@ model Paper1987{
                 .title : "Abstracting Relational and Hierarchical Data with a Semantic Data Model"
             	.year : 1987
             	.core : false
+            	.relevance:false
             	-venue->venue331
             	-authors->author2280703322
             	-authors->author2065325028
@@ -65,6 +66,7 @@ model Paper1987{
                 .title : "Concurrency Control and Recovery in Database Systems"
             	.year : 1987
             	.core : false
+            	.relevance:false
             	-venue->venue0
             	-authors->author2304774990
             	-authors->author2788786562
@@ -74,6 +76,7 @@ model Paper1987{
                 .title : "Converting A Relational Database Model into an EntityRelationship Model"
             	.year : 1987
             	.core : false
+            	.relevance:false
             	-venue->venue331
             	-authors->author2706069882
             	-authors->author2612593125
@@ -82,6 +85,7 @@ model Paper1987{
                 .title : "Fault Masking and Sequence Agreement by a Voting Protocol with low Message Number"
             	.year : 1987
             	.core : false
+            	.relevance:false
             	-venue->venue702
             	-authors->author2633718059
             }
@@ -89,6 +93,7 @@ model Paper1987{
                 .title : "Domain names  concepts and facilities"
             	.year : 1987
             	.core : false
+            	.relevance:false
             	-venue->venue754
             	-authors->author2251318330
             }
@@ -96,6 +101,7 @@ model Paper1987{
                 .title : "Writing Larch interface language specifications"
             	.year : 1987
             	.core : false
+            	.relevance:false
             	-venue->venue1243
             	-cites->paper2110050316
             	-cites->paper2111706174
@@ -105,6 +111,7 @@ model Paper1987{
                 .title : "Caching Hints in Distributed Systems"
             	.year : 1987
             	.core : false
+            	.relevance:false
             	-venue->venue914
             	-cites->paper2043671329
             	-cites->paper2111223826
@@ -114,6 +121,7 @@ model Paper1987{
                 .title : "Epidemic algorithms for replicated database maintenance"
             	.year : 1987
             	.core : false
+            	.relevance:false
             	-venue->venue990
             	-cites->paper2009312542
             	-cites->paper2043671329
@@ -133,6 +141,7 @@ model Paper1987{
                 .title : "Self The power of simplicity"
             	.year : 1987
             	.core : false
+            	.relevance:false
             	-venue->venue1005
             	-authors->author2041937263
             	-authors->author2342746433
@@ -141,6 +150,7 @@ model Paper1987{
                 .title : "Correct memory operation of cachebased multiprocessors"
             	.year : 1987
             	.core : false
+            	.relevance:false
             	-venue->venue91
             	-cites->paper1545792627
             	-cites->paper1973501242
@@ -153,6 +163,7 @@ model Paper1987{
                 .title : "Discarding Obsolete Information in a Replicated Database System"
             	.year : 1987
             	.core : false
+            	.relevance:false
             	-venue->venue914
             	-cites->paper1973501242
             	-cites->paper2043671329
@@ -163,6 +174,7 @@ model Paper1987{
                 .title : "Prototyping a project master database for software engineering environments"
             	.year : 1987
             	.core : false
+            	.relevance:false
             	-venue->venue1383
             	-authors->author1976084713
             }
@@ -170,6 +182,7 @@ model Paper1987{
                 .title : "Deadlock detection in distributed databases"
             	.year : 1987
             	.core : false
+            	.relevance:false
             	-venue->venue894
             	-cites->paper1545155892
             	-cites->paper1973501242
@@ -179,6 +192,7 @@ model Paper1987{
                 .title : "Three partition refinement algorithms"
             	.year : 1987
             	.core : false
+            	.relevance:false
             	-venue->venue1032
             	-authors->author350567680
             	-authors->author2045095730
@@ -187,6 +201,7 @@ model Paper1987{
                 .title : "Integrity constraint checking in stratified databases"
             	.year : 1987
             	.core : false
+            	.relevance:false
             	-venue->venue912
             	-cites->paper181078895
             	-cites->paper190622319
@@ -199,6 +214,7 @@ model Paper1987{
                 .title : "Optimal clock synchronization"
             	.year : 1987
             	.core : false
+            	.relevance:false
             	-venue->venue877
             	-cites->paper2095464745
             	-cites->paper2118891797
@@ -210,6 +226,7 @@ model Paper1987{
                 .title : "Software processes are software too"
             	.year : 1987
             	.core : false
+            	.relevance:false
             	-venue->venue61
             	-authors->author2248607981
             }
@@ -217,6 +234,7 @@ model Paper1987{
                 .title : "Reimplementing the Cedar file system using logging and group commit"
             	.year : 1987
             	.core : false
+            	.relevance:false
             	-venue->venue52
             	-cites->paper2057954021
             	-cites->paper2106887953
@@ -227,6 +245,7 @@ model Paper1987{
                 .title : "Simulating authenticated broadcasts to derive simple faulttolerant algorithms"
             	.year : 1987
             	.core : false
+            	.relevance:false
             	-venue->venue1018
             	-cites->paper1999552553
             	-cites->paper2095343473
@@ -238,6 +257,7 @@ model Paper1987{
                 .title : "Exploiting virtual synchrony in distributed systems"
             	.year : 1987
             	.core : false
+            	.relevance:false
             	-venue->venue52
             	-cites->paper1973501242
             	-cites->paper2116820549
@@ -249,6 +269,7 @@ model Paper1987{
                 .title : "A Comparison of Commercial and Military Computer Security Policies"
             	.year : 1987
             	.core : false
+            	.relevance:false
             	-venue->venue1899
             	-authors->author2135387429
             	-authors->author2619093566
@@ -257,6 +278,7 @@ model Paper1987{
                 .title : "Cleanroom Software Engineering"
             	.year : 1987
             	.core : false
+            	.relevance:false
             	-venue->venue887
             	-authors->author2507038796
             	-authors->author2151179467

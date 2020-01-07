@@ -57,6 +57,7 @@ model Paper1982{
                 .title : "Epigrams on Programming"
             	.year : 1982
             	.core : false
+            	.relevance:false
             	-venue->venue545
             	-authors->author2659867364
             }
@@ -64,6 +65,7 @@ model Paper1982{
                 .title : "The Recognition of Series Parallel Digraphs"
             	.year : 1982
             	.core : false
+            	.relevance:false
             	-venue->venue1032
             	-authors->author350567680
             	-authors->author2444474037
@@ -73,6 +75,7 @@ model Paper1982{
                 .title : "Grapevine an exercise in distributed computing"
             	.year : 1982
             	.core : false
+            	.relevance:false
             	-venue->venue938
             	-authors->author2153103727
             	-authors->author2470914381
@@ -83,6 +86,7 @@ model Paper1982{
                 .title : "Logic for improving integrity checking in relational data bases"
             	.year : 1982
             	.core : false
+            	.relevance:false
             	-venue->venue866
             	-cites->paper2103920867
             	-authors->author2288386885
@@ -91,6 +95,7 @@ model Paper1982{
                 .title : "Rete a fast algorithm for the many patternmany object pattern match problem"
             	.year : 1982
             	.core : false
+            	.relevance:false
             	-venue->venue1665
             	-authors->author555324291
             }
@@ -98,6 +103,7 @@ model Paper1982{
                 .title : "The Byzantine Generals Problem"
             	.year : 1982
             	.core : false
+            	.relevance:false
             	-venue->venue1243
             	-authors->author577326872
             	-authors->author2096750770
@@ -107,6 +113,7 @@ model Paper1982{
                 .title : "Capturing more world knowledge in the requirements specification"
             	.year : 1982
             	.core : false
+            	.relevance:false
             	-venue->venue61
             	-cites->paper2006210705
             	-authors->author2100751788

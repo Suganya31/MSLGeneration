@@ -57,6 +57,7 @@ model Paper2014{
                 .title : "Pipe Check Specifying and Verifying Microarchitectural Enforcement of Memory Consistency Models"
             	.year : 2014
             	.core : true
+            	.relevance:false
             	-venue->venue39
             	-cites->paper1483960654
             	-cites->paper1525350307
@@ -99,6 +100,7 @@ model Paper2014{
                 .title : "Controlled modeling environment using flexiblyformatted spreadsheets"
             	.year : 2014
             	.core : true
+            	.relevance:false
             	-venue->venue61
             	-cites->paper1480582324
             	-cites->paper1487672899
@@ -124,6 +126,7 @@ model Paper2014{
                 .title : "Towards ModelandCode Consistency Checking"
             	.year : 2014
             	.core : true
+            	.relevance:true
             	-venue->venue31
             	-cites->paper1556944944
             	-cites->paper1971702813
@@ -155,7 +158,8 @@ model Paper2014{
                 .title : "Efficiently and Completely Verifying Synchronized Consistency Models"
             	.year : 2014
             	.core : true
-            	-venue->venue172
+            	.relevance:false
+            	-venue->venue170
             	-cites->paper1556566737
             	-cites->paper1594228127
             	-cites->paper1694765325
@@ -196,6 +200,7 @@ model Paper2014{
                 .title : "A Formal Model for ConstraintBased Deployment Calculation and Analysis for FaultTolerant Systems"
             	.year : 2014
             	.core : true
+            	.relevance:false
             	-venue->venue61
             	-cites->paper1480909796
             	-cites->paper1556566737
@@ -213,7 +218,8 @@ model Paper2014{
                 .title : "Flexible Modeling and Product Derivation in Software Product Lines"
             	.year : 2014
             	.core : true
-            	-venue->venue155
+            	.relevance:true
+            	-venue->venue154
             	-authors->author2132358281
             	-authors->author2224377421
             }
@@ -221,7 +227,8 @@ model Paper2014{
                 .title : "Heterogeneous models matching for consistency management"
             	.year : 2014
             	.core : true
-            	-venue->venue228
+            	.relevance:true
+            	-venue->venue226
             	-cites->paper43969157
             	-cites->paper1579534349
             	-cites->paper1602228945
@@ -242,6 +249,7 @@ model Paper2014{
                 .title : "VxBPELODE A Variability Enhanced Service Composition Engine"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue261
             	-cites->paper1969367632
             	-cites->paper2026702834
@@ -255,6 +263,7 @@ model Paper2014{
                 .title : "All file systems are not created equal on the complexity of crafting crashconsistent applications"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue251
             	-cites->paper19204414
             	-cites->paper195676583
@@ -280,6 +289,7 @@ model Paper2014{
                 .title : "Torturing databases for fun and profit"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue251
             	-cites->paper19204414
             	-cites->paper1412006679
@@ -299,6 +309,7 @@ model Paper2014{
                 .title : "Extracting more concurrency from distributed transactions"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue251
             	-cites->paper192446467
             	-cites->paper1545155892
@@ -329,6 +340,7 @@ model Paper2014{
                 .title : "Towards rational and minimal change propagation in model evolution"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue373
             	-cites->paper1983160424
             	-cites->paper2052552343
@@ -342,6 +354,7 @@ model Paper2014{
                 .title : "A framework for model recommenders requirements architecture and tool support"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue387
             	-authors->author2227744776
             	-authors->author2224189304
@@ -351,6 +364,7 @@ model Paper2014{
                 .title : "Towards a Repository of BX Examples"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue449
             	-cites->paper1568396250
             	-cites->paper1968796785
@@ -363,6 +377,7 @@ model Paper2014{
                 .title : "Combining test and proof in MBAT An aerospace case study"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue387
             	-authors->author2041213531
             }
@@ -370,6 +385,7 @@ model Paper2014{
                 .title : "Social engineering in social networking sites  how good becomes evil"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue521
             	-cites->paper2162532690
             	-authors->author2123116766
@@ -381,6 +397,7 @@ model Paper2014{
                 .title : "Development of a Verified Flash File System"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue565
             	-cites->paper1594381772
             	-cites->paper1852929912
@@ -396,6 +413,7 @@ model Paper2014{
                 .title : "Relational ThreadModular Static Value Analysis by Abstract Interpretation"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue641
             	-cites->paper115884782
             	-cites->paper1964727056
@@ -410,6 +428,7 @@ model Paper2014{
                 .title : "A LogicBased Framework for Verifying Consensus Algorithms"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue641
             	-cites->paper192446467
             	-cites->paper1480909796
@@ -429,6 +448,7 @@ model Paper2014{
                 .title : "System Model Semantics of Class Diagrams"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue373
             	-cites->paper2016914525
             	-cites->paper2060440626
@@ -441,6 +461,7 @@ model Paper2014{
                 .title : "Journaling of journal is almost free"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue257
             	-cites->paper1985227357
             	-cites->paper2009404871
@@ -453,6 +474,7 @@ model Paper2014{
                 .title : "Coherent Causal Memory"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue852
             	-cites->paper1561412378
             	-cites->paper2054739713
@@ -462,6 +484,7 @@ model Paper2014{
                 .title : "A fundamental approach to model versioning based on graph modifications from theory to implementation"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue249
             	-cites->paper50128682
             	-cites->paper1494640588
@@ -484,6 +507,7 @@ model Paper2014{
                 .title : "Adaptive model learning for continual verification of nonfunctional properties"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue924
             	-cites->paper1862398452
             	-cites->paper2028622255
@@ -496,6 +520,7 @@ model Paper2014{
                 .title : "Predicting objectoriented class reuseproneness using internal quality attributes"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue934
             	-cites->paper2039444730
             	-authors->author2168829936
@@ -505,6 +530,7 @@ model Paper2014{
                 .title : "YCSBT Benchmarking webscale transactional databases"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue957
             	-cites->paper1845494277
             	-cites->paper1981420413
@@ -529,6 +555,7 @@ model Paper2014{
                 .title : "FITTEST A new continuous and automated testing process for future Internet applications"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue69
             	-authors->author2000532371
             	-authors->author2039806596
@@ -542,6 +569,7 @@ model Paper2014{
                 .title : "Accelerating Irregular Algorithms on GPGPUs Using FineGrain Hardware Worklists"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue39
             	-cites->paper1979527452
             	-cites->paper1997162567
@@ -552,6 +580,7 @@ model Paper2014{
                 .title : "Effective PostSilicon Validation of SystemonChips Using Quick Error Detection"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue995
             	-cites->paper2024436253
             	-cites->paper2090692734
@@ -572,6 +601,7 @@ model Paper2014{
                 .title : "Lem reusable engineering of realworld semantics"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue1181
             	-cites->paper2064390891
             	-cites->paper2085773946
@@ -590,6 +620,7 @@ model Paper2014{
                 .title : "Optimal dynamic partial order reduction"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue106
             	-cites->paper1493542872
             	-cites->paper1549714654
@@ -609,6 +640,7 @@ model Paper2014{
                 .title : "SnapMind A framework to support consistency and validation of modelbased requirements in agile development"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue1229
             	-cites->paper1987426969
             	-cites->paper1998400029
@@ -624,7 +656,8 @@ model Paper2014{
                 .title : "Herding cats modelling simulation testing and datamining for weak memory"
             	.year : 2014
             	.core : false
-            	-venue->venue146
+            	.relevance:false
+            	-venue->venue145
             	-cites->paper196827001
             	-cites->paper1483960654
             	-cites->paper1525350307
@@ -674,7 +707,8 @@ model Paper2014{
                 .title : "SITM reducing transactional memory abort rates through snapshot isolation"
             	.year : 2014
             	.core : false
-            	-venue->venue176
+            	.relevance:false
+            	-venue->venue174
             	-cites->paper1986913310
             	-cites->paper2013409485
             	-cites->paper2034747525
@@ -695,6 +729,7 @@ model Paper2014{
                 .title : "QuickRelease A throughputoriented approach to release consistency on GPUs"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue978
             	-cites->paper1997352364
             	-cites->paper2029601347
@@ -717,6 +752,7 @@ model Paper2014{
                 .title : "Uncertainties in the modeling of selfadaptive systems a taxonomy and an example of availability evaluation"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue924
             	-cites->paper2018800706
             	-authors->author166725237
@@ -726,6 +762,7 @@ model Paper2014{
                 .title : "Outlawing ghosts avoiding outofthinair results"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue1481
             	-cites->paper1482397304
             	-cites->paper1967564401
@@ -747,7 +784,8 @@ model Paper2014{
                 .title : "A lightweight symbolic virtual machine for solveraided host languages"
             	.year : 2014
             	.core : false
-            	-venue->venue146
+            	.relevance:false
+            	-venue->venue145
             	-cites->paper1480909796
             	-cites->paper2098643127
             	-cites->paper2129538349
@@ -761,6 +799,7 @@ model Paper2014{
                 .title : "Towards a Practical Survivable Intrusion Tolerant Replication System"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue702
             	-cites->paper1971991620
             	-cites->paper1994449893
@@ -776,6 +815,7 @@ model Paper2014{
                 .title : "Social engineering attack framework"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue1652
             	-authors->author2120670826
             	-authors->author2791941302
@@ -786,6 +826,7 @@ model Paper2014{
                 .title : "Architecture Fault Modeling with the AADL ErrorModel Annex"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue1300
             	-cites->paper1862398452
             	-cites->paper2021696583
@@ -796,6 +837,7 @@ model Paper2014{
                 .title : "When and How to Use Multilevel Modelling"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue896
             	-cites->paper1537058720
             	-cites->paper1543888717
@@ -816,7 +858,8 @@ model Paper2014{
                 .title : "Lowlevel detection of languagelevel data races with LARD"
             	.year : 2014
             	.core : false
-            	-venue->venue176
+            	.relevance:false
+            	-venue->venue174
             	-cites->paper1972544179
             	-cites->paper1973501242
             	-cites->paper1990191223
@@ -844,6 +887,7 @@ model Paper2014{
                 .title : "An approach to the cocreation of models and metamodels in Enterprise Architecture Projects"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue1037
             	-cites->paper1592640009
             	-cites->paper1838876590
@@ -859,6 +903,7 @@ model Paper2014{
                 .title : "The State of Practice in ModelDriven Engineering"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue887
             	-cites->paper2050340005
             	-cites->paper2167736435
@@ -870,6 +915,7 @@ model Paper2014{
                 .title : "Arrakis the operating system is the control plane"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue251
             	-cites->paper2009404871
             	-cites->paper2111262474
@@ -886,6 +932,7 @@ model Paper2014{
                 .title : "Extending Deep MetaModelling for Practical ModelDriven Engineering"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue1798
             	-cites->paper200074566
             	-cites->paper1838876590
@@ -904,6 +951,7 @@ model Paper2014{
                 .title : "Harnessing ISA diversity design of a heterogeneousISA chip multiprocessor"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue91
             	-cites->paper1522250664
             	-cites->paper2109360947
@@ -915,6 +963,7 @@ model Paper2014{
                 .title : "A reconfigurable fabric for accelerating largescale datacenter services"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue91
             	-authors->author2015980078
             	-authors->author2305033178
@@ -944,6 +993,7 @@ model Paper2014{
                 .title : "A Study of Linux File System Evolution"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue868
             	-cites->paper1964802076
             	-cites->paper1995626000
@@ -961,7 +1011,8 @@ model Paper2014{
                 .title : "Heterogeneousracefree memory models"
             	.year : 2014
             	.core : false
-            	-venue->venue176
+            	.relevance:false
+            	-venue->venue174
             	-cites->paper1525350307
             	-cites->paper2029601347
             	-cites->paper2053776346
@@ -992,6 +1043,7 @@ model Paper2014{
                 .title : "GPS navigating weak memory with ghosts protocols and separation"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue1114
             	-cites->paper1509000726
             	-cites->paper1525350307
@@ -1019,6 +1071,7 @@ model Paper2014{
                 .title : "CARE a constraintbased approach for reestablishing conformancerelationships"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue2732
             	-cites->paper99545732
             	-cites->paper165540832
@@ -1045,6 +1098,7 @@ model Paper2014{
                 .title : "Deployment Calculation and Analysis for a FailOperational Automotive Platform"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue373
             	-cites->paper1480909796
             	-cites->paper2118824103
@@ -1061,6 +1115,7 @@ model Paper2014{
                 .title : "Checking Transformation Model Properties with a UML and OCL Model Validator"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue2788
             	-cites->paper1519503479
             	-cites->paper1895387792
@@ -1073,6 +1128,7 @@ model Paper2014{
                 .title : "Ensuring Web Interface Quality through UsabilityBased Split Testing"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue1237
             	-authors->author2303361141
             	-authors->author2138305382
@@ -1082,6 +1138,7 @@ model Paper2014{
                 .title : "From Application Models to Filmstrip Models An Approach to Automatic Validation of Model Dynamics"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue2791
             	-cites->paper1519503479
             	-cites->paper1895387792
@@ -1100,6 +1157,7 @@ model Paper2014{
                 .title : "Towards an Ontologybased Approach for Heterogeneous Model Matching"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue2797
             	-cites->paper1597085899
             	-cites->paper2070474270
@@ -1113,6 +1171,7 @@ model Paper2014{
                 .title : "MDEForge an Extensible WebBased Modeling Platform"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue2805
             	-authors->author2071298843
             	-authors->author406154369
@@ -1125,6 +1184,7 @@ model Paper2014{
                 .title : "A Systematic Taxonomy of Metamodel Evolution Impacts on OCL Expressions"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue2818
             	-cites->paper113976528
             	-cites->paper937233221
@@ -1145,6 +1205,7 @@ model Paper2014{
                 .title : "Multilevel modelling in the Modelverse"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue2820
             	-cites->paper1589632492
             	-cites->paper1838876590
@@ -1160,6 +1221,7 @@ model Paper2014{
                 .title : "Developing the UML as a Formal Modelling Notation"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue373
             	-cites->paper2018568588
             	-cites->paper2099293367
@@ -1171,6 +1233,7 @@ model Paper2014{
                 .title : "Memory persistency"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue959
             	-cites->paper1885534640
             	-cites->paper1966151719
@@ -1191,6 +1254,7 @@ model Paper2014{
                 .title : "Herding Cats Modelling Simulation Testing and Data Mining for Weak Memory"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue1243
             	-cites->paper196827001
             	-cites->paper1483960654
@@ -1238,6 +1302,7 @@ model Paper2014{
                 .title : "A Case Study on Verification of a Cloud Hypervisor by Proof and Structural Testing"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue27
             	-cites->paper2194223632
             	-authors->author2049246058
@@ -1248,6 +1313,7 @@ model Paper2014{
                 .title : "Coupled Evolution of Software Metamodels and Models"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue3011
             	-authors->author1810416833
             	-authors->author1998669143
@@ -1256,6 +1322,7 @@ model Paper2014{
                 .title : "Assessing the StateofPractice of ModelBased Engineering in the Embedded Systems Domain"
             	.year : 2014
             	.core : false
+            	.relevance:false
             	-venue->venue16
             	-cites->paper1982313944
             	-cites->paper2167736435
