@@ -99,7 +99,7 @@ model Paper1985{
             	.year : 1985
             	.core : false
             	.relevance:false
-            	-venue->venue990
+            	-venue->venue993
             	-cites->paper2095464745
             	-cites->paper2118891797
             	-cites->paper2122326479
@@ -111,7 +111,7 @@ model Paper1985{
             	.year : 1985
             	.core : false
             	.relevance:false
-            	-venue->venue914
+            	-venue->venue917
             	-cites->paper1971991620
             	-cites->paper2133201251
             	-authors->author2395978466
@@ -122,7 +122,7 @@ model Paper1985{
             	.year : 1985
             	.core : false
             	.relevance:false
-            	-venue->venue877
+            	-venue->venue880
             	-cites->paper2103814941
             	-cites->paper2120510885
             	-authors->author2159593723
@@ -134,7 +134,7 @@ model Paper1985{
             	.year : 1985
             	.core : false
             	.relevance:false
-            	-venue->venue877
+            	-venue->venue880
             	-cites->paper2035362408
             	-cites->paper2120510885
             	-authors->author2243542401
@@ -145,7 +145,7 @@ model Paper1985{
             	.year : 1985
             	.core : false
             	.relevance:false
-            	-venue->venue990
+            	-venue->venue993
             	-cites->paper2120510885
             	-authors->author2159593723
             	-authors->author2180706138
@@ -201,7 +201,7 @@ model Paper1985{
             	.year : 1985
             	.core : false
             	.relevance:false
-            	-venue->venue877
+            	-venue->venue880
             	-cites->paper2120510885
             	-authors->author2664049581
             	-authors->author2096750770
@@ -211,7 +211,7 @@ model Paper1985{
             	.year : 1985
             	.core : false
             	.relevance:false
-            	-venue->venue931
+            	-venue->venue934
             	-cites->paper2120510885
             	-authors->author2071592122
             	-authors->author2290999210
@@ -221,7 +221,7 @@ model Paper1985{
             	.year : 1985
             	.core : false
             	.relevance:false
-            	-venue->venue1871
+            	-venue->venue1876
             	-cites->paper2043671329
             	-cites->paper2134806330
             	-authors->author2311538579
@@ -232,20 +232,8 @@ model Paper1985{
             	.year : 1985
             	.core : false
             	.relevance:false
-            	-venue->venue863
+            	-venue->venue866
             	-authors->author2498316895
-            }
-	paper2035362408:Paper {
-                .title : "Impossibility of distributed consensus with one faulty process"
-            	.year : 1985
-            	.core : false
-            	.relevance:false
-            	-venue->venue877
-            	-cites->paper2103814941
-            	-cites->paper2120510885
-            	-authors->author2159593723
-            	-authors->author2180706138
-            	-authors->author2085176665
             }
 }
 

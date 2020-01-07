@@ -56,7 +56,7 @@ public class JsonData {
         HashMap<String, List<String>> id_to_references = new HashMap<String, List<String>>();
 	//	FileWriter writer = new FileWriter("C:\\Users\\Suganya\\Downloads\\dblp.v11\\References_dataset.txt");
 	//	BufferedWriter out = new BufferedWriter(writer);
-		Writer out = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("C:\\Users\\Suganya\\Downloads\\dblp.v11\\References_dataset.txt"), "UTF-8"));
+		Writer out = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("C:\\Users\\Suganya\\Downloads\\dblp.v11\\References_dataset_new.txt"), "UTF-8"));
 
 
    	String sCurrentLine;

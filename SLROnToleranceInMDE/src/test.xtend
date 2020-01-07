@@ -48,31 +48,31 @@ class test {
 
 		var core = true;
 		var datasetname = "FinalDataset.txt";
-		var writer = new PrintWriter("src\\Papers\\Papers.msl", "UTF-8");
+		var writer = new PrintWriter("src\\Papers\\Authors.msl", "UTF-8");
 		papers = JsonParse.extractAuthors(core, datasetname, filtervenues);
-		datasetname = "References_dataset.txt";
+		datasetname = "References_dataset_new.txt";
 		core = false;
-		// JsonData.findReference(PapersPojo.dummypaperids);
+		//JsonData.findReference(PapersPojo.dummypaperids);
 		papers = JsonParse.extractAuthors(false, datasetname, filtervenues);
 
 		// writer.println(instance.generatePapersMSL(papers))
-		// writer.println(instance.generateAuthorsMSL(papers))
+		 writer.println(instance.generateAuthorsMSL(papers))
 		
 		//writer.println(instance.generateVenuesMSL(papers))
 		// writer.println(instance.generatePapersMSL(papers, 0000))
-		//writer.close();
+		writer.close();
 
 		for (paper : papers) {
 			years.add(paper.getYear)
 
 		}
-		for (year : years) {
-			writer = new PrintWriter("src\\Papers\\Paper" + year + ".msl", "UTF-8");
-			writer.println(instance.generatePapersMSL(papers, year))
-					writer.close();
-			
-
-		}
+//		for (year : years) {
+//			writer = new PrintWriter("src\\Papers\\Paper" + year + ".msl", "UTF-8");
+//			writer.println(instance.generatePapersMSL(papers, year))
+//					writer.close();
+//			
+//
+//		}
 	// println(instance.generatePapersMSL(papers));
 //println(instance.generateAuthorsMSL(id_to_authors));
 	}

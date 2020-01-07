@@ -75,7 +75,7 @@ model Paper1977{
             	.year : 1977
             	.core : false
             	.relevance:false
-            	-venue->venue1024
+            	-venue->venue1027
             	-authors->author2255242933
             }
 	paper2132334337:Paper {
@@ -83,7 +83,7 @@ model Paper1977{
             	.year : 1977
             	.core : false
             	.relevance:false
-            	-venue->venue914
+            	-venue->venue917
             	-cites->paper1964727056
             	-authors->author2096750770
             }
@@ -92,7 +92,7 @@ model Paper1977{
             	.year : 1977
             	.core : false
             	.relevance:false
-            	-venue->venue1665
+            	-venue->venue1670
             	-authors->author2102047142
             }
 }

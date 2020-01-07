@@ -200,7 +200,7 @@ model Paper1999{
             	.year : 1999
             	.core : false
             	.relevance:false
-            	-venue->venue702
+            	-venue->venue703
             	-authors->author2780623020
             	-authors->author2231322187
             	-authors->author2777036999
@@ -210,7 +210,7 @@ model Paper1999{
             	.year : 1999
             	.core : false
             	.relevance:false
-            	-venue->venue757
+            	-venue->venue760
             	-authors->author2302229946
             	-authors->author1966793315
             }
@@ -219,7 +219,7 @@ model Paper1999{
             	.year : 1999
             	.core : false
             	.relevance:false
-            	-venue->venue799
+            	-venue->venue802
             	-authors->author2674806336
             	-authors->author2261153239
             	-authors->author2111246749
@@ -232,7 +232,7 @@ model Paper1999{
             	.year : 1999
             	.core : false
             	.relevance:false
-            	-venue->venue805
+            	-venue->venue808
             	-cites->paper1973501242
             	-cites->paper2133201251
             	-authors->author2292936287
@@ -267,12 +267,20 @@ model Paper1999{
             	-authors->author341399993
             	-authors->author2014237653
             }
+	paper1938966230:Paper {
+                .title : "COTS and high assurance an oxymoron"
+            	.year : 1999
+            	.core : false
+            	.relevance:false
+            	-venue->venue98
+            	-authors->author568848126
+            }
 	paper1966282711:Paper {
                 .title : "Survivability protecting your critical systems"
             	.year : 1999
             	.core : false
             	.relevance:false
-            	-venue->venue883
+            	-venue->venue886
             	-authors->author2810176013
             	-authors->author700359793
             	-authors->author2083637360
@@ -285,7 +293,7 @@ model Paper1999{
             	.year : 1999
             	.core : false
             	.relevance:false
-            	-venue->venue949
+            	-venue->venue952
             	-cites->paper2024795941
             	-cites->paper2293624369
             	-authors->author2099917311
@@ -333,7 +341,7 @@ model Paper1999{
             	.year : 1999
             	.core : false
             	.relevance:false
-            	-venue->venue914
+            	-venue->venue917
             	-cites->paper2017739343
             	-cites->paper2079814255
             	-cites->paper2105603754
@@ -348,7 +356,7 @@ model Paper1999{
             	.year : 1999
             	.core : false
             	.relevance:false
-            	-venue->venue1049
+            	-venue->venue1052
             	-authors->author2311095125
             	-authors->author2112271222
             	-authors->author1986707317
@@ -359,7 +367,7 @@ model Paper1999{
             	.year : 1999
             	.core : false
             	.relevance:false
-            	-venue->venue1377
+            	-venue->venue1383
             	-cites->paper1545155892
             	-cites->paper1855065956
             	-authors->author2029357687
@@ -371,7 +379,7 @@ model Paper1999{
             	.year : 1999
             	.core : false
             	.relevance:false
-            	-venue->venue1289
+            	-venue->venue1295
             	-cites->paper2124080036
             	-cites->paper2152505375
             	-authors->author2100792061
@@ -383,7 +391,7 @@ model Paper1999{
             	.year : 1999
             	.core : false
             	.relevance:false
-            	-venue->venue938
+            	-venue->venue941
             	-cites->paper2017739343
             	-cites->paper2067126923
             	-cites->paper2099293367
@@ -396,7 +404,7 @@ model Paper1999{
             	.year : 1999
             	.core : false
             	.relevance:false
-            	-venue->venue990
+            	-venue->venue993
             	-cites->paper1973501242
             	-authors->author2281308211
             }
@@ -405,7 +413,7 @@ model Paper1999{
             	.year : 1999
             	.core : false
             	.relevance:false
-            	-venue->venue1377
+            	-venue->venue1383
             	-cites->paper2006519067
             	-cites->paper2099805467
             	-authors->author1973119209
@@ -417,7 +425,7 @@ model Paper1999{
             	.year : 1999
             	.core : false
             	.relevance:false
-            	-venue->venue1289
+            	-venue->venue1295
             	-cites->paper2103317919
             	-authors->author255695516
             	-authors->author2054027625
@@ -428,7 +436,7 @@ model Paper1999{
             	.year : 1999
             	.core : false
             	.relevance:false
-            	-venue->venue938
+            	-venue->venue941
             	-authors->author2138756233
             	-authors->author2665879159
             	-authors->author2154245979
@@ -488,7 +496,7 @@ model Paper1999{
             	.year : 1999
             	.core : false
             	.relevance:false
-            	-venue->venue1319
+            	-venue->venue1325
             	-cites->paper1537146784
             	-cites->paper1985349143
             	-cites->paper2005216655
@@ -516,7 +524,7 @@ model Paper1999{
             	.year : 1999
             	.core : false
             	.relevance:false
-            	-venue->venue700
+            	-venue->venue701
             	-cites->paper1698439592
             	-cites->paper2146483864
             	-cites->paper2157532207
@@ -550,7 +558,7 @@ model Paper1999{
             	.year : 1999
             	.core : false
             	.relevance:false
-            	-venue->venue1319
+            	-venue->venue1325
             	-cites->paper2012481411
             	-cites->paper2035362408
             	-cites->paper2170715240
@@ -583,7 +591,7 @@ model Paper1999{
             	.year : 1999
             	.core : false
             	.relevance:false
-            	-venue->venue863
+            	-venue->venue866
             	-cites->paper1545792627
             	-cites->paper2051789131
             	-cites->paper2054739713
@@ -598,7 +606,7 @@ model Paper1999{
             	.year : 1999
             	.core : false
             	.relevance:false
-            	-venue->venue894
+            	-venue->venue897
             	-cites->paper1545155892
             	-cites->paper1729888041
             	-cites->paper1973501242
@@ -621,7 +629,7 @@ model Paper1999{
             	.year : 1999
             	.core : false
             	.relevance:false
-            	-venue->venue978
+            	-venue->venue981
             	-cites->paper1545792627
             	-cites->paper1973501242
             	-cites->paper2024255419
@@ -652,7 +660,7 @@ model Paper1999{
             	.year : 1999
             	.core : false
             	.relevance:false
-            	-venue->venue2940
+            	-venue->venue2950
             	-authors->author1973119209
             	-authors->author1985569948
             	-authors->author2117861229
@@ -664,56 +672,6 @@ model Paper1999{
             	.relevance:false
             	-venue->venue0
             	-authors->author2548785225
-            }
-	paper1575709632:Paper {
-                .title : "A Systematic Approach to Safety Case Maintenance"
-            	.year : 1999
-            	.core : false
-            	.relevance:false
-            	-venue->venue1
-            	-authors->author2213027448
-            	-authors->author2252011855
-            }
-	paper1929752839:Paper {
-                .title : "Automatic dependability analysis for supporting design decisions in UML"
-            	.year : 1999
-            	.core : false
-            	.relevance:false
-            	-venue->venue98
-            	-cites->paper2119239145
-            	-cites->paper2133820906
-            	-authors->author167784832
-            	-authors->author341399993
-            	-authors->author2014237653
-            }
-	paper1938966230:Paper {
-                .title : "COTS and high assurance an oxymoron"
-            	.year : 1999
-            	.core : false
-            	.relevance:false
-            	-venue->venue98
-            	-authors->author568848126
-            }
-	paper1996832037:Paper {
-                .title : "Patterns in property specifications for finitestate verification"
-            	.year : 1999
-            	.core : false
-            	.relevance:false
-            	-venue->venue61
-            	-cites->paper2015688007
-            	-authors->author2129313003
-            	-authors->author2156583880
-            	-authors->author11791032
-            }
-	paper2159765281:Paper {
-                .title : "The Unified Modeling Language User Guide"
-            	.year : 1999
-            	.core : false
-            	.relevance:false
-            	-venue->venue0
-            	-authors->author2138320137
-            	-authors->author64567716
-            	-authors->author2068841468
             }
 }
 

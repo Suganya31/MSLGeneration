@@ -69,7 +69,7 @@ public class JsonParse {
 		File filename = new File("C:\\Users\\Suganya\\Downloads\\dblp.v11\\"+datasetname);
 
 		JsonParser jp = f.createParser(filename);
-		//Set<String> dummypaperids = new HashSet<String>();
+		Set<String> dummypaperids = new HashSet<String>();
 
 
 
@@ -105,13 +105,6 @@ Boolean SE=false;
 	    	
 	    }
 	    	
-			
-			
-			
-			
-			
-
-
 			String id = node.path("id").asText();
 			Integer year = Integer.parseInt(node.path("year").asText());
 
@@ -155,8 +148,8 @@ Boolean SE=false;
 				paper.setReferences(references);
 
 			}
-			//for(String r:paper.getReferences())
-				//dummypaperids.add(r);
+			for(String r:paper.getReferences())
+				dummypaperids.add(r);
 			/*
 			 * System.out.println("the refreces inside java"+references);
 			 * System.out.println("checking set refernces"+paper.getReferences());
@@ -219,13 +212,13 @@ Boolean SE=false;
 	//	System.out.println(venues_global);
 	//	venues_global.put("", 0);
 
-		//dummypaperids.removeAll(paperids);
+		dummypaperids.removeAll(paperids);
 		/*
 		 * System.out.println(core); System.out.println(id_to_authors_global);
 		 * System.out.println("size of id_to_authors_global ids"+id_to_authors_global.
 		 * size());
 		 */
-	//	PapersPojo.dummypaperids=dummypaperids;
+		PapersPojo.dummypaperids=dummypaperids;
 		
 		jp.close();
 		

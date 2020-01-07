@@ -58,7 +58,7 @@ model Paper1975{
             	.year : 1975
             	.core : false
             	.relevance:false
-            	-venue->venue1049
+            	-venue->venue1052
             	-authors->author1998938290
             }
 	paper2133201251:Paper {
@@ -66,7 +66,7 @@ model Paper1975{
             	.year : 1975
             	.core : false
             	.relevance:false
-            	-venue->venue914
+            	-venue->venue917
             	-authors->author2029293694
             }
 	paper2135432705:Paper {
@@ -74,7 +74,7 @@ model Paper1975{
             	.year : 1975
             	.core : false
             	.relevance:false
-            	-venue->venue1665
+            	-venue->venue1670
             	-authors->author1981134756
             }
 	paper2158102622:Paper {
@@ -82,7 +82,7 @@ model Paper1975{
             	.year : 1975
             	.core : false
             	.relevance:false
-            	-venue->venue863
+            	-venue->venue866
             	-authors->author2126506047
             	-authors->author644833585
             }
@@ -92,14 +92,6 @@ model Paper1975{
             	.core : false
             	.relevance:false
             	-venue->venue545
-            	-authors->author2029293694
-            }
-	paper2133201251:Paper {
-                .title : "System structure for software fault tolerance"
-            	.year : 1975
-            	.core : false
-            	.relevance:false
-            	-venue->venue914
             	-authors->author2029293694
             }
 }
