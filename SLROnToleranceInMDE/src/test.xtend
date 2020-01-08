@@ -62,10 +62,10 @@ class test {
 		// writer.println(instance.generatePapersMSL(papers, 0000))
 		writer.close();
 
-		for (paper : papers) {
-			years.add(paper.getYear)
-
-		}
+//		for (paper : papers) {
+//			years.add(paper.getYear)
+//
+//		}
 //		for (year : years) {
 //			writer = new PrintWriter("src\\Papers\\Paper" + year + ".msl", "UTF-8");
 //			writer.println(instance.generatePapersMSL(papers, year))

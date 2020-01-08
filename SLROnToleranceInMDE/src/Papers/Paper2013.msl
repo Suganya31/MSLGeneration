@@ -365,24 +365,12 @@ model Paper2013{
             	-cites->paper2169875292
             	-authors->author2306824899
             }
-	paper2406600029:Paper {
-                .title : "Heterogeneous Models Matching for Consistency Management"
-            	.year : 2013
-            	.core : true
-            	.relevance:true
-            	-venue->venue232
-            	-authors->author2021330974
-            	-authors->author72241827
-            	-authors->author2131966228
-            	-authors->author2161499562
-            	-authors->author2170370782
-            }
 	paper99999999994:Paper {
                 .title : "Model checking for weakly consistent libraries"
             	.year : 2013
             	.core : true
             	.relevance:false
-            	-venue->venue239
+            	-venue->venue237
             	-cites->paper1602156367
             	-cites->paper1719093023
             	-cites->paper1887412317
@@ -428,7 +416,7 @@ model Paper2013{
                 .title : "AHM  Handling Heterogeneous Models Matching and Consistency via MDE"
             	.year : 2013
             	.core : true
-            	.relevance:true
+            	.relevance:false
             	-venue->venue195
             	-cites->paper1503248228
             	-cites->paper2084624236
@@ -471,7 +459,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue344
+            	-venue->venue342
             	-cites->paper1982313944
             	-authors->author2738710481
             	-authors->author2193642151
@@ -511,7 +499,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue457
+            	-venue->venue455
             	-authors->author82986800
             	-authors->author2061349279
             	-authors->author1978163079
@@ -535,7 +523,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue334
+            	-venue->venue332
             	-cites->paper1545155892
             	-cites->paper1969925795
             	-cites->paper1973501242
@@ -564,7 +552,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue247
+            	-venue->venue245
             	-cites->paper196827001
             	-cites->paper1525350307
             	-cites->paper1560743762
@@ -632,7 +620,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue484
+            	-venue->venue482
             	-cites->paper196827001
             	-cites->paper1483960654
             	-cites->paper1509000726
@@ -679,7 +667,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue871
+            	-venue->venue869
             	-cites->paper2100100130
             	-cites->paper2135652458
             	-cites->paper2624304035
@@ -692,7 +680,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue888
+            	-venue->venue886
             	-cites->paper1565331622
             	-authors->author2111509819
             }
@@ -727,7 +715,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue917
+            	-venue->venue915
             	-cites->paper187637139
             	-cites->paper1685969755
             	-cites->paper1971702813
@@ -753,7 +741,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue944
+            	-venue->venue942
             	-cites->paper2128727110
             	-cites->paper2138363365
             	-cites->paper2145071552
@@ -780,7 +768,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue981
+            	-venue->venue979
             	-cites->paper1897254069
             	-cites->paper1979527452
             	-cites->paper2080592089
@@ -792,7 +780,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue1008
+            	-venue->venue1006
             	-cites->paper1568729458
             	-cites->paper1887412317
             	-cites->paper1893845610
@@ -835,7 +823,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue1029
+            	-venue->venue1027
             	-cites->paper1981420413
             	-cites->paper2100100130
             	-cites->paper2100970777
@@ -851,7 +839,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue249
+            	-venue->venue247
             	-cites->paper1498244333
             	-cites->paper1561057365
             	-cites->paper1676821722
@@ -866,7 +854,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue1055
+            	-venue->venue1053
             	-cites->paper1787074469
             	-cites->paper2340735175
             	-authors->author6818022
@@ -876,7 +864,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue944
+            	-venue->venue942
             	-authors->author22998639
             	-authors->author2715032256
             	-authors->author2478909505
@@ -906,7 +894,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue981
+            	-venue->venue979
             	-cites->paper1979527452
             	-cites->paper1997576530
             	-cites->paper2029601347
@@ -931,7 +919,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue946
+            	-venue->venue944
             	-cites->paper2164264749
             	-authors->author2107921881
             	-authors->author2137539685
@@ -943,7 +931,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue1151
+            	-venue->venue1149
             	-cites->paper2124877509
             	-cites->paper2138555106
             	-authors->author2150192157
@@ -960,7 +948,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue1029
+            	-venue->venue1027
             	-cites->paper1515932031
             	-cites->paper1814543774
             	-cites->paper1969925795
@@ -985,7 +973,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue1211
+            	-venue->venue1209
             	-cites->paper2021204974
             	-cites->paper2119239145
             	-cites->paper2125709281
@@ -1018,7 +1006,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue905
+            	-venue->venue903
             	-cites->paper2036620406
             	-cites->paper2038280282
             	-cites->paper2114599137
@@ -1034,7 +1022,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue1231
+            	-venue->venue1229
             	-cites->paper1503566036
             	-cites->paper2101107197
             	-cites->paper2104537183
@@ -1049,7 +1037,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue934
+            	-venue->venue932
             	-cites->paper1577169013
             	-cites->paper1845494277
             	-cites->paper1969925795
@@ -1095,7 +1083,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue1008
+            	-venue->venue1006
             	-cites->paper1547285994
             	-cites->paper2058943117
             	-cites->paper2117502039
@@ -1113,7 +1101,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue998
+            	-venue->venue996
             	-cites->paper1998663784
             	-cites->paper2121129715
             	-cites->paper2142736763
@@ -1125,7 +1113,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue905
+            	-venue->venue903
             	-cites->paper50128682
             	-cites->paper1584818596
             	-cites->paper1592640009
@@ -1149,7 +1137,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue1135
+            	-venue->venue1133
             	-cites->paper1997162567
             	-cites->paper2078994750
             	-cites->paper2080592089
@@ -1179,7 +1167,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue1082
+            	-venue->venue1080
             	-authors->author2311160295
             	-authors->author2106620385
             	-authors->author2699341140
@@ -1189,7 +1177,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue1350
+            	-venue->venue1348
             	-cites->paper19204414
             	-cites->paper1995626000
             	-cites->paper2009404871
@@ -1207,7 +1195,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue1358
+            	-venue->venue1356
             	-authors->author22998639
             	-authors->author2023662043
             	-authors->author2053643215
@@ -1228,7 +1216,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue1415
+            	-venue->venue1413
             	-authors->author2671401106
             	-authors->author2647930187
             }
@@ -1261,7 +1249,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue249
+            	-venue->venue247
             	-cites->paper1568396250
             	-cites->paper1598022760
             	-cites->paper2127237677
@@ -1285,7 +1273,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue1040
+            	-venue->venue1038
             	-cites->paper1511832825
             	-cites->paper1598022760
             	-cites->paper2047581220
@@ -1318,7 +1306,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue880
+            	-venue->venue878
             	-cites->paper1482397304
             	-cites->paper1509000726
             	-cites->paper1525350307
@@ -1382,7 +1370,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue866
+            	-venue->venue864
             	-cites->paper2141565132
             	-authors->author2239044815
             	-authors->author2796773496
@@ -1394,7 +1382,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue1618
+            	-venue->venue1616
             	-cites->paper1480909796
             	-cites->paper1519503479
             	-authors->author247113986
@@ -1406,7 +1394,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue1017
+            	-venue->venue1015
             	-cites->paper1808398105
             	-cites->paper2096956970
             	-cites->paper2100505193
@@ -1517,7 +1505,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue334
+            	-venue->venue332
             	-cites->paper1515932031
             	-cites->paper1845494277
             	-cites->paper1981420413
@@ -1556,7 +1544,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue1227
+            	-venue->venue1225
             	-cites->paper2054983537
             	-cites->paper2085773946
             	-cites->paper2111858071
@@ -1572,7 +1560,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue998
+            	-venue->venue996
             	-cites->paper2054739713
             	-cites->paper2085773946
             	-cites->paper2091085450
@@ -1591,7 +1579,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue917
+            	-venue->venue915
             	-cites->paper2098831637
             	-cites->paper2111445678
             	-authors->author2332852696
@@ -1643,7 +1631,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue2458
+            	-venue->venue2456
             	-cites->paper1482397304
             	-cites->paper1887412317
             	-cites->paper1967564401
@@ -1696,7 +1684,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue2626
+            	-venue->venue2624
             	-cites->paper2098643127
             	-cites->paper2129538349
             	-cites->paper2130427425
@@ -1754,7 +1742,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue2651
+            	-venue->venue2649
             	-cites->paper2114296561
             	-cites->paper2145071552
             	-cites->paper2146840150
@@ -1767,7 +1755,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue979
+            	-venue->venue977
             	-cites->paper1525350307
             	-cites->paper1997352364
             	-cites->paper2054739713
@@ -1783,7 +1771,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue2732
+            	-venue->venue2730
             	-cites->paper1982313944
             	-cites->paper2147642262
             	-authors->author2111120067
@@ -1797,7 +1785,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue2794
+            	-venue->venue2792
             	-authors->author2702095084
             	-authors->author671159880
             	-authors->author1708359345
@@ -1807,7 +1795,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue2820
+            	-venue->venue2818
             	-cites->paper2116587399
             	-authors->author1246263134
             	-authors->author2044930014
@@ -1819,7 +1807,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue2820
+            	-venue->venue2818
             	-cites->paper1853034543
             	-cites->paper1971702813
             	-cites->paper1991633729
@@ -1832,7 +1820,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue2970
+            	-venue->venue2968
             	-cites->paper2036417954
             	-cites->paper2114990295
             	-authors->author2148293684
@@ -1845,7 +1833,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue2987
+            	-venue->venue2985
             	-authors->author2136272530
             	-authors->author2125552387
             	-authors->author1983458687
@@ -1856,7 +1844,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue1398
+            	-venue->venue1396
             	-cites->paper2162532690
             	-authors->author849646790
             	-authors->author2140730868
@@ -1875,7 +1863,7 @@ model Paper2013{
             	.year : 2013
             	.core : false
             	.relevance:false
-            	-venue->venue443
+            	-venue->venue441
             	-cites->paper1487672899
             	-cites->paper1503248228
             	-cites->paper1864361234

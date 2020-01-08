@@ -41,7 +41,7 @@ public class JsonParse {
 
 	static int i=1;
 	public static String getOnlyStrings(String s) {
-		Pattern pattern = Pattern.compile("[^a-z A-Z\\s]");
+		Pattern pattern = Pattern.compile("[^a-z A-Z]");
 		Matcher matcher = pattern.matcher(s);
 		String name = matcher.replaceAll("");
 		return name;
@@ -70,7 +70,9 @@ public class JsonParse {
 
 		JsonParser jp = f.createParser(filename);
 		Set<String> dummypaperids = new HashSet<String>();
+		Set<String> thefinallist = new HashSet<String>();
 
+		int relcount=0;
 
 
 		while (jp.nextToken() != null) {
@@ -81,10 +83,15 @@ public class JsonParse {
 			JsonNode authors = node.path("authors");
 Boolean SE=false;
 			String title = node.path("title").asText();
+
 			Boolean relevance=false;
-			
-			  if(relevanttitle.contains(getOnlyStrings(title).toLowerCase())) 
+			String newttitle=getOnlyStrings(title).toLowerCase();
+			  if(relevanttitle.contains(newttitle)) 
+			  {
 				  relevance=true;
+				  thefinallist.add(title);
+				  relcount++;
+			  }
 			 
 			JsonNode venuenode = node.path("venue");
 			String venue=venuenode.findPath("id").asText();
@@ -198,6 +205,10 @@ Boolean SE=false;
 			jp.nextToken();
 
 		}
+		/*
+		 * System.out.println(relcount); for(String s:thefinallist) {
+		 * System.out.println(s); }
+		 */
 		venues_global.put("", 0);
 		//	System.out.println(venues_global);
 
