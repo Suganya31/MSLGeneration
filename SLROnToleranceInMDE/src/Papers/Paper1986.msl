@@ -26,15 +26,15 @@ import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2017.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2018.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2000.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1998.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2002.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1991.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2002.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1995.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1986.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2000.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1987.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1988.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1993.msl"
@@ -51,6 +51,7 @@ import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1962.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1967.msl"
  	
 model Paper1986{
 	paper1491178396:Paper {
@@ -68,7 +69,7 @@ model Paper1986{
             	.year : 1986
             	.core : false
             	.relevance:false
-            	-venue->venue744
+            	-venue->venue850
             	-authors->author2697015277
             }
 	paper1970495662:Paper {
@@ -84,7 +85,7 @@ model Paper1986{
             	.year : 1986
             	.core : false
             	.relevance:false
-            	-venue->venue915
+            	-venue->venue1020
             	-authors->author2178599376
             	-authors->author2150992688
             }
@@ -93,7 +94,7 @@ model Paper1986{
             	.year : 1986
             	.core : false
             	.relevance:false
-            	-venue->venue1019
+            	-venue->venue1123
             	-cites->paper2132334337
             	-authors->author2106636992
             	-authors->author2397943235
@@ -103,7 +104,7 @@ model Paper1986{
             	.year : 1986
             	.core : false
             	.relevance:false
-            	-venue->venue915
+            	-venue->venue1020
             	-authors->author2683249638
             	-authors->author2681058398
             	-authors->author2636227973
@@ -116,7 +117,7 @@ model Paper1986{
             	.year : 1986
             	.core : false
             	.relevance:false
-            	-venue->venue1506
+            	-venue->venue1607
             	-cites->paper2127614394
             	-authors->author2100751788
             	-authors->author2161153869
@@ -127,7 +128,7 @@ model Paper1986{
             	.year : 1986
             	.core : false
             	.relevance:false
-            	-venue->venue864
+            	-venue->venue970
             	-authors->author2719591975
             }
 	paper2087668037:Paper {
@@ -135,7 +136,7 @@ model Paper1986{
             	.year : 1986
             	.core : false
             	.relevance:false
-            	-venue->venue1207
+            	-venue->venue1310
             	-cites->paper2120510885
             	-cites->paper2125011947
             	-authors->author2806404409
@@ -146,7 +147,7 @@ model Paper1986{
             	.year : 1986
             	.core : false
             	.relevance:false
-            	-venue->venue895
+            	-venue->venue1000
             	-authors->author2438560074
             	-authors->author2296287382
             	-authors->author2309154312
@@ -156,7 +157,7 @@ model Paper1986{
             	.year : 1986
             	.core : false
             	.relevance:false
-            	-venue->venue991
+            	-venue->venue1095
             	-cites->paper2043671329
             	-authors->author1785551945
             }
@@ -165,7 +166,7 @@ model Paper1986{
             	.year : 1986
             	.core : false
             	.relevance:false
-            	-venue->venue991
+            	-venue->venue1095
             	-authors->author2100592247
             	-authors->author2132052502
             }
@@ -176,9 +177,11 @@ model Paper1986{
             	.relevance:false
             	-venue->venue91
             	-cites->paper1545792627
+            	-cites->paper1769402780
             	-cites->paper1973501242
             	-cites->paper2051789131
             	-cites->paper2054739713
+            	-cites->paper2163820265
             	-authors->author2067936517
             	-authors->author2112744756
             	-authors->author2515119473
@@ -188,8 +191,53 @@ model Paper1986{
             	.year : 1986
             	.core : false
             	.relevance:false
-            	-venue->venue2777
+            	-venue->venue2875
             	-authors->author2248607981
+            }
+	paper1541859602:Paper {
+                .title : "Structure and Encapsulation in Distributed Systems the Proxy Principle"
+            	.year : 1986
+            	.core : false
+            	.relevance:false
+            	-venue->venue818
+            	-cites->paper2106035061
+            	-cites->paper2110425399
+            	-authors->author2274888956
+            }
+	paper2040919531:Paper {
+                .title : "Limitations on database availability when networks partition"
+            	.year : 1986
+            	.core : false
+            	.relevance:false
+            	-venue->venue1095
+            	-authors->author732535197
+            	-authors->author2775983549
+            	-authors->author314402231
+            }
+	paper2163832616:Paper {
+                .title : "Objectoriented programming Themes and variations"
+            	.year : 1986
+            	.core : false
+            	.relevance:false
+            	-venue->venue4257
+            	-authors->author2247793912
+            	-authors->author2087866229
+            }
+	paper2177772636:Paper {
+                .title : "Memory access buffering in multiprocessors"
+            	.year : 1986
+            	.core : false
+            	.relevance:false
+            	-venue->venue91
+            	-cites->paper1545792627
+            	-cites->paper1769402780
+            	-cites->paper1973501242
+            	-cites->paper2051789131
+            	-cites->paper2054739713
+            	-cites->paper2163820265
+            	-authors->author2067936517
+            	-authors->author2112744756
+            	-authors->author2515119473
             }
 }
 

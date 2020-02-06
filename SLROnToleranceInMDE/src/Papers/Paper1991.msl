@@ -26,15 +26,15 @@ import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2017.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2018.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2000.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1998.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2002.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1991.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2002.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1995.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1986.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2000.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1987.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1988.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1993.msl"
@@ -51,15 +51,57 @@ import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1962.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1967.msl"
  	
 model Paper1991{
+	paper2096956970:Paper {
+                .title : "Performance evaluation of memory consistency models for sharedmemory multiprocessors"
+            	.year : 1991
+            	.core : true
+            	.relevance:false
+            	-venue->venue174
+            	-cites->paper188011807
+            	-cites->paper1569626261
+            	-cites->paper2054739713
+            	-cites->paper2078081736
+            	-cites->paper2107642570
+            	-cites->paper2132159669
+            	-cites->paper2152390090
+            	-cites->paper2152496451
+            	-cites->paper2153904572
+            	-cites->paper2163820265
+            	-cites->paper2168266481
+            	-cites->paper2176864362
+            	-cites->paper2177772636
+            	-authors->author2273179273
+            	-authors->author190482092
+            	-authors->author1965698830
+            }
+	paper2108380551:Paper {
+                .title : "SOFTON a flexible software construction model by interface mediation"
+            	.year : 1991
+            	.core : true
+            	.relevance:false
+            	-venue->venue31
+            	-cites->paper2012408028
+            	-cites->paper2027657506
+            	-cites->paper2041042883
+            	-cites->paper2099624917
+            	-cites->paper2102682285
+            	-cites->paper2106035061
+            	-cites->paper2141838021
+            	-cites->paper2144836746
+            	-authors->author2139439860
+            	-authors->author2212182554
+            }
 	paper1488121907:Paper {
                 .title : "The expressive power of implicit specifications"
             	.year : 1991
             	.core : false
             	.relevance:false
-            	-venue->venue279
+            	-venue->venue393
             	-cites->paper2110425399
+            	-cites->paper2137865376
             	-cites->paper2148106163
             	-authors->author2146581609
             }
@@ -76,9 +118,16 @@ model Paper1991{
             	.year : 1991
             	.core : false
             	.relevance:false
-            	-venue->venue802
+            	-venue->venue908
+            	-cites->paper188011807
+            	-cites->paper1569626261
             	-cites->paper2054739713
+            	-cites->paper2078081736
+            	-cites->paper2107642570
             	-cites->paper2152390090
+            	-cites->paper2153904572
+            	-cites->paper2163820265
+            	-cites->paper2173501262
             	-cites->paper2176864362
             	-cites->paper2177772636
             	-authors->author2273179273
@@ -90,7 +139,7 @@ model Paper1991{
             	.year : 1991
             	.core : false
             	.relevance:false
-            	-venue->venue932
+            	-venue->venue1037
             	-cites->paper1973501242
             	-cites->paper2095343473
             	-cites->paper2131929623
@@ -103,8 +152,10 @@ model Paper1991{
             	.year : 1991
             	.core : false
             	.relevance:false
-            	-venue->venue932
+            	-venue->venue1037
             	-cites->paper2036267700
+            	-cites->paper2103772475
+            	-cites->paper2132159669
             	-cites->paper2152390090
             	-cites->paper2176864362
             	-authors->author2249219846
@@ -115,7 +166,7 @@ model Paper1991{
             	.year : 1991
             	.core : false
             	.relevance:false
-            	-venue->venue1177
+            	-venue->venue1280
             	-authors->author2798316651
             }
 	paper2037504708:Paper {
@@ -123,8 +174,9 @@ model Paper1991{
             	.year : 1991
             	.core : false
             	.relevance:false
-            	-venue->venue1390
+            	-venue->venue1492
             	-cites->paper181078895
+            	-cites->paper1672891595
             	-cites->paper2075950442
             	-cites->paper2099805467
             	-cites->paper2118900391
@@ -136,7 +188,7 @@ model Paper1991{
             	.year : 1991
             	.core : false
             	.relevance:false
-            	-venue->venue1186
+            	-venue->venue1289
             	-cites->paper2098395122
             	-authors->author1605907091
             	-authors->author172400696
@@ -147,7 +199,7 @@ model Paper1991{
             	.year : 1991
             	.core : false
             	.relevance:false
-            	-venue->venue1040
+            	-venue->venue1144
             	-cites->paper1589487547
             	-cites->paper1986329319
             	-cites->paper2118900391
@@ -159,7 +211,7 @@ model Paper1991{
             	.year : 1991
             	.core : false
             	.relevance:false
-            	-venue->venue1698
+            	-venue->venue1799
             	-cites->paper2135432705
             	-authors->author2110538291
             	-authors->author2633267068
@@ -170,8 +222,17 @@ model Paper1991{
             	.core : false
             	.relevance:false
             	-venue->venue174
+            	-cites->paper188011807
+            	-cites->paper1569626261
             	-cites->paper2054739713
+            	-cites->paper2078081736
+            	-cites->paper2107642570
+            	-cites->paper2132159669
             	-cites->paper2152390090
+            	-cites->paper2152496451
+            	-cites->paper2153904572
+            	-cites->paper2163820265
+            	-cites->paper2168266481
             	-cites->paper2176864362
             	-cites->paper2177772636
             	-authors->author2273179273
@@ -183,7 +244,7 @@ model Paper1991{
             	.year : 1991
             	.core : false
             	.relevance:false
-            	-venue->venue672
+            	-venue->venue779
             	-cites->paper2045723688
             	-authors->author2041937263
             	-authors->author2342746433
@@ -193,7 +254,7 @@ model Paper1991{
             	.year : 1991
             	.core : false
             	.relevance:false
-            	-venue->venue701
+            	-venue->venue808
             	-authors->author2280265749
             	-authors->author2630693468
             }
@@ -202,10 +263,11 @@ model Paper1991{
             	.year : 1991
             	.core : false
             	.relevance:false
-            	-venue->venue1801
+            	-venue->venue1902
             	-cites->paper1545155892
             	-cites->paper1973501242
             	-cites->paper2038562061
+            	-cites->paper2048071586
             	-cites->paper2087668037
             	-cites->paper2110765100
             	-cites->paper2125011947
@@ -217,7 +279,7 @@ model Paper1991{
             	.year : 1991
             	.core : false
             	.relevance:false
-            	-venue->venue460
+            	-venue->venue569
             	-authors->author2346493798
             	-authors->author2128912965
             	-authors->author2805475450
@@ -228,7 +290,7 @@ model Paper1991{
             	.year : 1991
             	.core : false
             	.relevance:false
-            	-venue->venue1186
+            	-venue->venue1289
             	-cites->paper1984478483
             	-cites->paper2132334337
             	-authors->author2162106674
@@ -239,7 +301,7 @@ model Paper1991{
             	.year : 1991
             	.core : false
             	.relevance:false
-            	-venue->venue958
+            	-venue->venue1063
             	-cites->paper2113827629
             	-authors->author2779581962
             	-authors->author2242930301
@@ -263,10 +325,12 @@ model Paper1991{
             	.core : false
             	.relevance:false
             	-venue->venue91
+            	-cites->paper1569626261
             	-cites->paper2051789131
             	-cites->paper2054739713
             	-cites->paper2096956970
             	-cites->paper2152390090
+            	-cites->paper2153904572
             	-cites->paper2176864362
             	-cites->paper2177772636
             	-cites->paper2611796265
@@ -279,7 +343,7 @@ model Paper1991{
             	.year : 1991
             	.core : false
             	.relevance:false
-            	-venue->venue2405
+            	-venue->venue2503
             	-authors->author1545294347
             	-authors->author2164985626
             }
@@ -288,7 +352,7 @@ model Paper1991{
             	.year : 1991
             	.core : false
             	.relevance:false
-            	-venue->venue1902
+            	-venue->venue2001
             	-authors->author2762813159
             	-authors->author2794138650
             	-authors->author2893763370
@@ -298,7 +362,7 @@ model Paper1991{
             	.year : 1991
             	.core : false
             	.relevance:false
-            	-venue->venue1823
+            	-venue->venue1924
             	-authors->author2280265749
             	-authors->author2107654984
             }
@@ -316,7 +380,7 @@ model Paper1991{
             	.year : 1991
             	.core : false
             	.relevance:false
-            	-venue->venue2700
+            	-venue->venue2798
             	-cites->paper1973501242
             	-cites->paper2095343473
             	-cites->paper2118891797
@@ -339,7 +403,7 @@ model Paper1991{
             	.year : 1991
             	.core : false
             	.relevance:false
-            	-venue->venue1207
+            	-venue->venue1310
             	-authors->author2273179273
             	-authors->author190482092
             	-authors->author1965698830
@@ -349,8 +413,214 @@ model Paper1991{
             	.year : 1991
             	.core : false
             	.relevance:false
-            	-venue->venue3001
+            	-venue->venue3098
             	-authors->author2295682018
+            }
+	paper1497005429:Paper {
+                .title : "The Art of Computer Systems Performance Analysis Techniques for Experimental Design Measurement Simulation and Modeling"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue0
+            	-authors->author2799147659
+            }
+	paper1514052250:Paper {
+                .title : "A Concept of Hierarchical Petri Nets with Building Blocks"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue3172
+            	-authors->author2276448551
+            }
+	paper1885534640:Paper {
+                .title : "Two Techniques to Enhance the Performance of Memory Consistency Models"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue908
+            	-cites->paper188011807
+            	-cites->paper1569626261
+            	-cites->paper2054739713
+            	-cites->paper2078081736
+            	-cites->paper2107642570
+            	-cites->paper2152390090
+            	-cites->paper2153904572
+            	-cites->paper2163820265
+            	-cites->paper2173501262
+            	-cites->paper2176864362
+            	-cites->paper2177772636
+            	-authors->author2273179273
+            	-authors->author190482092
+            	-authors->author1965698830
+            }
+	paper1991650436:Paper {
+                .title : "Software risk management principles and practices"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue993
+            	-cites->paper2134062730
+            	-authors->author2068686281
+            }
+	paper2007567551:Paper {
+                .title : "The Amoeba distributed operating systema status report"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue1228
+            	-cites->paper1532915129
+            	-cites->paper2005373714
+            	-cites->paper2095687239
+            	-cites->paper2106035061
+            	-cites->paper2175085668
+            	-authors->author2111822219
+            	-authors->author2761173109
+            	-authors->author2698714706
+            	-authors->author2068854845
+            }
+	paper2052100091:Paper {
+                .title : "Using structured types to incorporate knowledge in hypertext"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue3611
+            	-authors->author2309614034
+            	-authors->author2707319422
+            }
+	paper2078081736:Paper {
+                .title : "Tolerating latency through softwarecontrolled prefetching in sharedmemory multiprocessors"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue2282
+            	-cites->paper188011807
+            	-cites->paper2152390090
+            	-cites->paper2152496451
+            	-cites->paper2153904572
+            	-cites->paper2163820265
+            	-cites->paper2176864362
+            	-cites->paper2611796265
+            	-authors->author2273179273
+            	-authors->author2893489987
+            }
+	paper2093916942:Paper {
+                .title : "The Temporal Logic of Reactive and Concurrent Systems Specification"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue0
+            	-authors->author2171343426
+            	-authors->author2146370811
+            }
+	paper2101377877:Paper {
+                .title : "Comparative evaluation of latency reducing and tolerating techniques"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue91
+            	-cites->paper2054739713
+            	-cites->paper2078081736
+            	-cites->paper2096956970
+            	-cites->paper2132159669
+            	-cites->paper2152390090
+            	-cites->paper2152496451
+            	-cites->paper2153904572
+            	-cites->paper2163820265
+            	-cites->paper2176864362
+            	-cites->paper2177772636
+            	-cites->paper2611796265
+            	-authors->author2273179273
+            	-authors->author2213475343
+            	-authors->author190482092
+            	-authors->author2893489987
+            	-authors->author1965698830
+            }
+	paper2125500714:Paper {
+                .title : "Specification and refinement of probabilistic processes"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue2212
+            	-cites->paper2110425399
+            	-cites->paper2125739093
+            	-cites->paper2148106163
+            	-authors->author2285498729
+            	-authors->author2146581609
+            }
+	paper2143246735:Paper {
+                .title : "Racefree interconnection networks and multiprocessor consistency"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue91
+            	-cites->paper1569626261
+            	-cites->paper2051789131
+            	-cites->paper2054739713
+            	-cites->paper2096956970
+            	-cites->paper2152390090
+            	-cites->paper2153904572
+            	-cites->paper2176864362
+            	-cites->paper2177772636
+            	-cites->paper2611796265
+            	-authors->author2188604675
+            	-authors->author1982114091
+            	-authors->author678106963
+            }
+	paper2153360297:Paper {
+                .title : "Specifying gestures by example"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue3451
+            	-authors->author1982006152
+            }
+	paper2154837369:Paper {
+                .title : "Replica control in distributed systems as asynchronous approach"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue1154
+            	-cites->paper1525865893
+            	-cites->paper1545155892
+            	-cites->paper1973501242
+            	-cites->paper2038562061
+            	-cites->paper2043671329
+            	-cites->paper2048071586
+            	-cites->paper2116142433
+            	-cites->paper2126356880
+            	-cites->paper2131929623
+            	-authors->author2235870244
+            	-authors->author2117427889
+            }
+	paper2407464957:Paper {
+                .title : "The Art of Computer Systems Performance Analysis Techniques for Experimental Design Measurement Simulation and Modeling Book Review"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue1338
+            	-authors->author2157313770
+            }
+	paper2611796265:Paper {
+                .title : "Performance evaluation of memory consistency models for sharedmemory multiprocessors"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue1310
+            	-authors->author2273179273
+            	-authors->author190482092
+            	-authors->author1965698830
+            }
+	paper8399591:Paper {
+                .title : "Efficient Simulation of Parallel Computer Systems"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue4361
+            	-authors->author2253748341
+            	-authors->author2399100309
+            	-authors->author19214967
+            	-authors->author2522149314
+            	-authors->author2336341339
             }
 }
 

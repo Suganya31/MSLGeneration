@@ -26,15 +26,15 @@ import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2017.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2018.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2000.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1998.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2002.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1991.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2002.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1995.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1986.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2000.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1987.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1988.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1993.msl"
@@ -51,6 +51,7 @@ import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1962.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1967.msl"
  	
 model Paper1988{
 	paper1547343000:Paper {
@@ -58,7 +59,7 @@ model Paper1988{
             	.year : 1988
             	.core : false
             	.relevance:false
-            	-venue->venue475
+            	-venue->venue584
             	-authors->author2659236331
             }
 	paper190622319:Paper {
@@ -66,7 +67,7 @@ model Paper1988{
             	.year : 1988
             	.core : false
             	.relevance:false
-            	-venue->venue817
+            	-venue->venue923
             	-cites->paper181078895
             	-cites->paper2099805467
             	-authors->author2228449327
@@ -77,7 +78,7 @@ model Paper1988{
             	.year : 1988
             	.core : false
             	.relevance:false
-            	-venue->venue864
+            	-venue->venue970
             	-authors->author2108293768
             	-authors->author2256205553
             	-authors->author2589415339
@@ -87,7 +88,7 @@ model Paper1988{
             	.year : 1988
             	.core : false
             	.relevance:false
-            	-venue->venue962
+            	-venue->venue1067
             	-authors->author251035819
             	-authors->author2123005755
             }
@@ -96,7 +97,7 @@ model Paper1988{
             	.year : 1988
             	.core : false
             	.relevance:false
-            	-venue->venue864
+            	-venue->venue970
             	-cites->paper1971991620
             	-cites->paper2133201251
             	-authors->author2178599376
@@ -107,7 +108,7 @@ model Paper1988{
             	.year : 1988
             	.core : false
             	.relevance:false
-            	-venue->venue1025
+            	-venue->venue1129
             	-authors->author1873538321
             	-authors->author2192981890
             	-authors->author2679634565
@@ -117,7 +118,7 @@ model Paper1988{
             	.year : 1988
             	.core : false
             	.relevance:false
-            	-venue->venue939
+            	-venue->venue1044
             	-cites->paper2106887953
             	-authors->author2084056563
             }
@@ -126,7 +127,7 @@ model Paper1988{
             	.year : 1988
             	.core : false
             	.relevance:false
-            	-venue->venue932
+            	-venue->venue1037
             	-cites->paper1547343000
             	-cites->paper1967141605
             	-cites->paper2111223826
@@ -145,6 +146,7 @@ model Paper1988{
             	.core : false
             	.relevance:false
             	-venue->venue211
+            	-cites->paper1972095388
             	-cites->paper2095958260
             	-authors->author2655344404
             }
@@ -153,10 +155,11 @@ model Paper1988{
             	.year : 1988
             	.core : false
             	.relevance:false
-            	-venue->venue1245
+            	-venue->venue1348
             	-cites->paper1491178396
             	-cites->paper1973501242
             	-cites->paper2054739713
+            	-cites->paper2132159669
             	-authors->author2082974086
             	-authors->author2282086102
             }
@@ -165,7 +168,7 @@ model Paper1988{
             	.year : 1988
             	.core : false
             	.relevance:false
-            	-venue->venue878
+            	-venue->venue983
             	-cites->paper1545155892
             	-cites->paper2031032746
             	-cites->paper2106887953
@@ -177,7 +180,7 @@ model Paper1988{
             	.year : 1988
             	.core : false
             	.relevance:false
-            	-venue->venue939
+            	-venue->venue1044
             	-cites->paper2130493426
             	-cites->paper2155847110
             	-cites->paper2611598995
@@ -188,9 +191,10 @@ model Paper1988{
             	.year : 1988
             	.core : false
             	.relevance:false
-            	-venue->venue932
+            	-venue->venue1037
             	-cites->paper1967141605
             	-cites->paper2005373714
+            	-cites->paper2106035061
             	-cites->paper2111223826
             	-cites->paper2115294119
             	-authors->author2121924931
@@ -202,7 +206,7 @@ model Paper1988{
             	.year : 1988
             	.core : false
             	.relevance:false
-            	-venue->venue915
+            	-venue->venue1020
             	-cites->paper2106887953
             	-cites->paper2133386065
             	-authors->author227041386
@@ -214,7 +218,7 @@ model Paper1988{
             	.year : 1988
             	.core : false
             	.relevance:false
-            	-venue->venue2067
+            	-venue->venue2166
             	-cites->paper181078895
             	-cites->paper2075950442
             	-cites->paper2099805467
@@ -227,7 +231,7 @@ model Paper1988{
             	.year : 1988
             	.core : false
             	.relevance:false
-            	-venue->venue878
+            	-venue->venue983
             	-authors->author2270157296
             	-authors->author2138667172
             }
@@ -236,7 +240,7 @@ model Paper1988{
             	.year : 1988
             	.core : false
             	.relevance:false
-            	-venue->venue905
+            	-venue->venue1010
             	-cites->paper2095958260
             	-authors->author2068686281
             }
@@ -245,7 +249,7 @@ model Paper1988{
             	.year : 1988
             	.core : false
             	.relevance:false
-            	-venue->venue2113
+            	-venue->venue2212
             	-authors->author2146581609
             	-authors->author2252015788
             }
@@ -254,7 +258,7 @@ model Paper1988{
             	.year : 1988
             	.core : false
             	.relevance:false
-            	-venue->venue806
+            	-venue->venue912
             	-cites->paper1971991620
             	-cites->paper1999823724
             	-cites->paper2042609034
@@ -269,7 +273,7 @@ model Paper1988{
             	.year : 1988
             	.core : false
             	.relevance:false
-            	-venue->venue996
+            	-venue->venue1100
             	-authors->author2647369450
             	-authors->author2893304033
             }
@@ -278,7 +282,7 @@ model Paper1988{
             	.year : 1988
             	.core : false
             	.relevance:false
-            	-venue->venue2534
+            	-venue->venue2632
             	-authors->author2051354008
             	-authors->author2305895682
             }
@@ -287,7 +291,7 @@ model Paper1988{
             	.year : 1988
             	.core : false
             	.relevance:false
-            	-venue->venue915
+            	-venue->venue1020
             	-cites->paper2133201251
             	-authors->author2705548157
             }
@@ -296,7 +300,8 @@ model Paper1988{
             	.year : 1988
             	.core : false
             	.relevance:false
-            	-venue->venue361
+            	-venue->venue472
+            	-cites->paper2099624917
             	-authors->author2321451709
             	-authors->author2105930983
             	-authors->author2139439197
@@ -308,6 +313,174 @@ model Paper1988{
             	.relevance:false
             	-venue->venue0
             	-authors->author2722856806
+            }
+	paper1672891595:Paper {
+                .title : "The Stable Model Semantics for Logic Programming"
+            	.year : 1988
+            	.core : false
+            	.relevance:false
+            	-venue->venue3338
+            	-authors->author2295741880
+            	-authors->author2107253246
+            }
+	paper188011807:Paper {
+                .title : "Concurrent Miss Resolution in Multiprocessor Caches"
+            	.year : 1988
+            	.core : false
+            	.relevance:false
+            	-venue->venue908
+            	-authors->author2067936517
+            	-authors->author2112744756
+            }
+	paper1979566015:Paper {
+                .title : "Reevaluating Amdahls law"
+            	.year : 1988
+            	.core : false
+            	.relevance:false
+            	-venue->venue1044
+            	-authors->author2154338880
+            }
+	paper1991494135:Paper {
+                .title : "Distributed programming in Argus"
+            	.year : 1988
+            	.core : false
+            	.relevance:false
+            	-venue->venue1044
+            	-cites->paper2106887953
+            	-authors->author2084056563
+            }
+	paper2018028877:Paper {
+                .title : "Reflection in an objectoriented concurrent language"
+            	.year : 1988
+            	.core : false
+            	.relevance:false
+            	-venue->venue1110
+            	-cites->paper2157598146
+            	-authors->author2122941679
+            	-authors->author660900409
+            }
+	paper2041042883:Paper {
+                .title : "Type theories and objectoriented programmimg"
+            	.year : 1988
+            	.core : false
+            	.relevance:false
+            	-venue->venue1000
+            	-cites->paper2027657506
+            	-cites->paper2163832616
+            	-authors->author2803579359
+            	-authors->author2128271196
+            }
+	paper2045571829:Paper {
+                .title : "A field study of the software design process for large systems"
+            	.year : 1988
+            	.core : false
+            	.relevance:false
+            	-venue->venue1044
+            	-cites->paper2134062730
+            	-authors->author2240992312
+            	-authors->author2289360256
+            	-authors->author2033069166
+            }
+	paper2067754486:Paper {
+                .title : "Some algebraic and geometric computations in PSPACE"
+            	.year : 1988
+            	.core : false
+            	.relevance:false
+            	-venue->venue1392
+            	-authors->author2101610026
+            }
+	paper2121134342:Paper {
+                .title : "Finegrained mobility in the Emerald system"
+            	.year : 1988
+            	.core : false
+            	.relevance:false
+            	-venue->venue1037
+            	-authors->author1892969964
+            	-authors->author737098973
+            	-authors->author2041931554
+            	-authors->author2153681653
+            }
+	paper2126420408:Paper {
+                .title : "Many hard examples for resolution"
+            	.year : 1988
+            	.core : false
+            	.relevance:false
+            	-venue->venue983
+            	-authors->author2270157296
+            	-authors->author2138667172
+            }
+	paper2134062730:Paper {
+                .title : "A spiral model of software development and enhancement"
+            	.year : 1988
+            	.core : false
+            	.relevance:false
+            	-venue->venue1010
+            	-cites->paper2095958260
+            	-authors->author2068686281
+            }
+	paper2140618551:Paper {
+                .title : "Using mandatory integrity to enforce commercial security"
+            	.year : 1988
+            	.core : false
+            	.relevance:false
+            	-venue->venue2001
+            	-cites->paper2152505375
+            	-authors->author2434294375
+            }
+	paper2141838021:Paper {
+                .title : "Interconnecting heterogeneous computer systems"
+            	.year : 1988
+            	.core : false
+            	.relevance:false
+            	-venue->venue1044
+            	-cites->paper2009312542
+            	-cites->paper2043671329
+            	-cites->paper2099624917
+            	-cites->paper2106035061
+            	-cites->paper2115294119
+            	-cites->paper2130493426
+            	-authors->author503932836
+            	-authors->author1988594917
+            	-authors->author477007165
+            	-authors->author7317355
+            	-authors->author2153681653
+            	-authors->author737098973
+            }
+	paper2148106163:Paper {
+                .title : "A modal process logic"
+            	.year : 1988
+            	.core : false
+            	.relevance:false
+            	-venue->venue2212
+            	-authors->author2146581609
+            	-authors->author2252015788
+            }
+	paper2159080219:Paper {
+                .title : "Probabilistic Reasoning in Intelligent Systems Networks of Plausible Inference"
+            	.year : 1988
+            	.core : false
+            	.relevance:false
+            	-venue->venue0
+            	-authors->author2248165042
+            }
+	paper2162178624:Paper {
+                .title : "Recording the reasons for design decisions"
+            	.year : 1988
+            	.core : false
+            	.relevance:false
+            	-venue->venue61
+            	-cites->paper2019712414
+            	-authors->author2140224283
+            	-authors->author2779813464
+            }
+	paper2165368789:Paper {
+                .title : "A faster PSPACE algorithm for deciding the existential theory of the reals"
+            	.year : 1988
+            	.core : false
+            	.relevance:false
+            	-venue->venue1858
+            	-cites->paper2067754486
+            	-authors->author2036485660
             }
 }
 

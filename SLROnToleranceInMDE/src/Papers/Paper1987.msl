@@ -26,15 +26,15 @@ import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2017.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2018.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2000.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1998.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2002.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1991.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2002.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1995.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1986.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2000.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1987.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1988.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1993.msl"
@@ -51,6 +51,7 @@ import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1962.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1967.msl"
  	
 model Paper1987{
 	paper1521935994:Paper {
@@ -58,7 +59,7 @@ model Paper1987{
             	.year : 1987
             	.core : false
             	.relevance:false
-            	-venue->venue329
+            	-venue->venue441
             	-authors->author2280703322
             	-authors->author2065325028
             }
@@ -77,7 +78,7 @@ model Paper1987{
             	.year : 1987
             	.core : false
             	.relevance:false
-            	-venue->venue329
+            	-venue->venue441
             	-authors->author2706069882
             	-authors->author2612593125
             }
@@ -86,7 +87,7 @@ model Paper1987{
             	.year : 1987
             	.core : false
             	.relevance:false
-            	-venue->venue701
+            	-venue->venue808
             	-authors->author2633718059
             }
 	paper1828150029:Paper {
@@ -94,7 +95,7 @@ model Paper1987{
             	.year : 1987
             	.core : false
             	.relevance:false
-            	-venue->venue755
+            	-venue->venue861
             	-authors->author2251318330
             }
 	paper2013492611:Paper {
@@ -102,7 +103,7 @@ model Paper1987{
             	.year : 1987
             	.core : false
             	.relevance:false
-            	-venue->venue1245
+            	-venue->venue1348
             	-cites->paper2110050316
             	-cites->paper2111706174
             	-authors->author1584891692
@@ -112,7 +113,7 @@ model Paper1987{
             	.year : 1987
             	.core : false
             	.relevance:false
-            	-venue->venue915
+            	-venue->venue1020
             	-cites->paper2043671329
             	-cites->paper2111223826
             	-authors->author2894459299
@@ -122,7 +123,7 @@ model Paper1987{
             	.year : 1987
             	.core : false
             	.relevance:false
-            	-venue->venue991
+            	-venue->venue1095
             	-cites->paper2009312542
             	-cites->paper2043671329
             	-cites->paper2059328141
@@ -142,7 +143,7 @@ model Paper1987{
             	.year : 1987
             	.core : false
             	.relevance:false
-            	-venue->venue1006
+            	-venue->venue1110
             	-authors->author2041937263
             	-authors->author2342746433
             }
@@ -153,6 +154,7 @@ model Paper1987{
             	.relevance:false
             	-venue->venue91
             	-cites->paper1545792627
+            	-cites->paper1769402780
             	-cites->paper1973501242
             	-cites->paper2054739713
             	-cites->paper2177772636
@@ -164,7 +166,7 @@ model Paper1987{
             	.year : 1987
             	.core : false
             	.relevance:false
-            	-venue->venue915
+            	-venue->venue1020
             	-cites->paper1973501242
             	-cites->paper2043671329
             	-authors->author2640775652
@@ -175,7 +177,7 @@ model Paper1987{
             	.year : 1987
             	.core : false
             	.relevance:false
-            	-venue->venue1387
+            	-venue->venue1489
             	-authors->author1976084713
             }
 	paper2066775342:Paper {
@@ -183,7 +185,7 @@ model Paper1987{
             	.year : 1987
             	.core : false
             	.relevance:false
-            	-venue->venue895
+            	-venue->venue1000
             	-cites->paper1545155892
             	-cites->paper1973501242
             	-authors->author2119312003
@@ -193,7 +195,7 @@ model Paper1987{
             	.year : 1987
             	.core : false
             	.relevance:false
-            	-venue->venue1033
+            	-venue->venue1137
             	-authors->author350567680
             	-authors->author2045095730
             }
@@ -202,7 +204,7 @@ model Paper1987{
             	.year : 1987
             	.core : false
             	.relevance:false
-            	-venue->venue913
+            	-venue->venue1018
             	-cites->paper181078895
             	-cites->paper190622319
             	-cites->paper2099805467
@@ -215,7 +217,7 @@ model Paper1987{
             	.year : 1987
             	.core : false
             	.relevance:false
-            	-venue->venue878
+            	-venue->venue983
             	-cites->paper2095464745
             	-cites->paper2118891797
             	-cites->paper2122326479
@@ -246,7 +248,7 @@ model Paper1987{
             	.year : 1987
             	.core : false
             	.relevance:false
-            	-venue->venue1019
+            	-venue->venue1123
             	-cites->paper1999552553
             	-cites->paper2095343473
             	-cites->paper2120510885
@@ -260,6 +262,7 @@ model Paper1987{
             	.relevance:false
             	-venue->venue52
             	-cites->paper1973501242
+            	-cites->paper2106035061
             	-cites->paper2116820549
             	-cites->paper2134806330
             	-authors->author2159648025
@@ -270,7 +273,7 @@ model Paper1987{
             	.year : 1987
             	.core : false
             	.relevance:false
-            	-venue->venue1902
+            	-venue->venue2001
             	-authors->author2135387429
             	-authors->author2619093566
             }
@@ -279,10 +282,106 @@ model Paper1987{
             	.year : 1987
             	.core : false
             	.relevance:false
-            	-venue->venue888
+            	-venue->venue993
             	-authors->author2507038796
             	-authors->author2151179467
             	-authors->author696362100
+            }
+	paper1542518647:Paper {
+                .title : "The Cerberus Multiprocessor Simulator"
+            	.year : 1987
+            	.core : false
+            	.relevance:false
+            	-venue->venue3234
+            	-authors->author225551740
+            	-authors->author2636844214
+            	-authors->author2684001483
+            }
+	paper1972095388:Paper {
+                .title : "Process models process programs programming support"
+            	.year : 1987
+            	.core : false
+            	.relevance:false
+            	-venue->venue61
+            	-authors->author2614290841
+            }
+	paper1990100773:Paper {
+                .title : "Why a Diagram is Sometimes Worth Ten Thousand Words"
+            	.year : 1987
+            	.core : false
+            	.relevance:false
+            	-venue->venue3489
+            	-authors->author2303752472
+            	-authors->author2118103072
+            }
+	paper2008074667:Paper {
+                .title : "A Multilevel Relational Data Model"
+            	.year : 1987
+            	.core : false
+            	.relevance:false
+            	-venue->venue2001
+            	-authors->author2357457453
+            	-authors->author2419985518
+            }
+	paper2026735162:Paper {
+                .title : "Data model issues for objectoriented applications"
+            	.year : 1987
+            	.core : false
+            	.relevance:false
+            	-venue->venue1321
+            	-cites->paper2163832616
+            	-authors->author2805138323
+            	-authors->author1989612196
+            	-authors->author2256268629
+            	-authors->author2144020864
+            	-authors->author2265738525
+            	-authors->author2308192707
+            	-authors->author2309577623
+            }
+	paper2026863920:Paper {
+                .title : "Tailoring the software process to project goals and environments"
+            	.year : 1987
+            	.core : false
+            	.relevance:false
+            	-venue->venue61
+            	-authors->author1582049571
+            	-authors->author2011353662
+            }
+	paper2075848956:Paper {
+                .title : "An empirical validation of software cost estimation models"
+            	.year : 1987
+            	.core : false
+            	.relevance:false
+            	-venue->venue1044
+            	-authors->author2304793874
+            }
+	paper2095958260:Paper {
+                .title : "Software processes are software too"
+            	.year : 1987
+            	.core : false
+            	.relevance:false
+            	-venue->venue61
+            	-authors->author2248607981
+            }
+	paper2111920576:Paper {
+                .title : "Cleanroom Software Development An Empirical Evaluation"
+            	.year : 1987
+            	.core : false
+            	.relevance:false
+            	-venue->venue1020
+            	-cites->paper2111706174
+            	-authors->author2651149059
+            	-authors->author2844520834
+            	-authors->author2011353662
+            }
+	paper2152505375:Paper {
+                .title : "A Comparison of Commercial and Military Computer Security Policies"
+            	.year : 1987
+            	.core : false
+            	.relevance:false
+            	-venue->venue2001
+            	-authors->author2135387429
+            	-authors->author2619093566
             }
 }
 

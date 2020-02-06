@@ -26,15 +26,15 @@ import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2017.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2018.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2000.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1998.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2002.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1991.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2002.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1995.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1986.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2000.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1987.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1988.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1993.msl"
@@ -51,6 +51,7 @@ import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1962.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1967.msl"
  	
 model Paper2001{
 	paper1607096807:Paper {
@@ -84,12 +85,82 @@ model Paper2001{
             	-venue->venue61
             	-authors->author2627046014
             }
+	paper2096132547:Paper {
+                .title : "An architectural model for servicebased flexible software"
+            	.year : 2001
+            	.core : true
+            	.relevance:false
+            	-venue->venue31
+            	-cites->paper2046018301
+            	-cites->paper2113950443
+            	-cites->paper2128064723
+            	-cites->paper2132218581
+            	-cites->paper2170021374
+            	-authors->author1996142595
+            	-authors->author2073789242
+            	-authors->author2614351097
+            	-authors->author1542178885
+            	-authors->author2130294251
+            	-authors->author2143281273
+            	-authors->author1991399815
+            	-authors->author252128062
+            }
+	paper2105829526:Paper {
+                .title : "Modeling and verifying strong cache consistency for mobile data access"
+            	.year : 2001
+            	.core : true
+            	.relevance:false
+            	-venue->venue29
+            	-cites->paper1978717717
+            	-cites->paper2012481411
+            	-cites->paper2033263591
+            	-cites->paper2035951289
+            	-cites->paper2093916942
+            	-cites->paper2115309705
+            	-cites->paper2125264097
+            	-cites->paper2125387478
+            	-authors->author2419855062
+            	-authors->author2478656603
+            	-authors->author2682515014
+            	-authors->author2696073230
+            	-authors->author2692071927
+            	-authors->author122937124
+            }
+	paper2131648251:Paper {
+                .title : "Automated check of architectural models consistency using SPIN"
+            	.year : 2001
+            	.core : true
+            	.relevance:false
+            	-venue->venue41
+            	-cites->paper196748788
+            	-cites->paper1525298773
+            	-cites->paper1570069626
+            	-cites->paper1573226501
+            	-cites->paper1585728492
+            	-cites->paper1597414920
+            	-cites->paper1598029876
+            	-cites->paper1600979142
+            	-cites->paper1977237988
+            	-cites->paper2013658284
+            	-cites->paper2020034474
+            	-cites->paper2063185118
+            	-cites->paper2077491980
+            	-cites->paper2088977779
+            	-cites->paper2102296762
+            	-cites->paper2117870171
+            	-cites->paper2122824813
+            	-cites->paper2133824053
+            	-cites->paper2156986266
+            	-authors->author2790865731
+            	-authors->author1767925207
+            	-authors->author2242511651
+            }
 	paper1487606492:Paper {
                 .title : "Assumption coverage under different failure modes in the timetriggered architecture"
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue312
+            	-venue->venue424
             	-authors->author665242119
             	-authors->author2565684332
             	-authors->author1980714858
@@ -99,7 +170,7 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue338
+            	-venue->venue450
             	-authors->author2097786798
             	-authors->author81359666
             }
@@ -108,7 +179,7 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue352
+            	-venue->venue463
             	-cites->paper2101465039
             	-cites->paper2144801589
             	-authors->author2428201908
@@ -119,7 +190,7 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue504
+            	-venue->venue612
             	-authors->author2161553928
             	-authors->author2792133808
             	-authors->author2134843463
@@ -129,7 +200,7 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue284
+            	-venue->venue342
             	-authors->author2277990351
             	-authors->author2110818429
             }
@@ -138,7 +209,7 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue623
+            	-venue->venue730
             	-cites->paper1698439592
             	-cites->paper2109943392
             	-cites->paper2115534035
@@ -152,8 +223,9 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue284
+            	-venue->venue342
             	-cites->paper2069865621
+            	-cites->paper2088977779
             	-authors->author1978340988
             	-authors->author2136680303
             	-authors->author2032654697
@@ -175,9 +247,10 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue296
+            	-venue->venue255
             	-cites->paper1587166076
             	-cites->paper1991604845
+            	-cites->paper2018028877
             	-cites->paper2138363365
             	-cites->paper2611598995
             	-authors->author2420602340
@@ -192,7 +265,7 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue714
+            	-venue->venue821
             	-cites->paper2016323637
             	-authors->author2018048180
             	-authors->author2117364243
@@ -202,7 +275,7 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue701
+            	-venue->venue808
             	-cites->paper1932544619
             	-cites->paper2035362408
             	-cites->paper2133943294
@@ -224,7 +297,7 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue460
+            	-venue->venue569
             	-authors->author2111278495
             	-authors->author2166828809
             }
@@ -233,7 +306,7 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue859
+            	-venue->venue965
             	-cites->paper1608796453
             	-cites->paper2139907081
             	-authors->author2607615413
@@ -243,7 +316,7 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue970
+            	-venue->venue1075
             	-cites->paper1491178396
             	-cites->paper2024795941
             	-cites->paper2051374949
@@ -256,7 +329,7 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue1022
+            	-venue->venue1126
             	-cites->paper1500250067
             	-cites->paper2138363365
             	-authors->author2230177336
@@ -267,7 +340,7 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue1077
+            	-venue->venue1181
             	-authors->author2798902023
             	-authors->author2637476574
             }
@@ -276,7 +349,7 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue1115
+            	-venue->venue301
             	-cites->paper1972544179
             	-cites->paper1976848527
             	-cites->paper2016323637
@@ -289,7 +362,7 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue1186
+            	-venue->venue1289
             	-cites->paper2071706116
             	-cites->paper2139300273
             	-cites->paper2151266168
@@ -300,8 +373,10 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue1260
+            	-venue->venue1363
             	-cites->paper2013498813
+            	-cites->paper2077318760
+            	-cites->paper2171242934
             	-authors->author2061499909
             	-authors->author2108293768
             }
@@ -310,7 +385,10 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue1064
+            	-venue->venue1168
+            	-cites->paper1570069626
+            	-cites->paper1977237988
+            	-cites->paper2100500368
             	-cites->paper2115309705
             	-authors->author2302931449
             	-authors->author2097000653
@@ -321,7 +399,7 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue903
+            	-venue->venue1008
             	-cites->paper1968128450
             	-cites->paper2093287224
             	-cites->paper2105603754
@@ -337,7 +415,7 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue1019
+            	-venue->venue1123
             	-cites->paper1992554067
             	-authors->author2779108726
             	-authors->author2211225537
@@ -347,9 +425,10 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue1365
+            	-venue->venue1467
             	-cites->paper1992554067
             	-cites->paper2030130446
+            	-cites->paper2106035061
             	-cites->paper2117440776
             	-cites->paper2125086691
             	-authors->author2892766803
@@ -361,7 +440,7 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue939
+            	-venue->venue1044
             	-cites->paper1500250067
             	-cites->paper2103953153
             	-authors->author2018572496
@@ -373,7 +452,7 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue939
+            	-venue->venue1044
             	-cites->paper1610570299
             	-authors->author2420602340
             	-authors->author2169399207
@@ -387,8 +466,10 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue1080
+            	-venue->venue1184
             	-cites->paper1601314163
+            	-cites->paper2013658284
+            	-cites->paper2088977779
             	-cites->paper2099293367
             	-cites->paper2117870171
             	-authors->author1978340988
@@ -401,7 +482,7 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue1266
+            	-venue->venue1369
             	-cites->paper2004223683
             	-cites->paper2139300273
             	-cites->paper2151266168
@@ -416,7 +497,7 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue1607
+            	-venue->venue1708
             	-authors->author1999842585
             	-authors->author2601233120
             }
@@ -425,7 +506,7 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue878
+            	-venue->venue983
             	-cites->paper2057361103
             	-cites->paper2088616860
             	-cites->paper2126420408
@@ -437,7 +518,7 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue1738
+            	-venue->venue1839
             	-cites->paper1787074469
             	-cites->paper2043924273
             	-cites->paper2057361103
@@ -470,8 +551,10 @@ model Paper2001{
             	.relevance:false
             	-venue->venue39
             	-cites->paper1885534640
+            	-cites->paper1966285605
             	-cites->paper2029601347
             	-cites->paper2054739713
+            	-cites->paper2152496451
             	-authors->author2112660313
             	-authors->author2230271558
             	-authors->author2185321440
@@ -483,7 +566,7 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue1868
+            	-venue->venue1968
             	-cites->paper2077671984
             	-authors->author2004479661
             	-authors->author2154501644
@@ -494,7 +577,7 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue1870
+            	-venue->venue1970
             	-cites->paper1545155892
             	-cites->paper2080267935
             	-cites->paper2095425626
@@ -524,7 +607,8 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue1939
+            	-venue->venue2038
+            	-cites->paper2066843515
             	-authors->author329072426
             }
 	paper2115104320:Paper {
@@ -532,7 +616,7 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue1999
+            	-venue->venue2098
             	-cites->paper2135764410
             	-authors->author2337605511
             	-authors->author1988080645
@@ -544,7 +628,8 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue460
+            	-venue->venue569
+            	-cites->paper2106035061
             	-cites->paper2125086691
             	-authors->author2892766803
             	-authors->author2086842834
@@ -555,7 +640,7 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue2083
+            	-venue->venue2182
             	-authors->author2322147873
             	-authors->author2126147314
             	-authors->author2287115224
@@ -566,7 +651,7 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue1636
+            	-venue->venue1737
             	-authors->author2605533770
             	-authors->author2113782129
             	-authors->author2648119643
@@ -576,8 +661,9 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue2125
+            	-venue->venue2224
             	-cites->paper1929752839
+            	-cites->paper1977237988
             	-cites->paper2119239145
             	-authors->author341399993
             	-authors->author1248305636
@@ -587,7 +673,7 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue1117
+            	-venue->venue1220
             	-cites->paper2062756186
             	-authors->author2061938730
             }
@@ -596,7 +682,7 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue699
+            	-venue->venue806
             	-cites->paper1698439592
             	-cites->paper2109943392
             	-cites->paper2115534035
@@ -611,7 +697,7 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue2147
+            	-venue->venue2246
             	-cites->paper2135764410
             	-authors->author2302839145
             	-authors->author2160555630
@@ -623,8 +709,9 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue915
+            	-venue->venue1020
             	-cites->paper2001907377
+            	-cites->paper2077318760
             	-cites->paper2159765281
             	-authors->author296542006
             	-authors->author2106335481
@@ -652,8 +739,25 @@ model Paper2001{
             	.core : false
             	.relevance:false
             	-venue->venue41
+            	-cites->paper196748788
+            	-cites->paper1525298773
+            	-cites->paper1570069626
+            	-cites->paper1573226501
+            	-cites->paper1585728492
+            	-cites->paper1597414920
+            	-cites->paper1598029876
+            	-cites->paper1600979142
+            	-cites->paper1977237988
+            	-cites->paper2013658284
             	-cites->paper2020034474
+            	-cites->paper2063185118
+            	-cites->paper2077491980
+            	-cites->paper2088977779
+            	-cites->paper2102296762
             	-cites->paper2117870171
+            	-cites->paper2122824813
+            	-cites->paper2133824053
+            	-cites->paper2156986266
             	-authors->author2790865731
             	-authors->author1767925207
             	-authors->author2242511651
@@ -664,6 +768,8 @@ model Paper2001{
             	.core : false
             	.relevance:false
             	-venue->venue41
+            	-cites->paper1570069626
+            	-cites->paper1969402593
             	-authors->author2167571421
             	-authors->author1979262351
             	-authors->author1846299453
@@ -673,7 +779,8 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue699
+            	-venue->venue806
+            	-cites->paper2077318760
             	-cites->paper2159765281
             	-cites->paper2162366870
             	-cites->paper2176490758
@@ -684,7 +791,7 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue1323
+            	-venue->venue1425
             	-cites->paper1589122423
             	-authors->author1982296994
             	-authors->author2684947636
@@ -700,6 +807,8 @@ model Paper2001{
             	-cites->paper2099293367
             	-cites->paper2110425399
             	-cites->paper2115309705
+            	-cites->paper2133824053
+            	-cites->paper2160019730
             	-authors->author124449960
             	-authors->author2116990958
             }
@@ -722,7 +831,7 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue1312
+            	-venue->venue1414
             	-cites->paper1787074469
             	-cites->paper2043924273
             	-cites->paper2057361103
@@ -739,8 +848,9 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue993
+            	-venue->venue1097
             	-cites->paper2113435553
+            	-cites->paper2122824813
             	-cites->paper2138363365
             	-authors->author2166654045
             	-authors->author2271217432
@@ -751,7 +861,7 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue1289
+            	-venue->venue1392
             	-cites->paper1787074469
             	-cites->paper2057361103
             	-cites->paper2088616860
@@ -765,7 +875,7 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue711
+            	-venue->venue818
             	-cites->paper1973501242
             	-authors->author2110218440
             	-authors->author1975526600
@@ -775,10 +885,11 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue1829
+            	-venue->venue1930
             	-cites->paper2038953226
             	-cites->paper2124080036
             	-cites->paper2152505375
+            	-cites->paper2166602595
             	-authors->author272045587
             	-authors->author2798617673
             }
@@ -804,7 +915,7 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue802
+            	-venue->venue908
             	-cites->paper2611515161
             	-authors->author2063170645
             	-authors->author592432393
@@ -814,7 +925,7 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue1780
+            	-venue->venue1881
             	-cites->paper2156127351
             	-authors->author2893218381
             	-authors->author2875151401
@@ -825,7 +936,8 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue338
+            	-venue->venue450
+            	-cites->paper2052267638
             	-cites->paper2084641398
             	-authors->author65538393
             	-authors->author1882886235
@@ -840,7 +952,7 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue915
+            	-venue->venue1020
             	-authors->author2230662789
             	-authors->author2068808004
             	-authors->author2131883238
@@ -852,7 +964,7 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue1266
+            	-venue->venue1369
             	-authors->author180708131
             	-authors->author1973008803
             	-authors->author324519408
@@ -868,11 +980,13 @@ model Paper2001{
             	-venue->venue81
             	-cites->paper326424914
             	-cites->paper1968128450
+            	-cites->paper1986186023
             	-cites->paper1996832037
             	-cites->paper2017739343
             	-cites->paper2051028605
             	-cites->paper2082204982
             	-cites->paper2096266868
+            	-cites->paper2105539612
             	-cites->paper2105603754
             	-cites->paper2113435553
             	-cites->paper2117818414
@@ -887,6 +1001,7 @@ model Paper2001{
             	.relevance:false
             	-venue->venue41
             	-cites->paper1968128450
+            	-cites->paper2109926023
             	-cites->paper2117818414
             	-cites->paper2117870171
             	-cites->paper2135920852
@@ -920,9 +1035,10 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue915
+            	-venue->venue1020
             	-cites->paper1555946950
             	-cites->paper1984489185
+            	-cites->paper2134342348
             	-cites->paper2611598995
             	-authors->author2100357700
             	-authors->author2126702569
@@ -933,7 +1049,7 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue822
+            	-venue->venue928
             	-authors->author30741502
             }
 	paper2165413178:Paper {
@@ -953,7 +1069,7 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue895
+            	-venue->venue1000
             	-cites->paper1583095677
             	-cites->paper1589122423
             	-cites->paper1973501242
@@ -974,7 +1090,7 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue1607
+            	-venue->venue1708
             	-authors->author2087659870
             	-authors->author2051028845
             	-authors->author2686121619
@@ -1017,7 +1133,7 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue880
+            	-venue->venue985
             	-cites->paper1502765706
             	-cites->paper1986463648
             	-cites->paper2029601347
@@ -1031,10 +1147,13 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue545
+            	-venue->venue653
             	-cites->paper1500250067
             	-cites->paper1591471358
+            	-cites->paper1591726984
             	-cites->paper1991604845
+            	-cites->paper2013658284
+            	-cites->paper2077318760
             	-cites->paper2107232214
             	-cites->paper2138363365
             	-cites->paper2162366870
@@ -1051,7 +1170,7 @@ model Paper2001{
             	.year : 2001
             	.core : false
             	.relevance:false
-            	-venue->venue1260
+            	-venue->venue1363
             	-cites->paper2100970777
             	-cites->paper2133820906
             	-cites->paper2169840536
@@ -1060,6 +1179,571 @@ model Paper2001{
             	-authors->author2174616133
             	-authors->author2280265749
             	-authors->author2311471341
+            }
+	paper1497286055:Paper {
+                .title : "Nested Petri Nets Multilevel and Recursive Systems"
+            	.year : 2001
+            	.core : false
+            	.relevance:false
+            	-venue->venue638
+            	-cites->paper1554183872
+            	-authors->author2008371235
+            }
+	paper1511881082:Paper {
+                .title : "HighLevel Petri Nets as Type Theories in the Join Calculus"
+            	.year : 2001
+            	.core : false
+            	.relevance:false
+            	-venue->venue3190
+            	-cites->paper2042363190
+            	-cites->paper2050942832
+            	-authors->author167953724
+            	-authors->author2156757929
+            }
+	paper1513884558:Paper {
+                .title : "Sequential Valuation Networks A New Graphical Technique for Asymmetric Decision Problems"
+            	.year : 2001
+            	.core : false
+            	.relevance:false
+            	-venue->venue2713
+            	-authors->author2128478852
+            	-authors->author2487887121
+            }
+	paper1576049461:Paper {
+                .title : "An Algorithm for Available Bandwidth Measurement"
+            	.year : 2001
+            	.core : false
+            	.relevance:false
+            	-venue->venue3280
+            	-authors->author2517302035
+            	-authors->author2281822044
+            	-authors->author2277509208
+            	-authors->author2311000481
+            }
+	paper1582506709:Paper {
+                .title : "Managing alerts in a multiintrusion detection environment"
+            	.year : 2001
+            	.core : false
+            	.relevance:false
+            	-venue->venue312
+            	-cites->paper1674877186
+            	-authors->author2711590255
+            }
+	paper1585502051:Paper {
+                .title : "Imprecise Probabilities of Engineering System Failure from Random and Fuzzy Set Reliability Analysis"
+            	.year : 2001
+            	.core : false
+            	.relevance:false
+            	-venue->venue3299
+            	-authors->author2114009346
+            	-authors->author2167141420
+            }
+	paper1594445969:Paper {
+                .title : "ComponentBased Product Line Engineering with UML"
+            	.year : 2001
+            	.core : false
+            	.relevance:false
+            	-venue->venue0
+            	-authors->author570422341
+            	-authors->author15973646
+            	-authors->author2282312329
+            	-authors->author2109565613
+            	-authors->author1964015574
+            	-authors->author1967273879
+            	-authors->author2110818429
+            	-authors->author1975388520
+            	-authors->author2174542437
+            	-authors->author164069180
+            }
+	paper1598886868:Paper {
+                .title : "The java hotspot TM server compiler"
+            	.year : 2001
+            	.core : false
+            	.relevance:false
+            	-venue->venue821
+            	-cites->paper1491178396
+            	-cites->paper1979823255
+            	-authors->author2063418375
+            	-authors->author2106905703
+            	-authors->author2680889219
+            }
+	paper1599634084:Paper {
+                .title : "BranchandCut Algorithms for the Bilinear Matrix Inequality Eigenvalue Problem"
+            	.year : 2001
+            	.core : false
+            	.relevance:false
+            	-venue->venue3317
+            	-cites->paper2138578830
+            	-authors->author2123001936
+            	-authors->author2021118249
+            }
+	paper1608164588:Paper {
+                .title : "Directed Hypergraphs Problems Algorithmic Results and a Novel Decremental Approach"
+            	.year : 2001
+            	.core : false
+            	.relevance:false
+            	-venue->venue3326
+            	-authors->author2108857303
+            	-authors->author2110397711
+            	-authors->author949544498
+            }
+	paper1654534824:Paper {
+                .title : "JMangler  a framework for loadtime transformation of Java class files"
+            	.year : 2001
+            	.core : false
+            	.relevance:false
+            	-venue->venue2174
+            	-cites->paper2167500728
+            	-authors->author2318508104
+            	-authors->author2600270267
+            	-authors->author729669163
+            }
+	paper1825558883:Paper {
+                .title : "Variability Issues in Software Product Lines"
+            	.year : 2001
+            	.core : false
+            	.relevance:false
+            	-venue->venue3367
+            	-cites->paper1500250067
+            	-cites->paper1591726984
+            	-cites->paper1991604845
+            	-cites->paper2138363365
+            	-cites->paper2142874510
+            	-authors->author2056978407
+            	-authors->author2271217432
+            	-authors->author2654477185
+            	-authors->author676879890
+            	-authors->author1841121882
+            	-authors->author2108763669
+            }
+	paper1964024754:Paper {
+                .title : "SLABS A FORMAL SPECIFICATION LANGUAGE FOR AGENTBASED SYSTEMS"
+            	.year : 2001
+            	.core : false
+            	.relevance:false
+            	-venue->venue965
+            	-cites->paper1608796453
+            	-cites->paper2139907081
+            	-authors->author2607615413
+            }
+	paper196748788:Paper {
+                .title : "Towards a Rigorous Semantics of UML Supporting Its Multiview Approach"
+            	.year : 2001
+            	.core : false
+            	.relevance:false
+            	-venue->venue5
+            	-cites->paper1998017916
+            	-authors->author2091250070
+            	-authors->author699984054
+            	-authors->author2117491823
+            }
+	paper1967915414:Paper {
+                .title : "Software Process Simulation Modelling"
+            	.year : 2001
+            	.core : false
+            	.relevance:false
+            	-venue->venue1008
+            	-authors->author670791393
+            	-authors->author2028926456
+            }
+	paper1976102130:Paper {
+                .title : "Improving the analysis of dependable systems by mapping fault trees into Bayesian networks"
+            	.year : 2001
+            	.core : false
+            	.relevance:false
+            	-venue->venue991
+            	-authors->author2271505588
+            	-authors->author1968709447
+            	-authors->author2159253641
+            	-authors->author2059591264
+            }
+	paper1976499711:Paper {
+                .title : "Typing a multilanguage intermediate code"
+            	.year : 2001
+            	.core : false
+            	.relevance:false
+            	-venue->venue106
+            	-cites->paper1491178396
+            	-cites->paper2105360973
+            	-authors->author2101841271
+            	-authors->author2136386745
+            }
+	paper2004223683:Paper {
+                .title : "Constructing an asymptotic phase transition in random binary constraint satisfaction problems"
+            	.year : 2001
+            	.core : false
+            	.relevance:false
+            	-venue->venue1289
+            	-cites->paper2071706116
+            	-cites->paper2139300273
+            	-cites->paper2151266168
+            	-authors->author2698234424
+            }
+	paper2020034474:Paper {
+                .title : "Model Checking UML State Machines and Collaborations"
+            	.year : 2001
+            	.core : false
+            	.relevance:false
+            	-venue->venue1168
+            	-cites->paper1570069626
+            	-cites->paper1977237988
+            	-cites->paper2100500368
+            	-cites->paper2115309705
+            	-authors->author2302931449
+            	-authors->author2097000653
+            	-authors->author2161420078
+            }
+	paper2040015657:Paper {
+                .title : "Dynamic software updating"
+            	.year : 2001
+            	.core : false
+            	.relevance:false
+            	-venue->venue145
+            	-cites->paper1513955815
+            	-cites->paper2047401676
+            	-cites->paper2085631457
+            	-cites->paper2092889242
+            	-cites->paper2096910097
+            	-cites->paper2122960384
+            	-cites->paper2135785452
+            	-cites->paper2169840536
+            	-authors->author77785740
+            	-authors->author2166968917
+            	-authors->author2130756752
+            }
+	paper2059379914:Paper {
+                .title : "Designcode traceability recovery selecting the basic linkage properties"
+            	.year : 2001
+            	.core : false
+            	.relevance:false
+            	-venue->venue981
+            	-cites->paper1984489185
+            	-cites->paper2077318760
+            	-cites->paper2099293367
+            	-authors->author2777532060
+            	-authors->author2007993408
+            	-authors->author2240784224
+            	-authors->author174962400
+            }
+	paper2067361528:Paper {
+                .title : "Intrusion and intrusion detection"
+            	.year : 2001
+            	.core : false
+            	.relevance:false
+            	-venue->venue1263
+            	-cites->paper1674877186
+            	-cites->paper2081706040
+            	-authors->author2777461717
+            }
+	paper2071279158:Paper {
+                .title : "Application of a hybrid process simulation model to a software development project"
+            	.year : 2001
+            	.core : false
+            	.relevance:false
+            	-venue->venue1008
+            	-cites->paper2006305980
+            	-cites->paper2096039823
+            	-cites->paper2129148866
+            	-authors->author670791393
+            	-authors->author2202173543
+            }
+	paper2071706116:Paper {
+                .title : "Random Constraint Satisfaction Flaws and Structure"
+            	.year : 2001
+            	.core : false
+            	.relevance:false
+            	-venue->venue1369
+            	-cites->paper2004223683
+            	-cites->paper2139300273
+            	-cites->paper2151266168
+            	-authors->author2119362285
+            	-authors->author2005239114
+            	-authors->author2192614943
+            	-authors->author2156731892
+            	-authors->author1941809442
+            }
+	paper2077491980:Paper {
+                .title : "Detecting implied scenarios in message sequence chart specifications"
+            	.year : 2001
+            	.core : false
+            	.relevance:false
+            	-venue->venue1184
+            	-cites->paper2108571087
+            	-cites->paper2144807091
+            	-authors->author2097290386
+            	-authors->author2095806276
+            	-authors->author307221030
+            }
+	paper2081202140:Paper {
+                .title : "Plausibility measures and default reasoning"
+            	.year : 2001
+            	.core : false
+            	.relevance:false
+            	-venue->venue983
+            	-authors->author716715026
+            	-authors->author2079978182
+            }
+	paper2084384424:Paper {
+                .title : "Short proofs are narrowresolution made simple"
+            	.year : 2001
+            	.core : false
+            	.relevance:false
+            	-venue->venue983
+            	-cites->paper2057361103
+            	-cites->paper2088616860
+            	-cites->paper2126420408
+            	-authors->author233435501
+            	-authors->author31335080
+            }
+	paper2086394627:Paper {
+                .title : "Reducing the Overhead of Dynamic Compilation"
+            	.year : 2001
+            	.core : false
+            	.relevance:false
+            	-venue->venue1213
+            	-cites->paper2045723688
+            	-cites->paper2102839400
+            	-authors->author2051741376
+            	-authors->author2161611694
+            	-authors->author2135926280
+            	-authors->author2164197688
+            }
+	paper2096307462:Paper {
+                .title : "Efficient conflict driven learning in a boolean satisfiability solver"
+            	.year : 2001
+            	.core : false
+            	.relevance:false
+            	-venue->venue1839
+            	-cites->paper1787074469
+            	-cites->paper2043924273
+            	-cites->paper2057361103
+            	-cites->paper2084384424
+            	-cites->paper2142785340
+            	-cites->paper2143404729
+            	-authors->author2156970971
+            	-authors->author2673563522
+            	-authors->author2037082877
+            	-authors->author2648070089
+            }
+	paper2101335378:Paper {
+                .title : "Parameter learning of logic programs for symbolicstatistical modeling"
+            	.year : 2001
+            	.core : false
+            	.relevance:false
+            	-venue->venue2014
+            	-cites->paper2159080219
+            	-authors->author2114916680
+            	-authors->author2100421429
+            }
+	paper2106214093:Paper {
+                .title : "Dependability assessment of an industrial Programmable Logic Controller via Parametric FaultTree and High Level Petri net"
+            	.year : 2001
+            	.core : false
+            	.relevance:false
+            	-venue->venue2164
+            	-authors->author2271505588
+            	-authors->author2159253641
+            	-authors->author2006106901
+            	-authors->author2120273696
+            }
+	paper2109420119:Paper {
+                .title : "Static consistency checking for distributed specifications"
+            	.year : 2001
+            	.core : false
+            	.relevance:false
+            	-venue->venue41
+            	-cites->paper2012959900
+            	-cites->paper2054097655
+            	-cites->paper2093287224
+            	-cites->paper2111537898
+            	-cites->paper2117870171
+            	-cites->paper2168690391
+            	-authors->author2082763392
+            	-authors->author2298180682
+            	-authors->author702292450
+            }
+	paper2110491615:Paper {
+                .title : "Rolebased access control on the web"
+            	.year : 2001
+            	.core : false
+            	.relevance:false
+            	-venue->venue1396
+            	-cites->paper1997862012
+            	-cites->paper2021079739
+            	-cites->paper2103317919
+            	-cites->paper2159765281
+            	-cites->paper2166602595
+            	-authors->author1996714504
+            	-authors->author2809764658
+            	-authors->author2281944180
+            }
+	paper2113950443:Paper {
+                .title : "An Architectural model for servicebased software with ultra rapid evolution"
+            	.year : 2001
+            	.core : false
+            	.relevance:false
+            	-venue->venue806
+            	-cites->paper2046018301
+            	-cites->paper2128064723
+            	-cites->paper2132218581
+            	-cites->paper2170021374
+            	-authors->author1996142595
+            	-authors->author2073789242
+            	-authors->author1542178885
+            	-authors->author2130294251
+            	-authors->author1991399815
+            	-authors->author252128062
+            }
+	paper2137401668:Paper {
+                .title : "Robust realtime face detection"
+            	.year : 2001
+            	.core : false
+            	.relevance:false
+            	-venue->venue4081
+            	-authors->author2807386370
+            	-authors->author2806963329
+            }
+	paper2141860801:Paper {
+                .title : "Teallach a modelbased user interface development environment for object databases"
+            	.year : 2001
+            	.core : false
+            	.relevance:false
+            	-venue->venue3584
+            	-cites->paper1584352659
+            	-cites->paper2159765281
+            	-authors->author2081478759
+            	-authors->author2122310831
+            	-authors->author2108207059
+            	-authors->author2112764583
+            	-authors->author2119085234
+            	-authors->author2163698853
+            	-authors->author2142397118
+            	-authors->author2070167002
+            	-authors->author2078760937
+            }
+	paper2142874510:Paper {
+                .title : "On the notion of variability in software product lines"
+            	.year : 2001
+            	.core : false
+            	.relevance:false
+            	-venue->venue1097
+            	-cites->paper2113435553
+            	-cites->paper2122824813
+            	-cites->paper2138363365
+            	-authors->author2166654045
+            	-authors->author2271217432
+            	-authors->author232943014
+            }
+	paper2143404729:Paper {
+                .title : "A sharp threshold in proof complexity"
+            	.year : 2001
+            	.core : false
+            	.relevance:false
+            	-venue->venue1392
+            	-cites->paper1787074469
+            	-cites->paper2057361103
+            	-cites->paper2088616860
+            	-cites->paper2126420408
+            	-authors->author324519408
+            	-authors->author373819734
+            	-authors->author2019007185
+            }
+	paper2147765639:Paper {
+                .title : "Automated validation of software models"
+            	.year : 2001
+            	.core : false
+            	.relevance:false
+            	-venue->venue41
+            	-cites->paper1507985299
+            	-cites->paper1597428879
+            	-cites->paper2080267935
+            	-cites->paper2115309705
+            	-cites->paper2125708466
+            	-cites->paper2146191617
+            	-authors->author2840128226
+            	-authors->author2153381412
+            	-authors->author2090782985
+            	-authors->author2635575143
+            }
+	paper2149201868:Paper {
+                .title : "Parameterized linear matrix inequality techniques in fuzzy control system design"
+            	.year : 2001
+            	.core : false
+            	.relevance:false
+            	-venue->venue4146
+            	-authors->author1744111831
+            	-authors->author2431621607
+            	-authors->author2009205463
+            	-authors->author2091820095
+            }
+	paper2151266168:Paper {
+                .title : "Random Constraint Satisfaction A More Accurate Picture"
+            	.year : 2001
+            	.core : false
+            	.relevance:false
+            	-venue->venue1369
+            	-authors->author180708131
+            	-authors->author1973008803
+            	-authors->author324519408
+            	-authors->author373819734
+            	-authors->author2777907813
+            	-authors->author2205407114
+            }
+	paper2153474105:Paper {
+                .title : "Knowledge base approach to consistency management of UML specifications"
+            	.year : 2001
+            	.core : false
+            	.relevance:false
+            	-venue->venue41
+            	-cites->paper1968128450
+            	-cites->paper2109926023
+            	-cites->paper2117818414
+            	-cites->paper2117870171
+            	-cites->paper2135920852
+            	-authors->author2082802559
+            	-authors->author1990710628
+            }
+	paper2154010459:Paper {
+                .title : "The Anatomy of the Grid Enabling Scalable Virtual Organizations"
+            	.year : 2001
+            	.core : false
+            	.relevance:false
+            	-venue->venue85
+            	-authors->author2045278166
+            	-authors->author2024290358
+            	-authors->author2017222965
+            }
+	paper2154765153:Paper {
+                .title : "Proposed NIST standard for rolebased access control"
+            	.year : 2001
+            	.core : false
+            	.relevance:false
+            	-venue->venue1396
+            	-cites->paper1997862012
+            	-cites->paper2021079739
+            	-cites->paper2081186654
+            	-cites->paper2103317919
+            	-cites->paper2152505375
+            	-cites->paper2166602595
+            	-authors->author1996714504
+            	-authors->author255695516
+            	-authors->author2287455155
+            	-authors->author2576754282
+            	-authors->author2149229701
+            }
+	paper2172293999:Paper {
+                .title : "Automatable verification of sequential consistency"
+            	.year : 2001
+            	.core : false
+            	.relevance:false
+            	-venue->venue985
+            	-cites->paper1502765706
+            	-cites->paper1986463648
+            	-cites->paper2029601347
+            	-cites->paper2054739713
+            	-cites->paper2107859560
+            	-authors->author2001625928
+            	-authors->author227075345
             }
 }
 

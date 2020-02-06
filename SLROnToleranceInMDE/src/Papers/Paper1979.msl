@@ -26,15 +26,15 @@ import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2017.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2018.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2000.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1998.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2002.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1991.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2002.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1995.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1986.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2000.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1987.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1988.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1993.msl"
@@ -51,6 +51,7 @@ import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1962.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1967.msl"
  	
 model Paper1979{
 	paper2054739713:Paper {
@@ -58,7 +59,7 @@ model Paper1979{
             	.year : 1979
             	.core : false
             	.relevance:false
-            	-venue->venue864
+            	-venue->venue970
             	-cites->paper2132334337
             	-authors->author2223936326
             }
@@ -67,7 +68,7 @@ model Paper1979{
             	.year : 1979
             	.core : false
             	.relevance:false
-            	-venue->venue1289
+            	-venue->venue1392
             	-authors->author350567680
             	-authors->author2444474037
             	-authors->author2161825852
@@ -77,7 +78,7 @@ model Paper1979{
             	.year : 1979
             	.core : false
             	.relevance:false
-            	-venue->venue915
+            	-venue->venue1020
             	-authors->author88694571
             }
 	paper2110765100:Paper {
@@ -85,9 +86,18 @@ model Paper1979{
             	.year : 1979
             	.core : false
             	.relevance:false
-            	-venue->venue1025
+            	-venue->venue1129
             	-cites->paper1973501242
             	-authors->author2168273423
+            }
+	paper2054739713:Paper {
+                .title : "How to Make a Multiprocessor Computer That Correctly Executes Multiprocess Programs"
+            	.year : 1979
+            	.core : false
+            	.relevance:false
+            	-venue->venue970
+            	-cites->paper2132334337
+            	-authors->author2223936326
             }
 }
 

@@ -26,15 +26,15 @@ import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2017.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2018.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2000.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1998.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2002.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1991.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2002.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1995.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1986.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2000.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1987.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1988.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1993.msl"
@@ -51,6 +51,7 @@ import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1962.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1967.msl"
  	
 model Paper1978{
 	paper1968054699:Paper {
@@ -58,7 +59,7 @@ model Paper1978{
             	.year : 1978
             	.core : false
             	.relevance:false
-            	-venue->venue895
+            	-venue->venue1000
             	-cites->paper2047924755
             	-cites->paper2133201251
             	-authors->author2029293694
@@ -70,7 +71,7 @@ model Paper1978{
             	.year : 1978
             	.core : false
             	.relevance:false
-            	-venue->venue939
+            	-venue->venue1044
             	-authors->author2096750770
             }
 	paper2075350371:Paper {
@@ -78,7 +79,7 @@ model Paper1978{
             	.year : 1978
             	.core : false
             	.relevance:false
-            	-venue->venue1033
+            	-venue->venue1137
             	-authors->author2098910421
             }
 	paper2106887953:Paper {
@@ -86,7 +87,7 @@ model Paper1978{
             	.year : 1978
             	.core : false
             	.relevance:false
-            	-venue->venue571
+            	-venue->venue678
             	-authors->author2131537204
             }
 	paper2611598995:Paper {
@@ -97,6 +98,40 @@ model Paper1978{
             	-venue->venue0
             	-authors->author2110203303
             	-authors->author2035864640
+            }
+	paper1769402780:Paper {
+                .title : "A New Solution to Coherence Problems in Multicache Systems"
+            	.year : 1978
+            	.core : false
+            	.relevance:false
+            	-venue->venue970
+            	-authors->author213128777
+            	-authors->author666264035
+            }
+	paper1973501242:Paper {
+                .title : "Time clocks and the ordering of events in a distributed system"
+            	.year : 1978
+            	.core : false
+            	.relevance:false
+            	-venue->venue1044
+            	-authors->author2096750770
+            }
+	paper2011762419:Paper {
+                .title : "Testing Software Design Modeled by FiniteState Machines"
+            	.year : 1978
+            	.core : false
+            	.relevance:false
+            	-venue->venue1020
+            	-authors->author2677455814
+            }
+	paper2132661148:Paper {
+                .title : "Automatic discovery of linear restraints among variables of a program"
+            	.year : 1978
+            	.core : false
+            	.relevance:false
+            	-venue->venue106
+            	-authors->author2148533322
+            	-authors->author2719089096
             }
 }
 

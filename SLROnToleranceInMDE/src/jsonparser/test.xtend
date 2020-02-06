@@ -60,32 +60,32 @@ class test {
 		var Set<Integer> years = new HashSet;
 
 		var core = true;
-		var datasetname = "FinalDataset.txt";
-		var writer = new PrintWriter("src\\Papers\\Authors.msl", "UTF-8");
+		var datasetname = "FinalDatasetfeb.txt";
+		var writer = new PrintWriter("src\\Papers\\papers.msl", "UTF-8");
 		papers = JsonParse.extractData(core, datasetname, filtervenues);
-		datasetname = "References_dataset_new.txt";
+		datasetname = "References_dataset_newfeb.txt";
 		core = false;
-		//need to call this findReference only once to create the dataset of all the references of the CORE papers.
+//		//need to call this findReference only once to create the dataset of all the references of the CORE papers.
 		// JsonData.findReference(PapersPojo.dummypaperids);
 		papers = JsonParse.extractData(false, datasetname, filtervenues);
-
-		// writer.println(instance.generatePapersMSL(papers))
-		writer.println(instance.generateAuthorsMSL(papers))
-
+//
+//		// writer.println(instance.generatePapersMSL(papers))
+	//writer.println(instance.generateAuthorsMSL(papers))
+//
 		// writer.println(instance.generateVenuesMSL(papers))
 		writer.close();
 
-//		for (paper : papers) {
-//			years.add(paper.getYear)
-//
-//		}
-//		for (year : years) {
-//			writer = new PrintWriter("src\\Papers\\Paper" + year + ".msl", "UTF-8");
-//			writer.println(instance.generatePapersMSL(papers, year))
-//					writer.close();
-//			
-//
-//		}
+		for (paper : papers) {
+			years.add(paper.getYear)
+
+		}
+		for (year : years) {
+			writer = new PrintWriter("src\\Papers\\Paper" + year + ".msl", "UTF-8");
+			writer.println(instance.generatePapersMSL(papers, year))
+					writer.close();
+			
+
+		}
 	}
 
 	/**

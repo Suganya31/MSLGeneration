@@ -26,15 +26,15 @@ import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2017.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2018.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2000.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1998.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2002.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1991.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2002.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1995.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1986.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2000.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1987.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1988.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1993.msl"
@@ -51,6 +51,7 @@ import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1962.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1967.msl"
  	
 model Paper2018{
 	paper2794849388:Paper {
@@ -303,12 +304,37 @@ model Paper2018{
             	-authors->author20
             	-authors->author21
             }
+	paper2805459498:Paper {
+                .title : "Uncovering Unknown System Behaviors in Uncertain Networks with Model and SearchBased Testing"
+            	.year : 2018
+            	.core : true
+            	.relevance:true
+            	-venue->venue54
+            	-authors->author2332852696
+            	-authors->author2805167129
+            	-authors->author2105537014
+            	-authors->author2209258679
+            	-authors->author2806435027
+            	-authors->author2653874177
+            	-authors->author2805510219
+            	-authors->author2755349880
+            }
+	paper2809006397:Paper {
+                .title : "Towards Modelling and Reasoning About Uncertain Data of Sensor Measurements for Decision Support in Smart Spaces"
+            	.year : 2018
+            	.core : true
+            	.relevance:true
+            	-venue->venue31
+            	-authors->author2808873893
+            	-authors->author2809669810
+            	-authors->author2809471007
+            }
 	paper2531616995:Paper {
                 .title : "Verification of treebased hierarchical readcopy update in the Linux kernel"
             	.year : 2018
             	.core : false
             	.relevance:false
-            	-venue->venue1841
+            	-venue->venue1942
             	-cites->paper1602156367
             	-cites->paper2063666348
             	-cites->paper2115309705
@@ -341,9 +367,11 @@ model Paper2018{
             	.year : 2018
             	.core : false
             	.relevance:false
-            	-venue->venue640
+            	-venue->venue747
             	-cites->paper178138771
+            	-cites->paper1497571013
             	-cites->paper1858035675
+            	-cites->paper1982900911
             	-cites->paper1992479210
             	-cites->paper2035362408
             	-cites->paper2067740651
@@ -364,11 +392,13 @@ model Paper2018{
             	.year : 2018
             	.core : false
             	.relevance:false
-            	-venue->venue876
+            	-venue->venue981
             	-cites->paper1964137226
+            	-cites->paper2001914359
             	-cites->paper2033406822
             	-cites->paper2054104130
             	-cites->paper2071616717
+            	-cites->paper2111765806
             	-cites->paper2163195480
             	-cites->paper2742532491
             	-cites->paper2785325333
@@ -407,7 +437,7 @@ model Paper2018{
             	.year : 2018
             	.core : false
             	.relevance:false
-            	-venue->venue668
+            	-venue->venue775
             	-cites->paper837270908
             	-cites->paper1568729458
             	-cites->paper1602156367
@@ -444,7 +474,7 @@ model Paper2018{
             	.year : 2018
             	.core : false
             	.relevance:false
-            	-venue->venue603
+            	-venue->venue710
             	-authors->author1957630520
             	-authors->author2801807844
             	-authors->author692701391
@@ -454,7 +484,7 @@ model Paper2018{
             	.year : 2018
             	.core : false
             	.relevance:false
-            	-venue->venue2974
+            	-venue->venue3071
             	-cites->paper1482397304
             	-cites->paper1967564401
             	-cites->paper1983206712

@@ -26,15 +26,15 @@ import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2017.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2018.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2000.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1998.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2002.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1991.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2002.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1995.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1986.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2000.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1987.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1988.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1993.msl"
@@ -51,6 +51,7 @@ import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1962.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1967.msl"
  	
 model Paper1984{
 	paper2013498813:Paper {
@@ -58,7 +59,7 @@ model Paper1984{
             	.year : 1984
             	.core : false
             	.relevance:false
-            	-venue->venue915
+            	-venue->venue1020
             	-cites->paper2133201251
             	-authors->author2028127229
             }
@@ -67,7 +68,7 @@ model Paper1984{
             	.year : 1984
             	.core : false
             	.relevance:false
-            	-venue->venue332
+            	-venue->venue444
             	-authors->author2798485874
             }
 	paper2125011947:Paper {
@@ -75,7 +76,7 @@ model Paper1984{
             	.year : 1984
             	.core : false
             	.relevance:false
-            	-venue->venue991
+            	-venue->venue1095
             	-cites->paper1973501242
             	-cites->paper2110765100
             	-cites->paper2120510885
@@ -87,7 +88,7 @@ model Paper1984{
             	.year : 1984
             	.core : false
             	.relevance:false
-            	-venue->venue915
+            	-venue->venue1020
             	-authors->author2475447149
             }
 	paper2405753531:Paper {
@@ -95,12 +96,30 @@ model Paper1984{
             	.year : 1984
             	.core : false
             	.relevance:false
-            	-venue->venue2816
+            	-venue->venue2914
             	-authors->author2142468959
             	-authors->author54991345
             	-authors->author2050333342
             	-authors->author1250572247
             	-authors->author2172259534
+            }
+	paper1538647619:Paper {
+                .title : "Authorship Provisions in Augment"
+            	.year : 1984
+            	.core : false
+            	.relevance:false
+            	-venue->venue3228
+            	-authors->author2208808115
+            }
+	paper2106035061:Paper {
+                .title : "Implementing remote procedure calls"
+            	.year : 1984
+            	.core : false
+            	.relevance:false
+            	-venue->venue1037
+            	-cites->paper2043671329
+            	-authors->author2113230057
+            	-authors->author2104187752
             }
 }
 

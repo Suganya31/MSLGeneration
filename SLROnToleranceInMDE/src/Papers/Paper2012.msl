@@ -26,15 +26,15 @@ import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2017.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2018.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2000.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1998.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2002.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1991.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2002.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1995.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1986.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2000.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1987.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1988.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1993.msl"
@@ -51,6 +51,7 @@ import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1962.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1967.msl"
  	
 model Paper2012{
 	paper1556323883:Paper {
@@ -340,12 +341,135 @@ model Paper2012{
             	-authors->author2100071103
             	-authors->author2168493545
             }
+	paper1966859042:Paper {
+                .title : "An Extended Continuous Uncertain XML Data Model Research"
+            	.year : 2012
+            	.core : true
+            	.relevance:false
+            	-venue->venue277
+            	-cites->paper1996923081
+            	-cites->paper2086741590
+            	-cites->paper2101742950
+            	-cites->paper2133457275
+            	-cites->paper2162400408
+            	-authors->author2222851300
+            	-authors->author2638288059
+            	-authors->author2681221894
+            	-authors->author2490215101
+            }
+	paper1974184520:Paper {
+                .title : "Flexible lightweight requirements modeling with Flexisketch"
+            	.year : 2012
+            	.core : true
+            	.relevance:false
+            	-venue->venue95
+            	-cites->paper1965306413
+            	-cites->paper2085315973
+            	-cites->paper2131060636
+            	-cites->paper2133086875
+            	-cites->paper2138482372
+            	-authors->author2252739716
+            	-authors->author2165064325
+            	-authors->author2095763466
+            }
+	paper2078965385:Paper {
+                .title : "Relaxing claims coping with uncertainty while evaluating assumptions at run time"
+            	.year : 2012
+            	.core : true
+            	.relevance:false
+            	-venue->venue16
+            	-cites->paper133105688
+            	-cites->paper1492988325
+            	-cites->paper1532517595
+            	-cites->paper1668140416
+            	-cites->paper1982313944
+            	-cites->paper1986139229
+            	-cites->paper2008190734
+            	-cites->paper2032372310
+            	-cites->paper2051555955
+            	-cites->paper2054921215
+            	-cites->paper2059076106
+            	-cites->paper2089160254
+            	-cites->paper2096910097
+            	-cites->paper2098895708
+            	-cites->paper2105539612
+            	-cites->paper2106180253
+            	-cites->paper2115796212
+            	-cites->paper2117818414
+            	-cites->paper2125614502
+            	-cites->paper2129289644
+            	-cites->paper2134485500
+            	-cites->paper2144819523
+            	-cites->paper2148566119
+            	-cites->paper2156641874
+            	-cites->paper2156756088
+            	-cites->paper2157437711
+            	-cites->paper2162255975
+            	-cites->paper2222782578
+            	-authors->author2113359766
+            	-authors->author2133238635
+            	-authors->author2116990958
+            	-authors->author405793769
+            }
+	paper2117890177:Paper {
+                .title : "Managing requirements uncertainty with partial models"
+            	.year : 2012
+            	.core : true
+            	.relevance:false
+            	-venue->venue95
+            	-cites->paper137370745
+            	-cites->paper1483161216
+            	-cites->paper1507387197
+            	-cites->paper1536631555
+            	-cites->paper1601820116
+            	-cites->paper1788338773
+            	-cites->paper1971702813
+            	-cites->paper1978519707
+            	-cites->paper1983160424
+            	-cites->paper1991633729
+            	-cites->paper1995544616
+            	-cites->paper2002662905
+            	-cites->paper2008190734
+            	-cites->paper2011817553
+            	-cites->paper2019360156
+            	-cites->paper2043942960
+            	-cites->paper2046605077
+            	-cites->paper2058547748
+            	-cites->paper2107787645
+            	-cites->paper2110975996
+            	-cites->paper2113675762
+            	-cites->paper2115459739
+            	-cites->paper2119968005
+            	-cites->paper2121061989
+            	-cites->paper2129289644
+            	-cites->paper2133724574
+            	-cites->paper2134908243
+            	-cites->paper2137469361
+            	-cites->paper2138556979
+            	-cites->paper2138876988
+            	-cites->paper2141129983
+            	-cites->paper2141876288
+            	-cites->paper2145450038
+            	-cites->paper2145973309
+            	-cites->paper2148106163
+            	-cites->paper2157198435
+            	-cites->paper2157437711
+            	-cites->paper2162178624
+            	-cites->paper2163382363
+            	-cites->paper2167498005
+            	-cites->paper2170475242
+            	-cites->paper2273416443
+            	-cites->paper2759209562
+            	-authors->author2032435099
+            	-authors->author263866697
+            	-authors->author1274701876
+            }
 	paper113976528:Paper {
                 .title : "Evolutionary togetherness how to manage coupled evolution in metamodeling ecosystems"
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue252
+            	-venue->venue366
             	-cites->paper1542225267
             	-cites->paper1592640009
             	-cites->paper1844824726
@@ -379,12 +503,13 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue477
+            	-venue->venue586
             	-cites->paper1510777893
             	-cites->paper1965979806
             	-cites->paper1982313944
             	-cites->paper2076990838
             	-cites->paper2089381631
+            	-cites->paper2129492722
             	-cites->paper2169954581
             	-cites->paper2412353202
             	-authors->author2128366029
@@ -397,7 +522,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue455
+            	-venue->venue564
             	-cites->paper1965979806
             	-cites->paper2114990295
             	-authors->author2108639976
@@ -410,7 +535,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue519
+            	-venue->venue627
             	-authors->author2136272530
             	-authors->author2125552387
             	-authors->author1983458687
@@ -421,7 +546,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue716
+            	-venue->venue823
             	-authors->author2237776675
             	-authors->author2099544461
             	-authors->author2007393354
@@ -433,7 +558,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue249
+            	-venue->venue289
             	-cites->paper1048515
             	-cites->paper1972544179
             	-cites->paper2078197548
@@ -464,7 +589,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue274
+            	-venue->venue388
             	-cites->paper1556566737
             	-cites->paper1976025929
             	-cites->paper1982313944
@@ -482,7 +607,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue249
+            	-venue->venue289
             	-cites->paper1545155892
             	-cites->paper1969925795
             	-cites->paper1973501242
@@ -515,7 +640,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue255
+            	-venue->venue369
             	-cites->paper1995626000
             	-cites->paper2100100130
             	-cites->paper2115600841
@@ -533,8 +658,9 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue530
+            	-venue->venue638
             	-cites->paper1561057365
+            	-cites->paper1975411983
             	-cites->paper2047581220
             	-cites->paper2089381631
             	-cites->paper2127237677
@@ -546,7 +672,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue882
+            	-venue->venue987
             	-cites->paper1541537810
             	-cites->paper2029601347
             	-cites->paper2054739713
@@ -567,7 +693,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue699
+            	-venue->venue806
             	-cites->paper2007820106
             	-cites->paper2027185189
             	-cites->paper2099119082
@@ -582,7 +708,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue947
+            	-venue->venue1052
             	-cites->paper2033361557
             	-cites->paper2071955219
             	-cites->paper2115104320
@@ -596,7 +722,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue953
+            	-venue->venue1058
             	-cites->paper2162532690
             	-authors->author2894060960
             	-authors->author2104845814
@@ -609,7 +735,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue1017
+            	-venue->venue1121
             	-cites->paper1594825470
             	-cites->paper1953680156
             	-cites->paper1971332773
@@ -646,7 +772,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue897
+            	-venue->venue1002
             	-cites->paper1512371038
             	-cites->paper1526808427
             	-cites->paper1555593767
@@ -660,6 +786,7 @@ model Paper2012{
             	-cites->paper2117818414
             	-cites->paper2132107743
             	-cites->paper2133724574
+            	-cites->paper2134908243
             	-cites->paper2139907081
             	-cites->paper2148106163
             	-cites->paper2152846401
@@ -676,7 +803,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue1061
+            	-venue->venue1165
             	-cites->paper1482397304
             	-cites->paper1967564401
             	-cites->paper2054739713
@@ -693,7 +820,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue1073
+            	-venue->venue1177
             	-cites->paper1481078745
             	-cites->paper2021626639
             	-cites->paper2033803742
@@ -713,7 +840,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue903
+            	-venue->venue1008
             	-authors->author2230658069
             	-authors->author2620358175
             	-authors->author2230265955
@@ -723,7 +850,8 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue460
+            	-venue->venue569
+            	-cites->paper2125739093
             	-cites->paper2141740699
             	-cites->paper2145071552
             	-authors->author2188586265
@@ -736,7 +864,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue1102
+            	-venue->venue1206
             	-cites->paper2111817346
             	-cites->paper2137459517
             	-cites->paper2145071552
@@ -750,10 +878,12 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue1107
+            	-venue->venue1211
             	-cites->paper1482962177
             	-cites->paper1978613757
+            	-cites->paper2131399871
             	-cites->paper2159765281
+            	-cites->paper2169239645
             	-authors->author681596721
             	-authors->author194795537
             	-authors->author2011015956
@@ -763,7 +893,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue1129
+            	-venue->venue1232
             	-cites->paper2340530615
             	-authors->author2122926523
             	-authors->author2139756128
@@ -773,7 +903,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue1133
+            	-venue->venue1236
             	-cites->paper1491178396
             	-cites->paper1979527452
             	-cites->paper2080592089
@@ -786,7 +916,8 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue305
+            	-venue->venue417
+            	-cites->paper1505090407
             	-cites->paper2021626639
             	-cites->paper2033803742
             	-cites->paper2104257432
@@ -804,7 +935,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue903
+            	-venue->venue1008
             	-cites->paper1919928684
             	-authors->author2136272530
             	-authors->author2125552387
@@ -820,6 +951,7 @@ model Paper2012{
             	-cites->paper1512007370
             	-cites->paper1536631555
             	-cites->paper2058547748
+            	-cites->paper2089881021
             	-cites->paper2091968063
             	-cites->paper2121061989
             	-cites->paper2148106163
@@ -832,7 +964,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue1189
+            	-venue->venue1292
             	-authors->author2308982626
             	-authors->author2568952811
             	-authors->author2126219803
@@ -842,7 +974,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue1205
+            	-venue->venue1308
             	-cites->paper2000379092
             	-cites->paper2125156433
             	-authors->author2231672846
@@ -882,7 +1014,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue1263
+            	-venue->venue1366
             	-cites->paper1571863774
             	-cites->paper2114990295
             	-cites->paper2153887189
@@ -919,7 +1051,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue1320
+            	-venue->venue1422
             	-cites->paper1568729458
             	-cites->paper1594228127
             	-cites->paper1964727056
@@ -930,6 +1062,7 @@ model Paper2012{
             	-cites->paper2085773946
             	-cites->paper2091085450
             	-cites->paper2132334337
+            	-cites->paper2132661148
             	-cites->paper2162627428
             	-authors->author2636447621
             }
@@ -938,7 +1071,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue1323
+            	-venue->venue1425
             	-cites->paper1822674892
             	-cites->paper1823635467
             	-cites->paper1973501242
@@ -976,15 +1109,22 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue1337
+            	-venue->venue1439
+            	-cites->paper1492988325
             	-cites->paper1599490280
             	-cites->paper1668140416
             	-cites->paper1819146036
             	-cites->paper2008190734
+            	-cites->paper2034568273
+            	-cites->paper2036293656
+            	-cites->paper2059076106
             	-cites->paper2071616717
+            	-cites->paper2089160254
             	-cites->paper2098895708
+            	-cites->paper2106180253
             	-cites->paper2117818414
             	-cites->paper2129289644
+            	-cites->paper2133859873
             	-cites->paper2140225592
             	-cites->paper2156705373
             	-cites->paper2222782578
@@ -998,18 +1138,25 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue930
+            	-venue->venue1035
+            	-cites->paper1479679270
             	-cites->paper1498432697
             	-cites->paper1516256348
+            	-cites->paper1557855756
             	-cites->paper1596597411
+            	-cites->paper1859458367
             	-cites->paper1964137226
             	-cites->paper1964830323
             	-cites->paper2015699956
             	-cites->paper2071616717
+            	-cites->paper2096910097
             	-cites->paper2101623441
+            	-cites->paper2106180253
+            	-cites->paper2111765806
             	-cites->paper2113435553
             	-cites->paper2129289644
             	-cites->paper2145071552
+            	-cites->paper2146044140
             	-cites->paper2163784380
             	-authors->author299671335
             	-authors->author977474451
@@ -1034,7 +1181,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue332
+            	-venue->venue444
             	-cites->paper192446467
             	-cites->paper1545155892
             	-cites->paper1985229168
@@ -1052,7 +1199,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue1392
+            	-venue->venue1494
             	-cites->paper2104257432
             	-authors->author2129201836
             	-authors->author2288054117
@@ -1064,7 +1211,8 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue1411
+            	-venue->venue1513
+            	-cites->paper1965306413
             	-authors->author1735948873
             	-authors->author2136863642
             }
@@ -1073,7 +1221,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue640
+            	-venue->venue747
             	-cites->paper1556566737
             	-cites->paper2015640848
             	-cites->paper2080267935
@@ -1090,7 +1238,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue1418
+            	-venue->venue1520
             	-authors->author1973353461
             	-authors->author1989782924
             	-authors->author2793153111
@@ -1100,7 +1248,8 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue305
+            	-venue->venue417
+            	-cites->paper1591726984
             	-authors->author2102808394
             	-authors->author2150318219
             	-authors->author2587856966
@@ -1115,6 +1264,7 @@ model Paper2012{
             	-cites->paper1625345750
             	-cites->paper1981396776
             	-cites->paper2038476425
+            	-cites->paper2105539612
             	-cites->paper2150145237
             	-cites->paper2155854577
             	-cites->paper2166365253
@@ -1133,7 +1283,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue1495
+            	-venue->venue1596
             	-cites->paper165540832
             	-cites->paper1998017916
             	-cites->paper2060440626
@@ -1163,7 +1313,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue993
+            	-venue->venue1097
             	-cites->paper12874984
             	-cites->paper1966654106
             	-cites->paper2133071745
@@ -1179,7 +1329,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue1038
+            	-venue->venue1142
             	-authors->author319937283
             	-authors->author2043384141
             	-authors->author2584470682
@@ -1197,7 +1347,8 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue1053
+            	-venue->venue1157
+            	-cites->paper1608087281
             	-cites->paper2119296494
             	-authors->author90694468
             	-authors->author2594990265
@@ -1207,7 +1358,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue888
+            	-venue->venue993
             	-cites->paper1592640009
             	-cites->paper1844824726
             	-authors->author2071298843
@@ -1256,8 +1407,9 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue878
+            	-venue->venue983
             	-cites->paper1509316335
+            	-cites->paper2052267638
             	-cites->paper2097724213
             	-cites->paper2148888468
             	-cites->paper2159460804
@@ -1274,7 +1426,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue699
+            	-venue->venue806
             	-cites->paper1535346311
             	-cites->paper2027185189
             	-cites->paper2104040631
@@ -1290,7 +1442,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue864
+            	-venue->venue970
             	-cites->paper1545792627
             	-cites->paper1822674892
             	-cites->paper1823635467
@@ -1329,7 +1481,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue1719
+            	-venue->venue1820
             	-cites->paper1885534640
             	-cites->paper1966151719
             	-cites->paper1986913310
@@ -1353,8 +1505,9 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue1728
+            	-venue->venue1829
             	-cites->paper1542225267
+            	-cites->paper1573676079
             	-cites->paper1584818596
             	-cites->paper1589399509
             	-cites->paper1592640009
@@ -1401,7 +1554,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue274
+            	-venue->venue388
             	-cites->paper1982313944
             	-cites->paper2153887189
             	-authors->author291766837
@@ -1472,7 +1625,8 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue1894
+            	-venue->venue1993
+            	-cites->paper2168867823
             	-authors->author1974659384
             	-authors->author341399993
             	-authors->author208783536
@@ -1494,7 +1648,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue249
+            	-venue->venue289
             	-cites->paper1577169013
             	-cites->paper1845494277
             	-cites->paper1969925795
@@ -1576,9 +1730,12 @@ model Paper2012{
             	.core : false
             	.relevance:false
             	-venue->venue95
+            	-cites->paper137370745
+            	-cites->paper1483161216
             	-cites->paper1507387197
             	-cites->paper1536631555
             	-cites->paper1601820116
+            	-cites->paper1788338773
             	-cites->paper1971702813
             	-cites->paper1978519707
             	-cites->paper1983160424
@@ -1586,17 +1743,36 @@ model Paper2012{
             	-cites->paper1995544616
             	-cites->paper2002662905
             	-cites->paper2008190734
+            	-cites->paper2011817553
+            	-cites->paper2019360156
+            	-cites->paper2043942960
+            	-cites->paper2046605077
             	-cites->paper2058547748
+            	-cites->paper2107787645
+            	-cites->paper2110975996
             	-cites->paper2113675762
+            	-cites->paper2115459739
+            	-cites->paper2119968005
             	-cites->paper2121061989
             	-cites->paper2129289644
             	-cites->paper2133724574
+            	-cites->paper2134908243
+            	-cites->paper2137469361
             	-cites->paper2138556979
             	-cites->paper2138876988
+            	-cites->paper2141129983
+            	-cites->paper2141876288
             	-cites->paper2145450038
+            	-cites->paper2145973309
             	-cites->paper2148106163
             	-cites->paper2157198435
             	-cites->paper2157437711
+            	-cites->paper2162178624
+            	-cites->paper2163382363
+            	-cites->paper2167498005
+            	-cites->paper2170475242
+            	-cites->paper2273416443
+            	-cites->paper2759209562
             	-authors->author2032435099
             	-authors->author263866697
             	-authors->author1274701876
@@ -1606,9 +1782,11 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue796
+            	-venue->venue902
+            	-cites->paper1608087281
             	-cites->paper1766479663
             	-cites->paper1990467226
+            	-cites->paper2011762419
             	-cites->paper2139980321
             	-cites->paper2154897437
             	-authors->author1719477802
@@ -1620,14 +1798,17 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue791
+            	-venue->venue897
             	-cites->paper1500250067
+            	-cites->paper1505090407
             	-cites->paper1576863229
+            	-cites->paper1594445969
             	-cites->paper1999214372
             	-cites->paper2002237220
             	-cites->paper2033803742
             	-cites->paper2067838808
             	-cites->paper2082677523
+            	-cites->paper2094810043
             	-cites->paper2104257432
             	-cites->paper2112000202
             	-cites->paper2113201637
@@ -1647,7 +1828,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue303
+            	-venue->venue415
             	-cites->paper99545732
             	-cites->paper1976025929
             	-cites->paper2089381631
@@ -1662,7 +1843,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue410
+            	-venue->venue520
             	-cites->paper1525865893
             	-cites->paper1577169013
             	-cites->paper1969925795
@@ -1713,7 +1894,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue1115
+            	-venue->venue301
             	-cites->paper2109875364
             	-cites->paper2156428492
             	-authors->author2132080322
@@ -1727,7 +1908,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue332
+            	-venue->venue444
             	-cites->paper1987358714
             	-cites->paper1996952974
             	-cites->paper2117917070
@@ -1741,7 +1922,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue915
+            	-venue->venue1020
             	-cites->paper2109962300
             	-authors->author293351943
             	-authors->author2123850919
@@ -1751,7 +1932,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue2183
+            	-venue->venue2282
             	-cites->paper1510496002
             	-cites->paper2045287414
             	-cites->paper2131629153
@@ -1764,7 +1945,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue305
+            	-venue->venue417
             	-cites->paper2033803742
             	-cites->paper2057361103
             	-cites->paper2060555016
@@ -1782,7 +1963,9 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue915
+            	-venue->venue1020
+            	-cites->paper2027483357
+            	-cites->paper2154816175
             	-cites->paper2163279690
             	-authors->author2157183814
             	-authors->author2142735317
@@ -1795,8 +1978,9 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue905
+            	-venue->venue1010
             	-cites->paper2008190734
+            	-cites->paper2059076106
             	-authors->author2096398591
             	-authors->author2133238635
             	-authors->author2155765896
@@ -1843,7 +2027,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue245
+            	-venue->venue360
             	-cites->paper1556566737
             	-cites->paper1593091446
             	-cites->paper1594228127
@@ -1885,9 +2069,10 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue455
+            	-venue->venue564
             	-cites->paper1557990975
             	-cites->paper1968796785
+            	-cites->paper1975411983
             	-authors->author2639873477
             }
 	paper2168342181:Paper {
@@ -1896,6 +2081,7 @@ model Paper2012{
             	.core : false
             	.relevance:false
             	-venue->venue61
+            	-cites->paper1672891595
             	-cites->paper2117818414
             	-cites->paper2129289644
             	-authors->author2116758122
@@ -1909,7 +2095,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue441
+            	-venue->venue285
             	-cites->paper1542225267
             	-cites->paper1558561379
             	-cites->paper1589399509
@@ -1949,9 +2135,13 @@ model Paper2012{
             	-cites->paper2102580681
             	-cites->paper2105900173
             	-cites->paper2107859560
+            	-cites->paper2127547524
             	-cites->paper2149179427
             	-cites->paper2152390090
             	-cites->paper2152885346
+            	-cites->paper2153904572
+            	-cites->paper2163820265
+            	-cites->paper2165365531
             	-cites->paper2177772636
             	-cites->paper2611598995
             	-authors->author2154799610
@@ -1963,7 +2153,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue455
+            	-venue->venue564
             	-cites->paper1965979806
             	-cites->paper2134001468
             	-authors->author2188382726
@@ -1985,7 +2175,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue1832
+            	-venue->venue1933
             	-cites->paper2116502002
             	-cites->paper2169954581
             	-authors->author2023363942
@@ -1996,7 +2186,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue2919
+            	-venue->venue3016
             	-authors->author1719477802
             	-authors->author1898691322
             	-authors->author406470922
@@ -2006,7 +2196,7 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue366
+            	-venue->venue477
             	-authors->author2127380394
             	-authors->author64972476
             	-authors->author2013431826
@@ -2016,9 +2206,545 @@ model Paper2012{
             	.year : 2012
             	.core : false
             	.relevance:false
-            	-venue->venue3022
+            	-venue->venue3119
             	-cites->paper2061161497
+            	-cites->paper2166602595
             	-authors->author2134698080
+            }
+	paper1536631555:Paper {
+                .title : "Language independent refinement using partial modeling"
+            	.year : 2012
+            	.core : false
+            	.relevance:false
+            	-venue->venue5
+            	-cites->paper1488121907
+            	-cites->paper1895387792
+            	-cites->paper2121061989
+            	-cites->paper2133724574
+            	-cites->paper2148106163
+            	-authors->author2032435099
+            	-authors->author1274701876
+            	-authors->author511866907
+            }
+	paper158227284:Paper {
+                .title : "Brain storm optimization algorithm with modified stepsize and individual generation"
+            	.year : 2012
+            	.core : false
+            	.relevance:false
+            	-venue->venue3134
+            	-cites->paper137929096
+            	-cites->paper2092925552
+            	-authors->author2672944984
+            	-authors->author2762914935
+            	-authors->author2672894411
+            }
+	paper1968560832:Paper {
+                .title : "SPL Conqueror Toward optimization of nonfunctional properties in software product lines"
+            	.year : 2012
+            	.core : false
+            	.relevance:false
+            	-venue->venue3416
+            	-cites->paper1500250067
+            	-cites->paper1570173564
+            	-cites->paper2026125143
+            	-cites->paper2044987604
+            	-cites->paper2105539612
+            	-cites->paper2113201637
+            	-cites->paper2151451947
+            	-cites->paper2157437711
+            	-cites->paper2171627300
+            	-authors->author2036720062
+            	-authors->author1995743401
+            	-authors->author129750422
+            	-authors->author693604772
+            	-authors->author1619324679
+            	-authors->author2170711779
+            }
+	paper1971702813:Paper {
+                .title : "Computing repair trees for resolving inconsistencies in design models"
+            	.year : 2012
+            	.core : false
+            	.relevance:true
+            	-venue->venue41
+            	-cites->paper1685969755
+            	-cites->paper1964566177
+            	-cites->paper1983160424
+            	-cites->paper1991633729
+            	-cites->paper1993997772
+            	-cites->paper2012959900
+            	-cites->paper2041756731
+            	-cites->paper2053633607
+            	-cites->paper2058145265
+            	-cites->paper2061050762
+            	-cites->paper2102626454
+            	-cites->paper2112000202
+            	-cites->paper2112964990
+            	-cites->paper2127685229
+            	-cites->paper2143614054
+            	-cites->paper2149864282
+            	-cites->paper2158209101
+            	-cites->paper2159090554
+            	-cites->paper2160930909
+            	-cites->paper2162686404
+            	-cites->paper2760615478
+            	-authors->author1952746506
+            	-authors->author2600856194
+            }
+	paper1999947948:Paper {
+                .title : "Enabling Performance Antipatterns to Arise from an ADLbased Software Architecture"
+            	.year : 2012
+            	.core : false
+            	.relevance:false
+            	-venue->venue1097
+            	-cites->paper101635898
+            	-cites->paper2049897862
+            	-cites->paper2087171733
+            	-cites->paper2162366870
+            	-authors->author315320619
+            	-authors->author1182447484
+            	-authors->author2142432065
+            	-authors->author2137692395
+            }
+	paper2002190357:Paper {
+                .title : "A modeldriven approach to automate the propagation of changes among Architecture Description Languages"
+            	.year : 2012
+            	.core : false
+            	.relevance:false
+            	-venue->venue362
+            	-cites->paper1503242327
+            	-cites->paper1600334244
+            	-cites->paper2021382227
+            	-cites->paper2049008406
+            	-cites->paper2103797968
+            	-cites->paper2129492722
+            	-cites->paper2162366870
+            	-cites->paper2169954581
+            	-cites->paper2176490758
+            	-authors->author406154369
+            	-authors->author1767925207
+            	-authors->author216354095
+            	-authors->author29017657
+            	-authors->author2108048446
+            }
+	paper2002662905:Paper {
+                .title : "The semantics of partial model transformations"
+            	.year : 2012
+            	.core : false
+            	.relevance:false
+            	-venue->venue56
+            	-cites->paper1512007370
+            	-cites->paper1536631555
+            	-cites->paper2058547748
+            	-cites->paper2089881021
+            	-cites->paper2091968063
+            	-cites->paper2121061989
+            	-cites->paper2148106163
+            	-authors->author2032435099
+            	-authors->author511866907
+            	-authors->author1274701876
+            }
+	paper2008006790:Paper {
+                .title : "Modeldriven support for product line evolution on feature level"
+            	.year : 2012
+            	.core : false
+            	.relevance:false
+            	-venue->venue1008
+            	-cites->paper1513956993
+            	-cites->paper1520009636
+            	-cites->paper1592640009
+            	-cites->paper2020799390
+            	-cites->paper2067838808
+            	-cites->paper2104208948
+            	-cites->paper2113201637
+            	-cites->paper2114790775
+            	-cites->paper2125853721
+            	-cites->paper2151451947
+            	-authors->author2231457917
+            	-authors->author2077474590
+            	-authors->author2057222180
+            	-authors->author2016710505
+            	-authors->author1594046577
+            }
+	paper2019579488:Paper {
+                .title : "Architecturedriven reliability optimization with uncertain model parameters"
+            	.year : 2012
+            	.core : false
+            	.relevance:false
+            	-venue->venue1008
+            	-cites->paper2004617458
+            	-cites->paper2015699956
+            	-cites->paper2133859873
+            	-cites->paper2134932434
+            	-authors->author2067094781
+            	-authors->author2040072749
+            	-authors->author2716571838
+            }
+	paper2028369901:Paper {
+                .title : "A taxonomy of uncertainty for dynamically adaptive systems"
+            	.year : 2012
+            	.core : false
+            	.relevance:false
+            	-venue->venue1439
+            	-cites->paper1492988325
+            	-cites->paper1599490280
+            	-cites->paper1668140416
+            	-cites->paper1819146036
+            	-cites->paper2008190734
+            	-cites->paper2034568273
+            	-cites->paper2036293656
+            	-cites->paper2059076106
+            	-cites->paper2071616717
+            	-cites->paper2089160254
+            	-cites->paper2098895708
+            	-cites->paper2106180253
+            	-cites->paper2117818414
+            	-cites->paper2129289644
+            	-cites->paper2133859873
+            	-cites->paper2140225592
+            	-cites->paper2156705373
+            	-cites->paper2222782578
+            	-cites->paper2482678392
+            	-authors->author2164276989
+            	-authors->author2113359766
+            	-authors->author2116990958
+            }
+	paper2028622255:Paper {
+                .title : "A formal approach to adaptive software continuous assurance of nonfunctional requirements"
+            	.year : 2012
+            	.core : false
+            	.relevance:false
+            	-venue->venue1035
+            	-cites->paper1479679270
+            	-cites->paper1498432697
+            	-cites->paper1516256348
+            	-cites->paper1557855756
+            	-cites->paper1596597411
+            	-cites->paper1859458367
+            	-cites->paper1964137226
+            	-cites->paper1964830323
+            	-cites->paper2015699956
+            	-cites->paper2071616717
+            	-cites->paper2096910097
+            	-cites->paper2101623441
+            	-cites->paper2106180253
+            	-cites->paper2111765806
+            	-cites->paper2113435553
+            	-cites->paper2129289644
+            	-cites->paper2145071552
+            	-cites->paper2146044140
+            	-cites->paper2163784380
+            	-authors->author299671335
+            	-authors->author977474451
+            	-authors->author2233149120
+            }
+	paper2031260715:Paper {
+                .title : "A scalable double inmemory checkpoint and restart scheme towards exascale"
+            	.year : 2012
+            	.core : false
+            	.relevance:false
+            	-venue->venue19
+            	-cites->paper1981432246
+            	-cites->paper1984564341
+            	-cites->paper2033656974
+            	-cites->paper2133046454
+            	-cites->paper2133201251
+            	-authors->author2136322838
+            	-authors->author2115450241
+            	-authors->author2105628080
+            }
+	paper2041628322:Paper {
+                .title : "Validating software metrics A spectrum of philosophies"
+            	.year : 2012
+            	.core : false
+            	.relevance:false
+            	-venue->venue1002
+            	-cites->paper2111562224
+            	-cites->paper2161477496
+            	-cites->paper2163956676
+            	-authors->author2017186710
+            	-authors->author2135422364
+            	-authors->author2175749388
+            }
+	paper2047003964:Paper {
+                .title : "Programming by optimization"
+            	.year : 2012
+            	.core : false
+            	.relevance:false
+            	-venue->venue1044
+            	-authors->author87749410
+            }
+	paper2047527986:Paper {
+                .title : "Automated planning for feature model configuration based on functional and nonfunctional requirements"
+            	.year : 2012
+            	.core : false
+            	.relevance:false
+            	-venue->venue417
+            	-cites->paper1481078745
+            	-cites->paper1500250067
+            	-cites->paper1559179949
+            	-cites->paper1570173564
+            	-cites->paper1876425992
+            	-cites->paper1968560832
+            	-cites->paper2074621565
+            	-cites->paper2104208948
+            	-authors->author756122464
+            	-authors->author2115955664
+            	-authors->author1969670978
+            	-authors->author2056224234
+            	-authors->author2168896059
+            }
+	paper2048897420:Paper {
+                .title : "Antipatternbased model refactoring for software performance improvement"
+            	.year : 2012
+            	.core : false
+            	.relevance:false
+            	-venue->venue379
+            	-cites->paper101635898
+            	-cites->paper146122600
+            	-cites->paper1977405000
+            	-cites->paper2019612857
+            	-cites->paper2033165137
+            	-cites->paper2087171733
+            	-cites->paper2121589816
+            	-cites->paper2179822829
+            	-authors->author315320619
+            	-authors->author1182447484
+            	-authors->author2129539818
+            }
+	paper2049973206:Paper {
+                .title : "Attack countermeasure trees ACT towards unifying the constructs of attack and defense trees"
+            	.year : 2012
+            	.core : false
+            	.relevance:false
+            	-venue->venue3701
+            	-cites->paper1990874150
+            	-cites->paper2159443917
+            	-authors->author2108293768
+            	-authors->author2189767780
+            	-authors->author2194722548
+            }
+	paper2058547748:Paper {
+                .title : "Towards a Methodology for Verifying Partial Model Refinements"
+            	.year : 2012
+            	.core : false
+            	.relevance:false
+            	-venue->venue54
+            	-cites->paper1488121907
+            	-cites->paper1536631555
+            	-cites->paper2148106163
+            	-authors->author2032435099
+            	-authors->author1274701876
+            	-authors->author244473695
+            }
+	paper2059469597:Paper {
+                .title : "Exploiting Traceability Uncertainty between Architectural Models and Code"
+            	.year : 2012
+            	.core : false
+            	.relevance:false
+            	-venue->venue1097
+            	-cites->paper2059379914
+            	-cites->paper2108155297
+            	-cites->paper2134866950
+            	-cites->paper2145209235
+            	-cites->paper2167498005
+            	-authors->author351163679
+            	-authors->author2600856194
+            }
+	paper2060866317:Paper {
+                .title : "The quest for Ubiquity A roadmap for software and systems traceability research"
+            	.year : 2012
+            	.core : false
+            	.relevance:false
+            	-venue->venue95
+            	-cites->paper2075036374
+            	-cites->paper2161527051
+            	-authors->author2231765356
+            	-authors->author2223152888
+            	-authors->author2082802559
+            	-authors->author231137837
+            	-authors->author2196554139
+            	-authors->author1970459779
+            	-authors->author722927782
+            }
+	paper2070929035:Paper {
+                .title : "Type checking annotationbased product lines"
+            	.year : 2012
+            	.core : false
+            	.relevance:false
+            	-venue->venue1002
+            	-cites->paper30803841
+            	-cites->paper1500250067
+            	-cites->paper1591471358
+            	-cites->paper1967180522
+            	-cites->paper1991604845
+            	-cites->paper1999214372
+            	-cites->paper2071797673
+            	-cites->paper2080648611
+            	-cites->paper2094810043
+            	-cites->paper2104208948
+            	-cites->paper2112000202
+            	-cites->paper2113201637
+            	-cites->paper2117352154
+            	-cites->paper2125853721
+            	-cites->paper2138363365
+            	-cites->paper2153690411
+            	-cites->paper2157771728
+            	-cites->paper2167500728
+            	-authors->author2502682550
+            	-authors->author2036720062
+            	-authors->author129750422
+            	-authors->author2170711779
+            }
+	paper2088160862:Paper {
+                .title : "A modified brain storm optimization"
+            	.year : 2012
+            	.core : false
+            	.relevance:false
+            	-venue->venue3798
+            	-cites->paper137929096
+            	-authors->author2149159333
+            	-authors->author2096219712
+            	-authors->author2714808776
+            	-authors->author2125785102
+            }
+	paper2094819373:Paper {
+                .title : "Toward variabilityaware testing"
+            	.year : 2012
+            	.core : false
+            	.relevance:false
+            	-venue->venue2591
+            	-cites->paper1500250067
+            	-cites->paper1999214372
+            	-cites->paper2009093319
+            	-cites->paper2070929035
+            	-cites->paper2130195901
+            	-authors->author2223602588
+            	-authors->author2055992813
+            	-authors->author1576900243
+            	-authors->author2036720062
+            	-authors->author2170711779
+            	-authors->author2143773872
+            	-authors->author1803786443
+            }
+	paper2095283796:Paper {
+                .title : "Scenario tree generation approaches using Kmeans and LP moment matching methods"
+            	.year : 2012
+            	.core : false
+            	.relevance:false
+            	-venue->venue3824
+            	-authors->author2163835852
+            	-authors->author2175365885
+            	-authors->author2421300820
+            }
+	paper2096143379:Paper {
+                .title : "Consistency maintenance for evolving feature models"
+            	.year : 2012
+            	.core : false
+            	.relevance:false
+            	-venue->venue3829
+            	-cites->paper1509367797
+            	-cites->paper1968830561
+            	-cites->paper2052598892
+            	-cites->paper2067838808
+            	-cites->paper2082677523
+            	-cites->paper2104208948
+            	-cites->paper2113201637
+            	-cites->paper2117352154
+            	-cites->paper2125080761
+            	-cites->paper2125853721
+            	-cites->paper2128967738
+            	-cites->paper2160325552
+            	-authors->author2124048338
+            	-authors->author2658866724
+            	-authors->author2716030949
+            	-authors->author2012239560
+            }
+	paper2096829378:Paper {
+                .title : "Markov chains with discontinuous drifts have differential inclusion limits"
+            	.year : 2012
+            	.core : false
+            	.relevance:false
+            	-venue->venue1363
+            	-cites->paper1964757264
+            	-cites->paper2029804570
+            	-authors->author2526255591
+            	-authors->author2017593075
+            }
+	paper2109797435:Paper {
+                .title : "FXSCORE A Framework for FixedPoint Compilation of SPICE Device Models Using Gappa"
+            	.year : 2012
+            	.core : false
+            	.relevance:false
+            	-venue->venue335
+            	-cites->paper1561086741
+            	-cites->paper2040128025
+            	-cites->paper2080794684
+            	-authors->author2716349596
+            	-authors->author2701900534
+            }
+	paper2115459739:Paper {
+                .title : "Inflo collaborative reasoning via open calculation graphs"
+            	.year : 2012
+            	.core : false
+            	.relevance:false
+            	-venue->venue1513
+            	-authors->author329574911
+            	-authors->author2128438063
+            }
+	paper2121061989:Paper {
+                .title : "Partial models towards modeling and reasoning with uncertainty"
+            	.year : 2012
+            	.core : false
+            	.relevance:false
+            	-venue->venue61
+            	-cites->paper99545732
+            	-cites->paper187889024
+            	-cites->paper1488121907
+            	-cites->paper1507387197
+            	-cites->paper1536631555
+            	-cites->paper1555593767
+            	-cites->paper1588557629
+            	-cites->paper1601820116
+            	-cites->paper1983160424
+            	-cites->paper1988506401
+            	-cites->paper2002662905
+            	-cites->paper2058547748
+            	-cites->paper2091968063
+            	-cites->paper2129289644
+            	-cites->paper2130195901
+            	-cites->paper2133724574
+            	-cites->paper2143614054
+            	-cites->paper2148106163
+            	-cites->paper2155028447
+            	-cites->paper2760715935
+            	-authors->author2032435099
+            	-authors->author511866907
+            	-authors->author1274701876
+            }
+	paper2121519505:Paper {
+                .title : "Viewpoints formalisms languages and tools for cyberphysical systems"
+            	.year : 2012
+            	.core : false
+            	.relevance:false
+            	-venue->venue3981
+            	-cites->paper2118824103
+            	-authors->author80538963
+            	-authors->author1974096878
+            	-authors->author2161207228
+            	-authors->author2104350586
+            }
+	paper2366346:Paper {
+                .title : "Brain storm optimization algorithm for multiobjective optimization problems"
+            	.year : 2012
+            	.core : false
+            	.relevance:false
+            	-venue->venue3134
+            	-cites->paper137929096
+            	-cites->paper1573676079
+            	-authors->author2506645689
+            	-authors->author2417782750
+            	-authors->author2125785102
+            	-authors->author2706817750
             }
 }
 

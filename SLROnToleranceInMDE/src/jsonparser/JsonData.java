@@ -73,7 +73,7 @@ public class JsonData {
 		Set<String> listoftitle = new HashSet<String>();
 
 		Writer out = new BufferedWriter(new OutputStreamWriter(
-				new FileOutputStream("C:\\Users\\Suganya\\Downloads\\dblp.v11\\References_dataset_new.txt"), "UTF-8"));
+				new FileOutputStream("C:\\Users\\Suganya\\Downloads\\dblp.v11\\References_dataset_missing.txt"), "UTF-8"));
 
 		for (String referenceid : dummypaperids) {
 
