@@ -45,6 +45,8 @@ public class JsonParse {
 	static List<PapersPojo> papers = new ArrayList<PapersPojo>();
 	static Map<String, String> id_to_authors_global = new HashMap<String, String>();
 	static Set<String> paperids = new HashSet<String>();
+	static Set<String> newpaperids = new HashSet<String>();
+
 	static Map<String, Integer> venues_global = new HashMap<String, Integer>();
 
 	static int i = 1;
@@ -94,10 +96,22 @@ public class JsonParse {
 		int relcount = 0;
 
 		while (jp.nextToken() != null) {
-			PapersPojo paper = new PapersPojo();
 			Map<String, String> id_to_authors = new HashMap<String, String>();
+		
 
 			JsonNode node = jp.readValueAsTree();
+			String id = node.path("id").asText();
+			if(!newpaperids.isEmpty()&&newpaperids.contains(id))
+			{
+				//System.out.println("inside if");
+				continue;
+			}
+			newpaperids.add(id);
+			
+			PapersPojo paper = new PapersPojo();
+
+			
+			
 			JsonNode authors = node.path("authors");
 			Boolean SE = false;
 			String title = node.path("title").asText();
@@ -122,7 +136,8 @@ public class JsonParse {
 
 			}
 
-			String id = node.path("id").asText();
+		
+
 			Integer year = Integer.parseInt(node.path("year").asText());
 
 			paperids.add(id);

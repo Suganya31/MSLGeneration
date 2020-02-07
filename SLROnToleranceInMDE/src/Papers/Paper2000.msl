@@ -59,7 +59,7 @@ model Paper2000{
             	.year : 2000
             	.core : true
             	.relevance:false
-            	-venue->venue251
+            	-venue->venue249
             	-cites->paper335576746
             	-cites->paper1497571013
             	-cites->paper1499849351
@@ -85,7 +85,7 @@ model Paper2000{
             	.year : 2000
             	.core : true
             	.relevance:false
-            	-venue->venue255
+            	-venue->venue252
             	-cites->paper1495852970
             	-cites->paper1504602695
             	-cites->paper1524975001
@@ -120,7 +120,7 @@ model Paper2000{
             	.year : 2000
             	.core : true
             	.relevance:false
-            	-venue->venue289
+            	-venue->venue286
             	-cites->paper1502259085
             	-cites->paper1525865893
             	-cites->paper1586701723
@@ -160,7 +160,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue446
+            	-venue->venue439
             	-cites->paper1729888041
             	-authors->author2126513744
             	-authors->author2146138432
@@ -170,7 +170,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue466
+            	-venue->venue459
             	-cites->paper2159765281
             	-authors->author2115003381
             	-authors->author737834871
@@ -190,7 +190,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue264
+            	-venue->venue261
             	-cites->paper2060440626
             	-authors->author2778440040
             	-authors->author2120858950
@@ -209,7 +209,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue554
+            	-venue->venue547
             	-authors->author2054248234
             	-authors->author2573533745
             }
@@ -218,7 +218,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue562
+            	-venue->venue555
             	-cites->paper2080267935
             	-cites->paper2173501262
             	-authors->author1962777484
@@ -243,7 +243,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue696
+            	-venue->venue687
             	-cites->paper1556421367
             	-authors->author2345025092
             	-authors->author2115869250
@@ -253,7 +253,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue710
+            	-venue->venue701
             	-cites->paper1555593767
             	-cites->paper2015640848
             	-cites->paper2093916942
@@ -278,7 +278,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue783
+            	-venue->venue774
             	-authors->author2029053518
             	-authors->author2010142017
             	-authors->author207588479
@@ -302,7 +302,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue818
+            	-venue->venue809
             	-cites->paper2105604586
             	-cites->paper2122960384
             	-cites->paper2159765281
@@ -314,7 +314,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue902
+            	-venue->venue893
             	-cites->paper2101134669
             	-authors->author2128833837
             	-authors->author2568680555
@@ -327,7 +327,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue1119
+            	-venue->venue1109
             	-cites->paper2029601347
             	-authors->author171997091
             	-authors->author1990606765
@@ -339,7 +339,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue1310
+            	-venue->venue1299
             	-cites->paper1515932031
             	-cites->paper2145965735
             	-authors->author2029293694
@@ -348,52 +348,12 @@ model Paper2000{
             	-authors->author189665783
             	-authors->author2044989637
             }
-	paper2020299987:Paper {
-                .title : "Design and evaluation of a continuous consistency model for replicated services"
-            	.year : 2000
-            	.core : false
-            	.relevance:false
-            	-venue->venue289
-            	-cites->paper1502259085
-            	-cites->paper1525865893
-            	-cites->paper1586701723
-            	-cites->paper1934227118
-            	-cites->paper1943176887
-            	-cites->paper1968574122
-            	-cites->paper1973241464
-            	-cites->paper1973501242
-            	-cites->paper1987272746
-            	-cites->paper1997182736
-            	-cites->paper2001803004
-            	-cites->paper2028382703
-            	-cites->paper2040919531
-            	-cites->paper2045362872
-            	-cites->paper2048071586
-            	-cites->paper2055101374
-            	-cites->paper2071596433
-            	-cites->paper2099184519
-            	-cites->paper2101915391
-            	-cites->paper2102748509
-            	-cites->paper2110026634
-            	-cites->paper2117260615
-            	-cites->paper2124074197
-            	-cites->paper2124336476
-            	-cites->paper2125930899
-            	-cites->paper2126356880
-            	-cites->paper2132582345
-            	-cites->paper2135044397
-            	-cites->paper2154837369
-            	-cites->paper2156027558
-            	-cites->paper2169813542
-            	-authors->author295064773
-            	-authors->author2894327208
-            }
 	paper2021079739:Paper {
                 .title : "Rolebased authorization constraints specification"
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue1396
+            	-venue->venue1383
             	-cites->paper2166602595
             	-authors->author1996714504
             	-authors->author2281944180
@@ -403,7 +363,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue1306
+            	-venue->venue1295
             	-authors->author311754748
             	-authors->author2308692196
             }
@@ -412,7 +372,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue1577
+            	-venue->venue1564
             	-authors->author2779512150
             }
 	paper2056910803:Paper {
@@ -420,7 +380,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue983
+            	-venue->venue974
             	-cites->paper1545155892
             	-cites->paper2035362408
             	-cites->paper2120510885
@@ -434,7 +394,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue1232
+            	-venue->venue1221
             	-cites->paper2029601347
             	-cites->paper2039509099
             	-cites->paper2054739713
@@ -452,7 +412,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue1010
+            	-venue->venue1001
             	-cites->paper2105603754
             	-cites->paper2125708466
             	-authors->author2207023792
@@ -503,7 +463,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue264
+            	-venue->venue261
             	-cites->paper2139907081
             	-authors->author2780811297
             	-authors->author2239972452
@@ -514,7 +474,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue1930
+            	-venue->venue1916
             	-cites->paper1491178396
             	-cites->paper2045723688
             	-authors->author2494911491
@@ -546,7 +506,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue145
+            	-venue->venue143
             	-cites->paper1972544179
             	-cites->paper2080648611
             	-authors->author2332660967
@@ -557,7 +517,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue2056
+            	-venue->venue2042
             	-cites->paper2093287224
             	-cites->paper2117870171
             	-authors->author53224742
@@ -567,7 +527,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue818
+            	-venue->venue809
             	-cites->paper1515932031
             	-cites->paper1545155892
             	-cites->paper1984478483
@@ -590,7 +550,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue1020
+            	-venue->venue1011
             	-cites->paper326424914
             	-cites->paper1986186023
             	-cites->paper1996832037
@@ -614,7 +574,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue2151
+            	-venue->venue2136
             	-cites->paper2082673250
             	-authors->author675269377
             	-authors->author67175421
@@ -634,7 +594,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue1063
+            	-venue->venue1054
             	-cites->paper1515932031
             	-cites->paper1545155892
             	-cites->paper1997182736
@@ -654,7 +614,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue1137
+            	-venue->venue1127
             	-authors->author2297071937
             	-authors->author1903060929
             }
@@ -663,7 +623,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue2286
+            	-venue->venue2270
             	-cites->paper1489800325
             	-cites->paper2077318760
             	-cites->paper2099293367
@@ -707,7 +667,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue970
+            	-venue->venue961
             	-cites->paper1555915743
             	-cites->paper2054739713
             	-cites->paper2165365531
@@ -720,7 +680,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue1862
+            	-venue->venue1848
             	-cites->paper1979290877
             	-cites->paper2080267935
             	-cites->paper2115309705
@@ -736,7 +696,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue2014
+            	-venue->venue2000
             	-cites->paper2071706116
             	-authors->author2779853014
             	-authors->author2462281239
@@ -756,7 +716,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue2144
+            	-venue->venue2129
             	-authors->author2096308357
             	-authors->author2401676173
             	-authors->author2030977062
@@ -766,7 +726,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue102
+            	-venue->venue101
             	-cites->paper2169840536
             	-authors->author2625658721
             	-authors->author2085104318
@@ -779,7 +739,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue2548
+            	-venue->venue2531
             	-authors->author1988787111
             	-authors->author2151563308
             	-authors->author227760914
@@ -790,7 +750,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue989
+            	-venue->venue980
             	-authors->author87996494
             	-authors->author287324702
             	-authors->author2130895848
@@ -804,7 +764,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue264
+            	-venue->venue261
             	-cites->paper2051028605
             	-cites->paper2105539612
             	-cites->paper2117818414
@@ -817,7 +777,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue651
+            	-venue->venue644
             	-authors->author2115720218
             	-authors->author2155442793
             	-authors->author1983299346
@@ -827,7 +787,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue1010
+            	-venue->venue1001
             	-cites->paper2049913483
             	-cites->paper2148129140
             	-authors->author2100282508
@@ -842,7 +802,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue2697
+            	-venue->venue2680
             	-cites->paper1583095677
             	-cites->paper2088977779
             	-cites->paper2160019730
@@ -856,7 +816,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue1020
+            	-venue->venue1011
             	-cites->paper1489800325
             	-cites->paper1583095677
             	-cites->paper2013658284
@@ -892,7 +852,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue558
+            	-venue->venue551
             	-cites->paper2101939036
             	-authors->author2193205163
             	-authors->author2106155720
@@ -906,7 +866,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue818
+            	-venue->venue809
             	-cites->paper2100970777
             	-cites->paper2133201251
             	-authors->author2625658721
@@ -920,7 +880,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue2817
+            	-venue->venue2800
             	-cites->paper2166602595
             	-authors->author2400936852
             	-authors->author2006920297
@@ -931,7 +891,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue249
+            	-venue->venue247
             	-cites->paper2080648611
             	-cites->paper2131752612
             	-cites->paper2135785452
@@ -945,7 +905,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue444
+            	-venue->venue437
             	-cites->paper2001803004
             	-cites->paper2020299987
             	-cites->paper2071596433
@@ -961,7 +921,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue342
+            	-venue->venue337
             	-cites->paper2119239145
             	-authors->author2108293768
             	-authors->author2779579864
@@ -972,7 +932,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue342
+            	-venue->venue337
             	-cites->paper1534678063
             	-cites->paper2083803628
             	-cites->paper2135785452
@@ -983,7 +943,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue678
+            	-venue->venue671
             	-cites->paper2098830227
             	-cites->paper2128932399
             	-cites->paper2137865376
@@ -995,7 +955,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue417
+            	-venue->venue410
             	-cites->paper1998017916
             	-cites->paper2134062730
             	-authors->author2047542709
@@ -1006,7 +966,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue510
+            	-venue->venue503
             	-cites->paper1600979142
             	-cites->paper2013658284
             	-cites->paper2063185118
@@ -1019,7 +979,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue342
+            	-venue->venue337
             	-cites->paper1494298645
             	-cites->paper1534678063
             	-cites->paper1977509992
@@ -1038,7 +998,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue249
+            	-venue->venue247
             	-cites->paper2080648611
             	-cites->paper2131752612
             	-cites->paper2135785452
@@ -1050,7 +1010,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue569
+            	-venue->venue562
             	-cites->paper2042363190
             	-cites->paper2102296762
             	-authors->author2247870099
@@ -1061,31 +1021,19 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue342
+            	-venue->venue337
             	-cites->paper2099293367
             	-cites->paper2110425399
             	-cites->paper2141860801
             	-cites->paper2159765281
             	-authors->author2142397118
             }
-	paper1597428879:Paper {
-                .title : "Salsa Combining Constraint Solvers with BDDs for Automatic Invariant Checking"
-            	.year : 2000
-            	.core : false
-            	.relevance:false
-            	-venue->venue24
-            	-cites->paper2113486906
-            	-cites->paper2115309705
-            	-cites->paper2125708466
-            	-authors->author2098528877
-            	-authors->author2153381412
-            }
 	paper1726255445:Paper {
                 .title : "Ellipsoidal Techniques for Reachability Analysis"
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue3226
+            	-venue->venue3196
             	-cites->paper2162196264
             	-authors->author2214759960
             	-authors->author2306285951
@@ -1105,7 +1053,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue145
+            	-venue->venue143
             	-authors->author2083359406
             	-authors->author2604434162
             	-authors->author2683323098
@@ -1115,7 +1063,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue1113
+            	-venue->venue1103
             	-cites->paper1524975001
             	-cites->paper1739798036
             	-cites->paper1989790238
@@ -1136,7 +1084,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue301
+            	-venue->venue298
             	-cites->paper2083803628
             	-cites->paper2092889242
             	-cites->paper2135785452
@@ -1149,7 +1097,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue1154
+            	-venue->venue1144
             	-authors->author237419955
             	-authors->author2167033418
             }
@@ -1158,7 +1106,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue1396
+            	-venue->venue1383
             	-cites->paper2081706040
             	-authors->author2777461717
             }
@@ -1167,7 +1115,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue1213
+            	-venue->venue1202
             	-cites->paper1998017916
             	-cites->paper2134342348
             	-authors->author2032475764
@@ -1178,7 +1126,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue1668
+            	-venue->venue1655
             	-cites->paper2096039823
             	-cites->paper2122646429
             	-authors->author670791393
@@ -1189,7 +1137,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue1306
+            	-venue->venue1295
             	-cites->paper2021322986
             	-cites->paper2066624337
             	-authors->author2669313038
@@ -1200,7 +1148,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue3731
+            	-venue->venue3640
             	-authors->author2141758402
             	-authors->author2153629575
             }
@@ -1209,7 +1157,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue444
+            	-venue->venue437
             	-authors->author2700400147
             	-authors->author31261168
             	-authors->author2159644763
@@ -1219,7 +1167,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue1020
+            	-venue->venue1011
             	-cites->paper2075848956
             	-cites->paper2111562224
             	-cites->paper2161477496
@@ -1240,7 +1188,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue102
+            	-venue->venue101
             	-authors->author2138984880
             }
 	paper2115849227:Paper {
@@ -1248,7 +1196,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue264
+            	-venue->venue261
             	-cites->paper1556180148
             	-cites->paper1971930425
             	-cites->paper1998017916
@@ -1264,40 +1212,16 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue3960
+            	-venue->venue3834
             	-authors->author2097101166
             	-authors->author2420993260
-            }
-	paper2117818414:Paper {
-                .title : "Handling obstacles in goaloriented requirements engineering"
-            	.year : 2000
-            	.core : false
-            	.relevance:false
-            	-venue->venue1020
-            	-cites->paper326424914
-            	-cites->paper1986186023
-            	-cites->paper1996832037
-            	-cites->paper2017739343
-            	-cites->paper2051028605
-            	-cites->paper2082204982
-            	-cites->paper2095425626
-            	-cites->paper2113435553
-            	-cites->paper2113486906
-            	-cites->paper2115309705
-            	-cites->paper2125708466
-            	-cites->paper2146191617
-            	-cites->paper2147543351
-            	-cites->paper2169624732
-            	-cites->paper2171627300
-            	-authors->author163926993
-            	-authors->author407089328
             }
 	paper2118783124:Paper {
                 .title : "Risks of the passport single signon protocol"
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue1498
+            	-venue->venue1485
             	-authors->author1558290611
             	-authors->author2573974268
             }
@@ -1306,7 +1230,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue267
+            	-venue->venue264
             	-cites->paper2046018301
             	-cites->paper2167500728
             	-cites->paper2170021374
@@ -1322,7 +1246,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue1010
+            	-venue->venue1001
             	-cites->paper2134062730
             	-authors->author2114898780
             	-authors->author2130294251
@@ -1332,22 +1256,12 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue4067
+            	-venue->venue3920
             	-authors->author2127718862
             	-authors->author2562241442
             	-authors->author2645752777
             	-authors->author2164787312
             	-authors->author2135441199
-            }
-	paper2139300273:Paper {
-                .title : "Exact phase transitions in random constraint satisfaction problems"
-            	.year : 2000
-            	.core : false
-            	.relevance:false
-            	-venue->venue2014
-            	-cites->paper2071706116
-            	-authors->author2779853014
-            	-authors->author2462281239
             }
 	paper2140060749:Paper {
                 .title : "Software economics a roadmap"
@@ -1366,7 +1280,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue4112
+            	-venue->venue3959
             	-cites->paper1977545325
             	-authors->author2053669609
             	-authors->author2032665782
@@ -1376,7 +1290,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue993
+            	-venue->venue984
             	-cites->paper2049329210
             	-authors->author2175749388
             	-authors->author2087817292
@@ -1401,7 +1315,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue1396
+            	-venue->venue1383
             	-authors->author2656975057
             }
 	paper2156986266:Paper {
@@ -1409,33 +1323,19 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue1378
+            	-venue->venue1366
             	-cites->paper1509562505
             	-cites->paper2139907081
             	-authors->author2097656829
             	-authors->author2108158552
             	-authors->author2094062775
             }
-	paper2161799827:Paper {
-                .title : "Checking the consistency of UML class diagrams using larch prover"
-            	.year : 2000
-            	.core : false
-            	.relevance:false
-            	-venue->venue2697
-            	-cites->paper1583095677
-            	-cites->paper2088977779
-            	-cites->paper2160019730
-            	-authors->author2608665571
-            	-authors->author2490315455
-            	-authors->author2013235503
-            	-authors->author2006425844
-            }
 	paper2162196264:Paper {
                 .title : "Verification of Hybrid Systems with Linear Differential Inclusions Using Ellipsoidal Approximations"
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue3226
+            	-venue->venue3196
             	-cites->paper1726255445
             	-cites->paper2060095702
             	-authors->author80538963
@@ -1446,7 +1346,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue1020
+            	-venue->venue1011
             	-authors->author697582
             	-authors->author295132290
             }
@@ -1465,7 +1365,7 @@ model Paper2000{
             	.year : 2000
             	.core : false
             	.relevance:false
-            	-venue->venue342
+            	-venue->venue337
             	-authors->author2193457002
             }
 }

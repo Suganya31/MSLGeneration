@@ -59,7 +59,7 @@ model Paper1978{
             	.year : 1978
             	.core : false
             	.relevance:false
-            	-venue->venue1000
+            	-venue->venue991
             	-cites->paper2047924755
             	-cites->paper2133201251
             	-authors->author2029293694
@@ -71,7 +71,7 @@ model Paper1978{
             	.year : 1978
             	.core : false
             	.relevance:false
-            	-venue->venue1044
+            	-venue->venue1035
             	-authors->author2096750770
             }
 	paper2075350371:Paper {
@@ -79,7 +79,7 @@ model Paper1978{
             	.year : 1978
             	.core : false
             	.relevance:false
-            	-venue->venue1137
+            	-venue->venue1127
             	-authors->author2098910421
             }
 	paper2106887953:Paper {
@@ -87,7 +87,7 @@ model Paper1978{
             	.year : 1978
             	.core : false
             	.relevance:false
-            	-venue->venue678
+            	-venue->venue671
             	-authors->author2131537204
             }
 	paper2611598995:Paper {
@@ -104,24 +104,16 @@ model Paper1978{
             	.year : 1978
             	.core : false
             	.relevance:false
-            	-venue->venue970
+            	-venue->venue961
             	-authors->author213128777
             	-authors->author666264035
-            }
-	paper1973501242:Paper {
-                .title : "Time clocks and the ordering of events in a distributed system"
-            	.year : 1978
-            	.core : false
-            	.relevance:false
-            	-venue->venue1044
-            	-authors->author2096750770
             }
 	paper2011762419:Paper {
                 .title : "Testing Software Design Modeled by FiniteState Machines"
             	.year : 1978
             	.core : false
             	.relevance:false
-            	-venue->venue1020
+            	-venue->venue1011
             	-authors->author2677455814
             }
 	paper2132661148:Paper {
@@ -129,7 +121,7 @@ model Paper1978{
             	.year : 1978
             	.core : false
             	.relevance:false
-            	-venue->venue106
+            	-venue->venue105
             	-authors->author2148533322
             	-authors->author2719089096
             }

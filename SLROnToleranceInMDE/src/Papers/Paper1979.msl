@@ -59,7 +59,7 @@ model Paper1979{
             	.year : 1979
             	.core : false
             	.relevance:false
-            	-venue->venue970
+            	-venue->venue961
             	-cites->paper2132334337
             	-authors->author2223936326
             }
@@ -68,7 +68,7 @@ model Paper1979{
             	.year : 1979
             	.core : false
             	.relevance:false
-            	-venue->venue1392
+            	-venue->venue1379
             	-authors->author350567680
             	-authors->author2444474037
             	-authors->author2161825852
@@ -78,7 +78,7 @@ model Paper1979{
             	.year : 1979
             	.core : false
             	.relevance:false
-            	-venue->venue1020
+            	-venue->venue1011
             	-authors->author88694571
             }
 	paper2110765100:Paper {
@@ -86,18 +86,9 @@ model Paper1979{
             	.year : 1979
             	.core : false
             	.relevance:false
-            	-venue->venue1129
+            	-venue->venue1119
             	-cites->paper1973501242
             	-authors->author2168273423
-            }
-	paper2054739713:Paper {
-                .title : "How to Make a Multiprocessor Computer That Correctly Executes Multiprocess Programs"
-            	.year : 1979
-            	.core : false
-            	.relevance:false
-            	-venue->venue970
-            	-cites->paper2132334337
-            	-authors->author2223936326
             }
 }
 

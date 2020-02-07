@@ -72,8 +72,8 @@ class test {
 //		// writer.println(instance.generatePapersMSL(papers))
 	//writer.println(instance.generateAuthorsMSL(papers))
 //
-		// writer.println(instance.generateVenuesMSL(papers))
-		writer.close();
+		 //writer.println(instance.generateVenuesMSL(papers))
+		//writer.close();
 
 		for (paper : papers) {
 			years.add(paper.getYear)

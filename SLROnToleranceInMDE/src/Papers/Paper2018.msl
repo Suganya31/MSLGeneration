@@ -59,7 +59,7 @@ model Paper2018{
             	.year : 2018
             	.core : true
             	.relevance:true
-            	-venue->venue195
+            	-venue->venue193
             	-authors->author2795271090
             	-authors->author2021330974
             	-authors->author72241827
@@ -86,7 +86,6 @@ model Paper2018{
             	-cites->paper1567586152
             	-cites->paper1567888042
             	-cites->paper1569208917
-            	-cites->paper1575503534
             	-cites->paper1810787746
             	-cites->paper1853034543
             	-cites->paper1878356469
@@ -137,7 +136,7 @@ model Paper2018{
             	.year : 2018
             	.core : true
             	.relevance:true
-            	-venue->venue104
+            	-venue->venue103
             	-cites->paper189544743
             	-cites->paper1995859218
             	-cites->paper2065665276
@@ -304,37 +303,12 @@ model Paper2018{
             	-authors->author20
             	-authors->author21
             }
-	paper2805459498:Paper {
-                .title : "Uncovering Unknown System Behaviors in Uncertain Networks with Model and SearchBased Testing"
-            	.year : 2018
-            	.core : true
-            	.relevance:true
-            	-venue->venue54
-            	-authors->author2332852696
-            	-authors->author2805167129
-            	-authors->author2105537014
-            	-authors->author2209258679
-            	-authors->author2806435027
-            	-authors->author2653874177
-            	-authors->author2805510219
-            	-authors->author2755349880
-            }
-	paper2809006397:Paper {
-                .title : "Towards Modelling and Reasoning About Uncertain Data of Sensor Measurements for Decision Support in Smart Spaces"
-            	.year : 2018
-            	.core : true
-            	.relevance:true
-            	-venue->venue31
-            	-authors->author2808873893
-            	-authors->author2809669810
-            	-authors->author2809471007
-            }
 	paper2531616995:Paper {
                 .title : "Verification of treebased hierarchical readcopy update in the Linux kernel"
             	.year : 2018
             	.core : false
             	.relevance:false
-            	-venue->venue1942
+            	-venue->venue1928
             	-cites->paper1602156367
             	-cites->paper2063666348
             	-cites->paper2115309705
@@ -367,7 +341,7 @@ model Paper2018{
             	.year : 2018
             	.core : false
             	.relevance:false
-            	-venue->venue747
+            	-venue->venue738
             	-cites->paper178138771
             	-cites->paper1497571013
             	-cites->paper1858035675
@@ -392,7 +366,7 @@ model Paper2018{
             	.year : 2018
             	.core : false
             	.relevance:false
-            	-venue->venue981
+            	-venue->venue972
             	-cites->paper1964137226
             	-cites->paper2001914359
             	-cites->paper2033406822
@@ -437,7 +411,7 @@ model Paper2018{
             	.year : 2018
             	.core : false
             	.relevance:false
-            	-venue->venue775
+            	-venue->venue766
             	-cites->paper837270908
             	-cites->paper1568729458
             	-cites->paper1602156367
@@ -474,7 +448,7 @@ model Paper2018{
             	.year : 2018
             	.core : false
             	.relevance:false
-            	-venue->venue710
+            	-venue->venue701
             	-authors->author1957630520
             	-authors->author2801807844
             	-authors->author692701391
@@ -484,7 +458,7 @@ model Paper2018{
             	.year : 2018
             	.core : false
             	.relevance:false
-            	-venue->venue3071
+            	-venue->venue3052
             	-cites->paper1482397304
             	-cites->paper1967564401
             	-cites->paper1983206712

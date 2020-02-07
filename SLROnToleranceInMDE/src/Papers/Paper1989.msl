@@ -85,7 +85,7 @@ model Paper1989{
             	.year : 1989
             	.core : true
             	.relevance:true
-            	-venue->venue211
+            	-venue->venue209
             	-authors->author2627046014
             }
 	paper2145806283:Paper {
@@ -93,7 +93,7 @@ model Paper1989{
             	.year : 1989
             	.core : true
             	.relevance:false
-            	-venue->venue312
+            	-venue->venue308
             	-cites->paper1593955079
             	-cites->paper1999630943
             	-cites->paper2008074667
@@ -107,7 +107,7 @@ model Paper1989{
             	.year : 1989
             	.core : false
             	.relevance:false
-            	-venue->venue472
+            	-venue->venue465
             	-authors->author2098984663
             	-authors->author2101505567
             	-authors->author2235094860
@@ -118,7 +118,7 @@ model Paper1989{
             	.year : 1989
             	.core : false
             	.relevance:false
-            	-venue->venue538
+            	-venue->venue531
             	-cites->paper1964727056
             	-cites->paper2038562061
             	-cites->paper2043671329
@@ -130,7 +130,7 @@ model Paper1989{
             	.year : 1989
             	.core : false
             	.relevance:false
-            	-venue->venue1489
+            	-venue->venue1476
             	-authors->author2141000523
             	-authors->author315563974
             	-authors->author2047106095
@@ -141,7 +141,7 @@ model Paper1989{
             	.year : 1989
             	.core : false
             	.relevance:false
-            	-venue->venue1033
+            	-venue->venue1024
             	-authors->author2131569935
             	-authors->author2807517443
             	-authors->author2780985938
@@ -151,7 +151,7 @@ model Paper1989{
             	.year : 1989
             	.core : false
             	.relevance:false
-            	-venue->venue1737
+            	-venue->venue1724
             	-cites->paper1976848527
             	-cites->paper2134747058
             	-authors->author251035819
@@ -174,7 +174,7 @@ model Paper1989{
             	.year : 1989
             	.core : false
             	.relevance:false
-            	-venue->venue91
+            	-venue->venue90
             	-cites->paper1769402780
             	-cites->paper2168266481
             	-authors->author2071592122
@@ -186,7 +186,7 @@ model Paper1989{
             	.year : 1989
             	.core : false
             	.relevance:false
-            	-venue->venue2164
+            	-venue->venue2149
             	-cites->paper1964607263
             	-cites->paper2168755708
             	-cites->paper2611598995
@@ -199,7 +199,7 @@ model Paper1989{
             	.year : 1989
             	.core : false
             	.relevance:false
-            	-venue->venue1020
+            	-venue->venue1011
             	-cites->paper1971991620
             	-cites->paper1999823724
             	-cites->paper2042609034
@@ -212,7 +212,7 @@ model Paper1989{
             	.year : 1989
             	.core : false
             	.relevance:false
-            	-venue->venue145
+            	-venue->venue143
             	-cites->paper1973501242
             	-cites->paper1976848527
             	-authors->author2307273183
@@ -222,7 +222,7 @@ model Paper1989{
             	.year : 1989
             	.core : false
             	.relevance:false
-            	-venue->venue912
+            	-venue->venue903
             	-cites->paper171247437
             	-cites->paper2035362408
             	-cites->paper2120510885
@@ -247,7 +247,7 @@ model Paper1989{
             	.year : 1989
             	.core : false
             	.relevance:false
-            	-venue->venue653
+            	-venue->venue646
             	-authors->author1946404797
             }
 	paper1593955079:Paper {
@@ -255,7 +255,7 @@ model Paper1989{
             	.year : 1989
             	.core : false
             	.relevance:false
-            	-venue->venue633
+            	-venue->venue626
             	-authors->author2419985518
             }
 	paper1835640267:Paper {
@@ -263,7 +263,7 @@ model Paper1989{
             	.year : 1989
             	.core : false
             	.relevance:false
-            	-venue->venue861
+            	-venue->venue852
             	-authors->author2684743344
             	-authors->author2055115542
             	-authors->author253410647
@@ -274,7 +274,7 @@ model Paper1989{
             	.year : 1989
             	.core : false
             	.relevance:false
-            	-venue->venue1259
+            	-venue->venue1248
             	-cites->paper2137865376
             	-authors->author2129477832
             	-authors->author2410944151
@@ -285,7 +285,7 @@ model Paper1989{
             	.year : 1989
             	.core : false
             	.relevance:false
-            	-venue->venue1086
+            	-venue->venue1076
             	-cites->paper2008074667
             	-cites->paper2026735162
             	-cites->paper2163832616
@@ -293,48 +293,12 @@ model Paper1989{
             	-authors->author421248583
             	-authors->author2718395555
             }
-	paper2012481411:Paper {
-                .title : "Leases an efficient faulttolerant mechanism for distributed file cache consistency"
-            	.year : 1989
-            	.core : false
-            	.relevance:false
-            	-venue->venue52
-            	-cites->paper1547343000
-            	-cites->paper1828150029
-            	-cites->paper1967141605
-            	-cites->paper1990224665
-            	-cites->paper2005373714
-            	-cites->paper2035209053
-            	-cites->paper2057954021
-            	-cites->paper2094642242
-            	-cites->paper2095687239
-            	-cites->paper2107460938
-            	-cites->paper2109978596
-            	-cites->paper2111223826
-            	-cites->paper2115294119
-            	-cites->paper2130493426
-            	-cites->paper2134806330
-            	-cites->paper2155847110
-            	-cites->paper2508325987
-            	-authors->author2071592122
-            	-authors->author2705038455
-            }
-	paper2074461621:Paper {
-                .title : "Automatic generation of test scripts from formal test specifications"
-            	.year : 1989
-            	.core : false
-            	.relevance:false
-            	-venue->venue1033
-            	-authors->author2131569935
-            	-authors->author2807517443
-            	-authors->author2780985938
-            }
 	paper2103772475:Paper {
                 .title : "Efficient synchronization primitives for largescale cachecoherent multiprocessors"
             	.year : 1989
             	.core : false
             	.relevance:false
-            	-venue->venue174
+            	-venue->venue172
             	-authors->author2170353725
             	-authors->author2098205087
             	-authors->author315556314
@@ -344,7 +308,7 @@ model Paper1989{
             	.year : 1989
             	.core : false
             	.relevance:false
-            	-venue->venue145
+            	-venue->venue143
             	-authors->author2663845542
             	-authors->author2710871019
             	-authors->author2691240446
@@ -368,7 +332,7 @@ model Paper1989{
             	.year : 1989
             	.core : false
             	.relevance:false
-            	-venue->venue174
+            	-venue->venue172
             	-cites->paper1491178396
             	-authors->author2104865906
             }
@@ -377,7 +341,7 @@ model Paper1989{
             	.year : 1989
             	.core : false
             	.relevance:false
-            	-venue->venue1902
+            	-venue->venue1888
             	-authors->author2427402901
             	-authors->author737098973
             }
@@ -386,7 +350,7 @@ model Paper1989{
             	.year : 1989
             	.core : false
             	.relevance:false
-            	-venue->venue174
+            	-venue->venue172
             	-authors->author2649744027
             	-authors->author2246122413
             }
@@ -395,7 +359,7 @@ model Paper1989{
             	.year : 1989
             	.core : false
             	.relevance:false
-            	-venue->venue2009
+            	-venue->venue1995
             	-authors->author519054157
             	-authors->author719372124
             	-authors->author1873538321
@@ -405,7 +369,7 @@ model Paper1989{
             	.year : 1989
             	.core : false
             	.relevance:false
-            	-venue->venue174
+            	-venue->venue172
             	-cites->paper1769402780
             	-authors->author2273179273
             	-authors->author2213475343

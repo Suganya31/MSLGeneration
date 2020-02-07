@@ -59,7 +59,7 @@ model Paper1974{
             	.year : 1974
             	.core : false
             	.relevance:false
-            	-venue->venue1044
+            	-venue->venue1035
             	-authors->author2433626807
             }
 	paper2111132249:Paper {
@@ -67,16 +67,8 @@ model Paper1974{
             	.year : 1974
             	.core : false
             	.relevance:false
-            	-venue->venue1044
+            	-venue->venue1035
             	-authors->author2137842401
-            }
-	paper2033656974:Paper {
-                .title : "A first order approximation to the optimum checkpoint interval"
-            	.year : 1974
-            	.core : false
-            	.relevance:false
-            	-venue->venue1044
-            	-authors->author2433626807
             }
 }
 
