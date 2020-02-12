@@ -46,6 +46,7 @@ public class JsonParse {
 	static Map<String, String> id_to_authors_global = new HashMap<String, String>();
 	static Set<String> paperids = new HashSet<String>();
 	static Set<String> newpaperids = new HashSet<String>();
+	static Set<String> thefinallist = new HashSet<String>();
 
 	static Map<String, Integer> venues_global = new HashMap<String, Integer>();
 
@@ -91,7 +92,6 @@ public class JsonParse {
 
 		JsonParser jp = f.createParser(filename);
 		Set<String> dummypaperids = new HashSet<String>();
-		Set<String> thefinallist = new HashSet<String>();
 
 		int relcount = 0;
 
@@ -120,9 +120,11 @@ public class JsonParse {
 			String newttitle = getOnlyStrings(title).toLowerCase();
 			if (relevanttitle.contains(newttitle)) {
 				relevance = true;
+				System.out.println(title);
 				thefinallist.add(title);
 				relcount++;
 			}
+			//System.out.println(thefinallist);
 
 			JsonNode venuenode = node.path("venue");
 			String venue = venuenode.findPath("id").asText();
@@ -219,6 +221,7 @@ public class JsonParse {
 			paper.setVenue(venues_global.get(getOnlyStrings(name).toLowerCase()));
 
 		}
+		System.out.println(thefinallist);
 
 		return (papers);
 

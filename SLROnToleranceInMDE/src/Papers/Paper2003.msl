@@ -472,7 +472,7 @@ model Paper2003{
                 .title : "Consistency management with repair actions"
             	.year : 2003
             	.core : false
-            	.relevance:false
+            	.relevance:true
             	-venue->venue61
             	-cites->paper1983421263
             	-cites->paper2012959900
@@ -1383,7 +1383,7 @@ model Paper2003{
                 .title : "Using Description Logic to Maintain Consistency between UML Models"
             	.year : 2003
             	.core : false
-            	.relevance:false
+            	.relevance:true
             	-venue->venue3103
             	-cites->paper1601314163
             	-cites->paper2088977779

@@ -398,7 +398,7 @@ model Paper2001{
                 .title : "Making inconsistency respectable in software development"
             	.year : 2001
             	.core : false
-            	.relevance:false
+            	.relevance:true
             	-venue->venue999
             	-cites->paper1968128450
             	-cites->paper2093287224
