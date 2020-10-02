@@ -1,0 +1,280 @@
+import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Authors.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2013.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2014.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2011.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2006.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2003.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2004.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2009.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2000.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2012.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2015.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1997.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2010.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1999.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2001.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1998.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2007.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1989.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1991.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1992.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2002.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1990.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2016.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2017.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2018.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2020.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1979.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1984.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1995.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1986.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1988.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1980.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1971.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1993.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1987.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1982.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1978.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1974.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1983.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1968.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1970.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1962.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1973.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1959.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1976.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1966.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1967.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1960.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1965.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1963.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1961.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1954.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1950.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1934.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1951.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1955.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1958.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1964.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1800.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1916.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1957.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1911.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1884.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1943.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1899.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1939.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1947.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1946.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1927.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1914.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1953.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1938.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1925.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1931.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1956.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1926.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1937.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1936.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1838.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1948.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1935.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1952.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1949.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1923.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1857.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1944.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1941.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1945.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1942.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1940.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1932.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1933.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1882.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1929.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1871.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1866.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1897.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper0.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1841.msl"
+ 	
+model Paper1939{
+	paper583311415:Paper {
+                .title : "The palace of Soviets"
+            	.year : 1939
+            	.core : false
+            	.relevance:false
+            	-venue->venue0
+            	-authors->author1995293370
+            }
+	paper1971872113:Paper {
+                .title : "An Informal Exposition of Proofs of Godels Theorems and Churchs Theorem"
+            	.year : 1939
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-authors->author2154427137
+            }
+	paper1972649844:Paper {
+                .title : "Proof of the Independence of the Primitive Symbols of Heytings Calculus of Propositions"
+            	.year : 1939
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-authors->author2638319101
+            }
+	paper1977019585:Paper {
+                .title : "A Theorem on Deducibility for SecondOrder Functions"
+            	.year : 1939
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-authors->author2628183594
+            }
+	paper2014988510:Paper {
+                .title : "On the Reduction of the Decision Problem First Paper Ackermann Prefix A Single Binary Predicate"
+            	.year : 1939
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-cites->paper2064811181
+            	-authors->author2507306521
+            }
+	paper2022622228:Paper {
+                .title : "Symbols Signs and Signals"
+            	.year : 1939
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-authors->author2761658769
+            }
+	paper2028396320:Paper {
+                .title : "On the consistency of Quines New foundations for mathematical logic"
+            	.year : 1939
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-authors->author2154427137
+            }
+	paper2050035040:Paper {
+                .title : "Note on modal functions"
+            	.year : 1939
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-authors->author2052850802
+            }
+	paper2050219405:Paper {
+                .title : "On undecidable statements in enlarged systems of logic and the concept of truth"
+            	.year : 1939
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-authors->author279907095
+            }
+	paper2064645573:Paper {
+                .title : "Fifth Meeting of the Association for Symbolic Logic"
+            	.year : 1939
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-authors->author2109253240
+            }
+	paper2073862142:Paper {
+                .title : "The Hypothesis That Infinite Classes are Similar"
+            	.year : 1939
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-cites->paper2086451686
+            	-authors->author2052850802
+            }
+	paper2074120144:Paper {
+                .title : "Bemerkungen Zum Begriff Der Inhaltlichen Widerspruchsfreiheit"
+            	.year : 1939
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-cites->paper2145967016
+            	-authors->author2312346068
+            }
+	paper2088908242:Paper {
+                .title : "Fourth Meeting of the Association for Symbolic Logic"
+            	.year : 1939
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-authors->author1602194289
+            }
+	paper2121820351:Paper {
+                .title : "Modalities in the Survey System of Strict Implication"
+            	.year : 1939
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-authors->author2571173812
+            }
+	paper2155603781:Paper {
+                .title : "Definition by Induction in Quines New Foundations for Mathematical Logic"
+            	.year : 1939
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-authors->author2154427137
+            }
+	paper2156271019:Paper {
+                .title : "A System of Strict Implication"
+            	.year : 1939
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-authors->author2230520957
+            }
+	paper2160453422:Paper {
+                .title : "On the Independence of the Axioms of Definiteness Axiome Der Bestimmtheit"
+            	.year : 1939
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-authors->author2643955058
+            }
+	paper2163474315:Paper {
+                .title : "Note on a Recent Set of Postulates for the Calculus of Propositions"
+            	.year : 1939
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-cites->paper2015374966
+            	-authors->author2607836181
+            }
+	paper2801498873:Paper {
+                .title : "The Transcendence of "
+            	.year : 1939
+            	.core : false
+            	.relevance:false
+            	-venue->venue5345
+            	-authors->author2801285267
+            }
+	paper2106487865:Paper {
+                .title : "A Formal Proof of Godels Theorem"
+            	.year : 1939
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-authors->author2590620072
+            }
+}
+

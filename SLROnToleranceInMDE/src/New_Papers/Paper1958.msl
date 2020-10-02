@@ -1,0 +1,1237 @@
+import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Authors.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2013.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2014.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2011.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2006.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2003.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2004.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2009.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2000.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2012.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2015.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1997.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2010.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1999.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2001.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1998.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2007.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1989.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1991.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1992.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2002.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1990.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2016.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2017.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2018.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2020.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1979.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1984.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1995.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1986.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1988.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1980.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1971.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1993.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1987.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1982.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1978.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1974.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1983.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1968.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1970.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1962.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1973.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1959.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1976.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1966.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1967.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1960.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1965.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1963.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1961.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1954.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1950.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1934.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1951.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1955.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1958.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1964.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1800.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1916.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1957.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1911.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1884.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1943.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1899.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1939.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1947.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1946.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1927.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1914.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1953.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1938.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1925.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1931.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1956.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1926.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1937.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1936.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1838.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1948.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1935.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1952.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1949.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1923.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1857.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1944.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1941.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1945.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1942.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1940.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1932.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1933.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1882.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1929.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1871.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1866.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1897.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper0.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1841.msl"
+ 	
+model Paper1958{
+	paper148854600:Paper {
+                .title : "The Legislative Calendar"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue163073
+            	-authors->author2641074735
+            }
+	paper1495583327:Paper {
+                .title : "ON COMPUTING RADIATION INTEGRALS"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue2664
+            	-authors->author2710140638
+            	-authors->author2094436328
+            	-authors->author2258024075
+            }
+	paper1963780006:Paper {
+                .title : "GODEL NUMBERINGS OF PARTIAL RECURSIVE FUNCTIONS"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-authors->author2139486361
+            }
+	paper1964310154:Paper {
+                .title : "Binary arithmetic for discretely variable word length in a serial computer"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue603834
+            	-authors->author2020491118
+            	-authors->author2098198448
+            }
+	paper1964903577:Paper {
+                .title : "Algorithm for analyzing logical statements to produce a truth function table"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue2664
+            	-authors->author2493880214
+            }
+	paper1966382051:Paper {
+                .title : "Error Bounds for the RungeKutta SingleStep Integration Process"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue110970
+            	-authors->author2279784426
+            }
+	paper1968090036:Paper {
+                .title : "Evaluation of Integrals Involving Combinations of Bessel Functions and Circular Functions"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue110970
+            	-authors->author2569826012
+            	-authors->author2682407538
+            }
+	paper1968703352:Paper {
+                .title : "On the Length of the Smallest Uniform Experiment which Distinguishes the Terminal States of a Machine"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue110970
+            	-authors->author2513971037
+            }
+	paper1969158654:Paper {
+                .title : "On the Solution of Poissons Difference Equation"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue110970
+            	-authors->author2266717368
+            }
+	paper1970483359:Paper {
+                .title : "Logical reflection and formalism"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-authors->author2151060362
+            }
+	paper1974577569:Paper {
+                .title : "On the Truncation Error of Discrete Approximations to the Solutions of Dirichlet Problems in a Domain with Corners"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue110970
+            	-authors->author2266717368
+            }
+	paper1974739345:Paper {
+                .title : "Simplified Axioms for ManyValued Quantification Theory"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-authors->author2473392557
+            }
+	paper1975668807:Paper {
+                .title : "Realization of Events by Logical Nets"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue110970
+            	-cites->paper2024810999
+            	-authors->author889747575
+            	-authors->author2570013871
+            	-authors->author2619517638
+            }
+	paper1975831538:Paper {
+                .title : "Note on empirical bounds for generating Bessel functions"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue2664
+            	-authors->author2274634691
+            	-authors->author2135828870
+            }
+	paper1978730176:Paper {
+                .title : "Foundational Aspects of Theories of Measurement"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-cites->paper2121417702
+            	-authors->author2780530194
+            	-authors->author599389352
+            }
+	paper1980889608:Paper {
+                .title : "Binary and truthfunction operations on a decimal computer with an extract command"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue2664
+            	-authors->author1482846990
+            }
+	paper1981184771:Paper {
+                .title : "On recursively enumerable and arithmetic models of set theory"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-authors->author2144633556
+            }
+	paper1982824534:Paper {
+                .title : "Error estimation in RungeKutta procedures"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue2664
+            	-authors->author2135828870
+            	-authors->author2398261898
+            }
+	paper1984986868:Paper {
+                .title : "On closure under direct product"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-authors->author2600218695
+            	-authors->author2665308565
+            }
+	paper1988065660:Paper {
+                .title : "Recursive curve fitting technique"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue2664
+            	-authors->author2274737389
+            }
+	paper1990495593:Paper {
+                .title : "On matrix program schemes"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue2664
+            	-authors->author2287028946
+            }
+	paper1990989322:Paper {
+                .title : "Automatic Preparation of Flow Chart Listings"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue110970
+            	-authors->author2690394927
+            }
+	paper1992199907:Paper {
+                .title : "The Approximate Solution of Matrix Problems"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue110970
+            	-cites->paper2085097485
+            	-authors->author515263475
+            }
+	paper1996188060:Paper {
+                .title : "A Numerical Method of Solving a Heat Flow Problem with Moving Boundary"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue110970
+            	-authors->author2973669802
+            }
+	paper1999003573:Paper {
+                .title : "Finding Zeros of Arbitrary Functions"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue110970
+            	-authors->author2699709744
+            }
+	paper2001854496:Paper {
+                .title : "Test routines based on symbolic logical statements"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue603834
+            	-authors->author2228750748
+            }
+	paper2004371846:Paper {
+                .title : "Preliminary report international algebraic language"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue2664
+            	-authors->author2973349577
+            	-authors->author2974521183
+            }
+	paper2004601352:Paper {
+                .title : "An approach to microminiature printed systems"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue14852
+            	-authors->author2649094331
+            	-authors->author2156023263
+            }
+	paper2005661741:Paper {
+                .title : "A Problem of Rosser and Turquette"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-cites->paper2057066322
+            	-authors->author1967024669
+            }
+	paper2008913431:Paper {
+                .title : "On programming of arithmetic operations"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue2664
+            	-authors->author2649316467
+            }
+	paper2009133251:Paper {
+                .title : "On the equivalence and transformation of program schemes"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue2664
+            	-authors->author2287028946
+            }
+	paper2011405918:Paper {
+                .title : "On the Numerical Solution of Characteristic Equations in Flutter Analysis"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue110970
+            	-authors->author2711868874
+            }
+	paper2011461949:Paper {
+                .title : "On Some Error Bounds of Givens"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue110970
+            	-authors->author2679722837
+            }
+	paper2013887023:Paper {
+                .title : "Proposed Methods for the Analog Solution of Fredholms Integral Equation"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue110970
+            	-authors->author2137300043
+            }
+	paper2014040043:Paper {
+                .title : "A Curve Plotting Routine for the Inverse Laplace Transform of Rational Functions"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue110970
+            	-cites->paper2039457739
+            	-authors->author2649427195
+            }
+	paper2015993732:Paper {
+                .title : "Calculating Open Loop Transfer Functions from Closed Loop Measurements"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue110970
+            	-authors->author2697415201
+            	-authors->author2714912475
+            }
+	paper2024247897:Paper {
+                .title : "Coding and Code Compression"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue110970
+            	-authors->author2706562560
+            }
+	paper2024340879:Paper {
+                .title : "Tables for automatic computation"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue2664
+            	-authors->author2751670075
+            }
+	paper2024962142:Paper {
+                .title : "Methods of Simulating a Differential Analyzer on a Digital Computer"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue110970
+            	-authors->author2126331810
+            }
+	paper2026212756:Paper {
+                .title : "Subharmonics of any order in nonlinear systems of one degree of freedom application to subharmonics of order "
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue29780
+            	-authors->author2492052632
+            }
+	paper2027103512:Paper {
+                .title : "Generalization of a Lemma of G F Rose"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-authors->author2432070842
+            	-authors->author2121866140
+            	-authors->author2665312917
+            }
+	paper2027756991:Paper {
+                .title : "A remark on free choice sequences and the topological completeness proofs"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-authors->author2115832305
+            }
+	paper2031203614:Paper {
+                .title : "Degrees of Formal Systems"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-authors->author2334829021
+            }
+	paper2031804805:Paper {
+                .title : "The Application of Sequential Estimation to Computer Simulation and Monte Carlo Procedures"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue110970
+            	-authors->author2020013896
+            }
+	paper2032890046:Paper {
+                .title : "On Sequences of PseudoRandom Numbers of Maximal Length"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue110970
+            	-cites->paper2085344802
+            	-authors->author1169965439
+            }
+	paper2034347206:Paper {
+                .title : "A Property of SemiDefinite Hermitian Matrices"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue110970
+            	-authors->author2435871185
+            	-authors->author2648496530
+            }
+	paper2034433995:Paper {
+                .title : "A programmed binary counter for the IBM type  calculator"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue2664
+            	-authors->author2281069523
+            	-authors->author2574180502
+            }
+	paper2036895269:Paper {
+                .title : "A Method for Transposing a Matrix"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue110970
+            	-authors->author2224461388
+            }
+	paper2037406392:Paper {
+                .title : "A HighScanningRate Storage Device for Computer Applications"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue110970
+            	-authors->author2498542560
+            }
+	paper2039592983:Paper {
+                .title : "The problem of programming communication with changing machines a proposed solution  Part "
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue2664
+            	-authors->author2709121980
+            	-authors->author2974032305
+            	-authors->author2974238263
+            	-authors->author1900684302
+            	-authors->author2617803050
+            	-authors->author2634176784
+            }
+	paper2041684613:Paper {
+                .title : "Need for an algorithm"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue2664
+            	-authors->author2567517781
+            }
+	paper2043839540:Paper {
+                .title : "On Modern Matrix Iteration Processes of Bernoulli and Graeffe Type"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue110970
+            	-authors->author2973934648
+            }
+	paper2045708059:Paper {
+                .title : "On the formalisation of indirect discourse"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-authors->author2647748569
+            }
+	paper2047822601:Paper {
+                .title : "General purpose programming systems"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue2664
+            	-authors->author2663633890
+            }
+	paper2048426921:Paper {
+                .title : "Variablewidth tables with binarysearch facility"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue2664
+            	-authors->author2133702394
+            }
+	paper2057496874:Paper {
+                .title : "Two squareroot approximations"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue2664
+            	-authors->author2224943935
+            }
+	paper2057527195:Paper {
+                .title : "Reductions of Hilberts tenth problem"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-cites->paper1964691638
+            	-cites->paper2146755812
+            	-authors->author2059544886
+            	-authors->author2612977855
+            }
+	paper2057670841:Paper {
+                .title : "Generated Error in Rotational Tridiagonalization"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue110970
+            	-authors->author515263475
+            }
+	paper2058396072:Paper {
+                .title : "Peirces Axioms for Propositional Calculus"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-authors->author2128139130
+            }
+	paper2062558559:Paper {
+                .title : "A subroutine method for calculating logarithms"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue2664
+            	-authors->author2042975706
+            }
+	paper2064219933:Paper {
+                .title : "The use of computers in inspection procedures"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue2664
+            	-authors->author2618060663
+            }
+	paper2064285318:Paper {
+                .title : "Simplification of a Class of Boolean Functions"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue110970
+            	-authors->author2222305317
+            }
+	paper2065474337:Paper {
+                .title : "The BuraliForti Paradox"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue694966
+            	-cites->paper2166429039
+            	-authors->author2482976215
+            }
+	paper2067475081:Paper {
+                .title : "Computer Programming for Young Students"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue110970
+            	-authors->author2974069544
+            }
+	paper2067821674:Paper {
+                .title : "Analysis of Shift Register Counters"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue110970
+            	-authors->author2672379990
+            }
+	paper2073124309:Paper {
+                .title : "On a Periodic Property of PseudoRandom Sequences"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue110970
+            	-cites->paper2085344802
+            	-authors->author2650226101
+            	-authors->author2429716803
+            }
+	paper2073404928:Paper {
+                .title : "Accelerating convergence of iterative processes"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue2664
+            	-authors->author1991841829
+            }
+	paper2074560788:Paper {
+                .title : "Mathematical Significance of Consistency Proofs"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-cites->paper2145967016
+            	-authors->author2115832305
+            }
+	paper2075697082:Paper {
+                .title : "Open Sentences and the Induction Axiom"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-authors->author2334829021
+            }
+	paper2077406059:Paper {
+                .title : "AYDAR Special Purpose Analog Machine for Raw Data Reduction"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue110970
+            	-authors->author2667981539
+            	-authors->author2023094164
+            }
+	paper2078996191:Paper {
+                .title : "TwentyThird Annual Meeting of the Association for Symbolic Logic"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-authors->author2332474159
+            }
+	paper2079630854:Paper {
+                .title : "Secant modification of Newtons method"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue2664
+            	-authors->author1979153303
+            }
+	paper2085022143:Paper {
+                .title : "Proposal for an UNCOL"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue2664
+            	-cites->paper2039592983
+            	-authors->author2283907456
+            }
+	paper2086107366:Paper {
+                .title : "A machine method for squareroot computation"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue2664
+            	-authors->author2042975706
+            }
+	paper2086129880:Paper {
+                .title : "MeasureTheoretic Construction of Incomparable Hyperdegrees"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-authors->author1980311768
+            }
+	paper2087583740:Paper {
+                .title : "IBM  codenundrums"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue2664
+            	-authors->author2274628326
+            }
+	paper2088982673:Paper {
+                .title : "A Chebycheff Fitting Criterion"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue110970
+            	-authors->author2701067123
+            	-authors->author2973355346
+            }
+	paper2092590148:Paper {
+                .title : "Unitary Triangularization of a Nonsymmetric Matrix"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue110970
+            	-authors->author515263475
+            }
+	paper2094043064:Paper {
+                .title : "TwentySecond Annual Meeting of the Association for Symbolic Logic"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-authors->author2032480881
+            }
+	paper2095054884:Paper {
+                .title : "SWAC Experiments on the Use of Orthogonal Polynomials for Data Fitting"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue110970
+            	-authors->author2232069316
+            	-authors->author1983898678
+            }
+	paper2095302320:Paper {
+                .title : "Request for methods or programs"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue2664
+            	-authors->author2519131626
+            }
+	paper2098537481:Paper {
+                .title : "Simple automatic coding systems"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue2664
+            	-authors->author2278562918
+            }
+	paper2090772826:Paper {
+                .title : "An experimental modulationdemodulation scheme for highspeed data transmission"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue14852
+            	-authors->author2974561064
+            }
+	paper2101025460:Paper {
+                .title : "Finite Axiomatizability Using Additional Predicates"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-cites->paper2001897405
+            	-cites->paper2038294104
+            	-cites->paper2098563247
+            	-authors->author2119865074
+            	-authors->author2587351954
+            }
+	paper2102227149:Paper {
+                .title : "Professor Goodsteins Formalisation of the Policeman"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-authors->author2124456143
+            }
+	paper2102626790:Paper {
+                .title : "Epimenides the Cretan"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-authors->author2128139130
+            }
+	paper2105269776:Paper {
+                .title : "Note on Carnaps Relational Asymptotic Relative Frequencies"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-authors->author65976662
+            }
+	paper2109224152:Paper {
+                .title : "A th Century Paradox of the Infinite"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-authors->author2132399460
+            }
+	paper2110442292:Paper {
+                .title : "An algorithm for the determination of the polynomial of best minimax approximation to a function defined on a finite point set"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue603834
+            	-authors->author2699709744
+            	-authors->author2688535169
+            }
+	paper2111473912:Paper {
+                .title : "A note on direct products"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-authors->author2280628131
+            }
+	paper2116215193:Paper {
+                .title : "On Slupecki TFunctions"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-authors->author2628590714
+            	-authors->author2107183354
+            }
+	paper2116943326:Paper {
+                .title : "Alternative proof of a theorem of Kleene"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-authors->author2130952239
+            }
+	paper2117098417:Paper {
+                .title : "A Dual Master File System for a Tape Processing Computer"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue110970
+            	-authors->author2228825279
+            }
+	paper2118397869:Paper {
+                .title : "An Investigation on the Logical Structure of Mathematics V Contradictions of Russells Type"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-authors->author2324386853
+            }
+	paper2119024968:Paper {
+                .title : "On the Inversion Complexity of a System of Functions"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue110970
+            	-authors->author2662461679
+            }
+	paper2121885420:Paper {
+                .title : "Extraction of roots by repeated subtractions for digital computers"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue2664
+            	-authors->author2688682420
+            }
+	paper2122442376:Paper {
+                .title : "Algebraic formulation of flow diagrams"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue2664
+            	-authors->author2289820414
+            }
+	paper2122892467:Paper {
+                .title : "Schemas Pour Le Calcul Des Propositions Fonde Sur La Conjonction Et La Negation"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-authors->author2675440733
+            }
+	paper2126630828:Paper {
+                .title : "A HighSpeed Computer Technique for the Transportation Problem"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue110970
+            	-authors->author2167804309
+            }
+	paper2127316662:Paper {
+                .title : "Three Theorems on Recursive Enumeration I Decomposition II Maximal Set III Enumeration Without Duplication"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-authors->author2174584020
+            }
+	paper2128954108:Paper {
+                .title : "An Extensional Variety of Extended Basic Logic"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-authors->author2052850802
+            }
+	paper2144086150:Paper {
+                .title : "Elementary completeness properties of intuitionistic logic with a note on negations of prenex formulae"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-cites->paper2093415229
+            	-cites->paper2145967016
+            	-authors->author2115832305
+            }
+	paper2159617083:Paper {
+                .title : "An improved decimal redundancy check"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue2664
+            	-authors->author2692046616
+            }
+	paper2166510516:Paper {
+                .title : "berprfung einer frhen Anwendung der Kombinatorik in der Logik"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-authors->author2629042409
+            	-authors->author2666871190
+            }
+	paper2170409807:Paper {
+                .title : "A Note on Numerical Solution of Certain Linear Boundary Value Problems"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue110970
+            	-authors->author2679756263
+            }
+	paper2171942207:Paper {
+                .title : "A formalization of inductive logic"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-authors->author2565684976
+            }
+	paper2186386493:Paper {
+                .title : "Order of Subject and Object in Scientific Russian When Other Differentia Are Lacking"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue61325
+            	-cites->paper2189046909
+            	-authors->author2641610194
+            }
+	paper2189046909:Paper {
+                .title : "Research Methodology for Machine Translation"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue61325
+            	-authors->author2723864556
+            	-authors->author2653982551
+            }
+	paper2293859550:Paper {
+                .title : "Sequential Functions"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue110970
+            	-authors->author2675799424
+            }
+	paper2294824324:Paper {
+                .title : "Language Translation"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue110970
+            	-authors->author2096389443
+            }
+	paper2295438169:Paper {
+                .title : "Weighted PCM"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue1237085
+            	-cites->paper2041404167
+            	-authors->author2294258027
+            }
+	paper2313222730:Paper {
+                .title : "The Concept of Logic"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue1251966
+            	-authors->author2593560198
+            }
+	paper2408213978:Paper {
+                .title : "Conference on Matrix Computations Abstracts"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue110970
+            	-authors->author2294742118
+            }
+	paper2620587744:Paper {
+                .title : "The use of statistics in language research"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue61325
+            	-authors->author2689712656
+            }
+	paper2620618290:Paper {
+                .title : "An input device for the Harvard automatic dictionary"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue61325
+            	-authors->author2716637353
+            }
+	paper2620723628:Paper {
+                .title : "The use of punctuation patterns in machine translation"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue61325
+            	-authors->author2101230262
+            }
+	paper2620736354:Paper {
+                .title : "The work on machine translation in the Soviet Union"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue61325
+            	-authors->author2711876518
+            }
+	paper2620800383:Paper {
+                .title : "A programming language for mechanical translation"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue61325
+            	-authors->author2659140716
+            }
+	paper2620813162:Paper {
+                .title : "Soviet developments in machine translation Russian sentence analysis"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue61325
+            	-authors->author2621334073
+            }
+	paper2620927179:Paper {
+                .title : "News from Ichiro Honda on ETL research"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue61325
+            	-authors->author2620778866
+            }
+	paper2621032599:Paper {
+                .title : "German sentence recognition"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue61325
+            	-authors->author2620787769
+            	-authors->author2620997959
+            }
+	paper2621124174:Paper {
+                .title : "Some problems in the mechanical translation of German"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue61325
+            	-authors->author2682899704
+            }
+	paper2621311182:Paper {
+                .title : "The storage problem"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue61325
+            	-authors->author2658179723
+            }
+	paper2782474770:Paper {
+                .title : "The Classical and the omegaComplete Arithmetic"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue17884
+            	-authors->author2688127991
+            	-authors->author2312346068
+            	-authors->author2782410137
+            }
+	paper2794326067:Paper {
+                .title : "Ants in the pants"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue0
+            	-authors->author2630464395
+            }
+	paper2996836930:Paper {
+                .title : "Error estimation in RungeKutta procedures"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue2664
+            	-authors->author2998212087
+            	-authors->author2997027433
+            }
+	paper2997616806:Paper {
+                .title : "An improved decimal redundancy check"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue2664
+            	-authors->author2997959424
+            }
+	paper2998844736:Paper {
+                .title : "Analysis of Shift Register Counters"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue110970
+            	-authors->author3000538829
+            }
+	paper3006115633:Paper {
+                .title : "Proposal for an UNCOL"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue2664
+            	-authors->author3005801666
+            }
+	paper3007627055:Paper {
+                .title : "Error Bounds for the RungeKutta SingleStep Integration Process"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue110970
+            	-authors->author3007021059
+            }
+	paper3008242749:Paper {
+                .title : "SWAC Experiments on the Use of Orthogonal Polynomials for Data Fitting"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue110970
+            	-authors->author3008628068
+            	-authors->author3008272943
+            }
+	paper3008388398:Paper {
+                .title : "Unitary Triangularization of a Nonsymmetric Matrix"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue110970
+            	-authors->author3006798605
+            }
+	paper2041858383:Paper {
+                .title : "Automatic implementation of computer logic"
+            	.year : 1958
+            	.core : false
+            	.relevance:false
+            	-venue->venue2664
+            	-authors->author2407704623
+            	-authors->author2407231415
+            }
+}
+

@@ -1,0 +1,176 @@
+import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Authors.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2013.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2014.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2011.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2006.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2003.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2004.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2009.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2000.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2012.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2015.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1997.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2010.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1999.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2001.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1998.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2007.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1989.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1991.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1992.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2002.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1990.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2016.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2017.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2018.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2020.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
+ 	
+model Paper2015{
+	paper1564262173:Paper {
+                .title : "UTest Evolving Modelling and Testing Realistic Uncertain Behaviours of CyberPhysical Systems"
+            	.year : 2015
+            	.core : true
+            	.relevance:false
+            	-venue->venue36
+            	-authors->author2332852696
+            	-authors->author2209258679
+            }
+	paper1639394823:Paper {
+                .title : "Towards ModelDriven VariabilityBased Flexible Service Compositions"
+            	.year : 2015
+            	.core : true
+            	.relevance:false
+            	-venue->venue54
+            	-authors->author2222006576
+            	-authors->author2124914855
+            	-authors->author2439385943
+            	-authors->author2154952331
+            	-authors->author2107447959
+            }
+	paper1921983202:Paper {
+                .title : "Modeling and Reasoning about Software Systems Containing Uncertainty and Variability"
+            	.year : 2015
+            	.core : true
+            	.relevance:false
+            	-venue->venue66
+            	-cites->paper1853034543
+            	-cites->paper2121061989
+            	-cites->paper2143614054
+            	-authors->author2032435099
+            }
+	paper1981174119:Paper {
+                .title : "A camera uncertainty model for collaborative visual sensor network applications"
+            	.year : 2015
+            	.core : true
+            	.relevance:false
+            	-venue->venue87
+            	-authors->author1089463364
+            	-authors->author2015905177
+            	-authors->author2060140218
+            	-authors->author2273714189
+            	-authors->author2071417392
+            }
+	paper2085422792:Paper {
+                .title : "Building consistent transactions with inconsistent replication"
+            	.year : 2015
+            	.core : true
+            	.relevance:false
+            	-venue->venue99
+            	-authors->author2145632935
+            	-authors->author1985104365
+            	-authors->author1513655371
+            	-authors->author2088689873
+            	-authors->author2159186294
+            }
+	paper2086023529:Paper {
+                .title : "ArMOR defending against memory consistency model mismatches in heterogeneous architectures"
+            	.year : 2015
+            	.core : true
+            	.relevance:false
+            	-venue->venue143
+            	-cites->paper1968283843
+            	-cites->paper2160781056
+            	-authors->author2029293479
+            	-authors->author1972692845
+            	-authors->author2229729172
+            	-authors->author1998414096
+            }
+	paper2104177825:Paper {
+                .title : "Process model for rapid implementation of features using flexible architecture"
+            	.year : 2015
+            	.core : true
+            	.relevance:false
+            	-venue->venue159
+            	-authors->author2670994458
+            }
+	paper2181002748:Paper {
+                .title : "Consistent coevolution of models and transformations"
+            	.year : 2015
+            	.core : true
+            	.relevance:false
+            	-venue->venue40
+            	-authors->author2845303439
+            	-authors->author319937283
+            	-authors->author197003761
+            	-authors->author713062379
+            	-authors->author1237371566
+            	-authors->author2075200806
+            }
+	paper2228371028:Paper {
+                .title : "Exploiting Traceability Uncertainty Between Software Architectural Models and Performance Analysis Results"
+            	.year : 2015
+            	.core : true
+            	.relevance:false
+            	-venue->venue9
+            	-authors->author1182447484
+            	-authors->author351163679
+            	-authors->author722927782
+            }
+	paper2236227338:Paper {
+                .title : "Efficient GPU synchronization without scopes saying no to complex consistency models"
+            	.year : 2015
+            	.core : true
+            	.relevance:false
+            	-venue->venue74
+            	-authors->author2150398445
+            	-authors->author2222635515
+            	-authors->author2346116799
+            }
+	paper1963576381:Paper {
+                .title : "M u M mint  an IDE for model uncertainty"
+            	.year : 2015
+            	.core : true
+            	.relevance:false
+            	-venue->venue5
+            	-cites->paper1853034543
+            	-cites->paper1978519707
+            	-cites->paper2121061989
+            	-authors->author2032435099
+            	-authors->author2229633499
+            	-authors->author511866907
+            	-authors->author1274701876
+            	-authors->author2040231700
+            }
+	paper1991285474:Paper {
+                .title : "Managing uncertainty in bidirectional model transformations"
+            	.year : 2015
+            	.core : true
+            	.relevance:false
+            	-venue->venue293
+            	-cites->paper1853034543
+            	-cites->paper2117890177
+            	-cites->paper2121061989
+            	-authors->author406154369
+            	-authors->author2229716654
+            	-authors->author2108048446
+            }
+}
+

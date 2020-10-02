@@ -1,0 +1,192 @@
+import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Authors.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2013.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2014.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2011.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2006.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2003.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2004.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2009.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2000.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2012.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2015.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1997.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2010.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1999.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2001.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1998.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2007.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1989.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1991.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1992.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2002.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1990.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2016.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2017.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2018.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2020.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
+ 	
+model Paper2008{
+	paper1537440013:Paper {
+                .title : "Consistent integration of models based on views of visual languages"
+            	.year : 2008
+            	.core : true
+            	.relevance:false
+            	-venue->venue19
+            	-authors->author1762008226
+            	-authors->author692045707
+            	-authors->author268076468
+            	-authors->author2188988982
+            }
+	paper1559755909:Paper {
+                .title : "Flexible rulebased constraint model linearisation"
+            	.year : 2008
+            	.core : true
+            	.relevance:false
+            	-venue->venue34
+            	-authors->author2101252935
+            	-authors->author2079669046
+            	-authors->author204000554
+            	-authors->author2077987469
+            }
+	paper1585480189:Paper {
+                .title : "Sufficient Criteria for Consistent Behavior Modeling with Refined Activity Diagrams"
+            	.year : 2008
+            	.core : true
+            	.relevance:false
+            	-venue->venue40
+            	-authors->author1607443066
+            	-authors->author1978163079
+            	-authors->author1293943865
+            	-authors->author300748100
+            }
+	paper1599490280:Paper {
+                .title : "Automatically Generating Behavioral Models of Adaptive Systems to Address Uncertainty"
+            	.year : 2008
+            	.core : true
+            	.relevance:false
+            	-venue->venue40
+            	-authors->author211901146
+            	-authors->author2116990958
+            }
+	paper1999340986:Paper {
+                .title : "Classifying integrity checking methods with regard to inconsistency tolerance"
+            	.year : 2008
+            	.core : true
+            	.relevance:false
+            	-venue->venue95
+            	-authors->author303637227
+            	-authors->author2600423479
+            }
+	paper2041454162:Paper {
+                .title : "A flexible channel access model for wireless network interface cards"
+            	.year : 2008
+            	.core : true
+            	.relevance:false
+            	-venue->venue118
+            	-authors->author2973884101
+            	-authors->author2974247318
+            }
+	paper2058367869:Paper {
+                .title : "Nu a dynamic aspectoriented intermediate language model and virtual machine for flexible runtime adaptation"
+            	.year : 2008
+            	.core : true
+            	.relevance:false
+            	-venue->venue125
+            	-authors->author2046826343
+            	-authors->author2277754161
+            }
+	paper2110795655:Paper {
+                .title : "Global consistency checking of distributed models with TReMer"
+            	.year : 2008
+            	.core : true
+            	.relevance:false
+            	-venue->venue5
+            	-cites->paper2099698375
+            	-authors->author2024882999
+            	-authors->author1134822698
+            	-authors->author329574911
+            	-authors->author2032435099
+            }
+	paper2111723916:Paper {
+                .title : "A MeasurementDriven Process Model for Managing Inconsistent Software Requirements"
+            	.year : 2008
+            	.core : true
+            	.relevance:false
+            	-venue->venue60
+            	-authors->author2155874124
+            	-authors->author2170890522
+            	-authors->author2126191483
+            }
+	paper2122518432:Paper {
+                .title : "Trafficaware Stress Testing of Distributed RealTime Systems Based on UML Models in the Presence of Time Uncertainty"
+            	.year : 2008
+            	.core : true
+            	.relevance:false
+            	-venue->venue36
+            	-authors->author25117935
+            }
+	paper2139825106:Paper {
+                .title : "A TwoStep Approach for Modelling Flexibility in Software Processes"
+            	.year : 2008
+            	.core : true
+            	.relevance:false
+            	-venue->venue77
+            	-cites->paper1576879044
+            	-authors->author2116943999
+            	-authors->author2070089203
+            	-authors->author2009325842
+            }
+	paper2143614054:Paper {
+                .title : "Generating and Evaluating Choices for Fixing Inconsistencies in UML Design Models"
+            	.year : 2008
+            	.core : true
+            	.relevance:false
+            	-venue->venue77
+            	-cites->paper2099698375
+            	-cites->paper2162686404
+            	-authors->author163926993
+            	-authors->author2082763392
+            	-authors->author722927782
+            }
+	paper2149864282:Paper {
+                .title : "Detecting model inconsistency through operationbased model construction"
+            	.year : 2008
+            	.core : true
+            	.relevance:false
+            	-venue->venue5
+            	-cites->paper2043336932
+            	-cites->paper2162686404
+            	-authors->author2145487576
+            	-authors->author2590659746
+            	-authors->author2114871946
+            	-authors->author1986880241
+            }
+	paper2157198435:Paper {
+                .title : "Detecting and Repairing Inconsistencies across Heterogeneous Models"
+            	.year : 2008
+            	.core : true
+            	.relevance:false
+            	-venue->venue36
+            	-authors->author2003314108
+            	-authors->author2044930014
+            	-authors->author1996244569
+            }
+	paper2167754145:Paper {
+                .title : "Flexible AspectOriented Design Model Checking"
+            	.year : 2008
+            	.core : true
+            	.relevance:false
+            	-venue->venue60
+            	-authors->author2167571421
+            	-authors->author2677793465
+            }
+}
+
