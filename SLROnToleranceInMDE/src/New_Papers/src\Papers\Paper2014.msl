@@ -1,0 +1,154 @@
+import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Authors.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2013.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2014.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2011.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2006.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2003.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2004.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2009.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2000.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2012.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2015.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1997.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2010.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1999.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2001.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1998.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2007.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1989.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1991.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1992.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2002.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1990.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2016.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2017.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2018.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2020.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
+ 	
+model Paper2014{
+	paper49939434:Paper {
+                .title : "A Formal Model for ConstraintBased Deployment Calculation and Analysis for FaultTolerant Systems"
+            	.year : 2014
+            	.core : true
+            	.relevance:false
+            	-venue->venue5
+            	-authors->author719012357
+            	-authors->author2119749041
+            	-authors->author2557436135
+            	-authors->author2199825802
+            }
+	paper1650869244:Paper {
+                .title : "Bidirectionally Tolerating Inconsistency Partial Transformations"
+            	.year : 2014
+            	.core : true
+            	.relevance:false
+            	-venue->venue19
+            	-authors->author2287432086
+            }
+	paper1968283843:Paper {
+                .title : "Pipe Check Specifying and Verifying Microarchitectural Enforcement of Memory Consistency Models"
+            	.year : 2014
+            	.core : true
+            	.relevance:false
+            	-venue->venue74
+            	-cites->paper2105945277
+            	-authors->author2029293479
+            	-authors->author1972692845
+            	-authors->author2950035077
+            }
+	paper1999776923:Paper {
+                .title : "Optimization of a multilevel checkpoint model with uncertain execution scales"
+            	.year : 2014
+            	.core : true
+            	.relevance:false
+            	-venue->venue97
+            	-cites->paper2081235423
+            	-authors->author2238125039
+            	-authors->author2309151586
+            	-authors->author1927643586
+            }
+	paper2020423498:Paper {
+                .title : "Brain Storm Optimization Model Based on Uncertainty Information"
+            	.year : 2014
+            	.core : true
+            	.relevance:false
+            	-venue->venue48
+            	-authors->author2779172980
+            	-authors->author2917240023
+            	-authors->author2988060922
+            }
+	paper2022276169:Paper {
+                .title : "Controlled modeling environment using flexiblyformatted spreadsheets"
+            	.year : 2014
+            	.core : true
+            	.relevance:false
+            	-venue->venue5
+            	-authors->author2099270678
+            	-authors->author2149575715
+            	-authors->author2117112333
+            }
+	paper2061467503:Paper {
+                .title : "Towards ModelandCode Consistency Checking"
+            	.year : 2014
+            	.core : true
+            	.relevance:false
+            	-venue->venue54
+            	-cites->paper1971702813
+            	-cites->paper2054332523
+            	-authors->author1949402193
+            	-authors->author245733066
+            	-authors->author722927782
+            }
+	paper2088073823:Paper {
+                .title : "An Approach for Decision Support on the Uncertainty in Feature Model Evolution"
+            	.year : 2014
+            	.core : true
+            	.relevance:false
+            	-venue->venue79
+            	-authors->author2146027832
+            	-authors->author2144396565
+            }
+	paper2264377422:Paper {
+                .title : "Efficiently and Completely Verifying Synchronized Consistency Models"
+            	.year : 2014
+            	.core : true
+            	.relevance:false
+            	-venue->venue245
+            	-cites->paper2105945277
+            	-authors->author2107724744
+            	-authors->author2638855417
+            	-authors->author2107417546
+            	-authors->author2344333999
+            	-authors->author2435179218
+            }
+	paper2395715776:Paper {
+                .title : "Flexible Modeling and Product Derivation in Software Product Lines"
+            	.year : 2014
+            	.core : true
+            	.relevance:false
+            	-venue->venue229
+            	-authors->author2954094494
+            	-authors->author2224377421
+            }
+	paper2070474270:Paper {
+                .title : "Heterogeneous models matching for consistency management"
+            	.year : 2014
+            	.core : true
+            	.relevance:false
+            	-venue->venue319
+            	-authors->author2021330974
+            	-authors->author72241827
+            	-authors->author2131966228
+            	-authors->author2161499562
+            	-authors->author2170370782
+            }
+}
+

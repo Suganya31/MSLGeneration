@@ -1,0 +1,151 @@
+import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Authors.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2013.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2014.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2011.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2006.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2003.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2004.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2009.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2000.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2012.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2015.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1997.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2010.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1999.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2001.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1998.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2007.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1989.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1991.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1992.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2002.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1990.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2016.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2017.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2018.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2020.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
+ 	
+model Paper2018{
+	paper2794849388:Paper {
+                .title : "A MDE Approach for Heterogeneous Models Consistency"
+            	.year : 2018
+            	.core : true
+            	.relevance:false
+            	-venue->venue277
+            	-authors->author2973527125
+            	-authors->author2021330974
+            	-authors->author72241827
+            	-authors->author2131966228
+            	-authors->author2161499562
+            }
+	paper2795021132:Paper {
+                .title : "A graph solver for the automated generation of consistent domainspecific models"
+            	.year : 2018
+            	.core : true
+            	.relevance:false
+            	-venue->venue5
+            	-cites->paper1853034543
+            	-cites->paper2121061989
+            	-authors->author2143442092
+            	-authors->author2477172015
+            	-authors->author10882077
+            }
+	paper2804801307:Paper {
+                .title : "Declarative project planning and controlling a formal model to support the handling of unavoidable inconsistencies"
+            	.year : 2018
+            	.core : true
+            	.relevance:false
+            	-venue->venue159
+            	-authors->author2141918410
+            }
+	paper2809006397:Paper {
+                .title : "Towards Modelling and Reasoning About Uncertain Data of Sensor Measurements for Decision Support in Smart Spaces"
+            	.year : 2018
+            	.core : true
+            	.relevance:false
+            	-venue->venue54
+            	-authors->author2808873893
+            	-authors->author2601849558
+            	-authors->author1980598708
+            }
+	paper2895109285:Paper {
+                .title : "Towards sound optimal and flexible building from megamodels"
+            	.year : 2018
+            	.core : true
+            	.relevance:false
+            	-venue->venue40
+            	-cites->paper2782787947
+            	-authors->author2287432086
+            }
+	paper2895552427:Paper {
+                .title : "On the Quest for Flexible Modelling"
+            	.year : 2018
+            	.core : true
+            	.relevance:false
+            	-venue->venue40
+            	-authors->author2160674753
+            	-authors->author2108412495
+            }
+	paper2901644511:Paper {
+                .title : "Online ModelBased Testing under Uncertainty"
+            	.year : 2018
+            	.core : true
+            	.relevance:false
+            	-venue->venue52
+            	-authors->author2024396717
+            	-authors->author42474489
+            	-authors->author1780361130
+            	-authors->author2088725692
+            }
+	paper2953708847:Paper {
+                .title : "AHM Handling Heterogeneous Models Matching and Consistency via MDE"
+            	.year : 2018
+            	.core : true
+            	.relevance:false
+            	-venue->venue277
+            	-cites->paper2794849388
+            	-authors->author2021330974
+            	-authors->author72241827
+            	-authors->author2576893612
+            	-authors->author2131966228
+            	-authors->author2161499562
+            }
+	paper2809221487:Paper {
+                .title : "Poster An Automated and Instant Discovery of Concrete Repairs for Model Inconsistencies"
+            	.year : 2018
+            	.core : true
+            	.relevance:false
+            	-venue->venue5
+            	-cites->paper2043336932
+            	-cites->paper2054332523
+            	-cites->paper2143614054
+            	-cites->paper2789876140
+            	-authors->author2346573819
+            	-authors->author2308171290
+            	-authors->author722927782
+            }
+	paper2805459498:Paper {
+                .title : "Uncovering Unknown System Behaviors in Uncertain Networks with Model and SearchBased Testing"
+            	.year : 2018
+            	.core : true
+            	.relevance:false
+            	-venue->venue36
+            	-authors->author2332852696
+            	-authors->author2805167129
+            	-authors->author2105537014
+            	-authors->author2209258679
+            	-authors->author2806435027
+            	-authors->author2653874177
+            	-authors->author2805510219
+            	-authors->author2755349880
+            }
+}
+

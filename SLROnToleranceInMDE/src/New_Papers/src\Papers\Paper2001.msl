@@ -1,0 +1,89 @@
+import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Authors.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2013.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2014.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2011.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2006.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2003.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2004.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2009.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2000.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2012.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2015.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1997.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2010.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1999.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2001.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1998.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2007.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1989.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1991.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1992.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2002.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1990.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2016.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2017.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2018.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2020.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
+ 	
+model Paper2001{
+	paper1607096807:Paper {
+                .title : "Lowcost flexible software fault tolerance for distributed computing"
+            	.year : 2001
+            	.core : true
+            	.relevance:false
+            	-venue->venue52
+            	-authors->author2625658721
+            	-authors->author2085104318
+            	-authors->author2280265749
+            	-authors->author2174616133
+            	-authors->author2311471341
+            }
+	paper2096132547:Paper {
+                .title : "An architectural model for servicebased flexible software"
+            	.year : 2001
+            	.core : true
+            	.relevance:false
+            	-venue->venue54
+            	-authors->author1996142595
+            	-authors->author2073789242
+            	-authors->author2614351097
+            	-authors->author1542178885
+            	-authors->author2130294251
+            	-authors->author2143281273
+            	-authors->author1991399815
+            	-authors->author252128062
+            }
+	paper2105829526:Paper {
+                .title : "Modeling and verifying strong cache consistency for mobile data access"
+            	.year : 2001
+            	.core : true
+            	.relevance:false
+            	-venue->venue52
+            	-cites->paper2012481411
+            	-authors->author2419855062
+            	-authors->author2478656603
+            	-authors->author2682515014
+            	-authors->author2696073230
+            	-authors->author2692071927
+            	-authors->author122937124
+            }
+	paper2131648251:Paper {
+                .title : "Automated check of architectural models consistency using SPIN"
+            	.year : 2001
+            	.core : true
+            	.relevance:false
+            	-venue->venue77
+            	-authors->author1767925207
+            	-authors->author29017657
+            	-authors->author2242511651
+            }
+}
+

@@ -1,0 +1,226 @@
+import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Authors.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2013.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2014.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2011.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2006.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2003.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2004.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2009.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2000.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2012.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2015.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1997.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2010.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1999.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2001.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1998.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2007.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1989.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1991.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1992.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2002.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1990.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2016.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2017.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2018.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2020.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
+ 	
+model Paper2007{
+	paper1884932909:Paper {
+                .title : "Flexible and extensible notations for modeling languages"
+            	.year : 2007
+            	.core : true
+            	.relevance:false
+            	-venue->venue19
+            	-authors->author2145140262
+            	-authors->author2096765925
+            	-authors->author2001238367
+            }
+	paper1979172056:Paper {
+                .title : "Flexible intrusion tolerant voting architecture"
+            	.year : 2007
+            	.core : true
+            	.relevance:false
+            	-venue->venue85
+            	-authors->author312574021
+            	-authors->author2110219690
+            }
+	paper2068276472:Paper {
+                .title : "Consistent Modeling Integration and Simulation of Molecular Interaction Networks in SpaceTime Dimension"
+            	.year : 2007
+            	.core : true
+            	.relevance:false
+            	-venue->venue130
+            	-authors->author2001304548
+            }
+	paper2082842864:Paper {
+                .title : "Improving inconsistency resolution with sideeffect evaluation and costs"
+            	.year : 2007
+            	.core : true
+            	.relevance:false
+            	-venue->venue40
+            	-cites->paper2043336932
+            	-authors->author25924394
+            	-authors->author2032654697
+            }
+	paper2099698375:Paper {
+                .title : "Consistency Checking of Conceptual Models via Model Merging"
+            	.year : 2007
+            	.core : true
+            	.relevance:false
+            	-venue->venue79
+            	-authors->author2024882999
+            	-authors->author1134822698
+            	-authors->author2138229616
+            	-authors->author329574911
+            	-authors->author2032435099
+            }
+	paper2118824234:Paper {
+                .title : "Formal Verification of Consistency between Feature Model and Software Architecture in Software Product Line"
+            	.year : 2007
+            	.core : true
+            	.relevance:false
+            	-venue->venue178
+            	-authors->author2278108851
+            	-authors->author2113802326
+            	-authors->author2151379807
+            }
+	paper2121128447:Paper {
+                .title : "Robust and Flexible Software Inspection model for Software ReEngineering Process Abstraction phase"
+            	.year : 2007
+            	.core : true
+            	.relevance:false
+            	-venue->venue60
+            	-authors->author2645555526
+            	-authors->author2222837722
+            }
+	paper2143320215:Paper {
+                .title : "UMLAnalyzer A Tool for the Instant Consistency Checking of UML Models"
+            	.year : 2007
+            	.core : true
+            	.relevance:false
+            	-venue->venue5
+            	-authors->author2600856194
+            }
+	paper2145891223:Paper {
+                .title : "A Study of Consistent and Inconsistent Changes to Code Clones"
+            	.year : 2007
+            	.core : true
+            	.relevance:false
+            	-venue->venue17
+            	-authors->author1334672199
+            }
+	paper2160781056:Paper {
+                .title : "CheckFence checking consistency of concurrent data types on relaxed memory models"
+            	.year : 2007
+            	.core : true
+            	.relevance:false
+            	-venue->venue218
+            	-authors->author689646243
+            	-authors->author2303331168
+            	-authors->author2107284710
+            }
+	paper2161308564:Paper {
+                .title : "FaultTolerant SemiPassive Coordination Protocol for a MultiActuatorMultiSensor MAMS Model"
+            	.year : 2007
+            	.core : true
+            	.relevance:false
+            	-venue->venue133
+            	-authors->author2043833901
+            	-authors->author2299825243
+            	-authors->author2042216256
+            	-authors->author2120372136
+            }
+	paper2162686404:Paper {
+                .title : "Fixing Inconsistencies in UML Design Models"
+            	.year : 2007
+            	.core : true
+            	.relevance:false
+            	-venue->venue5
+            	-cites->paper2143320215
+            	-authors->author2600856194
+            }
+	paper2171445445:Paper {
+                .title : "Measuring Reliability as a Mean Failure Cost"
+            	.year : 2007
+            	.core : true
+            	.relevance:false
+            	-venue->venue154
+            	-authors->author1996934220
+            	-authors->author2262040313
+            }
+	paper2108147409:Paper {
+                .title : "Software Reliability Modeling with Test Coverage Experimentation and Measurement with A FaultTolerant Software Project"
+            	.year : 2007
+            	.core : true
+            	.relevance:false
+            	-venue->venue52
+            	-authors->author2665826114
+            	-authors->author2625800320
+            	-authors->author2059819287
+            }
+	paper2104226397:Paper {
+                .title : "On the Collaborative Development of ParaConsistent Conceptual Models"
+            	.year : 2007
+            	.core : true
+            	.relevance:false
+            	-venue->venue176
+            	-authors->author756122464
+            	-authors->author2134659517
+            }
+	paper1576879044:Paper {
+                .title : "FlexUML A UML Profile for Flexible Process Modeling"
+            	.year : 2007
+            	.core : true
+            	.relevance:false
+            	-venue->venue229
+            	-authors->author2116943999
+            	-authors->author2070089203
+            	-authors->author2009325842
+            }
+	paper2111313582:Paper {
+                .title : "PatternBased Modeling and Analysis of Failsafe FaultTolerance in UML"
+            	.year : 2007
+            	.core : true
+            	.relevance:false
+            	-venue->venue154
+            	-authors->author2116990958
+            	-authors->author283123783
+            }
+	paper2166530362:Paper {
+                .title : "Preliminary Models of the Cost of Fault Tolerance"
+            	.year : 2007
+            	.core : true
+            	.relevance:false
+            	-venue->venue154
+            	-authors->author2973624008
+            }
+	paper2124346661:Paper {
+                .title : "Flexible Authorization with Decentralized Access Control Model for Grid Computing"
+            	.year : 2007
+            	.core : true
+            	.relevance:false
+            	-venue->venue154
+            	-authors->author2100637783
+            	-authors->author2117662806
+            	-authors->author2228949119
+            	-authors->author2668553490
+            }
+	paper2138294454:Paper {
+                .title : "A Flexible Subscription Model for Broadcasted Digital Contents"
+            	.year : 2007
+            	.core : true
+            	.relevance:false
+            	-venue->venue48
+            	-authors->author2987319439
+            }
+}
+

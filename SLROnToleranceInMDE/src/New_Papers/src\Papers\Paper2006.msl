@@ -1,0 +1,150 @@
+import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Authors.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2013.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2014.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2011.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2006.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2003.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2004.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2009.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2000.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2012.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2015.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1997.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2010.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1999.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2001.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1998.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2007.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1989.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1991.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1992.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2002.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1990.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2016.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2017.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2018.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2020.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
+ 	
+model Paper2006{
+	paper1482727770:Paper {
+                .title : "ModelChecking markov chains in the presence of uncertainties"
+            	.year : 2006
+            	.core : true
+            	.relevance:false
+            	-venue->venue11
+            	-authors->author2161553928
+            	-authors->author2161931206
+            	-authors->author2157836386
+            }
+	paper1557874731:Paper {
+                .title : "A trust model for uncertain interactions in ubiquitous environments"
+            	.year : 2006
+            	.core : true
+            	.relevance:false
+            	-venue->venue30
+            	-authors->author2127542283
+            	-authors->author2131824291
+            	-authors->author2441474743
+            	-authors->author2172296391
+            	-authors->author2141927464
+            	-authors->author2112419066
+            }
+	paper1558783207:Paper {
+                .title : "Modeling and evaluating the survivability of an intrusion tolerant database system"
+            	.year : 2006
+            	.core : true
+            	.relevance:false
+            	-venue->venue32
+            	-authors->author2428201908
+            	-authors->author2620711299
+            }
+	paper2043336932:Paper {
+                .title : "Detecting and resolving model inconsistencies using transformation dependency analysis"
+            	.year : 2006
+            	.core : true
+            	.relevance:false
+            	-venue->venue40
+            	-authors->author2761201474
+            	-authors->author735430862
+            	-authors->author1986880241
+            }
+	paper2098890748:Paper {
+                .title : "A reference model for Authentication and Authorisation Infrastructures respecting privacy and flexibility in bc eCommerce"
+            	.year : 2006
+            	.core : true
+            	.relevance:false
+            	-venue->venue133
+            	-authors->author94584714
+            	-authors->author2073867790
+            	-authors->author2152098741
+            }
+	paper2099977099:Paper {
+                .title : "Use CaseBased Modeling and Analysis of Failsafe FaultTolerance"
+            	.year : 2006
+            	.core : true
+            	.relevance:false
+            	-venue->venue79
+            	-authors->author2116990958
+            	-authors->author2153808454
+            	-authors->author283123783
+            }
+	paper2103120633:Paper {
+                .title : "Bayesian networks implementation of the Dempster Shafer theory to model reliability uncertainty"
+            	.year : 2006
+            	.core : true
+            	.relevance:false
+            	-venue->venue133
+            	-authors->author2607993121
+            	-authors->author2581049067
+            }
+	paper2111935706:Paper {
+                .title : "Modeling and Customization of Fault Tolerant Architecture using ObjectZXVCL"
+            	.year : 2006
+            	.core : true
+            	.relevance:false
+            	-venue->venue60
+            	-authors->author2148688753
+            	-authors->author2112859507
+            	-authors->author2419880055
+            }
+	paper2160726288:Paper {
+                .title : "InterModel Consistency in UML Based on CPN Formalism"
+            	.year : 2006
+            	.core : true
+            	.relevance:false
+            	-venue->venue60
+            	-authors->author2991199606
+            }
+	paper2102686130:Paper {
+                .title : "An Ontologybased RFID System Model for Supporting Semantic Consistency in Ubiquitous Environment"
+            	.year : 2006
+            	.core : true
+            	.relevance:false
+            	-venue->venue48
+            	-authors->author2139669690
+            	-authors->author2882410328
+            	-authors->author2047072712
+            	-authors->author2097823166
+            	-authors->author2109996741
+            }
+	paper98021641:Paper {
+                .title : "Specifying Consistency Constraints for Modelling Languages"
+            	.year : 2006
+            	.core : true
+            	.relevance:false
+            	-venue->venue229
+            	-cites->paper2101911808
+            	-cites->paper2131648251
+            	-authors->author2607615413
+            	-authors->author2109090819
+            }
+}
+
