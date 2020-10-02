@@ -45,7 +45,7 @@ class test {
 	def static void main(String[] args) {
 		val instance = new test;
 
-		var br = new BufferedReader(new FileReader("C:\\Users\\Suganya\\Downloads\\dblp.v11\\venuesexpansion.txt"));
+		var br = new BufferedReader(new FileReader("/home/suganyak/Downloads/newreviewcode/Thesis-master/Thesis/venuesexpansion"));
 		var sCurrentLine = "";
 		var filtered = "";
 
@@ -54,25 +54,29 @@ class test {
 
 			filtervenues.add(filtered.toLowerCase());
 		}
+		
+		
+		
+		
 //
 		// var writer = new PrintWriter("src\\Papers.msl", "UTF-8");
 		var List<PapersPojo> papers = new ArrayList
 		var Set<Integer> years = new HashSet;
 
 		var core = true;
-		var datasetname = "FinalDatasetfeb.txt";
-		var writer = new PrintWriter("src\\Papers\\papers.msl", "UTF-8");
+		var datasetname = "FinalCoreJsondataset";
+		var writer = new PrintWriter("/home/suganyak/Downloads/MSLGeneration-master(2)/MSLGeneration-master/SLROnToleranceInMDE/src/Papers/Papers.msl", "UTF-8");
 		papers = JsonParse.extractData(core, datasetname, filtervenues);
-		datasetname = "References_dataset_newfeb.txt";
+		datasetname = "referencesnewdataset";
 		core = false;
 //		//need to call this findReference only once to create the dataset of all the references of the CORE papers.
-		// JsonData.findReference(PapersPojo.dummypaperids);
-		papers = JsonParse.extractData(false, datasetname, filtervenues);
+		 JsonData.findReference(PapersPojo.dummypaperids);
+		papers = JsonParse.extractData(core, datasetname, filtervenues);
 //
-//		// writer.println(instance.generatePapersMSL(papers))
+		// writer.println(instance.generatePapersMSL(papers))
 	//writer.println(instance.generateAuthorsMSL(papers))
 //
-		 //writer.println(instance.generateVenuesMSL(papers))
+		// writer.println(instance.generateVenuesMSL(papers))
 		//writer.close();
 
 		for (paper : papers) {
@@ -80,7 +84,7 @@ class test {
 
 		}
 		for (year : years) {
-			writer = new PrintWriter("src\\Papers\\Paper" + year + ".msl", "UTF-8");
+			writer = new PrintWriter("/home/suganyak/Downloads/MSLGeneration-master(2)/MSLGeneration-master/SLROnToleranceInMDE/src/Papers/Paper" + year + ".msl", "UTF-8");
 			writer.println(instance.generatePapersMSL(papers, year))
 					writer.close();
 			
@@ -105,46 +109,37 @@ class test {
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Authors.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Venues.msl"
-	«FOR paper : papers»
-	«IF(paper.getYear !== year) && !years.contains(paper.getYear)»	
-			      «{years.add(paper.getYear); "" }»
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper«paper.getYear.toString()».msl"
-          «ENDIF»          
- 	«ENDFOR»
+	Â«FOR paper : papersÂ»
+	Â«IF(paper.getYear !== year) && !years.contains(paper.getYear)Â»	
+			      Â«{years.add(paper.getYear); "" }Â»
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/PaperÂ«paper.getYear.toString()Â».msl"
+          Â«ENDIFÂ»          
+ 	Â«ENDFORÂ»
  	
-model Paper«year.toString()»{
-	«FOR paper : papers»
-	      	«IF (paper.getYear()==year)»
-	      	    paper«paper.getId()»:Paper {
-                .title : "«getOnlyStrings(paper.getTitle())»"
-            	.year : «paper.getYear()»
-            	.core : «paper.getCore()»
-            	.relevance:«paper.getRelevance()»
-            	-venue->venue«paper.getVenue()»
-            	 «var pool=PapersPojo.poolids»
-            	«FOR reference : paper.getReferences()»
-            	     «IF (pool.contains(reference))»
-            	      -cites->paper«reference»
-            	     «ENDIF»
-                «ENDFOR»
-            	«FOR author : paper.getAuthors()»
-            	       -authors->author«author»
-            	 «ENDFOR»
+model PaperÂ«year.toString()Â»{
+	Â«FOR paper : papersÂ»
+	      	Â«IF (paper.getYear()==year)Â»
+	      	    paperÂ«paper.getId()Â»:Paper {
+                .title : "Â«getOnlyStrings(paper.getTitle())Â»"
+            	.year : Â«paper.getYear()Â»
+            	.core : Â«paper.getCore()Â»
+            	.relevance:Â«paper.getRelevance()Â»
+            	-venue->venueÂ«paper.getVenue()Â»
+            	 Â«var pool=PapersPojo.poolidsÂ»
+            	Â«FOR reference : paper.getReferences()Â»
+            	     Â«IF (pool.contains(reference))Â»
+            	      -cites->paperÂ«referenceÂ»
+            	     Â«ENDIFÂ»
+                Â«ENDFORÂ»
+            	Â«FOR author : paper.getAuthors()Â»
+            	       -authors->authorÂ«authorÂ»
+            	 Â«ENDFORÂ»
             }
-                     «ENDIF»
-                «ENDFOR»
-«««    			«var s=PapersPojo.dummypaperids»
-«««    				«FOR a : s»
-«««    				 paper«a»:Paper {
-«««    				 	.title : ""
-«««    				    .year : 0000
-«««    				    .core : false
-«««    				    .venue : ""    				           
-«««    				            }
-«»}
+                     Â«ENDIFÂ»
+                Â«ENDFORÂ»
+}
     '''
 	}
-
 	/**
 	 *  
 	 * This method generates the Authors.msl file.
@@ -160,19 +155,19 @@ model Paper«year.toString()»{
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 
 model AllAuthors {
-			«var s=PapersPojo.id_to_authors_global»
-		«FOR a : s.entrySet»    
-	        «{fname=getOnlyStrings(a.value.split("\\s").get(0));""}»  
-	        «IF (a.value.split("\\s").size>=2)»
-	        «{lname=getOnlyStrings(a.value.split("\\s").get(1));""}»
-	        «ELSE»	        
-	        «lname=""»  
-	        «ENDIF»
-	             author«a.key»:Author {
-            	.firstName : "«fname»"
-            	.lastName : "«lname»"    	
+			Â«var s=PapersPojo.id_to_authors_globalÂ»
+		Â«FOR a : s.entrySetÂ»    
+	        Â«{fname=getOnlyStrings(a.value.split("\\s").get(0));""}Â»  
+	        Â«IF (a.value.split("\\s").size>=2)Â»
+	        Â«{lname=getOnlyStrings(a.value.split("\\s").get(1));""}Â»
+	        Â«ELSEÂ»	        
+	        Â«lname=""Â»  
+	        Â«ENDIFÂ»
+	             authorÂ«a.keyÂ»:Author {
+            	.firstName : "Â«fnameÂ»"
+            	.lastName : "Â«lnameÂ»"    	
             }
-            «ENDFOR»
+            Â«ENDFORÂ»
     
 }
     '''
@@ -190,17 +185,17 @@ model AllAuthors {
 import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
 
 model AllVenues {
-	«var v=PapersPojo.venues_global»	
-	«var Set<String> venues = new HashSet»
-	«FOR paper : papers»
-	 «IF (!venues.contains(paper.getVenuename().toLowerCase))»
-	       venue«paper.getVenue»:Venue {
-	             	.Name : "«paper.getVenuename»"
-	             	.SE: «paper.getSE»
+	Â«var v=PapersPojo.venues_globalÂ»	
+	Â«var Set<String> venues = new HashSetÂ»
+	Â«FOR paper : papersÂ»
+	 Â«IF (!venues.contains(paper.getVenuename().toLowerCase))Â»
+	       venueÂ«paper.getVenueÂ»:Venue {
+	             	.Name : "Â«paper.getVenuenameÂ»"
+	             	.SE: Â«paper.getSEÂ»
 	             }
-	              «{venues.add(paper.getVenuename().toLowerCase); "" }»
-	  				        «ENDIF»
-            «ENDFOR»
+	              Â«{venues.add(paper.getVenuename().toLowerCase); "" }Â»
+	  				        Â«ENDIFÂ»
+            Â«ENDFORÂ»
 }
     '''
 	}
