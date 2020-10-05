@@ -56,78 +56,14 @@ import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1967.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1970.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1959.msl"
  	
-model Paper1983{
-	paper57965354:Paper {
-                .title : "UPM A Formal Tool for Expressing Database Update Semantics"
-            	.year : 1983
+model Paper1967{
+	paper2150871235:Paper {
+                .title : "Validity of the single processor approach to achieving large scale computing capabilities"
+            	.year : 1967
             	.core : false
             	.relevance:false
-            	-venue->venue396
-            	-authors->author2136435687
-            	-authors->author2652035513
-            }
-	paper1965240571:Paper {
-                .title : "Increasing modularity and languageindependency in automatically generated compilers"
-            	.year : 1983
-            	.core : false
-            	.relevance:false
-            	-venue->venue1277
-            	-cites->paper2110050316
-            	-authors->author2951576391
-            }
-	paper2009312542:Paper {
-                .title : "The clearinghouse a decentralized agent for locating named objects in a distributed environment"
-            	.year : 1983
-            	.core : false
-            	.relevance:false
-            	-venue->venue1731
-            	-cites->paper2043671329
-            	-authors->author2648415225
-            	-authors->author2680107879
-            }
-	paper2019712414:Paper {
-                .title : "Program developments formal explanations of implementations"
-            	.year : 1983
-            	.core : false
-            	.relevance:false
-            	-venue->venue763
-            	-cites->paper2103953153
-            	-authors->author2777005984
-            }
-	paper2031338211:Paper {
-                .title : "Cryptographic solution to a problem of access control in a hierarchy"
-            	.year : 1983
-            	.core : false
-            	.relevance:false
-            	-venue->venue1364
-            	-authors->author40612409
-            	-authors->author2159975278
-            }
-	paper2051374949:Paper {
-                .title : "A Data Flow Oriented Program Testing Strategy"
-            	.year : 1983
-            	.core : false
-            	.relevance:false
-            	-venue->venue1331
-            	-authors->author2628476136
-            	-authors->author2974716521
-            }
-	paper2015640848:Paper {
-                .title : "Results on the propositional calculus"
-            	.year : 1983
-            	.core : false
-            	.relevance:false
-            	-venue->venue1632
-            	-authors->author2041783100
-            }
-	paper2050894976:Paper {
-                .title : "Rosolving conflicts in global storage design through replication"
-            	.year : 1983
-            	.core : false
-            	.relevance:false
-            	-venue->venue1487
-            	-authors->author2131916116
-            	-authors->author2973785764
+            	-venue->venue3400
+            	-authors->author2651438359
             }
 }
 

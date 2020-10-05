@@ -32,26 +32,29 @@ import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2020.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1995.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1986.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1987.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1988.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1993.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1982.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1983.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1976.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1995.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1982.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1987.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1986.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1988.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1993.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1984.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1978.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1976.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1979.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1980.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1941.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1984.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1974.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1968.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1979.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1962.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1974.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1967.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1970.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1959.msl"
  	
 model Paper1975{
 	paper2103920867:Paper {
@@ -59,23 +62,16 @@ model Paper1975{
             	.year : 1975
             	.core : false
             	.relevance:false
-            	-venue->venue1113
+            	-venue->venue517
+            	-cites->paper2165467455
             	-authors->author1998938290
-            }
-	paper2133201251:Paper {
-                .title : "System structure for software fault tolerance"
-            	.year : 1975
-            	.core : false
-            	.relevance:false
-            	-venue->venue983
-            	-authors->author2029293694
             }
 	paper2135432705:Paper {
                 .title : "Consistency in Networks of Relations"
             	.year : 1975
             	.core : false
             	.relevance:false
-            	-venue->venue1694
+            	-venue->venue1397
             	-authors->author1981134756
             }
 	paper2158102622:Paper {
@@ -83,9 +79,27 @@ model Paper1975{
             	.year : 1975
             	.core : false
             	.relevance:false
-            	-venue->venue933
+            	-venue->venue1091
             	-authors->author2126506047
             	-authors->author644833585
+            }
+	paper2165612380:Paper {
+                .title : "A vector space model for automatic indexing"
+            	.year : 1975
+            	.core : false
+            	.relevance:false
+            	-venue->venue763
+            	-authors->author2974275665
+            	-authors->author2987407365
+            	-authors->author2101230262
+            }
+	paper2133201251:Paper {
+                .title : "System structure for software fault tolerance"
+            	.year : 1975
+            	.core : false
+            	.relevance:false
+            	-venue->venue451
+            	-authors->author2029293694
             }
 }
 

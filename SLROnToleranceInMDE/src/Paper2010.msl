@@ -32,26 +32,29 @@ import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2020.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1995.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1986.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1987.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1988.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1993.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1982.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1983.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1976.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1995.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1982.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1987.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1986.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1988.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1993.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1984.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1978.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1976.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1979.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1980.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1941.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1984.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1974.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1968.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1979.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1962.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1974.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1967.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1970.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1959.msl"
  	
 model Paper2010{
 	paper1575910569:Paper {
@@ -102,8 +105,20 @@ model Paper2010{
             	.core : true
             	.relevance:true
             	-venue->venue52
+            	-cites->paper1539949938
+            	-cites->paper1572214799
+            	-cites->paper1594445969
             	-cites->paper1729888041
+            	-cites->paper1817316424
+            	-cites->paper2024839988
+            	-cites->paper2030180265
+            	-cites->paper2096395465
+            	-cites->paper2113918114
+            	-cites->paper2125959410
+            	-cites->paper2134783233
+            	-cites->paper2134932434
             	-cites->paper2145071552
+            	-cites->paper2163489266
             	-authors->author2134391295
             	-authors->author2111901074
             }
@@ -135,7 +150,9 @@ model Paper2010{
             	.relevance:false
             	-venue->venue40
             	-cites->paper157156687
+            	-cites->paper1489225646
             	-cites->paper1497389410
+            	-cites->paper1513197078
             	-cites->paper1556566737
             	-cites->paper1766479663
             	-cites->paper1945254896
@@ -182,6 +199,8 @@ model Paper2010{
             	-cites->paper2159090554
             	-cites->paper2166568068
             	-cites->paper2294168344
+            	-cites->paper2294967233
+            	-cites->paper2903346474
             	-authors->author1125827560
             	-authors->author916343192
             	-authors->author2196554139
@@ -194,6 +213,7 @@ model Paper2010{
             	.core : true
             	.relevance:false
             	-venue->venue40
+            	-cites->paper1976303542
             	-cites->paper1991604845
             	-cites->paper2011705879
             	-cites->paper2032875561
@@ -203,6 +223,7 @@ model Paper2010{
             	-cites->paper2154771281
             	-cites->paper2159090554
             	-cites->paper2162686404
+            	-cites->paper2294967233
             	-authors->author187158085
             	-authors->author722927782
             }
@@ -212,7 +233,27 @@ model Paper2010{
             	.core : true
             	.relevance:false
             	-venue->venue66
+            	-cites->paper1486676229
+            	-cites->paper1497286055
+            	-cites->paper1502003955
+            	-cites->paper1511881082
+            	-cites->paper1514004408
+            	-cites->paper1554183872
+            	-cites->paper1584155157
+            	-cites->paper1827220193
+            	-cites->paper1993218696
+            	-cites->paper2016272463
+            	-cites->paper2016478739
+            	-cites->paper2042363190
+            	-cites->paper2061983851
+            	-cites->paper2102904625
+            	-cites->paper2102932199
+            	-cites->paper2106529232
+            	-cites->paper2113429830
+            	-cites->paper2118185259
             	-cites->paper2128932399
+            	-cites->paper2137865376
+            	-cites->paper2710510407
             	-authors->author2135641977
             	-authors->author1981505730
             	-authors->author278038048
@@ -264,6 +305,7 @@ model Paper2010{
             	-cites->paper1874370326
             	-cites->paper1966282711
             	-cites->paper1985803695
+            	-cites->paper1992580876
             	-cites->paper2014712522
             	-cites->paper2113114306
             	-cites->paper2123818497
@@ -293,6 +335,7 @@ model Paper2010{
             	-cites->paper1982313944
             	-cites->paper1987247288
             	-cites->paper2025383609
+            	-cites->paper2053576724
             	-cites->paper2089281324
             	-cites->paper2116502002
             	-cites->paper2127237677
@@ -313,12 +356,26 @@ model Paper2010{
             	.core : true
             	.relevance:false
             	-venue->venue140
+            	-cites->paper1516293359
+            	-cites->paper1532597100
+            	-cites->paper1966284460
+            	-cites->paper1976714590
             	-cites->paper1983160424
+            	-cites->paper1986186023
+            	-cites->paper1990100773
+            	-cites->paper2001914359
+            	-cites->paper2012656354
             	-cites->paper2012959900
             	-cites->paper2016914525
             	-cites->paper2054097655
+            	-cites->paper2117490177
             	-cites->paper2117870171
             	-cites->paper2123976282
+            	-cites->paper2133633001
+            	-cites->paper2142188456
+            	-cites->paper2162885111
+            	-cites->paper2167398843
+            	-cites->paper2294967233
             	-authors->author2030408828
             	-authors->author2041687138
             	-authors->author114668044
@@ -376,6 +433,7 @@ model Paper2010{
             	-venue->venue54
             	-cites->paper13821285
             	-cites->paper59877344
+            	-cites->paper1565359989
             	-cites->paper1968316911
             	-cites->paper1968884257
             	-cites->paper2020299987
@@ -415,6 +473,7 @@ model Paper2010{
             	-cites->paper2160332621
             	-cites->paper2160998628
             	-cites->paper2162686404
+            	-cites->paper2913477984
             	-authors->author2103628124
             	-authors->author2963404413
             	-authors->author1975030499
@@ -450,8 +509,11 @@ model Paper2010{
             	.relevance:true
             	-venue->venue229
             	-cites->paper436813289
+            	-cites->paper1569924113
             	-cites->paper2026702834
+            	-cites->paper2030189249
             	-cites->paper2139690978
+            	-cites->paper2168867823
             	-authors->author269327621
             	-authors->author2601849558
             	-authors->author2114338604
@@ -482,19 +544,102 @@ model Paper2010{
             	-authors->author1976131218
             	-authors->author2163845009
             }
+	paper24569603:Paper {
+                .title : "An approach for effective design space exploration"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue374
+            	-cites->paper1480909796
+            	-cites->paper1567586152
+            	-cites->paper1978613757
+            	-cites->paper2074558871
+            	-cites->paper2080267935
+            	-cites->paper2113201637
+            	-cites->paper2153301577
+            	-cites->paper2340735175
+            	-authors->author2136517661
+            	-authors->author2115070196
+            	-authors->author2123331094
+            }
+	paper26962075:Paper {
+                .title : "A Formal Semantics for Decisionoriented Variability Modeling with DOPLER"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue376
+            	-authors->author2136756203
+            	-authors->author2231457917
+            	-authors->author2251273329
+            }
+	paper30803841:Paper {
+                .title : "The Variability Model of The Linux Kernel"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue376
+            	-cites->paper1500250067
+            	-cites->paper2060555016
+            	-cites->paper2160325552
+            	-cites->paper2160332621
+            	-cites->paper2160998628
+            	-cites->paper2294168344
+            	-authors->author2139239461
+            	-authors->author2005359383
+            	-authors->author2106422313
+            	-authors->author2187803657
+            	-authors->author1971965784
+            }
+	paper187637139:Paper {
+                .title : "Tool Support for Incremental Consistency Checking on Variability Models"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue376
+            	-cites->paper2120515675
+            	-cites->paper2159090554
+            	-cites->paper2903346474
+            	-authors->author1125827560
+            	-authors->author2231457917
+            	-authors->author916343192
+            	-authors->author2251273329
+            	-authors->author722927782
+            }
+	paper192446467:Paper {
+                .title : "ZooKeeper waitfree coordination for internetscale systems"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue438
+            	-cites->paper1992479210
+            	-cites->paper2005216655
+            	-cites->paper2005373714
+            	-cites->paper2067293385
+            	-cites->paper2075854425
+            	-cites->paper2101939036
+            	-cites->paper2108026089
+            	-cites->paper2111586962
+            	-cites->paper2116820549
+            	-cites->paper2152465173
+            	-cites->paper2153704625
+            	-authors->author2519279637
+            	-authors->author2032234033
+            	-authors->author2305028642
+            	-authors->author2308249582
+            }
 	paper1486307217:Paper {
                 .title : "On efficient models for model checking messagepassing distributed protocols"
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue393
+            	-venue->venue556
             	-cites->paper1773354560
             	-cites->paper1858035675
             	-cites->paper2075854425
             	-cites->paper2120510885
             	-cites->paper2340735175
             	-authors->author2237402376
-            	-authors->author2894631794
+            	-authors->author2310895133
             	-authors->author2037902109
             }
 	paper1489792672:Paper {
@@ -502,17 +647,37 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue422
+            	-venue->venue585
+            	-cites->paper1518705996
             	-cites->paper1542020576
             	-cites->paper2033361557
             	-cites->paper2160494425
             	-cites->paper2164455525
             	-cites->paper2397768959
-            	-authors->author2806309408
+            	-authors->author2914656714
             	-authors->author342533692
             	-authors->author2503813043
-            	-authors->author2114283154
+            	-authors->author2147021875
             	-authors->author44362941
+            }
+	paper1492988325:Paper {
+                .title : "Understanding the Scope of Uncertainty in Dynamically Adaptive Systems"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue7
+            	-cites->paper175636070
+            	-cites->paper1668140416
+            	-cites->paper2098895708
+            	-cites->paper2105539612
+            	-cites->paper2115774534
+            	-cites->paper2129289644
+            	-cites->paper2138876988
+            	-cites->paper2157437711
+            	-cites->paper2162255975
+            	-cites->paper2163784380
+            	-authors->author2159488918
+            	-authors->author2133238635
             }
 	paper1493542872:Paper {
                 .title : "Evaluating ordering heuristics for dynamic partialorder reduction techniques"
@@ -543,11 +708,13 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue356
+            	-venue->venue428
+            	-cites->paper1511832825
             	-cites->paper1537440013
             	-cites->paper1602025489
             	-cites->paper1982313944
             	-cites->paper2124638003
+            	-cites->paper2489841419
             	-authors->author2472968190
             	-authors->author2158595970
             }
@@ -556,7 +723,7 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue399
+            	-venue->venue26
             	-cites->paper1482397304
             	-cites->paper1525350307
             	-cites->paper1594381772
@@ -570,6 +737,7 @@ model Paper2010{
             	-cites->paper2132761501
             	-cites->paper2152885346
             	-cites->paper2164288303
+            	-cites->paper2165365531
             	-authors->author1994987434
             }
 	paper1510496002:Paper {
@@ -578,6 +746,8 @@ model Paper2010{
             	.core : false
             	.relevance:false
             	-venue->venue330
+            	-cites->paper1532517595
+            	-cites->paper2019208548
             	-cites->paper2122249806
             	-authors->author2762122932
             	-authors->author2780803790
@@ -588,20 +758,29 @@ model Paper2010{
             	-authors->author2097672446
             	-authors->author2023575095
             }
-	paper1510788339:Paper {
-                .title : "Fiia A ModelBased Approach to Engineering Collaborative Augmented Reality"
+	paper1521729235:Paper {
+                .title : "JTL a bidirectional and change propagating transformation language"
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue486
-            	-cites->paper1562948410
-            	-cites->paper2064707938
-            	-cites->paper2102630435
-            	-cites->paper2128239757
-            	-authors->author2156629251
-            	-authors->author2253142883
-            	-authors->author2151372998
-            	-authors->author2702698118
+            	-venue->venue293
+            	-cites->paper1487672899
+            	-cites->paper1568396250
+            	-cites->paper1598022760
+            	-cites->paper1672891595
+            	-cites->paper1967384977
+            	-cites->paper1975411983
+            	-cites->paper1976055110
+            	-cites->paper1982313944
+            	-cites->paper2021382227
+            	-cites->paper2052552343
+            	-cites->paper2127237677
+            	-cites->paper2139872812
+            	-cites->paper2147642262
+            	-authors->author2071298843
+            	-authors->author406154369
+            	-authors->author1595079804
+            	-authors->author2108048446
             }
 	paper1530859287:Paper {
                 .title : "Linking design decisions to design models in modelbased software development"
@@ -633,9 +812,10 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue550
+            	-venue->venue701
             	-cites->paper1480909796
             	-cites->paper1482397304
+            	-cites->paper1525350307
             	-cites->paper1556566737
             	-cites->paper1995825057
             	-cites->paper2024255419
@@ -645,6 +825,7 @@ model Paper2010{
             	-cites->paper2104245532
             	-cites->paper2116454140
             	-cites->paper2152885346
+            	-cites->paper2165365531
             	-cites->paper2194223632
             	-authors->author2303331168
             	-authors->author2289329032
@@ -655,7 +836,7 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue565
+            	-venue->venue787
             	-cites->paper1509000726
             	-cites->paper1525350307
             	-cites->paper1594381772
@@ -683,7 +864,7 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue606
+            	-venue->venue836
             	-cites->paper1482397304
             	-cites->paper1509000726
             	-cites->paper1525350307
@@ -700,13 +881,13 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:true
-            	-venue->venue614
+            	-venue->venue528
             	-cites->paper1965979806
             	-cites->paper1982313944
+            	-cites->paper2035434130
             	-cites->paper2052552343
             	-cites->paper2076676096
             	-cites->paper2127237677
-            	-cites->paper2169954581
             	-authors->author1977476954
             	-authors->author2557835935
             }
@@ -715,7 +896,7 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue620
+            	-venue->venue853
             	-cites->paper1480514185
             	-cites->paper1491205793
             	-cites->paper1525401035
@@ -730,7 +911,7 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue620
+            	-venue->venue853
             	-cites->paper1513395277
             	-cites->paper1840655788
             	-cites->paper2021079739
@@ -740,6 +921,7 @@ model Paper2010{
             	-cites->paper2124080036
             	-cites->paper2145857528
             	-cites->paper2152505375
+            	-cites->paper2166602595
             	-authors->author18772361
             	-authors->author1983458687
             }
@@ -756,10 +938,31 @@ model Paper2010{
             	-cites->paper2060555016
             	-cites->paper2067838808
             	-cites->paper2091920469
+            	-cites->paper2094810043
             	-cites->paper2112000202
             	-cites->paper2128967738
+            	-cites->paper2129492722
             	-authors->author2296206345
             	-authors->author2005359383
+            	-authors->author1971965784
+            }
+	paper1578028529:Paper {
+                .title : "From state to deltabased bidirectional model transformations"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue528
+            	-cites->paper1557990975
+            	-cites->paper1857137411
+            	-cites->paper1968796785
+            	-cites->paper1975411983
+            	-cites->paper1982313944
+            	-cites->paper2035434130
+            	-cites->paper2076676096
+            	-cites->paper2121668868
+            	-cites->paper2127237677
+            	-authors->author2311987939
+            	-authors->author2150281962
             	-authors->author1971965784
             }
 	paper1578096003:Paper {
@@ -767,9 +970,10 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue408
+            	-venue->venue568
             	-cites->paper187637139
             	-cites->paper1481078745
+            	-cites->paper1505090407
             	-cites->paper2104257432
             	-cites->paper2114201059
             	-cites->paper2158592871
@@ -780,14 +984,19 @@ model Paper2010{
             	-authors->author2251273329
             	-authors->author2273315762
             }
-	paper1583707858:Paper {
-                .title : "Distributed Agile Software Development A Review"
+	paper1579873665:Paper {
+                .title : "Interactive Goal Model Analysis Applied  Systematic Procedures versus Ad hoc Analysis"
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue468
-            	-authors->author2706334394
-            	-authors->author2635287491
+            	-venue->venue928
+            	-cites->paper2017739343
+            	-cites->paper2105539612
+            	-cites->paper2137469361
+            	-cites->paper2157437711
+            	-authors->author2159496315
+            	-authors->author263866697
+            	-authors->author2340963964
             }
 	paper1589399509:Paper {
                 .title : "An extensive catalog of operators for the coupled evolution of metamodels and models"
@@ -809,7 +1018,7 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue606
+            	-venue->venue836
             	-cites->paper1519503479
             	-cites->paper1556566737
             	-cites->paper1594381772
@@ -836,7 +1045,7 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue736
+            	-venue->venue125
             	-cites->paper2139907081
             	-authors->author2052504364
             	-authors->author147076140
@@ -847,7 +1056,7 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue548
+            	-venue->venue767
             	-cites->paper1987247288
             	-authors->author268076468
             	-authors->author1978163079
@@ -879,7 +1088,7 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue350
+            	-venue->venue468
             	-cites->paper1525350307
             	-cites->paper1545792627
             	-cites->paper1993990180
@@ -891,6 +1100,7 @@ model Paper2010{
             	-cites->paper2091085450
             	-cites->paper2105945277
             	-cites->paper2105980774
+            	-cites->paper2107642570
             	-cites->paper2110879934
             	-cites->paper2116454140
             	-cites->paper2130553247
@@ -909,7 +1119,7 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue350
+            	-venue->venue468
             	-cites->paper1502765706
             	-cites->paper1525350307
             	-cites->paper1568729458
@@ -932,15 +1142,28 @@ model Paper2010{
             	-authors->author121795918
             	-authors->author2107284710
             }
+	paper1825787577:Paper {
+                .title : "Adapting UML Activity Diagrams for Mobile Work Process Modelling Experimental Comparison of Two Notation Alternatives"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue928
+            	-cites->paper2110143060
+            	-cites->paper2159765281
+            	-authors->author2005850882
+            	-authors->author2114095467
+            	-authors->author695996090
+            }
 	paper1838876590:Paper {
                 .title : "Deep metamodelling with METADEPTH"
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue834
+            	-venue->venue1154
             	-cites->paper1486745608
             	-cites->paper2117892946
             	-cites->paper2127237677
+            	-cites->paper2129492722
             	-cites->paper2162425337
             	-authors->author2160674753
             	-authors->author2108412495
@@ -950,7 +1173,7 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue614
+            	-venue->venue528
             	-cites->paper1542225267
             	-cites->paper1592640009
             	-cites->paper2004901564
@@ -959,7 +1182,6 @@ model Paper2010{
             	-cites->paper2124995074
             	-cites->paper2127237677
             	-cites->paper2162425337
-            	-cites->paper2169954581
             	-authors->author2003314108
             	-authors->author2044930014
             	-authors->author1996244569
@@ -976,68 +1198,35 @@ model Paper2010{
             	-cites->paper2117917070
             	-cites->paper2150013559
             	-cites->paper2153704625
-            	-authors->author2408901951
             	-authors->author2103730684
+            	-authors->author1270708332
             }
 	paper1864619642:Paper {
                 .title : "Evolutionary approaches to the threedimensional multipipe routing problem a comparative study using direct encodings"
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue853
+            	-venue->venue1177
             	-cites->paper1986460167
+            	-cites->paper2169528473
             	-authors->author1983186244
             	-authors->author555932594
             	-authors->author368702748
             	-authors->author1933921292
-            }
-	paper187637139:Paper {
-                .title : "Tool Support for Incremental Consistency Checking on Variability Models"
-            	.year : 2010
-            	.core : false
-            	.relevance:false
-            	-venue->venue862
-            	-cites->paper2120515675
-            	-authors->author1125827560
-            	-authors->author916343192
-            	-authors->author2718120141
-            	-authors->author2251273329
-            	-authors->author722927782
             }
 	paper1898469110:Paper {
                 .title : "PARAM a model checker for parametric markov models"
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue350
+            	-venue->venue468
             	-cites->paper1556566737
+            	-cites->paper1859458367
             	-cites->paper2136877520
             	-authors->author1985838953
             	-authors->author2140399168
             	-authors->author2342480828
-            	-authors->author2439935971
-            }
-	paper192446467:Paper {
-                .title : "ZooKeeper waitfree coordination for internetscale systems"
-            	.year : 2010
-            	.core : false
-            	.relevance:false
-            	-venue->venue506
-            	-cites->paper1992479210
-            	-cites->paper2005216655
-            	-cites->paper2005373714
-            	-cites->paper2067293385
-            	-cites->paper2075854425
-            	-cites->paper2101939036
-            	-cites->paper2108026089
-            	-cites->paper2111586962
-            	-cites->paper2116820549
-            	-cites->paper2152465173
-            	-cites->paper2153704625
-            	-authors->author2519279637
-            	-authors->author2032234033
-            	-authors->author2305028642
-            	-authors->author2308249582
+            	-authors->author2943824873
             }
 	paper1934543060:Paper {
                 .title : "Checking the correspondence between UML models and implementation"
@@ -1049,15 +1238,15 @@ model Paper2010{
             	-cites->paper2136877520
             	-authors->author2061122219
             	-authors->author2170306587
-            	-authors->author2893097071
             	-authors->author2047412352
+            	-authors->author2576217695
             }
 	paper1953680156:Paper {
                 .title : "An automatabased symbolic approach for verifying programs on relaxed memory models"
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue914
+            	-venue->venue1250
             	-cites->paper1525350307
             	-cites->paper1568729458
             	-cites->paper1593091446
@@ -1077,6 +1266,7 @@ model Paper2010{
             	.core : false
             	.relevance:false
             	-venue->venue125
+            	-cites->paper1509054644
             	-cites->paper1532079015
             	-cites->paper2003549823
             	-cites->paper2025383609
@@ -1086,12 +1276,29 @@ model Paper2010{
             	-authors->author2159829753
             	-authors->author2148604163
             }
+	paper1965306413:Paper {
+                .title : "Software design sketching with calico"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue77
+            	-cites->paper2023192402
+            	-cites->paper2089881021
+            	-cites->paper2110957405
+            	-cites->paper2153360297
+            	-cites->paper2167398843
+            	-authors->author2131008780
+            	-authors->author2123829281
+            	-authors->author1735948873
+            	-authors->author2149712041
+            	-authors->author2136863642
+            }
 	paper1969367632:Paper {
                 .title : "Modeling and managing the variability of Web servicebased systems"
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue971
+            	-venue->venue525
             	-cites->paper2026702834
             	-authors->author2096668766
             	-authors->author1773243241
@@ -1125,7 +1332,7 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue565
+            	-venue->venue787
             	-cites->paper1594381772
             	-cites->paper2055477538
             	-authors->author2610517242
@@ -1135,15 +1342,43 @@ model Paper2010{
             	-authors->author2108301595
             	-authors->author949665563
             }
+	paper1975411983:Paper {
+                .title : "Bidirectional model transformations in QVT semantic issues and open questions"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue533
+            	-cites->paper1568396250
+            	-cites->paper2141122188
+            	-authors->author2287432086
+            }
+	paper1977405000:Paper {
+                .title : "Digging into UML models to remove performance antipatterns"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue1413
+            	-cites->paper101635898
+            	-cites->paper2033165137
+            	-authors->author315320619
+            	-authors->author406154369
+            	-authors->author1182447484
+            	-authors->author2142432065
+            	-authors->author2108048446
+            }
 	paper1979903077:Paper {
                 .title : "A framework of composable access control features Preserving separation of access control concerns from models to code"
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue1048
+            	-venue->venue1438
             	-cites->paper14205470
             	-cites->paper1991604845
+            	-cites->paper1997862012
+            	-cites->paper2010173096
             	-cites->paper2132334337
+            	-cites->paper2154765153
+            	-cites->paper2166602595
             	-authors->author40643081
             	-authors->author138265011
             	-authors->author2113561125
@@ -1171,22 +1406,36 @@ model Paper2010{
             	-cites->paper2152846401
             	-cites->paper2223419600
             	-authors->author1937785728
+            	-authors->author2779303333
             	-authors->author2111461502
-            	-authors->author2647464002
+            }
+	paper1984564341:Paper {
+                .title : "Design Modeling and Evaluation of a Scalable Multilevel Checkpointing System"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue97
+            	-cites->paper1558516248
+            	-cites->paper2033656974
+            	-cites->paper2133046454
+            	-authors->author2158044129
+            	-authors->author302009331
+            	-authors->author2089235527
+            	-authors->author211849072
             }
 	paper1985229168:Paper {
                 .title : "Benchmarking cloud serving systems with YCSB"
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue1092
+            	-venue->venue1491
             	-cites->paper2150013559
             	-cites->paper2153704625
             	-authors->author2692598934
             	-authors->author2164040783
+            	-authors->author2950145645
             	-authors->author2139314110
             	-authors->author2709275977
-            	-authors->author2311331142
             }
 	paper1995288535:Paper {
                 .title : "Concurrent programming with revisions and isolation types"
@@ -1197,7 +1446,6 @@ model Paper2010{
             	-cites->paper1545155892
             	-cites->paper2101939036
             	-cites->paper2117917070
-            	-cites->paper2134440791
             	-cites->paper2141222493
             	-cites->paper2158794422
             	-cites->paper2340530615
@@ -1215,6 +1463,7 @@ model Paper2010{
             	-cites->paper1591471358
             	-cites->paper1991604845
             	-cites->paper2071797673
+            	-cites->paper2080648611
             	-cites->paper2099592945
             	-cites->paper2112000202
             	-cites->paper2113201637
@@ -1229,7 +1478,7 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue1217
+            	-venue->venue234
             	-authors->author2108929676
             	-authors->author2252085086
             	-authors->author2397389889
@@ -1239,7 +1488,7 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue1244
+            	-venue->venue1696
             	-cites->paper2117818414
             	-cites->paper2153177282
             	-authors->author1897045236
@@ -1250,7 +1499,7 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue899
+            	-venue->venue79
             	-cites->paper1668140416
             	-cites->paper1819146036
             	-cites->paper1975322993
@@ -1259,8 +1508,11 @@ model Paper2010{
             	-cites->paper2109105084
             	-cites->paper2117818414
             	-cites->paper2129289644
+            	-cites->paper2133859873
             	-cites->paper2134716336
+            	-cites->paper2134818471
             	-cites->paper2138876988
+            	-cites->paper2148566119
             	-cites->paper2157437711
             	-cites->paper2162255975
             	-cites->paper2162686404
@@ -1281,6 +1533,7 @@ model Paper2010{
             	.relevance:false
             	-venue->venue176
             	-cites->paper1945254896
+            	-cites->paper1977237988
             	-cites->paper2132622501
             	-cites->paper2155479111
             	-authors->author1128499228
@@ -1291,7 +1544,7 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue1311
+            	-venue->venue589
             	-cites->paper2159875930
             	-authors->author1544991446
             	-authors->author2079669046
@@ -1304,15 +1557,27 @@ model Paper2010{
             	.relevance:true
             	-venue->venue5
             	-cites->paper1819146036
+            	-cites->paper1859458367
             	-cites->paper2482678392
             	-authors->author2256096860
+            }
+	paper2019360156:Paper {
+                .title : "Integrating risk management activities into requirements engineering"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue319
+            	-cites->paper1991650436
+            	-cites->paper2129289644
+            	-authors->author330425583
+            	-authors->author2108114631
             }
 	paper2019746614:Paper {
                 .title : "Combining syntactic and semantic bidirectionalization"
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue1235
+            	-venue->venue1428
             	-cites->paper1598022760
             	-cites->paper1968796785
             	-cites->paper1985223393
@@ -1321,18 +1586,86 @@ model Paper2010{
             	-authors->author2064583443
             	-authors->author2650915866
             }
+	paper2020799390:Paper {
+                .title : "EvoFM featuredriven planning of productline evolution"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue1838
+            	-cites->paper1592640009
+            	-cites->paper2067838808
+            	-cites->paper2104208948
+            	-authors->author2231457917
+            	-authors->author2077474590
+            	-authors->author2057222180
+            	-authors->author2016710505
+            	-authors->author1594046577
+            }
 	paper2024436253:Paper {
                 .title : "Postsilicon validation opportunities challenges and recent advances"
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue1354
+            	-venue->venue1865
+            	-cites->paper1566296806
             	-cites->paper2080267935
             	-cites->paper2090692734
             	-cites->paper2340735175
             	-authors->author673119823
             	-authors->author2118856850
             	-authors->author260128524
+            }
+	paper2027620502:Paper {
+                .title : "Machine reasoning about anomalous sensor data"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue1891
+            	-authors->author2300556440
+            	-authors->author2068735427
+            	-authors->author2141101329
+            }
+	paper2030189249:Paper {
+                .title : "CANDEL Product Line Based Dynamic Context Management for Pervasive Applications"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue1918
+            	-authors->author269327621
+            	-authors->author2601849558
+            	-authors->author2114338604
+            }
+	paper2032372310:Paper {
+                .title : "Adaptive monitoring of software requirements"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue1931
+            	-cites->paper2017739343
+            	-cites->paper2054921215
+            	-cites->paper2098895708
+            	-cites->paper2098909078
+            	-cites->paper2125614502
+            	-cites->paper2156756088
+            	-cites->paper2162255975
+            	-authors->author2113359766
+            	-authors->author327948395
+            	-authors->author2116990958
+            }
+	paper2034568273:Paper {
+                .title : "Automatically discovering properties that specify the latent behavior of UML models"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue40
+            	-cites->paper1556566737
+            	-cites->paper1996832037
+            	-cites->paper2077491980
+            	-cites->paper2103318645
+            	-cites->paper2140225592
+            	-cites->paper2156705373
+            	-authors->author211901146
+            	-authors->author2116990958
             }
 	paper2043310979:Paper {
                 .title : "Incremental evaluation of model queries over EMF models"
@@ -1343,6 +1676,7 @@ model Paper2010{
             	-cites->paper1563049645
             	-cites->paper1685969755
             	-cites->paper1982313944
+            	-cites->paper2035434130
             	-cites->paper2052552343
             	-cites->paper2094691937
             	-cites->paper2127237677
@@ -1350,30 +1684,69 @@ model Paper2010{
             	-authors->author2421697590
             	-authors->author2119096848
             	-authors->author2118651863
-            	-authors->author2143752589
             	-authors->author2143442092
             	-authors->author2006196926
             	-authors->author2003524458
+            	-authors->author2659947808
+            }
+	paper2043942960:Paper {
+                .title : "Tooling for the full traceability of nonfunctional requirements within modeldriven development"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue2037
+            	-cites->paper2105539612
+            	-cites->paper2129559874
+            	-authors->author2164915642
+            	-authors->author199037934
             }
 	paper2044303677:Paper {
                 .title : "Synthesizing hierarchical state machines from expressive scenario descriptions"
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue965
+            	-venue->venue1307
             	-cites->paper1526808427
             	-cites->paper2070127479
+            	-cites->paper2077491980
             	-cites->paper2118826152
             	-cites->paper2139907081
             	-authors->author2159829753
             	-authors->author2063262038
+            }
+	paper2046371801:Paper {
+                .title : "MDEbased approach for generalizing design space exploration"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue40
+            	-cites->paper1504594060
+            	-cites->paper1518705996
+            	-cites->paper1591726984
+            	-cites->paper2060555016
+            	-cites->paper2074558871
+            	-cites->paper2080267935
+            	-cites->paper2139872812
+            	-cites->paper2159875930
+            	-authors->author98427819
+            	-authors->author2523705581
+            }
+	paper2047589674:Paper {
+                .title : "Towards an adaptive modified quasitripole amplifier configuration for EMG neutralization in neural recording tripoles"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue2070
+            	-authors->author2058850142
+            	-authors->author2006558532
+            	-authors->author636082160
             }
 	paper2050019454:Paper {
                 .title : "Collaboration Tools for Global Software Engineering"
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue956
+            	-venue->venue1294
             	-authors->author226020416
             	-authors->author2251187617
             	-authors->author2168590706
@@ -1384,7 +1757,7 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue1505
+            	-venue->venue2116
             	-cites->paper2096203497
             	-cites->paper2152465173
             	-authors->author1943510122
@@ -1397,17 +1770,17 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue1568
+            	-venue->venue2213
             	-cites->paper1541919721
             	-cites->paper1977267063
             	-cites->paper1983605242
             	-cites->paper2108703536
             	-cites->paper2151062618
             	-cites->paper2311543941
-            	-authors->author1988787111
+            	-authors->author2973536972
             	-authors->author2151563308
+            	-authors->author2942659728
             	-authors->author2589460922
-            	-authors->author2247268486
             }
 	paper2066029222:Paper {
                 .title : "Modelanalyzer a tool for detecting visualizing and fixing design errors in UML"
@@ -1430,6 +1803,7 @@ model Paper2010{
             	.core : false
             	.relevance:false
             	-venue->venue133
+            	-cites->paper1565359989
             	-cites->paper2026287943
             	-cites->paper2043270755
             	-cites->paper2128295264
@@ -1443,7 +1817,7 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue956
+            	-venue->venue1294
             	-cites->paper2138363365
             	-authors->author2039813797
             	-authors->author2169480330
@@ -1454,7 +1828,7 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue1613
+            	-venue->venue2275
             	-cites->paper1964723977
             	-cites->paper2115104320
             	-cites->paper2160494425
@@ -1462,12 +1836,22 @@ model Paper2010{
             	-authors->author2064145723
             	-authors->author2201755339
             }
+	paper2074122741:Paper {
+                .title : "Optimization of bipolar and tetrapolar impedance biosensors"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue2070
+            	-authors->author2058850142
+            	-authors->author2078666848
+            	-authors->author1930234444
+            }
 	paper2074621565:Paper {
                 .title : "Integrating Preferences into Goal Models for Requirements Engineering"
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue899
+            	-venue->venue79
             	-cites->paper1500250067
             	-cites->paper2017739343
             	-cites->paper2071720065
@@ -1475,6 +1859,7 @@ model Paper2010{
             	-cites->paper2096266868
             	-cites->paper2120808515
             	-cites->paper2125853721
+            	-cites->paper2145973309
             	-authors->author2138229616
             	-authors->author2161153869
             	-authors->author2132080712
@@ -1485,13 +1870,15 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue352
+            	-venue->venue533
             	-cites->paper99545732
             	-cites->paper1983421263
             	-cites->paper2072082216
+            	-cites->paper2108155297
+            	-cites->paper2129559874
             	-cites->paper2145209235
             	-cites->paper2151451947
-            	-cites->paper2157564610
+            	-cites->paper2162178624
             	-cites->paper2162686404
             	-cites->paper2165203881
             	-authors->author2097092671
@@ -1502,7 +1889,7 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue1649
+            	-venue->venue2319
             	-authors->author2113462400
             	-authors->author2162120910
             	-authors->author2156002375
@@ -1542,7 +1929,7 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue1191
+            	-venue->venue1620
             	-cites->paper1979527452
             	-cites->paper2080592089
             	-cites->paper2134633067
@@ -1555,6 +1942,19 @@ model Paper2010{
             	-authors->author2422904522
             	-authors->author1975721694
             }
+	paper2080794684:Paper {
+                .title : "Towards program optimization through automated analysis of numerical precision"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue2340
+            	-cites->paper1561086741
+            	-authors->author2134868716
+            	-authors->author1597977984
+            	-authors->author2245270099
+            	-authors->author1989754750
+            	-authors->author2148325455
+            }
 	paper2080951893:Paper {
                 .title : "Towards a Bayesian Approach in Modeling the Disclosure of Unique Security Faults in Open Source Projects"
             	.year : 2010
@@ -1563,15 +1963,25 @@ model Paper2010{
             	-venue->venue52
             	-cites->paper147550463
             	-cites->paper2061037526
+            	-cites->paper2114712239
             	-authors->author2157525141
             	-authors->author130593666
+            }
+	paper2082726319:Paper {
+                .title : "Very Lightweight Requirements Modeling"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue79
+            	-cites->paper2060440626
+            	-authors->author2165064325
             }
 	paper2085773946:Paper {
                 .title : "xTSO a rigorous and usable programmers model for x multiprocessors"
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue1007
+            	-venue->venue763
             	-cites->paper1482397304
             	-cites->paper1509000726
             	-cites->paper1525350307
@@ -1588,6 +1998,7 @@ model Paper2010{
             	-cites->paper2152885346
             	-cites->paper2160963348
             	-cites->paper2164288303
+            	-cites->paper2165365531
             	-authors->author1994987434
             	-authors->author2083541332
             	-authors->author2130034569
@@ -1599,19 +2010,19 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue973
+            	-venue->venue1073
             	-cites->paper2134633067
             	-cites->paper2144249474
-            	-authors->author2171424710
             	-authors->author2222873966
             	-authors->author2337455834
             	-authors->author2144274332
             	-authors->author2103753098
             	-authors->author2113186419
             	-authors->author2109379704
-            	-authors->author2147815074
+            	-authors->author2973958779
             	-authors->author2164395090
             	-authors->author2132253347
+            	-authors->author2761341922
             	-authors->author341213942
             }
 	paper2087946700:Paper {
@@ -1619,12 +2030,12 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue1258
+            	-venue->venue1718
+            	-cites->paper1602193077
             	-cites->paper1992479210
             	-cites->paper2020765652
             	-cites->paper2111586962
             	-cites->paper2116142433
-            	-cites->paper2117260615
             	-cites->paper2153704625
             	-authors->author2045132602
             	-authors->author2108286937
@@ -1635,6 +2046,7 @@ model Paper2010{
             	.core : false
             	.relevance:false
             	-venue->venue143
+            	-cites->paper1769402780
             	-cites->paper2022941486
             	-cites->paper2169875292
             	-authors->author2223313068
@@ -1648,18 +2060,50 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue773
+            	-venue->venue1070
             	-cites->paper1919928684
+            	-cites->paper1964962870
+            	-cites->paper2163956676
             	-authors->author2150923755
             	-authors->author2115720218
             	-authors->author2231906769
+            }
+	paper2088298109:Paper {
+                .title : "Video Analysis in PanTiltZoom Camera Networks"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue2407
+            	-authors->author2186422030
+            	-authors->author1902713744
+            	-authors->author2189477617
+            }
+	paper2089160254:Paper {
+                .title : "Fuzzy Goals for RequirementsDriven Adaptation"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue79
+            	-cites->paper1668140416
+            	-cites->paper1819146036
+            	-cites->paper1980079693
+            	-cites->paper2098895708
+            	-cites->paper2115774534
+            	-cites->paper2129289644
+            	-cites->paper2134716336
+            	-cites->paper2148566119
+            	-cites->paper2163784380
+            	-cites->paper2222782578
+            	-authors->author39340634
+            	-authors->author737834871
+            	-authors->author1858542974
             }
 	paper2090692734:Paper {
                 .title : "Postsilicon validation challenges how EDA and academia can help"
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue1354
+            	-venue->venue1865
             	-authors->author689145470
             	-authors->author1526551724
             	-authors->author2376413036
@@ -1669,18 +2113,32 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue352
+            	-venue->venue533
             	-cites->paper1491178396
             	-cites->paper1504594060
             	-cites->paper1895387792
             	-cites->paper1998017916
             	-cites->paper1998400029
             	-cites->paper2106192381
-            	-cites->paper2169954581
             	-authors->author2163768119
             	-authors->author1966110232
             	-authors->author2098977205
             	-authors->author2042417741
+            }
+	paper2094527075:Paper {
+                .title : "Uncertainty Propagation in Analytic Availability Models"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue465
+            	-cites->paper1561956792
+            	-cites->paper1990874150
+            	-cites->paper1992580876
+            	-cites->paper2068079348
+            	-cites->paper2125709281
+            	-authors->author2108293768
+            	-authors->author2226168068
+            	-authors->author2149138358
             }
 	paper2095894588:Paper {
                 .title : "An asymmetric distributed shared memory model for heterogeneous parallel systems"
@@ -1689,12 +2147,14 @@ model Paper2010{
             	.relevance:false
             	-venue->venue152
             	-cites->paper2094642242
+            	-cites->paper2153904572
+            	-cites->paper2160454978
             	-authors->author2122099291
             	-authors->author1183556006
+            	-authors->author2781222478
             	-authors->author2141349641
             	-authors->author2153460013
             	-authors->author2149382046
-            	-authors->author27537646
             }
 	paper2096527448:Paper {
                 .title : "Adversarial memory for detecting destructive races"
@@ -1726,16 +2186,6 @@ model Paper2010{
             	-authors->author2332660967
             	-authors->author2130341195
             }
-	paper2098611419:Paper {
-                .title : "Cloud Computing Issues and Challenges"
-            	.year : 2010
-            	.core : false
-            	.relevance:false
-            	-venue->venue1785
-            	-authors->author2099883334
-            	-authors->author2121075939
-            	-authors->author2106044792
-            }
 	paper2098643127:Paper {
                 .title : "MemSAT checking axiomatic specifications of memory models"
             	.year : 2010
@@ -1743,6 +2193,7 @@ model Paper2010{
             	.relevance:false
             	-venue->venue218
             	-cites->paper1482397304
+            	-cites->paper1518705996
             	-cites->paper1519503479
             	-cites->paper1593091446
             	-cites->paper1594381772
@@ -1766,24 +2217,48 @@ model Paper2010{
             	.relevance:false
             	-venue->venue77
             	-cites->paper2152846401
-            	-authors->author2806492105
+            	-authors->author2779303333
             }
 	paper2099794800:Paper {
                 .title : "A Quantitative Investigation of the Acceptable Risk Levels of ObjectOriented Metrics in OpenSource Systems"
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue983
+            	-venue->venue1331
             	-cites->paper1919928684
             	-cites->paper2153887189
             	-authors->author2311786068
+            }
+	paper2098611419:Paper {
+                .title : "Cloud Computing Issues and Challenges"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue2546
+            	-authors->author2099883334
+            	-authors->author2810876401
+            	-authors->author2121075939
+            }
+	paper2101926965:Paper {
+                .title : "Cyberphysical systems for realtime hybrid structural testing a case study"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue2583
+            	-cites->paper2140786559
+            	-authors->author2144168383
+            	-authors->author2234413813
+            	-authors->author2160302583
+            	-authors->author2011528639
+            	-authors->author2099764636
+            	-authors->author2141053842
             }
 	paper2102275784:Paper {
                 .title : "Towards an expressivity benchmark for mappings based on a systematic classification of heterogeneities"
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue1836
+            	-venue->venue2589
             	-cites->paper1570173564
             	-cites->paper1967384977
             	-cites->paper2016914525
@@ -1803,8 +2278,10 @@ model Paper2010{
             	-venue->venue5
             	-cites->paper1991604845
             	-cites->paper2013492611
+            	-cites->paper2111141292
             	-cites->paper2133254848
             	-cites->paper2138363365
+            	-cites->paper2480195817
             	-authors->author2226331403
             	-authors->author2127820795
             	-authors->author2183833129
@@ -1823,9 +2300,10 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue1855
+            	-venue->venue2612
             	-cites->paper99545732
             	-cites->paper165540832
+            	-cites->paper1518705996
             	-cites->paper1895387792
             	-cites->paper1998017916
             	-authors->author2112579538
@@ -1874,19 +2352,32 @@ model Paper2010{
             	-cites->paper2169875292
             	-authors->author1985363956
             	-authors->author2096246024
-            	-authors->author2780807529
+            	-authors->author2158780061
             	-authors->author2249843789
             	-authors->author2259546344
+            }
+	paper2109360361:Paper {
+                .title : "Querying RDF streams with CSPARQL"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue517
+            	-authors->author519054157
+            	-authors->author2118089520
+            	-authors->author2111701013
+            	-authors->author2079750401
+            	-authors->author2792889203
             }
 	paper2111262474:Paper {
                 .title : "DFS A file system for virtualized flash storage"
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue938
+            	-venue->venue1271
             	-cites->paper2100100130
+            	-cites->paper2914934190
             	-authors->author2123666854
-            	-authors->author2778223035
+            	-authors->author2143347049
             	-authors->author2061675005
             	-authors->author2166597129
             }
@@ -1895,10 +2386,11 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue971
+            	-venue->venue525
             	-cites->paper149825191
             	-cites->paper187637139
             	-cites->paper1489800325
+            	-cites->paper1594445969
             	-cites->paper1987770136
             	-cites->paper2099698375
             	-cites->paper2104257432
@@ -1906,6 +2398,7 @@ model Paper2010{
             	-cites->paper2114790775
             	-cites->paper2121668868
             	-cites->paper2166568068
+            	-cites->paper2294967233
             	-authors->author2059764927
             	-authors->author2231457917
             	-authors->author2196554139
@@ -1922,20 +2415,21 @@ model Paper2010{
             	-cites->paper2107344568
             	-cites->paper2136877520
             	-authors->author1607443066
+            	-authors->author2484624676
             	-authors->author1978163079
             	-authors->author2022941620
             	-authors->author2061289329
-            	-authors->author2803925372
             }
 	paper2115732097:Paper {
                 .title : "A trace simplification technique for effective debugging of concurrent programs"
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue1139
+            	-venue->venue1559
             	-cites->paper2134440791
             	-cites->paper2135395375
             	-cites->paper2135948849
+            	-cites->paper2153185479
             	-cites->paper2169875292
             	-cites->paper2293624369
             	-authors->author2310465722
@@ -1946,7 +2440,7 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue2025
+            	-venue->venue2847
             	-cites->paper1986463648
             	-cites->paper2029601347
             	-cites->paper2046161500
@@ -1955,6 +2449,17 @@ model Paper2010{
             	-authors->author2050568094
             	-authors->author2678386739
             	-authors->author301610137
+            }
+	paper2118085626:Paper {
+                .title : "SPLASH  workshop on flexible modeling tools"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue140
+            	-authors->author2030408828
+            	-authors->author2123850919
+            	-authors->author2282300206
+            	-authors->author2136863642
             }
 	paper2119567442:Paper {
                 .title : "Tolerating Concurrency Bugs Using Transactions as Lifeguards"
@@ -1969,6 +2474,7 @@ model Paper2010{
             	-cites->paper2101161997
             	-cites->paper2104413677
             	-cites->paper2111759889
+            	-cites->paper2120635877
             	-cites->paper2134633067
             	-cites->paper2137422315
             	-cites->paper2145021036
@@ -1978,25 +2484,86 @@ model Paper2010{
             	-authors->author2630691017
             	-authors->author2155554984
             }
+	paper2119968005:Paper {
+                .title : "Tool support for generation and validation of traces between requirements and architecture"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue2037
+            	-cites->paper1498432697
+            	-cites->paper2060440626
+            	-cites->paper2129559874
+            	-cites->paper2167498005
+            	-cites->paper2169954581
+            	-authors->author2152373705
+            	-authors->author1991128731
+            	-authors->author139731387
+            }
+	paper2120240460:Paper {
+                .title : "Exploring the Sources of Waste in Kanban Software Development Projects"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue259
+            	-authors->author2105340527
+            	-authors->author2166056527
+            	-authors->author1980397675
+            	-authors->author2054408852
+            }
 	paper2121129715:Paper {
                 .title : "Defect aware Xfilling for lowpower scan testing"
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue1855
+            	-venue->venue2612
             	-cites->paper2142736763
             	-authors->author2394600508
             	-authors->author1229342846
             	-authors->author2086842834
             	-authors->author139054431
             }
+	paper2121575774:Paper {
+                .title : "Optimizing HPC FaultTolerant Environment An Analytical Approach"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue463
+            	-cites->paper1558516248
+            	-cites->paper2033656974
+            	-cites->paper2100970777
+            	-cites->paper2133046454
+            	-cites->paper2161537327
+            	-authors->author2152096836
+            	-authors->author2116518604
+            	-authors->author2626099725
+            	-authors->author2984675560
+            }
+	paper2124439663:Paper {
+                .title : "Lowoverhead diskless checkpoint for hybrid computing systems"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue97
+            	-cites->paper1558516248
+            	-cites->paper2122249806
+            	-cites->paper2163295644
+            	-authors->author2164966972
+            	-authors->author66913611
+            	-authors->author2009630440
+            	-authors->author1927643586
+            	-authors->author2443190456
+            }
 	paper2125709281:Paper {
                 .title : "EndtoEnd Performability Analysis for InfrastructureasaService Cloud An Interacting Stochastic Models Approach"
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue1879
+            	-venue->venue2641
+            	-cites->paper1561956792
+            	-cites->paper1990874150
+            	-cites->paper1992580876
             	-cites->paper2021204974
+            	-cites->paper2068079348
             	-authors->author2108293768
             	-authors->author2474983538
             	-authors->author2136477094
@@ -2007,12 +2574,14 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue1538
+            	-venue->venue2160
             	-cites->paper113344430
             	-cites->paper1481078745
+            	-cites->paper1498070723
             	-cites->paper1500250067
             	-cites->paper1509367797
             	-cites->paper1586175325
+            	-cites->paper1591726984
             	-cites->paper1876425992
             	-cites->paper1968830561
             	-cites->paper2052598892
@@ -2039,6 +2608,7 @@ model Paper2010{
             	-cites->paper149825191
             	-cites->paper1496907652
             	-cites->paper1498432697
+            	-cites->paper2094810043
             	-cites->paper2112000202
             	-cites->paper2125853721
             	-cites->paper2163195480
@@ -2054,17 +2624,20 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue1101
+            	-venue->venue1505
             	-cites->paper31292625
             	-cites->paper1487672899
+            	-cites->paper1509054644
             	-cites->paper1602228945
             	-cites->paper1963930008
             	-cites->paper1978613757
+            	-cites->paper2015479359
             	-cites->paper2026193949
             	-cites->paper2063268247
             	-cites->paper2121668868
             	-cites->paper2138363365
             	-cites->paper2146561295
+            	-cites->paper2156537303
             	-cites->paper2169954581
             	-authors->author2032493149
             	-authors->author2021330974
@@ -2077,7 +2650,7 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue370
+            	-venue->venue436
             	-cites->paper1480909796
             	-cites->paper1556566737
             	-cites->paper1565805705
@@ -2097,8 +2670,9 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue2203
+            	-venue->venue629
             	-cites->paper1558516248
+            	-cites->paper2019208548
             	-cites->paper2145071552
             	-authors->author1996526560
             	-authors->author2054835261
@@ -2110,7 +2684,7 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue2205
+            	-venue->venue3085
             	-cites->paper1922956467
             	-cites->paper1997269120
             	-authors->author2202639077
@@ -2122,34 +2696,77 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue1132
+            	-venue->venue1525
             	-cites->paper1963978173
             	-cites->paper2140631439
             	-authors->author2129273002
             	-authors->author2065759435
+            }
+	paper2133086875:Paper {
+                .title : "Lets go from the whiteboard supporting transitions in work through whiteboard capture and reuse"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue1351
+            	-cites->paper2049880512
+            	-cites->paper2110957405
+            	-authors->author28426143
+            	-authors->author2651507879
+            	-authors->author2251347603
+            	-authors->author2305630765
             }
 	paper2134411298:Paper {
                 .title : "Workloaddriven selective hardening of control state elements in modern microprocessors"
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue2236
+            	-venue->venue3135
             	-cites->paper2128248970
-            	-authors->author2892513408
+            	-authors->author1916976867
             	-authors->author326614883
+            }
+	paper2134818471:Paper {
+                .title : "RELAX a language to address uncertainty in selfadaptive systems requirement"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue1229
+            	-cites->paper1535458435
+            	-cites->paper1668140416
+            	-cites->paper1819146036
+            	-cites->paper1980079693
+            	-cites->paper2071616717
+            	-cites->paper2098895708
+            	-cites->paper2098909078
+            	-cites->paper2100231298
+            	-cites->paper2114000297
+            	-cites->paper2115774534
+            	-cites->paper2117818414
+            	-cites->paper2129289644
+            	-cites->paper2142874510
+            	-cites->paper2148566119
+            	-cites->paper2162255975
+            	-cites->paper2163784380
+            	-cites->paper2222782578
+            	-cites->paper2482678392
+            	-authors->author2159829753
+            	-authors->author2133238635
+            	-authors->author697456244
+            	-authors->author2116990958
+            	-authors->author405793769
             }
 	paper2136739578:Paper {
                 .title : "Concurrent abstract predicates"
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue399
+            	-venue->venue26
             	-cites->paper2101939036
             	-cites->paper2132761501
             	-cites->paper2194223632
             	-authors->author46077764
             	-authors->author2137572371
-            	-authors->author2806678295
+            	-authors->author138450541
             	-authors->author2158766823
             	-authors->author2139994915
             }
@@ -2158,26 +2775,30 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue1361
+            	-venue->venue1878
+            	-cites->paper2126789306
             	-cites->paper2129112238
             	-cites->paper2133943294
+            	-cites->paper2140471436
             	-cites->paper2152465173
             	-authors->author2006342157
             	-authors->author2165752325
             	-authors->author2019801164
-            	-authors->author2105354027
             	-authors->author2062465576
+            	-authors->author2696688377
             }
 	paper2139828164:Paper {
                 .title : "MontiCore a framework for compositional development of domain specific languages"
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue1132
+            	-venue->venue1525
             	-cites->paper1500250067
+            	-cites->paper1519774423
             	-cites->paper2016914525
             	-cites->paper2049008406
-            	-authors->author2141211440
+            	-cites->paper2129492722
+            	-authors->author2950621550
             	-authors->author151827428
             	-authors->author1998714471
             }
@@ -2186,7 +2807,7 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue1132
+            	-venue->venue1525
             	-cites->paper1498244333
             	-cites->paper2112444623
             	-cites->paper2131882770
@@ -2197,6 +2818,15 @@ model Paper2010{
             	-authors->author1978163079
             	-authors->author1293943865
             	-authors->author2061289329
+            }
+	paper2141129983:Paper {
+                .title : "An OntologyBased Approach for Multiperspective Requirements Traceability between Analysis Models"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue2489
+            	-cites->paper2129559874
+            	-authors->author2558227414
             }
 	paper2143040155:Paper {
                 .title : "The impact of social media on software engineering practices and tools"
@@ -2209,6 +2839,39 @@ model Paper2010{
             	-authors->author2126017578
             	-authors->author2123850919
             	-authors->author2155442793
+            }
+	paper2144819523:Paper {
+                .title : "A goalbased framework for contextual requirements modeling and analysis"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue1229
+            	-cites->paper1535458435
+            	-cites->paper1591726984
+            	-cites->paper1980079693
+            	-cites->paper2003373522
+            	-cites->paper2017739343
+            	-cites->paper2051028605
+            	-cites->paper2095656719
+            	-cites->paper2098909078
+            	-cites->paper2105603754
+            	-cites->paper2148566119
+            	-cites->paper2151451947
+            	-cites->paper2162255975
+            	-authors->author2101701767
+            	-authors->author2086939094
+            	-authors->author390620748
+            }
+	paper2149713648:Paper {
+                .title : "Cyberphysical systems the next computing revolution"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue1865
+            	-authors->author2168261197
+            	-authors->author2900035843
+            	-authors->author2030977062
+            	-authors->author2117976905
             }
 	paper2152621318:Paper {
                 .title : "DRFX a simple and efficient memory model for concurrent programming languages"
@@ -2232,6 +2895,7 @@ model Paper2010{
             	-cites->paper2152390090
             	-cites->paper2152885346
             	-cites->paper2153174073
+            	-cites->paper2153185479
             	-cites->paper2156428492
             	-cites->paper2158449625
             	-cites->paper2167744164
@@ -2248,7 +2912,7 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue1273
+            	-venue->venue1738
             	-cites->paper2091085450
             	-cites->paper2152885346
             	-authors->author2084531348
@@ -2260,8 +2924,9 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue2503
+            	-venue->venue3499
             	-cites->paper1541919721
+            	-cites->paper1553650581
             	-cites->paper1957070465
             	-cites->paper1963659698
             	-cites->paper1977267063
@@ -2271,9 +2936,9 @@ model Paper2010{
             	-cites->paper2151062618
             	-cites->paper2153738822
             	-cites->paper2311543941
-            	-authors->author1988787111
+            	-authors->author2973536972
             	-authors->author2429657571
-            	-authors->author227760914
+            	-authors->author2942659728
             	-authors->author2589460922
             }
 	paper2156219615:Paper {
@@ -2281,7 +2946,7 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue2509
+            	-venue->venue697
             	-authors->author2123243757
             }
 	paper2156448859:Paper {
@@ -2289,7 +2954,7 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue956
+            	-venue->venue1294
             	-authors->author2102868281
             	-authors->author2014339847
             	-authors->author2136878537
@@ -2299,11 +2964,12 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue552
-            	-authors->author2188586265
+            	-venue->venue772
+            	-cites->paper1992580876
+            	-authors->author2575527056
+            	-authors->author2981442629
             	-authors->author2160388673
             	-authors->author2225648310
-            	-authors->author2114847551
             }
 	paper2157178219:Paper {
                 .title : "Parameterized memory models and concurrent separation logic"
@@ -2321,6 +2987,7 @@ model Paper2010{
             	-cites->paper2135741511
             	-cites->paper2152390090
             	-cites->paper2152885346
+            	-cites->paper2165365531
             	-cites->paper2177772636
             	-cites->paper2194223632
             	-authors->author2108516933
@@ -2339,6 +3006,7 @@ model Paper2010{
             	-cites->paper2145021036
             	-cites->paper2152390090
             	-cites->paper2152885346
+            	-cites->paper2153185479
             	-cites->paper2169875292
             	-cites->paper2177772636
             	-authors->author2066309807
@@ -2352,7 +3020,7 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue1171
+            	-venue->venue1596
             	-cites->paper2142736763
             	-authors->author1229342846
             	-authors->author136711485
@@ -2364,7 +3032,7 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue581
+            	-venue->venue359
             	-cites->paper99545732
             	-cites->paper1982313944
             	-cites->paper1983160424
@@ -2372,17 +3040,18 @@ model Paper2010{
             	-cites->paper2125174515
             	-cites->paper2143614054
             	-cites->paper2149864282
-            	-authors->author2763414412
+            	-cites->paper2294967233
             	-authors->author2145487576
-            	-authors->author2490713565
-            	-authors->author2354737096
+            	-authors->author310690451
+            	-authors->author2289706178
+            	-authors->author2590659746
             }
 	paper2160963348:Paper {
                 .title : "Memory models a case for rethinking parallel languages and hardware"
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue1007
+            	-venue->venue763
             	-cites->paper1482397304
             	-cites->paper1885534640
             	-cites->paper2029601347
@@ -2403,12 +3072,29 @@ model Paper2010{
             	-authors->author2346116799
             	-authors->author2249843789
             }
+	paper2162400408:Paper {
+                .title : "Aggregate queries for discrete and continuous probabilistic XML"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue595
+            	-cites->paper1990391007
+            	-cites->paper1996923081
+            	-cites->paper2086741590
+            	-cites->paper2101742950
+            	-cites->paper2133457275
+            	-authors->author1905000215
+            	-authors->author172400696
+            	-authors->author2105160160
+            	-authors->author2039937633
+            	-authors->author2037532978
+            }
 	paper2162532690:Paper {
                 .title : "Who falls for phish a demographic analysis of phishing susceptibility and effectiveness of interventions"
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue1075
+            	-venue->venue1351
             	-cites->paper1983581110
             	-cites->paper2157597875
             	-authors->author2162110961
@@ -2417,21 +3103,58 @@ model Paper2010{
             	-authors->author368046975
             	-authors->author2062485417
             }
+	paper2163295644:Paper {
+                .title : "Distributed Diskless Checkpoint for Large Scale Systems"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue629
+            	-cites->paper1558516248
+            	-cites->paper2122249806
+            	-authors->author2164966972
+            	-authors->author2009630440
+            	-authors->author1927643586
+            	-authors->author2443190456
+            }
 	paper2163789885:Paper {
                 .title : "NBTI modeling in the framework of temperature variation"
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue1855
+            	-venue->venue2612
             	-authors->author2230469534
             	-authors->author1989337358
+            }
+	paper2165329839:Paper {
+                .title : "Efficient Btree based indexing for cloud data processing"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue602
+            	-cites->paper2108026089
+            	-cites->paper2110020044
+            	-cites->paper2153704625
+            	-authors->author2037466936
+            	-authors->author2117443739
+            	-authors->author2119308123
+            	-authors->author2095612124
+            }
+	paper2167913790:Paper {
+                .title : "DesignSpace Exploration through ConstraintBased ModelTransformation"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue2830
+            	-authors->author2277654705
+            	-authors->author1221238583
+            	-authors->author2199825802
             }
 	paper2170310381:Paper {
                 .title : "A realistic evaluation of memory hardware errors and software system susceptibility"
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue506
+            	-venue->venue438
             	-cites->paper1558516248
             	-cites->paper2122249806
             	-cites->paper2145071552
@@ -2445,19 +3168,30 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue2694
+            	-venue->venue2082
             	-cites->paper2110425399
             	-cites->paper2146082668
             	-authors->author2098131687
             	-authors->author2777005984
             	-authors->author2256096860
             }
+	paper2214781486:Paper {
+                .title : "An extensive catalog of operators for the coupled evolution of metamodels and models"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue3825
+            	-authors->author1965326662
+            	-authors->author1486686186
+            	-authors->author1998669143
+            }
 	paper2294009246:Paper {
                 .title : "Proactive obfuscation"
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue1000
+            	-venue->venue1364
+            	-cites->paper1835640267
             	-cites->paper1973501242
             	-cites->paper2110765100
             	-cites->paper2111817346
@@ -2468,46 +3202,12 @@ model Paper2010{
             	-authors->author2121575147
             	-authors->author2106636992
             }
-	paper2401922716:Paper {
-                .title : "Certifying RuleBased Models using Graph Transformation"
-            	.year : 2010
-            	.core : false
-            	.relevance:false
-            	-venue->venue0
-            	-authors->author2522637603
-            }
-	paper24569603:Paper {
-                .title : "An approach for effective design space exploration"
-            	.year : 2010
-            	.core : false
-            	.relevance:false
-            	-venue->venue1774
-            	-cites->paper1480909796
-            	-cites->paper1567586152
-            	-cites->paper1978613757
-            	-cites->paper2080267935
-            	-cites->paper2113201637
-            	-cites->paper2340735175
-            	-authors->author2136517661
-            	-authors->author2115070196
-            	-authors->author2123331094
-            }
-	paper26962075:Paper {
-                .title : "A Formal Semantics for Decisionoriented Variability Modeling with DOPLER"
-            	.year : 2010
-            	.core : false
-            	.relevance:false
-            	-venue->venue862
-            	-authors->author2136756203
-            	-authors->author2718120141
-            	-authors->author2251273329
-            }
 	paper2760615478:Paper {
                 .title : "Resolving Model Inconsistencies with Automated Planning"
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue2885
+            	-venue->venue4052
             	-cites->paper1507387197
             	-cites->paper1983160424
             	-cites->paper1991633729
@@ -2525,7 +3225,7 @@ model Paper2010{
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue2885
+            	-venue->venue4052
             	-cites->paper1489366126
             	-cites->paper1983160424
             	-cites->paper2025624633
@@ -2540,30 +3240,110 @@ model Paper2010{
             	-authors->author329574911
             	-authors->author2032435099
             }
-	paper30803841:Paper {
-                .title : "The Variability Model of The Linux Kernel"
+	paper1510788339:Paper {
+                .title : "Fiia A ModelBased Approach to Engineering Collaborative Augmented Reality"
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue862
-            	-cites->paper1500250067
-            	-cites->paper2060555016
-            	-cites->paper2160332621
-            	-cites->paper2160998628
-            	-cites->paper2294168344
-            	-authors->author2139239461
-            	-authors->author2005359383
-            	-authors->author2106422313
-            	-authors->author2187803657
-            	-authors->author1971965784
+            	-venue->venue4132
+            	-cites->paper1562948410
+            	-cites->paper2064707938
+            	-cites->paper2102630435
+            	-cites->paper2128239757
+            	-authors->author2156629251
+            	-authors->author2253142883
+            	-authors->author2151372998
+            	-authors->author2702698118
+            }
+	paper1583707858:Paper {
+                .title : "Distributed Agile Software Development A Review"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue4021
+            	-authors->author2706334394
+            	-authors->author2635287491
+            }
+	paper2001315747:Paper {
+                .title : "Faulttolerant Agreement in Synchronous Messagepassing Systems"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue0
+            	-cites->paper2035362408
+            	-cites->paper2056910803
+            	-cites->paper2077240273
+            	-cites->paper2120510885
+            	-cites->paper2122326479
+            	-cites->paper2133943294
+            	-authors->author2300628387
+            }
+	paper2021030008:Paper {
+                .title : "Transactional Memory nd Edition"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue0
+            	-cites->paper1515932031
+            	-cites->paper1545155892
+            	-cites->paper1782169904
+            	-cites->paper1973501242
+            	-cites->paper1981393723
+            	-cites->paper1986913310
+            	-cites->paper1991494135
+            	-cites->paper2029601347
+            	-cites->paper2054739713
+            	-cites->paper2091085450
+            	-cites->paper2092311766
+            	-cites->paper2099537990
+            	-cites->paper2101939036
+            	-cites->paper2104413677
+            	-cites->paper2140034113
+            	-cites->paper2141222493
+            	-cites->paper2152390090
+            	-cites->paper2152885346
+            	-cites->paper2153174073
+            	-cites->paper2155500238
+            	-cites->paper2165365531
+            	-cites->paper2166266685
+            	-authors->author2098327013
+            	-authors->author635023701
+            	-authors->author702978325
+            }
+	paper2100570861:Paper {
+                .title : "Visual syntax does matter improving the cognitive effectiveness of the i  visual notation"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue1229
+            	-cites->paper1990100773
+            	-cites->paper2016914525
+            	-cites->paper2017739343
+            	-cites->paper2079814255
+            	-cites->paper2109105084
+            	-cites->paper2110143060
+            	-cites->paper2111929254
+            	-cites->paper2157437711
+            	-authors->author2136756203
+            	-authors->author2740903727
+            	-authors->author254059679
+            }
+	paper2401922716:Paper {
+                .title : "Certifying RuleBased Models Using Graph Transformation"
+            	.year : 2010
+            	.core : false
+            	.relevance:false
+            	-venue->venue0
+            	-authors->author1293943865
             }
 	paper5815757:Paper {
-                .title : "The Satj library release "
+                .title : "The SATJ library Release  System Description"
             	.year : 2010
             	.core : false
             	.relevance:false
-            	-venue->venue2921
+            	-venue->venue494
             	-cites->paper78552530
+            	-cites->paper1518705996
             	-cites->paper2113201637
             	-authors->author228309595
             	-authors->author2007487272

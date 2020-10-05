@@ -32,26 +32,29 @@ import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2020.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1995.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1986.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1987.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1988.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1993.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1982.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1983.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1976.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1995.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1982.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1987.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1986.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1988.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1993.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1984.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1978.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1976.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1979.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1980.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1941.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1984.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1974.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1968.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1979.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1962.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1974.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1967.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1970.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1959.msl"
  	
 model Paper1992{
 	paper2131454290:Paper {
@@ -60,10 +63,18 @@ model Paper1992{
             	.core : true
             	.relevance:false
             	-venue->venue143
+            	-cites->paper171088060
+            	-cites->paper1542518647
+            	-cites->paper1769402780
             	-cites->paper1885534640
+            	-cites->paper2045867114
             	-cites->paper2054739713
+            	-cites->paper2078081736
             	-cites->paper2096956970
+            	-cites->paper2147638342
             	-cites->paper2152390090
+            	-cites->paper2153904572
+            	-cites->paper2163820265
             	-cites->paper2176864362
             	-cites->paper2177772636
             	-authors->author2287748599
@@ -86,39 +97,52 @@ model Paper1992{
             	-authors->author2633267068
             	-authors->author2262971914
             }
+	paper9091155:Paper {
+                .title : "An approach to eliciting the semantics of relational databases"
+            	.year : 1992
+            	.core : false
+            	.relevance:false
+            	-venue->venue359
+            	-cites->paper1521935994
+            	-cites->paper1581093035
+            	-authors->author2720661335
+            	-authors->author2985714330
+            }
 	paper1515774215:Paper {
                 .title : "A Case Study in SafetyCritical Design"
             	.year : 1992
             	.core : false
             	.relevance:false
-            	-venue->venue350
+            	-venue->venue468
             	-cites->paper2015640848
             	-cites->paper2148106163
-            	-authors->author2777540721
-            }
-	paper1515932031:Paper {
-                .title : "Transaction Processing Concepts and Techniques"
-            	.year : 1992
-            	.core : false
-            	.relevance:false
-            	-venue->venue0
-            	-authors->author2781079699
-            	-authors->author2131537204
+            	-authors->author2218276577
             }
 	paper1516305737:Paper {
                 .title : "Dependability A Unifying Concept for Reliable Safe Secure Computing"
             	.year : 1992
             	.core : false
             	.relevance:false
-            	-venue->venue501
+            	-venue->venue694
             	-authors->author2649715602
+            }
+	paper1531729700:Paper {
+                .title : "A Tale of Two Countries Case Experiences and Expectations"
+            	.year : 1992
+            	.core : false
+            	.relevance:false
+            	-venue->venue733
+            	-authors->author2236921630
+            	-authors->author2280971662
+            	-authors->author1974988316
+            	-authors->author2281671459
             }
 	paper1534067655:Paper {
                 .title : "Property Preserving Simulations"
             	.year : 1992
             	.core : false
             	.relevance:false
-            	-venue->venue350
+            	-venue->venue468
             	-cites->paper2015640848
             	-cites->paper2132334337
             	-authors->author2105927184
@@ -126,49 +150,56 @@ model Paper1992{
             	-authors->author2609997150
             	-authors->author2283651526
             }
-	paper1545792627:Paper {
-                .title : "Reasoning About Parallel Architectures"
-            	.year : 1992
-            	.core : false
-            	.relevance:false
-            	-venue->venue0
-            	-authors->author2275282021
-            }
 	paper1586701723:Paper {
                 .title : "A WEAKCONSISTENCY ARCHITECTURE FOR DISTRIBUTED INFORMATION SERVICES"
             	.year : 1992
             	.core : false
             	.relevance:false
-            	-venue->venue680
+            	-venue->venue948
             	-cites->paper1973501242
             	-cites->paper2123737479
-            	-authors->author2776813160
-            }
-	paper1855065956:Paper {
-                .title : "Database transaction models for advanced applications"
-            	.year : 1992
-            	.core : false
-            	.relevance:false
-            	-venue->venue0
-            	-authors->author2057816297
+            	-cites->paper2126356880
+            	-cites->paper2154837369
+            	-authors->author2984997190
             }
 	paper1929430795:Paper {
                 .title : "Fault injection for the formal testing of fault tolerance"
             	.year : 1992
             	.core : false
             	.relevance:false
-            	-venue->venue876
+            	-venue->venue1201
             	-authors->author2108261002
             	-authors->author59651681
-            	-authors->author2787528485
             	-authors->author2028127229
+            	-authors->author2974858634
+            }
+	paper1966285605:Paper {
+                .title : "SPLASH Stanford parallel applications for sharedmemory"
+            	.year : 1992
+            	.core : false
+            	.relevance:false
+            	-venue->venue1290
+            	-authors->author2514122770
+            	-authors->author2157116051
+            	-authors->author2213475343
+            }
+	paper1968574122:Paper {
+                .title : "Tolerating bounded inconsistency for increasing concurrency in database systems"
+            	.year : 1992
+            	.core : false
+            	.relevance:false
+            	-venue->venue1313
+            	-cites->paper1997182736
+            	-cites->paper2154837369
+            	-authors->author2169544959
+            	-authors->author2230488577
             }
 	paper1970000427:Paper {
                 .title : "What should a database know"
             	.year : 1992
             	.core : false
             	.relevance:false
-            	-venue->venue981
+            	-venue->venue1329
             	-cites->paper190622319
             	-cites->paper2006519067
             	-cites->paper2099805467
@@ -179,16 +210,27 @@ model Paper1992{
             	.year : 1992
             	.core : false
             	.relevance:false
-            	-venue->venue1211
+            	-venue->venue1462
+            	-cites->paper2137865376
             	-authors->author2040884273
             	-authors->author2111363813
+            }
+	paper2036526834:Paper {
+                .title : "Reasoning about systems with many processes"
+            	.year : 1992
+            	.core : false
+            	.relevance:false
+            	-venue->venue1282
+            	-cites->paper2137865376
+            	-authors->author711546218
+            	-authors->author2153338916
             }
 	paper2037497522:Paper {
                 .title : "Survey of expert critiquing systems practical and theoretical frontiers"
             	.year : 1992
             	.core : false
             	.relevance:false
-            	-venue->venue1007
+            	-venue->venue763
             	-authors->author2114937543
             }
 	paper2044301784:Paper {
@@ -196,9 +238,29 @@ model Paper1992{
             	.year : 1992
             	.core : false
             	.relevance:false
-            	-venue->venue1465
-            	-authors->author2575001383
+            	-venue->venue2039
+            	-authors->author2093398104
             	-authors->author301564098
+            }
+	paper2045867114:Paper {
+                .title : "Programming for different memory consistency models"
+            	.year : 1992
+            	.core : false
+            	.relevance:false
+            	-venue->venue2053
+            	-cites->paper2039509099
+            	-cites->paper2051789131
+            	-cites->paper2054739713
+            	-cites->paper2152390090
+            	-cites->paper2163196718
+            	-cites->paper2165365531
+            	-cites->paper2176864362
+            	-cites->paper2177772636
+            	-authors->author2112660313
+            	-authors->author2514122770
+            	-authors->author2346116799
+            	-authors->author190482092
+            	-authors->author1965698830
             }
 	paper2054097655:Paper {
                 .title : "VIEWPOINTS A FRAMEWORK FOR INTEGRATING MULTIPLE PERSPECTIVES IN SYSTEM DEVELOPMENT"
@@ -207,96 +269,212 @@ model Paper1992{
             	.relevance:false
             	-venue->venue229
             	-authors->author2207023792
-            	-authors->author2724942740
             	-authors->author2082763392
             	-authors->author2250860430
             	-authors->author2095806276
+            	-authors->author2193656002
             }
 	paper2074592031:Paper {
                 .title : "On the lattice of specifications Applications to a specification methodology"
             	.year : 1992
             	.core : false
             	.relevance:false
-            	-venue->venue998
+            	-venue->venue1357
             	-cites->paper2081945419
-            	-authors->author544637197
+            	-authors->author2919949536
             	-authors->author2501451453
             	-authors->author2262040313
+            }
+	paper2081938726:Paper {
+                .title : "The ESTEREL synchronous programming language design semantics implementation"
+            	.year : 1992
+            	.core : false
+            	.relevance:false
+            	-venue->venue1277
+            	-cites->paper2110425399
+            	-authors->author2112563238
+            	-authors->author2431982862
             }
 	paper2104954161:Paper {
                 .title : "ARIES a transaction recovery method supporting finegranularity locking and partial rollbacks using writeahead logging"
             	.year : 1992
             	.core : false
             	.relevance:false
-            	-venue->venue1088
+            	-venue->venue1487
             	-cites->paper1545155892
             	-cites->paper2074095926
             	-cites->paper2106887953
             	-cites->paper2169629375
+            	-authors->author2973570506
             	-authors->author2411984561
             	-authors->author2213038480
-            	-authors->author2228853458
             	-authors->author2020635548
             	-authors->author2135035649
+            }
+	paper2111562224:Paper {
+                .title : "Methodology for validating software metrics"
+            	.year : 1992
+            	.core : false
+            	.relevance:false
+            	-venue->venue1331
+            	-authors->author30741502
+            }
+	paper2123127356:Paper {
+                .title : "The detection of faultprone programs"
+            	.year : 1992
+            	.core : false
+            	.relevance:false
+            	-venue->venue1331
+            	-cites->paper1964962870
+            	-authors->author2131780793
+            	-authors->author23511057
             }
 	paper2124074197:Paper {
                 .title : "Disconnected operation in the Coda File System"
             	.year : 1992
             	.core : false
             	.relevance:false
-            	-venue->venue1000
+            	-venue->venue1364
             	-cites->paper1967141605
             	-cites->paper2005373714
             	-cites->paper2012481411
+            	-cites->paper2048071586
             	-cites->paper2115294119
             	-cites->paper2116142433
             	-cites->paper2508325987
             	-authors->author416104820
             	-authors->author1856701161
             }
-	paper2128932399:Paper {
-                .title : "A calculus of mobile processes I"
+	paper2127547524:Paper {
+                .title : "The Stanford Dash multiprocessor"
             	.year : 1992
             	.core : false
             	.relevance:false
-            	-venue->venue1211
+            	-venue->venue1073
+            	-cites->paper1769402780
+            	-cites->paper2051789131
+            	-cites->paper2054739713
+            	-cites->paper2078081736
+            	-cites->paper2096956970
+            	-cites->paper2101377877
+            	-cites->paper2103772475
+            	-cites->paper2153904572
+            	-authors->author2514122770
+            	-authors->author2973501074
+            	-authors->author2113577245
+            	-authors->author225512766
+            	-authors->author190482092
+            	-authors->author40327245
+            	-authors->author2136170053
+            	-authors->author1965698830
+            }
+	paper2128932399:Paper {
+                .title : "A calculus of mobile processes II"
+            	.year : 1992
+            	.core : false
+            	.relevance:false
+            	-venue->venue1462
+            	-cites->paper2013672985
             	-cites->paper2110425399
             	-authors->author152237314
             	-authors->author2087817183
             	-authors->author2129160965
+            }
+	paper2132582345:Paper {
+                .title : "Application semantics and concurrency control of realtime dataintensive applications"
+            	.year : 1992
+            	.core : false
+            	.relevance:false
+            	-venue->venue1216
+            	-authors->author2130848692
+            	-authors->author2973413351
+            }
+	paper2136238707:Paper {
+                .title : "A Four Russians algorithm for regular expression pattern matching"
+            	.year : 1992
+            	.core : false
+            	.relevance:false
+            	-venue->venue1282
+            	-cites->paper1491178396
+            	-authors->author2618977351
             }
 	paper2137650676:Paper {
                 .title : "The complexity of sequential consistency"
             	.year : 1992
             	.core : false
             	.relevance:false
-            	-venue->venue2275
+            	-venue->venue1962
+            	-cites->paper1569626261
             	-cites->paper1885534640
             	-cites->paper2039509099
             	-cites->paper2054739713
+            	-cites->paper2081040934
             	-cites->paper2101939036
             	-cites->paper2152390090
+            	-cites->paper2153904572
+            	-cites->paper2163196718
             	-cites->paper2176864362
             	-authors->author2144092273
             	-authors->author712891809
+            }
+	paper2140471248:Paper {
+                .title : "Orca a language for parallel programming of distributed systems"
+            	.year : 1992
+            	.core : false
+            	.relevance:false
+            	-venue->venue1331
+            	-cites->paper1532915129
+            	-cites->paper1991494135
+            	-cites->paper2121134342
+            	-authors->author2111822219
+            	-authors->author2261418390
+            	-authors->author2068854845
             }
 	paper2148498964:Paper {
                 .title : "SHORTEST PATH QUERIES IN RECTILINEAR WORLDS"
             	.year : 1992
             	.core : false
             	.relevance:false
-            	-venue->venue2403
+            	-venue->venue3365
             	-authors->author2133646818
             	-authors->author743446463
             	-authors->author2136170159
             	-authors->author2133468182
+            }
+	paper2150451270:Paper {
+                .title : "The operational profile in software reliability engineering an overview"
+            	.year : 1992
+            	.core : false
+            	.relevance:false
+            	-venue->venue52
+            	-authors->author2154721002
+            }
+	paper2150546740:Paper {
+                .title : "Solving maximum likelihood equations for twoparameter software reliability models using grouped data"
+            	.year : 1992
+            	.core : false
+            	.relevance:false
+            	-venue->venue52
+            	-cites->paper2171242934
+            	-authors->author2974757441
+            }
+	paper2151250735:Paper {
+                .title : "Programming and verifying realtime systems by means of the synchronous dataflow language LUSTRE"
+            	.year : 1992
+            	.core : false
+            	.relevance:false
+            	-venue->venue1331
+            	-cites->paper2080267935
+            	-authors->author246992768
+            	-authors->author2257050880
+            	-authors->author1975423539
             }
 	paper2156027558:Paper {
                 .title : "Providing high availability using lazy replication"
             	.year : 1992
             	.core : false
             	.relevance:false
-            	-venue->venue1000
+            	-venue->venue1364
             	-cites->paper1973501242
             	-cites->paper1985349143
             	-cites->paper1991494135
@@ -305,39 +483,150 @@ model Paper1992{
             	-cites->paper2130493426
             	-cites->paper2131929623
             	-authors->author2084056563
-            	-authors->author2777945824
             	-authors->author433819694
+            	-authors->author2575315241
             	-authors->author1967149413
+            }
+	paper2161528798:Paper {
+                .title : "Failure mode assumptions and assumption coverage"
+            	.year : 1992
+            	.core : false
+            	.relevance:false
+            	-venue->venue1201
+            	-cites->paper2120510885
+            	-authors->author2419138225
             }
 	paper2161835696:Paper {
                 .title : "Operationbased merging"
             	.year : 1992
             	.core : false
             	.relevance:false
-            	-venue->venue996
-            	-authors->author2475203739
+            	-venue->venue821
+            	-authors->author2986624914
             	-authors->author1496686125
+            }
+	paper2163196718:Paper {
+                .title : "Hiding memory latency using dynamic scheduling in sharedmemory multiprocessors"
+            	.year : 1992
+            	.core : false
+            	.relevance:false
+            	-venue->venue143
+            	-cites->paper1555915743
+            	-cites->paper1885534640
+            	-cites->paper1966285605
+            	-cites->paper2054739713
+            	-cites->paper2078081736
+            	-cites->paper2096956970
+            	-cites->paper2101377877
+            	-cites->paper2152390090
+            	-cites->paper2152496451
+            	-cites->paper2163820265
+            	-cites->paper2173501262
+            	-cites->paper2176864362
+            	-cites->paper2177772636
+            	-authors->author2514122770
+            	-authors->author190482092
+            	-authors->author1965698830
+            }
+	paper2139907081:Paper {
+                .title : "ObjectOriented Software Engineering A Use Case Driven Approach"
+            	.year : 1992
+            	.core : false
+            	.relevance:false
+            	-venue->venue0
+            	-authors->author2138320137
+            }
+	paper2338335491:Paper {
+                .title : "Process modeling"
+            	.year : 1992
+            	.core : false
+            	.relevance:false
+            	-venue->venue763
+            	-cites->paper1972095388
+            	-cites->paper2045571829
+            	-cites->paper2095958260
+            	-cites->paper2122646429
+            	-authors->author2096817231
+            	-authors->author2289360256
+            	-authors->author2114543703
+            }
+	paper2762588455:Paper {
+                .title : "A Formal Approach to Software Architectures"
+            	.year : 1992
+            	.core : false
+            	.relevance:false
+            	-venue->venue694
+            	-cites->paper1979290877
+            	-cites->paper2013672985
+            	-cites->paper2027657506
+            	-cites->paper2110425399
+            	-cites->paper2139907081
+            	-authors->author2416794382
+            	-authors->author2256096860
+            }
+	paper1515932031:Paper {
+                .title : "Transaction Processing Concepts and Techniques"
+            	.year : 1992
+            	.core : false
+            	.relevance:false
+            	-venue->venue0
+            	-authors->author2103240375
+            	-authors->author2131537204
+            }
+	paper1545792627:Paper {
+                .title : "Reasoning About Parallel Architectures"
+            	.year : 1992
+            	.core : false
+            	.relevance:false
+            	-venue->venue0
+            	-authors->author2275282021
+            }
+	paper1566296806:Paper {
+                .title : "Reliable Computer Systems Design and Evaluation"
+            	.year : 1992
+            	.core : false
+            	.relevance:false
+            	-venue->venue0
+            	-authors->author2227315588
+            	-authors->author2233600992
+            }
+	paper1855065956:Paper {
+                .title : "Database transaction models for advanced applications"
+            	.year : 1992
+            	.core : false
+            	.relevance:false
+            	-venue->venue0
+            	-authors->author2057816297
+            }
+	paper2013672985:Paper {
+                .title : "A Calculus of Mobile Processes  Part II"
+            	.year : 1992
+            	.core : false
+            	.relevance:false
+            	-venue->venue1462
+            	-cites->paper2128932399
+            	-authors->author152237314
+            	-authors->author2087817183
+            	-authors->author2893383834
+            }
+	paper2140282514:Paper {
+                .title : "Now the learning curve affects CASE tool adoption"
+            	.year : 1992
+            	.core : false
+            	.relevance:false
+            	-venue->venue1294
+            	-authors->author2304793874
             }
 	paper2170314424:Paper {
                 .title : "A posteriori agreement for faulttolerant clock synchronization on broadcast networks"
             	.year : 1992
             	.core : false
             	.relevance:false
-            	-venue->venue876
+            	-venue->venue1201
             	-cites->paper2095343473
             	-cites->paper2118891797
             	-authors->author2145040617
             	-authors->author2062465576
-            }
-	paper9091155:Paper {
-                .title : "An approach to eliciting the semantics of relational databases"
-            	.year : 1992
-            	.core : false
-            	.relevance:false
-            	-venue->venue581
-            	-cites->paper1581093035
-            	-authors->author2720661335
-            	-authors->author2876906420
             }
 }
 

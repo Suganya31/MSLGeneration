@@ -32,36 +32,60 @@ import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2020.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1995.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1986.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1987.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1988.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1993.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1982.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1983.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1976.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1995.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1982.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1987.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1986.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1988.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1993.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1984.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1978.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1976.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1979.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1980.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1941.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1984.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1974.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1968.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1979.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1962.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1974.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1967.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1970.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1959.msl"
  	
 model Paper1993{
+	paper1512611678:Paper {
+                .title : "Tolerating Transient and Permanent Failures Extended Abstract"
+            	.year : 1993
+            	.core : false
+            	.relevance:false
+            	-venue->venue674
+            	-cites->paper2111132249
+            	-authors->author189416989
+            	-authors->author2157971111
+            }
 	paper1548817500:Paper {
                 .title : "A Language Framework for MultiObject Coordination"
             	.year : 1993
             	.core : false
             	.relevance:false
-            	-venue->venue399
+            	-venue->venue26
             	-authors->author1843226284
             	-authors->author2161553928
+            }
+	paper1559458052:Paper {
+                .title : "Specification and Implementation of Grammar Couplings using Attribute Grammars"
+            	.year : 1993
+            	.core : false
+            	.relevance:false
+            	-venue->venue827
+            	-authors->author1994702274
+            	-authors->author2032833880
+            	-authors->author2098566749
+            	-authors->author2032874399
             }
 	paper1571250571:Paper {
                 .title : "Decomposing and Recomposing Transactional Concepts"
@@ -77,63 +101,122 @@ model Paper1993{
             	.year : 1993
             	.core : false
             	.relevance:false
-            	-venue->venue23
-            	-authors->author2080933598
-            }
-	paper1583095677:Paper {
-                .title : "Larch Languages and Tools for Formal Specification"
-            	.year : 1993
-            	.core : false
-            	.relevance:false
-            	-venue->venue0
-            	-cites->paper2013492611
-            	-authors->author120651226
-            	-authors->author664411623
+            	-venue->venue922
+            	-authors->author2984284385
             }
 	paper1593276140:Paper {
                 .title : "The Formal Verification of an Algorithm for Interactive Consistency under a Hybrid Fault Model"
             	.year : 1993
             	.core : false
             	.relevance:false
-            	-venue->venue350
+            	-venue->venue468
             	-cites->paper2114957237
             	-cites->paper2120510885
             	-authors->author2157944775
             	-authors->author2019942005
+            }
+	paper1759712729:Paper {
+                .title : "Coloured Petri nets"
+            	.year : 1993
+            	.core : false
+            	.relevance:false
+            	-venue->venue1113
+            	-authors->author2112058976
+            }
+	paper1938613683:Paper {
+                .title : "Making Inconsistency Respectable Part   Metalevel handling of inconsistency"
+            	.year : 1993
+            	.core : false
+            	.relevance:false
+            	-venue->venue681
+            	-cites->paper1976303542
+            	-authors->author2105909224
+            	-authors->author2623494704
             }
 	paper1979290877:Paper {
                 .title : "Conjunction as composition"
             	.year : 1993
             	.core : false
             	.relevance:false
-            	-venue->venue965
+            	-venue->venue1307
             	-cites->paper1970495662
+            	-cites->paper2027657506
             	-cites->paper2054097655
+            	-cites->paper2096039823
             	-cites->paper2170486381
+            	-cites->paper2762588455
             	-authors->author248253975
             	-authors->author2761218531
+            }
+	paper1990936405:Paper {
+                .title : "Object distribution in Orca using CompileTime and RunTime techniques"
+            	.year : 1993
+            	.core : false
+            	.relevance:false
+            	-venue->venue140
+            	-cites->paper1532915129
+            	-cites->paper2054739713
+            	-cites->paper2121134342
+            	-cites->paper2127547524
+            	-cites->paper2140471248
+            	-authors->author2111822219
+            	-authors->author2779384724
+            }
+	paper1997182736:Paper {
+                .title : "Consistency and orderability semanticsbased correctness criteria for databases"
+            	.year : 1993
+            	.core : false
+            	.relevance:false
+            	-venue->venue1487
+            	-cites->paper2066775342
+            	-cites->paper2104954161
+            	-cites->paper2110050316
+            	-cites->paper2111706174
+            	-authors->author2169544959
+            	-authors->author2099219664
+            	-authors->author2120785847
             }
 	paper2017739343:Paper {
                 .title : "Goaldirected requirements acquisition"
             	.year : 1993
             	.core : false
             	.relevance:false
-            	-venue->venue1319
+            	-venue->venue1810
             	-cites->paper1970495662
             	-cites->paper2067126923
             	-authors->author2110355913
             	-authors->author1227273176
             	-authors->author2335794901
             }
+	paper2024839988:Paper {
+                .title : "An integrated tool set for software safety analysis"
+            	.year : 1993
+            	.core : false
+            	.relevance:false
+            	-venue->venue525
+            	-authors->author2079121600
+            	-authors->author2213027448
+            }
+	paper2028170355:Paper {
+                .title : "Designing Dexterbased cooperative hypermedia systems"
+            	.year : 1993
+            	.core : false
+            	.relevance:false
+            	-venue->venue1098
+            	-cites->paper1739798036
+            	-authors->author2032084310
+            	-authors->author2019814673
+            	-authors->author2798732794
+            	-authors->author2527193764
+            }
 	paper2033579026:Paper {
                 .title : "The consensus problem in faulttolerant computing"
             	.year : 1993
             	.core : false
             	.relevance:false
-            	-venue->venue963
+            	-venue->venue1305
             	-cites->paper2035362408
             	-cites->paper2073126252
-            	-cites->paper2095464745
             	-cites->paper2116820549
             	-cites->paper2120510885
             	-cites->paper2152465173
@@ -141,13 +224,47 @@ model Paper1993{
             	-authors->author1976718165
             	-authors->author2131805511
             }
+	paper2036134187:Paper {
+                .title : "Programmable syntax macros"
+            	.year : 1993
+            	.core : false
+            	.relevance:false
+            	-venue->venue218
+            	-authors->author2165679527
+            	-authors->author2204613330
+            }
+	paper2045362872:Paper {
+                .title : "The process group approach to reliable distributed computing"
+            	.year : 1993
+            	.core : false
+            	.relevance:false
+            	-venue->venue763
+            	-cites->paper1545155892
+            	-cites->paper1973501242
+            	-cites->paper1985349143
+            	-cites->paper2116820549
+            	-cites->paper2131929623
+            	-cites->paper2152465173
+            	-cites->paper2177772636
+            	-authors->author2094398115
+            }
+	paper2052267638:Paper {
+                .title : "Random oracles are practical a paradigm for designing efficient protocols"
+            	.year : 1993
+            	.core : false
+            	.relevance:false
+            	-venue->venue691
+            	-authors->author2106597688
+            	-authors->author2052950829
+            }
 	paper2061214987:Paper {
                 .title : "Introducing expert critiquing systems"
             	.year : 1993
             	.core : false
             	.relevance:false
-            	-venue->venue1565
+            	-venue->venue2203
             	-cites->paper2037497522
+            	-cites->paper2161660617
             	-authors->author2134027885
             }
 	paper2079605740:Paper {
@@ -155,8 +272,9 @@ model Paper1993{
             	.year : 1993
             	.core : false
             	.relevance:false
-            	-venue->venue948
+            	-venue->venue1284
             	-cites->paper2036267700
+            	-cites->paper2045867114
             	-cites->paper2054739713
             	-cites->paper2101939036
             	-cites->paper2152390090
@@ -168,12 +286,23 @@ model Paper1993{
             	-authors->author2138072680
             	-authors->author2145466497
             }
+	paper2081945419:Paper {
+                .title : "A Practical Theory of Programming"
+            	.year : 1993
+            	.core : false
+            	.relevance:false
+            	-venue->venue0
+            	-cites->paper2110050316
+            	-cites->paper2110425399
+            	-cites->paper2111706174
+            	-authors->author10265848
+            }
 	paper2084310469:Paper {
                 .title : "Integration of domain analysis and analogical approach for software reuse"
             	.year : 1993
             	.core : false
             	.relevance:false
-            	-venue->venue1024
+            	-venue->venue1390
             	-authors->author2096829745
             	-authors->author2310363976
             }
@@ -182,7 +311,7 @@ model Paper1993{
             	.year : 1993
             	.core : false
             	.relevance:false
-            	-venue->venue983
+            	-venue->venue1331
             	-cites->paper1545155892
             	-cites->paper2035362408
             	-cites->paper2103953153
@@ -193,30 +322,12 @@ model Paper1993{
             	-authors->author2126513744
             	-authors->author2264808178
             }
-	paper2100505193:Paper {
-                .title : "An investigation of the Therac accidents"
-            	.year : 1993
-            	.core : false
-            	.relevance:false
-            	-venue->venue973
-            	-authors->author2150992688
-            	-authors->author2130975519
-            }
-	paper2102398950:Paper {
-                .title : "Policy hierarchies for distributed systems management"
-            	.year : 1993
-            	.core : false
-            	.relevance:false
-            	-venue->venue1838
-            	-authors->author1996292137
-            	-authors->author2152998746
-            }
 	paper2107761426:Paper {
                 .title : "Theory Interpretation in Simple Type Theory"
             	.year : 1993
             	.core : false
             	.relevance:false
-            	-venue->venue1898
+            	-venue->venue2680
             	-cites->paper1485360759
             	-authors->author2118565774
             }
@@ -225,7 +336,7 @@ model Paper1993{
             	.year : 1993
             	.core : false
             	.relevance:false
-            	-venue->venue1908
+            	-venue->venue1189
             	-authors->author1922347857
             	-authors->author2243214337
             }
@@ -234,7 +345,7 @@ model Paper1993{
             	.year : 1993
             	.core : false
             	.relevance:false
-            	-venue->venue1911
+            	-venue->venue2693
             	-authors->author2104204551
             }
 	paper2114957237:Paper {
@@ -242,7 +353,7 @@ model Paper1993{
             	.year : 1993
             	.core : false
             	.relevance:false
-            	-venue->venue983
+            	-venue->venue1331
             	-cites->paper2118891797
             	-cites->paper2120510885
             	-cites->paper2164357820
@@ -258,21 +369,47 @@ model Paper1993{
             	-cites->paper2158535304
             	-authors->author696362100
             }
+	paper2124336476:Paper {
+                .title : "Distributed divergence control for epsilon serializability"
+            	.year : 1993
+            	.core : false
+            	.relevance:false
+            	-venue->venue770
+            	-cites->paper1545155892
+            	-cites->paper2048071586
+            	-cites->paper2101939036
+            	-cites->paper2154837369
+            	-authors->author2125104194
+            	-authors->author2143371779
+            	-authors->author2860758814
+            	-authors->author60310460
+            	-authors->author2117427889
+            }
 	paper2125935803:Paper {
                 .title : "Software process themes and issues"
             	.year : 1993
             	.core : false
             	.relevance:false
-            	-venue->venue2136
+            	-venue->venue2999
             	-cites->paper2095958260
             	-authors->author2688526184
+            }
+	paper2144869437:Paper {
+                .title : "An empirical investigation of software fault distribution"
+            	.year : 1993
+            	.core : false
+            	.relevance:false
+            	-venue->venue1220
+            	-cites->paper1964962870
+            	-authors->author2578640197
+            	-authors->author2974773507
             }
 	paper2145200786:Paper {
                 .title : "Using atomic broadcast to implement a posteriori agreement for clock synchronization"
             	.year : 1993
             	.core : false
             	.relevance:false
-            	-venue->venue775
+            	-venue->venue465
             	-cites->paper2095343473
             	-cites->paper2118891797
             	-cites->paper2170314424
@@ -280,17 +417,155 @@ model Paper1993{
             	-authors->author2149245495
             	-authors->author2062465576
             }
+	paper2146432221:Paper {
+                .title : "Stochastic wellformed colored nets and symmetric modeling applications"
+            	.year : 1993
+            	.core : false
+            	.relevance:false
+            	-venue->venue1091
+            	-cites->paper198287998
+            	-cites->paper2125739093
+            	-authors->author61118868
+            	-authors->author2006106901
+            	-authors->author2158096202
+            	-authors->author2281859912
+            }
+	paper2165365531:Paper {
+                .title : "A unified formalization of four sharedmemory models"
+            	.year : 1993
+            	.core : false
+            	.relevance:false
+            	-venue->venue1878
+            	-cites->paper1885534640
+            	-cites->paper2039509099
+            	-cites->paper2054739713
+            	-cites->paper2096956970
+            	-cites->paper2107642570
+            	-cites->paper2152390090
+            	-cites->paper2163820265
+            	-cites->paper2176864362
+            	-cites->paper2177772636
+            	-authors->author2112660313
+            	-authors->author2346116799
+            }
+	paper2165904264:Paper {
+                .title : "Jade a highlevel machineindependent language for parallel programming"
+            	.year : 1993
+            	.core : false
+            	.relevance:false
+            	-venue->venue1073
+            	-cites->paper2127547524
+            	-cites->paper2140471248
+            	-authors->author1949796049
+            	-authors->author343541395
+            	-authors->author2136170053
+            }
+	paper2169813542:Paper {
+                .title : "SSP A semanticsbased protocol for realtime data access"
+            	.year : 1993
+            	.core : false
+            	.relevance:false
+            	-venue->venue1216
+            	-cites->paper2132582345
+            	-authors->author2973385115
+            	-authors->author2130848692
+            }
 	paper2170128278:Paper {
                 .title : "Determining possible event orders by analyzing sequential traces"
             	.year : 1993
             	.core : false
             	.relevance:false
-            	-venue->venue1361
+            	-venue->venue1878
             	-cites->paper1976848527
             	-cites->paper2080570636
             	-authors->author2235641235
             	-authors->author2024443744
             	-authors->author2133889934
+            }
+	paper2342091124:Paper {
+                .title : "Usability Engineering"
+            	.year : 1993
+            	.core : false
+            	.relevance:false
+            	-venue->venue0
+            	-cites->paper2060903226
+            	-authors->author2238716427
+            }
+	paper1499849351:Paper {
+                .title : "The Cache Memory Book"
+            	.year : 1993
+            	.core : false
+            	.relevance:false
+            	-venue->venue0
+            	-authors->author2635258549
+            }
+	paper1583095677:Paper {
+                .title : "Larch Languages and Tools for Formal Specification"
+            	.year : 1993
+            	.core : false
+            	.relevance:false
+            	-venue->venue0
+            	-cites->paper2013492611
+            	-authors->author120651226
+            	-authors->author664411623
+            }
+	paper1739798036:Paper {
+                .title : "Objectoriented programming in the BETA programming language"
+            	.year : 1993
+            	.core : false
+            	.relevance:false
+            	-venue->venue0
+            	-cites->paper2045723688
+            	-cites->paper2110425399
+            	-cites->paper2144836746
+            	-cites->paper2163832616
+            	-authors->author2285275206
+            	-authors->author2096116960
+            	-authors->author2527193764
+            }
+	paper1977545325:Paper {
+                .title : "Network Flows Theory Algorithms and Applications"
+            	.year : 1993
+            	.core : false
+            	.relevance:false
+            	-venue->venue0
+            	-authors->author277888803
+            	-authors->author1809048617
+            	-authors->author1999025410
+            }
+	paper2076983043:Paper {
+                .title : "Categorical data analysis"
+            	.year : 1993
+            	.core : false
+            	.relevance:false
+            	-venue->venue4239
+            	-authors->author2128717876
+            }
+	paper2100505193:Paper {
+                .title : "An investigation of the Therac accidents"
+            	.year : 1993
+            	.core : false
+            	.relevance:false
+            	-venue->venue1073
+            	-authors->author2150992688
+            	-authors->author2130975519
+            }
+	paper2102398950:Paper {
+                .title : "Policy hierarchies for distributed systems management"
+            	.year : 1993
+            	.core : false
+            	.relevance:false
+            	-venue->venue3464
+            	-authors->author1996292137
+            	-authors->author2152998746
+            }
+	paper2125055259:Paper {
+                .title : "C Programs for Machine Learning"
+            	.year : 1993
+            	.core : false
+            	.relevance:false
+            	-venue->venue0
+            	-authors->author2283165970
             }
 }
 

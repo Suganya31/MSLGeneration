@@ -32,26 +32,29 @@ import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2020.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1995.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1986.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1987.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1988.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1993.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1982.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1983.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1976.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1995.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1982.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1987.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1986.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1988.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1993.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1984.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1978.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1976.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1979.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1980.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1941.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1984.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1974.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1968.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1979.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1962.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1974.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1967.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1970.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1959.msl"
  	
 model Paper2017{
 	paper2598750690:Paper {
@@ -111,6 +114,7 @@ model Paper2017{
             	-cites->paper2002179840
             	-cites->paper2010497096
             	-cites->paper2016323637
+            	-cites->paper2021030008
             	-cites->paper2029601347
             	-cites->paper2038736729
             	-cites->paper2039509099
@@ -136,6 +140,7 @@ model Paper2017{
             	-cites->paper2100505193
             	-cites->paper2101161997
             	-cites->paper2102839400
+            	-cites->paper2103408719
             	-cites->paper2105391037
             	-cites->paper2105768827
             	-cites->paper2107529624
@@ -171,6 +176,7 @@ model Paper2017{
             	-cites->paper2158794422
             	-cites->paper2160963348
             	-cites->paper2160983664
+            	-cites->paper2161038602
             	-cites->paper2162630235
             	-cites->paper2166091242
             	-cites->paper2166266685
@@ -197,6 +203,7 @@ model Paper2017{
             	-cites->paper1822674892
             	-cites->paper1968283843
             	-cites->paper1981504678
+            	-cites->paper1992822815
             	-cites->paper2024436253
             	-cites->paper2026130601
             	-cites->paper2029601347
@@ -215,6 +222,7 @@ model Paper2017{
             	-cites->paper2116454140
             	-cites->paper2116744478
             	-cites->paper2133381043
+            	-cites->paper2134184428
             	-cites->paper2135355961
             	-cites->paper2141618784
             	-cites->paper2143849045
@@ -233,7 +241,19 @@ model Paper2017{
             	.core : true
             	.relevance:false
             	-venue->venue5
+            	-cites->paper2012806630
+            	-cites->paper2023583296
+            	-cites->paper2041628322
+            	-cites->paper2055284112
+            	-cites->paper2094441239
+            	-cites->paper2106268244
+            	-cites->paper2109749404
+            	-cites->paper2111562224
+            	-cites->paper2116289830
             	-cites->paper2122402375
+            	-cites->paper2163956676
+            	-cites->paper2508999949
+            	-cites->paper2912854634
             	-authors->author2340648307
             	-authors->author2139411001
             	-authors->author2344031067
@@ -270,7 +290,20 @@ model Paper2017{
             	.core : true
             	.relevance:false
             	-venue->venue9
+            	-cites->paper2001520071
+            	-cites->paper2019579488
+            	-cites->paper2023331046
+            	-cites->paper2029288475
             	-cites->paper2054104130
+            	-cites->paper2071888780
+            	-cites->paper2083434606
+            	-cites->paper2087171733
+            	-cites->paper2095184288
+            	-cites->paper2121519505
+            	-cites->paper2126230853
+            	-cites->paper2146044140
+            	-cites->paper2249475272
+            	-cites->paper2522502525
             	-authors->author1182447484
             	-authors->author2117494329
             }
@@ -306,6 +339,7 @@ model Paper2017{
             	.relevance:true
             	-venue->venue54
             	-cites->paper76806710
+            	-cites->paper166417490
             	-cites->paper1503566036
             	-cites->paper2011396240
             	-cites->paper2062756186
@@ -326,6 +360,7 @@ model Paper2017{
             	.core : true
             	.relevance:false
             	-venue->venue54
+            	-cites->paper2171250277
             	-authors->author2135449013
             	-authors->author1227410782
             	-authors->author2755982418
@@ -337,6 +372,17 @@ model Paper2017{
             	.core : true
             	.relevance:false
             	-venue->venue272
+            	-cites->paper1550064664
+            	-cites->paper1580291316
+            	-cites->paper1970439199
+            	-cites->paper1977545325
+            	-cites->paper2095283796
+            	-cites->paper2104514366
+            	-cites->paper2118714517
+            	-cites->paper2142343014
+            	-cites->paper2282502771
+            	-cites->paper2326620087
+            	-cites->paper2343984271
             	-authors->author2345645089
             	-authors->author67322149
             	-authors->author2025353970
@@ -347,21 +393,47 @@ model Paper2017{
             	.core : true
             	.relevance:false
             	-venue->venue40
+            	-cites->paper188179498
+            	-cites->paper190123652
+            	-cites->paper1504271833
+            	-cites->paper1505090407
             	-cites->paper1536631555
+            	-cites->paper1569040469
             	-cites->paper1570173564
+            	-cites->paper1825558883
             	-cites->paper1853034543
+            	-cites->paper1886563687
             	-cites->paper1895387792
             	-cites->paper1963576381
+            	-cites->paper1968560832
+            	-cites->paper1979037869
+            	-cites->paper2010175019
+            	-cites->paper2017397762
             	-cites->paper2028369901
+            	-cites->paper2044987604
+            	-cites->paper2048064553
+            	-cites->paper2052296870
+            	-cites->paper2083434606
+            	-cites->paper2094810043
+            	-cites->paper2100500368
             	-cites->paper2110143060
             	-cites->paper2112000202
             	-cites->paper2121061989
+            	-cites->paper2122185633
             	-cites->paper2128967738
             	-cites->paper2129289644
+            	-cites->paper2138775474
             	-cites->paper2142874510
             	-cites->paper2143614054
+            	-cites->paper2144179818
             	-cites->paper2148106163
+            	-cites->paper2153301577
+            	-cites->paper2185335208
+            	-cites->paper2464949168
+            	-cites->paper2573314574
             	-cites->paper2578157505
+            	-cites->paper2600599962
+            	-cites->paper2618731789
             	-cites->paper2760715935
             	-authors->author2032435099
             	-authors->author2102293300
@@ -410,17 +482,28 @@ model Paper2017{
             	-cites->paper1983160424
             	-cites->paper1991633729
             	-cites->paper1997864678
+            	-cites->paper2013909059
+            	-cites->paper2032001711
+            	-cites->paper2035434130
+            	-cites->paper2052987299
             	-cites->paper2054332523
             	-cites->paper2058145265
             	-cites->paper2060440626
             	-cites->paper2103260577
             	-cites->paper2109420119
+            	-cites->paper2117600460
             	-cites->paper2127685229
+            	-cites->paper2131820506
             	-cites->paper2139872812
+            	-cites->paper2142741391
             	-cites->paper2143614054
             	-cites->paper2149864282
             	-cites->paper2157198435
             	-cites->paper2160930909
+            	-cites->paper2167830984
+            	-cites->paper2525290333
+            	-cites->paper2571744281
+            	-cites->paper2745087117
             	-authors->author1949402193
             	-authors->author2346573819
             	-authors->author2600856194
@@ -433,6 +516,15 @@ model Paper2017{
             	.core : true
             	.relevance:true
             	-venue->venue70
+            	-cites->paper95477512
+            	-cites->paper1491912291
+            	-cites->paper1580473189
+            	-cites->paper2049886280
+            	-cites->paper2097597750
+            	-cites->paper2110020044
+            	-cites->paper2165329839
+            	-cites->paper2439508656
+            	-cites->paper2609546456
             	-authors->author269509060
             	-authors->author2609836235
             	-authors->author2153820563
@@ -445,24 +537,57 @@ model Paper2017{
             	.relevance:false
             	-venue->venue40
             	-cites->paper99545732
+            	-cites->paper198287998
+            	-cites->paper968713204
+            	-cites->paper1505090407
             	-cites->paper1507387197
+            	-cites->paper1512360405
+            	-cites->paper1514052250
+            	-cites->paper1521011607
             	-cites->paper1536631555
+            	-cites->paper1558527408
             	-cites->paper1570173564
+            	-cites->paper1759712729
+            	-cites->paper1820309519
             	-cites->paper1853034543
+            	-cites->paper1859458367
+            	-cites->paper1886563687
             	-cites->paper1963576381
+            	-cites->paper1965306413
             	-cites->paper1978519707
             	-cites->paper2003053377
             	-cites->paper2017167760
             	-cites->paper2028369901
+            	-cites->paper2034568273
+            	-cites->paper2037493585
+            	-cites->paper2046216252
+            	-cites->paper2046371801
+            	-cites->paper2047003964
+            	-cites->paper2057679337
+            	-cites->paper2070929035
+            	-cites->paper2089881021
+            	-cites->paper2094819373
+            	-cites->paper2096430893
+            	-cites->paper2101832700
+            	-cites->paper2106447076
             	-cites->paper2110143060
             	-cites->paper2114990295
+            	-cites->paper2120240460
             	-cites->paper2121061989
+            	-cites->paper2122185633
+            	-cites->paper2125739093
+            	-cites->paper2125822162
+            	-cites->paper2129492722
             	-cites->paper2130195901
             	-cites->paper2137351629
             	-cites->paper2143040687
+            	-cites->paper2150767046
+            	-cites->paper2156806988
             	-cites->paper2160325552
+            	-cites->paper2225615039
             	-cites->paper2578157505
             	-cites->paper2767407390
+            	-cites->paper2900368754
             	-authors->author2032435099
             	-authors->author511866907
             }
@@ -544,6 +669,7 @@ model Paper2017{
             	-cites->paper23963972
             	-cites->paper202080076
             	-cites->paper1499512708
+            	-cites->paper1564633100
             	-cites->paper1853034543
             	-cites->paper1991285474
             	-cites->paper2008190734
@@ -595,6 +721,7 @@ model Paper2017{
             	-venue->venue161
             	-cites->paper78552530
             	-cites->paper1482397304
+            	-cites->paper1518705996
             	-cites->paper1525350307
             	-cites->paper1541537810
             	-cites->paper1545792627
@@ -630,6 +757,7 @@ model Paper2017{
             	-cites->paper2120339165
             	-cites->paper2122901568
             	-cites->paper2132117132
+            	-cites->paper2134184428
             	-cites->paper2138074470
             	-cites->paper2139553864
             	-cites->paper2149911648
@@ -649,6 +777,7 @@ model Paper2017{
             	-cites->paper2293159724
             	-cites->paper2293319505
             	-cites->paper2301631282
+            	-cites->paper2401024662
             	-cites->paper2410019603
             	-cites->paper2531502343
             	-cites->paper2533070090
@@ -689,6 +818,7 @@ model Paper2017{
             	-cites->paper2033942886
             	-cites->paper2036267700
             	-cites->paper2039509099
+            	-cites->paper2042108411
             	-cites->paper2048467032
             	-cites->paper2049514605
             	-cites->paper2054739713
@@ -702,6 +832,7 @@ model Paper2017{
             	-cites->paper2132107743
             	-cites->paper2132334337
             	-cites->paper2132761501
+            	-cites->paper2134184428
             	-cites->paper2136739578
             	-cites->paper2156720745
             	-cites->paper2160781056
@@ -724,7 +855,7 @@ model Paper2017{
             	.year : 2017
             	.core : false
             	.relevance:false
-            	-venue->venue352
+            	-venue->venue533
             	-cites->paper187743145
             	-cites->paper1480909796
             	-cites->paper1536631555
@@ -732,6 +863,7 @@ model Paper2017{
             	-cites->paper1569208917
             	-cites->paper1576863229
             	-cites->paper1973559034
+            	-cites->paper1979037869
             	-cites->paper1997864678
             	-cites->paper1998400029
             	-cites->paper2043310979
@@ -746,51 +878,40 @@ model Paper2017{
             	-cites->paper2153019760
             	-cites->paper2412353202
             	-authors->author1974659384
-            	-authors->author2143752589
             	-authors->author2143442092
             	-authors->author2501546381
             	-authors->author10882077
+            	-authors->author2659947808
             }
-	paper2292447407:Paper {
-                .title : "On the completeness of bounded model checking for thresholdbased distributed algorithms"
+	paper2343984271:Paper {
+                .title : "A supply chain network game theory model of cybersecurity investments with nonlinear budget constraints"
             	.year : 2017
             	.core : false
             	.relevance:false
-            	-venue->venue1211
-            	-cites->paper1021521453
-            	-cites->paper1554005697
-            	-cites->paper1597578789
-            	-cites->paper1787074469
-            	-cites->paper1973501242
-            	-cites->paper2073126252
-            	-cites->paper2113100977
-            	-cites->paper2122326479
-            	-cites->paper2133943294
-            	-cites->paper2611515161
-            	-cites->paper2611863566
-            	-authors->author1957630520
-            	-authors->author1976817768
-            	-authors->author692701391
+            	-venue->venue3883
+            	-authors->author2115267726
+            	-authors->author2194616299
+            	-authors->author2054412876
             }
 	paper2474022715:Paper {
                 .title : "gMark SchemaDriven Generation of Graphs and Queries"
             	.year : 2017
             	.core : false
             	.relevance:false
-            	-venue->venue1916
+            	-venue->venue1775
             	-authors->author2141835797
             	-authors->author140057078
             	-authors->author2788830591
             	-authors->author2595064910
-            	-authors->author2596412352
             	-authors->author2280425961
+            	-authors->author70421181
             }
 	paper2505917360:Paper {
                 .title : "A general model checking framework for various memory consistency models"
             	.year : 2017
             	.core : false
             	.relevance:false
-            	-venue->venue1132
+            	-venue->venue1525
             	-cites->paper1602156367
             	-cites->paper1787074469
             	-cites->paper1808398105
@@ -810,8 +931,8 @@ model Paper2017{
             	-cites->paper2149911648
             	-cites->paper2157178219
             	-cites->paper2160781056
-            	-authors->author2098752244
-            	-authors->author2231308658
+            	-authors->author2938157906
+            	-authors->author2235480359
             }
 	paper2507977852:Paper {
                 .title : "TriCheck Memory Model Verification at the Trisection of Software Hardware and ISA"
@@ -837,6 +958,7 @@ model Paper2017{
             	-cites->paper2105900173
             	-cites->paper2105945277
             	-cites->paper2106192381
+            	-cites->paper2107699547
             	-cites->paper2111858071
             	-cites->paper2117502039
             	-cites->paper2132117132
@@ -846,13 +968,17 @@ model Paper2017{
             	-cites->paper2163490397
             	-cites->paper2176864362
             	-cites->paper2234646418
+            	-cites->paper2256363745
+            	-cites->paper2553522901
             	-cites->paper2605308338
+            	-cites->paper2626631502
             	-cites->paper2738891045
-            	-authors->author2893851776
+            	-cites->paper2916411819
             	-authors->author2344621684
             	-authors->author2029293479
             	-authors->author1972692845
             	-authors->author2229729172
+            	-authors->author1998414096
             }
 	paper2518474658:Paper {
                 .title : "A short counterexample property for safety and liveness verification of faulttolerant distributed algorithms"
@@ -861,16 +987,21 @@ model Paper2017{
             	.relevance:false
             	-venue->venue161
             	-cites->paper178138771
+            	-cites->paper200623142
             	-cites->paper1021521453
             	-cites->paper1480909796
             	-cites->paper1498432697
             	-cites->paper2035362408
+            	-cites->paper2036526834
             	-cites->paper2073126252
             	-cites->paper2122326479
+            	-cites->paper2129073086
             	-cites->paper2133943294
+            	-cites->paper2156580773
             	-cites->paper2292447407
             	-cites->paper2340735175
             	-cites->paper2410019603
+            	-cites->paper2414818575
             	-authors->author1957630520
             	-authors->author1976817768
             	-authors->author2555690835
@@ -881,7 +1012,7 @@ model Paper2017{
             	.year : 2017
             	.core : false
             	.relevance:true
-            	-venue->venue983
+            	-venue->venue1331
             	-cites->paper94833394
             	-cites->paper113976528
             	-cites->paper937233221
@@ -893,6 +1024,7 @@ model Paper2017{
             	-cites->paper1844824726
             	-cites->paper2004901564
             	-cites->paper2006775600
+            	-cites->paper2016915664
             	-cites->paper2020914058
             	-cites->paper2054332523
             	-cites->paper2088463099
@@ -904,7 +1036,7 @@ model Paper2017{
             	-cites->paper2169123208
             	-cites->paper2181002748
             	-cites->paper2215445043
-            	-authors->author310690451
+            	-authors->author2974079724
             	-authors->author2308171290
             	-authors->author2321171219
             }
@@ -914,15 +1046,30 @@ model Paper2017{
             	.core : false
             	.relevance:false
             	-venue->venue36
+            	-cites->paper182269909
+            	-cites->paper2011762419
             	-authors->author1276411778
             	-authors->author2129587872
+            }
+	paper2529101939:Paper {
+                .title : "An Efficient and Secure IdentityBased Authentication and Key Agreement Protocol with User Anonymity for Mobile Devices"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue3971
+            	-cites->paper1569083856
+            	-authors->author2479394100
+            	-authors->author2304081583
+            	-authors->author2565419657
+            	-authors->author2654083836
+            	-authors->author2304300576
             }
 	paper2562559257:Paper {
                 .title : "Special issue on Flexible Model Driven Engineering"
             	.year : 2017
             	.core : false
             	.relevance:false
-            	-venue->venue2831
+            	-venue->venue3981
             	-authors->author2071298843
             	-authors->author406154369
             	-authors->author2160674753
@@ -932,16 +1079,17 @@ model Paper2017{
             	.year : 2017
             	.core : false
             	.relevance:true
-            	-venue->venue2831
+            	-venue->venue3981
             	-cites->paper1514397520
             	-cites->paper1986958631
             	-cites->paper1987426969
             	-cites->paper2085315973
+            	-cites->paper2110254595
             	-cites->paper2116587399
             	-cites->paper2121061989
             	-authors->author2766065980
             	-authors->author2138496712
-            	-authors->author1246263134
+            	-authors->author2964306539
             	-authors->author2044930014
             	-authors->author1996244569
             }
@@ -960,6 +1108,7 @@ model Paper2017{
             	-cites->paper2090532555
             	-cites->paper2091085450
             	-cites->paper2138074470
+            	-cites->paper2152390090
             	-cites->paper2280574045
             	-cites->paper2293159724
             	-cites->paper2293319505
@@ -972,12 +1121,27 @@ model Paper2017{
             	-authors->author2283278728
             	-authors->author2152400748
             }
+	paper2573314574:Paper {
+                .title : "Decision spaces in product lines decision analysis and design exploration an interdisciplinary exploratory study"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue376
+            	-cites->paper1570173564
+            	-cites->paper1968560832
+            	-cites->paper2074558871
+            	-cites->paper2125398918
+            	-cites->paper2160998628
+            	-authors->author128476595
+            	-authors->author2277307207
+            	-authors->author2016710505
+            }
 	paper2582408300:Paper {
                 .title : "Relationship Maintenance in Software Language Repositories"
             	.year : 2017
             	.core : false
             	.relevance:false
-            	-venue->venue745
+            	-venue->venue4007
             	-authors->author1921302331
             }
 	paper2588871586:Paper {
@@ -985,9 +1149,10 @@ model Paper2017{
             	.year : 2017
             	.core : false
             	.relevance:false
-            	-venue->venue2852
+            	-venue->venue4012
             	-cites->paper1430872261
             	-cites->paper1525350307
+            	-cites->paper1544662935
             	-cites->paper1547285994
             	-cites->paper1808398105
             	-cites->paper1877513498
@@ -998,6 +1163,8 @@ model Paper2017{
             	-cites->paper2025301734
             	-cites->paper2029601347
             	-cites->paper2091085450
+            	-cites->paper2099401177
+            	-cites->paper2101939036
             	-cites->paper2104245532
             	-cites->paper2111706174
             	-cites->paper2130553247
@@ -1014,7 +1181,7 @@ model Paper2017{
             	.year : 2017
             	.core : false
             	.relevance:false
-            	-venue->venue482
+            	-venue->venue663
             	-authors->author1630443851
             	-authors->author2703851154
             	-authors->author2591861673
@@ -1025,19 +1192,112 @@ model Paper2017{
             	.year : 2017
             	.core : false
             	.relevance:false
-            	-venue->venue482
+            	-venue->venue663
             	-authors->author235647753
             	-authors->author2163115350
             	-authors->author1921302331
+            }
+	paper2594259325:Paper {
+                .title : "Uncertaintywise evolution of test ready models"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue1624
+            	-cites->paper1564262173
+            	-cites->paper2026252407
+            	-cites->paper2103318645
+            	-cites->paper2127229029
+            	-cites->paper2142973056
+            	-authors->author2332852696
+            	-authors->author2593662132
+            	-authors->author2209258679
+            	-authors->author2236275875
+            }
+	paper2597746149:Paper {
+                .title : "CSWRL SWRL for Reasoning over Stream Data"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue4017
+            	-cites->paper1978947899
+            	-cites->paper2116502002
+            	-cites->paper2140044869
+            	-cites->paper2221822642
+            	-authors->author344110424
+            	-authors->author2292658618
+            }
+	paper2600599962:Paper {
+                .title : "Managing DesignTime Uncertainty"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue40
+            	-cites->paper24569603
+            	-cites->paper99545732
+            	-cites->paper198287998
+            	-cites->paper968713204
+            	-cites->paper1505090407
+            	-cites->paper1507387197
+            	-cites->paper1512360405
+            	-cites->paper1514052250
+            	-cites->paper1521011607
+            	-cites->paper1536631555
+            	-cites->paper1558527408
+            	-cites->paper1570173564
+            	-cites->paper1759712729
+            	-cites->paper1820309519
+            	-cites->paper1853034543
+            	-cites->paper1859458367
+            	-cites->paper1886563687
+            	-cites->paper1963576381
+            	-cites->paper1965306413
+            	-cites->paper1978519707
+            	-cites->paper2003053377
+            	-cites->paper2017167760
+            	-cites->paper2028369901
+            	-cites->paper2034568273
+            	-cites->paper2037493585
+            	-cites->paper2046216252
+            	-cites->paper2046371801
+            	-cites->paper2047003964
+            	-cites->paper2057679337
+            	-cites->paper2070929035
+            	-cites->paper2089881021
+            	-cites->paper2094819373
+            	-cites->paper2096430893
+            	-cites->paper2101832700
+            	-cites->paper2106447076
+            	-cites->paper2110143060
+            	-cites->paper2114990295
+            	-cites->paper2120240460
+            	-cites->paper2121061989
+            	-cites->paper2122185633
+            	-cites->paper2125739093
+            	-cites->paper2125822162
+            	-cites->paper2125853721
+            	-cites->paper2129492722
+            	-cites->paper2130195901
+            	-cites->paper2137351629
+            	-cites->paper2143040687
+            	-cites->paper2150767046
+            	-cites->paper2156806988
+            	-cites->paper2160325552
+            	-cites->paper2225615039
+            	-cites->paper2578157505
+            	-cites->paper2767407390
+            	-authors->author2032435099
+            	-authors->author511866907
             }
 	paper2600952128:Paper {
                 .title : "Riskaverse slopebased thresholds Definition and empirical evaluation"
             	.year : 2017
             	.core : false
             	.relevance:false
-            	-venue->venue1254
+            	-venue->venue1624
             	-cites->paper1342665
             	-cites->paper1919928684
+            	-cites->paper1964962870
+            	-cites->paper1973948212
             	-cites->paper2023931799
             	-cites->paper2039444730
             	-cites->paper2088117279
@@ -1047,6 +1307,7 @@ model Paper2017{
             	-cites->paper2163279690
             	-cites->paper2399345145
             	-cites->paper2509913888
+            	-cites->paper2522788916
             	-authors->author2021480045
             	-authors->author2310896500
             }
@@ -1055,7 +1316,7 @@ model Paper2017{
             	.year : 2017
             	.core : false
             	.relevance:false
-            	-venue->venue2859
+            	-venue->venue4021
             	-authors->author1576900243
             	-authors->author1803786443
             }
@@ -1096,6 +1357,7 @@ model Paper2017{
             	-cites->paper2060440626
             	-cites->paper2105945277
             	-cites->paper2111858071
+            	-cites->paper2139553864
             	-cites->paper2152390090
             	-cites->paper2152885346
             	-cites->paper2153636750
@@ -1104,7 +1366,7 @@ model Paper2017{
             	-cites->paper2553522901
             	-authors->author2611043312
             	-authors->author2029293479
-            	-authors->author2694766508
+            	-authors->author2130669734
             	-authors->author2440755850
             }
 	paper2605347441:Paper {
@@ -1112,37 +1374,19 @@ model Paper2017{
             	.year : 2017
             	.core : false
             	.relevance:false
-            	-venue->venue2065
+            	-venue->venue2894
             	-cites->paper2474022715
             	-authors->author140057078
             	-authors->author2789011428
-            	-authors->author2571291364
-            	-authors->author2788441061
-            }
-	paper2612065447:Paper {
-                .title : "A Posteriori Typing for ModelDriven Engineering Concepts Analysis and Applications"
-            	.year : 2017
-            	.core : false
-            	.relevance:true
-            	-venue->venue965
-            	-cites->paper1838876590
-            	-cites->paper1895387792
-            	-cites->paper2044463389
-            	-cites->paper2045723688
-            	-cites->paper2060440626
-            	-cites->paper2087486361
-            	-cites->paper2094691937
-            	-cites->paper2162425337
-            	-cites->paper2176614894
-            	-authors->author2160674753
-            	-authors->author2108412495
+            	-authors->author2918709753
+            	-authors->author2974138512
             }
 	paper2612911770:Paper {
                 .title : "Integrating Modeling Languages and Web Logs for Enhanced User Behavior Analytics"
             	.year : 2017
             	.core : false
             	.relevance:false
-            	-venue->venue1430
+            	-venue->venue391
             	-authors->author2089757171
             	-authors->author1991778634
             	-authors->author2119227860
@@ -1154,15 +1398,32 @@ model Paper2017{
             	.year : 2017
             	.core : false
             	.relevance:false
-            	-venue->venue1287
+            	-venue->venue372
             	-cites->paper202080076
             	-cites->paper1499512708
+            	-cites->paper1564633100
             	-cites->paper2018140906
             	-cites->paper2293045535
             	-authors->author2089757171
             	-authors->author1991778634
             	-authors->author2119227860
             	-authors->author2130349106
+            }
+	paper2618731789:Paper {
+                .title : "PEoPL projectional editing of product lines"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue5
+            	-cites->paper188179498
+            	-cites->paper1591471358
+            	-cites->paper2103953153
+            	-cites->paper2107232214
+            	-cites->paper2131110154
+            	-cites->paper2144179818
+            	-authors->author1989316434
+            	-authors->author2106422313
+            	-authors->author2620104042
             }
 	paper2621155700:Paper {
                 .title : "Envisioning the future of collaborative modeldriven software engineering"
@@ -1226,6 +1487,7 @@ model Paper2017{
             	-cites->paper1997576530
             	-cites->paper2014708731
             	-cites->paper2021211271
+            	-cites->paper2045867114
             	-cites->paper2054391605
             	-cites->paper2078994750
             	-cites->paper2080592089
@@ -1242,6 +1504,7 @@ model Paper2017{
             	-cites->paper2158551169
             	-cites->paper2160963348
             	-cites->paper2164264749
+            	-cites->paper2165365531
             	-cites->paper2170382128
             	-cites->paper2176864362
             	-cites->paper2177772636
@@ -1261,7 +1524,7 @@ model Paper2017{
             	.year : 2017
             	.core : false
             	.relevance:false
-            	-venue->venue614
+            	-venue->venue528
             	-cites->paper1035875811
             	-cites->paper1480909796
             	-cites->paper1486745608
@@ -1293,8 +1556,9 @@ model Paper2017{
             	.year : 2017
             	.core : false
             	.relevance:false
-            	-venue->venue350
+            	-venue->venue468
             	-cites->paper178138771
+            	-cites->paper200623142
             	-cites->paper1021521453
             	-cites->paper1681015847
             	-cites->paper1858035675
@@ -1312,7 +1576,7 @@ model Paper2017{
             	.year : 2017
             	.core : false
             	.relevance:false
-            	-venue->venue751
+            	-venue->venue1045
             	-cites->paper150016039
             	-cites->paper1519503479
             	-cites->paper1895387792
@@ -1329,14 +1593,28 @@ model Paper2017{
             	.relevance:true
             	-venue->venue5
             	-cites->paper1862398452
+            	-cites->paper1886563687
             	-cites->paper2018800706
             	-cites->paper2028369901
             	-cites->paper2054104130
+            	-cites->paper2133859873
             	-cites->paper2525656308
             	-authors->author2024396717
             	-authors->author42474489
             	-authors->author1780361130
             	-authors->author2088725692
+            }
+	paper2745087117:Paper {
+                .title : "VuRLE Automatic Vulnerability Detection and Repair by Learning from Examples"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue32
+            	-authors->author2308301262
+            	-authors->author1011742574
+            	-authors->author2017041730
+            	-authors->author2132927693
+            	-authors->author2062283694
             }
 	paper2745766115:Paper {
                 .title : "Synthetic data generation for statistical testing"
@@ -1357,7 +1635,7 @@ model Paper2017{
             	.year : 2017
             	.core : false
             	.relevance:false
-            	-venue->venue352
+            	-venue->venue533
             	-authors->author151827428
             	-authors->author2155833130
             }
@@ -1367,6 +1645,7 @@ model Paper2017{
             	.core : false
             	.relevance:true
             	-venue->venue40
+            	-cites->paper1650869244
             	-cites->paper1991633729
             	-cites->paper2025624633
             	-cites->paper2055016397
@@ -1378,45 +1657,9 @@ model Paper2017{
             	.year : 2017
             	.core : false
             	.relevance:false
-            	-venue->venue2889
+            	-venue->venue4058
             	-authors->author2767406042
             	-authors->author2767321794
-            }
-	paper2769194423:Paper {
-                .title : "Simplifying ARM concurrency multicopyatomic axiomatic and operational models for ARMv"
-            	.year : 2017
-            	.core : false
-            	.relevance:false
-            	-venue->venue161
-            	-cites->paper1525350307
-            	-cites->paper1545792627
-            	-cites->paper1594228127
-            	-cites->paper1808398105
-            	-cites->paper1822674892
-            	-cites->paper1995825057
-            	-cites->paper2003556922
-            	-cites->paper2026161190
-            	-cites->paper2026697016
-            	-cites->paper2105980774
-            	-cites->paper2111858071
-            	-cites->paper2116454140
-            	-cites->paper2117502039
-            	-cites->paper2138074470
-            	-cites->paper2155006989
-            	-cites->paper2163490397
-            	-cites->paper2234646418
-            	-cites->paper2280574045
-            	-cites->paper2293159724
-            	-cites->paper2553522901
-            	-cites->paper2564852534
-            	-cites->paper2605308338
-            	-cites->paper2738891045
-            	-authors->author2083313206
-            	-authors->author2344341496
-            	-authors->author2083541332
-            	-authors->author2344019585
-            	-authors->author2130034569
-            	-authors->author2770553429
             }
 	paper2782845488:Paper {
                 .title : "ProcessAware Modeldriven Development Environments"
@@ -1437,7 +1680,10 @@ model Paper2017{
             	.year : 2017
             	.core : false
             	.relevance:false
-            	-venue->venue2894
+            	-venue->venue4062
+            	-cites->paper1838876590
+            	-cites->paper2404647912
+            	-cites->paper2578157505
             	-authors->author150610930
             	-authors->author2045058881
             }
@@ -1451,6 +1697,85 @@ model Paper2017{
             	-authors->author2156588810
             	-authors->author1780361130
             	-authors->author2467890906
+            }
+	paper2769194423:Paper {
+                .title : "Simplifying ARM concurrency multicopyatomic axiomatic and operational models for ARMv"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue4072
+            	-cites->paper1525350307
+            	-cites->paper1545792627
+            	-cites->paper1594228127
+            	-cites->paper1808398105
+            	-cites->paper1822674892
+            	-cites->paper1995825057
+            	-cites->paper2001914359
+            	-cites->paper2003556922
+            	-cites->paper2026161190
+            	-cites->paper2026697016
+            	-cites->paper2105980774
+            	-cites->paper2111858071
+            	-cites->paper2116454140
+            	-cites->paper2117502039
+            	-cites->paper2138074470
+            	-cites->paper2155006989
+            	-cites->paper2163490397
+            	-cites->paper2234646418
+            	-cites->paper2280574045
+            	-cites->paper2293159724
+            	-cites->paper2553522901
+            	-cites->paper2564852534
+            	-cites->paper2605308338
+            	-authors->author2083313206
+            	-authors->author2344341496
+            	-authors->author2083541332
+            	-authors->author2344019585
+            	-authors->author2130034569
+            	-authors->author2770553429
+            }
+	paper2292447407:Paper {
+                .title : "On the completeness of bounded model checking for thresholdbased distributed algorithms"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue1462
+            	-cites->paper1021521453
+            	-cites->paper1531261972
+            	-cites->paper1554005697
+            	-cites->paper1597578789
+            	-cites->paper1787074469
+            	-cites->paper1973501242
+            	-cites->paper2073126252
+            	-cites->paper2113100977
+            	-cites->paper2122326479
+            	-cites->paper2133943294
+            	-cites->paper2414818575
+            	-cites->paper2611515161
+            	-cites->paper2611863566
+            	-authors->author1957630520
+            	-authors->author1976817768
+            	-authors->author692701391
+            }
+	paper2612065447:Paper {
+                .title : "A Posteriori Typing for ModelDriven Engineering Concepts Analysis and Applications"
+            	.year : 2017
+            	.core : false
+            	.relevance:true
+            	-venue->venue1307
+            	-cites->paper1511832825
+            	-cites->paper1838876590
+            	-cites->paper1895387792
+            	-cites->paper1975411983
+            	-cites->paper2044463389
+            	-cites->paper2045723688
+            	-cites->paper2060440626
+            	-cites->paper2087486361
+            	-cites->paper2094691937
+            	-cites->paper2162425337
+            	-cites->paper2176614894
+            	-authors->author2160674753
+            	-authors->author2108412495
             }
 }
 

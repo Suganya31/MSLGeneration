@@ -32,26 +32,29 @@ import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2020.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1995.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1986.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1987.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1988.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1993.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1982.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1983.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1976.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1995.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1982.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1987.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1986.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1988.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1993.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1984.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1978.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1976.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1979.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1980.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1941.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1984.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1974.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1968.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1979.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1962.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1974.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1967.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1970.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1959.msl"
  	
 model Paper1985{
 	paper1485360759:Paper {
@@ -59,26 +62,34 @@ model Paper1985{
             	.year : 1985
             	.core : false
             	.relevance:false
-            	-venue->venue406
+            	-venue->venue447
             	-cites->paper2110050316
-            	-authors->author2893703988
-            	-authors->author2892485412
+            	-authors->author2156392993
             	-authors->author2195479640
+            	-authors->author2986744040
             }
 	paper1492836761:Paper {
                 .title : "The Translation of a Cobol Data Structure to an EntityRelationship Type Conceptual Schema"
             	.year : 1985
             	.core : false
             	.relevance:false
-            	-venue->venue431
+            	-venue->venue597
             	-authors->author2709264529
+            }
+	paper1569083856:Paper {
+                .title : "Identitybased cryptosystems and signature schemes"
+            	.year : 1985
+            	.core : false
+            	.relevance:false
+            	-venue->venue606
+            	-authors->author2201755339
             }
 	paper1586441963:Paper {
                 .title : "A Methodology for Translating a Conventional File System into an EntityRelationship Model"
             	.year : 1985
             	.core : false
             	.relevance:false
-            	-venue->venue431
+            	-venue->venue597
             	-authors->author2706069882
             	-authors->author2612593125
             }
@@ -90,8 +101,8 @@ model Paper1985{
             	-venue->venue99
             	-authors->author270493864
             	-authors->author2157004640
-            	-authors->author2305403355
             	-authors->author2572279826
+            	-authors->author2664360864
             	-authors->author2314925894
             	-authors->author2087561759
             }
@@ -100,18 +111,28 @@ model Paper1985{
             	.year : 1985
             	.core : false
             	.relevance:false
-            	-venue->venue983
+            	-venue->venue1331
             	-cites->paper1971991620
             	-cites->paper2133201251
+            	-authors->author2973466315
             	-authors->author2395978466
-            	-authors->author2099736964
+            }
+	paper2027657506:Paper {
+                .title : "On understanding types data abstraction and polymorphism"
+            	.year : 1985
+            	.core : false
+            	.relevance:false
+            	-venue->venue1305
+            	-cites->paper1491178396
+            	-authors->author331751290
+            	-authors->author2024290158
             }
 	paper2035362408:Paper {
                 .title : "Impossibility of distributed consensus with one faulty process"
             	.year : 1985
             	.core : false
             	.relevance:false
-            	-venue->venue946
+            	-venue->venue1282
             	-cites->paper2120510885
             	-authors->author2159593723
             	-authors->author2180706138
@@ -122,7 +143,7 @@ model Paper1985{
             	.year : 1985
             	.core : false
             	.relevance:false
-            	-venue->venue946
+            	-venue->venue1282
             	-cites->paper2035362408
             	-cites->paper2120510885
             	-authors->author2243542401
@@ -133,20 +154,21 @@ model Paper1985{
             	.year : 1985
             	.core : false
             	.relevance:false
-            	-venue->venue1057
+            	-venue->venue1446
             	-cites->paper2120510885
             	-authors->author2159593723
             	-authors->author2180706138
             	-authors->author2155118037
             }
-	paper2110425399:Paper {
-                .title : "Communicating Sequential Processes"
+	paper2099624917:Paper {
+                .title : "Matchmaker an interface specification language for distributed processing"
             	.year : 1985
             	.core : false
             	.relevance:false
-            	-venue->venue0
-            	-cites->paper2110050316
-            	-authors->author2052847585
+            	-venue->venue161
+            	-authors->author2778764073
+            	-authors->author2144835570
+            	-authors->author2480531017
             }
 	paper2111223826:Paper {
                 .title : "The ITC distributed file system principles and design"
@@ -189,20 +211,34 @@ model Paper1985{
             	.year : 1985
             	.core : false
             	.relevance:false
-            	-venue->venue946
+            	-venue->venue1282
             	-cites->paper2120510885
             	-authors->author2664049581
             	-authors->author2096750770
             }
-	paper2134806330:Paper {
-                .title : "Distributed process groups in the V Kernel"
+	paper2132159669:Paper {
+                .title : "The IBM Research Parallel Processor Prototype RP Introduction and Architecture"
             	.year : 1985
             	.core : false
             	.relevance:false
-            	-venue->venue1000
-            	-cites->paper2120510885
-            	-authors->author2071592122
-            	-authors->author2290999210
+            	-venue->venue463
+            	-authors->author2672215875
+            	-authors->author2167817883
+            	-authors->author2231878655
+            	-authors->author2692512591
+            	-authors->author2054297945
+            	-authors->author2396570666
+            	-authors->author2401377859
+            	-authors->author2122501118
+            	-authors->author2308279524
+            }
+	paper2133633001:Paper {
+                .title : "PECAN Program Development Systems that Support Multiple Views"
+            	.year : 1985
+            	.core : false
+            	.relevance:false
+            	-venue->venue1331
+            	-authors->author693769535
             }
 	paper2155847110:Paper {
                 .title : "Host groups a multicast extension for datagram internetworks"
@@ -220,8 +256,67 @@ model Paper1985{
             	.year : 1985
             	.core : false
             	.relevance:false
-            	-venue->venue933
+            	-venue->venue1091
             	-authors->author2498316895
+            }
+	paper2165161585:Paper {
+                .title : "Automatic verification of probabilistic concurrent finite state programs"
+            	.year : 1985
+            	.core : false
+            	.relevance:false
+            	-venue->venue374
+            	-authors->author1970575723
+            }
+	paper2171242934:Paper {
+                .title : "Software Reliability Models Assumptions Limitations and Applicability"
+            	.year : 1985
+            	.core : false
+            	.relevance:false
+            	-venue->venue1331
+            	-cites->paper2170105447
+            	-authors->author2125252530
+            }
+	paper2173501262:Paper {
+                .title : "Implementation of precise interrupts in pipelined processors"
+            	.year : 1985
+            	.core : false
+            	.relevance:false
+            	-venue->venue143
+            	-authors->author2792136276
+            	-authors->author2251004466
+            }
+	paper2134806330:Paper {
+                .title : "Distributed process groups in the V Kernel"
+            	.year : 1985
+            	.core : false
+            	.relevance:false
+            	-venue->venue1364
+            	-cites->paper2120510885
+            	-authors->author2071592122
+            	-authors->author2290999210
+            }
+	paper2110425399:Paper {
+                .title : "Communicating Sequential Processes"
+            	.year : 1985
+            	.core : false
+            	.relevance:false
+            	-venue->venue0
+            	-cites->paper2110050316
+            	-authors->author2052847585
+            }
+	paper2048071586:Paper {
+                .title : "Consistency in a partitioned network a survey"
+            	.year : 1985
+            	.core : false
+            	.relevance:false
+            	-venue->venue1305
+            	-cites->paper1973501242
+            	-cites->paper2106887953
+            	-cites->paper2110765100
+            	-cites->paper2133386065
+            	-authors->author2945696603
+            	-authors->author2097328450
+            	-authors->author237419955
             }
 }
 

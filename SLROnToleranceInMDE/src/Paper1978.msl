@@ -32,34 +32,46 @@ import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2020.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1995.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1986.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1987.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1988.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1993.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1982.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1983.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1976.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1995.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1982.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1987.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1986.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1988.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1993.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1984.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1978.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1976.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1979.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1980.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1941.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1984.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1974.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1968.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1979.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1962.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1974.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1967.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1970.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1959.msl"
  	
 model Paper1978{
+	paper1769402780:Paper {
+                .title : "A New Solution to Coherence Problems in Multicache Systems"
+            	.year : 1978
+            	.core : false
+            	.relevance:false
+            	-venue->venue1091
+            	-authors->author213128777
+            	-authors->author666264035
+            }
 	paper1968054699:Paper {
                 .title : "Reliability Issues in Computing System Design"
             	.year : 1978
             	.core : false
             	.relevance:false
-            	-venue->venue963
+            	-venue->venue1305
             	-cites->paper2047924755
             	-cites->paper2133201251
             	-authors->author2029293694
@@ -71,15 +83,33 @@ model Paper1978{
             	.year : 1978
             	.core : false
             	.relevance:false
-            	-venue->venue1007
+            	-venue->venue763
             	-authors->author2096750770
+            }
+	paper2011762419:Paper {
+                .title : "Testing Software Design Modeled by FiniteState Machines"
+            	.year : 1978
+            	.core : false
+            	.relevance:false
+            	-venue->venue1331
+            	-authors->author2677455814
+            }
+	paper2049695835:Paper {
+                .title : "Hints on Test Data Selection Help for the Practicing Programmer"
+            	.year : 1978
+            	.core : false
+            	.relevance:false
+            	-venue->venue1073
+            	-authors->author2237868232
+            	-authors->author2585219341
+            	-authors->author85310976
             }
 	paper2075350371:Paper {
                 .title : "Soundness and Completeness of an Axiom System for Program Verification"
             	.year : 1978
             	.core : false
             	.relevance:false
-            	-venue->venue1096
+            	-venue->venue1494
             	-authors->author2098910421
             }
 	paper2106887953:Paper {
@@ -87,8 +117,17 @@ model Paper1978{
             	.year : 1978
             	.core : false
             	.relevance:false
-            	-venue->venue654
+            	-venue->venue2660
             	-authors->author2131537204
+            }
+	paper2132661148:Paper {
+                .title : "Automatic discovery of linear restraints among variables of a program"
+            	.year : 1978
+            	.core : false
+            	.relevance:false
+            	-venue->venue161
+            	-authors->author2148533322
+            	-authors->author2257050880
             }
 }
 

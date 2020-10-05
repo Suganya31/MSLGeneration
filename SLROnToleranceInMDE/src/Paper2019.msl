@@ -32,26 +32,29 @@ import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2020.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1995.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1986.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1987.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1988.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1993.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1982.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1983.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1976.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1995.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1982.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1987.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1986.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1988.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1993.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1984.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1978.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1976.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1979.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1980.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1941.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1984.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1974.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1968.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1979.msl"
-import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1962.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1974.msl"
 import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1967.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1970.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1959.msl"
  	
 model Paper2019{
 	paper2922446935:Paper {
@@ -61,11 +64,15 @@ model Paper2019{
             	.relevance:false
             	-venue->venue11
             	-cites->paper178138771
+            	-cites->paper186540455
+            	-cites->paper200623142
             	-cites->paper1021521453
             	-cites->paper1480909796
+            	-cites->paper1531261972
             	-cites->paper1554005697
             	-cites->paper1597578789
             	-cites->paper1787074469
+            	-cites->paper2001315747
             	-cites->paper2010075998
             	-cites->paper2035362408
             	-cites->paper2056910803
@@ -75,12 +82,14 @@ model Paper2019{
             	-cites->paper2162786453
             	-cites->paper2292447407
             	-cites->paper2296248291
+            	-cites->paper2414818575
             	-cites->paper2518474658
             	-cites->paper2611515161
             	-cites->paper2611863566
             	-cites->paper2735459691
             	-cites->paper2779460099
             	-cites->paper2889201126
+            	-cites->paper2953280466
             	-authors->author2780864794
             	-authors->author1957630520
             	-authors->author2331520953
@@ -97,10 +106,12 @@ model Paper2019{
             	-cites->paper1519503479
             	-cites->paper1519576952
             	-cites->paper1525350307
+            	-cites->paper1581575676
             	-cites->paper1595209293
             	-cites->paper1808398105
             	-cites->paper1945229733
             	-cites->paper1968283843
+            	-cites->paper1972619218
             	-cites->paper2000659103
             	-cites->paper2026161190
             	-cites->paper2054391605
@@ -112,6 +123,7 @@ model Paper2019{
             	-cites->paper2150618958
             	-cites->paper2153636750
             	-cites->paper2236227338
+            	-cites->paper2256363745
             	-cites->paper2301631282
             	-cites->paper2507977852
             	-cites->paper2553522901
@@ -133,18 +145,23 @@ model Paper2019{
             	-venue->venue288
             	-cites->paper1342665
             	-cites->paper1919928684
+            	-cites->paper1964962870
             	-cites->paper1973112705
+            	-cites->paper1973948212
             	-cites->paper2023931799
             	-cites->paper2028246616
             	-cites->paper2039444730
+            	-cites->paper2074805796
             	-cites->paper2076983043
             	-cites->paper2088117279
             	-cites->paper2099794800
             	-cites->paper2122402375
+            	-cites->paper2125055259
             	-cites->paper2151666086
             	-cites->paper2163279690
             	-cites->paper2399345145
             	-cites->paper2509913888
+            	-cites->paper2522788916
             	-cites->paper2600952128
             	-authors->author2021480045
             	-authors->author2310896500
@@ -167,10 +184,12 @@ model Paper2019{
             	-cites->paper2103364805
             	-cites->paper2121061989
             	-cites->paper2126443444
+            	-cites->paper2162968794
             	-cites->paper2352369207
             	-cites->paper2412353202
             	-cites->paper2548921736
             	-cites->paper2745766115
+            	-cites->paper2787691610
             	-cites->paper2795021132
             	-cites->paper2796271057
             	-authors->author2955303277
@@ -184,23 +203,28 @@ model Paper2019{
             	.core : true
             	.relevance:true
             	-venue->venue5
+            	-cites->paper92192699
             	-cites->paper179875050
             	-cites->paper1486172410
             	-cites->paper1498432697
+            	-cites->paper1592393183
             	-cites->paper1594006286
             	-cites->paper1812243426
             	-cites->paper1969671537
             	-cites->paper1977607979
             	-cites->paper1987382793
+            	-cites->paper2005998857
             	-cites->paper2029775954
             	-cites->paper2047124398
             	-cites->paper2108394166
             	-cites->paper2110425399
             	-cites->paper2119296494
+            	-cites->paper2130966309
             	-cites->paper2139980321
             	-cites->paper2144956041
             	-cites->paper2154897437
             	-cites->paper2156062584
+            	-cites->paper2736752497
             	-cites->paper2767846364
             	-authors->author2973153021
             	-authors->author2955064162
@@ -221,6 +245,16 @@ model Paper2019{
             	.core : true
             	.relevance:false
             	-venue->venue253
+            	-cites->paper1589846406
+            	-cites->paper1819513546
+            	-cites->paper2006553873
+            	-cites->paper2053342672
+            	-cites->paper2135988418
+            	-cites->paper2156580773
+            	-cites->paper2295506186
+            	-cites->paper2311567330
+            	-cites->paper2397661077
+            	-cites->paper2529101939
             	-authors->author2982614356
             	-authors->author2969412840
             }
@@ -240,6 +274,12 @@ model Paper2019{
             	.core : true
             	.relevance:false
             	-venue->venue130
+            	-cites->paper1952300823
+            	-cites->paper2047589674
+            	-cites->paper2074122741
+            	-cites->paper2134183028
+            	-cites->paper2148936942
+            	-cites->paper2567465430
             	-authors->author2133649610
             	-authors->author190766084
             	-authors->author1930234444
@@ -253,6 +293,26 @@ model Paper2019{
             	-authors->author138450541
             	-authors->author2128095825
             	-authors->author2736001160
+            }
+	paper2736727838:Paper {
+                .title : "UncertaintyWise CyberPhysical System test modeling"
+            	.year : 2019
+            	.core : false
+            	.relevance:false
+            	-venue->venue533
+            	-cites->paper1536631555
+            	-cites->paper1564262173
+            	-cites->paper1898259180
+            	-cites->paper1978519707
+            	-cites->paper2066843515
+            	-cites->paper2121061989
+            	-cites->paper2122518432
+            	-cites->paper2169239645
+            	-authors->author2332852696
+            	-authors->author2209258679
+            	-authors->author2565502311
+            	-authors->author2564232279
+            	-authors->author2236275875
             }
 }
 
