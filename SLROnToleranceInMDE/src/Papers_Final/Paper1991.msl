@@ -1,0 +1,561 @@
+import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Authors.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2013.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2014.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2011.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2006.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2003.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2004.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2009.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2000.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2012.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2015.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1997.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2010.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1999.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2001.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1998.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2007.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1989.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1991.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1992.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2002.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1990.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2016.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2017.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2018.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2020.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1983.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1995.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1982.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1987.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1986.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1988.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1993.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1984.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1978.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1976.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1979.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1980.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1941.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1968.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1974.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1967.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1970.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1959.msl"
+ 	
+model Paper1991{
+	paper2096956970:Paper {
+                .title : "Performance evaluation of memory consistency models for sharedmemory multiprocessors"
+            	.year : 1991
+            	.core : true
+            	.relevance:false
+            	-venue->venue
+            	-cites->paper188011807
+            	-cites->paper1569626261
+            	-cites->paper2054739713
+            	-cites->paper2078081736
+            	-cites->paper2107642570
+            	-cites->paper2132159669
+            	-cites->paper2152390090
+            	-cites->paper2152496451
+            	-cites->paper2153904572
+            	-cites->paper2163820265
+            	-cites->paper2168266481
+            	-cites->paper2176864362
+            	-cites->paper2177772636
+            	-authors->author2514122770
+            	-authors->author190482092
+            	-authors->author1965698830
+            }
+	paper2108380551:Paper {
+                .title : "SOFTON a flexible software construction model by interface mediation"
+            	.year : 1991
+            	.core : true
+            	.relevance:false
+            	-venue->venue
+            	-cites->paper2012408028
+            	-cites->paper2027657506
+            	-cites->paper2041042883
+            	-cites->paper2099624917
+            	-cites->paper2102682285
+            	-cites->paper2141838021
+            	-cites->paper2144836746
+            	-authors->author2974732982
+            	-authors->author2974921780
+            }
+	paper3304985:Paper {
+                .title : "SystemZ a formalism for reasoning with variablestrength defaults"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue
+            	-cites->paper2159080219
+            	-authors->author2609187939
+            	-authors->author2248165042
+            }
+	paper8399591:Paper {
+                .title : "Efficient Simulation of Parallel Computer Systems"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue357
+            	-authors->author2253748341
+            	-authors->author2399100309
+            	-authors->author19214967
+            	-authors->author2974328490
+            	-authors->author2973773399
+            }
+	paper59877344:Paper {
+                .title : "Semantic Issues in Multidatabase Systems  Preface by the Special Issue Editor"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue398
+            	-authors->author2295682018
+            }
+	paper171088060:Paper {
+                .title : "On Synchronization Patterns in Parallel Programs"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue463
+            	-authors->author2287748599
+            	-authors->author1268446974
+            }
+	paper1514052250:Paper {
+                .title : "A Concept of Hierarchical Petri Nets with Building Blocks"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue
+            	-authors->author2276448551
+            }
+	paper1885534640:Paper {
+                .title : "Two Techniques to Enhance the Performance of Memory Consistency Models"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue463
+            	-cites->paper188011807
+            	-cites->paper1569626261
+            	-cites->paper2054739713
+            	-cites->paper2078081736
+            	-cites->paper2096956970
+            	-cites->paper2107642570
+            	-cites->paper2152390090
+            	-cites->paper2153904572
+            	-cites->paper2163820265
+            	-cites->paper2173501262
+            	-cites->paper2176864362
+            	-cites->paper2177772636
+            	-authors->author2514122770
+            	-authors->author190482092
+            	-authors->author1965698830
+            }
+	paper1991650436:Paper {
+                .title : "Software risk management principles and practices"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue1294
+            	-authors->author2068686281
+            }
+	paper2007567551:Paper {
+                .title : "The Amoeba distributed operating systema status report"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue1609
+            	-cites->paper1532915129
+            	-cites->paper2005373714
+            	-authors->author2111822219
+            	-authors->author2761173109
+            	-authors->author2698714706
+            	-authors->author2068854845
+            }
+	paper2050171146:Paper {
+                .title : "On the representation and querying of sets of possible worlds"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue
+            	-cites->paper1990391007
+            	-cites->paper2098395122
+            	-authors->author1605907091
+            	-authors->author172400696
+            	-authors->author2035018311
+            }
+	paper2052100091:Paper {
+                .title : "Using structured types to incorporate knowledge in hypertext"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue
+            	-authors->author2309614034
+            	-authors->author2707319422
+            }
+	paper2060903226:Paper {
+                .title : "Questions options and criteria elements of design space analysis"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue713
+            	-cites->paper2158046522
+            	-authors->author2077728910
+            	-authors->author2656155071
+            	-authors->author2135540066
+            	-authors->author2472461130
+            }
+	paper2072373191:Paper {
+                .title : "Updating knowledge bases II"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue1507
+            	-cites->paper1589487547
+            	-cites->paper1986329319
+            	-cites->paper2118900391
+            	-authors->author2163391027
+            	-authors->author2422275600
+            }
+	paper2078081736:Paper {
+                .title : "Tolerating latency through softwarecontrolled prefetching in sharedmemory multiprocessors"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue2053
+            	-cites->paper188011807
+            	-cites->paper2152390090
+            	-cites->paper2152496451
+            	-cites->paper2153904572
+            	-cites->paper2163820265
+            	-cites->paper2176864362
+            	-authors->author2514122770
+            	-authors->author40863599
+            }
+	paper2090783325:Paper {
+                .title : "A modular architecture for constraint logic programming"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue2423
+            	-cites->paper2135432705
+            	-authors->author2110538291
+            	-authors->author2633267068
+            }
+	paper2101377877:Paper {
+                .title : "Comparative evaluation of latency reducing and tolerating techniques"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue
+            	-cites->paper2054739713
+            	-cites->paper2078081736
+            	-cites->paper2096956970
+            	-cites->paper2132159669
+            	-cites->paper2152390090
+            	-cites->paper2152496451
+            	-cites->paper2153904572
+            	-cites->paper2163820265
+            	-cites->paper2176864362
+            	-cites->paper2177772636
+            	-authors->author2514122770
+            	-authors->author40863599
+            	-authors->author2213475343
+            	-authors->author190482092
+            	-authors->author1965698830
+            }
+	paper2117600460:Paper {
+                .title : "Why is software late An empirical study of reasons for delay in software development"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue1331
+            	-authors->author2741411572
+            }
+	paper2123737479:Paper {
+                .title : "Efficient dissemination of information in computer networks"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue
+            	-cites->paper1545155892
+            	-cites->paper1973501242
+            	-cites->paper2038562061
+            	-cites->paper2048071586
+            	-cites->paper2087668037
+            	-cites->paper2110765100
+            	-authors->author2169544959
+            	-authors->author2685482160
+            }
+	paper2125086691:Paper {
+                .title : "Functional characterization of fault tolerant integration in distributed sensor networks"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue772
+            	-authors->author2346493798
+            	-authors->author2128912965
+            	-authors->author2805475450
+            	-authors->author2326873480
+            }
+	paper2125500714:Paper {
+                .title : "Specification and refinement of probabilistic processes"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue1214
+            	-cites->paper198287998
+            	-cites->paper2110425399
+            	-cites->paper2125739093
+            	-cites->paper2148106163
+            	-authors->author2285498729
+            	-authors->author2146581609
+            }
+	paper2132107743:Paper {
+                .title : "The existence of refinement mappings"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue
+            	-cites->paper1984478483
+            	-cites->paper2132334337
+            	-authors->author2162106674
+            	-authors->author2096750770
+            }
+	paper2132132498:Paper {
+                .title : "A method for software reliability analysis and prediction application to the TROPICOR switching system"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue1331
+            	-cites->paper2013498813
+            	-authors->author687016
+            	-authors->author2633896870
+            	-authors->author2599694179
+            }
+	paper2135490787:Paper {
+                .title : "Objectbehavior diagrams"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue1395
+            	-cites->paper2113827629
+            	-authors->author2141782809
+            	-authors->author2242930301
+            }
+	paper2143246735:Paper {
+                .title : "Racefree interconnection networks and multiprocessor consistency"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue
+            	-cites->paper1569626261
+            	-cites->paper2051789131
+            	-cites->paper2054739713
+            	-cites->paper2096956970
+            	-cites->paper2152390090
+            	-cites->paper2153904572
+            	-cites->paper2176864362
+            	-cites->paper2177772636
+            	-authors->author2188604675
+            	-authors->author1982114091
+            	-authors->author678106963
+            }
+	paper2147386495:Paper {
+                .title : "Pipe routingpath planning with many constraints"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue
+            	-authors->author1545294347
+            	-authors->author2164985626
+            }
+	paper2148129140:Paper {
+                .title : "Intrusion tolerance in distributed computing systems"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue1189
+            	-authors->author207670028
+            	-authors->author2762813159
+            	-authors->author2136516135
+            }
+	paper2153360297:Paper {
+                .title : "Specifying gestures by example"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue1407
+            	-authors->author1982006152
+            }
+	paper2153851383:Paper {
+                .title : "Reduced base model construction methods for stochastic activity networks"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue
+            	-authors->author2280265749
+            	-authors->author2107654984
+            }
+	paper2167429246:Paper {
+                .title : "Using weaves for software construction and analysis"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue5
+            	-authors->author2307184432
+            	-authors->author2303146558
+            }
+	paper2170715240:Paper {
+                .title : "Internet time synchronization the network time protocol"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue3760
+            	-cites->paper1973501242
+            	-cites->paper2095343473
+            	-cites->paper2118891797
+            	-authors->author2112308037
+            }
+	paper2139921445:Paper {
+                .title : "Semantic file systems"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue99
+            	-cites->paper1547343000
+            	-cites->paper1967141605
+            	-authors->author2222853225
+            	-authors->author731392918
+            	-authors->author2344552743
+            	-authors->author2144886982
+            }
+	paper2294967233:Paper {
+                .title : "Tolerating inconsistency"
+            	.year : 1991
+            	.core : false
+            	.relevance:true
+            	-venue->venue5
+            	-authors->author2627046014
+            }
+	paper2407464957:Paper {
+                .title : "The Art of Computer Systems Performance Analysis Techniques for Experimental Design Measurement Simulation and Modeling Book Review"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue1550
+            	-authors->author2157313770
+            }
+	paper2738420320:Paper {
+                .title : "The Expressive Power of Implicit Specifications"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue420
+            	-authors->author2146581609
+            }
+	paper1544662935:Paper {
+                .title : "Semantics of programming languages"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue0
+            	-authors->author2124784739
+            }
+	paper1555946950:Paper {
+                .title : "Eiffel The Language"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue0
+            	-authors->author2161925446
+            }
+	paper1985349143:Paper {
+                .title : "Lightweight causal and atomic group multicast"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue
+            	-cites->paper1973501242
+            	-cites->paper2095343473
+            	-cites->paper2131929623
+            	-authors->author2016580195
+            	-authors->author2094398115
+            	-authors->author2506527859
+            }
+	paper2020804487:Paper {
+                .title : "accuracy and stability of numerical algorithms"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue0
+            	-authors->author694173608
+            }
+	paper2037504708:Paper {
+                .title : "On the efficient computation of the difference between consecutive database states"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue4225
+            	-cites->paper181078895
+            	-cites->paper1672891595
+            	-cites->paper2075950442
+            	-cites->paper2099805467
+            	-cites->paper2118900391
+            	-cites->paper2119295867
+            	-authors->author2682171733
+            }
+	paper2093916942:Paper {
+                .title : "The Temporal Logic of Reactive and Concurrent Systems Specification"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue0
+            	-authors->author2171343426
+            	-authors->author2146370811
+            }
+	paper2099401177:Paper {
+                .title : "A Theory of Statebased Parallel Programming Part "
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue0
+            	-cites->paper1964727056
+            	-cites->paper2132334337
+            	-authors->author2777027666
+            	-authors->author2546090222
+            }
+	paper2154837369:Paper {
+                .title : "Replica control in distributed systems as asynchronous approach"
+            	.year : 1991
+            	.core : false
+            	.relevance:false
+            	-venue->venue517
+            	-cites->paper1525865893
+            	-cites->paper1545155892
+            	-cites->paper1973501242
+            	-cites->paper2038562061
+            	-cites->paper2043671329
+            	-cites->paper2048071586
+            	-cites->paper2116142433
+            	-cites->paper2126356880
+            	-cites->paper2131929623
+            	-authors->author2235870244
+            	-authors->author2117427889
+            }
+}
+
