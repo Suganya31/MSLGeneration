@@ -1,0 +1,103 @@
+import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Authors.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2013.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2014.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2011.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2006.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2003.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2004.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2009.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2000.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2012.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2015.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1997.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2010.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1999.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2001.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1998.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2007.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1989.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1991.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1992.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2002.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1990.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2016.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2017.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2018.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2020.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1983.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1995.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1982.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1987.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1986.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1988.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1993.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1984.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1978.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1976.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1979.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1980.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1941.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1968.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1974.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1967.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1970.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1959.msl"
+ 	
+model Paper1977{
+	paper139399048:Paper {
+                .title : "Analytical Modelling of the Reliability of a FaultTolerant ComputerCopra"
+            	.year : 1977
+            	.core : true
+            	.relevance:false
+            	-venue->venue337
+            	-authors->author2712196989
+            	-authors->author353621765
+            }
+	paper1990224665:Paper {
+                .title : "Measurements of sharing in Multics"
+            	.year : 1977
+            	.core : false
+            	.relevance:false
+            	-venue->venue99
+            	-authors->author1988746949
+            }
+	paper2031032746:Paper {
+                .title : "Physical integrity in a large segmented database"
+            	.year : 1977
+            	.core : false
+            	.relevance:false
+            	-venue->venue1487
+            	-authors->author2255242933
+            }
+	paper2132334337:Paper {
+                .title : "Proving the Correctness of Multiprocess Programs"
+            	.year : 1977
+            	.core : false
+            	.relevance:false
+            	-venue->venue1331
+            	-cites->paper1964727056
+            	-authors->author2096750770
+            }
+	paper2157598146:Paper {
+                .title : "Viewing Control Structures as Patterns of Passing Messages"
+            	.year : 1977
+            	.core : false
+            	.relevance:false
+            	-venue->venue1397
+            	-authors->author2102047142
+            }
+}
+
