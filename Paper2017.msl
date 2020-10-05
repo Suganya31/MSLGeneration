@@ -1,0 +1,1781 @@
+import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Authors.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2013.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2014.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2011.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2006.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2003.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2004.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2009.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2000.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2012.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2015.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1997.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2010.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1999.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2001.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1998.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2007.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1989.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1991.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1992.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2002.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1990.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2016.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2017.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2018.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2020.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1983.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1995.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1982.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1987.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1986.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1988.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1993.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1984.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1978.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1976.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1979.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1980.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1941.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1968.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1974.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1967.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1970.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1959.msl"
+ 	
+model Paper2017{
+	paper2598750690:Paper {
+                .title : "Intermodel Consistency Checking Using Triple Graph Grammars and Linear Optimization Techniques"
+            	.year : 2017
+            	.core : true
+            	.relevance:true
+            	-venue->venue19
+            	-cites->paper1511832825
+            	-cites->paper1525686383
+            	-cites->paper1535346311
+            	-cites->paper1539047152
+            	-cites->paper1571863774
+            	-cites->paper1685591268
+            	-cites->paper1751328170
+            	-cites->paper1937692454
+            	-cites->paper2039325426
+            	-cites->paper2047581220
+            	-cites->paper2050736294
+            	-cites->paper2055016397
+            	-cites->paper2055076895
+            	-cites->paper2082673250
+            	-cites->paper2091322286
+            	-cites->paper2124638003
+            	-cites->paper2142242910
+            	-cites->paper2184708932
+            	-cites->paper2185674212
+            	-cites->paper2237682209
+            	-cites->paper2278862170
+            	-cites->paper2295935000
+            	-cites->paper2401366045
+            	-cites->paper2505195467
+            	-authors->author1842396648
+            	-authors->author675269377
+            	-authors->author1971015851
+            }
+	paper2624306950:Paper {
+                .title : "Avoiding consistency exceptions under strong memory models"
+            	.year : 2017
+            	.core : true
+            	.relevance:false
+            	-venue->venue62
+            	-cites->paper1048515
+            	-cites->paper17332244
+            	-cites->paper1482397304
+            	-cites->paper1545155892
+            	-cites->paper1873898332
+            	-cites->paper1966151719
+            	-cites->paper1967564401
+            	-cites->paper1972544179
+            	-cites->paper1986913310
+            	-cites->paper1987358714
+            	-cites->paper1995288535
+            	-cites->paper1996009176
+            	-cites->paper1996587743
+            	-cites->paper1996952974
+            	-cites->paper2002179840
+            	-cites->paper2010497096
+            	-cites->paper2016323637
+            	-cites->paper2021030008
+            	-cites->paper2029601347
+            	-cites->paper2038736729
+            	-cites->paper2039509099
+            	-cites->paper2043255549
+            	-cites->paper2050801173
+            	-cites->paper2054391605
+            	-cites->paper2054739713
+            	-cites->paper2066775342
+            	-cites->paper2067967561
+            	-cites->paper2068530820
+            	-cites->paper2078197548
+            	-cites->paper2082484926
+            	-cites->paper2084719450
+            	-cites->paper2087969648
+            	-cites->paper2091085450
+            	-cites->paper2093755302
+            	-cites->paper2094647526
+            	-cites->paper2096475201
+            	-cites->paper2096527448
+            	-cites->paper2096956970
+            	-cites->paper2099537990
+            	-cites->paper2099735635
+            	-cites->paper2100505193
+            	-cites->paper2101161997
+            	-cites->paper2102839400
+            	-cites->paper2103408719
+            	-cites->paper2105391037
+            	-cites->paper2105768827
+            	-cites->paper2107529624
+            	-cites->paper2107699547
+            	-cites->paper2117069557
+            	-cites->paper2117917070
+            	-cites->paper2119567442
+            	-cites->paper2119887456
+            	-cites->paper2121696621
+            	-cites->paper2123184511
+            	-cites->paper2127731413
+            	-cites->paper2127825616
+            	-cites->paper2127989655
+            	-cites->paper2131751093
+            	-cites->paper2133662847
+            	-cites->paper2134440791
+            	-cites->paper2135023759
+            	-cites->paper2135395375
+            	-cites->paper2139285682
+            	-cites->paper2140034113
+            	-cites->paper2141222493
+            	-cites->paper2141975313
+            	-cites->paper2143869535
+            	-cites->paper2146766856
+            	-cites->paper2149984854
+            	-cites->paper2151399202
+            	-cites->paper2152621318
+            	-cites->paper2152885346
+            	-cites->paper2153174073
+            	-cites->paper2154557525
+            	-cites->paper2155500238
+            	-cites->paper2156428492
+            	-cites->paper2158794422
+            	-cites->paper2160963348
+            	-cites->paper2160983664
+            	-cites->paper2161038602
+            	-cites->paper2162630235
+            	-cites->paper2166091242
+            	-cites->paper2166266685
+            	-cites->paper2166615267
+            	-cites->paper2167744164
+            	-cites->paper2171076136
+            	-cites->paper2171745083
+            	-cites->paper2340530615
+            	-cites->paper2405985696
+            	-cites->paper2410648606
+            	-authors->author2110909196
+            	-authors->author2151623644
+            	-authors->author2123342528
+            }
+	paper2626698596:Paper {
+                .title : "MTraceCheck Validating NonDeterministic Behavior of Memory Consistency Models in PostSilicon Validation"
+            	.year : 2017
+            	.core : true
+            	.relevance:false
+            	-venue->venue143
+            	-cites->paper1594228127
+            	-cites->paper1694765325
+            	-cites->paper1808398105
+            	-cites->paper1822674892
+            	-cites->paper1968283843
+            	-cites->paper1981504678
+            	-cites->paper1992822815
+            	-cites->paper2024436253
+            	-cites->paper2026130601
+            	-cites->paper2029601347
+            	-cites->paper2046161500
+            	-cites->paper2054739713
+            	-cites->paper2060616327
+            	-cites->paper2085773946
+            	-cites->paper2086023529
+            	-cites->paper2086311869
+            	-cites->paper2090692734
+            	-cites->paper2093771365
+            	-cites->paper2095319311
+            	-cites->paper2101134669
+            	-cites->paper2105945277
+            	-cites->paper2111491143
+            	-cites->paper2116454140
+            	-cites->paper2116744478
+            	-cites->paper2133381043
+            	-cites->paper2134184428
+            	-cites->paper2135355961
+            	-cites->paper2141618784
+            	-cites->paper2143849045
+            	-cites->paper2147657366
+            	-cites->paper2150148998
+            	-cites->paper2152390090
+            	-cites->paper2156591015
+            	-cites->paper2234646418
+            	-cites->paper2325421623
+            	-authors->author2225752486
+            	-authors->author2083963182
+            }
+	paper2742309532:Paper {
+                .title : "A Process to Calculate the Uncertainty of Software Metricsbased Models Using Bayesian Networks"
+            	.year : 2017
+            	.core : true
+            	.relevance:false
+            	-venue->venue5
+            	-cites->paper2012806630
+            	-cites->paper2023583296
+            	-cites->paper2041628322
+            	-cites->paper2055284112
+            	-cites->paper2094441239
+            	-cites->paper2106268244
+            	-cites->paper2109749404
+            	-cites->paper2111562224
+            	-cites->paper2116289830
+            	-cites->paper2122402375
+            	-cites->paper2163956676
+            	-cites->paper2508999949
+            	-cites->paper2912854634
+            	-authors->author2340648307
+            	-authors->author2139411001
+            	-authors->author2344031067
+            	-authors->author2312089803
+            }
+	paper2743065044:Paper {
+                .title : "Victim Communication Stack VCS A flexible model to select the Human Attack Vector"
+            	.year : 2017
+            	.core : true
+            	.relevance:false
+            	-venue->venue133
+            	-cites->paper54475548
+            	-cites->paper156137932
+            	-cites->paper1867435648
+            	-cites->paper1882088395
+            	-cites->paper1955603680
+            	-cites->paper1975580288
+            	-cites->paper1983581110
+            	-cites->paper2077108146
+            	-cites->paper2083027292
+            	-cites->paper2103227860
+            	-cites->paper2139094422
+            	-cites->paper2157597875
+            	-cites->paper2162532690
+            	-cites->paper2210353458
+            	-authors->author2304324106
+            	-authors->author2743079413
+            	-authors->author2543737235
+            	-authors->author2889834779
+            }
+	paper2748450567:Paper {
+                .title : "Continuous Rearchitecting of QoS Models Collaborative Analysis for Uncertainty Reduction"
+            	.year : 2017
+            	.core : true
+            	.relevance:false
+            	-venue->venue9
+            	-cites->paper2001520071
+            	-cites->paper2019579488
+            	-cites->paper2023331046
+            	-cites->paper2029288475
+            	-cites->paper2054104130
+            	-cites->paper2071888780
+            	-cites->paper2083434606
+            	-cites->paper2087171733
+            	-cites->paper2095184288
+            	-cites->paper2121519505
+            	-cites->paper2126230853
+            	-cites->paper2146044140
+            	-cites->paper2249475272
+            	-cites->paper2522502525
+            	-authors->author1182447484
+            	-authors->author2117494329
+            }
+	paper2750134344:Paper {
+                .title : "An Optimization Model for D Pipe Routing with Flexibility Constraints"
+            	.year : 2017
+            	.core : true
+            	.relevance:false
+            	-venue->venue23
+            	-cites->paper1486420508
+            	-cites->paper1864619642
+            	-cites->paper1986460167
+            	-cites->paper2016194356
+            	-cites->paper2046653058
+            	-cites->paper2053105805
+            	-cites->paper2147386495
+            	-cites->paper2148498964
+            	-cites->paper2159875930
+            	-cites->paper2278850436
+            	-cites->paper2487790599
+            	-cites->paper2510061404
+            	-authors->author1971752061
+            	-authors->author1997738564
+            	-authors->author1994232824
+            	-authors->author2129479577
+            	-authors->author200502877
+            	-authors->author2748638095
+            }
+	paper2755688097:Paper {
+                .title : "A Modeling Approach for Flexible Workflow Applications of Cloud Services"
+            	.year : 2017
+            	.core : true
+            	.relevance:true
+            	-venue->venue54
+            	-cites->paper76806710
+            	-cites->paper166417490
+            	-cites->paper1503566036
+            	-cites->paper2011396240
+            	-cites->paper2062756186
+            	-cites->paper2098611419
+            	-cites->paper2104537183
+            	-cites->paper2119056988
+            	-cites->paper2124920934
+            	-cites->paper2132471494
+            	-cites->paper2139889174
+            	-cites->paper2147513755
+            	-authors->author1984563474
+            	-authors->author1227410782
+            	-authors->author412794728
+            }
+	paper2756473874:Paper {
+                .title : "From Sequence Diagrams to Event B A Specification and Verification Approach of Flexible Workflow Applications of Cloud Services Based on Metamodel Transformation"
+            	.year : 2017
+            	.core : true
+            	.relevance:false
+            	-venue->venue54
+            	-cites->paper2171250277
+            	-authors->author2135449013
+            	-authors->author1227410782
+            	-authors->author2755982418
+            	-authors->author412794728
+            }
+	paper2758439057:Paper {
+                .title : "A Dynamic Network Flow Model for Interdependent Infrastructure and Supply Chain Networks with Uncertain Asset Operability"
+            	.year : 2017
+            	.core : true
+            	.relevance:false
+            	-venue->venue272
+            	-cites->paper1550064664
+            	-cites->paper1580291316
+            	-cites->paper1970439199
+            	-cites->paper1977545325
+            	-cites->paper2095283796
+            	-cites->paper2104514366
+            	-cites->paper2118714517
+            	-cites->paper2142343014
+            	-cites->paper2282502771
+            	-cites->paper2326620087
+            	-cites->paper2343984271
+            	-authors->author2345645089
+            	-authors->author67322149
+            	-authors->author2025353970
+            }
+	paper2767407390:Paper {
+                .title : "Software Product Lines with Design Choices Reasoning about Variability and Design Uncertainty"
+            	.year : 2017
+            	.core : true
+            	.relevance:false
+            	-venue->venue40
+            	-cites->paper188179498
+            	-cites->paper190123652
+            	-cites->paper1504271833
+            	-cites->paper1505090407
+            	-cites->paper1536631555
+            	-cites->paper1569040469
+            	-cites->paper1570173564
+            	-cites->paper1825558883
+            	-cites->paper1853034543
+            	-cites->paper1886563687
+            	-cites->paper1895387792
+            	-cites->paper1963576381
+            	-cites->paper1968560832
+            	-cites->paper1979037869
+            	-cites->paper2010175019
+            	-cites->paper2017397762
+            	-cites->paper2028369901
+            	-cites->paper2044987604
+            	-cites->paper2048064553
+            	-cites->paper2052296870
+            	-cites->paper2083434606
+            	-cites->paper2094810043
+            	-cites->paper2100500368
+            	-cites->paper2110143060
+            	-cites->paper2112000202
+            	-cites->paper2121061989
+            	-cites->paper2122185633
+            	-cites->paper2128967738
+            	-cites->paper2129289644
+            	-cites->paper2138775474
+            	-cites->paper2142874510
+            	-cites->paper2143614054
+            	-cites->paper2144179818
+            	-cites->paper2148106163
+            	-cites->paper2153301577
+            	-cites->paper2185335208
+            	-cites->paper2464949168
+            	-cites->paper2573314574
+            	-cites->paper2578157505
+            	-cites->paper2600599962
+            	-cites->paper2618731789
+            	-cites->paper2760715935
+            	-authors->author2032435099
+            	-authors->author2102293300
+            	-authors->author511866907
+            	-authors->author1274701876
+            	-authors->author1971965784
+            }
+	paper2768965175:Paper {
+                .title : "Models of Reliability of FaultTolerant Software Under CyberAttacks"
+            	.year : 2017
+            	.core : true
+            	.relevance:false
+            	-venue->venue52
+            	-cites->paper147550463
+            	-cites->paper1565331622
+            	-cites->paper1730146326
+            	-cites->paper1966362790
+            	-cites->paper1994449893
+            	-cites->paper1999823724
+            	-cites->paper2041938856
+            	-cites->paper2047401676
+            	-cites->paper2059948705
+            	-cites->paper2061037526
+            	-cites->paper2080951893
+            	-cites->paper2109930173
+            	-cites->paper2111817346
+            	-cites->paper2120510885
+            	-cites->paper2129112238
+            	-cites->paper2129262519
+            	-cites->paper2137459517
+            	-cites->paper2141154822
+            	-cites->paper2143412934
+            	-cites->paper2294009246
+            	-cites->paper2343999537
+            	-authors->author2111509819
+            }
+	paper2789876140:Paper {
+                .title : "From Abstract to Concrete Repairs of Model Inconsistencies An Automated Approach"
+            	.year : 2017
+            	.core : true
+            	.relevance:false
+            	-venue->venue60
+            	-cites->paper1487694410
+            	-cites->paper1970178969
+            	-cites->paper1971702813
+            	-cites->paper1983160424
+            	-cites->paper1991633729
+            	-cites->paper1997864678
+            	-cites->paper2013909059
+            	-cites->paper2032001711
+            	-cites->paper2035434130
+            	-cites->paper2052987299
+            	-cites->paper2054332523
+            	-cites->paper2058145265
+            	-cites->paper2060440626
+            	-cites->paper2103260577
+            	-cites->paper2109420119
+            	-cites->paper2117600460
+            	-cites->paper2127685229
+            	-cites->paper2131820506
+            	-cites->paper2139872812
+            	-cites->paper2142741391
+            	-cites->paper2143614054
+            	-cites->paper2149864282
+            	-cites->paper2157198435
+            	-cites->paper2160930909
+            	-cites->paper2167830984
+            	-cites->paper2525290333
+            	-cites->paper2571744281
+            	-cites->paper2745087117
+            	-authors->author1949402193
+            	-authors->author2346573819
+            	-authors->author2600856194
+            	-authors->author2308171290
+            	-authors->author2268607883
+            }
+	paper2794938988:Paper {
+                .title : "Toward a New Model of Indexing Big Uncertain Data"
+            	.year : 2017
+            	.core : true
+            	.relevance:true
+            	-venue->venue70
+            	-cites->paper95477512
+            	-cites->paper1491912291
+            	-cites->paper1580473189
+            	-cites->paper2049886280
+            	-cites->paper2097597750
+            	-cites->paper2110020044
+            	-cites->paper2165329839
+            	-cites->paper2439508656
+            	-cites->paper2609546456
+            	-authors->author269509060
+            	-authors->author2609836235
+            	-authors->author2153820563
+            	-authors->author2794822162
+            }
+	paper3000341257:Paper {
+                .title : "Managing designtime uncertainty"
+            	.year : 2017
+            	.core : true
+            	.relevance:false
+            	-venue->venue40
+            	-cites->paper99545732
+            	-cites->paper198287998
+            	-cites->paper968713204
+            	-cites->paper1505090407
+            	-cites->paper1507387197
+            	-cites->paper1512360405
+            	-cites->paper1514052250
+            	-cites->paper1521011607
+            	-cites->paper1536631555
+            	-cites->paper1558527408
+            	-cites->paper1570173564
+            	-cites->paper1759712729
+            	-cites->paper1820309519
+            	-cites->paper1853034543
+            	-cites->paper1859458367
+            	-cites->paper1886563687
+            	-cites->paper1963576381
+            	-cites->paper1965306413
+            	-cites->paper1978519707
+            	-cites->paper2003053377
+            	-cites->paper2017167760
+            	-cites->paper2028369901
+            	-cites->paper2034568273
+            	-cites->paper2037493585
+            	-cites->paper2046216252
+            	-cites->paper2046371801
+            	-cites->paper2047003964
+            	-cites->paper2057679337
+            	-cites->paper2070929035
+            	-cites->paper2089881021
+            	-cites->paper2094819373
+            	-cites->paper2096430893
+            	-cites->paper2101832700
+            	-cites->paper2106447076
+            	-cites->paper2110143060
+            	-cites->paper2114990295
+            	-cites->paper2120240460
+            	-cites->paper2121061989
+            	-cites->paper2122185633
+            	-cites->paper2125739093
+            	-cites->paper2125822162
+            	-cites->paper2129492722
+            	-cites->paper2130195901
+            	-cites->paper2137351629
+            	-cites->paper2143040687
+            	-cites->paper2150767046
+            	-cites->paper2156806988
+            	-cites->paper2160325552
+            	-cites->paper2225615039
+            	-cites->paper2578157505
+            	-cites->paper2767407390
+            	-cites->paper2900368754
+            	-authors->author2032435099
+            	-authors->author511866907
+            }
+	paper2783958742:Paper {
+                .title : "Modeling and Enactment Support for Early Detection of Inconsistencies in Engineering Processes"
+            	.year : 2017
+            	.core : true
+            	.relevance:true
+            	-venue->venue305
+            	-cites->paper1994901326
+            	-cites->paper2043336932
+            	-cites->paper2127685229
+            	-cites->paper2187340853
+            	-cites->paper2406899147
+            	-cites->paper2576027809
+            	-cites->paper2576122685
+            	-cites->paper2621155700
+            	-authors->author2397776388
+            	-authors->author2274554571
+            	-authors->author2783920575
+            	-authors->author150610930
+            	-authors->author2099432693
+            	-authors->author2045058881
+            }
+	paper2800736060:Paper {
+                .title : "Using models at run time to detect incomplete and inconsistent requirements"
+            	.year : 2017
+            	.core : true
+            	.relevance:true
+            	-venue->venue307
+            	-authors->author2116990958
+            	-authors->author2135818529
+            }
+	paper2782789073:Paper {
+                .title : "The Conformance Relation Challenge Building Flexible Modelling Frameworks"
+            	.year : 2017
+            	.core : true
+            	.relevance:false
+            	-venue->venue305
+            	-cites->paper1542225267
+            	-cites->paper1982313944
+            	-cites->paper2003053377
+            	-cites->paper2016914525
+            	-cites->paper2039932622
+            	-cites->paper2082697213
+            	-cites->paper2088463099
+            	-cites->paper2107344568
+            	-cites->paper2176614894
+            	-cites->paper2215445043
+            	-cites->paper2397982803
+            	-cites->paper2405788487
+            	-cites->paper2407910433
+            	-cites->paper2575918853
+            	-cites->paper2579759952
+            	-authors->author2784009030
+            	-authors->author2223094348
+            }
+	paper2783483828:Paper {
+                .title : "Using Models at Run Time to Detect Incomplete and Inconsistent Requirements"
+            	.year : 2017
+            	.core : true
+            	.relevance:true
+            	-venue->venue305
+            	-cites->paper2092306402
+            	-cites->paper2125614502
+            	-cites->paper2146191617
+            	-cites->paper2157437711
+            	-cites->paper2168342181
+            	-cites->paper2525477370
+            	-authors->author2116990958
+            	-authors->author2135818529
+            }
+	paper2783675675:Paper {
+                .title : "Enhancing Flexibility in User Interaction Modeling by Adding Design Uncertainty to IFML"
+            	.year : 2017
+            	.core : true
+            	.relevance:true
+            	-venue->venue305
+            	-cites->paper23963972
+            	-cites->paper202080076
+            	-cites->paper1499512708
+            	-cites->paper1564633100
+            	-cites->paper1853034543
+            	-cites->paper1991285474
+            	-cites->paper2008190734
+            	-cites->paper2018140906
+            	-cites->paper2018800706
+            	-cites->paper2121061989
+            	-cites->paper2138556979
+            	-cites->paper2293045535
+            	-cites->paper2612911770
+            	-cites->paper2618017068
+            	-authors->author2089757171
+            	-authors->author406154369
+            	-authors->author2119227860
+            	-authors->author2229716654
+            	-authors->author2108048446
+            }
+	paper2782787947:Paper {
+                .title : "Consistency Recovery in Interactive Modeling"
+            	.year : 2017
+            	.core : true
+            	.relevance:true
+            	-venue->venue305
+            	-cites->paper1507178256
+            	-cites->paper1864361234
+            	-cites->paper1977200413
+            	-cites->paper2006775600
+            	-cites->paper2011546476
+            	-cites->paper2064055356
+            	-cites->paper2181002748
+            	-cites->paper2404647912
+            	-cites->paper2407590813
+            	-cites->paper2503196812
+            	-cites->paper2574201494
+            	-cites->paper2578157505
+            	-cites->paper2592605995
+            	-cites->paper2594220327
+            	-authors->author2071298843
+            	-authors->author406154369
+            	-authors->author2003829945
+            	-authors->author2163115350
+            	-authors->author1921302331
+            	-authors->author2147583985
+            }
+	paper2553522901:Paper {
+                .title : "Automatically comparing memory consistency models"
+            	.year : 2017
+            	.core : true
+            	.relevance:false
+            	-venue->venue161
+            	-cites->paper78552530
+            	-cites->paper1482397304
+            	-cites->paper1518705996
+            	-cites->paper1525350307
+            	-cites->paper1541537810
+            	-cites->paper1545792627
+            	-cites->paper1555915743
+            	-cites->paper1602156367
+            	-cites->paper1808398105
+            	-cites->paper1822674892
+            	-cites->paper1895387792
+            	-cites->paper1945229733
+            	-cites->paper1968283843
+            	-cites->paper1971486022
+            	-cites->paper1982078374
+            	-cites->paper1983206712
+            	-cites->paper1985495277
+            	-cites->paper1990191223
+            	-cites->paper1995825057
+            	-cites->paper2000659103
+            	-cites->paper2003556922
+            	-cites->paper2006006495
+            	-cites->paper2029601347
+            	-cites->paper2036316394
+            	-cites->paper2039509099
+            	-cites->paper2053776346
+            	-cites->paper2054739713
+            	-cites->paper2079605740
+            	-cites->paper2086023529
+            	-cites->paper2094191591
+            	-cites->paper2095482919
+            	-cites->paper2098643127
+            	-cites->paper2110050316
+            	-cites->paper2111858071
+            	-cites->paper2117502039
+            	-cites->paper2120339165
+            	-cites->paper2122901568
+            	-cites->paper2132117132
+            	-cites->paper2134184428
+            	-cites->paper2138074470
+            	-cites->paper2139553864
+            	-cites->paper2149911648
+            	-cites->paper2150618958
+            	-cites->paper2152390090
+            	-cites->paper2152885346
+            	-cites->paper2153636750
+            	-cites->paper2156219615
+            	-cites->paper2161970779
+            	-cites->paper2162627428
+            	-cites->paper2163490397
+            	-cites->paper2163671349
+            	-cites->paper2164264520
+            	-cites->paper2170293694
+            	-cites->paper2280574045
+            	-cites->paper2290819493
+            	-cites->paper2293159724
+            	-cites->paper2293319505
+            	-cites->paper2301631282
+            	-cites->paper2401024662
+            	-cites->paper2410019603
+            	-cites->paper2531502343
+            	-cites->paper2533070090
+            	-cites->paper2564852534
+            	-cites->paper2588990970
+            	-cites->paper2626631502
+            	-cites->paper2738891045
+            	-authors->author2051703057
+            	-authors->author2558643503
+            	-authors->author131095925
+            	-authors->author1976948253
+            }
+	paper2562986368:Paper {
+                .title : "Ogre and Pythia an invariance proof method for weak consistency models"
+            	.year : 2017
+            	.core : true
+            	.relevance:false
+            	-venue->venue161
+            	-cites->paper175092372
+            	-cites->paper196827001
+            	-cites->paper227403520
+            	-cites->paper1430872261
+            	-cites->paper1509000726
+            	-cites->paper1561412378
+            	-cites->paper1589084785
+            	-cites->paper1858734517
+            	-cites->paper1877513498
+            	-cites->paper1924086464
+            	-cites->paper1960646226
+            	-cites->paper1964727056
+            	-cites->paper1966273654
+            	-cites->paper1971332773
+            	-cites->paper1983206712
+            	-cites->paper2012171200
+            	-cites->paper2014708731
+            	-cites->paper2016535383
+            	-cites->paper2026697016
+            	-cites->paper2033942886
+            	-cites->paper2036267700
+            	-cites->paper2039509099
+            	-cites->paper2042108411
+            	-cites->paper2048467032
+            	-cites->paper2049514605
+            	-cites->paper2054739713
+            	-cites->paper2058943117
+            	-cites->paper2063666348
+            	-cites->paper2075350371
+            	-cites->paper2085253283
+            	-cites->paper2090532555
+            	-cites->paper2101990169
+            	-cites->paper2105980774
+            	-cites->paper2132107743
+            	-cites->paper2132334337
+            	-cites->paper2132761501
+            	-cites->paper2134184428
+            	-cites->paper2136739578
+            	-cites->paper2156720745
+            	-cites->paper2160781056
+            	-cites->paper2168397157
+            	-cites->paper2169832991
+            	-cites->paper2260427947
+            	-cites->paper2274598213
+            	-cites->paper2282477915
+            	-cites->paper2293319505
+            	-cites->paper2294707073
+            	-cites->paper2403509298
+            	-cites->paper2509578035
+            	-cites->paper2514398768
+            	-cites->paper2514850971
+            	-authors->author2148533322
+            	-authors->author76926217
+            }
+	paper1035875811:Paper {
+                .title : "Formal validation of domainspecific languages with derived features and wellformedness constraints"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue533
+            	-cites->paper187743145
+            	-cites->paper1480909796
+            	-cites->paper1536631555
+            	-cites->paper1548001884
+            	-cites->paper1569208917
+            	-cites->paper1576863229
+            	-cites->paper1973559034
+            	-cites->paper1979037869
+            	-cites->paper1997864678
+            	-cites->paper1998400029
+            	-cites->paper2043310979
+            	-cites->paper2055287943
+            	-cites->paper2060440626
+            	-cites->paper2076990838
+            	-cites->paper2089381631
+            	-cites->paper2091920469
+            	-cites->paper2103364805
+            	-cites->paper2107792798
+            	-cites->paper2121061989
+            	-cites->paper2153019760
+            	-cites->paper2412353202
+            	-authors->author1974659384
+            	-authors->author2143442092
+            	-authors->author2501546381
+            	-authors->author10882077
+            	-authors->author2659947808
+            }
+	paper2343984271:Paper {
+                .title : "A supply chain network game theory model of cybersecurity investments with nonlinear budget constraints"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue3883
+            	-authors->author2115267726
+            	-authors->author2194616299
+            	-authors->author2054412876
+            }
+	paper2474022715:Paper {
+                .title : "gMark SchemaDriven Generation of Graphs and Queries"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue1775
+            	-authors->author2141835797
+            	-authors->author140057078
+            	-authors->author2788830591
+            	-authors->author2595064910
+            	-authors->author2280425961
+            	-authors->author70421181
+            }
+	paper2505917360:Paper {
+                .title : "A general model checking framework for various memory consistency models"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue1525
+            	-cites->paper1602156367
+            	-cites->paper1787074469
+            	-cites->paper1808398105
+            	-cites->paper1822674892
+            	-cites->paper1877513498
+            	-cites->paper1953680156
+            	-cites->paper1971332773
+            	-cites->paper1976695554
+            	-cites->paper2025301734
+            	-cites->paper2029601347
+            	-cites->paper2090532555
+            	-cites->paper2091085450
+            	-cites->paper2097931542
+            	-cites->paper2104245532
+            	-cites->paper2129538349
+            	-cites->paper2130553247
+            	-cites->paper2149911648
+            	-cites->paper2157178219
+            	-cites->paper2160781056
+            	-authors->author2938157906
+            	-authors->author2235480359
+            }
+	paper2507977852:Paper {
+                .title : "TriCheck Memory Model Verification at the Trisection of Software Hardware and ISA"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue152
+            	-cites->paper1525350307
+            	-cites->paper1545792627
+            	-cites->paper1895387792
+            	-cites->paper1945229733
+            	-cites->paper1966151719
+            	-cites->paper1968283843
+            	-cites->paper2000659103
+            	-cites->paper2003556922
+            	-cites->paper2014708731
+            	-cites->paper2029601347
+            	-cites->paper2054739713
+            	-cites->paper2086023529
+            	-cites->paper2099735635
+            	-cites->paper2102580681
+            	-cites->paper2104579430
+            	-cites->paper2105900173
+            	-cites->paper2105945277
+            	-cites->paper2106192381
+            	-cites->paper2107699547
+            	-cites->paper2111858071
+            	-cites->paper2117502039
+            	-cites->paper2132117132
+            	-cites->paper2138074470
+            	-cites->paper2150618958
+            	-cites->paper2152885346
+            	-cites->paper2163490397
+            	-cites->paper2176864362
+            	-cites->paper2234646418
+            	-cites->paper2256363745
+            	-cites->paper2553522901
+            	-cites->paper2605308338
+            	-cites->paper2626631502
+            	-cites->paper2738891045
+            	-cites->paper2916411819
+            	-authors->author2344621684
+            	-authors->author2029293479
+            	-authors->author1972692845
+            	-authors->author2229729172
+            	-authors->author1998414096
+            }
+	paper2518474658:Paper {
+                .title : "A short counterexample property for safety and liveness verification of faulttolerant distributed algorithms"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue161
+            	-cites->paper178138771
+            	-cites->paper200623142
+            	-cites->paper1021521453
+            	-cites->paper1480909796
+            	-cites->paper1498432697
+            	-cites->paper2035362408
+            	-cites->paper2036526834
+            	-cites->paper2073126252
+            	-cites->paper2122326479
+            	-cites->paper2129073086
+            	-cites->paper2133943294
+            	-cites->paper2156580773
+            	-cites->paper2292447407
+            	-cites->paper2340735175
+            	-cites->paper2410019603
+            	-cites->paper2414818575
+            	-authors->author1957630520
+            	-authors->author1976817768
+            	-authors->author2555690835
+            	-authors->author692701391
+            }
+	paper2518794401:Paper {
+                .title : "Approaches to CoEvolution of Metamodels and Models A Survey"
+            	.year : 2017
+            	.core : false
+            	.relevance:true
+            	-venue->venue1331
+            	-cites->paper94833394
+            	-cites->paper113976528
+            	-cites->paper937233221
+            	-cites->paper1542225267
+            	-cites->paper1558561379
+            	-cites->paper1565559052
+            	-cites->paper1592640009
+            	-cites->paper1598165075
+            	-cites->paper1844824726
+            	-cites->paper2004901564
+            	-cites->paper2006775600
+            	-cites->paper2016915664
+            	-cites->paper2020914058
+            	-cites->paper2054332523
+            	-cites->paper2088463099
+            	-cites->paper2095628807
+            	-cites->paper2107344568
+            	-cites->paper2124995074
+            	-cites->paper2149864282
+            	-cites->paper2167736435
+            	-cites->paper2169123208
+            	-cites->paper2181002748
+            	-cites->paper2215445043
+            	-authors->author2974079724
+            	-authors->author2308171290
+            	-authors->author2321171219
+            }
+	paper2525656308:Paper {
+                .title : "UncertaintyDriven BlackBox Test Data Generation"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue36
+            	-cites->paper182269909
+            	-cites->paper2011762419
+            	-authors->author1276411778
+            	-authors->author2129587872
+            }
+	paper2529101939:Paper {
+                .title : "An Efficient and Secure IdentityBased Authentication and Key Agreement Protocol with User Anonymity for Mobile Devices"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue3971
+            	-cites->paper1569083856
+            	-authors->author2479394100
+            	-authors->author2304081583
+            	-authors->author2565419657
+            	-authors->author2654083836
+            	-authors->author2304300576
+            }
+	paper2562559257:Paper {
+                .title : "Special issue on Flexible Model Driven Engineering"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue3981
+            	-authors->author2071298843
+            	-authors->author406154369
+            	-authors->author2160674753
+            }
+	paper2564443410:Paper {
+                .title : "Constraint programming for type inference in flexible modeldriven engineering"
+            	.year : 2017
+            	.core : false
+            	.relevance:true
+            	-venue->venue3981
+            	-cites->paper1514397520
+            	-cites->paper1986958631
+            	-cites->paper1987426969
+            	-cites->paper2085315973
+            	-cites->paper2110254595
+            	-cites->paper2116587399
+            	-cites->paper2121061989
+            	-authors->author2766065980
+            	-authors->author2138496712
+            	-authors->author2964306539
+            	-authors->author2044930014
+            	-authors->author1996244569
+            }
+	paper2564852534:Paper {
+                .title : "A promising semantics for relaxedmemory concurrency"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue161
+            	-cites->paper1482397304
+            	-cites->paper1525350307
+            	-cites->paper1983206712
+            	-cites->paper2000659103
+            	-cites->paper2054391605
+            	-cites->paper2064390891
+            	-cites->paper2090532555
+            	-cites->paper2091085450
+            	-cites->paper2138074470
+            	-cites->paper2152390090
+            	-cites->paper2280574045
+            	-cites->paper2293159724
+            	-cites->paper2293319505
+            	-cites->paper2531502343
+            	-cites->paper2626631502
+            	-cites->paper2738891045
+            	-authors->author1978008809
+            	-authors->author2250232977
+            	-authors->author138450541
+            	-authors->author2283278728
+            	-authors->author2152400748
+            }
+	paper2573314574:Paper {
+                .title : "Decision spaces in product lines decision analysis and design exploration an interdisciplinary exploratory study"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue376
+            	-cites->paper1570173564
+            	-cites->paper1968560832
+            	-cites->paper2074558871
+            	-cites->paper2125398918
+            	-cites->paper2160998628
+            	-authors->author128476595
+            	-authors->author2277307207
+            	-authors->author2016710505
+            }
+	paper2582408300:Paper {
+                .title : "Relationship Maintenance in Software Language Repositories"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue4007
+            	-authors->author1921302331
+            }
+	paper2588871586:Paper {
+                .title : "Concurrent Program Logic for Relaxed Memory Consistency Models with Dependencies across Loop Iterations"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue4012
+            	-cites->paper1430872261
+            	-cites->paper1525350307
+            	-cites->paper1544662935
+            	-cites->paper1547285994
+            	-cites->paper1808398105
+            	-cites->paper1877513498
+            	-cites->paper1971332773
+            	-cites->paper1972316716
+            	-cites->paper1973501242
+            	-cites->paper2014708731
+            	-cites->paper2025301734
+            	-cites->paper2029601347
+            	-cites->paper2091085450
+            	-cites->paper2099401177
+            	-cites->paper2101939036
+            	-cites->paper2104245532
+            	-cites->paper2111706174
+            	-cites->paper2130553247
+            	-cites->paper2132761501
+            	-cites->paper2152885346
+            	-cites->paper2157178219
+            	-cites->paper2168397157
+            	-cites->paper2505917360
+            	-authors->author2560619641
+            	-authors->author2231308658
+            }
+	paper2592605995:Paper {
+                .title : "Use of Architecture Description to Maintain Consistency in Agile Processes"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue663
+            	-authors->author1630443851
+            	-authors->author2703851154
+            	-authors->author2591861673
+            	-authors->author37404338
+            }
+	paper2594220327:Paper {
+                .title : "Axioms of Linguistic Architecture"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue663
+            	-authors->author235647753
+            	-authors->author2163115350
+            	-authors->author1921302331
+            }
+	paper2594259325:Paper {
+                .title : "Uncertaintywise evolution of test ready models"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue1624
+            	-cites->paper1564262173
+            	-cites->paper2026252407
+            	-cites->paper2103318645
+            	-cites->paper2127229029
+            	-cites->paper2142973056
+            	-authors->author2332852696
+            	-authors->author2593662132
+            	-authors->author2209258679
+            	-authors->author2236275875
+            }
+	paper2597746149:Paper {
+                .title : "CSWRL SWRL for Reasoning over Stream Data"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue4017
+            	-cites->paper1978947899
+            	-cites->paper2116502002
+            	-cites->paper2140044869
+            	-cites->paper2221822642
+            	-authors->author344110424
+            	-authors->author2292658618
+            }
+	paper2600599962:Paper {
+                .title : "Managing DesignTime Uncertainty"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue40
+            	-cites->paper24569603
+            	-cites->paper99545732
+            	-cites->paper198287998
+            	-cites->paper968713204
+            	-cites->paper1505090407
+            	-cites->paper1507387197
+            	-cites->paper1512360405
+            	-cites->paper1514052250
+            	-cites->paper1521011607
+            	-cites->paper1536631555
+            	-cites->paper1558527408
+            	-cites->paper1570173564
+            	-cites->paper1759712729
+            	-cites->paper1820309519
+            	-cites->paper1853034543
+            	-cites->paper1859458367
+            	-cites->paper1886563687
+            	-cites->paper1963576381
+            	-cites->paper1965306413
+            	-cites->paper1978519707
+            	-cites->paper2003053377
+            	-cites->paper2017167760
+            	-cites->paper2028369901
+            	-cites->paper2034568273
+            	-cites->paper2037493585
+            	-cites->paper2046216252
+            	-cites->paper2046371801
+            	-cites->paper2047003964
+            	-cites->paper2057679337
+            	-cites->paper2070929035
+            	-cites->paper2089881021
+            	-cites->paper2094819373
+            	-cites->paper2096430893
+            	-cites->paper2101832700
+            	-cites->paper2106447076
+            	-cites->paper2110143060
+            	-cites->paper2114990295
+            	-cites->paper2120240460
+            	-cites->paper2121061989
+            	-cites->paper2122185633
+            	-cites->paper2125739093
+            	-cites->paper2125822162
+            	-cites->paper2125853721
+            	-cites->paper2129492722
+            	-cites->paper2130195901
+            	-cites->paper2137351629
+            	-cites->paper2143040687
+            	-cites->paper2150767046
+            	-cites->paper2156806988
+            	-cites->paper2160325552
+            	-cites->paper2225615039
+            	-cites->paper2578157505
+            	-cites->paper2767407390
+            	-authors->author2032435099
+            	-authors->author511866907
+            }
+	paper2600952128:Paper {
+                .title : "Riskaverse slopebased thresholds Definition and empirical evaluation"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue1624
+            	-cites->paper1342665
+            	-cites->paper1919928684
+            	-cites->paper1964962870
+            	-cites->paper1973948212
+            	-cites->paper2023931799
+            	-cites->paper2039444730
+            	-cites->paper2088117279
+            	-cites->paper2099794800
+            	-cites->paper2122402375
+            	-cites->paper2151666086
+            	-cites->paper2163279690
+            	-cites->paper2399345145
+            	-cites->paper2509913888
+            	-cites->paper2522788916
+            	-authors->author2021480045
+            	-authors->author2310896500
+            }
+	paper2601778681:Paper {
+                .title : "A ModuleSystem Discipline for ModelDriven Software Development"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue4021
+            	-authors->author1576900243
+            	-authors->author1803786443
+            }
+	paper2603072184:Paper {
+                .title : "Symbolic Model Generation for Graph Properties"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue19
+            	-cites->paper844332498
+            	-cites->paper1810787746
+            	-cites->paper1973559034
+            	-cites->paper1986958631
+            	-cites->paper2057186850
+            	-cites->paper2079370090
+            	-cites->paper2139553864
+            	-cites->paper2418384203
+            	-authors->author2167098163
+            	-authors->author2600333901
+            	-authors->author1293943865
+            }
+	paper2605308338:Paper {
+                .title : "Automated Synthesis of Comprehensive Memory Model Litmus Test Suites"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue152
+            	-cites->paper1482397304
+            	-cites->paper1519503479
+            	-cites->paper1525350307
+            	-cites->paper1808398105
+            	-cites->paper1822674892
+            	-cites->paper1945229733
+            	-cites->paper2000659103
+            	-cites->paper2026161190
+            	-cites->paper2054391605
+            	-cites->paper2054739713
+            	-cites->paper2060440626
+            	-cites->paper2105945277
+            	-cites->paper2111858071
+            	-cites->paper2139553864
+            	-cites->paper2152390090
+            	-cites->paper2152885346
+            	-cites->paper2153636750
+            	-cites->paper2163490397
+            	-cites->paper2301631282
+            	-cites->paper2553522901
+            	-authors->author2611043312
+            	-authors->author2029293479
+            	-authors->author2130669734
+            	-authors->author2440755850
+            }
+	paper2605347441:Paper {
+                .title : "Stability notions in synthetic graph generation a preliminary study"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue2894
+            	-cites->paper2474022715
+            	-authors->author140057078
+            	-authors->author2789011428
+            	-authors->author2918709753
+            	-authors->author2974138512
+            }
+	paper2612911770:Paper {
+                .title : "Integrating Modeling Languages and Web Logs for Enhanced User Behavior Analytics"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue391
+            	-authors->author2089757171
+            	-authors->author1991778634
+            	-authors->author2119227860
+            	-authors->author2130349106
+            	-authors->author2613780311
+            }
+	paper2618017068:Paper {
+                .title : "A Big Data Analysis Framework for ModelBased Web User Behavior Analytics"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue372
+            	-cites->paper202080076
+            	-cites->paper1499512708
+            	-cites->paper1564633100
+            	-cites->paper2018140906
+            	-cites->paper2293045535
+            	-authors->author2089757171
+            	-authors->author1991778634
+            	-authors->author2119227860
+            	-authors->author2130349106
+            }
+	paper2618731789:Paper {
+                .title : "PEoPL projectional editing of product lines"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue5
+            	-cites->paper188179498
+            	-cites->paper1591471358
+            	-cites->paper2103953153
+            	-cites->paper2107232214
+            	-cites->paper2131110154
+            	-cites->paper2144179818
+            	-authors->author1989316434
+            	-authors->author2106422313
+            	-authors->author2620104042
+            }
+	paper2621155700:Paper {
+                .title : "Envisioning the future of collaborative modeldriven software engineering"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue5
+            	-cites->paper1967384977
+            	-cites->paper1977200413
+            	-cites->paper2404647912
+            	-cites->paper2418384203
+            	-authors->author2071298843
+            	-authors->author1767925207
+            	-authors->author216354095
+            	-authors->author2231541469
+            }
+	paper2626631502:Paper {
+                .title : "Repairing sequential consistency in CC"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue218
+            	-cites->paper1430872261
+            	-cites->paper1525350307
+            	-cites->paper1945229733
+            	-cites->paper1983206712
+            	-cites->paper2000659103
+            	-cites->paper2014708731
+            	-cites->paper2039509099
+            	-cites->paper2054391605
+            	-cites->paper2054739713
+            	-cites->paper2109639089
+            	-cites->paper2117502039
+            	-cites->paper2132117132
+            	-cites->paper2138074470
+            	-cites->paper2152885346
+            	-cites->paper2168397157
+            	-cites->paper2280574045
+            	-cites->paper2293159724
+            	-cites->paper2293319505
+            	-cites->paper2531502343
+            	-cites->paper2553522901
+            	-cites->paper2564852534
+            	-cites->paper2738891045
+            	-authors->author1978008809
+            	-authors->author2250232977
+            	-authors->author138450541
+            	-authors->author2283278728
+            	-authors->author2152400748
+            }
+	paper2626811727:Paper {
+                .title : "Chasing Away RAts Semantics and Evaluation for Relaxed Atomics on Heterogeneous Systems"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue143
+            	-cites->paper1897254069
+            	-cites->paper1945229733
+            	-cites->paper1979527452
+            	-cites->paper1997162567
+            	-cites->paper1997576530
+            	-cites->paper2014708731
+            	-cites->paper2021211271
+            	-cites->paper2045867114
+            	-cites->paper2054391605
+            	-cites->paper2078994750
+            	-cites->paper2080592089
+            	-cites->paper2083780331
+            	-cites->paper2086167999
+            	-cites->paper2091085450
+            	-cites->paper2093043622
+            	-cites->paper2099912705
+            	-cites->paper2148032086
+            	-cites->paper2150618958
+            	-cites->paper2152390090
+            	-cites->paper2152885346
+            	-cites->paper2157225945
+            	-cites->paper2158551169
+            	-cites->paper2160963348
+            	-cites->paper2164264749
+            	-cites->paper2165365531
+            	-cites->paper2170382128
+            	-cites->paper2176864362
+            	-cites->paper2177772636
+            	-cites->paper2236227338
+            	-cites->paper2293159724
+            	-cites->paper2293319505
+            	-cites->paper2301631282
+            	-cites->paper2531502343
+            	-cites->paper2564852534
+            	-cites->paper2738891045
+            	-authors->author2150398445
+            	-authors->author2222635515
+            	-authors->author2346116799
+            }
+	paper2723261621:Paper {
+                .title : "Graph Constraint Evaluation over Partial Models by Constraint Rewriting"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue528
+            	-cites->paper1035875811
+            	-cites->paper1480909796
+            	-cites->paper1486745608
+            	-cites->paper1536631555
+            	-cites->paper1567888042
+            	-cites->paper1853034543
+            	-cites->paper1973559034
+            	-cites->paper1986958631
+            	-cites->paper1997864678
+            	-cites->paper1998400029
+            	-cites->paper2002662905
+            	-cites->paper2050736294
+            	-cites->paper2058547748
+            	-cites->paper2060440626
+            	-cites->paper2074683366
+            	-cites->paper2089381631
+            	-cites->paper2094489875
+            	-cites->paper2121061989
+            	-cites->paper2134001468
+            	-cites->paper2153019760
+            	-cites->paper2412353202
+            	-cites->paper2418384203
+            	-cites->paper2887375731
+            	-authors->author2143442092
+            	-authors->author10882077
+            }
+	paper2735459691:Paper {
+                .title : "Cutoff Bounds for Consensus Algorithms"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue468
+            	-cites->paper178138771
+            	-cites->paper200623142
+            	-cites->paper1021521453
+            	-cites->paper1681015847
+            	-cites->paper1858035675
+            	-cites->paper2035362408
+            	-cites->paper2075854425
+            	-cites->paper2123910665
+            	-cites->paper2133943294
+            	-cites->paper2162786453
+            	-authors->author2048207806
+            	-authors->author2203547071
+            	-authors->author2103878250
+            }
+	paper2736067960:Paper {
+                .title : "Relational Constraint Solving in SMT"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue1045
+            	-cites->paper150016039
+            	-cites->paper1519503479
+            	-cites->paper1895387792
+            	-cites->paper2060440626
+            	-authors->author2661865642
+            	-authors->author2136212275
+            	-authors->author2103374545
+            	-authors->author2147583627
+            }
+	paper2742532491:Paper {
+                .title : "Towards Inverse Uncertainty Quantification in Software Development Short Paper"
+            	.year : 2017
+            	.core : false
+            	.relevance:true
+            	-venue->venue5
+            	-cites->paper1862398452
+            	-cites->paper1886563687
+            	-cites->paper2018800706
+            	-cites->paper2028369901
+            	-cites->paper2054104130
+            	-cites->paper2133859873
+            	-cites->paper2525656308
+            	-authors->author2024396717
+            	-authors->author42474489
+            	-authors->author1780361130
+            	-authors->author2088725692
+            }
+	paper2745087117:Paper {
+                .title : "VuRLE Automatic Vulnerability Detection and Repair by Learning from Examples"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue32
+            	-authors->author2308301262
+            	-authors->author1011742574
+            	-authors->author2017041730
+            	-authors->author2132927693
+            	-authors->author2062283694
+            }
+	paper2745766115:Paper {
+                .title : "Synthetic data generation for statistical testing"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue77
+            	-cites->paper999459616
+            	-cites->paper1895387792
+            	-cites->paper2091920469
+            	-cites->paper2127229029
+            	-authors->author1134822698
+            	-authors->author2144557644
+            	-authors->author249447746
+            }
+	paper2753635096:Paper {
+                .title : "The importance of flow in software development"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue533
+            	-authors->author151827428
+            	-authors->author2155833130
+            }
+	paper2767655805:Paper {
+                .title : "Bidirectional Transformations in the Large"
+            	.year : 2017
+            	.core : false
+            	.relevance:true
+            	-venue->venue40
+            	-cites->paper1650869244
+            	-cites->paper1991633729
+            	-cites->paper2025624633
+            	-cites->paper2055016397
+            	-cites->paper2611515161
+            	-authors->author2287432086
+            }
+	paper2767846364:Paper {
+                .title : "APSL A Light Weight Testing Tool for Protocols with Complex Messages"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue4058
+            	-authors->author2767406042
+            	-authors->author2767321794
+            }
+	paper2782845488:Paper {
+                .title : "ProcessAware Modeldriven Development Environments"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue305
+            	-cites->paper2187340853
+            	-authors->author2111120067
+            	-authors->author2686474786
+            	-authors->author2782595480
+            	-authors->author2636921942
+            	-authors->author2782573551
+            	-authors->author2783041487
+            }
+	paper2784233265:Paper {
+                .title : "The modelverse a tool for multiparadigm modelling and simulation"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue4062
+            	-cites->paper1838876590
+            	-cites->paper2404647912
+            	-cites->paper2578157505
+            	-authors->author150610930
+            	-authors->author2045058881
+            }
+	paper2785325333:Paper {
+                .title : "A Formal Framework for Specifying and Verifying Microservices Based Process Flows"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue5
+            	-authors->author2024396717
+            	-authors->author2156588810
+            	-authors->author1780361130
+            	-authors->author2467890906
+            }
+	paper2769194423:Paper {
+                .title : "Simplifying ARM concurrency multicopyatomic axiomatic and operational models for ARMv"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue4072
+            	-cites->paper1525350307
+            	-cites->paper1545792627
+            	-cites->paper1594228127
+            	-cites->paper1808398105
+            	-cites->paper1822674892
+            	-cites->paper1995825057
+            	-cites->paper2001914359
+            	-cites->paper2003556922
+            	-cites->paper2026161190
+            	-cites->paper2026697016
+            	-cites->paper2105980774
+            	-cites->paper2111858071
+            	-cites->paper2116454140
+            	-cites->paper2117502039
+            	-cites->paper2138074470
+            	-cites->paper2155006989
+            	-cites->paper2163490397
+            	-cites->paper2234646418
+            	-cites->paper2280574045
+            	-cites->paper2293159724
+            	-cites->paper2553522901
+            	-cites->paper2564852534
+            	-cites->paper2605308338
+            	-authors->author2083313206
+            	-authors->author2344341496
+            	-authors->author2083541332
+            	-authors->author2344019585
+            	-authors->author2130034569
+            	-authors->author2770553429
+            }
+	paper2292447407:Paper {
+                .title : "On the completeness of bounded model checking for thresholdbased distributed algorithms"
+            	.year : 2017
+            	.core : false
+            	.relevance:false
+            	-venue->venue1462
+            	-cites->paper1021521453
+            	-cites->paper1531261972
+            	-cites->paper1554005697
+            	-cites->paper1597578789
+            	-cites->paper1787074469
+            	-cites->paper1973501242
+            	-cites->paper2073126252
+            	-cites->paper2113100977
+            	-cites->paper2122326479
+            	-cites->paper2133943294
+            	-cites->paper2414818575
+            	-cites->paper2611515161
+            	-cites->paper2611863566
+            	-authors->author1957630520
+            	-authors->author1976817768
+            	-authors->author692701391
+            }
+	paper2612065447:Paper {
+                .title : "A Posteriori Typing for ModelDriven Engineering Concepts Analysis and Applications"
+            	.year : 2017
+            	.core : false
+            	.relevance:true
+            	-venue->venue1307
+            	-cites->paper1511832825
+            	-cites->paper1838876590
+            	-cites->paper1895387792
+            	-cites->paper1975411983
+            	-cites->paper2044463389
+            	-cites->paper2045723688
+            	-cites->paper2060440626
+            	-cites->paper2087486361
+            	-cites->paper2094691937
+            	-cites->paper2162425337
+            	-cites->paper2176614894
+            	-authors->author2160674753
+            	-authors->author2108412495
+            }
+}
+

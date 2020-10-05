@@ -1,0 +1,406 @@
+import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Authors.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2013.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2014.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2011.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2006.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2003.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2004.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2009.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2000.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2012.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2015.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1997.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2010.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1999.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2001.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1998.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2007.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1989.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1991.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1992.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2002.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1990.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2016.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2017.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2018.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2020.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1983.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1995.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1982.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1987.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1986.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1988.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1993.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1984.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1978.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1976.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1979.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1980.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1941.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1968.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1974.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1967.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1970.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1959.msl"
+ 	
+model Paper1987{
+	paper171247437:Paper {
+                .title : "Fault Masking and Sequence Agreement by a Voting Protocol with low Message Number"
+            	.year : 1987
+            	.core : false
+            	.relevance:false
+            	-venue->venue465
+            	-authors->author2633718059
+            }
+	paper1521935994:Paper {
+                .title : "Abstracting Relational and Hierarchical Data with a Semantic Data Model"
+            	.year : 1987
+            	.core : false
+            	.relevance:false
+            	-venue->venue597
+            	-authors->author2280703322
+            	-authors->author2065325028
+            }
+	paper1542518647:Paper {
+                .title : "The Cerberus Multiprocessor Simulator"
+            	.year : 1987
+            	.core : false
+            	.relevance:false
+            	-venue->venue777
+            	-authors->author225551740
+            	-authors->author2636844214
+            	-authors->author2684001483
+            }
+	paper1581093035:Paper {
+                .title : "Converting A Relational Database Model into an EntityRelationship Model"
+            	.year : 1987
+            	.core : false
+            	.relevance:false
+            	-venue->venue597
+            	-authors->author2706069882
+            	-authors->author2612593125
+            }
+	paper1828150029:Paper {
+                .title : "Domain names  concepts and facilities"
+            	.year : 1987
+            	.core : false
+            	.relevance:false
+            	-venue->venue1111
+            	-authors->author2251318330
+            }
+	paper1972095388:Paper {
+                .title : "Process models process programs programming support"
+            	.year : 1987
+            	.core : false
+            	.relevance:false
+            	-venue->venue5
+            	-authors->author2614290841
+            }
+	paper1990100773:Paper {
+                .title : "Why a Diagram is Sometimes Worth Ten Thousand Words"
+            	.year : 1987
+            	.core : false
+            	.relevance:false
+            	-venue->venue1539
+            	-authors->author2303752472
+            	-authors->author2118103072
+            }
+	paper2008074667:Paper {
+                .title : "A Multilevel Relational Data Model"
+            	.year : 1987
+            	.core : false
+            	.relevance:false
+            	-venue->venue1189
+            	-authors->author2357457453
+            	-authors->author2419985518
+            }
+	paper2013492611:Paper {
+                .title : "Writing Larch interface language specifications"
+            	.year : 1987
+            	.core : false
+            	.relevance:false
+            	-venue->venue1385
+            	-cites->paper2110050316
+            	-cites->paper2111706174
+            	-authors->author1584891692
+            }
+	paper2026735162:Paper {
+                .title : "Data model issues for objectoriented applications"
+            	.year : 1987
+            	.core : false
+            	.relevance:false
+            	-venue->venue1731
+            	-cites->paper2163832616
+            	-authors->author1989612196
+            	-authors->author2256268629
+            	-authors->author2144020864
+            	-authors->author2116124413
+            	-authors->author2265738525
+            	-authors->author2308192707
+            	-authors->author2309577623
+            }
+	paper2026863920:Paper {
+                .title : "Tailoring the software process to project goals and environments"
+            	.year : 1987
+            	.core : false
+            	.relevance:false
+            	-venue->venue5
+            	-authors->author1582049571
+            	-authors->author2011353662
+            }
+	paper2035209053:Paper {
+                .title : "Caching Hints in Distributed Systems"
+            	.year : 1987
+            	.core : false
+            	.relevance:false
+            	-venue->venue1331
+            	-cites->paper2043671329
+            	-cites->paper2111223826
+            	-authors->author2973897406
+            }
+	paper2038562061:Paper {
+                .title : "Epidemic algorithms for replicated database maintenance"
+            	.year : 1987
+            	.core : false
+            	.relevance:false
+            	-venue->venue1446
+            	-cites->paper2009312542
+            	-cites->paper2043671329
+            	-cites->paper2059328141
+            	-cites->paper2130493426
+            	-authors->author2105059036
+            	-authors->author2297054173
+            	-authors->author2778312396
+            	-authors->author2082704637
+            	-authors->author2217257368
+            	-authors->author719828399
+            	-authors->author2640247517
+            	-authors->author2609468951
+            	-authors->author2711071304
+            }
+	paper2045723688:Paper {
+                .title : "Self The power of simplicity"
+            	.year : 1987
+            	.core : false
+            	.relevance:false
+            	-venue->venue140
+            	-authors->author2041937263
+            	-authors->author2987655110
+            }
+	paper2051789131:Paper {
+                .title : "Correct memory operation of cachebased multiprocessors"
+            	.year : 1987
+            	.core : false
+            	.relevance:false
+            	-venue->venue143
+            	-cites->paper1769402780
+            	-cites->paper1973501242
+            	-cites->paper2054739713
+            	-cites->paper2177772636
+            	-authors->author2067936517
+            	-authors->author2112744756
+            }
+	paper2059328141:Paper {
+                .title : "Discarding Obsolete Information in a Replicated Database System"
+            	.year : 1987
+            	.core : false
+            	.relevance:false
+            	-venue->venue1331
+            	-cites->paper1973501242
+            	-cites->paper2043671329
+            	-authors->author2640775652
+            	-authors->author2180706138
+            }
+	paper2063781800:Paper {
+                .title : "Prototyping a project master database for software engineering environments"
+            	.year : 1987
+            	.core : false
+            	.relevance:false
+            	-venue->venue1983
+            	-authors->author1976084713
+            }
+	paper2066775342:Paper {
+                .title : "Deadlock detection in distributed databases"
+            	.year : 1987
+            	.core : false
+            	.relevance:false
+            	-venue->venue1305
+            	-cites->paper1545155892
+            	-cites->paper1973501242
+            	-authors->author2119312003
+            }
+	paper2068361557:Paper {
+                .title : "Three partition refinement algorithms"
+            	.year : 1987
+            	.core : false
+            	.relevance:false
+            	-venue->venue1494
+            	-authors->author350567680
+            	-authors->author2045095730
+            }
+	paper2075950442:Paper {
+                .title : "Integrity constraint checking in stratified databases"
+            	.year : 1987
+            	.core : false
+            	.relevance:false
+            	-venue->venue1329
+            	-cites->paper181078895
+            	-cites->paper190622319
+            	-cites->paper2099805467
+            	-authors->author488584163
+            	-authors->author2705129013
+            	-authors->author2163391027
+            }
+	paper2095343473:Paper {
+                .title : "Optimal clock synchronization"
+            	.year : 1987
+            	.core : false
+            	.relevance:false
+            	-venue->venue1282
+            	-cites->paper2095464745
+            	-cites->paper2118891797
+            	-cites->paper2122326479
+            	-authors->author38233831
+            	-authors->author2146928066
+            }
+	paper2095958260:Paper {
+                .title : "Software processes are software too"
+            	.year : 1987
+            	.core : false
+            	.relevance:false
+            	-venue->venue5
+            	-authors->author2248607981
+            }
+	paper2075848956:Paper {
+                .title : "An empirical validation of software cost estimation models"
+            	.year : 1987
+            	.core : false
+            	.relevance:false
+            	-venue->venue763
+            	-authors->author2304793874
+            }
+	paper2111920576:Paper {
+                .title : "Cleanroom Software Development An Empirical Evaluation"
+            	.year : 1987
+            	.core : false
+            	.relevance:false
+            	-venue->venue1331
+            	-cites->paper1964962870
+            	-cites->paper2111706174
+            	-authors->author2651149059
+            	-authors->author2844520834
+            	-authors->author2011353662
+            }
+	paper2115600841:Paper {
+                .title : "Reimplementing the Cedar file system using logging and group commit"
+            	.year : 1987
+            	.core : false
+            	.relevance:false
+            	-venue->venue99
+            	-cites->paper2057954021
+            	-cites->paper2106887953
+            	-cites->paper2115294119
+            	-authors->author2974836014
+            }
+	paper2122326479:Paper {
+                .title : "Simulating authenticated broadcasts to derive simple faulttolerant algorithms"
+            	.year : 1987
+            	.core : false
+            	.relevance:false
+            	-venue->venue1481
+            	-cites->paper2095343473
+            	-cites->paper2120510885
+            	-authors->author38233831
+            	-authors->author2146928066
+            }
+	paper2131929623:Paper {
+                .title : "Exploiting virtual synchrony in distributed systems"
+            	.year : 1987
+            	.core : false
+            	.relevance:false
+            	-venue->venue99
+            	-cites->paper1973501242
+            	-cites->paper2116820549
+            	-cites->paper2134806330
+            	-authors->author2159648025
+            	-authors->author2094398115
+            }
+	paper2145805178:Paper {
+                .title : "On some cryptographic solutions for access control in a tree hierarchy"
+            	.year : 1987
+            	.core : false
+            	.relevance:false
+            	-venue->venue3320
+            	-cites->paper2031338211
+            	-authors->author2974325278
+            }
+	paper2152505375:Paper {
+                .title : "A Comparison of Commercial and Military Computer Security Policies"
+            	.year : 1987
+            	.core : false
+            	.relevance:false
+            	-venue->venue1189
+            	-authors->author2988038466
+            	-authors->author2135387429
+            }
+	paper2158046522:Paper {
+                .title : "Hypertext An Introduction and Survey"
+            	.year : 1987
+            	.core : false
+            	.relevance:false
+            	-venue->venue1073
+            	-authors->author2630448173
+            }
+	paper2117834984:Paper {
+                .title : "Safety Analysis Using Petri Nets"
+            	.year : 1987
+            	.core : false
+            	.relevance:false
+            	-venue->venue1331
+            	-authors->author2150992688
+            	-authors->author1253480009
+            }
+	paper2158535304:Paper {
+                .title : "Cleanroom Software Engineering"
+            	.year : 1987
+            	.core : false
+            	.relevance:false
+            	-venue->venue1294
+            	-cites->paper2111920576
+            	-authors->author2507038796
+            	-authors->author2151179467
+            	-authors->author696362100
+            }
+	paper2912084748:Paper {
+                .title : "Trace theory"
+            	.year : 1987
+            	.core : false
+            	.relevance:false
+            	-venue->venue4086
+            	-authors->author2911288797
+            }
+	paper1545155892:Paper {
+                .title : "Concurrency Control and Recovery in Database Systems"
+            	.year : 1987
+            	.core : false
+            	.relevance:false
+            	-venue->venue0
+            	-authors->author2304774990
+            	-authors->author2788786562
+            	-authors->author1992516074
+            }
+}
+

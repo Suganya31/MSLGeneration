@@ -1,0 +1,923 @@
+import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Authors.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2013.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2014.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2011.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2006.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2003.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2004.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2009.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2000.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2012.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2015.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1997.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2010.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1999.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2001.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1998.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2007.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1989.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1991.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1992.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2002.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1990.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2016.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2017.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2018.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2020.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1983.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1995.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1982.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1987.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1986.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1988.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1993.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1984.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1978.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1976.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1979.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1980.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1941.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1968.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1974.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1967.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1970.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1959.msl"
+ 	
+model Paper1995{
+	paper98171137:Paper {
+                .title : "Software Fault Tolerance"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue0
+            	-authors->author2227744130
+            }
+	paper1486676229:Paper {
+                .title : "Petri Nets and Linear Logic a Case Study for Logic Programming"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue572
+            	-authors->author2262944599
+            }
+	paper1489800325:Paper {
+                .title : "Specifying Distributed Software Architectures"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue587
+            	-cites->paper2013672985
+            	-cites->paper2110425399
+            	-cites->paper2128932399
+            	-authors->author874690412
+            	-authors->author2097290386
+            	-authors->author2095806276
+            	-authors->author1998858448
+            }
+	paper1511105469:Paper {
+                .title : "It Usually Works The Temporal Logic of Stochastic Systems"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue468
+            	-cites->paper2005998857
+            	-authors->author2917461269
+            	-authors->author2095411425
+            	-authors->author2801944351
+            }
+	paper1524975001:Paper {
+                .title : "Tivoli an electronic whiteboard for informal workgroup meetings"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue713
+            	-authors->author2107722080
+            	-authors->author2120515467
+            	-authors->author2135540066
+            	-authors->author2119690936
+            }
+	paper1541232524:Paper {
+                .title : "ATM virtual private networks"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue763
+            	-authors->author2114738826
+            	-authors->author563121846
+            	-authors->author2011711300
+            	-authors->author2986940122
+            }
+	paper1542403019:Paper {
+                .title : "Specware Formal Support for Composing Software"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue537
+            	-cites->paper1970495662
+            	-cites->paper2110050316
+            	-authors->author1225828849
+            	-authors->author670633399
+            }
+	paper1590398161:Paper {
+                .title : "A transformational characterization of equivalent Bayesian network structures"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue964
+            	-authors->author659530374
+            }
+	paper1601373402:Paper {
+                .title : "Model Checking of Probabalistic and Nondeterministic Systems"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue1019
+            	-cites->paper1511105469
+            	-cites->paper2005998857
+            	-cites->paper2093916942
+            	-cites->paper2165161585
+            	-authors->author2157610138
+            	-authors->author2129359981
+            }
+	paper1608796453:Paper {
+                .title : "Agent theories architectures and languages a survey"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue814
+            	-cites->paper2157598146
+            	-cites->paper2165904264
+            	-authors->author2112978975
+            	-authors->author2345025092
+            }
+	paper1879443588:Paper {
+                .title : "AugustII a tool for stepbystep data model reverse engineering"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue17
+            	-cites->paper9091155
+            	-cites->paper57965354
+            	-cites->paper166362352
+            	-cites->paper1492836761
+            	-cites->paper1498996471
+            	-cites->paper1521935994
+            	-cites->paper1581093035
+            	-cites->paper1586441963
+            	-cites->paper2048137832
+            	-authors->author2128368917
+            }
+	paper1898679987:Paper {
+                .title : "Verification of the UltraSPARC microprocessor"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue641
+            	-authors->author2671352962
+            	-authors->author2974192678
+            	-authors->author2644969714
+            	-authors->author2606396325
+            	-authors->author2689439291
+            	-authors->author2421066087
+            	-authors->author2648005864
+            	-authors->author2650624802
+            	-authors->author2672248718
+            	-authors->author2641992665
+            	-authors->author2675210042
+            	-authors->author2713909054
+            	-authors->author2429730879
+            	-authors->author2407084950
+            	-authors->author2429665591
+            	-authors->author2225884454
+            	-authors->author2633043235
+            	-authors->author363297345
+            	-authors->author2340582424
+            	-authors->author2424600401
+            	-authors->author2428919135
+            	-authors->author2642955596
+            	-authors->author2679333883
+            }
+	paper1946211190:Paper {
+                .title : "NFS Version  Protocol Specification"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue1111
+            	-authors->author2116501337
+            	-authors->author846907983
+            	-authors->author2635612954
+            }
+	paper1966112122:Paper {
+                .title : "Bisimulation cant be traced"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue1282
+            	-cites->paper2013672985
+            	-cites->paper2110425399
+            	-cites->paper2128932399
+            	-cites->paper2137865376
+            	-authors->author2158463219
+            	-authors->author2250310737
+            	-authors->author2054578888
+            }
+	paper1972203711:Paper {
+                .title : "The complexity of probabilistic verification"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue1282
+            	-cites->paper1579117491
+            	-cites->paper2165161585
+            	-authors->author294360276
+            	-authors->author349100197
+            }
+	paper1980446225:Paper {
+                .title : "Exploiting weak connectivity for mobile file access"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue99
+            	-cites->paper1967141605
+            	-cites->paper2005373714
+            	-cites->paper2116142433
+            	-cites->paper2124074197
+            	-authors->author416104820
+            	-authors->author2951349687
+            	-authors->author2950507329
+            }
+	paper2018140906:Paper {
+                .title : "The objectoriented hypermedia design model"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue763
+            	-authors->author2119015089
+            	-authors->author1885471680
+            }
+	paper2023192402:Paper {
+                .title : "Interactive sketching for the early stages of user interface design"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue1351
+            	-cites->paper1524975001
+            	-cites->paper1990100773
+            	-cites->paper2138482372
+            	-cites->paper2153360297
+            	-cites->paper2159080219
+            	-cites->paper2342091124
+            	-authors->author29409133
+            	-authors->author2117127927
+            }
+	paper2024255419:Paper {
+                .title : "An executable specification analyzer and verifier for RMO relaxed memory order"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue1284
+            	-cites->paper2045867114
+            	-cites->paper2054739713
+            	-cites->paper2176864362
+            	-cites->paper2177772636
+            	-authors->author2609318763
+            	-authors->author2148325455
+            }
+	paper2026697016:Paper {
+                .title : "Causal memory definitions implementation and programming"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue1481
+            	-cites->paper1973501242
+            	-cites->paper1985349143
+            	-cites->paper2036267700
+            	-cites->paper2054739713
+            	-cites->paper2079605740
+            	-cites->paper2101939036
+            	-cites->paper2114925953
+            	-cites->paper2152390090
+            	-cites->paper2165365531
+            	-cites->paper2176864362
+            	-authors->author2486112858
+            	-authors->author2219865830
+            	-authors->author2950529009
+            	-authors->author2398071188
+            	-authors->author2975091609
+            }
+	paper2030124949:Paper {
+                .title : "Serving information to the Web with HyperG"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue391
+            	-authors->author1801076300
+            	-authors->author702118676
+            	-authors->author2148356180
+            }
+	paper2036677122:Paper {
+                .title : "Structured operational semantics as a specification language"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue161
+            	-cites->paper1966112122
+            	-authors->author2158463219
+            }
+	paper2038952578:Paper {
+                .title : "Active shape modelstheir training and application"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue1997
+            	-authors->author2141316474
+            	-authors->author2192423455
+            	-authors->author2579641516
+            	-authors->author2524148933
+            }
+	paper2041152728:Paper {
+                .title : "Verification of the Futurebus Cache Coherence Protocol"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue447
+            	-cites->paper2080267935
+            	-authors->author2950852464
+            	-authors->author2078776729
+            	-authors->author2193269139
+            	-authors->author2129477832
+            	-authors->author2495161617
+            	-authors->author2029702051
+            	-authors->author1993734283
+            }
+	paper2062555630:Paper {
+                .title : "A formal semantics for the ODP computational model"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue2209
+            	-cites->paper1991494135
+            	-cites->paper2013672985
+            	-authors->author2193536736
+            	-authors->author1988585906
+            }
+	paper2062756186:Paper {
+                .title : "Dynamic change within workflow systems"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue2215
+            	-authors->author2097695784
+            	-authors->author271647245
+            	-authors->author2163169701
+            }
+	paper2065180040:Paper {
+                .title : "Sharing memory robustly in messagepassing systems"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue1282
+            	-cites->paper2035362408
+            	-authors->author1983290808
+            	-authors->author2278892267
+            	-authors->author685665164
+            }
+	paper2068625388:Paper {
+                .title : "Releasetorelease binary compatibility in SOM"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue140
+            	-authors->author722850541
+            	-authors->author2126116538
+            	-authors->author2135493604
+            	-authors->author1963657211
+            }
+	paper2077671984:Paper {
+                .title : "The Totem singlering ordering and membership protocol"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue1364
+            	-cites->paper1973501242
+            	-cites->paper2035362408
+            	-authors->author2167289893
+            	-authors->author2161113193
+            	-authors->author2778690319
+            	-authors->author2342730569
+            	-authors->author2154501644
+            }
+	paper2079550577:Paper {
+                .title : "Patterns teams and domain engineering"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue1484
+            	-authors->author2692586900
+            	-authors->author2485203012
+            	-authors->author2780755208
+            }
+	paper2084246969:Paper {
+                .title : "On the role of abduction"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue1305
+            	-authors->author2271505588
+            	-authors->author435749394
+            	-authors->author682889704
+            	-authors->author2307803847
+            }
+	paper2096395465:Paper {
+                .title : "The dynamic flowgraph methodology for assessing the dependability of embedded software systems"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue772
+            	-cites->paper2117834984
+            	-cites->paper2171242934
+            	-authors->author2974289832
+            	-authors->author2677278256
+            	-authors->author2785982719
+            }
+	paper2102296762:Paper {
+                .title : "Formal specification and analysis of software architectures using the chemical abstract machine model"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue1331
+            	-cites->paper2110425399
+            	-cites->paper2762588455
+            	-authors->author2115607830
+            	-authors->author2721512350
+            }
+	paper2102952102:Paper {
+                .title : "Observed idiosyncracies of relational database designs"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue17
+            	-authors->author2973688872
+            	-authors->author2973515603
+            }
+	paper2106180253:Paper {
+                .title : "Deriving specifications from requirements an example"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue5
+            	-cites->paper1979290877
+            	-authors->author2761218531
+            	-authors->author248253975
+            }
+	paper2109943392:Paper {
+                .title : "On finding duplication and nearduplication in large software systems"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue17
+            	-authors->author2425255528
+            }
+	paper2110026634:Paper {
+                .title : "Efficient optimistic concurrency control using loosely synchronized clocks"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue517
+            	-cites->paper2106887953
+            	-cites->paper2133386065
+            	-authors->author2022497718
+            	-authors->author2434704351
+            	-authors->author2084056563
+            	-authors->author1987890305
+            }
+	paper2113486906:Paper {
+                .title : "Formal verification for faulttolerant architectures prolegomena to the design of PVS"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue1331
+            	-cites->paper1593276140
+            	-cites->paper2114957237
+            	-cites->paper2118891797
+            	-cites->paper2120510885
+            	-cites->paper2134342348
+            	-authors->author2157944775
+            	-authors->author2630946548
+            	-authors->author2091958867
+            	-authors->author2118526916
+            }
+	paper2114059084:Paper {
+                .title : "Enterprise Objects Framework a second generation objectrelational enabler"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue517
+            	-cites->paper2139907081
+            	-authors->author2628179605
+            }
+	paper2114922436:Paper {
+                .title : "The Paradigm compiler for distributedmemory multicomputers"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue1073
+            	-authors->author2114032439
+            	-authors->author220746906
+            	-authors->author1955333374
+            	-authors->author2224251081
+            	-authors->author2004361871
+            	-authors->author2974866452
+            	-authors->author2487039874
+            	-authors->author2152346574
+            	-authors->author2161590773
+            }
+	paper2117260615:Paper {
+                .title : "Managing update conflicts in Bayou a weakly connected replicated storage system"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue99
+            	-cites->paper1525865893
+            	-cites->paper1586701723
+            	-cites->paper1973501242
+            	-cites->paper1985349143
+            	-cites->paper2038562061
+            	-cites->paper2040919531
+            	-cites->paper2043671329
+            	-cites->paper2048071586
+            	-cites->paper2116142433
+            	-cites->paper2124074197
+            	-cites->paper2125930899
+            	-cites->paper2134342348
+            	-cites->paper2156027558
+            	-authors->author2795421043
+            	-authors->author2643266344
+            	-authors->author2280432649
+            	-authors->author2778312396
+            	-authors->author2082704637
+            	-authors->author2307956062
+            }
+	paper2122824813:Paper {
+                .title : "The  View Model of architecture"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue1294
+            	-authors->author2032079893
+            }
+	paper2122960384:Paper {
+                .title : "Exokernel an operating system architecture for applicationlevel resource management"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue99
+            	-authors->author2163716051
+            	-authors->author2629805728
+            	-authors->author2144886982
+            }
+	paper2123431646:Paper {
+                .title : "Architecture blueprintsthe  view model of software architecture"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue2951
+            	-authors->author2230921372
+            }
+	paper2126214203:Paper {
+                .title : "Fault tolerance in safety critical automotive applications cost of agreement as a limiting factor"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue1201
+            	-cites->paper1973501242
+            	-cites->paper1992554067
+            	-cites->paper2033579026
+            	-cites->paper2045362872
+            	-cites->paper2118891797
+            	-cites->paper2152465173
+            	-cites->paper2161528798
+            	-cites->paper2164357820
+            	-authors->author2973942945
+            }
+	paper2126503506:Paper {
+                .title : "CRL highperformance allsoftware distributed shared memory"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue99
+            	-cites->paper1966285605
+            	-cites->paper1990936405
+            	-cites->paper1991494135
+            	-cites->paper2005373714
+            	-cites->paper2090757636
+            	-cites->paper2122960384
+            	-cites->paper2127547524
+            	-cites->paper2132159669
+            	-cites->paper2140471248
+            	-cites->paper2145021036
+            	-cites->paper2160454978
+            	-cites->paper2168266481
+            	-cites->paper2176864362
+            	-authors->author2303980089
+            	-authors->author2471827240
+            	-authors->author2629805728
+            }
+	paper2127735978:Paper {
+                .title : "Efficient Support of Location Transparency in Concurrent ObjectOriented Programming Languages"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue2335
+            	-authors->author2610270400
+            	-authors->author2161553928
+            }
+	paper2129269323:Paper {
+                .title : "The impact of architectural trends on operating system performance"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue99
+            	-authors->author2102969555
+            	-authors->author2514122770
+            	-authors->author2021739988
+            	-authors->author2307943801
+            	-authors->author2670407451
+            }
+	paper2131414602:Paper {
+                .title : "Rover a toolkit for mobile information access"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue99
+            	-cites->paper1980446225
+            	-cites->paper2115600841
+            	-cites->paper2117260615
+            	-cites->paper2124074197
+            	-cites->paper2125930899
+            	-cites->paper2134342348
+            	-authors->author2142513814
+            	-authors->author2222853225
+            	-authors->author2114517990
+            	-authors->author2683940979
+            	-authors->author2046865529
+            }
+	paper2133820906:Paper {
+                .title : "The UltraSAN modeling environment"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue1789
+            	-cites->paper2119239145
+            	-cites->paper2153851383
+            	-cites->paper2160374010
+            	-authors->author2282728788
+            	-authors->author2279045750
+            	-authors->author2280265749
+            	-authors->author2973747496
+            }
+	paper2138578830:Paper {
+                .title : "Global optimization for the Biaffine Matrix Inequality problem"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue3203
+            	-authors->author2168825905
+            	-authors->author1991754775
+            	-authors->author2200743555
+            }
+	paper2140471436:Paper {
+                .title : "Security Architecture for the Internet Protocol"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue3229
+            	-authors->author2246767751
+            }
+	paper2141537650:Paper {
+                .title : "Implementing fault tolerant applications using reflective objectoriented programming"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue1201
+            	-cites->paper2116820549
+            	-cites->paper2131929623
+            	-cites->paper2161528798
+            	-authors->author2136516135
+            	-authors->author2974646309
+            	-authors->author2262941312
+            	-authors->author2974585576
+            	-authors->author2138314026
+            }
+	paper2145021036:Paper {
+                .title : "The SPLASH programs characterization and methodological considerations"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue143
+            	-cites->paper1966285605
+            	-cites->paper2147638342
+            	-authors->author2102097078
+            	-authors->author2514122770
+            	-authors->author2777822043
+            	-authors->author2157116051
+            	-authors->author2020561971
+            }
+	paper2146082668:Paper {
+                .title : "Abstractions for software architecture and tools to support them"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue1331
+            	-cites->paper2110050316
+            	-authors->author2983901837
+            	-authors->author2141334907
+            	-authors->author2570784502
+            	-authors->author2123471266
+            	-authors->author2163972128
+            	-authors->author2101396297
+            }
+	paper2148275477:Paper {
+                .title : "Wide area traffic the failure of Poisson modeling"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue2639
+            	-cites->paper2105818147
+            	-authors->author2164767595
+            	-authors->author716133098
+            }
+	paper2153933075:Paper {
+                .title : "An eventbased architecture definition language"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue1331
+            	-cites->paper2110425399
+            	-authors->author21098100
+            	-authors->author2132602664
+            }
+	paper2154176977:Paper {
+                .title : "Effectiveness of hardwarebased stride and sequential prefetching in sharedmemory multiprocessors"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue1435
+            	-cites->paper1769402780
+            	-cites->paper1966285605
+            	-cites->paper2078081736
+            	-cites->paper2096956970
+            	-cites->paper2101377877
+            	-authors->author2016806737
+            	-authors->author2008392143
+            }
+	paper2158024480:Paper {
+                .title : "An approach to animating Z specifications"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue54
+            	-authors->author2106782104
+            }
+	paper2159416255:Paper {
+                .title : "The automatic generation of load test suites and the assessment of the resulting software"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue1331
+            	-authors->author2243864232
+            	-authors->author2973758710
+            }
+	paper2160019730:Paper {
+                .title : "A formal semantics for object model diagrams"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue1331
+            	-cites->paper1583095677
+            	-cites->paper2120515675
+            	-cites->paper2170486381
+            	-authors->author2973730222
+            	-authors->author2116990958
+            }
+	paper2160374010:Paper {
+                .title : "TimeNETa toolkit for evaluating nonMarkovian stochastic Petri nets"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue2653
+            	-cites->paper2119239145
+            	-authors->author2779543046
+            	-authors->author2066510629
+            	-authors->author1991563813
+            	-authors->author2160388673
+            }
+	paper2160454978:Paper {
+                .title : "The MIT Alewife machine architecture and performance"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue143
+            	-cites->paper1966285605
+            	-cites->paper2152496451
+            	-cites->paper2163820265
+            	-authors->author2156471427
+            	-authors->author2118200140
+            	-authors->author2471827240
+            	-authors->author2344198099
+            	-authors->author1853640919
+            	-authors->author695789049
+            	-authors->author2282754113
+            	-authors->author2112818499
+            	-authors->author2169611794
+            }
+	paper2161477496:Paper {
+                .title : "Towards a framework for software measurement validation"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue1331
+            	-cites->paper2111562224
+            	-authors->author1610973832
+            	-authors->author1971801425
+            	-authors->author123920419
+            }
+	paper2162255975:Paper {
+                .title : "Requirements monitoring in dynamic environments"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue1229
+            	-cites->paper2017739343
+            	-authors->author2335794901
+            	-authors->author2144541629
+            }
+	paper2170212320:Paper {
+                .title : "A new approach for the verification of cache coherence protocols"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue1878
+            	-cites->paper1769402780
+            	-cites->paper2041152728
+            	-cites->paper2080267935
+            	-authors->author2973998676
+            	-authors->author2984761706
+            }
+	paper2117917070:Paper {
+                .title : "A critique of ANSI SQL isolation levels"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue517
+            	-cites->paper1515932031
+            	-cites->paper1545155892
+            	-authors->author2920449430
+            	-authors->author1993489269
+            	-authors->author2136822424
+            	-authors->author2061220248
+            	-authors->author2154033516
+            	-authors->author2131537204
+            }
+	paper1558832481:Paper {
+                .title : "Foundations of databases"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue0
+            	-authors->author152493642
+            	-authors->author172400696
+            	-authors->author2157269769
+            }
+	paper1898259180:Paper {
+                .title : "Fuzzy Sets and Fuzzy Logic Theory and Applications"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue0
+            	-authors->author2607824539
+            	-authors->author243346321
+            }
+	paper1969402593:Paper {
+                .title : "Evolving algebras  Lipari guide"
+            	.year : 1995
+            	.core : false
+            	.relevance:false
+            	-venue->venue4199
+            	-authors->author2154094381
+            }
+}
+

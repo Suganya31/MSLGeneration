@@ -1,0 +1,143 @@
+import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Authors.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2013.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2014.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2011.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2006.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2003.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2004.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2009.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2000.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2012.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2015.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1997.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2010.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1999.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2001.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1998.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2007.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1989.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1991.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1992.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2002.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1990.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2016.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2017.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2018.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2020.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1983.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1995.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1982.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1987.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1986.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1988.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1993.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1984.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1978.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1976.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1979.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1980.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1941.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1968.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1974.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1967.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1970.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1959.msl"
+ 	
+model Paper1984{
+	paper1538647619:Paper {
+                .title : "Authorship Provisions in Augment"
+            	.year : 1984
+            	.core : false
+            	.relevance:false
+            	-venue->venue756
+            	-authors->author2208808115
+            }
+	paper1714865987:Paper {
+                .title : "Fault Tolerance by Design Diversity Concepts and Experiments"
+            	.year : 1984
+            	.core : false
+            	.relevance:false
+            	-venue->venue1073
+            	-authors->author2674132503
+            	-authors->author581862959
+            }
+	paper1990391007:Paper {
+                .title : "Incomplete Information in Relational Databases"
+            	.year : 1984
+            	.core : false
+            	.relevance:false
+            	-venue->venue1282
+            	-cites->paper2165467455
+            	-authors->author2126549598
+            	-authors->author152915441
+            }
+	paper2013498813:Paper {
+                .title : "Dependability Evaluation of Software Systems in Operation"
+            	.year : 1984
+            	.core : false
+            	.relevance:false
+            	-venue->venue1331
+            	-cites->paper1964962870
+            	-cites->paper2133201251
+            	-authors->author2974157776
+            }
+	paper2098395122:Paper {
+                .title : "Dependency Satisfaction in Databases with Incomplete Information"
+            	.year : 1984
+            	.core : false
+            	.relevance:false
+            	-venue->venue602
+            	-cites->paper1990391007
+            	-authors->author1605907091
+            }
+	paper2170105447:Paper {
+                .title : "Software reliability analysis models"
+            	.year : 1984
+            	.core : false
+            	.relevance:false
+            	-venue->venue2410
+            	-authors->author2086586190
+            }
+	paper2293624369:Paper {
+                .title : "Program Slicing"
+            	.year : 1984
+            	.core : false
+            	.relevance:false
+            	-venue->venue1331
+            	-authors->author2475447149
+            }
+	paper2405753531:Paper {
+                .title : "On the Formal Definition of a PLI Subset Selected parts"
+            	.year : 1984
+            	.core : false
+            	.relevance:false
+            	-venue->venue3913
+            	-authors->author2974727964
+            	-authors->author2142468959
+            	-authors->author54991345
+            	-authors->author2906941451
+            	-authors->author2986759148
+            }
+	paper1587166076:Paper {
+                .title : "SMALLTALK the interactive programming environment"
+            	.year : 1984
+            	.core : false
+            	.relevance:false
+            	-venue->venue4162
+            	-authors->author2224192923
+            }
+}
+

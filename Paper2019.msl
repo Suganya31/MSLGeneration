@@ -1,0 +1,318 @@
+import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Authors.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2013.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2014.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2011.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2006.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2003.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2004.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2009.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2000.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2012.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2015.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1997.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2010.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1999.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2001.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1998.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2007.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1989.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1991.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1992.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2002.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1990.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2016.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2017.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2018.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2020.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1983.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1995.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1982.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1987.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1986.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1988.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1993.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1984.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1978.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1976.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1979.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1980.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1941.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1968.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1974.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1967.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1970.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1959.msl"
+ 	
+model Paper2019{
+	paper2922446935:Paper {
+                .title : "Verifying Safety of Synchronous FaultTolerant Algorithms by Bounded Model Checking"
+            	.year : 2019
+            	.core : true
+            	.relevance:false
+            	-venue->venue11
+            	-cites->paper178138771
+            	-cites->paper186540455
+            	-cites->paper200623142
+            	-cites->paper1021521453
+            	-cites->paper1480909796
+            	-cites->paper1531261972
+            	-cites->paper1554005697
+            	-cites->paper1597578789
+            	-cites->paper1787074469
+            	-cites->paper2001315747
+            	-cites->paper2010075998
+            	-cites->paper2035362408
+            	-cites->paper2056910803
+            	-cites->paper2095343473
+            	-cites->paper2122326479
+            	-cites->paper2123910665
+            	-cites->paper2162786453
+            	-cites->paper2292447407
+            	-cites->paper2296248291
+            	-cites->paper2414818575
+            	-cites->paper2518474658
+            	-cites->paper2611515161
+            	-cites->paper2611863566
+            	-cites->paper2735459691
+            	-cites->paper2779460099
+            	-cites->paper2889201126
+            	-cites->paper2953280466
+            	-authors->author2780864794
+            	-authors->author1957630520
+            	-authors->author2331520953
+            	-authors->author692701391
+            }
+	paper2935389012:Paper {
+                .title : "A Formal Analysis of the NVIDIA PTX Memory Consistency Model"
+            	.year : 2019
+            	.core : true
+            	.relevance:false
+            	-venue->venue152
+            	-cites->paper150016039
+            	-cites->paper606696939
+            	-cites->paper1519503479
+            	-cites->paper1519576952
+            	-cites->paper1525350307
+            	-cites->paper1581575676
+            	-cites->paper1595209293
+            	-cites->paper1808398105
+            	-cites->paper1945229733
+            	-cites->paper1968283843
+            	-cites->paper1972619218
+            	-cites->paper2000659103
+            	-cites->paper2026161190
+            	-cites->paper2054391605
+            	-cites->paper2060440626
+            	-cites->paper2111858071
+            	-cites->paper2120339165
+            	-cites->paper2132117132
+            	-cites->paper2138074470
+            	-cites->paper2150618958
+            	-cites->paper2153636750
+            	-cites->paper2236227338
+            	-cites->paper2256363745
+            	-cites->paper2301631282
+            	-cites->paper2507977852
+            	-cites->paper2553522901
+            	-cites->paper2605308338
+            	-cites->paper2626631502
+            	-cites->paper2626811727
+            	-cites->paper2736067960
+            	-cites->paper2769194423
+            	-cites->paper2898394028
+            	-authors->author2029293479
+            	-authors->author2929453374
+            	-authors->author2440755850
+            }
+	paper2938753501:Paper {
+                .title : "Dealing with Uncertainty in Binary Logistic Regression Faultproneness Models"
+            	.year : 2019
+            	.core : true
+            	.relevance:false
+            	-venue->venue288
+            	-cites->paper1342665
+            	-cites->paper1919928684
+            	-cites->paper1964962870
+            	-cites->paper1973112705
+            	-cites->paper1973948212
+            	-cites->paper2023931799
+            	-cites->paper2028246616
+            	-cites->paper2039444730
+            	-cites->paper2074805796
+            	-cites->paper2076983043
+            	-cites->paper2088117279
+            	-cites->paper2099794800
+            	-cites->paper2122402375
+            	-cites->paper2125055259
+            	-cites->paper2151666086
+            	-cites->paper2163279690
+            	-cites->paper2399345145
+            	-cites->paper2509913888
+            	-cites->paper2522788916
+            	-cites->paper2600952128
+            	-authors->author2021480045
+            	-authors->author2310896500
+            }
+	paper2954114557:Paper {
+                .title : "VIATRA Solver A Framework for the Automated Generation of Consistent DomainSpecific Models"
+            	.year : 2019
+            	.core : true
+            	.relevance:false
+            	-venue->venue5
+            	-cites->paper1035875811
+            	-cites->paper1480909796
+            	-cites->paper1519503479
+            	-cites->paper1548001884
+            	-cites->paper1986958631
+            	-cites->paper2050736294
+            	-cites->paper2068652506
+            	-cites->paper2074683366
+            	-cites->paper2094489875
+            	-cites->paper2103364805
+            	-cites->paper2121061989
+            	-cites->paper2126443444
+            	-cites->paper2162968794
+            	-cites->paper2352369207
+            	-cites->paper2412353202
+            	-cites->paper2548921736
+            	-cites->paper2745766115
+            	-cites->paper2787691610
+            	-cites->paper2795021132
+            	-cites->paper2796271057
+            	-authors->author2955303277
+            	-authors->author2954109130
+            	-authors->author2143442092
+            	-authors->author10882077
+            }
+	paper2972865466:Paper {
+                .title : "Test Model Coverage Analysis Under Uncertainty"
+            	.year : 2019
+            	.core : true
+            	.relevance:true
+            	-venue->venue5
+            	-cites->paper92192699
+            	-cites->paper179875050
+            	-cites->paper1486172410
+            	-cites->paper1498432697
+            	-cites->paper1592393183
+            	-cites->paper1594006286
+            	-cites->paper1812243426
+            	-cites->paper1969671537
+            	-cites->paper1977607979
+            	-cites->paper1987382793
+            	-cites->paper2005998857
+            	-cites->paper2029775954
+            	-cites->paper2047124398
+            	-cites->paper2108394166
+            	-cites->paper2110425399
+            	-cites->paper2119296494
+            	-cites->paper2130966309
+            	-cites->paper2139980321
+            	-cites->paper2144956041
+            	-cites->paper2154897437
+            	-cites->paper2156062584
+            	-cites->paper2736752497
+            	-cites->paper2767846364
+            	-authors->author2973153021
+            	-authors->author2955064162
+            }
+	paper2979412565:Paper {
+                .title : "Detecting and exploring side effects when repairing model inconsistencies"
+            	.year : 2019
+            	.core : true
+            	.relevance:true
+            	-venue->venue293
+            	-authors->author2346573819
+            	-authors->author2979566768
+            	-authors->author2600856194
+            }
+	paper2982420018:Paper {
+                .title : "Project Management Model Based on Consistency Strategy for Blockchain Platform"
+            	.year : 2019
+            	.core : true
+            	.relevance:false
+            	-venue->venue253
+            	-cites->paper1589846406
+            	-cites->paper1819513546
+            	-cites->paper2006553873
+            	-cites->paper2053342672
+            	-cites->paper2135988418
+            	-cites->paper2156580773
+            	-cites->paper2295506186
+            	-cites->paper2311567330
+            	-cites->paper2397661077
+            	-cites->paper2529101939
+            	-authors->author2982614356
+            	-authors->author2969412840
+            }
+	paper2989874800:Paper {
+                .title : "Automatic Generation of Atomic Consistency Preserving Search Operators for SearchBased Model Engineering"
+            	.year : 2019
+            	.core : true
+            	.relevance:true
+            	-venue->venue40
+            	-authors->author2565345086
+            	-authors->author694905393
+            	-authors->author2578314152
+            }
+	paper3000612718:Paper {
+                .title : "Characterization and Modeling of a Flexible Tetrapolar Bioimpedance Sensor and Measurements of Intestinal Tissues"
+            	.year : 2019
+            	.core : true
+            	.relevance:false
+            	-venue->venue130
+            	-cites->paper1952300823
+            	-cites->paper2047589674
+            	-cites->paper2074122741
+            	-cites->paper2134183028
+            	-cites->paper2148936942
+            	-cites->paper2567465430
+            	-authors->author2133649610
+            	-authors->author190766084
+            	-authors->author1930234444
+            }
+	paper2953899265:Paper {
+                .title : "Model checking for weakly consistent libraries"
+            	.year : 2019
+            	.core : true
+            	.relevance:false
+            	-venue->venue218
+            	-authors->author138450541
+            	-authors->author2128095825
+            	-authors->author2736001160
+            }
+	paper2736727838:Paper {
+                .title : "UncertaintyWise CyberPhysical System test modeling"
+            	.year : 2019
+            	.core : false
+            	.relevance:false
+            	-venue->venue533
+            	-cites->paper1536631555
+            	-cites->paper1564262173
+            	-cites->paper1898259180
+            	-cites->paper1978519707
+            	-cites->paper2066843515
+            	-cites->paper2121061989
+            	-cites->paper2122518432
+            	-cites->paper2169239645
+            	-authors->author2332852696
+            	-authors->author2209258679
+            	-authors->author2565502311
+            	-authors->author2564232279
+            	-authors->author2236275875
+            }
+}
+

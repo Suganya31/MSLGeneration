@@ -1,0 +1,144 @@
+import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Authors.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2013.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2014.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2011.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2006.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2003.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2004.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2009.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2000.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2012.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2015.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1997.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2010.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1999.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2001.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1998.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2007.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1989.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1991.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1992.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2002.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1990.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2016.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2017.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2018.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2020.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1983.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1995.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1982.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1987.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1986.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1988.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1993.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1984.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1978.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1976.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1979.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1980.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1941.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1968.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1974.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1967.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1970.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1959.msl"
+ 	
+model Paper1982{
+	paper156767209:Paper {
+                .title : "Epigrams on Programming"
+            	.year : 1982
+            	.core : false
+            	.relevance:false
+            	-venue->venue451
+            	-authors->author2659867364
+            }
+	paper1985495277:Paper {
+                .title : "The Recognition of Series Parallel Digraphs"
+            	.year : 1982
+            	.core : false
+            	.relevance:false
+            	-venue->venue1494
+            	-authors->author350567680
+            	-authors->author2444474037
+            	-authors->author2161825852
+            }
+	paper1992580876:Paper {
+                .title : "Probability and Statistics With Reliability Queuing and Computer Science Applications"
+            	.year : 1982
+            	.core : false
+            	.relevance:false
+            	-venue->venue0
+            	-authors->author2728939240
+            }
+	paper2043671329:Paper {
+                .title : "Grapevine an exercise in distributed computing"
+            	.year : 1982
+            	.core : false
+            	.relevance:false
+            	-venue->venue763
+            	-authors->author2153103727
+            	-authors->author2470914381
+            	-authors->author2104187752
+            	-authors->author2467977717
+            }
+	paper2099805467:Paper {
+                .title : "Logic for improving integrity checking in relational data bases"
+            	.year : 1982
+            	.core : false
+            	.relevance:false
+            	-venue->venue1267
+            	-cites->paper2103920867
+            	-authors->author2288386885
+            }
+	paper2120510885:Paper {
+                .title : "The Byzantine Generals Problem"
+            	.year : 1982
+            	.core : false
+            	.relevance:false
+            	-venue->venue1385
+            	-authors->author577326872
+            	-authors->author2096750770
+            	-authors->author2138566478
+            }
+	paper2125739093:Paper {
+                .title : "Performance Analysis Using Stochastic Petri Nets"
+            	.year : 1982
+            	.core : false
+            	.relevance:false
+            	-venue->venue1091
+            	-authors->author343208594
+            }
+	paper2127614394:Paper {
+                .title : "Capturing more world knowledge in the requirements specification"
+            	.year : 1982
+            	.core : false
+            	.relevance:false
+            	-venue->venue5
+            	-cites->paper2006210705
+            	-authors->author2100751788
+            	-authors->author2161153869
+            	-authors->author2052199646
+            }
+	paper2116502002:Paper {
+                .title : "Rete a fast algorithm for the many patternmany object pattern match problem"
+            	.year : 1982
+            	.core : false
+            	.relevance:false
+            	-venue->venue1397
+            	-authors->author555324291
+            }
+}
+

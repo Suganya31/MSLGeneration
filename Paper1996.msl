@@ -1,0 +1,906 @@
+import "platform:/resource/SLROnToleranceInMDE/src/Language.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Authors.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Venues.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2013.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2014.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2011.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2006.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2003.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2005.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1996.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2008.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2004.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2009.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2000.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2012.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2015.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1997.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2010.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1999.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2001.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1998.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2007.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1989.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1991.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1992.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2002.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1990.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2016.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2017.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2018.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2019.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper2020.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1977.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1994.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1983.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1995.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1982.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1987.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1986.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1988.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1985.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1993.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1984.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1978.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1976.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1979.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1980.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1941.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1968.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1981.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1975.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1972.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1974.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1969.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1967.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1970.msl"
+import "platform:/resource/SLROnToleranceInMDE/src/Papers/Paper1959.msl"
+ 	
+model Paper1996{
+	paper1522733772:Paper {
+                .title : "Combining a flexible data model and phase schema translation in data model reverse engineering"
+            	.year : 1996
+            	.core : true
+            	.relevance:false
+            	-venue->venue17
+            	-cites->paper9091155
+            	-cites->paper57965354
+            	-cites->paper166362352
+            	-cites->paper1492836761
+            	-cites->paper1498996471
+            	-cites->paper1521935994
+            	-cites->paper1581093035
+            	-cites->paper1586441963
+            	-cites->paper1879443588
+            	-cites->paper2048137832
+            	-cites->paper2050894976
+            	-cites->paper2102952102
+            	-authors->author2128368917
+            }
+	paper2088748389:Paper {
+                .title : "A flexible operation execution model for shared distributed objects"
+            	.year : 1996
+            	.core : true
+            	.relevance:false
+            	-venue->venue140
+            	-cites->paper1532915129
+            	-cites->paper1541859602
+            	-cites->paper1990598338
+            	-cites->paper1990936405
+            	-cites->paper1991494135
+            	-cites->paper2007567551
+            	-cites->paper2018028877
+            	-cites->paper2090757636
+            	-cites->paper2100173406
+            	-cites->paper2114827297
+            	-cites->paper2114922436
+            	-cites->paper2121134342
+            	-cites->paper2124663702
+            	-cites->paper2125680420
+            	-cites->paper2126503506
+            	-cites->paper2127547524
+            	-cites->paper2140471248
+            	-cites->paper2161620586
+            	-cites->paper2165904264
+            	-authors->author2111822219
+            	-authors->author1182226502
+            	-authors->author2225290484
+            }
+	paper2103876344:Paper {
+                .title : "Investigating rareevent failure tolerance reductions in future uncertainty"
+            	.year : 1996
+            	.core : true
+            	.relevance:false
+            	-venue->venue154
+            	-cites->paper1971991620
+            	-authors->author2798562750
+            	-authors->author2792816725
+            	-authors->author568848126
+            }
+	paper2171564459:Paper {
+                .title : "An evaluation of memory consistency models for sharedmemory systems with ILP processors"
+            	.year : 1996
+            	.core : true
+            	.relevance:false
+            	-venue->venue152
+            	-cites->paper8399591
+            	-cites->paper1885534640
+            	-cites->paper1966285605
+            	-cites->paper2054739713
+            	-cites->paper2078081736
+            	-cites->paper2081040934
+            	-cites->paper2096956970
+            	-cites->paper2101377877
+            	-cites->paper2103772475
+            	-cites->paper2129094586
+            	-cites->paper2129269323
+            	-cites->paper2131454290
+            	-cites->paper2134205263
+            	-cites->paper2145021036
+            	-cites->paper2154176977
+            	-cites->paper2160454978
+            	-cites->paper2163196718
+            	-cites->paper2163820265
+            	-cites->paper2165365531
+            	-cites->paper2176864362
+            	-authors->author2129780294
+            	-authors->author2408455160
+            	-authors->author2346116799
+            	-authors->author2693067129
+            }
+	paper199365300:Paper {
+                .title : "Modeling and Verifying Distributed Systems Using Priorities A Case Study"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue507
+            	-authors->author2987031740
+            	-authors->author2055938660
+            	-authors->author2153381412
+            	-authors->author2090782985
+            }
+	paper1507985299:Paper {
+                .title : "The NCSU Concurrency Workbench"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue468
+            	-cites->paper2068361557
+            	-authors->author2153381412
+            	-authors->author2090782985
+            }
+	paper1567586152:Paper {
+                .title : "Symmetrybreaking predicates for search problems"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue458
+            	-authors->author2572348503
+            	-authors->author2122458093
+            	-authors->author2470953425
+            	-authors->author2163902970
+            }
+	paper1574570499:Paper {
+                .title : "The State Explosion Problem"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue905
+            	-cites->paper1568729458
+            	-cites->paper2080267935
+            	-cites->paper2118382442
+            	-cites->paper2132334337
+            	-authors->author17123897
+            }
+	paper1580417272:Paper {
+                .title : "Tamper Resistant Software An Implementation"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue932
+            	-authors->author1977387845
+            }
+	paper1599778614:Paper {
+                .title : "Further Improvements on Integrity Constraint Checking for Stratifiable Deductive Databases"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue602
+            	-cites->paper181078895
+            	-cites->paper2075950442
+            	-cites->paper2076126314
+            	-cites->paper2119295867
+            	-authors->author2101052892
+            	-authors->author2147365671
+            }
+	paper1600780496:Paper {
+                .title : "Tool support of orderly transition from informal to formal descriptions in requirements engineering"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue1014
+            	-cites->paper2105603754
+            	-authors->author2607615413
+            	-authors->author2102034764
+            	-authors->author2706864973
+            }
+	paper1613874182:Paper {
+                .title : "Timing Attacks on Implementations of DiffieHellman RSA DSS and Other Systems"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue606
+            	-authors->author1984824673
+            }
+	paper1698439592:Paper {
+                .title : "Experiment on the automatic detection of function clones in a software system using metrics"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue1070
+            	-cites->paper1491178396
+            	-cites->paper2109943392
+            	-authors->author2714971955
+            	-authors->author2223208342
+            	-authors->author2482489203
+            }
+	paper1838724310:Paper {
+                .title : "Dependability Modeling and Analysis of Complex Control Systems An Application to Railway Interlocking"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue1152
+            	-cites->paper1714865987
+            	-cites->paper1992580876
+            	-cites->paper2168005875
+            	-authors->author167784832
+            	-authors->author569579440
+            	-authors->author2346031838
+            }
+	paper1844552598:Paper {
+                .title : "Guidelines for Formalizing Fusion ObjectOriented Analysis Methods"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue359
+            	-cites->paper2160019730
+            	-authors->author2425418892
+            	-authors->author697456244
+            	-authors->author83918571
+            }
+	paper1851467418:Paper {
+                .title : "MetaEdit A Fully Configurable MultiUser and MultiTool CASE and CAME Environment"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue359
+            	-cites->paper2095958260
+            	-authors->author2161564812
+            	-authors->author2051429859
+            	-authors->author2304925220
+            }
+	paper1889614459:Paper {
+                .title : "The QUESTapproach for the performance evaluation of SDLsystems"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue333
+            	-authors->author1570750107
+            	-authors->author2288555772
+            	-authors->author2654990458
+            }
+	paper1889775143:Paper {
+                .title : "Formal methods for the validation of fault tolerance in autonomous spacecraft"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue1201
+            	-authors->author2973786560
+            	-authors->author2565352486
+            	-authors->author2718900400
+            	-authors->author2652723034
+            	-authors->author2974590656
+            	-authors->author2024086915
+            }
+	paper1919928684:Paper {
+                .title : "Applying designmetrics to objectoriented frameworks"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue1220
+            	-cites->paper1964962870
+            	-authors->author2633851604
+            	-authors->author25798412
+            }
+	paper1969492351:Paper {
+                .title : "Domainoriented design environments"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue5
+            	-cites->paper2045571829
+            	-cites->paper2095958260
+            	-authors->author2176357113
+            }
+	paper1981393723:Paper {
+                .title : "Simple fast and practical nonblocking and blocking concurrent queue algorithms"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue1446
+            	-cites->paper2101939036
+            	-authors->author2122926523
+            	-authors->author2105933217
+            }
+	paper1981447145:Paper {
+                .title : "Evaluating predictive quality models derived from software measures lessons learned"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue525
+            	-cites->paper2029833477
+            	-cites->paper2076983043
+            	-cites->paper2111562224
+            	-cites->paper2123127356
+            	-cites->paper2125055259
+            	-cites->paper2161477496
+            	-authors->author6518194
+            	-authors->author226020416
+            }
+	paper1982084274:Paper {
+                .title : "Middleware a model for distributed system services"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue763
+            	-cites->paper1545155892
+            	-authors->author2304774990
+            }
+	paper1984489185:Paper {
+                .title : "Monitoring compliance of a software system with its highlevel design models"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue5
+            	-cites->paper2134342348
+            	-authors->author2109444798
+            	-authors->author2304251613
+            	-authors->author2252067276
+            }
+	paper1990598338:Paper {
+                .title : "Integrating task and data parallelism using shared objects"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue1475
+            	-cites->paper1990936405
+            	-cites->paper2114922436
+            	-cites->paper2140471248
+            	-cites->paper2161620586
+            	-authors->author2111822219
+            	-authors->author2225290484
+            }
+	paper1995877998:Paper {
+                .title : "Software tools and environments"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue1305
+            	-cites->paper2037311059
+            	-authors->author693769535
+            }
+	paper2000569744:Paper {
+                .title : "Pivoted document length normalization"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue1527
+            	-cites->paper1978394996
+            	-cites->paper2165612380
+            	-authors->author2304167133
+            	-authors->author2752187116
+            	-authors->author2106879214
+            }
+	paper2001961185:Paper {
+                .title : "Why are CASE tools not used"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue763
+            	-cites->paper2140282514
+            	-authors->author176270549
+            }
+	paper2005216655:Paper {
+                .title : "Horus a flexible group communication system"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue763
+            	-cites->paper2049913483
+            	-authors->author2109217526
+            	-authors->author2094398115
+            	-authors->author1958121028
+            }
+	paper2029601347:Paper {
+                .title : "Shared memory consistency models a tutorial"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue1073
+            	-cites->paper1885534640
+            	-cites->paper2039509099
+            	-cites->paper2045867114
+            	-cites->paper2054739713
+            	-cites->paper2096956970
+            	-cites->paper2131454290
+            	-cites->paper2152390090
+            	-cites->paper2163196718
+            	-cites->paper2165365531
+            	-cites->paper2171564459
+            	-cites->paper2176864362
+            	-cites->paper2177772636
+            	-authors->author2346116799
+            	-authors->author190482092
+            }
+	paper2029833477:Paper {
+                .title : "Early quality prediction a case study in telecommunications"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue1294
+            	-cites->paper2123127356
+            	-authors->author2092196292
+            	-authors->author23511057
+            	-authors->author2128400726
+            	-authors->author2974495328
+            }
+	paper2034717157:Paper {
+                .title : "Formal methods state of the art and future directions"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue1305
+            	-cites->paper1583095677
+            	-cites->paper1970495662
+            	-cites->paper2015688007
+            	-cites->paper2041152728
+            	-cites->paper2080267935
+            	-cites->paper2110425399
+            	-cites->paper2137865376
+            	-cites->paper2146191617
+            	-authors->author2129477832
+            	-authors->author1584891692
+            }
+	paper2036705516:Paper {
+                .title : "Semantic and schematic similarities between database objects a contextbased approach"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue602
+            	-cites->paper59877344
+            	-authors->author2129309639
+            	-authors->author2295682018
+            }
+	paper2038584697:Paper {
+                .title : "Measures of uncertainty in expert systems"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue1397
+            	-cites->paper2066843515
+            	-authors->author2938658494
+            }
+	paper2043270755:Paper {
+                .title : "Access control in federated systems"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue1297
+            	-cites->paper1545155892
+            	-authors->author2087987499
+            	-authors->author1957144376
+            }
+	paper2043924273:Paper {
+                .title : "Strategic directions in constraint programming"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue1305
+            	-cites->paper1579120539
+            	-cites->paper2135432705
+            	-cites->paper2913477984
+            	-authors->author2292980011
+            	-authors->author301883243
+            }
+	paper2046795207:Paper {
+                .title : "Requirements engineering with viewpoints"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue2039
+            	-cites->paper2044301784
+            	-cites->paper2054097655
+            	-cites->paper2096039823
+            	-authors->author2093398104
+            	-authors->author301564098
+            }
+	paper2049880512:Paper {
+                .title : "Evolutionary engagement in an ongoing collaborative work process a case study"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue1401
+            	-cites->paper1524975001
+            	-authors->author2599913270
+            	-authors->author1793176950
+            	-authors->author2021851168
+            	-authors->author2106946200
+            	-authors->author2025626156
+            	-authors->author2135540066
+            }
+	paper2050942832:Paper {
+                .title : "The reflexive CHAM and the joincalculus"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue161
+            	-cites->paper2098830227
+            	-cites->paper2128932399
+            	-authors->author2112563238
+            	-authors->author1819774294
+            }
+	paper2060461359:Paper {
+                .title : "Automatic generation of functional vectors using the extended finite state machine model"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue2187
+            	-cites->paper2080267935
+            	-authors->author2240476537
+            	-authors->author2636233277
+            }
+	paper2069866667:Paper {
+                .title : "Linguistic support for the evolutionary design of software architectures"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue5
+            	-cites->paper2064707938
+            	-cites->paper2146082668
+            	-cites->paper2342091124
+            	-authors->author2151372998
+            	-authors->author303533813
+            }
+	paper2077240273:Paper {
+                .title : "The weakest failure detector for solving consensus"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue1282
+            	-cites->paper2035362408
+            	-cites->paper2133943294
+            	-authors->author189416989
+            	-authors->author38233831
+            	-authors->author2150538384
+            }
+	paper2101134669:Paper {
+                .title : "Efficient path profiling"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue74
+            	-authors->author635023701
+            	-authors->author2121300700
+            }
+	paper2111586962:Paper {
+                .title : "The dangers of replication and a solution"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue517
+            	-cites->paper1515932031
+            	-cites->paper1545155892
+            	-cites->paper2117917070
+            	-authors->author2806703762
+            	-authors->author2136822424
+            	-authors->author2082974086
+            	-authors->author2131537204
+            }
+	paper2114488210:Paper {
+                .title : "Hypervisorbased fault tolerance"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue1364
+            	-cites->paper1545155892
+            	-cites->paper1973501242
+            	-cites->paper2045362872
+            	-cites->paper2152465173
+            	-authors->author106458000
+            	-authors->author2106636992
+            }
+	paper2123910665:Paper {
+                .title : "General decidability theorems for infinitestate systems"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue1214
+            	-authors->author2444636058
+            	-authors->author2285498729
+            	-authors->author1952177885
+            	-authors->author621759795
+            }
+	paper2125708466:Paper {
+                .title : "Automated consistency checking of requirements specifications"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue1307
+            	-cites->paper2080267935
+            	-cites->paper2081938726
+            	-cites->paper2147880466
+            	-authors->author2138945749
+            	-authors->author1267841631
+            	-authors->author2017452263
+            }
+	paper2132622501:Paper {
+                .title : "Test Generation with Inputs Outputs and Quiescence"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue11
+            	-cites->paper2108394166
+            	-authors->author2104204551
+            }
+	paper2133943294:Paper {
+                .title : "Unreliable failure detectors for reliable distributed systems"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue1282
+            	-cites->paper2035362408
+            	-cites->paper2073126252
+            	-cites->paper2120510885
+            	-cites->paper2152465173
+            	-authors->author38233831
+            	-authors->author2150538384
+            }
+	paper2135652458:Paper {
+                .title : "Scalability in the XFS file system"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue438
+            	-cites->paper1967141605
+            	-cites->paper2100100130
+            	-cites->paper2115600841
+            	-cites->paper2171352284
+            	-authors->author2277405352
+            	-authors->author2304071763
+            	-authors->author2659741221
+            	-authors->author2287638002
+            	-authors->author2288142803
+            	-authors->author2279311079
+            }
+	paper2135920852:Paper {
+                .title : "Using ViewPoints for inconsistency management"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue2039
+            	-cites->paper1979290877
+            	-cites->paper2007167977
+            	-cites->paper2044301784
+            	-cites->paper2054097655
+            	-cites->paper2105603754
+            	-cites->paper2117870171
+            	-cites->paper2294967233
+            	-authors->author2207023792
+            	-authors->author329574911
+            }
+	paper2138482372:Paper {
+                .title : "Ambiguous intentions a paperlike interface for creative design"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue1563
+            	-cites->paper2023192402
+            	-authors->author2155651480
+            	-authors->author2149245698
+            }
+	paper2146191617:Paper {
+                .title : "Completeness and consistency in hierarchical statebased requirements"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue5
+            	-cites->paper2080267935
+            	-cites->paper2114957237
+            	-cites->paper2147880466
+            	-cites->paper2155891457
+            	-authors->author2150992688
+            	-authors->author2001238367
+            }
+	paper2152952812:Paper {
+                .title : "Extending design environments to software architecture design"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue77
+            	-cites->paper1969492351
+            	-cites->paper2045571829
+            	-cites->paper2122824813
+            	-cites->paper2153933075
+            	-authors->author311754748
+            	-authors->author2308692196
+            	-authors->author2343934155
+            }
+	paper2161620586:Paper {
+                .title : "Prefetching strategies for partitioned shared objects"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue2752
+            	-cites->paper2007567551
+            	-cites->paper2140471248
+            	-authors->author2761357617
+            }
+	paper2162796604:Paper {
+                .title : "Recovery blocks and algorithmbased fault tolerance"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue3627
+            	-cites->paper2133201251
+            	-authors->author2974749662
+            }
+	paper2166602595:Paper {
+                .title : "Rolebased access control models"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue1073
+            	-authors->author1996714504
+            	-authors->author2294556580
+            	-authors->author2100848661
+            	-authors->author846546572
+            }
+	paper2168005875:Paper {
+                .title : "Modeling the dependability of CAUTRA a subset of the French air traffic control system"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue1201
+            	-cites->paper2013498813
+            	-cites->paper2153851383
+            	-authors->author687016
+            	-authors->author2798064811
+            	-authors->author2261341498
+            	-authors->author2086961774
+            }
+	paper2913477984:Paper {
+                .title : "Constraint Hierarchies"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue4092
+            	-authors->author273376325
+            	-authors->author2339499905
+            	-authors->author2248269051
+            }
+	paper2915014422:Paper {
+                .title : "GRAPH PROCESSES"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue613
+            	-authors->author1970207042
+            	-authors->author2024647070
+            	-authors->author2252207586
+            }
+	paper1568729458:Paper {
+                .title : "PartialOrder Methods for the Verification of Concurrent Systems An Approach to the StateExplosion Problem"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue0
+            	-authors->author2954269914
+            	-authors->author2634395717
+            	-authors->author2120041131
+            	-authors->author2607530093
+            	-authors->author2509660286
+            }
+	paper1597313369:Paper {
+                .title : "Measuring Software Reuse Principles Practices and Economic Models"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue0
+            	-authors->author2779293235
+            }
+	paper1850900101:Paper {
+                .title : "Modeling and Verification of Randomized Distributed Real Time Systems"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue0
+            	-authors->author121359932
+            }
+	paper1979823255:Paper {
+                .title : "Reconciling responsiveness with performance in pure objectoriented languages"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue1385
+            	-cites->paper2045723688
+            	-authors->author272903864
+            	-authors->author2041937263
+            }
+	paper2035837850:Paper {
+                .title : "Induced L  norm model reduction of polytopic uncertain linear systems"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue4223
+            	-authors->author2150410101
+            }
+	paper2077318760:Paper {
+                .title : "Software Architecture Perspectives on an Emerging Discipline"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue0
+            	-authors->author2141334907
+            	-authors->author2256096860
+            }
+	paper2108101248:Paper {
+                .title : "Coordinating Distributed Objects An ActorBased Approach to Synchronization"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue0
+            	-authors->author1843226284
+            }
+	paper2149706659:Paper {
+                .title : "Verifying Systems with Replicated Components in Murphi"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue468
+            	-cites->paper2024255419
+            	-cites->paper2036267700
+            	-cites->paper2036526834
+            	-cites->paper2153904572
+            	-cites->paper2170212320
+            	-authors->author2116257750
+            	-authors->author2148325455
+            }
+	paper2611515161:Paper {
+                .title : "Distributed Algorithms"
+            	.year : 1996
+            	.core : false
+            	.relevance:false
+            	-venue->venue0
+            	-cites->paper1529897089
+            	-cites->paper1545155892
+            	-cites->paper1964727056
+            	-cites->paper1973501242
+            	-cites->paper2015688007
+            	-cites->paper2035362408
+            	-cites->paper2036267700
+            	-cites->paper2065180040
+            	-cites->paper2073126252
+            	-cites->paper2077240273
+            	-cites->paper2095464745
+            	-cites->paper2101939036
+            	-cites->paper2106887953
+            	-cites->paper2110050316
+            	-cites->paper2114925953
+            	-cites->paper2122326479
+            	-cites->paper2132334337
+            	-cites->paper2133943294
+            	-cites->paper2152465173
+            	-authors->author2180706138
+            }
+}
+
